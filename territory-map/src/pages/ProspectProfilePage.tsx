@@ -261,15 +261,42 @@ export function ProspectProfilePage() {
     }
   };
 
-  const completedFields = [
+  // 100% = basics AND every enhancement answered. The bar must never read
+  // "complete" while enhanced questions sit unanswered — that kills the
+  // motivation to fill the fields that sharpen matching the most.
+  const basicsDone = [
     !!liquidCapital,
     !!ownerType,
     categories.length > 0,
     !!(primaryCity && primaryState),
     !!timeline,
-  ].filter(Boolean).length;
-  const totalRequired = 5;
+  ];
+  const enhancedDone = [
+    !!totalInvestmentBudget,
+    !!sbaFinancingIntent,
+    ownershipModel.length > 0,
+    !!runFromHome,
+    !!fullTimePartTime,
+    !!multiUnitInterest,
+    veteranStatus !== undefined,
+    !!revenueGoal,
+    !!incomeGoal,
+    mustHaveFilters.length > 0,
+    !!brandMaturity,
+    !!supportImportance,
+    !!employeeComfort,
+    !!spacePreference,
+    motivations.length > 0,
+    !!riskTolerance,
+    professionalBackground.length > 0,
+    lifestylePriorities.length > 0,
+    avoidList.length > 0,
+  ];
+  const allChecks = [...basicsDone, ...enhancedDone];
+  const completedFields = allChecks.filter(Boolean).length;
+  const totalRequired = allChecks.length;
   const completePct = Math.round((completedFields / totalRequired) * 100);
+  const enhancedRemaining = enhancedDone.filter((d) => !d).length;
 
   return (
     <div className="space-y-8 max-w-[800px]">
@@ -311,9 +338,29 @@ export function ProspectProfilePage() {
           />
         </div>
         <p className="text-xs text-muted-foreground mt-2">
-          {completePct === 100
-            ? "✨ Your profile is complete! Your PerfectFit matches are fully personalized."
-            : `Add ${totalRequired - completedFields} more detail${totalRequired - completedFields === 1 ? "" : "s"} for even better matches.`}
+          {completePct === 100 ? (
+            "✨ Your profile is 100% complete — every matching dimension is active."
+          ) : (
+            <>
+              {totalRequired - completedFields} answer{totalRequired - completedFields === 1 ? "" : "s"} to go
+              {enhancedRemaining > 0 && (
+                <>
+                  {" — "}
+                  <button
+                    type="button"
+                    className="text-cyan-400 hover:text-cyan-300 underline underline-offset-2"
+                    onClick={() => {
+                      setShowEnhanced(true);
+                      setTimeout(() => document.getElementById("enhance-section")?.scrollIntoView({ behavior: "smooth", block: "start" }), 60);
+                    }}
+                  >
+                    answer {enhancedRemaining} enhancement question{enhancedRemaining === 1 ? "" : "s"}
+                  </button>{" "}
+                  to fully personalize your matches.
+                </>
+              )}
+            </>
+          )}
         </p>
       </div>
 

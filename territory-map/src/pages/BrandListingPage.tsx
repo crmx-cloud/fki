@@ -38,7 +38,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import type { ReactNode } from "react";
 import { toast } from "sonner";
 import { LocationAutocomplete } from "@/components/LocationAutocomplete";
@@ -184,6 +184,17 @@ export function BrandListingPage() {
   const [submitted, setSubmitted] = useState(false);
   const [showAllTerritories, setShowAllTerritories] = useState(false);
   const [territorySearch, setTerritorySearch] = useState("");
+
+  // SEO: keep document title/meta in sync on client-side navigation (the
+  // prerendered static HTML sets these for crawlers; this covers SPA routing)
+  useEffect(() => {
+    const name = detail?.brand?.name;
+    if (!name) return;
+    document.title = `${name} Franchise: Cost, Fees & Availability (2026) | FranchiseKI`;
+    return () => {
+      document.title = "FranchiseKI — Hundreds of Hours of Franchise Due Diligence, Done in 90 Seconds";
+    };
+  }, [detail?.brand?.name]);
 
   // Tab state from URL query param
   const [searchParams, setSearchParams] = useSearchParams();
