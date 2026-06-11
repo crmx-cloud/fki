@@ -32,6 +32,7 @@ import {
   ProspectProfilesAdminPage,
   ContactsAdminPage,
   ClaimsAdminPage,
+  VerifyPage,
 } from "./pages";
 
 const DossierPage = lazy(() => import("./pages/DossierPage"));
@@ -111,6 +112,7 @@ function App() {
 
               {/* Settings — everyone can access */}
               <Route path="/settings" element={<SettingsPage />} />
+              <Route path="/verify" element={<VerifyPage />} />
             </Route>
           </Route>
 

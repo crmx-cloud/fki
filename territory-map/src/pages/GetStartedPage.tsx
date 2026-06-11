@@ -103,6 +103,7 @@ export function GetStartedPage() {
   const { signIn, signOut } = useAuthActions();
   const { isAuthenticated } = useConvexAuth();
   const saveProfile = useMutation(api.prospect.saveProfile);
+  const requestVerifyCode = useMutation(api.verification.requestCode);
 
   const [step, setStep] = useState<Step>(1);
   const [error, setError] = useState("");
@@ -250,6 +251,9 @@ export function GetStartedPage() {
         timeline: timeline || undefined,
         priorExperience: priorExperience || undefined,
       });
+      // Kick off email verification immediately — the code rides CRMX and
+      // is waiting in their inbox by the time they see the dashboard.
+      requestVerifyCode({ kind: "email" }).catch(() => {});
       setStep("done");
     } catch (err: any) {
       console.error("[GetStarted] save profile error:", err);

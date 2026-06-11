@@ -132,6 +132,9 @@ const schema = defineSchema({
     firstName: v.optional(v.string()),
     lastName: v.optional(v.string()),
     phone: v.optional(v.string()),
+    // Contact verification (codes sent via CRMX/GHL — no Twilio/Resend)
+    emailVerifiedAt: v.optional(v.number()),
+    phoneVerifiedAt: v.optional(v.number()),
     // Brand-scoped access: brand_admin users see only these brands
     brandIds: v.optional(v.array(v.id("brands"))),
     // For area managers: IDs of users they manage
@@ -432,6 +435,15 @@ const schema = defineSchema({
   })
     .index("by_email", ["email"])
     .index("by_user", ["userId"]),
+
+  verificationCodes: defineTable({
+    userId: v.id("users"),
+    kind: v.union(v.literal("email"), v.literal("phone")),
+    codeHash: v.string(),
+    target: v.string(),        // the email/phone the code was sent to
+    expiresAt: v.number(),
+    attempts: v.number(),
+  }).index("by_user_kind", ["userId", "kind"]),
 
   brandClaims: defineTable({
     brandName: v.string(),

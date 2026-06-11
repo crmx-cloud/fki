@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { formatMoney, formatMoneyRange } from "@/lib/format";
+import { useUnlocked } from "@/hooks/useUnlocked";
 import { useQuery } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import type { Id } from "../../convex/_generated/dataModel";
@@ -88,6 +89,9 @@ export function ProspectDashboardPage() {
       </div>
 
       {/* Profile incomplete banner */}
+      {/* Verification banner — verified email+phone unlocks full due diligence */}
+      <VerifyBanner />
+
       {!profileComplete && (
         <div className="bg-amber-500/10 border border-amber-500/30 rounded-xl p-5 flex items-start gap-4">
           <div className="w-10 h-10 rounded-lg bg-amber-500/20 flex items-center justify-center shrink-0">
@@ -487,6 +491,28 @@ function StatCard({
         <div className="text-2xl font-bold">{value}</div>
         <div className="text-xs text-muted-foreground">{label}</div>
       </div>
+    </div>
+  );
+}
+
+
+function VerifyBanner() {
+  const { isAuthenticated, unlocked, loading, emailVerified, phoneVerified } = useUnlocked();
+  if (!isAuthenticated || loading || unlocked) return null;
+  const missing = [!emailVerified && "email", !phoneVerified && "phone"].filter(Boolean).join(" and ");
+  return (
+    <div className="mb-6 rounded-xl border border-amber-500/25 bg-amber-500/10 px-5 py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+      <div className="text-sm">
+        <span className="font-semibold text-amber-300">Verify your {missing}</span>
+        <span className="text-amber-200/70 ml-1.5">
+          to unlock your full due diligence toolkit — dossier depth, favorites, and comparisons.
+        </span>
+      </div>
+      <Link to="/verify" className="shrink-0">
+        <Button size="sm" className="bg-cyan-600 hover:bg-cyan-500 text-white shadow-[0_4px_14px_-4px_rgba(8,145,178,0.55)]">
+          Verify now
+        </Button>
+      </Link>
     </div>
   );
 }

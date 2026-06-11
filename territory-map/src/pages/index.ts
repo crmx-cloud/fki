@@ -25,3 +25,5 @@ export { NotificationsAdminPage } from "./NotificationsAdminPage";
 export { ProspectProfilesAdminPage } from "./ProspectProfilesAdminPage";
 export { ContactsAdminPage } from "./ContactsAdminPage";
 export { ClaimsAdminPage } from "./ClaimsAdminPage";
+
+export { VerifyPage } from "./VerifyPage";

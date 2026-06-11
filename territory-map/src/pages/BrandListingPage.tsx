@@ -3,6 +3,7 @@ import { SaveBrandButton } from "@/components/SaveBrandButton";
 import { ProspectInquiryDialog } from "@/components/ProspectInquiryDialog";
 import { BrandSwotSection } from "@/components/BrandSwotSection";
 import { normalizeVideoEmbedUrl } from "@/lib/video";
+import { useUnlocked } from "@/hooks/useUnlocked";
 import { useParams, Link, useSearchParams } from "react-router-dom";
 import { api } from "../../convex/_generated/api";
 import type { Id } from "../../convex/_generated/dataModel";
@@ -165,6 +166,7 @@ function haversineDistance(lat1: number, lng1: number, lat2: number, lng2: numbe
 export function BrandListingPage() {
   const { slug } = useParams<{ slug: string }>();
   const { isAuthenticated } = useConvexAuth();
+  const { unlocked } = useUnlocked();
   const detail = useQuery(api.marketplace.getBrandDetail, slug ? { slug } : "skip");
   const myProfile = useQuery(api.users.getMyProfile);
   const savedIds = useQuery(api.savedItems.getMySavedBrandIds);
@@ -1005,7 +1007,7 @@ export function BrandListingPage() {
 
               // Signed-out gate: keep the header public, blur placeholder rows.
               // Real values are NOT rendered into the DOM for visitors.
-              const financialGated = !isAuthenticated && (hasRevenueData || hasProfitData);
+              const financialGated = !unlocked && (hasRevenueData || hasProfitData);
 
               return (
                 <Reveal as="section" className="py-16 border-b border-slate-100">
@@ -1015,7 +1017,7 @@ export function BrandListingPage() {
                       <p className="text-slate-500 text-sm mb-8">
                         Revenue and profitability data from the {profile?.fddYear || "most recent"} FDD (Item 19)
                       </p>
-                      <GatedSection className="max-w-4xl">
+                      <GatedSection className="max-w-4xl" verifyMode={isAuthenticated}>
                         <div className="grid md:grid-cols-2 gap-8">
                           {hasRevenueData && (
                             <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6">
@@ -1252,11 +1254,11 @@ export function BrandListingPage() {
             )}
 
             {/* Units & Growth */}
-            {hasUnitsGrowth && !isAuthenticated && (
+            {hasUnitsGrowth && !unlocked && (
               /* Signed-out gate — header public, placeholder rows blurred (no real values in DOM) */
               <Reveal as="section" className="py-16 border-b border-slate-100">
                 <h2 className="text-3xl md:text-4xl font-extrabold mb-8">Units & Growth</h2>
-                <GatedSection className="max-w-3xl">
+                <GatedSection className="max-w-3xl" verifyMode={isAuthenticated}>
                   <div className="space-y-4">
                     <StatRow accent={accent} label="Total Locations" value="—" />
                     <StatRow accent={accent} label="Founded" value="—" />
@@ -1268,7 +1270,7 @@ export function BrandListingPage() {
                 </GatedSection>
               </Reveal>
             )}
-            {hasUnitsGrowth && isAuthenticated && (
+            {hasUnitsGrowth && unlocked && (
               <Reveal as="section" className="py-16 border-b border-slate-100">
                 <h2 className="text-3xl md:text-4xl font-extrabold mb-8">Units & Growth</h2>
                 <div className="max-w-3xl space-y-4">
@@ -1342,14 +1344,14 @@ export function BrandListingPage() {
             )}
 
             {/* Item 20 — Unit Growth Data */}
-            {hasItem20 && !isAuthenticated && (
+            {hasItem20 && !unlocked && (
               /* Signed-out gate — Item 20 closures/terminations are part of the gated growth data */
               <section className="py-16 border-b border-slate-100">
                 <h2 className="text-3xl md:text-4xl font-extrabold mb-2">Unit Growth Data</h2>
                 <p className="text-slate-500 text-sm mb-8">
                   Franchise system outlet data from the {profile?.item20?.reportingYear || profile?.fddYear || "most recent"} FDD (Item 20)
                 </p>
-                <GatedSection className="max-w-4xl">
+                <GatedSection className="max-w-4xl" verifyMode={isAuthenticated}>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                     {["Franchised Units", "New Openings", "Closures", "YoY Growth"].map((label) => (
                       <div key={label} className="bg-white border border-slate-200 shadow-sm rounded-xl p-4 text-center">
@@ -1361,7 +1363,7 @@ export function BrandListingPage() {
                 </GatedSection>
               </section>
             )}
-            {hasItem20 && isAuthenticated && (
+            {hasItem20 && unlocked && (
               <section className="py-16 border-b border-slate-100">
                 <h2 className="text-3xl md:text-4xl font-extrabold mb-2">Unit Growth Data</h2>
                 <p className="text-slate-500 text-sm mb-8">

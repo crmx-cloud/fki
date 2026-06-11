@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { SaveBrandButton } from "@/components/SaveBrandButton";
 import { Reveal } from "@/components/Reveal";
 import { GatedSection } from "@/components/GatedSection";
+import { useUnlocked } from "@/hooks/useUnlocked";
 import {
   ShieldCheck,
   AlertTriangle,
@@ -1014,6 +1015,7 @@ export function BrandSwotSection({ brand, profile, territories, accent }: BrandS
                 )}
                 <GatedSection
                   className="mb-4"
+                  verifyMode={isAuthenticated}
                   note={flagCountLabel ? `Including ${flagCountLabel} — fully sourced` : undefined}
                   bullets={[
                     "Full AI SWOT analysis",

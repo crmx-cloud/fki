@@ -22,6 +22,7 @@ export function GatedSection({
   bullets,
   ctaLabel = "Create free account",
   className = "",
+  verifyMode = false,
 }: {
   /** Placeholder-only content rendered blurred behind the lock */
   children: ReactNode;
@@ -32,6 +33,8 @@ export function GatedSection({
   bullets?: string[];
   ctaLabel?: string;
   className?: string;
+  /** Signed-in but unverified: CTA routes to /verify instead of signup */
+  verifyMode?: boolean;
 }) {
   return (
     <div className={`relative ${className}`}>
@@ -58,9 +61,9 @@ export function GatedSection({
               ))}
             </div>
           )}
-          <Link to="/signup" className="inline-block mt-5">
+          <Link to={verifyMode ? "/verify" : "/signup"} className="inline-block mt-5">
             <Button className="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-6">
-              {ctaLabel} <ArrowRight className="w-4 h-4 ml-2" />
+              {verifyMode ? "Verify email & phone to unlock" : ctaLabel} <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
           </Link>
         </div>
