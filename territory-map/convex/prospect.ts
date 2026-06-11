@@ -445,7 +445,6 @@ export function scoreBrandForProspect(opts: {
   const prospectInvestBudget = investBudgetToNumber(prospect.totalInvestmentBudget);
   const prospectRevenueGoal = revenueGoalToNumber(prospect.revenueGoal);
   const prospectIncomeGoal = incomeGoalToNumber(prospect.incomeGoal);
-  const primaryRadius = prospect.primaryRadius || 50;
   // Profiles store full state names ("Florida"); availability stores codes ("FL").
   // Contact state included — users update "my state" and expect matches to follow.
   const stateEntries = [prospect.primaryState, prospect.secondaryState, prospect.state]

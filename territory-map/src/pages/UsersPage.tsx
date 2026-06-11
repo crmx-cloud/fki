@@ -14,12 +14,13 @@ const ROLE_CONFIG: Record<string, { label: string; color: string; desc: string; 
   standard:    { label: "Standard",    color: "#06b6d4", desc: "Create & edit brands, leads, territories", icon: UserCog },
   closer:      { label: "Closer",      color: "#22c55e", desc: "Sales rep — closes deals, manages assigned leads", icon: UserCog },
   setter:      { label: "Setter",      color: "#14b8a6", desc: "Sets appointments, qualifies leads for closers", icon: UserCog },
+  broker:      { label: "Broker",      color: "#ec4899", desc: "Vetted external broker — assigned leads only, read-only tags, no export", icon: UserCog },
   brand_admin: { label: "Brand Admin", color: "#3b82f6", desc: "Access scoped to assigned brands only", icon: Building2 },
   franchisor:  { label: "Franchisor",  color: "#f59e0b", desc: "Marketplace franchisor account", icon: Building2 },
   prospect:    { label: "Prospect",    color: "#64748b", desc: "Public user / franchise prospect", icon: Users },
 };
 
-const INVITE_ROLES = ["admin", "standard", "closer", "setter", "brand_admin", "franchisor", "prospect"];
+const INVITE_ROLES = ["admin", "standard", "closer", "setter", "broker", "brand_admin", "franchisor", "prospect"];
 
 const PERM_LABELS: Record<string, string> = {
   canEditTerritories: "Edit Territories",
@@ -116,7 +117,7 @@ export function UsersPage() {
   async function saveEdit(profileId: string) {
     setSaving(true);
     try {
-      const isSalesRole = ["closer", "setter"].includes(editRole);
+      const isSalesRole = ["closer", "setter", "broker"].includes(editRole);
       const permsToSend = isSalesRole
         ? { ...editPerms, leadVisibility: editLeadVisibility }
         : ["brand_admin", "franchisor"].includes(editRole)

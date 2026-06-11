@@ -109,6 +109,14 @@ export const listWithStats = query({
   returns: v.array(v.any()),
   handler: async (ctx) => {
     const brands = await ctx.db.query("brands").collect();
+    // Open-state counts for the consumer availability line (public cards)
+    const allSA = await ctx.db.query("stateAvailability").collect();
+    const openByBrand = new Map<string, number>();
+    for (const row of allSA) {
+      if (row.status !== "open") continue;
+      const k = row.brandId.toString();
+      openByBrand.set(k, (openByBrand.get(k) ?? 0) + 1);
+    }
     const results = await Promise.all(
       brands.map(async (brand) => {
         const territories = await ctx.db
@@ -121,6 +129,7 @@ export const listWithStats = query({
         }
         return {
           ...brand,
+          openStateCount: openByBrand.get(brand._id.toString()) ?? 0,
           totalTerritories: territories.length,
           availableTerritories: territories.filter(
             (t) => t.status === "available" || t.status === "open"

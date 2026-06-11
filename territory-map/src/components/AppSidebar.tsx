@@ -62,6 +62,7 @@ function SidebarNav() {
   const isAnyAdmin = isAdmin || isBrandAdmin;
   const isProspect = myProfile?.profile?.role === "prospect";
   const isFranchisor = myProfile?.profile?.role === "franchisor";
+  const isBroker = myProfile?.profile?.role === "broker";
 
   return (
     <SidebarContent>
@@ -81,6 +82,18 @@ function SidebarNav() {
       )}
 
       {/* ── Franchisor navigation ── */}
+      {/* ── Broker navigation: assigned leads + read-only tags ── */}
+      {isBroker && (
+        <SidebarGroup>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <NavLink href="/crm" label="My Leads" icon={UserCircle} isActive={location.pathname === "/crm"} />
+              <NavLink href="/tags" label="Tags" icon={Tag} isActive={location.pathname === "/tags"} />
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+      )}
+
       {isFranchisor && !isAnyAdmin && (
         <SidebarGroup>
           <SidebarGroupContent>
@@ -128,6 +141,7 @@ function SidebarNav() {
                 <SidebarGroupContent>
                   <SidebarMenu>
                     <NavLink href="/tags" label="Tags" icon={Tag} isActive={location.pathname === "/tags"} />
+                    <NavLink href="/claims-admin" label="Brand Claims" icon={Shield} isActive={location.pathname === "/claims-admin"} />
                     <NavLink href="/notifications-admin" label="Notifications" icon={Bell} isActive={location.pathname === "/notifications-admin"} />
                   </SidebarMenu>
                 </SidebarGroupContent>
@@ -178,6 +192,7 @@ function SidebarUserMenu() {
   const { setOpenMobile } = useSidebar();
 
   const roleLabel = myProfile?.profile?.role === "super_admin" ? "Super Admin"
+    : myProfile?.profile?.role === "broker" ? "Broker"
     : myProfile?.profile?.role === "admin" ? "Admin"
     : myProfile?.profile?.role === "standard" ? "Standard"
     : myProfile?.profile?.role === "brand_admin" ? "Brand Admin"

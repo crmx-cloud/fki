@@ -40,6 +40,32 @@ export const normalizeVideoUrls = internalMutation({
   },
 });
 
+/** QA: create a TEST lead assigned to a user (broker-visibility testing). */
+export const createTestLeadAssigned = internalMutation({
+  args: { assigneeEmail: v.string(), brandName: v.string() },
+  handler: async (ctx, args) => {
+    const users = await ctx.db.query("users").collect();
+    const user = users.find((u: any) => u.email?.toLowerCase() === args.assigneeEmail.toLowerCase());
+    if (!user) return { ok: false, error: "assignee not found" };
+    const brand = (await ctx.db.query("brands").collect()).find(
+      (b) => b.name.toLowerCase() === args.brandName.toLowerCase()
+    );
+    if (!brand) return { ok: false, error: "brand not found" };
+    const id = await ctx.db.insert("crmLeads", {
+      brandId: brand._id,
+      firstName: "BROKER TEST",
+      lastName: "Lead",
+      email: "broker.test.lead@franchiseki.com",
+      stage: "new_lead",
+      salesRepId: user._id,
+      source: "qa-test",
+      createdAt: Date.now(),
+      updatedAt: Date.now(),
+    } as any);
+    return { ok: true, leadId: id };
+  },
+});
+
 /** QA cleanup: hard-delete a CRM lead by id (test-data removal only). */
 export const deleteLeadById = internalMutation({
   args: { leadId: v.id("crmLeads") },
@@ -112,7 +138,8 @@ export const setUserRoleByEmail = internalMutation({
     email: v.string(),
     role: v.union(
       v.literal("super_admin"), v.literal("admin"), v.literal("standard"),
-      v.literal("closer"), v.literal("setter"), v.literal("brand_admin"),
+      v.literal("closer"), v.literal("setter"),
+      v.literal("broker"), v.literal("brand_admin"),
       v.literal("franchisor"), v.literal("prospect")
     ),
   },

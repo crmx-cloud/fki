@@ -183,6 +183,27 @@ export const submitClaim = mutation({
 /**
  * List all pending claims (admin only).
  */
+/** ALL claims w/ brand info — the admin "who claimed what + their contact info" view. */
+export const listAll = query({
+  args: {},
+  handler: async (ctx) => {
+    const userId = await getAuthUserId(ctx);
+    if (!userId) return [];
+    const profile = await ctx.db
+      .query("userProfiles")
+      .withIndex("by_user", (q) => q.eq("userId", userId))
+      .first();
+    if (!profile || (profile.role !== "admin" && profile.role !== "super_admin")) return [];
+    const claims = await ctx.db.query("brandClaims").collect();
+    const out = [];
+    for (const c of claims) {
+      const brand = c.brandId ? await ctx.db.get(c.brandId) : null;
+      out.push({ ...c, brandSlug: brand?.slug, brandActive: brand?.isActive !== false });
+    }
+    return out.sort((a, b) => b._creationTime - a._creationTime);
+  },
+});
+
 export const listPending = query({
   args: {},
   handler: async (ctx) => {

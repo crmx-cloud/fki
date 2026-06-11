@@ -5,7 +5,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ProtectedRoute } from "./components/ProtectedRoute";
 import { PublicLayout } from "./components/PublicLayout";
 import { PublicOnlyRoute } from "./components/PublicOnlyRoute";
-import { RoleDashboard, AdminRoute, SuperAdminRoute, BrandRoute } from "./components/RoleGate";
+import { RoleDashboard, AdminRoute, SuperAdminRoute, BrandRoute, AdminOrBrokerRoute } from "./components/RoleGate";
 import { Toaster } from "./components/ui/sonner";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import {
@@ -31,6 +31,7 @@ import {
   NotificationsAdminPage,
   ProspectProfilesAdminPage,
   ContactsAdminPage,
+  ClaimsAdminPage,
 } from "./pages";
 
 const DossierPage = lazy(() => import("./pages/DossierPage"));
@@ -102,10 +103,11 @@ function App() {
               <Route path="/users" element={<SuperAdminRoute><UsersPage /></SuperAdminRoute>} />
 
               {/* Admin+ — Tags, Notifications, Prospect Management */}
-              <Route path="/tags" element={<AdminRoute><TagsPage /></AdminRoute>} />
+              <Route path="/tags" element={<AdminOrBrokerRoute><TagsPage /></AdminOrBrokerRoute>} />
               <Route path="/notifications-admin" element={<AdminRoute><NotificationsAdminPage /></AdminRoute>} />
               <Route path="/prospect-profiles" element={<AdminRoute><ProspectProfilesAdminPage /></AdminRoute>} />
               <Route path="/contacts" element={<AdminRoute><ContactsAdminPage /></AdminRoute>} />
+              <Route path="/claims-admin" element={<AdminRoute><ClaimsAdminPage /></AdminRoute>} />
 
               {/* Settings — everyone can access */}
               <Route path="/settings" element={<SettingsPage />} />

@@ -21,6 +21,8 @@ const TAG_RE = /^[a-z0-9_\-*|]+$/;
 const TAG_MAX_LEN = 30;
 
 export function TagsPage() {
+  const myProfile = useQuery(api.users.getMyProfile);
+  const isBroker = myProfile?.profile?.role === "broker";
   const tags = useQuery(api.tags.list);
   const allLeads = useQuery(api.crm.listAllLeads);
   const createTag = useMutation(api.tags.create);
@@ -100,9 +102,11 @@ export function TagsPage() {
             <h1 className="text-xl font-semibold">Tags</h1>
             {tags && <span className="text-sm text-slate-500">{tags.length} total</span>}
           </div>
+          {!isBroker && (
           <Button size="sm" className="h-8 bg-cyan-600 hover:bg-cyan-500 text-white" onClick={() => setShowCreate(true)}>
             <Plus className="w-3.5 h-3.5 mr-1.5" />Create Tag
           </Button>
+          )}
         </div>
 
         <div className="flex items-center gap-2 mt-3">

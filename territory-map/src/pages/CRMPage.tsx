@@ -109,6 +109,7 @@ export function CRMPage() {
   const myBrands = useQuery(api.crm.myBrands);
   const myProfile = useQuery(api.users.getMyProfile);
   const isAdmin = myProfile?.isAdmin === true;
+  const isBroker = myProfile?.profile?.role === "broker";
   const [selectedBrandId, setSelectedBrandId] = useState<string | null>(null);
   const [view, setView] = useState<"board" | "list">("board");
   const [search, setSearch] = useState("");
@@ -147,7 +148,7 @@ export function CRMPage() {
 
   const isAllBrands = selectedBrandId === "__all__";
   // Default: admin sees "all", non-admin sees first brand
-  const effectiveSelection = selectedBrandId || (isAdmin ? "__all__" : myBrands?.[0]?._id || null);
+  const effectiveSelection = selectedBrandId || (isAdmin || isBroker ? "__all__" : myBrands?.[0]?._id || null);
   const brandId = effectiveSelection === "__all__" ? null : (effectiveSelection as Id<"brands"> | null);
 
   const brandLeads = useQuery(api.crm.listLeads, brandId ? { brandId } : "skip");
@@ -215,7 +216,9 @@ export function CRMPage() {
   }, [filteredLeads]);
 
   if (!myBrands) return <CRMSkeleton />;
-  if (myBrands.length === 0) return <CRMEmpty />;
+  // Brokers have no brand assignments by design — their access is per-lead
+  // (server returns only leads assigned to them).
+  if (myBrands.length === 0 && !isBroker) return <CRMEmpty />;
 
   return (
     <div className="flex-1 flex flex-col min-h-0">
@@ -257,9 +260,11 @@ export function CRMPage() {
             ) : brandId ? (
               <ExportButton brandId={brandId} brandName={selectedBrand?.name || "leads"} />
             ) : null)}
-            <Button size="sm" className="h-8 bg-cyan-600 hover:bg-cyan-500 text-white" onClick={() => { setEditingLead(null); setShowAddLead(true); }}>
-              <Plus className="w-3.5 h-3.5 mr-1.5" />Add Lead
-            </Button>
+            {!isBroker && (
+              <Button size="sm" className="h-8 bg-cyan-600 hover:bg-cyan-500 text-white" onClick={() => { setEditingLead(null); setShowAddLead(true); }}>
+                <Plus className="w-3.5 h-3.5 mr-1.5" />Add Lead
+              </Button>
+            )}
           </div>
         </div>
 
@@ -366,8 +371,8 @@ export function CRMPage() {
         )}
       </div>
 
-      {/* Bulk Action Bar */}
-      {view === "list" && (
+      {/* Bulk Action Bar — hidden for brokers (no bulk ops, no export, no tag edits) */}
+      {view === "list" && !isBroker && (
         <BulkActionBar
           selectedCount={selectedIds.size}
           totalCount={filteredLeads.length}

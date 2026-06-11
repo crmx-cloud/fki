@@ -29,7 +29,7 @@ const SUPER_ADMIN_EMAILS = [
 ];
 
 type InternalRole = "super_admin" | "admin" | "standard" | "closer" | "setter";
-type ExternalRole = "brand_admin" | "franchisor" | "prospect";
+type ExternalRole = "brand_admin" | "franchisor" | "prospect" | "broker";
 type Role = InternalRole | ExternalRole;
 
 const INTERNAL_ROLES: Role[] = ["super_admin", "admin", "standard", "closer", "setter"];
@@ -57,6 +57,7 @@ const roleValidator = v.union(
   v.literal("standard"),
   v.literal("closer"),
   v.literal("setter"),
+  v.literal("broker"),
   v.literal("brand_admin"),
   v.literal("franchisor"),
   v.literal("prospect")
@@ -115,6 +116,18 @@ function getPermissionsForRole(role: string, isSuperAdmin: boolean) {
       canManageUsers: false, canDeleteUsers: false, canToggleUsers: false,
       canCreateBrands: false, canEditBrands: false, canDeleteBrands: false, canExportBrands: false,
       canCreateLeads: true, canEditLeads: true, canDeleteLeads: false, canExportLeads: false,
+      canEditTerritories: false, canDeleteTerritories: false, canExportTerritories: false,
+      canInviteUsers: false, canViewContacts: true, canManageBrand: false,
+    };
+  }
+  if (role === "broker") {
+    // Vetted external brokers: ONLY their assigned leads, read-only tags,
+    // no exports, no creation, no user/brand management. Enforced server-side
+    // in crm.ts — this matrix is the UI contract.
+    return {
+      canManageUsers: false, canDeleteUsers: false, canToggleUsers: false,
+      canCreateBrands: false, canEditBrands: false, canDeleteBrands: false, canExportBrands: false,
+      canCreateLeads: false, canEditLeads: true, canDeleteLeads: false, canExportLeads: false,
       canEditTerritories: false, canDeleteTerritories: false, canExportTerritories: false,
       canInviteUsers: false, canViewContacts: true, canManageBrand: false,
     };

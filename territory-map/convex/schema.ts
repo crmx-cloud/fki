@@ -123,6 +123,7 @@ const schema = defineSchema({
       v.literal("standard"),
       v.literal("closer"),
       v.literal("setter"),
+      v.literal("broker"),
       v.literal("brand_admin"),
       v.literal("franchisor"),
       v.literal("prospect")
@@ -455,6 +456,7 @@ const schema = defineSchema({
       v.literal("standard"),
       v.literal("closer"),
       v.literal("setter"),
+      v.literal("broker"),
       v.literal("brand_admin"),
       v.literal("franchisor"),
       v.literal("prospect")

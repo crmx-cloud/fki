@@ -109,6 +109,24 @@ export function BrandRoute({ children }: { children: React.ReactNode }) {
 }
 
 /**
+ * AdminOrBrokerRoute — admins/super-admins plus vetted brokers (read-only
+ * surfaces like Tags; mutations stay admin-gated server-side).
+ */
+export function AdminOrBrokerRoute({ children }: { children: React.ReactNode }) {
+  const myProfile = useQuery(api.users.getMyProfile);
+  if (myProfile === undefined) {
+    return (
+      <div className="flex items-center justify-center h-64">
+        <div className="w-6 h-6 border-2 border-cyan-400 border-t-transparent rounded-full animate-spin" />
+      </div>
+    );
+  }
+  const ok = myProfile?.isAdmin || myProfile?.profile?.role === "broker";
+  if (!ok) return <Navigate to="/dashboard" replace />;
+  return <>{children}</>;
+}
+
+/**
  * SuperAdminRoute — requires super_admin role only.
  */
 export function SuperAdminRoute({ children }: { children: React.ReactNode }) {

@@ -7,6 +7,7 @@ import { PublicNav } from "@/components/PublicNav";
 import { PublicFooter } from "@/components/PublicFooter";
 import { Reveal } from "@/components/Reveal";
 import { CountUp } from "@/components/CountUp";
+import { AvailabilityLine } from "@/components/AvailabilityLine";
 import { LocationAutocomplete, type LocationResult } from "@/components/LocationAutocomplete";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -44,6 +45,7 @@ const RADIUS_OPTIONS = [
 export function HomePage() {
   const navigate = useNavigate();
   const brands = useQuery(api.brands.listWithStats);
+  const platformStats = useQuery(api.marketplace.getPlatformStats);
   const [selectedLocation, setSelectedLocation] = useState<LocationResult | null>(null);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [selectedBudget, setSelectedBudget] = useState("");
@@ -140,10 +142,22 @@ export function HomePage() {
             <Reveal as="p" delay={180} className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-5">
               The world's first platform that does your franchise due diligence for you — every brand, including the sleepers nobody shows you, backed by verified, sourced data. Match, compare side-by-side, and get a Due Diligence Dossier that tells you exactly what to ask before you invest.
             </Reveal>
-            <Reveal as="p" delay={240} className="flex items-center justify-center gap-2 text-sm font-medium text-emerald-400 mb-10">
+            <Reveal as="p" delay={240} className="flex items-center justify-center gap-2 text-sm font-medium text-emerald-400 mb-5">
               <ShieldCheck className="w-4 h-4 shrink-0" />
               100% free for franchise buyers — matching, due diligence, comparisons, even working with a vetted broker. No cost. Ever.
             </Reveal>
+            {/* Live credibility counter — real count of people who completed
+                their PerfectFit match. Convex reactivity makes it tick up in
+                real time as new people match. Never a made-up number. */}
+            {(platformStats?.peopleMatched ?? 0) > 0 && (
+              <Reveal as="p" delay={300} className="text-base md:text-lg text-slate-300 mb-10">
+                <span className="font-extrabold text-white">
+                  <CountUp value={platformStats!.peopleMatched} />
+                </span>{" "}
+                {platformStats!.peopleMatched === 1 ? "person has" : "people have"} already matched with their
+                perfect-fit franchise. <span className="text-cyan-400 font-semibold">Find yours in 90 seconds.</span>
+              </Reveal>
+            )}
 
             {/* Search & Filters */}
             <Reveal delay={280} className="max-w-2xl mx-auto space-y-4">
@@ -453,16 +467,10 @@ export function HomePage() {
                         </div>
                       </div>
                       <p className="text-sm text-slate-400 line-clamp-2 mb-4">{brand.description}</p>
-                      <div className="flex items-center gap-4 text-sm">
-                        <span className="text-slate-300">
-                          <span className="font-semibold text-cyan-400">{brand.totalTerritories}</span>{" "}
-                          territories
-                        </span>
-                        <span className="text-slate-300">
-                          <span className="font-semibold text-emerald-400">{brand.availableTerritories}</span>{" "}
-                          available
-                        </span>
-                      </div>
+                      <AvailabilityLine
+                        openStateCount={brand.openStateCount ?? 0}
+                        availableTerritories={brand.availableTerritories}
+                      />
                       {brand.investmentMin && (
                         <div className="mt-3 text-xs text-slate-500">
                           Investment: {formatMoneyRange(brand.investmentMin, brand.investmentMax)}

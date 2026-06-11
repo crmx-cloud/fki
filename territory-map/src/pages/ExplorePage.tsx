@@ -7,6 +7,8 @@ import { PublicNav } from "@/components/PublicNav";
 import { PublicFooter } from "@/components/PublicFooter";
 import { Reveal } from "@/components/Reveal";
 import { CountUp } from "@/components/CountUp";
+import { AvailabilityLine } from "@/components/AvailabilityLine";
+import { STATE_ABBREVS } from "@/lib/us-states-geo";
 import { SaveBrandButton } from "@/components/SaveBrandButton";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -57,7 +59,13 @@ function BrandLogo({ brand, size }: { brand: any; size: number }) {
 }
 
 export function ExplorePage() {
-  const brands = useQuery(api.marketplace.listBrandsWithTerritories, {});
+  // Personalize availability to the signed-in user's state (profile territory
+  // first, contact state as fallback) — full names normalize to 2-letter codes.
+  const prospectProfile = useQuery(api.prospect.getMyProspectProfile);
+  const rawState: string = prospectProfile?.primaryState || (prospectProfile as any)?.state || "";
+  const userStateCode = rawState.length === 2 ? rawState.toUpperCase() : STATE_ABBREVS[rawState] ?? undefined;
+  const userStateName = rawState || undefined;
+  const brands = useQuery(api.marketplace.listBrandsWithTerritories, userStateCode ? { stateCode: userStateCode } : {});
   const categories = useQuery(api.marketplace.listCategories);
   const savedIds = useQuery(api.savedItems.getMySavedBrandIds);
   const [searchParams] = useSearchParams();
@@ -234,14 +242,13 @@ export function ExplorePage() {
                   {brand.description}
                 </p>
 
-                <div className="flex items-center gap-4 text-sm mb-4">
-                  <span className="text-slate-300">
-                    <span className="font-semibold text-cyan-400">{brand.totalTerritories}</span> territories
-                  </span>
-                  <span className="text-slate-300">
-                    <span className="font-semibold text-emerald-400">{brand.availableTerritories}</span> available
-                  </span>
-                </div>
+                <AvailabilityLine
+                  className="mb-4"
+                  openStateCount={brand.openStateCount}
+                  availableInState={brand.availableInState}
+                  stateName={userStateName}
+                  availableTerritories={brand.availableTerritories}
+                />
 
                 {brand.investmentMin && (
                   <div className="text-xs text-slate-500 mb-4">
@@ -292,12 +299,11 @@ export function ExplorePage() {
                 </div>
 
                 <div className="flex items-center gap-4 text-sm shrink-0">
-                  <span className="text-slate-300">
-                    <span className="font-semibold text-cyan-400">{brand.totalTerritories}</span> territories
-                  </span>
-                  <span className="text-slate-300">
-                    <span className="font-semibold text-emerald-400">{brand.availableTerritories}</span> available
-                  </span>
+                  <AvailabilityLine
+                    openStateCount={brand.openStateCount}
+                    availableInState={brand.availableInState}
+                    stateName={userStateName}
+                  />
                   {brand.investmentMin && (
                     <span className="text-xs text-slate-500 hidden lg:inline">
                       Investment: {formatMoneyRange(brand.investmentMin, brand.investmentMax)}

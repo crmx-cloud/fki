@@ -78,7 +78,8 @@ export const listLeads = query({
     if (!profile) return [];
 
     const isAdmin = profile.role === "admin" || profile.role === "super_admin";
-    const hasAccess = isAdmin || profile.brandIds?.includes(brandId);
+    const isBroker = profile.role === "broker";
+    const hasAccess = isAdmin || isBroker || profile.brandIds?.includes(brandId);
     if (!hasAccess) return [];
 
     const all = await ctx.db
@@ -87,7 +88,9 @@ export const listLeads = query({
       .order("desc")
       .collect();
 
-    const leads = all.filter((l) => !l.deletedAt);
+    let leads = all.filter((l) => !l.deletedAt);
+    // Brokers: assigned leads only, regardless of brand
+    if (isBroker) leads = leads.filter((l) => l.salesRepId === userId);
 
     // Role-based field masking: franchisor/brand_admin see limited contact info
     if (profile.role === "franchisor" || profile.role === "brand_admin") {
@@ -240,7 +243,19 @@ export const listAllLeads = query({
       .query("userProfiles")
       .withIndex("by_user", (q) => q.eq("userId", userId))
       .first();
-    if (!profile || (profile.role !== "admin" && profile.role !== "super_admin")) return [];
+    if (!profile) return [];
+
+    // Brokers see ONLY leads assigned to them — enforced here, not in the UI.
+    if (profile.role === "broker") {
+      const mine = await ctx.db
+        .query("crmLeads")
+        .withIndex("by_sales_rep", (q) => q.eq("salesRepId", userId))
+        .order("desc")
+        .collect();
+      return mine.filter((l) => !l.deletedAt);
+    }
+
+    if (profile.role !== "admin" && profile.role !== "super_admin") return [];
 
     const all = await ctx.db
       .query("crmLeads")
@@ -648,7 +663,28 @@ export const updateLead = mutation({
     const lead = await ctx.db.get(args.leadId);
     if (!lead) throw new Error("Lead not found");
 
-    const { userId } = await requireBrandAccess(ctx, lead.brandId);
+    // Broker path: only their assigned leads, only stage + notes — no
+    // contact-data edits, no reassignment. Everyone else: brand access.
+    const authUserId = await getAuthUserId(ctx);
+    const authProfile = authUserId
+      ? await ctx.db
+          .query("userProfiles")
+          .withIndex("by_user", (q) => q.eq("userId", authUserId))
+          .first()
+      : null;
+    let userId: any;
+    if (authProfile?.role === "broker") {
+      if (lead.salesRepId !== authUserId) throw new Error("Access denied: lead not assigned to you");
+      const allowedKeys = new Set(["leadId", "stage", "notes"]);
+      for (const k of Object.keys(args)) {
+        if (!allowedKeys.has(k) && (args as any)[k] !== undefined) {
+          throw new Error("Access denied: brokers can only update stage and notes");
+        }
+      }
+      userId = authUserId;
+    } else {
+      ({ userId } = await requireBrandAccess(ctx, lead.brandId));
+    }
 
     const { leadId, ...updates } = args;
     const filtered: any = { updatedAt: Date.now() };
