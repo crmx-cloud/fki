@@ -1,0 +1,554 @@
+{
+ "brands": [
+  {
+   "name": "Valvoline Instant Oil Change",
+   "slug": "valvoline-instant-oil-change",
+   "category": "Automotive",
+   "website": "vioc.com",
+   "notes": "Quick-lube automotive service brand operating 2,000+ North American locations; franchise development site is viocfranchise.com. System is roughly half company-owned, so new franchise opportunities are a smaller subset of total units.",
+   "riskFlags": [
+    {
+     "severity": "info",
+     "title": "Large company-owned share limits franchise availability",
+     "detail": "Historically a substantial portion of VIOC service centers are company-owned (one cited snapshot: 636 franchised vs 264 company-owned of 900 U.S. centers; more recent reporting puts nearly half of stores company-owned), so available franchise markets are constrained.",
+     "source": "franchising.com / search aggregation",
+     "url": "https://www.franchisegator.com/franchises/valvoline-instant-oil-change/",
+     "year": 2024
+    },
+    {
+     "severity": "caution",
+     "title": "Very wide total-investment range and high capital ceiling",
+     "detail": "FDD-cited total investment spans from roughly $192K up to as high as $3.48M depending on real estate/build scenario; ground-up centers commonly run $821K-$2.1M, a high capital requirement for the category.",
+     "source": "FDD Exchange / peersense (2024 FDD)",
+     "url": "https://fddexchange.com/view-fdd-docs/valvoline-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024
+    }
+   ],
+   "nationwide": {
+    "source": "Valvoline Instant Oil Change official franchise site (viocfranchise.com)",
+    "url": "https://viocfranchise.com/",
+    "year": 2025,
+    "note": "Site states '2,000+ Stores Nationwide' and that the brand is 'nationwide, but valuable markets are still on the table'; notes 15 states regulate franchise sales and require pre-sale registration."
+   },
+   "fields": {
+    "franchiseFee": {
+     "value": 30000,
+     "source": "https://fddexchange.com/view-fdd-docs/valvoline-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "totalInvestmentMin": {
+     "value": 192375,
+     "source": "https://fddexchange.com/view-fdd-docs/valvoline-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Low end of full FDD range; conversion of existing facility. Ground-up centers commonly start ~$821K."
+    },
+    "totalInvestmentMax": {
+     "value": 3483550,
+     "source": "https://fddexchange.com/view-fdd-docs/valvoline-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "High end of full FDD range including real estate; typical ground-up ceiling cited ~$2.1M."
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "https://peersense.com/franchise/valvoline-instant-oil-change",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Sources conflict: 6% royalty most commonly cited for the 2024 FDD; some older summaries report 4%. Used most recent/common figure."
+    },
+    "adFundPercent": {
+     "value": 5,
+     "source": "https://peersense.com/franchise/valvoline-instant-oil-change",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Advertising/marketing contribution; one source cites 6%. Conflict noted."
+    },
+    "avgUnitRevenue": {
+     "value": 1573000,
+     "source": "https://peersense.com/franchise/valvoline-instant-oil-change",
+     "year": 2024,
+     "confidence": "low",
+     "note": "Approximate average unit volume from public/aggregator sources; not confirmed as a direct FDD Item 19 disclosure. Treat as low confidence."
+    },
+    "yearFounded": {
+     "value": 1986,
+     "source": "https://www.franchising.com/news/20140121_from_under_the_hood_to_in_the_spotlight_valvoline_.html",
+     "year": 2024,
+     "confidence": "high",
+     "note": "VIOC concept created 1986 via purchase of Rapid Oil Change; parent Valvoline brand dates to 1866."
+    },
+    "yearFranchising": {
+     "value": 1988,
+     "source": "https://www.franchising.com/news/20140121_from_under_the_hood_to_in_the_spotlight_valvoline_.html",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "totalUnits": {
+     "value": 2000,
+     "source": "https://viocfranchise.com/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "'2,000+ stores nationwide' including company-owned and franchised; franchised-only count is a smaller subset."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/view-fdd-docs/valvoline-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/view-fdd-docs/valvoline-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Development agreements require a minimum of at least three service centers."
+    }
+   }
+  },
+  {
+   "name": "Christian Brothers Automotive",
+   "slug": "christian-brothers-automotive",
+   "category": "Automotive",
+   "website": "cbac.com",
+   "notes": "Faith-based full-service auto repair franchise with one of the highest average unit volumes in the category (~$2.8M AUV) and a profit-split royalty model. Franchise development site is christianbrothersfranchise.com.",
+   "riskFlags": [
+    {
+     "severity": "info",
+     "title": "Unusual 50% profit-split royalty structure",
+     "detail": "Rather than a flat percent-of-sales royalty, CBA takes 50% of monthly 'Split Profits' for the full term and all renewals; prospective franchisees must model this carefully as it differs sharply from standard category royalties.",
+     "source": "FranchiseChatter FDD Talk (2024 review)",
+     "url": "https://www.franchisechatter.com/2024/12/30/fdd-talk-christian-brothers-automotive-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024
+    },
+    {
+     "severity": "caution",
+     "title": "Wide spread in franchisee owner benefit",
+     "detail": "Item 19 shows top-20% franchisees averaging ~$609,691 total owner benefit vs bottom-20% averaging ~$132,289, indicating substantial performance variability despite a high system-wide AUV.",
+     "source": "FranchiseChatter FDD Talk (2024 review, 2023 data)",
+     "url": "https://www.franchisechatter.com/2024/12/30/fdd-talk-christian-brothers-automotive-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024
+    },
+    {
+     "severity": "info",
+     "title": "FDD discloses litigation/bankruptcy history",
+     "detail": "Third-party due-diligence sources note CBA discloses lawsuits and/or bankruptcy items in its FDD that prospects should review; no major systemic franchisee-vs-franchisor litigation pattern surfaced and the brand states it has never closed a location.",
+     "source": "FranchiseComplaints.org / Vetted Biz",
+     "url": "https://www.franchisecomplaints.org/reports/christian-brothers-franchise-due-diligence/",
+     "year": 2024
+    }
+   ],
+   "nationwide": {
+    "source": "Christian Brothers Automotive official franchise site",
+    "url": "https://www.christianbrothersfranchise.com/",
+    "year": 2024,
+    "note": "Site cites 335+ locations 'across the nation' and an 'Available Markets'/'Find Available Territories' section for nationwide growth markets."
+   },
+   "fields": {
+    "franchiseFee": {
+     "value": 135000,
+     "source": "https://www.franchisechatter.com/2024/12/30/fdd-talk-christian-brothers-automotive-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "$121,500 with IFA VetFran discount."
+    },
+    "totalInvestmentMin": {
+     "value": 530250,
+     "source": "https://www.franchisechatter.com/2024/12/30/fdd-talk-christian-brothers-automotive-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 645400,
+     "source": "https://www.franchisechatter.com/2024/12/30/fdd-talk-christian-brothers-automotive-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 5,
+     "source": "https://www.franchisechatter.com/2024/12/30/fdd-talk-christian-brothers-automotive-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "National marketing program capped at up to 5% of prior-year average annual revenue."
+    },
+    "avgUnitRevenue": {
+     "value": 2808967,
+     "source": "https://www.franchisechatter.com/2024/12/30/fdd-talk-christian-brothers-automotive-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "FDD Item 19 average unit volume across 265 franchisee-owned locations open the full year 2023; median total owner benefit $302,298."
+    },
+    "totalUnits": {
+     "value": 280,
+     "source": "https://www.franchisechatter.com/2024/12/30/fdd-talk-christian-brothers-automotive-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Franchised locations at end of 2023; zero company-owned. Site cites 335+ by 2024-2025."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/12/30/fdd-talk-christian-brothers-automotive-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "IFA VetFran discount reduces franchise fee to $121,500."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/12/30/fdd-talk-christian-brothers-automotive-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/12/30/fdd-talk-christian-brothers-automotive-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.christianbrothersfranchise.com/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Unit count grew from ~280 (end 2023) toward 335+ per franchise site."
+    }
+   }
+  },
+  {
+   "name": "Sylvan Learning",
+   "slug": "sylvan-learning",
+   "category": "Education & Children",
+   "website": "sylvanlearning.com",
+   "notes": "Supplemental K-12 tutoring franchise (now part of Unleashed Brands after a 2024 acquisition) with ~475+ franchised territories. Carries a notably high 16% royalty plus 8% advertising minimum.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "High combined royalty + ad burden",
+     "detail": "Royalty is 16% of monthly gross revenues (minimum $32,000/yr) plus an 8% advertising/local minimum (capped $40,000/territory/yr) - among the highest fee loads in the education category.",
+     "source": "FranchiseChatter FDD Talk (2024 review)",
+     "url": "https://www.franchisechatter.com/2024/10/19/fdd-talk-sylvan-learning-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024
+    },
+    {
+     "severity": "caution",
+     "title": "Franchisee bankruptcy and consumer-refund complaints",
+     "detail": "A Sylvan franchise owner filed bankruptcy owing $600K+; parents reported canceled sessions, inability to book tutors, and refused refunds on prepaid/financed packages, illustrating unit-level execution and consumer-protection risk.",
+     "source": "FOX 9 Minneapolis-St. Paul",
+     "url": "https://www.fox9.com/news/sylvan-learning-franchise-owner-bankruptcy-closes-tutoring-centers-blume",
+     "year": 2024
+    },
+    {
+     "severity": "caution",
+     "title": "Parent company (Unleashed Brands) franchisee litigation",
+     "detail": "Unleashed Brands, which acquired Sylvan in 2024, has faced franchisee lawsuits alleging it downplayed operational demands and pushed owners into multiple concepts; an arbitrator ruled in Unleashed's favor in one case, but disputes across its brands are ongoing.",
+     "source": "FranchiseWire / search aggregation",
+     "url": "https://www.franchisewire.com/unleashed-brands-acquires-sylvan-learning/",
+     "year": 2024
+    }
+   ],
+   "statesOpen": [
+    {
+     "state": "TX",
+     "status": "open",
+     "note": "Sylvan franchise 'Available Markets' page lists most U.S. states open for development; representative state.",
+     "source": "https://www.sylvanfranchise.com/available-territories/",
+     "year": 2025
+    },
+    {
+     "state": "FL",
+     "status": "open",
+     "note": "Listed among open states on Sylvan franchise available-territories page.",
+     "source": "https://www.sylvanfranchise.com/available-territories/",
+     "year": 2025
+    },
+    {
+     "state": "CA",
+     "status": "open",
+     "note": "Listed among open states on Sylvan franchise available-territories page.",
+     "source": "https://www.sylvanfranchise.com/available-territories/",
+     "year": 2025
+    },
+    {
+     "state": "NY",
+     "status": "open",
+     "note": "Listed among open states on Sylvan franchise available-territories page.",
+     "source": "https://www.sylvanfranchise.com/available-territories/",
+     "year": 2025
+    },
+    {
+     "state": "OH",
+     "status": "open",
+     "note": "Sylvan franchise available-territories page lists nearly all U.S. states (AL-WY) as open; OH representative.",
+     "source": "https://www.sylvanfranchise.com/available-territories/",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "franchiseFee": {
+     "value": 36900,
+     "source": "https://www.franchisechatter.com/2024/10/19/fdd-talk-sylvan-learning-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "totalInvestmentMin": {
+     "value": 100752,
+     "source": "https://www.franchisechatter.com/2024/10/19/fdd-talk-sylvan-learning-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 226842,
+     "source": "https://www.franchisechatter.com/2024/10/19/fdd-talk-sylvan-learning-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 11,
+     "source": "https://sharpsheets.io/blog/sylvan-learning-centers-franchise-costs-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD royalty 11-12% plus separate 5% National Advertising Fund. Prior batch value 16 superseded by verification audit 2026-06-11."
+    },
+    "adFundPercent": {
+     "value": 8,
+     "source": "https://www.franchisechatter.com/2024/10/19/fdd-talk-sylvan-learning-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Advertising minimum 8% of monthly gross revenues, capped $40,000/territory/year."
+    },
+    "avgUnitRevenue": {
+     "value": 427000,
+     "source": "https://www.franchisechatter.com/2024/10/19/fdd-talk-sylvan-learning-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "FDD Item 19 average gross revenues across territories operating continuously 2022-2023; median lower (quartiles ranged ~$179K bottom to ~$689K top)."
+    },
+    "totalUnits": {
+     "value": 479,
+     "source": "https://www.franchisechatter.com/2024/10/19/fdd-talk-sylvan-learning-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "474 franchised + 5 company-owned in 2024; modest net growth (+6 franchised)."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/10/19/fdd-talk-sylvan-learning-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/10/19/fdd-talk-sylvan-learning-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.sylvanfranchise.com/available-territories/",
+     "year": 2025,
+     "confidence": "medium"
+    }
+   }
+  },
+  {
+   "name": "Huntington Learning Center",
+   "slug": "huntington-learning-center",
+   "category": "Education & Children",
+   "website": "huntingtonhelps.com",
+   "notes": "Tutoring and test-prep franchise founded 1977. Item 19 average gross revenue ~$522K, but the system has contracted in recent years (franchised units declined 285 to 276, 2020-2022) and has a history of franchisee litigation.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Unit contraction",
+     "detail": "Franchised outlets declined from 285 (2020) to 276 (2022) and company-owned from 16 to 10; longer-term contraction is steeper (342 U.S. franchises in 2008 to ~250 by 2011), signaling a shrinking system.",
+     "source": "FranchiseChatter FDD Talk (2024 review) / Unhappy Franchisee",
+     "url": "https://www.franchisechatter.com/2024/05/28/fdd-talk-huntington-learning-center-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024
+    },
+    {
+     "severity": "red",
+     "title": "Franchisee lawsuits alleging interference and misleading earnings",
+     "detail": "Franchisee Joe Lieberman sued claiming Huntington's interference forced his center to close in 2018; a separate Arizona franchisee (Tozzo) alleged a brochure deceptively implied significant returns while 'nearly all' Arizona franchisees were in financial extremis.",
+     "source": "Unhappy Franchisee / Courthouse News",
+     "url": "https://unhappyfranchisee.com/joe-lieberman-sues-huntington-franchise/",
+     "year": 2024
+    },
+    {
+     "severity": "caution",
+     "title": "Wide revenue dispersion",
+     "detail": "Item 19 gross revenue ranged from $59,244 (lowest) to $2,692,251 (highest) with median ($449,598) well below average ($522,068), indicating many centers underperform the headline average.",
+     "source": "FranchiseChatter FDD Talk (2024 review)",
+     "url": "https://www.franchisechatter.com/2024/05/28/fdd-talk-huntington-learning-center-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024
+    }
+   ],
+   "fields": {
+    "franchiseFee": {
+     "value": 36000,
+     "source": "https://www.franchisechatter.com/2024/05/28/fdd-talk-huntington-learning-center-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "totalInvestmentMin": {
+     "value": 154063,
+     "source": "https://www.franchisechatter.com/2024/05/28/fdd-talk-huntington-learning-center-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 302000,
+     "source": "https://sharpsheets.io/blog/huntington-learning-center-franchise-costs-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7 maximum $302,000. Prior batch value 264028 superseded by verification audit 2026-06-11."
+    },
+    "royaltyPercent": {
+     "value": 9.5,
+     "source": "https://www.franchisechatter.com/2024/05/28/fdd-talk-huntington-learning-center-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "9.5% of gross revenue with $2,000/month minimum."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://www.franchisechatter.com/2024/05/28/fdd-talk-huntington-learning-center-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "2% of Huntington services/eTutoring revenue ($500/mo min) plus a $57,000/yr minimum advertising requirement."
+    },
+    "avgUnitRevenue": {
+     "value": 522068,
+     "source": "https://www.franchisechatter.com/2024/05/28/fdd-talk-huntington-learning-center-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "FDD Item 19 average gross revenue across 257 franchised centers open during 2021 or before; median $449,598."
+    },
+    "totalUnits": {
+     "value": 286,
+     "source": "https://www.franchisechatter.com/2024/05/28/fdd-talk-huntington-learning-center-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "276 franchised + 10 company-owned (2022 FDD data); declining trend."
+    },
+    "yearFounded": {
+     "value": 1977,
+     "source": "https://www.franchisegator.com/franchises/huntington-learning-centers/",
+     "year": 2024,
+     "confidence": "medium"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/05/28/fdd-talk-huntington-learning-center-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/05/28/fdd-talk-huntington-learning-center-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    }
+   }
+  },
+  {
+   "name": "Primrose Schools",
+   "slug": "primrose-schools",
+   "category": "Education & Children",
+   "website": "primroseschools.com",
+   "notes": "Premium early-education/childcare franchise with very high AUV (~$2.6M) and large capital requirements (build-to-suit). 100% franchised, growing system, but childcare category carries inherent child-safety liability exposure.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "Child-safety incidents and franchise terminations",
+     "detail": "Multiple locations lost state licenses and had franchise agreements terminated over child-abuse/neglect allegations (e.g., Ballantyne NC, Briargate CO); a Jacksonville FL family won an $8M verdict over a child choking incident, highlighting category liability exposure.",
+     "source": "Queen City News / Yahoo News / KRDO",
+     "url": "https://www.qcnews.com/news/primrose-school-of-ballantyne-loses-state-license-franchise-after-child-abuse-allegations/",
+     "year": 2022
+    },
+    {
+     "severity": "caution",
+     "title": "Very high capital requirement and investment ceiling",
+     "detail": "Total investment ranges roughly $743K to $1.5M for build-to-suit (third-party real-estate scenarios cited up to ~$8.6M), among the highest in the education/childcare category and a barrier for many franchisees.",
+     "source": "FranchiseChatter FDD Talk (2024 review)",
+     "url": "https://www.franchisechatter.com/2024/10/01/fdd-talk-primrose-schools-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024
+    }
+   ],
+   "nationwide": {
+    "source": "Primrose Schools official franchising page",
+    "url": "https://www.primroseschools.com/franchising",
+    "year": 2025,
+    "note": "Franchising page promotes nationwide development with 'Immediate Real Estate Sites' and recent openings across multiple states; 558 franchised schools open as of end of 2025. No state-level restriction listed."
+   },
+   "fields": {
+    "franchiseFee": {
+     "value": 50000,
+     "source": "https://www.franchisechatter.com/2024/10/01/fdd-talk-primrose-schools-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Franchise fee ranges $50,000-$80,000; lower bound used. Separate $35,000 initial training fee."
+    },
+    "totalInvestmentMin": {
+     "value": 742900,
+     "source": "https://www.franchisechatter.com/2024/10/01/fdd-talk-primrose-schools-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Build-to-suit program."
+    },
+    "totalInvestmentMax": {
+     "value": 8595000,
+     "source": "https://sharpsheets.io/blog/primrose-schools-franchise-costs-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD max $8,595,000 across all development programs; build-to-suit-only max is $1,525,000. Prior batch value 1525000 superseded by verification audit 2026-06-11."
+    },
+    "royaltyPercent": {
+     "value": 7,
+     "source": "https://www.franchisechatter.com/2024/10/01/fdd-talk-primrose-schools-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://www.franchisechatter.com/2024/10/01/fdd-talk-primrose-schools-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "2% brand fund plus 1% local advertising and 1% cooperative contributions."
+    },
+    "avgUnitRevenue": {
+     "value": 2635346,
+     "source": "https://www.franchisechatter.com/2024/10/01/fdd-talk-primrose-schools-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "FDD Item 19 average gross revenue across 477 active facilities (2023 data); median $2,563,585; average EBITDA $445,780 (16%) across 408 reporting facilities."
+    },
+    "totalUnits": {
+     "value": 505,
+     "source": "https://www.franchisechatter.com/2024/10/01/fdd-talk-primrose-schools-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Franchised locations end of 2023 (100% franchised); +22 net in 2023. Official site cites 558 by end of 2025."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/10/01/fdd-talk-primrose-schools-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/10/01/fdd-talk-primrose-schools-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/10/01/fdd-talk-primrose-schools-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Net +22 franchised units in 2023; growth to 558 by end of 2025."
+    }
+   }
+  }
+ ]
+}

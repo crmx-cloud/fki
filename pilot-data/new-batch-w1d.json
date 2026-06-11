@@ -1,0 +1,229 @@
+{
+  "brands": [
+    {
+      "name": "Baskin-Robbins",
+      "slug": "baskin-robbins",
+      "category": "Food & Beverage",
+      "website": "baskinrobbins.com",
+      "notes": "World's largest ice cream chain (Inspire Brands), ~976 US franchised units at end of 2024. Relatively low entry cost for a legacy QSR brand but combined royalty + ad fee of ~10.9% is high vs category norms.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High combined royalty + ad fee (~10.9%)",
+          "detail": "5.9% royalty plus 5.0% advertising fee totals ~10.9% of gross sales, notably higher than most QSR franchise burdens (typically 6-8%).",
+          "source": "Franchise Chatter FDD Talk (2025 review)",
+          "url": "https://www.franchisechatter.com/2025/08/12/baskin-robbins-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Franchisor litigation against ex-franchisee (Indiana)",
+          "detail": "Baskin-Robbins (Inspire Brands) sued a former franchisee operating Broad Ripple and Greenwood, IN shops for continuing to operate as Baskin-Robbins after a June 2023 termination over ~$50,000 nonpayment, alleging trademark infringement and breach.",
+          "source": "Indiana Intellectual Property Blog",
+          "url": "https://indianaintellectualproperty.com/2024/02/15/baskin-robbins-sues-ex-franchisee-over-broad-ripple-greenwood-ice-cream-shops/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee fined for child labor violations",
+          "detail": "A Utah operator of eight Baskin-Robbins stores was fined $49,833 by the U.S. Department of Labor for allowing 64 14- and 15-year-olds to work outside legal hours.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_legal/labor-department-fines-baskin-robbins-franchisee-for-child-labor-violations/article_c759c946-f2c8-11ee-8aca-cffc7df68b91.html",
+          "year": 2024
+        }
+      ],
+      "nationwide": {
+        "source": "Inspire Brands / Baskin-Robbins franchising site",
+        "url": "https://www.franchising.inspirebrands.com/baskin-robbins",
+        "year": 2025,
+        "note": "Baskin-Robbins markets US franchise opportunities through the Inspire Brands franchising portal; brand operates ~976 US locations and continues to award territories nationally."
+      },
+      "fields": {
+        "franchiseFee": {"value": 25000, "source": "https://www.franchisechatter.com/2025/08/12/baskin-robbins-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5.9, "source": "https://www.franchisechatter.com/2025/08/12/baskin-robbins-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Continuing royalty; regional variations apply."},
+        "adFundPercent": {"value": 5.0, "source": "https://www.franchisechatter.com/2025/08/12/baskin-robbins-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "totalInvestmentMin": {"value": 307400, "source": "https://www.franchisechatter.com/2025/08/12/baskin-robbins-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 622600, "source": "https://www.franchisechatter.com/2025/08/12/baskin-robbins-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "avgUnitRevenue": {"value": 532682, "source": "https://www.franchisechatter.com/2025/08/12/baskin-robbins-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "high", "note": "FDD Item 19: average annual gross sales across 844 franchised restaurants, FY ending Dec 29, 2024; median $521,177, range $11,670-$2,317,098."},
+        "totalUnits": {"value": 976, "source": "https://www.franchisechatter.com/2025/08/12/baskin-robbins-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "high", "note": "US franchised units at end of 2024 (874 traditional + 102 non-traditional); 0 company-owned."},
+        "liquidCapitalMin": {"value": 125000, "source": "https://peersense.com/franchise/baskin-robbins", "year": 2026, "confidence": "medium", "note": "Liquid asset minimum; not stated in the Franchise Chatter FDD summary."}
+      }
+    },
+    {
+      "name": "Scooter's Coffee",
+      "slug": "scooters-coffee",
+      "category": "Food & Beverage",
+      "website": "scooterscoffee.com",
+      "notes": "Fast-growing drive-thru coffee kiosk franchise; ~900 stores across 32 states as of early 2026 with strong Item 19 AUV (~$877K). Higher capital requirement reflects real estate / drive-thru build-out.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Capital-intensive drive-thru kiosk model",
+          "detail": "Total investment of roughly $894K-$1.39M driven by land/build-out for drive-thru kiosks; higher than typical coffee-shop entry cost.",
+          "source": "Franchise Chatter FDD Talk (2024 review)",
+          "url": "https://www.franchisechatter.com/2024/09/26/fdd-talk-scooters-coffee-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        }
+      ],
+      "nationwide": {
+        "source": "Scooter's Coffee franchise development-areas page",
+        "url": "https://franchising.scooterscoffee.com/development-areas/",
+        "year": 2026,
+        "note": "Development-areas map covers all 50 states + DC with available growth markets; franchisor states the compact drive-thru kiosk model can open in 'just about any market' (metro, suburban, rural). ~900 stores in 32 states as of Feb 2026."
+      },
+      "fields": {
+        "franchiseFee": {"value": 40000, "source": "https://www.franchisechatter.com/2024/09/26/fdd-talk-scooters-coffee-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high"},
+        "royaltyPercent": {"value": 6.0, "source": "https://www.franchisechatter.com/2024/09/26/fdd-talk-scooters-coffee-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high", "note": "6% of net sales."},
+        "adFundPercent": {"value": 2.0, "source": "https://www.franchisechatter.com/2024/09/26/fdd-talk-scooters-coffee-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high", "note": "2% of net sales marketing contribution."},
+        "totalInvestmentMin": {"value": 894500, "source": "https://www.franchisechatter.com/2024/09/26/fdd-talk-scooters-coffee-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1393000, "source": "https://www.franchisechatter.com/2024/09/26/fdd-talk-scooters-coffee-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high"},
+        "avgUnitRevenue": {"value": 877495, "source": "https://www.franchisechatter.com/2024/09/26/fdd-talk-scooters-coffee-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high", "note": "FDD Item 19: average gross sales across 424 kiosk stores open the full 12 months ending Dec 31, 2023; median $869,610."},
+        "totalUnits": {"value": 750, "source": "https://www.franchisechatter.com/2024/09/26/fdd-talk-scooters-coffee-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high", "note": "As of Dec 31, 2023: 729 franchised + 21 affiliate-owned. Brand reported ~900 stores in 32 states by Feb 2026."},
+        "isGrowing": {"value": true, "source": "https://www.scooterscoffee.com/blog/post/900-stores-across-32-states-long-term-growth", "year": 2026, "confidence": "high", "note": "Added 83 stores in 2025 (+10%) after +16% in 2024."}
+      }
+    },
+    {
+      "name": "Marco's Pizza",
+      "slug": "marcos-pizza",
+      "category": "Food & Beverage",
+      "website": "marcos.com",
+      "notes": "Pizza franchise founded 1978 (franchising 1979); 1,200+ locations with prime US territories still available. Strong AUV but discloses bankruptcy/litigation in FDD and saw a multi-unit franchisee Chapter 11 in 2024.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Multi-unit franchisee Chapter 11 bankruptcy (Tampa Bay, 2024)",
+          "detail": "Tampa Bay-area Marco's franchise owners (19 locations) filed for Chapter 11 in November 2024 to reorganize and sell four underperforming restaurants.",
+          "source": "Franchise Business News / TheStreet",
+          "url": "https://franchisebusiness.news/franchises/marcospizza/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "FDD discloses lawsuits and/or bankruptcy",
+          "detail": "Marco's Pizza FDD discloses litigation and/or bankruptcy items, including renewal/system-standard disputes with franchisees, which prospective buyers should review.",
+          "source": "Vetted Biz / Lewitt Hackman franchise law analysis",
+          "url": "https://www.lewitthackman.com/franchise-101-pizza-franchisors-overcooked-and-court-taxes-franchisors-restrictive-covenants/",
+          "year": 2024
+        }
+      ],
+      "nationwide": {
+        "source": "Marco's Pizza official franchise site (marcosfranchising.com)",
+        "url": "https://www.marcosfranchising.com/",
+        "year": 2025,
+        "note": "Official development site states '1,200+ locations and prime territories available in the U.S.' and accepts inquiries from all 50 states (plus Bahamas, Mexico, Puerto Rico); active US nationwide expansion incl. West Coast/California."
+      },
+      "fields": {
+        "yearFounded": {"value": 1978, "source": "https://en.wikipedia.org/wiki/Marco's_Pizza", "year": 1978, "confidence": "high", "note": "Founded by Pasquale 'Pat' Giammarco."},
+        "yearFranchising": {"value": 1979, "source": "https://en.wikipedia.org/wiki/Marco's_Pizza", "year": 1979, "confidence": "medium"},
+        "franchiseFee": {"value": 25000, "source": "https://www.franchisechatter.com/2024/12/25/fdd-talk-marcos-pizza-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high"},
+        "royaltyPercent": {"value": 5.5, "source": "https://sharpsheets.io/blog/marcos-pizza-franchises-costs-profits/", "year": 2025, "confidence": "high"},
+        "totalInvestmentMin": {"value": 285000, "source": "https://www.franchisechatter.com/2024/12/25/fdd-talk-marcos-pizza-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high", "note": "Range $285K-$804K per 2024 FDD review; a 2025 peersense summary cites $287K-$807K."},
+        "totalInvestmentMax": {"value": 804000, "source": "https://www.franchisechatter.com/2024/12/25/fdd-talk-marcos-pizza-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high"},
+        "avgUnitRevenue": {"value": 949000, "source": "https://www.franchisechatter.com/2024/12/25/fdd-talk-marcos-pizza-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "medium", "note": "FDD Item 19-derived average gross sales (~$949K) per Franchise Chatter 2024 review; top quartile AUV $1,363,518 (FY2024). Figure represents systemwide franchised average."},
+        "totalUnits": {"value": 1200, "source": "https://www.marcosfranchising.com/", "year": 2025, "confidence": "high", "note": "1,200+ locations across 35 states plus Puerto Rico, Bahamas, Mexico. 2025 FDD reported 997 franchised stores operating the full 2025 fiscal year."},
+        "isGrowing": {"value": true, "source": "https://www.prnewswire.com/news-releases/marcos-pizza-targets-80-new-stores-in-2026-after-disciplined-growth-and-innovation-in-2025-302703879.html", "year": 2026, "confidence": "high", "note": "Opened 60+ stores in 2025; targeting 80+ in 2026."}
+      }
+    },
+    {
+      "name": "Dave's Hot Chicken",
+      "slug": "daves-hot-chicken",
+      "category": "Food & Beverage",
+      "website": "daveshotchicken.com",
+      "notes": "Explosive-growth Nashville-style hot chicken brand founded 2017 (franchising 2018); ~390 restaurants globally by mid-2026 with nearly 950 units in development. Acquired by Roark Capital in 2025 (~$1B). No Item 19 in FDD.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "No Item 19 financial performance representation in FDD",
+          "detail": "Dave's Hot Chicken does not disclose average unit sales in Item 19 of its FDD, so prospective franchisees have no franchisor-provided earnings figures; third-party estimates (~$2.45M AUV) are unofficial.",
+          "source": "Franchise Times (2026 Fast & Serious)",
+          "url": "https://www.franchisetimes.com/issue-archive/2026/january/2026-fast-serious-winners-no-2-dave-s-hot-chicken/article_d38978c3-d690-4bc1-91fb-741c42d54fca.html",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "ADA website accessibility complaint (2025)",
+          "detail": "A March 2025 complaint (Sandoval v. Dave's Hot Chicken Franchise Co., LLC) alleged the brand's website is not sufficiently digitally accessible.",
+          "source": "Accessibility.com digital lawsuits database",
+          "url": "https://www.accessibility.com/digital-lawsuits/michael-sandoval-vs-daves-hot-chicken-franchise-co.-llc-2025-03-20",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Private-equity ownership change (Roark Capital, 2025)",
+          "detail": "Dave's Hot Chicken was acquired by Roark Capital Group in 2025 in a deal valued near $1 billion; ownership/strategy changes are a consideration for prospective franchisees.",
+          "source": "Wikipedia (Dave's Hot Chicken)",
+          "url": "https://en.wikipedia.org/wiki/Dave's_Hot_Chicken",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        {"state": "CA", "status": "open", "note": "Listed among franchise-registration states; brand expanding aggressively in US.", "source": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "url": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "year": 2025},
+        {"state": "NY", "status": "open", "note": "Franchise-registration state where Dave's offers/sells franchises.", "source": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "url": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "year": 2025},
+        {"state": "IL", "status": "open", "note": "Franchise-registration state where Dave's offers/sells franchises.", "source": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "url": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "year": 2025},
+        {"state": "WA", "status": "open", "note": "Franchise-registration state where Dave's offers/sells franchises.", "source": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "url": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "year": 2025},
+        {"state": "VA", "status": "open", "note": "Franchise-registration state where Dave's offers/sells franchises.", "source": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "url": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "year": 2025}
+      ],
+      "fields": {
+        "yearFounded": {"value": 2017, "source": "https://en.wikipedia.org/wiki/Dave's_Hot_Chicken", "year": 2017, "confidence": "high", "note": "First location opened May 2017 (LA parking-lot pop-up)."},
+        "yearFranchising": {"value": 2018, "source": "https://www.restaurantdive.com/news/how-franchising-fueled-daves-hot-chicken-unit-growth/644712/", "year": 2018, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6.0, "source": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "year": 2025, "confidence": "high"},
+        "totalInvestmentMin": {"value": 620000, "source": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "year": 2025, "confidence": "medium", "note": "Range cited $620K-$1.96M (Sharpsheets); a vetmyfranchise 2025 FDD summary cites a wider $990K-$3.2M, likely format-dependent. Conflict noted."},
+        "totalInvestmentMax": {"value": 1963000, "source": "https://sharpsheets.io/blog/daves-hot-chicken-franchise-sales-costs-profits/", "year": 2025, "confidence": "medium", "note": "See min note re: conflicting upper bound."},
+        "totalUnits": {"value": 390, "source": "https://en.wikipedia.org/wiki/Dave's_Hot_Chicken", "year": 2026, "confidence": "high", "note": "~390 restaurants globally as of May 2026; nearly 950 units in development."},
+        "isGrowing": {"value": true, "source": "https://www.franchisetimes.com/issue-archive/2026/january/2026-fast-serious-winners-no-2-dave-s-hot-chicken/article_d38978c3-d690-4bc1-91fb-741c42d54fca.html", "year": 2026, "confidence": "high", "note": "Franchise Times 2026 Fast & Serious No. 2."},
+        "item19Available": {"value": false, "source": "https://www.franchisetimes.com/issue-archive/2026/january/2026-fast-serious-winners-no-2-dave-s-hot-chicken/article_d38978c3-d690-4bc1-91fb-741c42d54fca.html", "year": 2026, "confidence": "high", "note": "FDD contains no Item 19 financial performance representation."}
+      }
+    },
+    {
+      "name": "7 Brew Coffee",
+      "slug": "7-brew-coffee",
+      "category": "Food & Beverage",
+      "website": "7brew.com",
+      "notes": "Drive-thru coffee stand brand founded 2017 in Arkansas, franchising since 2021; rapid growth to 500-700+ stands across ~35-38 states. Strong reported AUV (~$2M) but capital-intensive and tied to a modular-construction lawsuit between founders.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Founder/partner lawsuit over modular store builder (alleged $2M embezzlement)",
+          "detail": "7 Brew co-founder Ron Crume sued partners in Creative Modular Construction (the exclusive builder of 7 Brew's modular stores) alleging ~$2M was siphoned via unauthorized checks and commingled funds. Suit later dismissed without prejudice after resolution; control of CMC was restructured Jan 2026.",
+          "source": "Springfield Daily Citizen / Mountain Home Observer",
+          "url": "https://sgfcitizen.org/economy-growth/business/7-brew-lawsuit-construction-fraud/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Separate investor/records dispute (Jimmy John's founder-linked entity)",
+          "detail": "Stillwater (linked to the Jimmy John's founder) accused Drink House Holdings of failing to provide access to books and records and breaching an agreement, alleging it was a company member.",
+          "source": "5NEWS",
+          "url": "https://www.5newsonline.com/article/news/local/7-brews-legal-dispute-jimmy-johns-founder-continues/527-df2db502-b04a-4b38-a594-f0d751a891fb",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Capital-intensive drive-thru model with tiered escalating royalty",
+          "detail": "Total investment ~$894K-$2.18M for a first traditional store; royalties are tiered starting at 4.5% and scaling up to 7% of weekly gross sales, plus 2% brand fund and 0.25% tech fee.",
+          "source": "Peersense / Franchise Payback FDD summaries",
+          "url": "https://peersense.com/franchise/brew-culture-franchise-llc",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Multiple development reports + 7brew.com franchise development",
+        "url": "https://www.franchisetimes.com/franchise_news/flynn-group-shifts-gears-with-a-160-unit-7-brew-agreement/article_7688b6fc-5d72-4dc2-ae54-1db9bb86f336.html",
+        "year": 2026,
+        "note": "Operating in ~35-38 states with active nationwide expansion; large multi-state development agreements (e.g., Flynn Group 160-unit, Jersey Mike's franchisee 70-unit Washington DC). Brand directs prospects to check territory availability via 7brew.com."
+      },
+      "fields": {
+        "yearFounded": {"value": 2017, "source": "https://sharpsheets.io/blog/7-brew-franchise-fdd-profits-costs-fees/", "year": 2017, "confidence": "high", "note": "Founded in Arkansas."},
+        "yearFranchising": {"value": 2021, "source": "https://sharpsheets.io/blog/7-brew-franchise-fdd-profits-costs-fees/", "year": 2021, "confidence": "high"},
+        "franchiseFee": {"value": 35000, "source": "https://peersense.com/franchise/brew-culture-franchise-llc", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 4.5, "source": "https://www.franchisepayback.com/franchise/7-brew", "year": 2026, "confidence": "medium", "note": "Tiered royalty starting at 4.5% of weekly gross sales, scaling up to 7%. Lower bound shown."},
+        "adFundPercent": {"value": 2.0, "source": "https://www.franchisepayback.com/franchise/7-brew", "year": 2026, "confidence": "medium", "note": "2% brand fund plus a separate 0.25% tech fee."},
+        "totalInvestmentMin": {"value": 894000, "source": "https://peersense.com/franchise/brew-culture-franchise-llc", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 2178500, "source": "https://peersense.com/franchise/brew-culture-franchise-llc", "year": 2026, "confidence": "high", "note": "First traditional store upper bound."},
+        "avgUnitRevenue": {"value": 1989229, "source": "https://www.bizfranhub.com/news/7brew-franchise-costs-earnings-and-fdd-2025/", "year": 2025, "confidence": "medium", "note": "FDD Item 19-derived average annual gross sales per location (most recent FDD). An earlier 2023 FDD reported $2,397,892 AUV for 19 units open a full 12 months in 2022; figure reflects rapidly growing system."},
+        "isGrowing": {"value": true, "source": "https://www.frandb.com/franchise/7-brew/2025", "year": 2025, "confidence": "high", "note": "Grew ~84% in units; from 38 stands (Jan 2023) to 500-700+ across ~35-38 states."}
+      }
+    }
+  ]
+}

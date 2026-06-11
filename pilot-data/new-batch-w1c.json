@@ -1,0 +1,918 @@
+{
+  "brands": [
+    {
+      "name": "Firehouse Subs",
+      "slug": "firehouse-subs",
+      "category": "Food & Beverage",
+      "website": "firehousesubs.com",
+      "notes": "Firefighter-founded sub sandwich chain (Jacksonville, FL), owned by Restaurant Brands International since 2021. Strong Item 19 disclosure and aggressive 2026-2028 development incentives (up to $100K-$150K cash per restaurant) targeting all 50 states.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Multi-unit franchisee Chapter 11 bankruptcy (2026)",
+          "detail": "CN Holdings LLC, an 11-unit Firehouse Subs franchisee in Utah and Idaho, filed Chapter 11 in March 2026, citing cost overruns and delays on new restaurants required under a development agreement signed in late 2023.",
+          "source": "Nation's Restaurant News",
+          "url": "https://www.nrn.com/fast-casual/firehouse-subs-franchisee-files-for-chapter-11-bankruptcy",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Prior franchisee Chapter 11 bankruptcy (2023)",
+          "detail": "A Minnesota Firehouse Subs franchisee filed for Chapter 11 bankruptcy in 2023, part of a pattern of individual operator distress despite system-level growth.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_news/minnesota-firehouse-subs-franchisee-files-for-chapter-11-bankruptcy/article_7d5704d2-e5de-11ed-b738-6f5f9f8fb710.html",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "Combined ongoing fees of 11% are above sandwich-segment norms",
+          "detail": "Franchisees pay a 6% royalty plus a 5% national/local marketing contribution (11% of gross sales total), at the high end for the sandwich QSR segment; FDD-derived mean EBITDA margin is about 9% of sales.",
+          "source": "Firehouse Subs Franchising (official) / Franchise Chatter FDD review",
+          "url": "https://www.franchising.firehousesubs.com/investment",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Firehouse Subs Franchising FAQ (official)",
+        "url": "https://www.franchising.firehousesubs.com/faqs",
+        "year": 2026,
+        "note": "\"We have franchise growth opportunities across all 50 U.S. states and select Canadian provinces and territories.\" Priority development markets include NYC, LA, Chicago, Boston, Philadelphia, Seattle, Washington DC and Minneapolis."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 150000,
+          "source": "https://www.franchising.firehousesubs.com/faqs",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor also requires $300,000 minimum net worth."
+        },
+        "totalInvestmentMin": {
+          "value": 379650,
+          "source": "https://www.franchising.firehousesubs.com/investment",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Low end for in-line traditional restaurant ($379,650-$795,600); end cap w/ drive-thru $549,650-$1,038,100; free-standing w/ drive-thru up to $1,396,100."
+        },
+        "totalInvestmentMax": {
+          "value": 1396100,
+          "source": "https://www.franchising.firehousesubs.com/investment",
+          "year": 2026,
+          "confidence": "high",
+          "note": "High end is free-standing restaurant with drive-thru."
+        },
+        "franchiseFee": {
+          "value": 20000,
+          "source": "https://www.franchising.firehousesubs.com/investment",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "https://www.franchising.firehousesubs.com/investment",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 5,
+          "source": "https://www.franchising.firehousesubs.com/investment",
+          "year": 2026,
+          "confidence": "high",
+          "note": "5% contribution to national and local marketing funds."
+        },
+        "avgUnitRevenue": {
+          "value": 964457,
+          "source": "https://www.franchisechatter.com/2025/08/02/firehouse-subs-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Item 19 (2025 FDD): mean 2024 annual sales of 1,022 traditional development restaurants; median $926,456. Free-standing drive-thru units averaged $1,085,557."
+        },
+        "totalUnits": {
+          "value": 1248,
+          "source": "https://www.franchisechatter.com/2025/08/02/firehouse-subs-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "US FDD Item 20 count at end of 2024: 1,206 franchised + 42 company-owned. Parent RBI reported 1,449 systemwide (global) at end of 2025 with net restaurant growth of 7.7%."
+        },
+        "yearFounded": {
+          "value": 1994,
+          "source": "https://www.entrepreneur.com/franchises/directory/firehouse-subs/317772",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1995,
+          "source": "https://www.entrepreneur.com/franchises/directory/firehouse-subs/317772",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 1995; Franchise Chatter's FDD review says franchising relaunched in 2001 after an early setback."
+        },
+        "trainingWeeks": {
+          "value": 6,
+          "source": "https://www.franchising.firehousesubs.com/faqs",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor states 6-7 weeks of initial training; lower bound shown."
+        },
+        "employeesRequired": {
+          "value": 15,
+          "source": "https://www.entrepreneur.com/franchises/directory/firehouse-subs/317772",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 15-20 employees; lower bound shown."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.franchisedirect.com/restaurantfranchises/firehouse-subs-franchise-13477/ufoc/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://www.franchisechatter.com/2025/08/02/firehouse-subs-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Item 19 discloses sales by format plus EBITDA for 665 reporting units."
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.prnewswire.com/news-releases/firehouse-subs-accelerates-franchise-growth-with-new-best-in-class-development-incentives-302729315.html",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Development incentive program for veterans and first responders; Entrepreneur lists up to $100,000 cash contribution per restaurant for first three restaurants."
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://www.franchising.firehousesubs.com/faqs",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Development Agreements with incentives for committing to multiple locations; many franchisees are multi-unit owners."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/firehouse-subs/317772",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists exclusive territories as available; franchisor describes a defined territory granted under the Development Agreement."
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/firehouse-subs/317772",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/firehouse-subs/317772",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/firehouse-subs/317772",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.nrn.com/fast-casual/firehouse-subs-franchisee-files-for-chapter-11-bankruptcy",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Per RBI's 10-K, 2025 systemwide sales up 8.6% to $1.3B and net restaurant growth up 7.7% to 1,449 locations; FDD shows +36 net franchised units in 2024."
+        },
+        "marketingSupport": {
+          "value": ["National marketing fund", "Local/regional marketing programs", "Development incentive programs"],
+          "source": "https://www.franchising.firehousesubs.com/investment",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Funded by the 5% national and local marketing contribution."
+        },
+        "ongoingSupport": {
+          "value": ["Field operations team support", "Ongoing training", "Site selection and territory planning"],
+          "source": "https://www.franchising.firehousesubs.com/faqs",
+          "year": 2026,
+          "confidence": "medium"
+        }
+      }
+    },
+    {
+      "name": "Arby's",
+      "slug": "arbys",
+      "category": "Food & Beverage",
+      "website": "arbys.com",
+      "notes": "Roast-beef-led sandwich QSR founded 1964, owned by Inspire Brands; second-largest sandwich chain in the world with ~3,400+ restaurants. Mature system with strong Item 19 AUV (~$1.27M) but flat-to-declining US unit count and limited availability for brand-new franchisees (growth driven largely by existing multi-unit operators). Franchise development site: arbysfranchising.com.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "25-unit franchisee Chapter 11 bankruptcy (second filing)",
+          "detail": "Miracle Restaurant Group, a 25-unit Arby's franchisee, filed Chapter 11 in June 2024 citing weak sales and high costs; it previously filed for bankruptcy in 2010 when it owned 60 Arby's locations.",
+          "source": "Restaurant Dive",
+          "url": "https://www.restaurantdive.com/news/arbys-franchisee-miracle-restaurant-group-goes-bankrupt/719841/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "US unit count contracting; quiet closures across multiple states",
+          "detail": "Arby's ended 2024 with 3,365 US locations, a 48-site decrease vs 2023, and closed at least 14 more locations across eight states in early 2025 (including four in the Jacksonville, FL area).",
+          "source": "Money Digest",
+          "url": "https://www.moneydigest.com/2026461/arbys-we-have-the-meats-chain-closing-restaurants-nationwide/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "70 units ceased operations per latest FDD Item 20",
+          "detail": "The 2026 FDD Item 20 system data shows 70 ceased operations, alongside low attrition signals (8 non-renewals, 57 transfers) and 115 reacquired units sold to franchisees.",
+          "source": "FranDB (2026 FDD analysis)",
+          "url": "https://www.frandb.com/franchise/arby-s-2/2026",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "New-franchisee availability currently limited",
+          "detail": "Third-party franchise portals report Arby's is not currently accepting new applicants, noting the brand 'has reached its current goals thanks to high demand, with more opportunities coming soon'; no open-market list is published by the franchisor.",
+          "source": "Franchise Gator / Franchising.com",
+          "url": "https://www.franchisegator.com/franchises/arbys/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 500000,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net worth requirement $1,000,000."
+        },
+        "totalInvestmentMin": {
+          "value": 644950,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur (2026): $644,950-$2,451,000. FranDB's 2026 FDD analysis lists $651,550-$2,456,600 — minor variance between FDD years/formats."
+        },
+        "totalInvestmentMax": {
+          "value": 2451000,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 37500,
+          "source": "https://sharpsheets.io/blog/arbys-franchise-costs-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "$37,500 for the first unit, $25,000 for each subsequent unit; Entrepreneur shows the $12,500-$37,500 range."
+        },
+        "royaltyPercent": {
+          "value": 4,
+          "source": "https://sharpsheets.io/blog/arbys-franchise-costs-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "4% of gross sales for traditional restaurants; 6.2% for non-traditional restaurants."
+        },
+        "adFundPercent": {
+          "value": 1.2,
+          "source": "https://sharpsheets.io/blog/arbys-franchise-costs-profits/",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "1.2% of gross sales to the franchisee-owned marketing association/national advertising, plus a required minimum 3% local store marketing spend. Entrepreneur lists a combined 5.2% ad royalty; FranDB shows 3.22%-5.0%."
+        },
+        "avgUnitRevenue": {
+          "value": 1274787,
+          "source": "https://www.frandb.com/franchise/arby-s-2/2026",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Item 19 (2026 FDD): average gross revenue of 2,182 franchised traditional restaurants open the full year 2025; median $1,201,669."
+        },
+        "totalUnits": {
+          "value": 3570,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur 2026 systemwide count (+0.3%). 2026 FDD Item 20 (FranDB) lists 2,344 franchised + 921 company-owned; US count was 3,365 at end of 2024 (down 48 vs 2023)."
+        },
+        "closureCount": {
+          "value": 70,
+          "source": "https://www.frandb.com/franchise/arby-s-2/2026",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Ceased operations per 2026 FDD Item 20 system health data; reporting period not specified by source."
+        },
+        "yearFounded": {
+          "value": 1964,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "high",
+          "note": "First Arby's opened in Boardman, Ohio."
+        },
+        "yearFranchising": {
+          "value": 1965,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 8,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Derived from 336 hours of on-the-job training listed by Entrepreneur (approx. 8+ weeks full-time)."
+        },
+        "employeesRequired": {
+          "value": 15,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 15-25 employees; lower bound shown."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.franchimp.com/?page=pdf&f=106854_2025.pdf",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD publicly accessible via FranChimp."
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://www.frandb.com/franchise/arby-s-2/2026",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "high",
+          "note": "50% discount on the development fee, license fee waived, and a royalty reduction in year one for honorably discharged veterans."
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://sharpsheets.io/blog/arbys-franchise-costs-profits/",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Reduced $25,000 license fee for each subsequent unit; system growth driven by large multi-unit operators (e.g., AES Restaurant Group at 344 stores)."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists absentee ownership as allowed."
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/arbys/282098",
+          "year": 2026,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "Little Caesars",
+      "slug": "little-caesars",
+      "category": "Food & Beverage",
+      "website": "littlecaesars.com",
+      "notes": "Third-largest pizza chain in the world (behind Pizza Hut and Domino's), founded in Detroit in 1959 and family-owned (Ilitch). Carryout-focused model with one of the lowest entry costs among major pizza brands, but the FDD contains no Item 19 financial performance representation. Franchise development site: franchise.littlecaesars.com.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "No Item 19 financial performance representation in FDD",
+          "detail": "Little Caesars does not disclose unit-level financial performance (Item 19) in its FDD, making it harder for prospects to verify revenue and profit claims before buying.",
+          "source": "Franchise Investor Data (FDD analysis)",
+          "url": "https://franchiseinvestordata.com/franchise/little-caesars",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Multi-unit franchisee in repeat Chapter 11 bankruptcy",
+          "detail": "Red Door Pizza LLC, a multi-unit Little Caesars (and Taco John's) franchisee, filed Chapter 11 again in 2025 — it operated 31 restaurants at its December 2022 filing and 15 at its 2025 filing.",
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/restaurants/major-pizza-and-taco-chain-franchisee-files-chapter-11-bankruptcy",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "EEOC racial harassment and retaliation suit against franchisee",
+          "detail": "The EEOC sued Target Market Enterprises, a Western Washington Little Caesars franchisee, in September 2025 for failing to stop racial harassment of Black employees at its Mount Vernon, WA store and for firing an employee who complained.",
+          "source": "U.S. Equal Employment Opportunity Commission",
+          "url": "https://www.eeoc.gov/newsroom/eeoc-sues-little-caesars-franchise-racial-harassment-and-retaliation",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Little Caesars Franchise (official)",
+        "url": "https://franchise.littlecaesars.com/",
+        "year": 2026,
+        "note": "Actively franchising across the US with regional franchise managers; the site describes 'accelerating franchise developments by targeting key markets across the country' and shows per-market availability tiers (Significant/Multiple/Limited Opportunities) rather than restricting to specific states."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 200000,
+          "source": "https://franchise.littlecaesars.com/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Minimum $200,000 liquid assets and $400,000 net worth."
+        },
+        "totalInvestmentMin": {
+          "value": 376500,
+          "source": "https://franchise.littlecaesars.com/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor site lists $376,500-$1,769,200; the 2025 FDD Item 7 range was $446,500-$1,817,200 (Entrepreneur/FDD Exchange)."
+        },
+        "totalInvestmentMax": {
+          "value": 1769200,
+          "source": "https://franchise.littlecaesars.com/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "2025 FDD listed $1,817,200 as the high end; franchisor site currently shows $1,769,200."
+        },
+        "franchiseFee": {
+          "value": 20000,
+          "source": "https://franchise.littlecaesars.com/",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "https://franchise.littlecaesars.com/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Greater of 6% of gross sales or a weekly minimum (reported as $300/week)."
+        },
+        "adFundPercent": {
+          "value": 5,
+          "source": "https://franchise.littlecaesars.com/",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Franchisor site and Entrepreneur list 5% marketing; some FDD-derived sources cite a 3%-7% combined marketing/brand fund range."
+        },
+        "totalUnits": {
+          "value": 4285,
+          "source": "https://www.entrepreneur.com/franchises/directory/little-caesars/331247",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur 2026 count (+2.3%); Franchise Investor Data breaks this into 3,705 franchised + 580 company-owned US locations."
+        },
+        "yearFounded": {
+          "value": 1959,
+          "source": "https://www.entrepreneur.com/franchises/directory/little-caesars/331247",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1962,
+          "source": "https://www.entrepreneur.com/franchises/directory/little-caesars/331247",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 7,
+          "source": "https://www.entrepreneur.com/franchises/directory/little-caesars/331247",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Derived from 250 hours on-the-job + 64 hours classroom training (approx. 7-8 weeks full-time)."
+        },
+        "employeesRequired": {
+          "value": 10,
+          "source": "https://www.entrepreneur.com/franchises/directory/little-caesars/331247",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 10-50 staff; lower bound shown."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://fddexchange.com/view-fdd-docs/little-caesars-2025-fdd-franchise-information-costs-and-fees/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": false,
+          "source": "https://franchiseinvestordata.com/franchise/little-caesars",
+          "year": 2026,
+          "confidence": "high",
+          "note": "No financial performance representation in the FDD."
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/little-caesars/331247",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Veterans Program: $5,000-$20,000 off franchise fee, equipment and initial food order discounts; enhanced package for disabled veterans and Gold Star families."
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://www.thestreet.com/restaurants/major-pizza-and-taco-chain-franchisee-files-chapter-11-bankruptcy",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "System includes multi-unit operators (e.g., 31-store franchisee); franchisor targets growth-minded operators in key markets."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/little-caesars/331247",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/little-caesars/331247",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/little-caesars/331247",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/little-caesars/331247",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/little-caesars/331247",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "+2.3% unit growth per Entrepreneur 2026; net addition of 69 units in 2024."
+        },
+        "minFootprint": {
+          "value": 470,
+          "source": "https://www.entrepreneur.com/franchises/directory/little-caesars/331247",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Non-traditional locations run 470-1,399 sq ft; traditional carryout stores are larger."
+        }
+      }
+    },
+    {
+      "name": "Zaxbys",
+      "slug": "zaxbys",
+      "category": "Food & Beverage",
+      "website": "zaxbys.com",
+      "notes": "Athens, GA-based chicken fingers and wings QSR founded 1990; surpassed 1,000 restaurants across 22 states in early 2026 as it expands beyond its Southeast core (Las Vegas, Phoenix, Philadelphia, New Jersey, Maryland). Very strong Item 19 AUV (~$2.78M) but one of the highest investment requirements in the chicken segment. Franchise site: zaxbys.com/franchise.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "High investment and capital requirements vs segment norms",
+          "detail": "Total investment of $1,445,000-$3,810,500 with $750,000 liquid capital and $1,000,000 net worth required — among the highest entry bars in chicken QSR franchising.",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/zaxbys/329223",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Negligence lawsuit naming Zaxby's corporate entities over franchise-location assault",
+          "detail": "A November 2025 suit in Pulaski County, AR (Case 60CV-25-13586) names Zaxby's Franchising LLC, Zaxby's Operating Company LP and franchisee DND Groups, alleging negligent hiring/supervision after a manager at a Sherwood, AR location was charged with sexually assaulting a minor employee.",
+          "source": "Restaurant News Resource",
+          "url": "https://www.restaurantnewsresource.com/legal-action-initiated-against-zaxbys-franchise-following-allegations-of-assault",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        {"state": "FL", "status": "open", "note": "Named a key growth market for 2026.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2026/02/zaxbys-surpasses-1000-locations-as-brand-transformation-fuels-momentum-into-2026/", "year": 2026},
+        {"state": "IL", "status": "open", "note": "Key growth market for 2026; also cited for 'immense availability' in 2025.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2026/02/zaxbys-surpasses-1000-locations-as-brand-transformation-fuels-momentum-into-2026/", "year": 2026},
+        {"state": "IN", "status": "open", "note": "Key growth market for 2026; Northwest Indiana development agreement signed April 2025.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2026/02/zaxbys-surpasses-1000-locations-as-brand-transformation-fuels-momentum-into-2026/", "year": 2026},
+        {"state": "KY", "status": "open", "note": "Named a key growth market for 2026.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2026/02/zaxbys-surpasses-1000-locations-as-brand-transformation-fuels-momentum-into-2026/", "year": 2026},
+        {"state": "MI", "status": "open", "note": "Key growth market for 2026; also cited for footprint availability in 2025.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2026/02/zaxbys-surpasses-1000-locations-as-brand-transformation-fuels-momentum-into-2026/", "year": 2026},
+        {"state": "OH", "status": "open", "note": "Named a key growth market for 2026.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2026/02/zaxbys-surpasses-1000-locations-as-brand-transformation-fuels-momentum-into-2026/", "year": 2026},
+        {"state": "TN", "status": "open", "note": "Named a key growth market for 2026.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2026/02/zaxbys-surpasses-1000-locations-as-brand-transformation-fuels-momentum-into-2026/", "year": 2026},
+        {"state": "TX", "status": "open", "note": "Named a key growth market for 2026.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2026/02/zaxbys-surpasses-1000-locations-as-brand-transformation-fuels-momentum-into-2026/", "year": 2026},
+        {"state": "VA", "status": "open", "note": "Named a key growth market for 2026.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2026/02/zaxbys-surpasses-1000-locations-as-brand-transformation-fuels-momentum-into-2026/", "year": 2026},
+        {"state": "IA", "status": "open", "note": "Cited as having 'immense availability' for footprint growth.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2025/04/zaxbys-signs-development-agreement-for-northwest-indiana/", "year": 2025},
+        {"state": "MN", "status": "open", "note": "Cited as having 'immense availability' for footprint growth.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2025/04/zaxbys-signs-development-agreement-for-northwest-indiana/", "year": 2025},
+        {"state": "MO", "status": "open", "note": "Cited as having 'immense availability'; 7-store Missouri development agreement signed February 2026.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2026/02/zaxbys-signs-7-store-development-agreement-in-missouri/", "year": 2026},
+        {"state": "WI", "status": "open", "note": "Cited as having 'immense availability' for footprint growth.", "source": "International Franchise Association / Zaxbys press release", "url": "https://www.franchise.org/2025/04/zaxbys-signs-development-agreement-for-northwest-indiana/", "year": 2025}
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 750000,
+          "source": "https://www.entrepreneur.com/franchises/directory/zaxbys/329223",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net worth requirement $1,000,000."
+        },
+        "totalInvestmentMin": {
+          "value": 1445000,
+          "source": "https://www.franchisechatter.com/2026/02/09/zaxbys-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "FDD Item 7 range $1,445,000-$3,810,500."
+        },
+        "totalInvestmentMax": {
+          "value": 3810500,
+          "source": "https://www.franchisechatter.com/2026/02/09/zaxbys-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 35000,
+          "source": "https://www.franchisechatter.com/2026/02/09/zaxbys-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "https://www.franchisechatter.com/2026/02/09/zaxbys-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "6% of weekly gross sales."
+        },
+        "adFundPercent": {
+          "value": 4,
+          "source": "https://www.franchisechatter.com/2026/02/09/zaxbys-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Marketing contribution up to 4% of weekly gross sales (Entrepreneur lists 3%-4%)."
+        },
+        "avgUnitRevenue": {
+          "value": 2782488,
+          "source": "https://www.franchisechatter.com/2026/02/09/zaxbys-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Item 19: average 2024 gross revenue of 776 franchised restaurants open the full year; median $2,710,374; range $1.0M-$6.3M."
+        },
+        "totalUnits": {
+          "value": 1000,
+          "source": "https://www.franchise.org/2026/02/zaxbys-surpasses-1000-locations-as-brand-transformation-fuels-momentum-into-2026/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Surpassed 1,000 restaurants across 22 states as of January 2026; FDD Item 20 showed 826 franchised + 143 company-owned at end of 2024."
+        },
+        "yearFounded": {
+          "value": 1990,
+          "source": "https://www.entrepreneur.com/franchises/directory/zaxbys/329223",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1994,
+          "source": "https://www.entrepreneur.com/franchises/directory/zaxbys/329223",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 4,
+          "source": "https://www.entrepreneur.com/franchises/directory/zaxbys/329223",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Derived from 135-400 hours on-the-job plus 32.5 hours classroom training (lower bound approx. 4 weeks full-time)."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://fddexchange.com/zaxbys-2025-fdd-franchise-information-costs-and-fees/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://www.franchisechatter.com/2026/02/09/zaxbys-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Item 19 includes revenue plus quartile cost-of-goods/labor data for reporting franchised restaurants."
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/zaxbys/329223",
+          "year": 2026,
+          "confidence": "high",
+          "note": "20% off franchise fee."
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://www.franchise.org/2026/02/zaxbys-signs-7-store-development-agreement-in-missouri/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Multi-store development agreements actively signed (e.g., 7-store Missouri deal, February 2026)."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/zaxbys/329223",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/zaxbys/329223",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/zaxbys/329223",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/zaxbys/329223",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.franchise.org/2026/02/zaxbys-surpasses-1000-locations-as-brand-transformation-fuels-momentum-into-2026/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "+30 net franchised units in 2024; targeting 60+ openings in 2026 with a long-term goal of 100 new stores annually."
+        }
+      }
+    },
+    {
+      "name": "Smoothie King",
+      "slug": "smoothie-king",
+      "category": "Food & Beverage",
+      "website": "smoothieking.com",
+      "notes": "Original US smoothie franchise (founded 1973, Dallas-based, privately held) with 1,200+ units nationwide. US system is growing steadily (74 openings and 101 new franchise commitments in 2025) though the brand exited South Korea in 2025. Franchise development site: smoothiekingfranchise.com, which publishes the full FDD.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Exited South Korea market (2025)",
+          "detail": "Smoothie King's Korean master franchise (Shinsegae Food) ceased operations by October 2025 after contract termination, closing the remaining ~90 stores (down from 305 in 2021). This drives the negative worldwide unit trend (-8% per Entrepreneur) despite US growth.",
+          "source": "The Korea Herald",
+          "url": "https://www.koreaherald.com/article/3479442",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Litigation disclosed in FDD",
+          "detail": "October 2025 settlement of an employee stock-option lawsuit (options repurchased at $1,750 each), and an ongoing civil action by multiple plaintiffs against Smoothie King Franchises, Inc. & SK USA, Inc. in US District Court (E.D.), per FDD disclosures.",
+          "source": "Vetted Biz (FDD analysis)",
+          "url": "https://www.vettedbiz.com/franchises/smoothie-king",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Same-store sales flat in 2024",
+          "detail": "Average same-store sales growth was 0.00% in 2024 vs 2023 (after +11.64% in 2023 vs 2022), per the Item 19 data in the FDD; average unit net sales dipped slightly from $661,316 (2023) to $659,567 (2024).",
+          "source": "Franchise Chatter (2026 FDD review)",
+          "url": "https://www.franchisechatter.com/2026/02/04/smoothie-king-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Smoothie King press release (PR Newswire)",
+        "url": "https://www.prnewswire.com/news-releases/smoothie-king-reports-strong-2025-with-74-new-store-openings-and-forecasts-90-locations-in-2026-302671860.html",
+        "year": 2026,
+        "note": "2025 development spanned 47 unique DMAs nationwide with first-ever stores in Utah and Minnesota; a 2026 franchisee incentive program targets AR, AZ, CO, IL, MA, MI, MN, NM, OK, PA, UT, VA and WI. Franchisor site offers an available-territories map."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 175000,
+          "source": "https://www.entrepreneur.com/franchises/directory/smoothie-king/282804",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net worth requirement $400,000."
+        },
+        "totalInvestmentMin": {
+          "value": 346350,
+          "source": "https://www.franchisechatter.com/2026/02/04/smoothie-king-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Inline/endcap locations $346,350-$679,465; freestanding drive-thru locations up to $1,277,650."
+        },
+        "totalInvestmentMax": {
+          "value": 1277650,
+          "source": "https://www.entrepreneur.com/franchises/directory/smoothie-king/282804",
+          "year": 2026,
+          "confidence": "high",
+          "note": "High end is freestanding location with drive-thru."
+        },
+        "franchiseFee": {
+          "value": 30000,
+          "source": "https://www.franchisechatter.com/2026/02/04/smoothie-king-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "$30,000 traditional store; $15,000 non-traditional store."
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "https://www.franchisechatter.com/2026/02/04/smoothie-king-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "6% of gross sales, subject to a $500 monthly minimum."
+        },
+        "adFundPercent": {
+          "value": 3,
+          "source": "https://www.franchisechatter.com/2026/02/04/smoothie-king-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "3% national marketing fee; rises to 5% if required 2% local marketing spend is not met where no regional fund exists."
+        },
+        "avgUnitRevenue": {
+          "value": 659567,
+          "source": "https://www.franchisechatter.com/2026/02/04/smoothie-king-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Item 19: average net sales of 1,026 franchised units for the 13-month period ending Dec 30, 2024. Franchisor site cites $828,761 average gross sales for the TOP 50% of traditional franchised units for calendar year ending Dec 29, 2025."
+        },
+        "totalUnits": {
+          "value": 1201,
+          "source": "https://www.franchisechatter.com/2026/02/04/smoothie-king-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "US FDD Item 20 at end of 2024: 1,149 franchised + 52 company-owned. Franchisor cites 1,200+ units nationwide; Entrepreneur lists 1,265 worldwide (-8%, reflecting the South Korea exit)."
+        },
+        "yearFounded": {
+          "value": 1973,
+          "source": "https://www.entrepreneur.com/franchises/directory/smoothie-king/282804",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Founded in Kenner, Louisiana."
+        },
+        "yearFranchising": {
+          "value": 1988,
+          "source": "https://www.entrepreneur.com/franchises/directory/smoothie-king/282804",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 4,
+          "source": "https://www.entrepreneur.com/franchises/directory/smoothie-king/282804",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Derived from 100-240 hours on-the-job plus 74-102 hours classroom training (lower bound approx. 4 weeks full-time)."
+        },
+        "employeesRequired": {
+          "value": 10,
+          "source": "https://www.entrepreneur.com/franchises/directory/smoothie-king/282804",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 10-15 staff; lower bound shown."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.smoothiekingfranchise.com/wp-content/uploads/2026/04/2026-27-FDD-Smoothie-King-complete-as-issued-4-8.pdf",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Full 2026-27 FDD published on the franchisor's own website."
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://www.smoothiekingfranchise.com/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor publicly cites Item 19-based average gross sales figures."
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/smoothie-king/282804",
+          "year": 2026,
+          "confidence": "high",
+          "note": "20% off franchise fee; ranked #11 in Entrepreneur's 2025 Top Franchises for Veterans."
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://www.smoothieking.com/news/smoothie-king-inks-multi-unit-development-deal-amplifying-presence-in-chicago-and-las-vegas",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Actively signs multi-unit development deals; ranked #11 in Entrepreneur's 2025 Top Brands for Multi-Unit Owners."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/smoothie-king/282804",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/smoothie-king/282804",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/smoothie-king/282804",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/smoothie-king/282804",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.prnewswire.com/news-releases/smoothie-king-reports-strong-2025-with-74-new-store-openings-and-forecasts-90-locations-in-2026-302671860.html",
+          "year": 2026,
+          "confidence": "high",
+          "note": "74 new US stores opened and 101 franchise commitments signed in 2025; 90+ openings forecast for 2026. US net franchised units +56 in 2024 (worldwide count fell due to South Korea exit)."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 100" fill="none">
+  <!-- Pin+Key icon matching Brent's chosen design (Concept A) -->
+  <!-- Updated with cyan (#06b6d4) accent color -->
+  <g transform="translate(8, 2)">
+    <!-- Pin body - navy on dark bg would be invisible, so use cyan -->
+    <path d="M32 4C19.85 4 10 13.85 10 26C10 41.5 32 68 32 68C32 68 54 41.5 54 26C54 13.85 44.15 4 32 4Z" fill="#06b6d4"/>
+    <!-- Keyhole circle cutout -->
+    <circle cx="32" cy="24" r="9" fill="#0a1628"/>
+    <!-- Inner keyhole dot -->
+    <circle cx="32" cy="22" r="4" fill="#06b6d4"/>
+    <!-- Keyhole slot -->
+    <rect x="30" y="23" width="4" height="8" rx="1" fill="#0a1628"/>
+    <!-- Key shaft extending down from pin -->
+    <rect x="28" y="60" width="8" height="28" rx="2" fill="#06b6d4"/>
+    <!-- Key teeth - left side, matching original design -->
+    <rect x="18" y="68" width="10" height="5" rx="1.5" fill="#06b6d4"/>
+    <rect x="20" y="78" width="8" height="5" rx="1.5" fill="#06b6d4"/>
+  </g>
+  <!-- "MapKi" text - white for dark backgrounds -->
+  <text x="82" y="62" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="50" font-weight="800" letter-spacing="-1">
+    <tspan fill="#ffffff">Map</tspan><tspan fill="#06b6d4">Ki</tspan>
+  </text>
+</svg>

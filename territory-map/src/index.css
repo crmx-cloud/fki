@@ -1,0 +1,708 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --sidebar-width: 16rem;
+  --sidebar-width-icon: 3rem;
+
+  --primary: var(--color-slate-900);
+  --primary-foreground: var(--color-white);
+  --sidebar-primary: var(--color-slate-900);
+  --sidebar-primary-foreground: var(--color-slate-50);
+
+  --success: var(--color-emerald-600);
+  --success-foreground: var(--color-white);
+  --warning: var(--color-amber-500);
+  --warning-foreground: var(--color-amber-950);
+  --info: var(--color-cyan-500);
+  --info-foreground: var(--color-white);
+
+  --chart-1: var(--color-teal-500);
+  --chart-2: var(--color-orange-500);
+  --chart-3: var(--color-cyan-500);
+  --chart-4: var(--color-rose-500);
+  --chart-5: var(--color-lime-500);
+
+  --radius: 0.625rem;
+  --background: oklch(0.985 0 0);
+  --foreground: oklch(0.15 0.01 260);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.15 0.01 260);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.15 0.01 260);
+  --secondary: oklch(0.96 0.005 260);
+  --secondary-foreground: oklch(0.3 0.01 260);
+  --muted: oklch(0.96 0.005 260);
+  --muted-foreground: oklch(0.45 0.015 260);
+  --accent: oklch(0.96 0.005 260);
+  --accent-foreground: oklch(0.15 0.01 260);
+  --destructive: oklch(0.55 0.22 25);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(0.92 0.005 260);
+  --input: oklch(0.92 0.005 260);
+  --ring: oklch(0.3 0.02 260);
+  --sidebar: oklch(0.98 0 0);
+  --sidebar-foreground: oklch(0.15 0.01 260);
+  --sidebar-accent: oklch(0.96 0.005 260);
+  --sidebar-accent-foreground: oklch(0.15 0.01 260);
+  --sidebar-border: oklch(0.92 0.005 260);
+  --sidebar-ring: oklch(0.3 0.02 260);
+}
+
+.dark {
+  --primary: var(--color-white);
+  --primary-foreground: var(--color-slate-900);
+  --sidebar-primary: var(--color-white);
+  --sidebar-primary-foreground: var(--color-slate-900);
+
+  --success: var(--color-emerald-400);
+  --success-foreground: var(--color-emerald-950);
+  --warning: var(--color-amber-400);
+  --warning-foreground: var(--color-amber-950);
+  --info: var(--color-cyan-400);
+  --info-foreground: var(--color-cyan-950);
+
+  --chart-1: var(--color-teal-400);
+  --chart-2: var(--color-orange-400);
+  --chart-3: var(--color-cyan-400);
+  --chart-4: var(--color-rose-400);
+  --chart-5: var(--color-lime-400);
+
+  --background: oklch(0.12 0.01 260);
+  --foreground: oklch(0.95 0.005 260);
+  --card: oklch(0.16 0.01 260);
+  --card-foreground: oklch(0.95 0.005 260);
+  --popover: oklch(0.16 0.01 260);
+  --popover-foreground: oklch(0.95 0.005 260);
+  --secondary: oklch(0.22 0.01 260);
+  --secondary-foreground: oklch(0.9 0.005 260);
+  --muted: oklch(0.22 0.01 260);
+  --muted-foreground: oklch(0.6 0.01 260);
+  --accent: oklch(0.22 0.01 260);
+  --accent-foreground: oklch(0.95 0.005 260);
+  --destructive: oklch(0.6 0.2 25);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 12%);
+  --ring: oklch(0.9 0.01 260);
+  --sidebar: oklch(0.14 0.01 260);
+  --sidebar-foreground: oklch(0.95 0.005 260);
+  --sidebar-accent: oklch(0.22 0.01 260);
+  --sidebar-accent-foreground: oklch(0.95 0.005 260);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.9 0.01 260);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1280px;
+    }
+  }
+}
+
+/* ==========================================
+   Leaflet territory map — glowing dot system
+   ========================================== */
+
+.custom-territory-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.territory-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+.territory-dot:hover {
+  transform: scale(1.3);
+}
+
+.territory-dot-inner {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  opacity: 0.95;
+}
+
+/* Glow ring — subtle, crisp radiance (not overwhelming) */
+.territory-dot::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  background: inherit;
+  opacity: 0.15;
+  filter: blur(3px);
+}
+
+/* Pulse animation — gentle pulse, not distracting */
+.pulse-marker {
+  animation: mapki-pulse 3s ease-in-out infinite;
+}
+
+@keyframes mapki-pulse {
+  0%, 100% {
+    box-shadow: 0 0 4px 1px var(--dot-color, currentColor);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 8px 3px var(--dot-color, currentColor);
+    transform: scale(1.08);
+  }
+}
+
+/* Status-specific colors (set via inline --dot-color in TerritoryMap) */
+.territory-dot[data-status="available"]     { --dot-color: #e91e9a; }
+.territory-dot[data-status="high_interest"] { --dot-color: #f59e0b; }
+.territory-dot[data-status="pending_award"] { --dot-color: #f97316; }
+.territory-dot[data-status="sold"]          { --dot-color: #ef4444; }
+.territory-dot[data-status="open"]          { --dot-color: #22c55e; }
+
+/* ==========================================
+   AI SWOT Analysis bar — futuristic shimmer
+   ========================================== */
+@keyframes swot-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes swot-glow-pulse {
+  0%, 100% { box-shadow: 0 0 15px rgba(6, 182, 212, 0.15), 0 0 6px rgba(6, 182, 212, 0.1), inset 0 1px 0 rgba(255,255,255,0.06); }
+  50% { box-shadow: 0 0 30px rgba(6, 182, 212, 0.28), 0 0 12px rgba(6, 182, 212, 0.18), inset 0 1px 0 rgba(255,255,255,0.08); }
+}
+
+@keyframes swot-streak {
+  0% { transform: translateX(-100%) skewX(-15deg); }
+  100% { transform: translateX(300%) skewX(-15deg); }
+}
+
+.swot-bar {
+  position: relative;
+  background: linear-gradient(135deg, #0c1425 0%, #162033 30%, #0e2a3d 60%, #0f172a 100%);
+  border: 1px solid rgba(6, 182, 212, 0.25);
+  animation: swot-glow-pulse 3s ease-in-out infinite;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* Shimmer sweep */
+.swot-bar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(6, 182, 212, 0.05) 15%,
+    rgba(6, 182, 212, 0.15) 45%,
+    rgba(99, 220, 255, 0.12) 55%,
+    rgba(6, 182, 212, 0.05) 85%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: swot-shimmer 2.5s ease-in-out infinite;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+/* Light streak that sweeps across periodically */
+.swot-bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(6, 182, 212, 0.08),
+    rgba(255, 255, 255, 0.06),
+    rgba(6, 182, 212, 0.08),
+    transparent
+  );
+  animation: swot-streak 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.swot-bar:hover {
+  border-color: rgba(6, 182, 212, 0.45);
+  box-shadow: 0 0 35px rgba(6, 182, 212, 0.3), 0 0 15px rgba(6, 182, 212, 0.2), 0 4px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+  transition: all 0.3s ease;
+}
+
+.swot-bar:hover::before {
+  animation-duration: 1.2s;
+}
+
+.swot-bar:hover::after {
+  animation-duration: 2s;
+}
+
+/* Dark popup styling for Leaflet */
+.dark-popup .leaflet-popup-content-wrapper {
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  color: #f1f5f9;
+  border-radius: 14px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.06);
+  border: none;
+  padding: 0;
+}
+
+.dark-popup .leaflet-popup-content {
+  margin: 14px 16px;
+}
+
+.dark-popup .leaflet-popup-tip {
+  background: rgba(15, 23, 42, 0.92);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dark-popup .leaflet-popup-close-button {
+  color: #64748b !important;
+  font-size: 16px;
+  top: 8px !important;
+  right: 10px !important;
+}
+
+.dark-popup .leaflet-popup-close-button:hover {
+  color: #f1f5f9 !important;
+}
+
+/* Leaflet overrides for dark theme */
+.leaflet-control-zoom a {
+  background: rgba(15, 23, 42, 0.8) !important;
+  backdrop-filter: blur(8px);
+  color: #94a3b8 !important;
+  border-color: rgba(255, 255, 255, 0.06) !important;
+}
+.leaflet-control-zoom a:hover {
+  background: rgba(30, 41, 59, 0.9) !important;
+  color: #f1f5f9 !important;
+}
+
+/* ── PerfectFit Quiz Budget Slider ── */
+.quiz-budget-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 10px;
+  border-radius: 9999px;
+  background: linear-gradient(to right, #06b6d4, #3b82f6);
+  outline: none;
+  cursor: pointer;
+}
+.quiz-budget-slider::-webkit-slider-runnable-track {
+  height: 10px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.quiz-budget-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid #06b6d4;
+  box-shadow: 0 0 12px rgba(6, 182, 212, 0.4);
+  margin-top: -9px;
+  cursor: grab;
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+.quiz-budget-slider::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.6);
+  transform: scale(1.1);
+}
+.quiz-budget-slider::-webkit-slider-thumb:active {
+  cursor: grabbing;
+  transform: scale(0.95);
+}
+.quiz-budget-slider::-moz-range-track {
+  height: 10px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.quiz-budget-slider::-moz-range-thumb {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid #06b6d4;
+  box-shadow: 0 0 12px rgba(6, 182, 212, 0.4);
+  cursor: grab;
+}
+.quiz-budget-slider::-moz-range-thumb:hover {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.6);
+}
+.quiz-budget-slider::-moz-range-progress {
+  height: 10px;
+  border-radius: 9999px;
+  background: linear-gradient(to right, #06b6d4, #3b82f6);
+}
+
+/* (duplicate removed) */
+
+/* ── Notification bell shake animation ── */
+@keyframes bell-shake {
+  0%, 100% { transform: rotate(0deg); }
+  15% { transform: rotate(12deg); }
+  30% { transform: rotate(-10deg); }
+  45% { transform: rotate(8deg); }
+  60% { transform: rotate(-6deg); }
+  75% { transform: rotate(3deg); }
+}
+.notification-bell-shake {
+  animation: bell-shake 0.6s ease-in-out;
+  animation-delay: 0.5s;
+  animation-iteration-count: 3;
+}
+
+/* ── State registration tooltip styling ── */
+.state-tooltip-leaflet {
+  background: rgba(15, 23, 42, 0.95) !important;
+  border: 1px solid rgba(56, 189, 248, 0.3) !important;
+  border-radius: 8px !important;
+  padding: 4px 8px !important;
+  color: #f1f5f9 !important;
+  font-size: 12px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+.state-tooltip-leaflet::before {
+  border-top-color: rgba(15, 23, 42, 0.95) !important;
+}
+
+/* ==========================================
+   Motion design system — public site layer
+   Scroll reveals, stagger, counters, hover
+   micro-interactions, ambient hero glow.
+   GPU-only properties (opacity / transform /
+   box-shadow / filter — no layout thrash).
+   ========================================== */
+
+/* ── Scroll-triggered reveal: soft fade-up, ease-out, runs once ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Staggered child reveal (~80ms apart, capped at first 10 items) ── */
+.reveal-stagger > * {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal-stagger.reveal-visible > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-stagger.reveal-visible > *:nth-child(2) { transition-delay: 80ms; }
+.reveal-stagger.reveal-visible > *:nth-child(3) { transition-delay: 160ms; }
+.reveal-stagger.reveal-visible > *:nth-child(4) { transition-delay: 240ms; }
+.reveal-stagger.reveal-visible > *:nth-child(5) { transition-delay: 320ms; }
+.reveal-stagger.reveal-visible > *:nth-child(6) { transition-delay: 400ms; }
+.reveal-stagger.reveal-visible > *:nth-child(7) { transition-delay: 480ms; }
+.reveal-stagger.reveal-visible > *:nth-child(8) { transition-delay: 560ms; }
+.reveal-stagger.reveal-visible > *:nth-child(9) { transition-delay: 640ms; }
+/* Deep grids: everything past the first 9 lands together — no long tail lag */
+.reveal-stagger.reveal-visible > *:nth-child(n + 10) { transition-delay: 700ms; }
+
+/* ── Ambient hero glow: slow drifting radial cyan, barely perceptible ── */
+.hero-ambient {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  width: 75rem;
+  height: 75rem;
+  margin-left: -37.5rem;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(34, 211, 238, 0.07) 0%,
+    rgba(34, 211, 238, 0.025) 40%,
+    transparent 65%
+  );
+  animation: hero-glow-drift 26s ease-in-out infinite alternate;
+  pointer-events: none;
+  will-change: transform;
+}
+@keyframes hero-glow-drift {
+  0%   { transform: translate3d(-4%, -2%, 0) scale(1); }
+  100% { transform: translate3d(4%, 3%, 0) scale(1.06); }
+}
+
+/* ── Premium button micro-interactions (scoped to .motion-page) ── */
+.motion-page button:not(:disabled) {
+  transition:
+    color 0.15s ease,
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    opacity 0.15s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .motion-page button:not(:disabled):hover {
+    transform: translateY(-1px);
+    filter: brightness(1.08);
+    box-shadow: 0 4px 14px -4px rgba(34, 211, 238, 0.35);
+  }
+}
+/* Tap feedback — works as the mobile alternative to hover */
+.motion-page button:not(:disabled):active {
+  transform: translateY(0) scale(0.98);
+  transition-duration: 0.1s;
+}
+
+/* ── Card hover lift: 4–6px rise, soft shadow, subtle border highlight ── */
+.card-lift {
+  transition:
+    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.3s ease,
+    border-color 0.3s ease,
+    background-color 0.3s ease,
+    color 0.15s ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .card-lift:hover {
+    transform: translateY(-5px);
+    box-shadow:
+      0 14px 30px -10px rgba(0, 0, 0, 0.5),
+      0 0 0 1px rgba(34, 211, 238, 0.15);
+  }
+}
+/* Tap-based alternative on touch devices */
+@media (hover: none) {
+  .card-lift:active {
+    transform: scale(0.99);
+  }
+}
+
+/* ── Form field focus: border glow (scoped to .motion-page) ── */
+.motion-page input:not([type="checkbox"]):not([type="radio"]),
+.motion-page select,
+.motion-page textarea {
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.25s ease,
+    background-color 0.2s ease;
+}
+.motion-page input:not([type="checkbox"]):not([type="radio"]):focus,
+.motion-page select:focus,
+.motion-page textarea:focus {
+  border-color: rgba(34, 211, 238, 0.5);
+  box-shadow:
+    0 0 0 3px rgba(34, 211, 238, 0.12),
+    0 0 14px rgba(34, 211, 238, 0.18);
+  outline: none;
+}
+
+/* ── Tab / segmented toggle: smooth pop on the active state ── */
+@keyframes tab-pop {
+  0%   { transform: scale(0.9); }
+  60%  { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+.tab-active-pop {
+  animation: tab-pop 0.25s ease-out;
+}
+
+/* ── Light-theme variants (white-background brand pages) ── */
+@media (hover: hover) and (pointer: fine) {
+  /* Softer cyan glow that reads correctly on white */
+  .motion-page-light button:not(:disabled):hover {
+    filter: brightness(1.03);
+    box-shadow: 0 4px 12px -6px rgba(8, 145, 178, 0.35);
+  }
+  /* Lighter shadow + subtle cyan ring tuned for light cards */
+  .card-lift-light:hover {
+    box-shadow:
+      0 12px 26px -14px rgba(15, 23, 42, 0.25),
+      0 0 0 1px rgba(8, 145, 178, 0.15);
+  }
+}
+
+/* ── Tab panel entrance: brief fade-up when the active tab changes ── */
+@keyframes tab-panel-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.tab-panel-in {
+  animation: tab-panel-in 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ── Verification seal: one-time fade-in + slight scale (trust moment) ── */
+.seal-reveal {
+  opacity: 0;
+  transform: scale(0.97);
+  transition:
+    opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.seal-reveal.reveal-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ── RED FLAG chip: single subtle attention pulse on first reveal ── */
+@keyframes flag-pulse-once {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.1); }
+}
+.reveal-visible .flag-pulse-once {
+  animation: flag-pulse-once 0.7s ease-in-out 0.6s 1;
+}
+
+/* ── Mobile: reduce motion intensity ── */
+@media (max-width: 640px) {
+  .reveal,
+  .reveal-stagger > * {
+    transform: translateY(10px);
+  }
+}
+
+/* ==========================================
+   Reduced motion fallback — disables or
+   minimizes the entire motion layer.
+   Keep this block LAST in the file.
+   ========================================== */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal-stagger > *,
+  .seal-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .hero-ambient,
+  .tab-active-pop,
+  .tab-panel-in,
+  .flag-pulse-once,
+  .pulse-marker,
+  .swot-bar,
+  .swot-bar::before,
+  .swot-bar::after,
+  .notification-bell-shake {
+    animation: none !important;
+  }
+  .card-lift,
+  .motion-page button:not(:disabled) {
+    transition: none !important;
+  }
+  .card-lift:hover,
+  .card-lift:active,
+  .motion-page button:not(:disabled):hover,
+  .motion-page button:not(:disabled):active {
+    transform: none !important;
+    filter: none !important;
+  }
+}

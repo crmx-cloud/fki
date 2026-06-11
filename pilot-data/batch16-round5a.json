@@ -1,0 +1,468 @@
+{
+  "brands": [
+    {
+      "name": "Costa Oil",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Pending litigation disclosed",
+          "detail": "Franchimp's FDD-derived database notes 1 pending litigation action for Costa Oil. Nature of the action is not detailed in public summaries; prospective buyers should review Item 3 of the current FDD.",
+          "source": "Franchimp (FDD database)",
+          "url": "https://www.franchimp.com/franchise/costa-oil-123642",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Investment can reach $1.88M against ~$221K disclosed AUV",
+          "detail": "The land-purchase build model tops out near $1.88M per Entrepreneur/FDD, while the only public Item 19 figure is ~$221,000 AUV (2023 FDD, franchisepayback). At the high end of the range, payback economics are not supported by disclosed revenue figures.",
+          "source": "Entrepreneur / FranchisePayback",
+          "url": "https://www.franchisepayback.com/franchise/costa-oil",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Sharply conflicting unit counts across sources",
+          "detail": "Entrepreneur (2026) lists 53 units (+278.6% 3-yr). The 2023 FDD showed 24 units (9 franchised, 15 company-owned). Franchimp's summary shows 0 franchised / 13 company-owned and 'franchising since 2022' vs Entrepreneur's 2020. The franchised vs corporate mix is materially unclear.",
+          "source": "Entrepreneur vs FranchisePayback vs Franchimp",
+          "url": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 60000, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": "Entrepreneur cash requirement; net worth $150,000."},
+        "totalInvestmentMin": {"value": 155750, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": "Older FDD/Franchise Gator cite $131,750-$212,900; range expanded as real-estate models added. Conflict flagged."},
+        "totalInvestmentMax": {"value": 1879900, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": "High end reflects purchased-land/new-build model; leased kiosk model far lower (~$156K-$213K)."},
+        "franchiseFee": {"value": 54900, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "high", "note": "Confirmed by Franchise Gator and Wolf of Franchises (FDD-derived)."},
+        "royaltyPercent": {"value": 6.5, "source": "https://www.franchisechatter.com/2022/03/04/32-substantial-fees-every-costa-oil-franchisee-needs-to-know/", "year": 2022, "confidence": "high", "note": "6.5% of gross revenue, $150/week minimum (FDD fee table); confirmed by Entrepreneur 2026."},
+        "adFundPercent": {"value": 2.0, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": "CONFLICT: Entrepreneur and Franchise Chatter (FDD) say 2%; franchisepayback reports 4.5% advertising fund. 2% is the better-corroborated figure."},
+        "avgUnitRevenue": {"value": 221000, "source": "https://www.franchisepayback.com/franchise/costa-oil", "year": 2023, "confidence": "medium", "note": "AUV from 2023 FDD per franchisepayback; sample size not disclosed. Reported operating profit ~19.3%."},
+        "item19Available": {"value": true, "source": "https://www.franchisepayback.com/franchise/costa-oil", "year": 2023, "confidence": "medium", "note": "AUV figure attributed to FDD Item 19 by franchisepayback."},
+        "fddAvailable": {"value": true, "source": "https://franchiseoverview.com/company/costa-oil", "year": 2026, "confidence": "high", "note": "FDD registered and summarized by multiple FDD databases."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory was discontinued May 2023; SBA eligibility is now lender-determined. No source verifies status."},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": "$5,000 off franchise fee for veterans."},
+        "multiUnitAvailable": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No source explicitly confirms multi-unit/area development offering."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.franchisepayback.com/franchise/costa-oil", "year": 2023, "confidence": "medium", "note": "Exclusive marketing area of ~50,000 people or 3-mile radius; Entrepreneur also lists exclusive territories available."},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": "Absentee ownership not allowed; part-time operation permitted, suggesting semi-absentee may be tolerated but is not documented."},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "high", "note": "Physical oil-change facility required."},
+        "canRunPartTime": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists part-time operation as permitted."},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": ""},
+        "trainingWeeks": {"value": 1, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "low", "note": "40 total hours (20 on-the-job + 20 classroom) per Entrepreneur, approximately one week. Hours, not weeks, are the sourced figure."},
+        "ongoingSupport": {"value": ["grand opening", "online support", "lease negotiation", "field operations", "site selection", "proprietary software", "franchisee intranet"], "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": ""},
+        "marketingSupport": {"value": ["ad templates", "national media", "social media", "SEO", "website development", "email marketing", "loyalty program/app"], "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": ""},
+        "employeesRequired": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "low", "note": "Entrepreneur lists 0 employees required, which is implausible for an operating oil-change shop; treat as data caveat."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No sourced square-footage minimum found."},
+        "totalUnits": {"value": 53, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": "CONFLICT: 2023 FDD showed 24 units (9 franchised/15 corporate); Franchimp shows 0 franchised/13 corporate. See riskFlags."},
+        "yearFounded": {"value": 2014, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": ""},
+        "yearFranchising": {"value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": "CONFLICT: Franchimp says franchising since 2022."},
+        "closureCount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Item 20 closure detail not available in public summaries."},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/costa-oil/336242", "year": 2026, "confidence": "medium", "note": "+278.6% 3-year unit growth per Entrepreneur, but growth is partly company-owned units."}
+      },
+      "notes": "Fast-growing young oil-change brand (founded 2014, franchising ~2020-2022). Key diligence items: which build model (kiosk lease vs land purchase) drives the huge investment spread, the franchised-vs-corporate unit mix, and the pending litigation noted by Franchimp."
+    },
+    {
+      "name": "Big Frog Custom T-Shirts",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "System has been contracting since 2021",
+          "detail": "Franchised units fell from 82 (start of 2021) to 75 (end of 2023) per Item 20 data summarized by Franchise Chatter; Entrepreneur shows 74 units with a -1% 3-year growth rate. Revenue per store is rising, but net unit count is slowly shrinking.",
+          "source": "Franchise Chatter (2024 FDD review) / Entrepreneur",
+          "url": "https://www.franchisechatter.com/2024/09/28/fdd-talk-big-frog-custom-t-shirts-more-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Veteran discount reported inconsistently",
+          "detail": "Entrepreneur lists 20% off the franchise fee for veterans; Franchise Gator/FranNet materials cite a $10,000 franchise-fee discount (roughly 17% of $60K). Confirm current incentive in FDD Item 5.",
+          "source": "Entrepreneur vs Franchise Gator",
+          "url": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 250000, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "medium", "note": "Cash requirement per Entrepreneur; net worth $450,000. Confirmed by Franchise Gator."},
+        "totalInvestmentMin": {"value": 163987, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "high", "note": "2024 FDD table showed $161,109-$319,684 (Franchise Chatter); Entrepreneur figure reflects newer FDD."},
+        "totalInvestmentMax": {"value": 323110, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "high", "note": ""},
+        "franchiseFee": {"value": 60000, "source": "https://www.franchisechatter.com/2024/09/28/fdd-talk-big-frog-custom-t-shirts-more-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high", "note": "From 2024 FDD; confirmed by Entrepreneur."},
+        "royaltyPercent": {"value": 6.0, "source": "https://www.franchisechatter.com/2024/09/28/fdd-talk-big-frog-custom-t-shirts-more-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high", "note": "6% of gross sales for first 6 months; thereafter greater of 6% or $1,200/month."},
+        "adFundPercent": {"value": 1.5, "source": "https://www.franchisechatter.com/2024/09/28/fdd-talk-big-frog-custom-t-shirts-more-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high", "note": "Brand fund 1.5% of gross sales; PLUS required local marketing spend of greater of 5% of gross sales or $500/month."},
+        "avgUnitRevenue": {"value": 532909, "source": "https://www.franchisechatter.com/2024/09/28/fdd-talk-big-frog-custom-t-shirts-more-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high", "note": "2023 average gross revenue across 70 franchised stores open full 12 months (2024 FDD Item 19); median $477,842. 2022 avg was $523,501."},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2024/09/28/fdd-talk-big-frog-custom-t-shirts-more-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high", "note": "Multi-year Item 19 with average and median revenue."},
+        "fddAvailable": {"value": true, "source": "https://www.franchisechatter.com/2024/09/28/fdd-talk-big-frog-custom-t-shirts-more-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high", "note": "2024 FDD reviewed in detail; 2025 review also published by Franchise Chatter."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued May 2023; status lender-determined."},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "medium", "note": "CONFLICT on amount: 20% off fee (Entrepreneur) vs $10,000 off (Franchise Gator)."},
+        "multiUnitAvailable": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No source explicitly confirms multi-unit development program."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "medium", "note": ""},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "medium", "note": "Home-based, part-time, and absentee all disallowed; full-time owner-operator model."},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "high", "note": "Retail storefront required."},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "medium", "note": ""},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "medium", "note": ""},
+        "trainingWeeks": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "medium", "note": "Sourced as hours, not weeks: 146 hours on-the-job + 35 hours classroom (~4-5 weeks equivalent, not stated as weeks by any source)."},
+        "ongoingSupport": {"value": ["purchasing co-ops", "newsletter", "meetings & conventions", "toll-free line", "site selection", "lease negotiation", "proprietary software", "franchisee intranet"], "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "medium", "note": ""},
+        "marketingSupport": {"value": ["co-op advertising", "ad templates", "regional advertising", "social media", "SEO", "website development", "email marketing"], "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "medium", "note": ""},
+        "employeesRequired": {"value": 2, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "medium", "note": "Typical staffing 2-3 people plus the owner (FranNet)."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No sourced minimum square footage found."},
+        "totalUnits": {"value": 74, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "high", "note": "All franchised; no company-owned units per 2024 FDD Item 20."},
+        "yearFounded": {"value": 2007, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "high", "note": "Dunedin, FL."},
+        "yearFranchising": {"value": 2008, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "high", "note": ""},
+        "closureCount": {"value": 7, "source": "https://www.franchisechatter.com/2024/09/28/fdd-talk-big-frog-custom-t-shirts-more-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "medium", "note": "Net decline of 7 franchised units 2021-2023 (82 to 75): -4 in 2021, -2 in 2022, -1 in 2023. Net change, not gross closures."},
+        "isGrowing": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/big-frog-custom-t-shirts-more/334225", "year": 2026, "confidence": "high", "note": "-1% 3-year unit growth; slow contraction since 2021 despite rising per-store revenue."}
+      },
+      "notes": "Mature (franchising since 2008) custom-apparel retail brand. Strongest Item 19 in this batch: $532,909 average / $477,842 median gross revenue (2023, n=70). Trade-off is a slowly shrinking system and a high effective marketing burden (1.5% brand fund + 5%/$500 local minimum)."
+    },
+    {
+      "name": "Magnolia Soap and Bath Co.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Investment-to-revenue ratio is thin for boutique retail",
+          "detail": "Total investment runs $271,900-$498,500 against disclosed average gross sales of ~$304,771 (Vetted Biz from 2025 FDD). At the upper investment range, gross revenue roughly equals the buildout cost, implying a long payback for a soap/personal-care retail concept.",
+          "source": "Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/magnolia-soap/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Royalty and unit-count figures conflict across sources",
+          "detail": "Royalty reported as 7% (Entrepreneur, Vetted Biz) but 8% by at least one FDD summary; unit counts range from 40 franchised (2025 FDD per FDD Exchange) to 50 (Vetted Biz) to 60 (Entrepreneur 2026).",
+          "source": "Entrepreneur vs FDD Exchange vs Vetted Biz",
+          "url": "https://fddexchange.com/view-fdd-docs/magnolia-soap-and-bath-co-2025-fdd-franchise-information-costs-and-fees/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Young system",
+          "detail": "Franchising only since 2021; most units have short operating histories, so Item 19 averages rest on a young store base.",
+          "source": "Entrepreneur",
+          "url": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "medium", "note": "CONFLICT: Vetted Biz lists minimum cash of $65,000. Net worth requirement $350,000 (Entrepreneur)."},
+        "totalInvestmentMin": {"value": 271900, "source": "https://fddexchange.com/view-fdd-docs/magnolia-soap-and-bath-co-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high", "note": "2025 FDD figure, matched by Entrepreneur and Vetted Biz. Includes $183,500-$223,000 paid to franchisor/affiliates."},
+        "totalInvestmentMax": {"value": 498500, "source": "https://fddexchange.com/view-fdd-docs/magnolia-soap-and-bath-co-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high", "note": ""},
+        "franchiseFee": {"value": 60000, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "high", "note": "Confirmed by Vetted Biz (2025 FDD)."},
+        "royaltyPercent": {"value": 7.0, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "medium", "note": "CONFLICT: 7% per Entrepreneur and Vetted Biz; one FDD summary reports 8%. Verify in current FDD Item 6."},
+        "adFundPercent": {"value": 2.0, "source": "https://www.vettedbiz.com/franchises/magnolia-soap/", "year": 2025, "confidence": "medium", "note": "CONFLICT: 2% per Entrepreneur/Vetted Biz; one source cites 1% marketing fee."},
+        "avgUnitRevenue": {"value": 304771, "source": "https://www.vettedbiz.com/franchises/magnolia-soap/", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per Vetted Biz from 2025 FDD; sample size not disclosed."},
+        "item19Available": {"value": true, "source": "https://www.vettedbiz.com/franchises/magnolia-soap/", "year": 2025, "confidence": "medium", "note": "Vetted Biz reports FDD-derived average gross sales, indicating an Item 19 disclosure."},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/magnolia-soap-and-bath-co-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high", "note": "2025 FDD on file with FDD Exchange."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued May 2023; status lender-determined."},
+        "veteranDiscount": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists veterans incentive as N/A."},
+        "multiUnitAvailable": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No source explicitly confirms multi-unit offering."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "medium", "note": ""},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "medium", "note": "Absentee not allowed; part-time operation permitted."},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "high", "note": "Retail storefront concept."},
+        "canRunPartTime": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "medium", "note": ""},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "medium", "note": ""},
+        "trainingWeeks": {"value": 1, "source": "https://www.vettedbiz.com/franchises/magnolia-soap/", "year": 2025, "confidence": "medium", "note": "Five-day program at headquarters (Vetted Biz); Entrepreneur lists 32 hours on-the-job + 33 hours classroom."},
+        "ongoingSupport": {"value": ["purchasing co-ops", "newsletter", "meetings & conventions", "grand opening", "online support", "site selection"], "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "medium", "note": ""},
+        "marketingSupport": {"value": ["social media", "SEO", "website development", "email marketing", "loyalty program/app"], "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "medium", "note": ""},
+        "employeesRequired": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "low", "note": "Entrepreneur lists 0; implausible for staffed retail, treat as data caveat."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No sourced square-footage minimum found."},
+        "totalUnits": {"value": 60, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "medium", "note": "CONFLICT: 40 franchised per 2025 FDD (FDD Exchange); 50 per Vetted Biz; 60 per Entrepreneur 2026."},
+        "yearFounded": {"value": 2018, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "medium", "note": "CONFLICT: Vetted Biz lists 2021 (likely franchisor entity formation). New Albany, Mississippi."},
+        "yearFranchising": {"value": 2021, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "high", "note": ""},
+        "closureCount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Item 20 closure data not available in public summaries."},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/magnolia-soap-and-bath-co/336634", "year": 2026, "confidence": "medium", "note": "+122.2% 3-year unit growth."}
+      },
+      "notes": "Fast-growing boutique natural soap/personal-care retail franchise out of Mississippi. Growth is real but the system is young (franchising 2021) and the economics (avg ~$305K gross sales vs up to $499K investment) deserve scrutiny at high-cost sites."
+    },
+    {
+      "name": "DumpStor",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Non-percentage royalty structure",
+          "detail": "Royalty is a flat weekly per-dumpster fee ($19.50/dumpster/week for 1-50 units; $15 for 51+), plus $2/container/week brand fund and $40/dumpster/month required local marketing — not a percentage of revenue. One database (franchisepayback) instead reports a 6% royalty, likely from a different FDD year; verify current Item 6.",
+          "source": "IFPG / SharpSheets",
+          "url": "https://www.ifpg.org/top-franchises/dumpstor",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting founding/franchising dates and unit counts",
+          "detail": "Founded 2018 + franchising 2020 (franchisepayback) vs founded/franchising 2021 (IFPG, Vetted Biz); 2024 FDD showed 11 units (9 franchised/2 corporate) while IFPG's 2026 profile shows 39 franchised + 5 company-owned. Very young, fast-changing system.",
+          "source": "FranchisePayback vs IFPG vs Vetted Biz",
+          "url": "https://www.franchisepayback.com/franchise/dumpstor",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Wide investment range against modest disclosed revenue",
+          "detail": "Investment spans roughly $124K-$508K depending on truck/container fleet, while disclosed average gross sales are ~$380K (Vetted Biz, 2024 FDD). High-end fleet builds carry payback estimates of 5.6-7.6 years per Vetted Biz.",
+          "source": "Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/dumpstor/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "medium", "note": "IFPG: $100K-$250K liquid; net worth $400,000. CONFLICT: Vetted Biz lists minimum cash $40,000."},
+        "totalInvestmentMin": {"value": 124635, "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "medium", "note": "2024 FDD showed $114,335-$504,350 (franchisepayback); IFPG 2026 shows $124,635-$507,850."},
+        "totalInvestmentMax": {"value": 507850, "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "medium", "note": "High end reflects larger container/truck fleet."},
+        "franchiseFee": {"value": 49950, "source": "https://www.franchisepayback.com/franchise/dumpstor", "year": 2024, "confidence": "high", "note": "Confirmed by IFPG."},
+        "royaltyPercent": {"value": null, "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "medium", "note": "Not percentage-based: $19.50/dumpster/week (1-50 dumpsters), $15/dumpster/week (51+). CONFLICT: franchisepayback reports 6% from 2024 FDD summary."},
+        "adFundPercent": {"value": null, "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "medium", "note": "Not percentage-based: brand fund $2/container/week plus $40/dumpster/month required local marketing spend."},
+        "avgUnitRevenue": {"value": 380274, "source": "https://www.vettedbiz.com/franchises/dumpstor/", "year": 2024, "confidence": "medium", "note": "Yearly gross sales per Vetted Biz from 2024 FDD; franchisepayback reports $387,000 AUV. Sample size not disclosed — likely very small (system had ~9 franchised units)."},
+        "item19Available": {"value": true, "source": "https://www.vettedbiz.com/franchises/dumpstor/", "year": 2024, "confidence": "medium", "note": "Gross sales figure attributed to FDD; IFPG also notes financial performance data available."},
+        "fddAvailable": {"value": true, "source": "https://www.franchisepayback.com/franchise/dumpstor", "year": 2024, "confidence": "high", "note": "2024 FDD on file with FDD databases."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued May 2023; status lender-determined."},
+        "veteranDiscount": {"value": true, "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "medium", "note": "IFPG notes a veteran discount is provided; amount not specified."},
+        "multiUnitAvailable": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Royalty tiering above 50 dumpsters implies scalability, but no source confirms a multi-territory program."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.franchisepayback.com/franchise/dumpstor", "year": 2024, "confidence": "medium", "note": "Limited territory protection within zip-code-defined areas of up to 350,000 people; franchisor may adjust based on performance."},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "medium", "note": "IFPG: owner expected to be involved in all aspects of day-to-day operations."},
+        "canRunFromHome": {"value": true, "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "medium", "note": "Home-based opportunity per IFPG (equipment stored in yard/lot)."},
+        "canRunPartTime": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No source addresses part-time operation."},
+        "absenteeOwnership": {"value": false, "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "medium", "note": "Owner-operator involvement expected."},
+        "trainingWeeks": {"value": 2, "source": "https://www.vettedbiz.com/franchises/dumpstor/", "year": 2025, "confidence": "low", "note": "CONFLICT: Vetted Biz says two weeks at corporate HQ; IFPG says 23 hours classroom/hands-on plus optional 2-day driver training."},
+        "ongoingSupport": {"value": ["corporate HQ training", "on-location driver training (optional)", "ongoing operational support"], "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "low", "note": "Support detail is thin in public sources."},
+        "marketingSupport": {"value": ["brand fund", "required local marketing program ($40/dumpster/month)"], "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "low", "note": ""},
+        "employeesRequired": {"value": 1, "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "medium", "note": "IFPG: 1-2 typical employees."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No retail footprint; storage yard requirements not publicly specified."},
+        "totalUnits": {"value": 44, "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "medium", "note": "39 franchised + 5 company-owned per IFPG 2026. CONFLICT: 2024 FDD showed 11 total (9 franchised/2 corporate)."},
+        "yearFounded": {"value": 2018, "source": "https://www.franchisepayback.com/franchise/dumpstor", "year": 2025, "confidence": "low", "note": "CONFLICT: franchisepayback says founded 2018 by Joe Martino (Manassas, VA); IFPG and Vetted Biz say 2021; one directory says brand roots to 2008."},
+        "yearFranchising": {"value": 2021, "source": "https://www.vettedbiz.com/franchises/dumpstor/", "year": 2025, "confidence": "low", "note": "CONFLICT: franchisepayback says franchising began 2020."},
+        "closureCount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Item 20 closure data not available in public summaries; rapid growth phase."},
+        "isGrowing": {"value": true, "source": "https://www.ifpg.org/top-franchises/dumpstor", "year": 2026, "confidence": "medium", "note": "From ~11 units (2024 FDD) to 44 (IFPG 2026)."}
+      },
+      "notes": "Dumpster rental + jobsite storage hybrid (patent-pending DumpStor Pro combo unit). Per-dumpster flat-fee royalty model rewards high utilization. Young, fast-growing, B2B-focused, home-based capable. Data quality is the weakest in this batch — dates, fees, and unit counts all conflict across sources; FDD verification recommended before any customer-facing use."
+    },
+    {
+      "name": "Exit Factor",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Essentially no franchised operating history",
+          "detail": "The 2024 FDD showed 4 company-owned and 0 franchised units (franchising since 2023). The brand then claims 66 new territories launched in 2025 and Entrepreneur lists 85 units in 2026 — meaning nearly the entire system has under two years of operating history, and no franchised unit results existed when most current owners bought in.",
+          "source": "FranchisePayback / United Franchise Group / Entrepreneur",
+          "url": "https://www.franchisepayback.com/franchise/exit-factor",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Item 19 / revenue figures conflict",
+          "detail": "Franzy/Vetted Biz indicate Item 19 financials are included and directories circulate a ~$211K average revenue figure, but franchisepayback states the FDD 'does not disclose the average unit volume' — the $211K appears to be a third-party estimate, not an FDD-disclosed AUV. avgUnitRevenue therefore left null.",
+          "source": "FranchisePayback vs Franzy/Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/exit-factor/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Unusual 35-year agreement term",
+          "detail": "Entrepreneur lists a 35-year term of agreement, far longer than the 10-year industry norm — a long commitment to a brand with minimal track record.",
+          "source": "Entrepreneur",
+          "url": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 60000, "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": "Net worth requirement $100,000."},
+        "totalInvestmentMin": {"value": 62845, "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": "Older sources (Vetted Biz/SharpSheets) cite $59,000-$82,000 from the 2024 FDD."},
+        "totalInvestmentMax": {"value": 86995, "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": ""},
+        "franchiseFee": {"value": 39500, "source": "https://www.vettedbiz.com/franchises/exit-factor/", "year": 2025, "confidence": "high", "note": "Confirmed by Entrepreneur and franchisepayback."},
+        "royaltyPercent": {"value": 8.0, "source": "https://www.franchisepayback.com/franchise/exit-factor", "year": 2024, "confidence": "high", "note": "8% of gross revenue; Entrepreneur lists '8%+'."},
+        "adFundPercent": {"value": 2.0, "source": "https://www.franchisepayback.com/franchise/exit-factor", "year": 2024, "confidence": "high", "note": "2% marketing fund; Entrepreneur lists '2%+'."},
+        "avgUnitRevenue": {"value": null, "source": "https://www.franchisepayback.com/franchise/exit-factor", "year": 2024, "confidence": "low", "note": "CONFLICT: ~$211K average revenue circulates in directories (SharpSheets estimate basis), but franchisepayback states the FDD does not disclose AUV. No FDD-verified revenue figure; left null per accuracy rules."},
+        "item19Available": {"value": true, "source": "https://www.vettedbiz.com/franchises/exit-factor/", "year": 2025, "confidence": "low", "note": "Franzy/Vetted Biz mark Item 19 as included (likely corporate-unit data), but franchisepayback says no AUV is disclosed. Treat as Item 19 present but thin."},
+        "fddAvailable": {"value": true, "source": "https://www.vettedbiz.com/franchises/exit-factor/", "year": 2025, "confidence": "high", "note": "FDD issued 2024-04-18 (first); 2025 FDD summarized by multiple databases."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued May 2023; status lender-determined."},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": "10% off franchise fee (or 5% off transfer fee) for veterans."},
+        "multiUnitAvailable": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Master franchise plans announced internationally; domestic multi-territory offering not explicitly sourced."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.franchisepayback.com/franchise/exit-factor", "year": 2024, "confidence": "high", "note": "Exclusive Designated Marketing Area of at least 8,000 registered businesses; performance requirement of at least 1 client per 12-month period after year one."},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": "Home-based consulting model; absentee not allowed. Executive-style operation plausible but not documented."},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "high", "note": "Home-based business consulting concept."},
+        "canRunPartTime": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": ""},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": ""},
+        "trainingWeeks": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": "Sourced as hours: 20 on-the-job + 32 classroom at the Florida training center (remote option available); roughly one week equivalent, not stated as weeks."},
+        "ongoingSupport": {"value": ["purchasing co-ops", "newsletter", "meetings & conventions", "toll-free line", "grand opening", "online support", "field operations"], "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": ""},
+        "marketingSupport": {"value": ["co-op advertising", "ad templates", "national media", "regional advertising", "social media", "SEO", "website development", "email marketing"], "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": ""},
+        "employeesRequired": {"value": 1, "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": "Staff hires require five-day training within 60 days of hire."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Home-based; no footprint requirement found."},
+        "totalUnits": {"value": 85, "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": "CONFLICT: 2024 FDD showed 4 units (all company-owned, 0 franchised); UFG announced 66 territories launched in 2025. The 85 figure likely counts sold territories, not operating units."},
+        "yearFounded": {"value": 2018, "source": "https://www.entrepreneur.com/franchises/directory/exit-factor/335226675", "year": 2026, "confidence": "medium", "note": "CONFLICT: Vetted Biz describes concept as launched 2022. Part of United Franchise Group's Starpoint Brands division."},
+        "yearFranchising": {"value": 2023, "source": "https://www.vettedbiz.com/franchises/exit-factor/", "year": 2025, "confidence": "high", "note": "First FDD issued April 2024 per Vetted Biz; began offering franchises 2023."},
+        "closureCount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "System too young for meaningful closure history."},
+        "isGrowing": {"value": true, "source": "https://unitedfranchisegroup.com/news/exit-factor-accelerates-growth-with-new-franchise-agreements-announces-plans-to-expand-abroad/", "year": 2025, "confidence": "high", "note": "66 new territories launched in 2025; international expansion announced for Canada, Ireland, UK."}
+      },
+      "notes": "Business-exit/value-acceleration consulting franchise from United Franchise Group (sibling to Transworld Business Advisors). Low cost of entry and strong UFG infrastructure, but buyers are purchasing into a system where nearly all territories are under two years old and no FDD-verified franchisee revenue exists."
+    },
+    {
+      "name": "BooXkeeping",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High ongoing fee load for a B2B service",
+          "detail": "10% royalty plus 2% marketing fee on gross revenue is at the top of the range for bookkeeping/B2B service franchises, materially affecting net margins on a sub-$300K revenue base.",
+          "source": "Entrepreneur / Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/booxkeeping",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Item 19 revenue figures conflict sharply",
+          "detail": "Vetted Biz reports average yearly gross sales of $157,402 from the 2025 FDD, while 1851 Franchise reports average gross annual revenue of $281,915 (and $172,078 average gross profit) also citing the 2025 FDD. Sample sizes undisclosed and necessarily tiny given system size.",
+          "source": "Vetted Biz vs 1851 Franchise",
+          "url": "https://www.vettedbiz.com/franchises/booxkeeping",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Very small system with conflicting unit counts",
+          "detail": "Unit counts range from 4-5 (older Vetted Biz/sharpsheets data) to 10 (Vetted Biz current) to 17 (Entrepreneur 2026, +240% 3-yr). Any Item 19 average rests on a handful of units.",
+          "source": "Entrepreneur vs Vetted Biz",
+          "url": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": "CONFLICT: Vetted Biz lists $15,000 minimum liquid. Net worth $100,000 (Entrepreneur)."},
+        "totalInvestmentMin": {"value": 53046, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": "CONFLICT: Vetted Biz (2025 FDD) shows $67,546-$74,546; SharpSheets cites $38,046-$74,546. Range depends on franchise-fee tier."},
+        "totalInvestmentMax": {"value": 84046, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": ""},
+        "franchiseFee": {"value": 40000, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": "Tiered $40,000-$60,000 per Entrepreneur (likely by territory size); Vetted Biz cites $50,000 flat. Minimum tier recorded."},
+        "royaltyPercent": {"value": 10.0, "source": "https://www.vettedbiz.com/franchises/booxkeeping", "year": 2025, "confidence": "high", "note": "10% of monthly gross sales; confirmed by Entrepreneur."},
+        "adFundPercent": {"value": 2.0, "source": "https://www.vettedbiz.com/franchises/booxkeeping", "year": 2025, "confidence": "high", "note": "2% marketing/brand awareness fee; confirmed by Entrepreneur."},
+        "avgUnitRevenue": {"value": 157402, "source": "https://www.vettedbiz.com/franchises/booxkeeping", "year": 2025, "confidence": "low", "note": "CONFLICT: Vetted Biz $157,402 avg gross sales vs 1851 Franchise $281,915 avg gross revenue, both citing the 2025 FDD. Tiny sample either way. Verify against FDD Item 19 directly."},
+        "item19Available": {"value": true, "source": "https://www.vettedbiz.com/franchises/booxkeeping", "year": 2025, "confidence": "medium", "note": "Both Vetted Biz and 1851 report FDD-derived financial performance figures."},
+        "fddAvailable": {"value": true, "source": "https://www.vettedbiz.com/franchises/booxkeeping", "year": 2025, "confidence": "high", "note": "2025 FDD summarized by multiple databases."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued May 2023; status lender-determined."},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": "15% off franchise fee."},
+        "multiUnitAvailable": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Territory-based model; multi-territory offering not explicitly sourced."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": ""},
+        "ownerTypes": {"value": ["owner_operator", "semi_absentee"], "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "low", "note": "Home-based and part-time permitted (suggests semi-absentee feasible); absentee ownership not allowed."},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "high", "note": "Home-based bookkeeping services model."},
+        "canRunPartTime": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": ""},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": ""},
+        "trainingWeeks": {"value": 2, "source": "https://www.vettedbiz.com/franchises/booxkeeping", "year": 2025, "confidence": "medium", "note": "Two weeks at corporate office (Vetted Biz); Entrepreneur lists 40 hrs OTJ + 40 hrs classroom with a 12-month phased program."},
+        "ongoingSupport": {"value": ["co-op advertising", "proprietary software", "franchisee intranet", "field operations", "online support", "newsletter"], "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": ""},
+        "marketingSupport": {"value": ["co-op advertising", "website development", "SEO", "social media", "email marketing", "ad templates", "regional advertising"], "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": ""},
+        "employeesRequired": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 0-2 employees; can start solo."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Home-based; no footprint requirement."},
+        "totalUnits": {"value": 17, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": "CONFLICT: Vetted Biz currently shows 10 US locations; older data showed 4-5."},
+        "yearFounded": {"value": 2011, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": "CONFLICT: Vetted Biz lists 2013. HQ Las Vegas, NV (originally San Diego)."},
+        "yearFranchising": {"value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "high", "note": "Confirmed by Vetted Biz."},
+        "closureCount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Item 20 closure data not available in public summaries."},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/booxkeeping/335984", "year": 2026, "confidence": "medium", "note": "+240% 3-year growth from a very small base."}
+      },
+      "notes": "Low-cost, home-based outsourced bookkeeping franchise. Attractive entry point and recurring-revenue model, but the system is tiny, the published revenue figures disagree by ~$125K, and the 12% combined fee load is steep. Best presented with explicit small-sample caveats."
+    },
+    {
+      "name": "Travelin' Tom's Coffee",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "No Item 19 at a ~$200K-$260K price point",
+          "detail": "The 2025 FDD contains no financial performance representations — franchisee earnings cannot be verified from disclosure documents despite a quarter-million-dollar all-in investment. Buyers must rely on validation calls with existing operators.",
+          "source": "Vetted Biz / Coffee Franchise Hub",
+          "url": "https://www.vettedbiz.com/franchises/travelin-toms-coffee",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Flat-fee (non-percentage) royalty structure",
+          "detail": "Royalty is a fixed annual fee per truck: $3,000 (years 1-2), $4,000 (years 3-6), $5,000 (years 7-10), plus ~$1,000/year ad fee — favorable for high-revenue operators, but it also means the franchisor's revenue does not depend on franchisee sales performance.",
+          "source": "Travelin' Tom's (franchisor site) / Entrepreneur",
+          "url": "https://www.ownacoffeetruck.com/franchising-pricing/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Investment range conflict between Entrepreneur and franchisor",
+          "detail": "Entrepreneur lists $155,231-$171,950 while the franchisor's own site lists $201,620-$259,625 (truck alone ~$171,950). The Entrepreneur figure appears to exclude working capital and ancillary costs; franchisor figure used.",
+          "source": "Entrepreneur vs ownacoffeetruck.com",
+          "url": "https://www.ownacoffeetruck.com/franchising-pricing/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 30000, "source": "https://www.ownacoffeetruck.com/franchising-pricing/", "year": 2026, "confidence": "high", "note": "Franchisor states $30,000-$40,000 liquid. CONFLICT: Entrepreneur lists $20,000; Vetted Biz $45,000."},
+        "totalInvestmentMin": {"value": 201620, "source": "https://www.ownacoffeetruck.com/franchising-pricing/", "year": 2026, "confidence": "high", "note": "Franchisor's own figure; truck is ~$171,950 of it. CONFLICT: Entrepreneur lists $155,231-$171,950."},
+        "totalInvestmentMax": {"value": 259625, "source": "https://www.ownacoffeetruck.com/franchising-pricing/", "year": 2026, "confidence": "high", "note": "FDD databases cite $201,840-$255,325 (2025 FDD), consistent with franchisor range."},
+        "franchiseFee": {"value": 15000, "source": "https://www.ownacoffeetruck.com/franchising-pricing/", "year": 2026, "confidence": "high", "note": "One-time fee per truck."},
+        "royaltyPercent": {"value": null, "source": "https://www.ownacoffeetruck.com/franchising-pricing/", "year": 2026, "confidence": "high", "note": "Not percentage-based: flat $3,000/yr (years 1-2), $4,000/yr (years 3-6), $5,000/yr (years 7-10) per truck."},
+        "adFundPercent": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "medium", "note": "Not percentage-based: ~$1,000/year ad royalty plus $600/year technology fee per Entrepreneur."},
+        "avgUnitRevenue": {"value": null, "source": "https://www.vettedbiz.com/franchises/travelin-toms-coffee", "year": 2025, "confidence": "high", "note": "No Item 19 in the 2025 FDD; no FDD-verified revenue figure exists."},
+        "item19Available": {"value": false, "source": "https://www.vettedbiz.com/franchises/travelin-toms-coffee", "year": 2025, "confidence": "high", "note": "Confirmed by Coffee Franchise Hub: no earnings disclosure in Item 19 of the 2025 FDD."},
+        "fddAvailable": {"value": true, "source": "https://www.franchisepayback.com/franchise/mobile-coffee-company-travelin-toms-coffe", "year": 2026, "confidence": "high", "note": "Franchisor entity is Mobile Coffee Company (Florence, KY); 2025 FDD on file."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued May 2023; franchisor offers financing via strategic lenders."},
+        "veteranDiscount": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "low", "note": "Entrepreneur lists veteran incentives as not applicable; single-source."},
+        "multiUnitAvailable": {"value": true, "source": "https://www.entrepreneur.com/franchises/how-this-founder-went-from-side-hustle-to-2200-franchises/495938", "year": 2025, "confidence": "medium", "note": "Franchise fee and royalty are charged per truck; multi-truck ownership is part of the Kona Ice/Travelin' Tom's playbook."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.ownacoffeetruck.com/franchising-pricing/", "year": 2026, "confidence": "high", "note": "Territories of 80,000-100,000 population; availability varies by region."},
+        "ownerTypes": {"value": ["owner_operator", "semi_absentee", "absentee"], "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists absentee ownership allowed; mobile event-based model commonly run semi-absentee."},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "high", "note": "Mobile truck business; no storefront."},
+        "canRunPartTime": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "medium", "note": "Event-driven schedule."},
+        "absenteeOwnership": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "medium", "note": ""},
+        "trainingWeeks": {"value": 1, "source": "https://www.ownacoffeetruck.com/franchising-pricing/", "year": 2026, "confidence": "high", "note": "4-day 'Tom's Coffee Academy' in Florence, KY (free for one attendee incl. travel); Entrepreneur lists 14 hrs classroom + 10 hrs OTJ."},
+        "ongoingSupport": {"value": ["newsletter", "meetings", "grand opening", "online support", "proprietary software"], "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "medium", "note": ""},
+        "marketingSupport": {"value": ["ad templates", "regional advertising", "social media", "SEO", "website development", "email marketing"], "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "medium", "note": ""},
+        "employeesRequired": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "medium", "note": "Can be operated solo."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Mobile truck; no real-estate footprint."},
+        "totalUnits": {"value": 286, "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "medium", "note": "2025 FDD showed 261 (258 franchised, 3 company-owned) per franchisepayback."},
+        "yearFounded": {"value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "high", "note": "Launched by Kona Ice founder Tony Lamb, named for his father Tom. Some databases list 2021."},
+        "yearFranchising": {"value": 2021, "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "high", "note": ""},
+        "closureCount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Item 20 transfer/closure detail not available in public summaries."},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/travelin-toms-coffee/335226752", "year": 2026, "confidence": "high", "note": "+1,200% 3-year growth; named Entrepreneur's #1 New & Emerging Franchise; 150 trucks at end of 2023 with 300+ reservations."}
+      },
+      "notes": "Mobile coffee-truck sibling of Kona Ice (Mobile Coffee Company, Florence KY; founder Tony Lamb). Hyper-growth, flat-fee royalties, absentee-friendly, home-based. The single biggest diligence gap is the absence of any Item 19 earnings data — all revenue claims are anecdotal."
+    },
+    {
+      "name": "Crispy Cones",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High investment vs thin, tiny-sample Item 19",
+          "detail": "Investment of $350,650-$594,900 against disclosed average revenue of roughly $229K-$251K, with FranDB reporting the Item 19 average/median of $229K based on a sample of just 2 units. Unit economics are effectively unproven at this price point.",
+          "source": "FranDB / FranchisePayback",
+          "url": "https://www.frandb.com/franchise/crispy-cones/2025",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Very young system; unit counts conflict",
+          "detail": "2025 FDD showed 8 units (5 franchised, 3 company-owned) while Entrepreneur's 2026 profile lists 16 units (+700% 3-yr). Shark Tank exposure (Barbara Corcoran deal) drives franchise demand that outpaces the operating track record.",
+          "source": "FranchisePayback vs Entrepreneur",
+          "url": "https://www.franchisepayback.com/franchise/crispy-cones",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Ad fund reported at 1%, 2%, and 5% across sources",
+          "detail": "Entrepreneur lists a 2% ad royalty; Franchise Gator/FDD summaries say 2% authorized but currently collected at 1%; franchisepayback reports 5%. Verify Item 6 of the current FDD.",
+          "source": "Entrepreneur vs Franchise Gator vs FranchisePayback",
+          "url": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "medium", "note": "Net worth requirement $250,000."},
+        "totalInvestmentMin": {"value": 350650, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "high", "note": "Matches 2025 FDD range cited by FranDB ($350,650-$594,900)."},
+        "totalInvestmentMax": {"value": 594900, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "high", "note": ""},
+        "franchiseFee": {"value": 35000, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "high", "note": "Confirmed by FDD Exchange and franchisepayback."},
+        "royaltyPercent": {"value": 5.0, "source": "https://www.franchisepayback.com/franchise/crispy-cones", "year": 2025, "confidence": "high", "note": "5% of gross sales; confirmed by Entrepreneur and Franchise Gator."},
+        "adFundPercent": {"value": 2.0, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "low", "note": "CONFLICT: 2% (Entrepreneur), '2% authorized / 1% currently collected' (Franchise Gator), 5% (franchisepayback). Plus 1% technology fee per Entrepreneur."},
+        "avgUnitRevenue": {"value": 251000, "source": "https://www.franchisepayback.com/franchise/crispy-cones", "year": 2025, "confidence": "low", "note": "CONFLICT: franchisepayback AUV $251,000 (2025 FDD) vs FranDB avg/median $229,000 from a 2-unit sample. Either way the sample is extremely thin."},
+        "item19Available": {"value": true, "source": "https://www.frandb.com/franchise/crispy-cones/2025", "year": 2025, "confidence": "medium", "note": "Item 19 disclosed but based on as few as 2 reporting units."},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/crispy-cones-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high", "note": "2025 FDD on file with FDD Exchange."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued May 2023; status lender-determined."},
+        "veteranDiscount": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists veterans incentive as not available."},
+        "multiUnitAvailable": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No source explicitly confirms multi-unit development offering."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.franchisepayback.com/franchise/crispy-cones", "year": 2025, "confidence": "high", "note": "Protected territory around store; franchisor will not open another store within it while compliant. Catering and online sales are NOT territory-restricted."},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "medium", "note": "Absentee not allowed; part-time listed as permitted by Entrepreneur."},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "high", "note": "Brick-and-mortar dessert shop."},
+        "canRunPartTime": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "low", "note": "Entrepreneur lists part-time as permitted; unusual for a staffed QSR-style dessert store."},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "medium", "note": ""},
+        "trainingWeeks": {"value": 2, "source": "https://www.franchisepayback.com/franchise/crispy-cones", "year": 2025, "confidence": "high", "note": "Two weeks (nine instruction days) at a company-owned store in Rexburg, Idaho, for two people; up to two weeks additional on-site opening support."},
+        "ongoingSupport": {"value": ["purchasing co-ops", "newsletter", "meetings & conventions", "grand opening", "online support", "security/safety procedures", "lease negotiation", "field operations", "site selection", "proprietary software", "franchisee intranet"], "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "medium", "note": ""},
+        "marketingSupport": {"value": ["co-op advertising", "ad templates", "national media", "regional advertising", "social media", "SEO", "website development", "email marketing", "loyalty program/app"], "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "medium", "note": ""},
+        "employeesRequired": {"value": 6, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 6-18 employees per location; highest staffing requirement in this batch."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No sourced square-footage minimum found."},
+        "totalUnits": {"value": 16, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "medium", "note": "CONFLICT: 2025 FDD showed 8 units (5 franchised, 3 company-owned) per franchisepayback."},
+        "yearFounded": {"value": 2018, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "high", "note": "Founded in Rexburg, Idaho; appeared on Shark Tank (Barbara Corcoran deal)."},
+        "yearFranchising": {"value": 2022, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "medium", "note": "CONFLICT: franchisepayback says franchising since 2021."},
+        "closureCount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "System too young for meaningful closure history; none reported."},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/crispy-cones/335226651", "year": 2026, "confidence": "medium", "note": "+700% 3-year growth from a tiny base."}
+      },
+      "notes": "Shark Tank-backed (Barbara Corcoran) European-style grilled-dough ice cream cone concept from Rexburg, Idaho. Strong brand buzz but the riskiest economics in this batch: ~$350K-$595K to build against a $229K-$251K average revenue figure drawn from as few as 2 units."
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+ "brands": [
+  {
+   "name": "Chick-fil-A",
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 10000,
+     "source": "https://www.chick-fil-a.com/franchise",
+     "year": 2026,
+     "confidence": "high",
+     "note": "$10K non-gifted non-borrowed is the only required capital; CFA funds essentially all startup costs"
+    },
+    "totalInvestmentMin": {
+     "value": 426735,
+     "source": "https://www.franchisechatter.com/2025/09/28/chick-fil-a-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Nearly all paid/funded by CFA Inc, not operator"
+    },
+    "totalInvestmentMax": {
+     "value": 2339525,
+     "source": "https://www.franchisechatter.com/2025/09/28/chick-fil-a-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "franchiseFee": {
+     "value": 10000,
+     "source": "https://www.franchisetimes.com/app/Chick-fil-A%20Zee.pdf",
+     "year": 2022,
+     "confidence": "high",
+     "note": "FDD Item 5 verified directly; $5K held as refundable deposit"
+    },
+    "royaltyPercent": {
+     "value": 15,
+     "source": "https://www.franchisetimes.com/app/Chick-fil-A%20Zee.pdf",
+     "year": 2022,
+     "confidence": "high",
+     "note": "15% of gross receipts PLUS 50% of operating profit (Item 6 verified directly)"
+    },
+    "adFundPercent": {
+     "value": 0,
+     "source": "https://www.franchisetimes.com/app/Chick-fil-A%20Zee.pdf",
+     "year": 2022,
+     "confidence": "high",
+     "note": "0% charged since 1989; FDD permits up to 3.25%"
+    },
+    "avgUnitRevenue": {
+     "value": 9300000,
+     "source": "https://www.franchisechatter.com/2025/09/28/chick-fil-a-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Non-mall (2,179 units); mall $4.5M; operator does NOT keep franchise-style margins"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/09/28/chick-fil-a-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisetimes.com/app/Chick-fil-A%20Zee.pdf",
+     "year": 2022,
+     "confidence": "high"
+    },
+    "sbaApproved": {
+     "value": false,
+     "source": "https://otrofinancial.com/wp-content/uploads/2025/10/franchise-directory-sep-12-2025_0.pdf",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Code S5066: PPP/Community Advantage only, NOT standard 7(a)/504"
+    },
+    "veteranDiscount": {
+     "value": false,
+     "source": "https://www.chick-fil-a.com/franchise",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Flat $10K fee for everyone"
+    },
+    "multiUnitAvailable": {
+     "value": false,
+     "source": "https://www.chick-fil-a.com/customer-support/careers/franchise-opportunities/what-type-of-franchise-opportunities-does-chick-fil-a-offer",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Not offered to initial applicants"
+    },
+    "exclusiveTerritories": {
+     "value": false,
+     "source": "https://www.franchisetimes.com/app/Chick-fil-A%20Zee.pdf",
+     "year": 2022,
+     "confidence": "high",
+     "note": "Item 12 verified: no exclusive territory"
+    },
+    "ownerTypes": {
+     "value": [
+      "owner_operator"
+     ],
+     "source": "https://www.chick-fil-a.com/franchise",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Full-time hands-on; no other business ventures permitted"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.chick-fil-a.com/franchise",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.chick-fil-a.com/franchise",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.chick-fil-a.com/franchise",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 4,
+     "source": "https://www.franchisetimes.com/app/Chick-fil-A%20Zee.pdf",
+     "year": 2022,
+     "confidence": "high",
+     "note": "Item 11: ~3-4 weeks hybrid; CFA pays all training costs"
+    },
+    "ongoingSupport": {
+     "value": [
+      "CFA-paid initial training",
+      "Equipment leasing from CFA",
+      "Site/real estate/construction handled+funded by CFA",
+      "Business services and accounting support",
+      "Field operations support"
+     ],
+     "source": "https://www.franchisetimes.com/app/Chick-fil-A%20Zee.pdf",
+     "year": 2022,
+     "confidence": "high"
+    },
+    "marketingSupport": {
+     "value": [
+      "National advertising funded by CFA + suppliers (no operator ad fee since 1989)",
+      "Local/regional co-ops by operator vote",
+      "National brand campaigns"
+     ],
+     "source": "https://www.franchisetimes.com/app/Chick-fil-A%20Zee.pdf",
+     "year": 2022,
+     "confidence": "high"
+    },
+    "employeesRequired": {
+     "value": null,
+     "source": "unverified"
+    },
+    "minFootprint": {
+     "value": null,
+     "source": "unverified",
+     "note": "Varies by format"
+    },
+    "totalUnits": {
+     "value": 2684,
+     "source": "https://www.franchisechatter.com/2025/09/28/chick-fil-a-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "2,629 franchised + 55 company YE2024"
+    },
+    "yearFounded": {
+     "value": 1967,
+     "source": "https://www.qsr.pro/franchise-costs/chick-fil-a",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "yearFranchising": {
+     "value": 1967,
+     "source": "https://www.qsr.pro/franchise-costs/chick-fil-a",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "closureCount": {
+     "value": 19,
+     "source": "https://www.franchisechatter.com/2025/09/28/chick-fil-a-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "medium"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/09/28/chick-fil-a-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "+135 net 2024"
+    }
+   },
+   "notes": "ANOMALY BRAND: not a conventional franchise. $10K total; CFA owns/funds everything; operator builds NO equity, cannot sell/pass down, no multi-unit, full-time only. 15% of gross + 50% of operating profit. $9.3M AUV does NOT mean franchise-style returns. Not standard-SBA-eligible. Verified directly from 2022 Operator FDD."
+  },
+  {
+   "name": "Crumbl Cookies",
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 200000,
+     "source": "https://crumblcookies.com/franchising",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor site; FDD itself states no liquid minimum"
+    },
+    "totalInvestmentMin": {
+     "value": 816066,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7 verified directly"
+    },
+    "totalInvestmentMax": {
+     "value": 1442533,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high",
+     "note": "3-unit ADA: $2.45M-$4.33M"
+    },
+    "franchiseFee": {
+     "value": 50000,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high",
+     "note": "+$8K training, $12-15K tech, $8-13K opening package"
+    },
+    "royaltyPercent": {
+     "value": 8,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high",
+     "note": "8% gross sales weekly"
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high",
+     "note": "+1-2% co-op where established"
+    },
+    "avgUnitRevenue": {
+     "value": 1354688,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2024,
+     "confidence": "high",
+     "note": "858 reporting (~81%); median $1,303,412; avg net profit $251,706"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Full 455-page 2025 FDD verified directly"
+    },
+    "sbaApproved": {
+     "value": true,
+     "source": "https://otrofinancial.com/wp-content/uploads/2025/10/franchise-directory-sep-12-2025_0.pdf",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Code S4360; 286 SBA loans avg $558K"
+    },
+    "veteranDiscount": {
+     "value": false,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Fees uniform for all franchisees"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high",
+     "note": "ADA minimum 3 locations"
+    },
+    "exclusiveTerritories": {
+     "value": false,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Item 12: NOT exclusive; designated protected ~1-2mi"
+    },
+    "ownerTypes": {
+     "value": [
+      "owner_operator",
+      "semi_absentee"
+     ],
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Owner full-time on-premises first 60 days; then certified manager may run daily ops"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 4,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high",
+     "note": "18-29 days: online + HQ (Lindon UT) + in-store"
+    },
+    "ongoingSupport": {
+     "value": [
+      "Three-phase initial training",
+      "On-site trainers at opening",
+      "Periodic operational reviews",
+      "Site approval + lease review",
+      "Tech/POS/app platform support",
+      "Annual franchisee meetings"
+     ],
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "marketingSupport": {
+     "value": [
+      "National marketing fund (2%)",
+      "Regional co-ops (1-2%)",
+      "Weekly rotating menu promotions",
+      "Social-media-driven national marketing via app"
+     ],
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "employeesRequired": {
+     "value": null,
+     "source": "unverified"
+    },
+    "minFootprint": {
+     "value": "1,600-2,000 sq ft",
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalUnits": {
+     "value": 1059,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2024,
+     "confidence": "high",
+     "note": "1,058 franchised + 1 company YE2024"
+    },
+    "yearFounded": {
+     "value": 2017,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2018,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "closureCount": {
+     "value": 12,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://storage.googleapis.com/franchiseindx_fdds/Food-Beverage/Crumbl%20Cookies_2025_Iv6fUx36",
+     "year": 2024,
+     "confidence": "high",
+     "note": "690-970-1,058 but decelerating: +364/+280/+88 net"
+    }
+   },
+   "notes": "GOLD STANDARD: verified directly against actual 455-page 2025 FDD. Item 19 = 81% reporting; territory protected NOT exclusive; growth decelerating sharply with saturation concerns."
+  }
+ ]
+}

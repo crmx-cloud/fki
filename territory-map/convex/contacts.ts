@@ -1,0 +1,699 @@
+import { getAuthUserId } from "@convex-dev/auth/server";
+import { mutation, query, internalMutation } from "./_generated/server";
+import { v } from "convex/values";
+import { isAdminRole, isSuperAdminEmail } from "./constants";
+
+/* ═══════════════════════════════════════════════════════════
+ * Contacts — unified person record for anyone outside FKI
+ *
+ * Every prospect, franchisee, or external person gets one
+ * contact record. Leads, prospect profiles, and brands all
+ * link back to it via contactId / franchiseeContactId.
+ * ═══════════════════════════════════════════════════════════ */
+
+const contactTypeValidator = v.union(
+  v.literal("prospect"),
+  v.literal("franchisee"),
+  v.literal("both")
+);
+
+const contactSourceValidator = v.union(
+  v.literal("signup"),
+  v.literal("quiz"),
+  v.literal("manual"),
+  v.literal("import"),
+  v.literal("claim"),
+  v.literal("backfill")
+);
+
+// ── Auth helpers ───────────────────────────────────────────
+
+async function requireAdmin(ctx: any) {
+  const userId = await getAuthUserId(ctx);
+  if (!userId) throw new Error("Not authenticated");
+
+  const profile = await ctx.db
+    .query("userProfiles")
+    .withIndex("by_user", (q: any) => q.eq("userId", userId))
+    .first();
+  if (!profile) throw new Error("No profile");
+
+  const user = await ctx.db.get(userId);
+  const email = (user?.email || "").toLowerCase();
+  const isSuperAdmin = profile.role === "super_admin" || isSuperAdminEmail(email);
+
+  if (!isSuperAdmin && !isAdminRole(profile.role)) {
+    throw new Error("Admin access required");
+  }
+
+  return { userId, profile, isSuperAdmin };
+}
+
+// ── Queries ───────────────────────────────────────────────
+
+/** List contacts with search, filter, and pagination */
+export const listContacts = query({
+  args: {
+    search: v.optional(v.string()),
+    type: v.optional(contactTypeValidator),
+    status: v.optional(v.union(v.literal("active"), v.literal("deactivated"))),
+    limit: v.optional(v.number()),
+    cursor: v.optional(v.string()),
+  },
+  handler: async (ctx, args) => {
+    const userId = await getAuthUserId(ctx);
+    if (!userId) return { contacts: [], nextCursor: null };
+
+    const profile = await ctx.db
+      .query("userProfiles")
+      .withIndex("by_user", (q) => q.eq("userId", userId))
+      .first();
+    if (!profile || (!isAdminRole(profile.role) && profile.role !== "super_admin")) {
+      return { contacts: [], nextCursor: null };
+    }
+
+    const limit = args.limit || 25;
+    let all = await ctx.db.query("contacts").order("desc").collect();
+
+    // Filter by type
+    if (args.type) {
+      all = all.filter((c) => c.type === args.type || c.type === "both");
+    }
+
+    // Filter by status
+    if (args.status) {
+      all = all.filter((c) => c.status === args.status);
+    }
+
+    // Search by name or email
+    if (args.search) {
+      const q = args.search.toLowerCase();
+      all = all.filter(
+        (c) =>
+          c.firstName.toLowerCase().includes(q) ||
+          (c.lastName || "").toLowerCase().includes(q) ||
+          c.email.toLowerCase().includes(q) ||
+          (c.phone || "").includes(q)
+      );
+    }
+
+    // Simple cursor-based pagination (cursor = skip count)
+    const skip = args.cursor ? parseInt(args.cursor, 10) : 0;
+    const page = all.slice(skip, skip + limit);
+    const nextCursor = skip + limit < all.length ? String(skip + limit) : null;
+
+    return { contacts: page, nextCursor, total: all.length };
+  },
+});
+
+/** Get a single contact with all linked records */
+export const getContact = query({
+  args: { contactId: v.id("contacts") },
+  handler: async (ctx, { contactId }) => {
+    const userId = await getAuthUserId(ctx);
+    if (!userId) return null;
+
+    const profile = await ctx.db
+      .query("userProfiles")
+      .withIndex("by_user", (q) => q.eq("userId", userId))
+      .first();
+    if (!profile || (!isAdminRole(profile.role) && profile.role !== "super_admin")) {
+      return null;
+    }
+
+    const contact = await ctx.db.get(contactId);
+    if (!contact) return null;
+
+    // Get linked CRM leads
+    const allLeads = await ctx.db.query("crmLeads").collect();
+    const linkedLeads = allLeads.filter(
+      (l) => !l.deletedAt && (l.contactId === contactId || (contact.email && l.email === contact.email))
+    );
+
+    // Enrich leads with brand name
+    const leadsWithBrand = await Promise.all(
+      linkedLeads.map(async (l) => {
+        const brand = await ctx.db.get(l.brandId);
+        return { ...l, brandName: brand?.name || "Unknown" };
+      })
+    );
+
+    // Get linked prospect profile
+    const prospectProfile = contact.userId
+      ? await ctx.db
+          .query("prospectProfiles")
+          .withIndex("by_user", (q) => q.eq("userId", contact.userId))
+          .first()
+      : null;
+
+    // Get linked brands (as franchisee)
+    const allBrands = await ctx.db.query("brands").collect();
+    const ownedBrands = allBrands.filter(
+      (b) => b.franchiseeContactId === contactId
+    );
+
+    // Get user login info
+    let loginInfo = null;
+    if (contact.userId) {
+      const user = await ctx.db.get(contact.userId);
+      if (user) {
+        loginInfo = {
+          userId: user._id,
+          email: user.email,
+          name: user.name,
+        };
+      }
+    }
+
+    return {
+      ...contact,
+      leads: leadsWithBrand,
+      prospectProfile,
+      ownedBrands,
+      loginInfo,
+    };
+  },
+});
+
+/** Get contact by email (for linking) */
+export const getContactByEmail = query({
+  args: { email: v.string() },
+  handler: async (ctx, { email }) => {
+    return await ctx.db
+      .query("contacts")
+      .withIndex("by_email", (q) => q.eq("email", email.toLowerCase()))
+      .first();
+  },
+});
+
+// ── Mutations ─────────────────────────────────────────────
+
+/** Admin: create a contact manually */
+export const createContact = mutation({
+  args: {
+    type: contactTypeValidator,
+    firstName: v.string(),
+    lastName: v.optional(v.string()),
+    email: v.string(),
+    phone: v.optional(v.string()),
+    address: v.optional(v.string()),
+    city: v.optional(v.string()),
+    state: v.optional(v.string()),
+    zipCode: v.optional(v.string()),
+    source: v.optional(contactSourceValidator),
+    notes: v.optional(v.string()),
+  },
+  handler: async (ctx, args) => {
+    const { userId } = await requireAdmin(ctx);
+    const now = Date.now();
+    const email = args.email.toLowerCase();
+
+    // Check for existing contact with same email
+    const existing = await ctx.db
+      .query("contacts")
+      .withIndex("by_email", (q) => q.eq("email", email))
+      .first();
+    if (existing) {
+      throw new Error(`A contact with email ${email} already exists`);
+    }
+
+    // Check if there's an auth user with this email
+    const authAccount = await ctx.db
+      .query("authAccounts")
+      .filter((q) => q.eq(q.field("providerAccountId"), email))
+      .first();
+
+    const contactId = await ctx.db.insert("contacts", {
+      type: args.type,
+      firstName: args.firstName,
+      lastName: args.lastName,
+      email,
+      phone: args.phone,
+      address: args.address,
+      city: args.city,
+      state: args.state,
+      zipCode: args.zipCode,
+      userId: authAccount?.userId,
+      status: "active",
+      source: args.source || "manual",
+      adminVerified: true,
+      adminVerifiedAt: now,
+      contactLastEditedBy: "admin",
+      contactLastEditedAt: now,
+      notes: args.notes,
+      createdAt: now,
+      updatedAt: now,
+    });
+
+    await ctx.db.insert("activityLog", {
+      userId,
+      action: "contact_created",
+      entityType: "contact",
+      entityId: contactId,
+      details: `Created contact: ${args.firstName} ${args.lastName || ""} (${email})`.trim(),
+    });
+
+    return contactId;
+  },
+});
+
+/** Admin: update a contact's info */
+export const updateContact = mutation({
+  args: {
+    contactId: v.id("contacts"),
+    type: v.optional(contactTypeValidator),
+    firstName: v.optional(v.string()),
+    lastName: v.optional(v.string()),
+    email: v.optional(v.string()),
+    phone: v.optional(v.string()),
+    address: v.optional(v.string()),
+    city: v.optional(v.string()),
+    state: v.optional(v.string()),
+    zipCode: v.optional(v.string()),
+    notes: v.optional(v.string()),
+  },
+  handler: async (ctx, args) => {
+    const { userId } = await requireAdmin(ctx);
+    const now = Date.now();
+
+    const contact = await ctx.db.get(args.contactId);
+    if (!contact) throw new Error("Contact not found");
+
+    const updates: Record<string, any> = {
+      adminVerified: true,
+      adminVerifiedAt: now,
+      contactLastEditedBy: "admin",
+      contactLastEditedAt: now,
+      prospectModifiedAfterVerify: false,
+      updatedAt: now,
+    };
+
+    if (args.type !== undefined) updates.type = args.type;
+    if (args.firstName !== undefined) updates.firstName = args.firstName;
+    if (args.lastName !== undefined) updates.lastName = args.lastName;
+    if (args.email !== undefined) updates.email = args.email.toLowerCase();
+    if (args.phone !== undefined) updates.phone = args.phone;
+    if (args.address !== undefined) updates.address = args.address;
+    if (args.city !== undefined) updates.city = args.city;
+    if (args.state !== undefined) updates.state = args.state;
+    if (args.zipCode !== undefined) updates.zipCode = args.zipCode;
+    if (args.notes !== undefined) updates.notes = args.notes;
+
+    await ctx.db.patch(args.contactId, updates);
+
+    await ctx.db.insert("activityLog", {
+      userId,
+      action: "contact_updated",
+      entityType: "contact",
+      entityId: args.contactId,
+      details: `Updated contact: ${args.firstName || contact.firstName} ${args.lastName || contact.lastName || ""}`.trim(),
+    });
+
+    return { success: true };
+  },
+});
+
+/** Admin: deactivate a contact (blocks login) */
+export const deactivateContact = mutation({
+  args: { contactId: v.id("contacts") },
+  handler: async (ctx, { contactId }) => {
+    const { userId } = await requireAdmin(ctx);
+
+    const contact = await ctx.db.get(contactId);
+    if (!contact) throw new Error("Contact not found");
+
+    await ctx.db.patch(contactId, {
+      status: "deactivated",
+      updatedAt: Date.now(),
+    });
+
+    // Also deactivate their userProfile if they have a login
+    if (contact.userId) {
+      const userProfile = await ctx.db
+        .query("userProfiles")
+        .withIndex("by_user", (q) => q.eq("userId", contact.userId!))
+        .first();
+      if (userProfile) {
+        await ctx.db.patch(userProfile._id, { isActive: false });
+      }
+
+      // Invalidate their sessions so they get logged out
+      const sessions = await ctx.db
+        .query("authSessions")
+        .filter((q) => q.eq(q.field("userId"), contact.userId))
+        .collect();
+      for (const session of sessions) {
+        await ctx.db.delete(session._id);
+      }
+    }
+
+    await ctx.db.insert("activityLog", {
+      userId,
+      action: "contact_deactivated",
+      entityType: "contact",
+      entityId: contactId,
+      details: `Deactivated contact: ${contact.firstName} ${contact.lastName || ""} (${contact.email})`.trim(),
+    });
+
+    return { success: true };
+  },
+});
+
+/** Admin: reactivate a contact */
+export const reactivateContact = mutation({
+  args: { contactId: v.id("contacts") },
+  handler: async (ctx, { contactId }) => {
+    const { userId } = await requireAdmin(ctx);
+
+    const contact = await ctx.db.get(contactId);
+    if (!contact) throw new Error("Contact not found");
+
+    await ctx.db.patch(contactId, {
+      status: "active",
+      updatedAt: Date.now(),
+    });
+
+    // Reactivate userProfile
+    if (contact.userId) {
+      const userProfile = await ctx.db
+        .query("userProfiles")
+        .withIndex("by_user", (q) => q.eq("userId", contact.userId!))
+        .first();
+      if (userProfile) {
+        await ctx.db.patch(userProfile._id, { isActive: true });
+      }
+    }
+
+    await ctx.db.insert("activityLog", {
+      userId,
+      action: "contact_reactivated",
+      entityType: "contact",
+      entityId: contactId,
+      details: `Reactivated contact: ${contact.firstName} ${contact.lastName || ""} (${contact.email})`.trim(),
+    });
+
+    return { success: true };
+  },
+});
+
+/** Admin: delete a contact + their login entirely */
+export const deleteContact = mutation({
+  args: { contactId: v.id("contacts") },
+  handler: async (ctx, { contactId }) => {
+    const { userId, isSuperAdmin } = await requireAdmin(ctx);
+    if (!isSuperAdmin) throw new Error("Only super admins can delete contacts");
+
+    const contact = await ctx.db.get(contactId);
+    if (!contact) throw new Error("Contact not found");
+
+    // Unlink from CRM leads (don't delete leads, just unlink)
+    const allLeads = await ctx.db.query("crmLeads").collect();
+    for (const lead of allLeads) {
+      if (lead.contactId === contactId) {
+        await ctx.db.patch(lead._id, { contactId: undefined });
+      }
+    }
+
+    // Unlink from prospect profiles
+    const allProspectProfiles = await ctx.db.query("prospectProfiles").collect();
+    for (const pp of allProspectProfiles) {
+      if (pp.contactId === contactId) {
+        await ctx.db.patch(pp._id, { contactId: undefined });
+      }
+    }
+
+    // Unlink from brands
+    const allBrands = await ctx.db.query("brands").collect();
+    for (const brand of allBrands) {
+      if (brand.franchiseeContactId === contactId) {
+        await ctx.db.patch(brand._id, { franchiseeContactId: undefined });
+      }
+    }
+
+    // Delete auth data if they have a login
+    if (contact.userId) {
+      // Delete userProfile
+      const userProfile = await ctx.db
+        .query("userProfiles")
+        .withIndex("by_user", (q) => q.eq("userId", contact.userId!))
+        .first();
+      if (userProfile) await ctx.db.delete(userProfile._id);
+
+      // Delete prospect profile
+      const prospectProfile = await ctx.db
+        .query("prospectProfiles")
+        .withIndex("by_user", (q) => q.eq("userId", contact.userId!))
+        .first();
+      if (prospectProfile) await ctx.db.delete(prospectProfile._id);
+
+      // Delete auth accounts + sessions
+      const authAccounts = await ctx.db
+        .query("authAccounts")
+        .filter((q) => q.eq(q.field("userId"), contact.userId))
+        .collect();
+      for (const acct of authAccounts) await ctx.db.delete(acct._id);
+
+      const authSessions = await ctx.db
+        .query("authSessions")
+        .filter((q) => q.eq(q.field("userId"), contact.userId))
+        .collect();
+      for (const sess of authSessions) await ctx.db.delete(sess._id);
+    }
+
+    // Delete the contact record
+    await ctx.db.delete(contactId);
+
+    await ctx.db.insert("activityLog", {
+      userId,
+      action: "contact_deleted",
+      entityType: "contact",
+      entityId: contactId,
+      details: `Deleted contact: ${contact.firstName} ${contact.lastName || ""} (${contact.email})`.trim(),
+    });
+
+    return { success: true };
+  },
+});
+
+// ── Auto-creation helpers (called from other modules) ─────
+
+/**
+ * Find or create a contact record for a given email.
+ * Called during signup, quiz, lead creation, etc.
+ */
+export const findOrCreateContact = internalMutation({
+  args: {
+    email: v.string(),
+    firstName: v.string(),
+    lastName: v.optional(v.string()),
+    phone: v.optional(v.string()),
+    userId: v.optional(v.id("users")),
+    type: v.optional(contactTypeValidator),
+    source: v.optional(contactSourceValidator),
+  },
+  handler: async (ctx, args) => {
+    const email = args.email.toLowerCase();
+    const now = Date.now();
+
+    // Check for existing contact
+    const existing = await ctx.db
+      .query("contacts")
+      .withIndex("by_email", (q) => q.eq("email", email))
+      .first();
+
+    if (existing) {
+      // Link userId if not already linked and we have one
+      const updates: Record<string, any> = { updatedAt: now };
+      if (args.userId && !existing.userId) {
+        updates.userId = args.userId;
+      }
+      // Upgrade type if needed (prospect → both when they also become franchisee)
+      if (args.type === "franchisee" && existing.type === "prospect") {
+        updates.type = "both";
+      } else if (args.type === "prospect" && existing.type === "franchisee") {
+        updates.type = "both";
+      }
+      if (Object.keys(updates).length > 1) {
+        await ctx.db.patch(existing._id, updates);
+      }
+      return existing._id;
+    }
+
+    // Create new contact
+    const contactId = await ctx.db.insert("contacts", {
+      type: args.type || "prospect",
+      firstName: args.firstName,
+      lastName: args.lastName,
+      email,
+      phone: args.phone,
+      userId: args.userId,
+      status: "active",
+      source: args.source || "signup",
+      createdAt: now,
+      updatedAt: now,
+    });
+
+    return contactId;
+  },
+});
+
+/**
+ * Link an existing contact to a userId after signup.
+ * Called from ensureProfile when a user signs up with an email
+ * that already has a contact record (e.g. from manual lead creation).
+ */
+export const linkContactToUser = internalMutation({
+  args: {
+    email: v.string(),
+    userId: v.id("users"),
+  },
+  handler: async (ctx, { email, userId }) => {
+    const contact = await ctx.db
+      .query("contacts")
+      .withIndex("by_email", (q) => q.eq("email", email.toLowerCase()))
+      .first();
+
+    if (contact && !contact.userId) {
+      await ctx.db.patch(contact._id, {
+        userId,
+        updatedAt: Date.now(),
+      });
+      return contact._id;
+    }
+
+    return contact?._id || null;
+  },
+});
+
+/** Backfill: create contact records for existing data */
+export const backfillContacts = internalMutation({
+  args: {},
+  handler: async (ctx) => {
+    const now = Date.now();
+    let created = 0;
+    let linked = 0;
+
+    // 1. Create contacts from prospectProfiles
+    const prospectProfiles = await ctx.db.query("prospectProfiles").collect();
+    for (const pp of prospectProfiles) {
+      if (pp.contactId) continue; // already linked
+
+      const email = pp.email?.toLowerCase();
+      if (!email) continue;
+
+      // Find or create contact
+      let contact = await ctx.db
+        .query("contacts")
+        .withIndex("by_email", (q) => q.eq("email", email))
+        .first();
+
+      if (!contact) {
+        const contactId = await ctx.db.insert("contacts", {
+          type: "prospect" as const,
+          firstName: pp.firstName || email.split("@")[0],
+          lastName: pp.lastName,
+          email,
+          phone: pp.phone,
+          address: pp.address,
+          city: pp.city,
+          state: pp.state,
+          zipCode: pp.zipCode,
+          userId: pp.userId,
+          status: "active" as const,
+          source: "backfill" as const,
+          createdAt: now,
+          updatedAt: now,
+        });
+        contact = await ctx.db.get(contactId);
+        created++;
+      }
+
+      // Link
+      if (contact) {
+        await ctx.db.patch(pp._id, { contactId: contact._id });
+        linked++;
+      }
+    }
+
+    // 2. Create contacts from CRM leads (that don't have a matching contact)
+    const crmLeads = await ctx.db.query("crmLeads").collect();
+    for (const lead of crmLeads) {
+      if (lead.contactId) continue; // already linked
+      if (lead.deletedAt) continue; // skip deleted
+
+      const email = lead.email?.toLowerCase();
+      if (!email) continue;
+
+      let contact = await ctx.db
+        .query("contacts")
+        .withIndex("by_email", (q) => q.eq("email", email))
+        .first();
+
+      if (!contact) {
+        const contactId = await ctx.db.insert("contacts", {
+          type: "prospect" as const,
+          firstName: lead.firstName,
+          lastName: lead.lastName,
+          email,
+          phone: lead.phone,
+          address: lead.address,
+          userId: undefined,
+          status: "active" as const,
+          source: "backfill" as const,
+          createdAt: now,
+          updatedAt: now,
+        });
+        contact = await ctx.db.get(contactId);
+        created++;
+      }
+
+      if (contact) {
+        await ctx.db.patch(lead._id, { contactId: contact._id });
+        linked++;
+      }
+    }
+
+    // 3. Create contacts from brand claims
+    const brandClaims = await ctx.db.query("brandClaims").collect();
+    for (const claim of brandClaims) {
+      const email = claim.contactEmail?.toLowerCase();
+      if (!email) continue;
+
+      let contact = await ctx.db
+        .query("contacts")
+        .withIndex("by_email", (q) => q.eq("email", email))
+        .first();
+
+      if (!contact) {
+        const nameParts = claim.contactName.split(" ");
+        const contactId = await ctx.db.insert("contacts", {
+          type: "franchisee" as const,
+          firstName: nameParts[0] || email.split("@")[0],
+          lastName: nameParts.slice(1).join(" ") || undefined,
+          email,
+          phone: claim.contactPhone,
+          userId: undefined,
+          status: "active" as const,
+          source: "backfill" as const,
+          createdAt: now,
+          updatedAt: now,
+        });
+        contact = await ctx.db.get(contactId);
+        created++;
+      } else if (contact.type === "prospect") {
+        // Upgrade to "both" if they were a prospect who also claimed a brand
+        await ctx.db.patch(contact._id, { type: "both", updatedAt: now });
+      }
+
+      // Link brand if claim was approved and has a brandId
+      if (contact && claim.brandId && claim.status === "approved") {
+        const brand = await ctx.db.get(claim.brandId);
+        if (brand && !brand.franchiseeContactId) {
+          await ctx.db.patch(brand._id, { franchiseeContactId: contact._id });
+        }
+      }
+    }
+
+    return { created, linked };
+  },
+});

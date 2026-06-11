@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Hidden page: keep out of search indexes until Brent approves public launch -->
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Franchise KI Brand Showcase — Win More Qualified Franchise Candidates</title>
+  <meta name="description" content="Claim your Franchise KI listing, verify your brand data, and apply for featured visibility where active franchise candidates are searching." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <style>
+    :root {
+      --bg: #020617;            /* slate-950 — matches territory-map */
+      --bg-soft: #0b1120;
+      --card: rgba(255,255,255,0.05);
+      --card-hover: rgba(255,255,255,0.07);
+      --border: rgba(255,255,255,0.10);
+      --border-soft: rgba(255,255,255,0.05);
+      --text: #f8fafc;
+      --muted: #94a3b8;          /* slate-400 */
+      --muted-2: #64748b;        /* slate-500 */
+      --faint: #475569;          /* slate-600 */
+      --cyan: #22d3ee;           /* cyan-400 */
+      --cyan-300: #67e8f9;
+      --cyan-500: #06b6d4;
+      --cyan-600: #0891b2;
+      --blue: #60a5fa;           /* blue-400 */
+      --ai-pill: #3B82F6;        /* PerfectFit AI badge — matches PublicNav */
+      --emerald: #34d399;
+      --amber: #fbbf24;
+      --radius: 0.625rem;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .wrap { max-width: 80rem; margin: 0 auto; padding: 0 1.5rem; }
+
+    /* ───────── Header ───────── */
+    header {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(2,6,23,0.8);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav { display: flex; align-items: center; justify-content: space-between; padding: 0.7rem 1.5rem; max-width: 80rem; margin: 0 auto; }
+    .nav-left { display: flex; flex-direction: column; gap: 0.15rem; }
+    .home-link { font-size: 0.7rem; color: var(--muted-2); transition: color .15s; }
+    .home-link:hover { color: var(--text); }
+    .nav-logo { display: flex; align-items: center; gap: 0.75rem; }
+    .nav-logo img { height: 2.1rem; }
+    .showcase-mark { font-size: 1rem; font-weight: 700; letter-spacing: -0.01em; color: var(--text); border-left: 1px solid var(--border); padding-left: 0.75rem; white-space: nowrap; }
+    .nav-right { display: flex; align-items: center; gap: 0.75rem; }
+    .nav-right .login { font-size: 0.875rem; color: var(--muted); padding: 0.4rem 0.75rem; border-radius: var(--radius); }
+    .nav-right .login:hover { color: var(--text); background: var(--card); }
+    .ai-pill {
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 9px; font-weight: 700; line-height: 1;
+      background: var(--ai-pill); color: #fff; border-radius: 9999px;
+      padding: 2px 6px; letter-spacing: 0.05em; margin-left: 4px; vertical-align: middle;
+    }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+      font-size: 0.9rem; font-weight: 600; border-radius: var(--radius);
+      padding: 0.65rem 1.4rem; border: none; cursor: pointer; transition: background .15s, border-color .15s;
+    }
+    .btn-primary { background: var(--cyan-600); color: #fff; }
+    .btn-primary:hover { background: var(--cyan-500); }
+    .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-ghost:hover { border-color: rgba(34,211,238,0.5); color: var(--cyan); }
+    .btn-lg { padding: 0.9rem 2rem; font-size: 1rem; }
+    .nav-cta { padding: 0.5rem 1.1rem; font-size: 0.85rem; }
+
+    /* ───────── Hero ───────── */
+    .hero {
+      position: relative; overflow: hidden;
+      background: linear-gradient(135deg, #020617 0%, #0f172a 55%, rgba(8,51,68,0.35) 100%);
+      border-bottom: 1px solid var(--border-soft);
+    }
+    .hero .wrap { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 3rem; padding-top: 4rem; padding-bottom: 4rem; align-items: start; }
+    .hero .wrap > *, section.block .wrap > * { min-width: 0; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: .5rem;
+      background: rgba(34,211,238,0.10); color: var(--cyan);
+      border: 1px solid rgba(34,211,238,0.20);
+      font-size: 0.8rem; font-weight: 600; letter-spacing: 0.04em;
+      padding: 0.35rem 1rem; border-radius: 9999px; margin-bottom: 1.5rem;
+    }
+    h1 { font-size: clamp(2rem, 4.5vw, 3.25rem); font-weight: 800; line-height: 1.12; letter-spacing: -0.02em; }
+    .grad { background: linear-gradient(to right, var(--cyan), var(--blue)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .hero p.sub { color: var(--muted); font-size: 1.1rem; margin-top: 1.25rem; max-width: 36rem; }
+    .hero-bullets { list-style: none; margin-top: 1.5rem; display: grid; gap: 0.7rem; }
+    .hero-bullets li { display: flex; gap: 0.65rem; align-items: flex-start; color: #cbd5e1; font-size: 0.97rem; }
+    .check { flex: none; width: 1.25rem; height: 1.25rem; margin-top: 2px; border-radius: 9999px; background: rgba(34,211,238,0.12); display: flex; align-items: center; justify-content: center; }
+    .check svg { width: 12px; height: 12px; stroke: var(--cyan); }
+    .hero-ctas { display: flex; gap: 0.85rem; margin-top: 1.85rem; flex-wrap: wrap; }
+
+    /* Hero search mockup */
+    .mockup { margin-top: 2.5rem; border: 1px solid var(--border); border-radius: 1rem; background: rgba(15,23,42,0.7); overflow: hidden; box-shadow: 0 24px 60px rgba(0,0,0,0.45); }
+    .mock-toolbar { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; padding: 0.8rem 1rem; border-bottom: 1px solid var(--border-soft); background: rgba(255,255,255,0.03); }
+    .mock-search { flex: 1; min-width: 11rem; display: flex; align-items: center; gap: .5rem; background: rgba(255,255,255,0.06); border: 1px solid var(--border); border-radius: 9999px; padding: 0.45rem 1rem; font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
+    .chip { font-size: 0.7rem; font-weight: 600; padding: 0.25rem 0.7rem; border-radius: 9999px; background: rgba(34,211,238,0.12); color: var(--cyan-300); border: 1px solid rgba(34,211,238,0.25); white-space: nowrap; }
+    .mock-body { padding: 1rem; display: grid; gap: 0.75rem; }
+    .brand-card { display: flex; gap: 1rem; align-items: center; border: 1px solid var(--border); border-radius: 0.85rem; padding: 1rem; background: var(--card); position: relative; }
+    .brand-card.featured { border-color: rgba(34,211,238,0.45); background: linear-gradient(120deg, rgba(34,211,238,0.08), rgba(96,165,250,0.06)); }
+    .featured-tag { position: absolute; top: -10px; left: 14px; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; background: var(--cyan-600); color: #fff; padding: 2px 10px; border-radius: 9999px; }
+    .brand-logo { flex: none; width: 3rem; height: 3rem; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1rem; background: linear-gradient(135deg, var(--cyan-600), #2563eb); color: white; }
+    .brand-logo.dim { background: rgba(255,255,255,0.08); color: var(--muted-2); }
+    .brand-meta { flex: 1; min-width: 0; }
+    .brand-name { font-weight: 700; font-size: 0.95rem; }
+    .brand-sub { font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
+    .brand-tags { display: flex; gap: 0.4rem; margin-top: 0.5rem; flex-wrap: wrap; }
+    .tag { font-size: 0.65rem; padding: 2px 8px; border-radius: 9999px; border: 1px solid var(--border); color: var(--muted); white-space: nowrap; }
+    .tag.cy { border-color: rgba(34,211,238,0.35); color: var(--cyan-300); background: rgba(34,211,238,0.08); }
+    .tag.em { border-color: rgba(52,211,153,0.35); color: var(--emerald); background: rgba(52,211,153,0.08); }
+    .fit-ring { flex: none; width: 3.4rem; height: 3.4rem; border-radius: 9999px; border: 2px solid rgba(34,211,238,0.5); background: radial-gradient(circle at center, rgba(34,211,238,0.18), transparent 70%); display: flex; flex-direction: column; align-items: center; justify-content: center; }
+    .fit-ring .num { font-size: 1rem; font-weight: 800; color: var(--cyan); line-height: 1; }
+    .fit-ring .lbl { font-size: 0.5rem; color: var(--muted); letter-spacing: 0.05em; text-transform: uppercase; }
+    .fit-ring.mid { border-color: rgba(148,163,184,0.4); background: none; }
+    .fit-ring.mid .num { color: var(--muted); }
+
+    /* Form card */
+    .form-card {
+      background: rgba(15,23,42,0.85); border: 1px solid var(--border); border-radius: 1rem;
+      padding: 1.75rem; box-shadow: 0 24px 60px rgba(0,0,0,0.45); position: sticky; top: 5.5rem;
+    }
+    @keyframes form-glow {
+      0%, 100% {
+        box-shadow: 0 24px 60px rgba(0,0,0,0.45), 0 0 0 1px rgba(34,211,238,0), 0 0 0 0 rgba(34,211,238,0);
+        border-color: var(--border);
+      }
+      50% {
+        box-shadow: 0 24px 60px rgba(0,0,0,0.45), 0 0 0 1px rgba(34,211,238,0.65), 0 0 48px 8px rgba(34,211,238,0.30);
+        border-color: rgba(34,211,238,0.65);
+      }
+    }
+    .form-card.glow { animation: form-glow 1.5s ease-in-out 2; }
+    .form-card h2 { font-size: 1.35rem; font-weight: 800; }
+    .form-card .intro { font-size: 0.85rem; color: var(--muted); margin: 0.5rem 0 1.25rem; }
+    .field { margin-bottom: 0.85rem; }
+    .field label { display: block; font-size: 0.75rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0.3rem; }
+    .field input, .field select {
+      width: 100%; background: rgba(255,255,255,0.06); border: 1px solid var(--border);
+      border-radius: var(--radius); color: var(--text); font-size: 0.9rem; padding: 0.6rem 0.8rem;
+      outline: none; transition: border-color .15s; font-family: inherit;
+    }
+    .field input:focus, .field select:focus { border-color: rgba(34,211,238,0.6); }
+    .field select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 0.8rem center; }
+    .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+    .consent { display: flex; gap: 0.6rem; align-items: flex-start; font-size: 0.7rem; color: var(--muted-2); margin: 1rem 0; }
+    .consent input { margin-top: 3px; accent-color: var(--cyan-600); }
+    .form-card .btn { width: 100%; }
+    .privacy-note { font-size: 0.7rem; color: var(--faint); text-align: center; margin-top: 0.75rem; }
+    .form-success { text-align: center; padding: 2.5rem 1rem; display: none; }
+    .form-success h3 { font-size: 1.25rem; margin: 0.75rem 0 0.5rem; }
+    .form-success p { font-size: 0.9rem; color: var(--muted); }
+
+    /* ───────── Proof strip ───────── */
+    .proof { border-bottom: 1px solid var(--border-soft); background: var(--bg-soft); }
+    .proof .wrap { padding-top: 3rem; padding-bottom: 3rem; text-align: center; }
+    .proof h2 { font-size: 1.05rem; font-weight: 600; color: var(--muted); margin-bottom: 1.75rem; }
+    .proof-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; max-width: 56rem; margin: 0 auto; }
+    .proof-item { border: 1px solid var(--border); border-radius: 1rem; background: var(--card); padding: 1.5rem; }
+    .proof-item .big { font-size: 1.15rem; font-weight: 800; color: var(--cyan); }
+    .proof-item .small { font-size: 0.85rem; color: var(--muted); margin-top: 0.35rem; }
+
+    /* ───────── Benefit sections ───────── */
+    section.block .wrap { padding-top: 5rem; padding-bottom: 5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+    section.block.alt { background: var(--bg-soft); border-top: 1px solid var(--border-soft); border-bottom: 1px solid var(--border-soft); }
+    .block .eyebrow { margin-bottom: 1rem; }
+    .block h2 { font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 800; line-height: 1.2; letter-spacing: -0.01em; }
+    .block p.body { color: var(--muted); margin-top: 1rem; font-size: 1rem; }
+    .block .btn { margin-top: 1.5rem; }
+    .panel { border: 1px solid var(--border); border-radius: 1rem; background: rgba(15,23,42,0.6); padding: 1.25rem; box-shadow: 0 18px 48px rgba(0,0,0,0.35); }
+
+    /* before/after */
+    .ba { display: grid; grid-template-columns: 1fr 1fr; gap: 0.85rem; }
+    .ba-col h4 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted-2); margin-bottom: 0.6rem; text-align: center; }
+    .ba-card { border: 1px solid var(--border); border-radius: 0.85rem; padding: 0.9rem; background: var(--card); font-size: 0.75rem; }
+    .ba-card.good { border-color: rgba(52,211,153,0.4); }
+    .ba-line { display: flex; justify-content: space-between; gap: 0.5rem; padding: 0.35rem 0; border-bottom: 1px solid var(--border-soft); color: var(--muted); }
+    .ba-line:last-child { border-bottom: none; }
+    .ba-line .v { color: var(--text); font-weight: 600; text-align: right; }
+    .ba-line .missing { color: #f87171; font-weight: 600; }
+    .ba-line .ok { color: var(--emerald); font-weight: 600; }
+
+    /* lead flow */
+    .flow { display: grid; gap: 0.5rem; }
+    .flow-step { display: flex; align-items: center; gap: 0.85rem; border: 1px solid var(--border); border-radius: 0.85rem; background: var(--card); padding: 0.8rem 1rem; font-size: 0.85rem; }
+    .flow-num { flex: none; width: 1.8rem; height: 1.8rem; border-radius: 9999px; background: rgba(34,211,238,0.12); border: 1px solid rgba(34,211,238,0.3); color: var(--cyan); display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; }
+    .flow-arrow { text-align: center; color: var(--faint); font-size: 0.8rem; line-height: 1; }
+    .flow-step b { font-weight: 700; }
+    .flow-step span { color: var(--muted); }
+
+    /* PerfectFit dashboard mock */
+    .pf-prefs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.9rem; }
+    .pf-score { display: flex; align-items: center; gap: 1rem; border: 1px solid rgba(34,211,238,0.35); background: rgba(34,211,238,0.07); border-radius: 0.85rem; padding: 0.9rem 1rem; margin-bottom: 0.9rem; }
+    .pf-score .desc { font-size: 0.8rem; color: var(--muted); }
+    .pf-score .desc b { color: var(--text); display: block; font-size: 0.9rem; }
+
+    /* ───────── Feature grid ───────── */
+    .features .wrap { padding-top: 5rem; padding-bottom: 5rem; }
+    .features h2 { text-align: center; font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 800; margin-bottom: 2.75rem; }
+    .feat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+    .feat { border: 1px solid var(--border); border-radius: 1rem; background: var(--card); padding: 1.5rem; transition: background .15s, border-color .15s; }
+    .feat:hover { background: var(--card-hover); border-color: rgba(34,211,238,0.3); }
+    .feat .icon { width: 2.5rem; height: 2.5rem; border-radius: 0.65rem; background: rgba(34,211,238,0.10); display: flex; align-items: center; justify-content: center; margin-bottom: 0.9rem; }
+    .feat .icon svg { width: 1.25rem; height: 1.25rem; stroke: var(--cyan); }
+    .feat h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .feat p { font-size: 0.8rem; color: var(--muted); }
+
+    /* ───────── How it works ───────── */
+    .how { background: var(--bg-soft); border-top: 1px solid var(--border-soft); border-bottom: 1px solid var(--border-soft); }
+    .how .wrap { padding-top: 5rem; padding-bottom: 5rem; text-align: center; }
+    .how h2 { font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 800; margin-bottom: 2.75rem; }
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; text-align: left; margin-bottom: 2.5rem; }
+    .step { border: 1px solid var(--border); border-radius: 1rem; background: var(--card); padding: 1.75rem; position: relative; }
+    .step .n { font-size: 2.25rem; font-weight: 800; background: linear-gradient(to bottom right, var(--cyan), var(--blue)); -webkit-background-clip: text; background-clip: text; color: transparent; line-height: 1; margin-bottom: 0.9rem; }
+    .step h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .step p { font-size: 0.85rem; color: var(--muted); }
+
+    /* ───────── FAQ ───────── */
+    .faq .wrap { padding-top: 5rem; padding-bottom: 5rem; max-width: 52rem; }
+    .faq h2 { text-align: center; font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 800; margin-bottom: 2.5rem; }
+    details { border: 1px solid var(--border); border-radius: 0.85rem; background: var(--card); margin-bottom: 0.75rem; overflow: hidden; }
+    summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1.1rem 1.4rem; font-weight: 600; font-size: 0.97rem; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; color: var(--cyan); font-size: 1.3rem; font-weight: 400; flex: none; transition: transform .15s; }
+    details[open] summary::after { transform: rotate(45deg); }
+    details .a { padding: 0 1.4rem 1.2rem; font-size: 0.9rem; color: var(--muted); }
+
+    /* ───────── Final CTA ───────── */
+    .final { background: linear-gradient(120deg, rgba(34,211,238,0.10), rgba(59,130,246,0.10), rgba(168,85,247,0.08)); border-top: 1px solid rgba(34,211,238,0.2); }
+    .final .wrap { padding-top: 5rem; padding-bottom: 5rem; text-align: center; max-width: 56rem; }
+    .final h2 { font-size: clamp(1.6rem, 3.4vw, 2.4rem); font-weight: 800; line-height: 1.2; }
+    .final p { color: var(--muted); margin: 1rem auto 2rem; max-width: 38rem; }
+    .final .ctas { display: flex; gap: 0.85rem; justify-content: center; flex-wrap: wrap; }
+
+    /* ───────── Footer ───────── */
+    footer { border-top: 1px solid var(--border); padding: 2.5rem 0; }
+    .foot-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem; }
+    .foot-brand { display: flex; align-items: center; gap: 0.85rem; }
+    .foot-brand img { height: 1.5rem; }
+    .foot-brand span { font-size: 0.85rem; color: var(--muted); }
+    .foot-links { display: flex; flex-wrap: wrap; gap: 1.5rem; font-size: 0.85rem; color: var(--muted-2); }
+    .foot-links a:hover { color: var(--text); }
+    .foot-desc { font-size: 0.8rem; color: var(--muted-2); margin-top: 1.5rem; max-width: 46rem; }
+    .foot-legal { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); font-size: 11px; line-height: 1.7; color: var(--faint); max-width: 64rem; }
+
+    /* ───────── Responsive ───────── */
+    @media (max-width: 960px) {
+      .hero .wrap { grid-template-columns: 1fr; }
+      .form-card { position: static; }
+      section.block .wrap { grid-template-columns: 1fr; gap: 2.5rem; }
+      .feat-grid { grid-template-columns: repeat(2, 1fr); }
+      .steps { grid-template-columns: 1fr; }
+      .proof-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 560px) {
+      .feat-grid { grid-template-columns: 1fr; }
+      .field-row { grid-template-columns: 1fr; }
+      .ba { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═════════ 1. HEADER ═════════ -->
+  <header id="top">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="home-link" href="https://franchiseki.com">← Franchise KI home</a>
+        <a class="nav-logo" href="#top">
+          <img src="/logo-dark-bg.png" alt="Franchise KI" />
+          <span class="showcase-mark">Brand Showcase</span>
+        </a>
+      </div>
+      <div class="nav-right">
+        <a class="login" href="https://franchiseki.com/login">Log In</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ═════════ 2. HERO ═════════ -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Franchise KI Brand Showcase</span>
+        <h1>Win More Qualified Franchise Candidates With <span class="grad">Brand&nbsp;Showcase</span></h1>
+        <p class="sub">Franchise buyers are already searching by city, category, investment level, and fit. Claim your Franchise KI listing, verify your brand data, and apply for featured visibility where active candidates are comparing their next move.</p>
+        <ul class="hero-bullets">
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Keep your franchise profile, investment range, categories, and territories accurate.</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Get discovered inside Franchise KI search and PerfectFit AI matching experiences.</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Apply for featured placement and optional broker-led lead follow-up.</li>
+        </ul>
+        <div class="hero-ctas">
+          <a class="btn btn-primary btn-lg" href="#lead-form">Claim My Brand</a>
+          <a class="btn btn-ghost btn-lg" href="#stand-out">Learn About Featured Placement</a>
+        </div>
+
+        <!-- Hero visual: search results mockup -->
+        <div class="mockup" aria-hidden="true">
+          <div class="mock-toolbar">
+            <div class="mock-search">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              Franchises in Dallas, TX
+            </div>
+            <span class="chip">$150K–$400K</span>
+            <span class="chip">Home Services</span>
+          </div>
+          <div class="mock-body">
+            <div class="brand-card featured">
+              <span class="featured-tag">Featured</span>
+              <div class="brand-logo">YB</div>
+              <div class="brand-meta">
+                <div class="brand-name">Your Brand <span class="ai-pill">AI</span></div>
+                <div class="brand-sub">Home Services · Investment $150K–$400K</div>
+                <div class="brand-tags">
+                  <span class="tag em">12 territories available</span>
+                  <span class="tag cy">PerfectFit match</span>
+                  <span class="tag">Verified profile</span>
+                </div>
+              </div>
+              <div class="fit-ring"><span class="num">94</span><span class="lbl">Fit</span></div>
+            </div>
+            <div class="brand-card">
+              <div class="brand-logo dim">C2</div>
+              <div class="brand-meta">
+                <div class="brand-name" style="color:#94a3b8">Competitor Brand</div>
+                <div class="brand-sub">Home Services · Investment range not listed</div>
+                <div class="brand-tags"><span class="tag">Unclaimed listing</span></div>
+              </div>
+              <div class="fit-ring mid"><span class="num">71</span><span class="lbl">Fit</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ═════ Hero form ═════ -->
+      <div class="form-card" id="lead-form">
+        <h2>Get More Information</h2>
+        <p class="intro">Tell us which franchise brand you represent. Claim or update your listing — or ask about featured placement, broker-led lead support, or all of the above — and our team will follow up with next steps.</p>
+        <form id="showcase-form" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="fname">First name*</label>
+              <input id="fname" name="firstName" type="text" required autocomplete="given-name" />
+            </div>
+            <div class="field">
+              <label for="lname">Last name*</label>
+              <input id="lname" name="lastName" type="text" required autocomplete="family-name" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="email">Work email*</label>
+            <input id="email" name="email" type="email" required autocomplete="email" />
+          </div>
+          <div class="field">
+            <label for="phone">Phone number*</label>
+            <input id="phone" name="phone" type="tel" required autocomplete="tel" />
+          </div>
+          <div class="field">
+            <label for="brand">Franchise brand name*</label>
+            <input id="brand" name="brandName" type="text" required />
+          </div>
+          <div class="field">
+            <label for="role">Role / title*</label>
+            <input id="role" name="role" type="text" required placeholder="e.g. VP of Franchise Development" />
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="category">Franchise category*</label>
+              <select id="category" name="category" required>
+                <option value="" selected disabled>Select…</option>
+                <option>Food &amp; Beverage</option>
+                <option>Health &amp; Fitness</option>
+                <option>Home Services</option>
+                <option>Education &amp; Tutoring</option>
+                <option>Cleaning &amp; Maintenance</option>
+                <option>Retail</option>
+                <option>Automotive</option>
+                <option>Senior Care</option>
+                <option>Pet Services</option>
+                <option>Business Services</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="territories">Open / target territories*</label>
+              <select id="territories" name="territories" required>
+                <option value="" selected disabled>Select…</option>
+                <option>1–5</option>
+                <option>6–20</option>
+                <option>21–50</option>
+                <option>51–100</option>
+                <option>100+</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="interest">Primary interest*</label>
+            <select id="interest" name="primaryInterest" required>
+              <option value="" selected disabled>Select…</option>
+              <option>Claim or update our listing</option>
+              <option>Ask about featured placement</option>
+              <option>Ask about broker-led lead support</option>
+              <option>All of the above</option>
+            </select>
+          </div>
+          <!-- Consent + policy language pending lawyer sign-off (drafted 2026-06-09). -->
+          <label class="consent">
+            <input type="checkbox" name="consent" required />
+            <span>By submitting this form, I agree that Franchise KI may contact me by email, phone, and SMS/text (including via automated technology) about my franchise brand listing, featured placement, and related services, as described in the <a href="/privacy.html" style="color:var(--cyan)">Privacy Policy</a>, and I agree to the <a href="/terms.html" style="color:var(--cyan)">Terms of Service</a>. Consent is not a condition of purchase. Message and data rates may apply; reply STOP to opt out of texts.</span>
+          </label>
+          <button class="btn btn-primary btn-lg" type="submit">Claim My Brand</button>
+          <p class="privacy-note">We respect your privacy. See our <a href="/privacy.html" style="color:#64748b; text-decoration:underline;">Privacy Policy</a>.</p>
+        </form>
+        <div class="form-success" id="form-success">
+          <div style="font-size:2.25rem;">✓</div>
+          <h3>Request received</h3>
+          <p>The Franchise KI team will review your brand and current listing status, then reach out with your next best growth path.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═════════ 3. PROOF STRIP ═════════ -->
+  <section class="proof">
+    <div class="wrap">
+      <h2>Why Franchise KI Matters For Franchise Brands</h2>
+
+      <!-- Default: qualitative proof (no unverified numbers — Bennett anti-hallucination rule).
+           LAUNCH BLOCKER: when Brent verifies platform stats, set data-stats="verified" on the
+           grid below and the numeric version will render instead (see script at bottom). -->
+      <div class="proof-grid" id="proof-grid" data-stats="unverified">
+        <div class="proof-item" data-verified-big="190" data-verified-small="Active Brands">
+          <div class="big">Built for active franchise searchers</div>
+          <div class="small">Candidates arrive filtering by city, category, and budget — not browsing a static directory.</div>
+        </div>
+        <div class="proof-item" data-verified-big="462" data-verified-small="Territories Mapped">
+          <div class="big">Powered by PerfectFit AI matching</div>
+          <div class="small">Profile data feeds the matching engine that pairs candidates with better-fit brands.</div>
+        </div>
+        <div class="proof-item" data-verified-big="404" data-verified-small="Available Now">
+          <div class="big">Designed around territory and investment fit</div>
+          <div class="small">Availability and investment range are first-class search filters, not footnotes.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═════════ 4. OWN YOUR PROFILE ═════════ -->
+  <section class="block" id="own-profile">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Own Your Profile</span>
+        <h2>Make Sure Candidates See The Right Franchise Data Before They Compare You</h2>
+        <p class="body">Franchise buyers make decisions quickly. If your investment range, category, territory availability, or brand story is incomplete, your best candidates may never take the next step. Brand Showcase gives your team a direct path to claim the listing, verify the details, and improve how your brand appears in the discovery experience.</p>
+        <a class="btn btn-primary" href="#lead-form">Claim My Brand</a>
+      </div>
+      <div class="panel">
+        <div class="ba">
+          <div class="ba-col">
+            <h4>Unclaimed listing</h4>
+            <div class="ba-card">
+              <div class="ba-line"><span>Investment range</span><span class="missing">Not listed</span></div>
+              <div class="ba-line"><span>Territories</span><span class="missing">Unknown</span></div>
+              <div class="ba-line"><span>Category</span><span class="v">Misc.</span></div>
+              <div class="ba-line"><span>Brand story</span><span class="missing">Missing</span></div>
+              <div class="ba-line"><span>Status</span><span class="v" style="color:#64748b">Unverified</span></div>
+            </div>
+          </div>
+          <div class="ba-col">
+            <h4>Verified profile</h4>
+            <div class="ba-card good">
+              <div class="ba-line"><span>Investment range</span><span class="ok">$150K–$400K</span></div>
+              <div class="ba-line"><span>Territories</span><span class="ok">12 available</span></div>
+              <div class="ba-line"><span>Category</span><span class="v">Home Services</span></div>
+              <div class="ba-line"><span>Brand story</span><span class="ok">Complete</span></div>
+              <div class="ba-line"><span>Status</span><span class="ok">✓ Verified</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═════════ 5. STAND OUT IN SEARCH ═════════ -->
+  <section class="block alt" id="stand-out">
+    <div class="wrap">
+      <div class="panel" style="order:0">
+        <div class="mock-toolbar" style="border:1px solid var(--border); border-radius:.75rem; margin-bottom:.85rem;">
+          <div class="mock-search">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            Health &amp; Fitness · Austin, TX
+          </div>
+        </div>
+        <div style="display:grid; gap:.6rem;">
+          <div class="brand-card featured">
+            <span class="featured-tag">Featured</span>
+            <div class="brand-logo">YB</div>
+            <div class="brand-meta">
+              <div class="brand-name">Your Brand</div>
+              <div class="brand-sub">Top of category &amp; market results</div>
+            </div>
+            <div class="fit-ring"><span class="num">92</span><span class="lbl">Fit</span></div>
+          </div>
+          <div class="brand-card" style="opacity:.65">
+            <div class="brand-logo dim">B2</div>
+            <div class="brand-meta"><div class="brand-name" style="color:#94a3b8">Brand Two</div><div class="brand-sub">Standard listing</div></div>
+          </div>
+          <div class="brand-card" style="opacity:.45">
+            <div class="brand-logo dim">B3</div>
+            <div class="brand-meta"><div class="brand-name" style="color:#94a3b8">Brand Three</div><div class="brand-sub">Standard listing</div></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <span class="eyebrow">Stand Out In Search</span>
+        <h2>Show Up When Franchise Buyers Are Filtering By Fit</h2>
+        <p class="body">Franchise KI is not just a directory. Candidates search by location, budget, interests, categories, and market availability. A stronger brand profile helps Franchise KI understand where your opportunity belongs, so the right buyers can find you when they are narrowing their options.</p>
+        <a class="btn btn-primary" href="#lead-form" data-interest="Ask about featured placement">Ask About Featured Placement</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═════════ 6. BROKER-LED LEAD SUPPORT ═════════ -->
+  <section class="block" id="lead-support">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Growth Support</span>
+        <h2>Want Help Working The Leads? Apply For Broker-Led Follow-Up</h2>
+        <p class="body">Some brands want visibility. Others want a team that can help qualify, follow up, and move candidates toward the next step. Franchise KI can review whether your brand is a fit for broker-led lead handling, so qualified interest does not sit untouched.</p>
+        <a class="btn btn-primary" href="#lead-form" data-interest="Ask about broker-led lead support">Request Broker-Led Lead Support</a>
+        <!-- LAUNCH BLOCKER: broker-led offering needs confirmed eligibility, pricing, and
+             service levels from Brent before any specifics are added here. -->
+        <p class="body" style="font-size:.8rem; color:#64748b;">Broker-led lead handling is available for approved franchise brands. Eligibility is confirmed during your brand review.</p>
+      </div>
+      <div class="panel">
+        <div class="flow">
+          <div class="flow-step"><span class="flow-num">1</span><div><b>Candidate search</b> — <span>buyer filters by city, budget, and category</span></div></div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step"><span class="flow-num">2</span><div><b>PerfectFit match</b> — <span>your verified profile surfaces as a strong fit</span></div></div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step"><span class="flow-num">3</span><div><b>Franchise KI inquiry</b> — <span>candidate raises a hand on your listing</span></div></div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step"><span class="flow-num">4</span><div><b>Broker qualification</b> — <span>fit, funding, and timeline confirmed for you</span></div></div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step" style="border-color:rgba(52,211,153,.4)"><span class="flow-num" style="background:rgba(52,211,153,.12); border-color:rgba(52,211,153,.35); color:var(--emerald)">5</span><div><b>Franchisor handoff</b> — <span>your team gets a qualified, prepped candidate</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═════════ 7. BRAND VISIBILITY ═════════ -->
+  <section class="block alt" id="visibility">
+    <div class="wrap" style="grid-template-columns: 1fr; text-align:center; max-width:56rem;">
+      <div>
+        <span class="eyebrow">Brand Visibility</span>
+        <h2>Turn Franchise KI Into A Better Front Door For Your Brand</h2>
+        <p class="body" style="max-width:42rem; margin-left:auto; margin-right:auto;">Your best franchise candidates want clarity. They need to know where you are expanding, what investment level fits, what kind of owner succeeds, and why your model is worth a closer look. Brand Showcase gives your team a stronger way to present that story inside the platform where candidates are already searching.</p>
+        <a class="btn btn-primary" href="#lead-form">Get More Information</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═════════ 8. PERFECTFIT AI SPOTLIGHT ═════════ -->
+  <section class="block" id="perfectfit">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Feature Spotlight</span>
+        <h2>PerfectFit <span class="ai-pill" style="font-size:11px; padding:3px 8px;">AI</span> — Matching Candidates To Brands By More Than Category</h2>
+        <p class="body">PerfectFit AI helps candidates narrow franchise options by combining location, interests, budget, territory availability, and fit signals. For franchise brands, cleaner profile data means the matching experience has better information to work with — and better information means stronger-fit candidates reaching your team.</p>
+        <a class="btn btn-primary" href="#lead-form">Improve My Brand Profile</a>
+      </div>
+      <div class="panel">
+        <h4 style="font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; color:#64748b; margin-bottom:.6rem;">Candidate preferences</h4>
+        <div class="pf-prefs">
+          <span class="chip">Austin, TX</span>
+          <span class="chip">Budget $200K</span>
+          <span class="chip">Health &amp; Fitness</span>
+          <span class="chip">Semi-absentee</span>
+          <span class="chip">Open territory</span>
+        </div>
+        <div class="pf-score">
+          <div class="fit-ring"><span class="num">92</span><span class="lbl">Fit</span></div>
+          <div class="desc"><b>Franchise Fit Score</b>Location, budget, territory availability, and interest signals combined.</div>
+        </div>
+        <div style="display:grid; gap:.6rem;">
+          <div class="brand-card featured" style="padding:.75rem 1rem;">
+            <span class="featured-tag">Recommended</span>
+            <div class="brand-logo" style="width:2.4rem;height:2.4rem;font-size:.8rem;">YB</div>
+            <div class="brand-meta"><div class="brand-name">Your Brand</div><div class="brand-sub">Verified · 12 territories · $150K–$400K</div></div>
+          </div>
+          <div class="brand-card" style="padding:.75rem 1rem; opacity:.6;">
+            <div class="brand-logo dim" style="width:2.4rem;height:2.4rem;font-size:.8rem;">B2</div>
+            <div class="brand-meta"><div class="brand-name" style="color:#94a3b8">Brand Two</div><div class="brand-sub">Partial profile data</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═════════ 9. FEATURE GRID ═════════ -->
+  <section class="features">
+    <div class="wrap">
+      <h2>Franchise KI Brand Showcase Features</h2>
+      <div class="feat-grid">
+        <div class="feat">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg></div>
+          <h3>Verified brand profile data</h3>
+          <p>Confirmed ownership, accurate investment ranges, and current availability candidates can trust.</p>
+        </div>
+        <div class="feat">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+          <h3>Enhanced brand presentation</h3>
+          <p>A richer profile that tells your expansion story instead of a bare directory entry.</p>
+        </div>
+        <div class="feat">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></div>
+          <h3>Category &amp; market visibility</h3>
+          <p>Show up in the category and metro searches where your next owners are looking.</p>
+        </div>
+        <div class="feat">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1m0-12.8-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h3>PerfectFit AI matching signals</h3>
+          <p>Clean data feeds the matching engine, putting your brand in front of stronger-fit candidates.</p>
+        </div>
+        <div class="feat">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg></div>
+          <h3>Featured placement options</h3>
+          <p>Apply for prominent positioning in relevant discovery experiences as inventory opens.</p>
+        </div>
+        <div class="feat">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <h3>Territory availability updates</h3>
+          <p>Keep open markets current so candidates see real opportunity, not stale data.</p>
+        </div>
+        <div class="feat">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h3>Broker-led lead handling</h3>
+          <p>Apply for qualification and follow-up support so inquiries become conversations.</p>
+        </div>
+        <div class="feat">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/></svg></div>
+          <h3>CRM-ready lead routing</h3>
+          <p>Inquiries route to your team with the context needed for fast follow-up.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═════════ 10. HOW IT WORKS ═════════ -->
+  <section class="how">
+    <div class="wrap">
+      <h2>How Franchise KI Brand Showcase Works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="n">1</div>
+          <h3>Claim or request your brand</h3>
+          <p>Tell us who you are and which brand you represent. We confirm you're authorized to manage the listing — including email verification on your franchise domain.</p>
+        </div>
+        <div class="step">
+          <div class="n">2</div>
+          <h3>Verify your profile</h3>
+          <p>Confirm your investment range, territories, categories, and expansion priorities so candidates compare you on accurate data.</p>
+        </div>
+        <div class="step">
+          <div class="n">3</div>
+          <h3>Choose your growth path</h3>
+          <p>Profile cleanup, featured placement, broker-led lead support, or a custom plan — pick what moves your pipeline.</p>
+        </div>
+      </div>
+      <a class="btn btn-primary btn-lg" href="#lead-form">Claim My Brand</a>
+    </div>
+  </section>
+
+  <!-- ═════════ 11. FAQ ═════════ -->
+  <section class="faq">
+    <div class="wrap">
+      <h2>Frequently Asked Questions</h2>
+      <details>
+        <summary>What is Franchise KI Brand Showcase?</summary>
+        <div class="a">It is the Franchise KI growth path for franchise brands that want to claim or improve their listing, verify data, increase visibility, and ask about featured placement or lead handling support.</div>
+      </details>
+      <details>
+        <summary>Is this for franchisors or franchise buyers?</summary>
+        <div class="a">This page is for franchise brands and franchisor teams. Franchise buyers should use the public <a href="https://franchiseki.com" style="color:var(--cyan)">Franchise KI search</a> and PerfectFit AI experience.</div>
+      </details>
+      <details>
+        <summary>Can we update our brand data?</summary>
+        <div class="a">Yes. The first step is to request access or a review so your key brand details can be checked and updated. Once your claim is verified, your team controls the profile.</div>
+      </details>
+      <details>
+        <summary>How does featured placement work?</summary>
+        <div class="a">Featured placement helps approved franchise brands appear more prominently in relevant Franchise KI discovery experiences. Placement inventory is limited per category and market — submit the form and the team will walk you through current availability, eligibility, and pricing for your brand.</div>
+      </details>
+      <details>
+        <summary>Can Franchise KI work leads for us?</summary>
+        <div class="a">You can request broker-led lead support. Availability, eligibility, and service levels are confirmed during your brand review, so the answer is specific to your brand rather than a one-size-fits-all package.</div>
+      </details>
+      <details>
+        <summary>Do you guarantee franchise sales?</summary>
+        <div class="a">No. Franchise KI does not guarantee franchise sales, awards, approvals, candidate quality, or specific lead volume. What we improve is visibility and data quality where active candidates are already searching.</div>
+      </details>
+      <details>
+        <summary>What happens after we submit the form?</summary>
+        <div class="a">The Franchise KI team reviews your brand, your current listing status, and your selected interest. From there, the team routes you toward listing cleanup, featured placement details, or a broker-led support conversation.</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- ═════════ 12. FINAL CTA ═════════ -->
+  <section class="final">
+    <div class="wrap">
+      <h2>Make Sure Your Franchise Brand Is Ready For The Next Candidate Search</h2>
+      <p>Claim your Franchise KI listing, verify your data, and explore the growth options available for your brand.</p>
+      <div class="ctas">
+        <a class="btn btn-primary btn-lg" href="#lead-form">Claim My Brand</a>
+        <a class="btn btn-ghost btn-lg" href="#lead-form" data-interest="Ask about featured placement">Ask About Featured Placement</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═════════ 13. FOOTER ═════════ -->
+  <footer>
+    <div class="wrap">
+      <div class="foot-top">
+        <div class="foot-brand">
+          <img src="/logo-dark-bg.png" alt="Franchise KI" />
+          <span>© <span id="year"></span> Franchise KI. All rights reserved.</span>
+        </div>
+        <div class="foot-links">
+          <a href="/privacy.html">Privacy Policy</a>
+          <a href="/terms.html">Terms</a>
+          <a href="https://franchiseki.com">For Franchise Buyers</a>
+          <a href="#lead-form">Contact</a>
+        </div>
+      </div>
+      <p class="foot-desc">Franchise KI helps franchise candidates search, compare, and find better-fit franchise opportunities using location, category, investment, territory, and PerfectFit AI signals.</p>
+      <p class="foot-legal">Franchise KI's research, data points, scores, and summaries are generated with the assistance of artificial intelligence from publicly available sources (including Franchise Disclosure Documents, franchisor websites, and industry directories) and may contain errors, omissions, or outdated figures. Nothing on this site is financial, legal, accounting, or investment advice, and nothing here is a recommendation to buy any franchise. Candidates are 100% responsible for completing their own independent due diligence before investing any money — including reviewing the brand's current FDD in full, validating with existing franchisees, and consulting a qualified franchise attorney and accountant. Franchise KI and its affiliates assume no liability for investment decisions made based on information presented here.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Proof strip: flip data-stats to "verified" on #proof-grid (or set window.FKI_STATS_VERIFIED
+    // = true before this script) ONLY after Brent confirms current platform numbers.
+    (function () {
+      var grid = document.getElementById("proof-grid");
+      var verified = grid.getAttribute("data-stats") === "verified" || window.FKI_STATS_VERIFIED === true;
+      if (!verified) return;
+      grid.querySelectorAll(".proof-item").forEach(function (item) {
+        item.querySelector(".big").textContent = item.getAttribute("data-verified-big");
+        item.querySelector(".big").style.fontSize = "2.25rem";
+        item.querySelector(".small").textContent = item.getAttribute("data-verified-small");
+      });
+    })();
+
+    // Any link to the form pulses a cyan glow on the form card (~3s, two slow
+    // beats) so the eye lands on it — especially from the nav button on desktop,
+    // where the form is already on screen.
+    var formCard = document.getElementById("lead-form");
+    document.querySelectorAll('a[href="#lead-form"]').forEach(function (el) {
+      el.addEventListener("click", function () {
+        formCard.classList.remove("glow");
+        void formCard.offsetWidth; // restart the animation if mid-pulse
+        formCard.classList.add("glow");
+      });
+    });
+    formCard.addEventListener("animationend", function () {
+      formCard.classList.remove("glow");
+    });
+
+    // CTA buttons that pre-select a primary interest in the form.
+    document.querySelectorAll("[data-interest]").forEach(function (el) {
+      el.addEventListener("click", function () {
+        var select = document.getElementById("interest");
+        select.value = el.getAttribute("data-interest");
+      });
+    });
+
+    // Form submission.
+    // Posts to the Vercel serverless relay (api/submit.js), which forwards to
+    // CRMX via CRMX_WEBHOOK_URL or CRMX_API_KEY env vars set on the Vercel
+    // project. LAUNCH BLOCKER: those env vars must be configured at deploy.
+    var FORM_ENDPOINT = "/api/submit";
+    document.getElementById("showcase-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var form = e.target;
+      if (!form.reportValidity()) return;
+      var data = Object.fromEntries(new FormData(form).entries());
+      data.source = "brand-showcase";
+      data.tag = "FKI - Brand Showcase Inquiry";
+      var done = function () {
+        form.style.display = "none";
+        document.getElementById("form-success").style.display = "block";
+      };
+      if (FORM_ENDPOINT) {
+        fetch(FORM_ENDPOINT, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        }).then(done).catch(done);
+      } else {
+        console.log("Brand Showcase inquiry (no endpoint configured):", data);
+        done();
+      }
+    });
+  </script>
+</body>
+</html>

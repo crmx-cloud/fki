@@ -1,0 +1,703 @@
+{
+ "brands": [
+  {
+   "name": "Pizza Hut",
+   "slug": "pizza-hut",
+   "category": "Food & Beverage",
+   "website": "pizzahut.com",
+   "notes": "Global pizza chain (Yum! Brands) founded 1958 in Wichita, KS. Heavily franchised but in active U.S. contraction: ~250 underperforming U.S. units slated to close in H1 2026 under its 'Hut Forward' program, and multiple large-franchisee bankruptcies/litigation in 2024.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "250 U.S. store closures planned for H1 2026",
+     "detail": "Pizza Hut plans to close roughly 250 underperforming U.S. units in the first half of 2026 as part of its 'Hut Forward' turnaround. Global unit count fell from 20,225 (end 2024) to 19,974 (end 2025); FY2025 system sales declined to $3.47B from $3.61B.",
+     "source": "Nation's Restaurant News",
+     "url": "https://www.nrn.com/restaurant-finance/pizza-hut-is-closing-250-u-s-locations-in-the-first-half-of-2026",
+     "year": 2026
+    },
+    {
+     "severity": "red",
+     "title": "Franchisor litigation against 140-unit franchisee EYM Pizza",
+     "detail": "Pizza Hut sued EYM Pizza (~140 restaurants across five states) over repeated breaches of contract and financial mismanagement; EYM's locations saw a 10% sales decline 2019-2023 while the system grew 7%.",
+     "source": "QSR Magazine",
+     "url": "https://www.qsrmagazine.com/story/pizza-hut-sues-140-unit-franchisee-over-contractual-breaches-and-mismanagement/",
+     "year": 2024
+    },
+    {
+     "severity": "red",
+     "title": "Large franchisee Chapter 11 bankruptcy",
+     "detail": "Pizza Hut franchisee EYM Pizza filed for Chapter 11 bankruptcy protection on July 22, 2024 amid its dispute with the franchisor.",
+     "source": "Restaurant Dive",
+     "url": "https://www.restaurantdive.com/news/pizza-hut-franchisee-eym-group-files-Chapter-11-bankruptcy-protections/722088/",
+     "year": 2024
+    },
+    {
+     "severity": "caution",
+     "title": "Total ongoing fees high vs. norms",
+     "detail": "6.0% royalty plus 4.3% advertising fund contribution (~10.3% combined) is at the upper end for pizza QSR.",
+     "source": "Franchise Chatter (2024 FDD review)",
+     "url": "https://www.franchisechatter.com/2024/11/03/fdd-talk-pizza-hut-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024
+    }
+   ],
+   "nationwide": {
+    "source": "Pizza Hut Franchise (official) / Wikipedia",
+    "url": "https://franchise.pizzahut.com/",
+    "year": 2024,
+    "note": "Pizza Hut operates ~6,518 U.S. locations across the country (2024) and sells franchises across the U.S.; official franchise FAQ lists the standard set of franchise-registration states (CA, HI, IL, IN, MD, MI, MN, NY, ND, OR, RI, SD, VA, WA, WI)."
+   },
+   "fields": {
+    "franchiseFee": {
+     "value": 25000,
+     "source": "https://www.franchisechatter.com/2024/11/03/fdd-talk-pizza-hut-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 6.0,
+     "source": "https://www.franchisechatter.com/2024/11/03/fdd-talk-pizza-hut-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 4.3,
+     "source": "https://www.franchisechatter.com/2024/11/03/fdd-talk-pizza-hut-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "totalInvestmentMin": {
+     "value": 412000,
+     "source": "https://www.franchisechatter.com/2024/11/03/fdd-talk-pizza-hut-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Low end = Inline/Endcap Delco delivery/carryout restaurant ($412,000-$736,300). Restaurant-Based Delivery format runs $782,000-$2,053,500."
+    },
+    "totalInvestmentMax": {
+     "value": 2053500,
+     "source": "https://www.franchisechatter.com/2024/11/03/fdd-talk-pizza-hut-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "High end of the Restaurant Based Delivery / Delivery Based Restaurant format."
+    },
+    "avgUnitRevenue": {
+     "value": 1010000,
+     "source": "https://www.franchisechatter.com/2024/11/03/fdd-talk-pizza-hut-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Item 19-derived average reported revenue per location (~$1.01M)."
+    },
+    "totalUnits": {
+     "value": 19974,
+     "source": "https://www.nrn.com/restaurant-finance/pizza-hut-is-closing-250-u-s-locations-in-the-first-half-of-2026",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Global unit count at end of FY2025 (down from 20,225 at end 2024). ~6,518 U.S. units in 2024."
+    },
+    "yearFounded": {
+     "value": 1958,
+     "source": "https://en.wikipedia.org/wiki/Pizza_Hut",
+     "year": 1958,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1959,
+     "source": "https://en.wikipedia.org/wiki/Pizza_Hut",
+     "year": 1959,
+     "confidence": "medium",
+     "note": "First franchise unit opened in Topeka, KS."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/view-fdd-docs/pizza-hut-traditional-unit-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/11/03/fdd-talk-pizza-hut-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://franchise.pizzahut.com/faqs/",
+     "year": 2024,
+     "confidence": "medium"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.nrn.com/restaurant-finance/pizza-hut-is-closing-250-u-s-locations-in-the-first-half-of-2026",
+     "year": 2026,
+     "confidence": "high",
+     "note": "U.S. footprint contracting; ~251 net global units lost in 2025 plus ~250 planned U.S. closures in 2026."
+    }
+   }
+  },
+  {
+   "name": "Papa Johns",
+   "slug": "papa-johns",
+   "category": "Food & Beverage",
+   "website": "papajohns.com",
+   "notes": "Pizza delivery/carryout chain founded 1984, franchising since 1987; ~5,989 restaurants globally in 50 countries (mid-2025). In financial stress: planning ~300 North America closures by 2027 (two-thirds in 2026), seven of last eight quarters of negative NA same-store sales, and a 2025 founder lawsuit.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "~300 North America closures by 2027",
+     "detail": "Papa Johns will close roughly 300 underperforming restaurants across North America by end of 2027 (two-thirds expected in 2026), mostly franchisee-owned with AUVs under $600,000; the company is also cutting 7% of its workforce.",
+     "source": "Restaurant Business",
+     "url": "https://www.restaurantbusinessonline.com/financing/papa-johns-closing-300-restaurants-cutting-staff",
+     "year": 2026
+    },
+    {
+     "severity": "red",
+     "title": "Sustained negative same-store sales / earnings decline",
+     "detail": "North America same-store sales have fallen for seven of the past eight quarters; total revenues slipped to ~$2.1B in 2025 with net income down 62% to $32M.",
+     "source": "Restaurant Business",
+     "url": "https://www.restaurantbusinessonline.com/financing/papa-johns-could-face-lot-more-store-closures",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "Founder lawsuit alleges financials in 'freefall'",
+     "detail": "A lawsuit unsealed in early 2025 by founder John Schnatter alleged Papa John's 'financials are in freefall' and sought court intervention.",
+     "source": "Restaurant Business / Newsweek",
+     "url": "https://www.newsweek.com/papa-johns-closing-hundreds-of-stores-11591168",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "High combined marketing + digital fees",
+     "detail": "5% royalty plus 8% marketing/advertising fee plus a 1.5% digital fee on online/aggregator orders pushes total ongoing fees well above QSR norms.",
+     "source": "Franchise Chatter (2024 FDD review)",
+     "url": "https://www.franchisechatter.com/2025/01/02/fdd-talk-papa-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024
+    }
+   ],
+   "nationwide": {
+    "source": "Franchise.com / Wikipedia",
+    "url": "https://www.franchise.com/franchise/papa-johns",
+    "year": 2025,
+    "note": "Papa Johns operates franchises in all 50 U.S. states (and 45+ international markets); franchise opportunities marketed nationwide."
+   },
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 250000,
+     "source": "https://www.franchisechatter.com/2025/01/02/fdd-talk-papa-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Minimum $250,000 liquid capital; minimum net worth $750,000."
+    },
+    "franchiseFee": {
+     "value": 25000,
+     "source": "https://www.franchisechatter.com/2025/01/02/fdd-talk-papa-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Standard franchise fee $25,000; non-standard locations $5,000."
+    },
+    "royaltyPercent": {
+     "value": 5.0,
+     "source": "https://www.franchisechatter.com/2025/01/02/fdd-talk-papa-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "5% of net sales."
+    },
+    "adFundPercent": {
+     "value": 8.0,
+     "source": "https://www.franchisechatter.com/2025/01/02/fdd-talk-papa-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "8% marketing/advertising fee of net sales; plus a separate 1.5% digital fee."
+    },
+    "totalInvestmentMin": {
+     "value": 272915,
+     "source": "https://fddexchange.com/view-fdd-docs/papa-johns-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Standard franchise total investment per 2024 FDD: $272,915-$989,415 (non-standard formats lower)."
+    },
+    "totalInvestmentMax": {
+     "value": 853365,
+     "source": "https://fddexchange.com/view-fdd-docs/papa-johns-2025-fdd-franchise-information-costs-and-fees/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7 range $261,165-$853,365 (Standard/Small-Town); prior batch value 989415 from 2024 FDD superseded by verification audit 2026-06-11."
+    },
+    "totalUnits": {
+     "value": 5989,
+     "source": "https://www.sec.gov/Archives/edgar/data/0000901491/000162828025038567/pzza-62925xpressrelease.htm",
+     "year": 2025,
+     "confidence": "high",
+     "note": "5,989 restaurants globally in 50 countries/territories as of June 29, 2025; ~3,487 in North America."
+    },
+    "yearFounded": {
+     "value": 1984,
+     "source": "https://en.wikipedia.org/wiki/Papa_John's",
+     "year": 1984,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1987,
+     "source": "https://en.wikipedia.org/wiki/Papa_John's",
+     "year": 1987,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/view-fdd-docs/papa-johns-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/01/02/fdd-talk-papa-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.franchise.com/franchise/papa-johns",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.restaurantbusinessonline.com/financing/papa-johns-closing-300-restaurants-cutting-staff",
+     "year": 2026,
+     "confidence": "high",
+     "note": "North America footprint contracting (~300 planned closures); negative same-store sales trend."
+    }
+   }
+  },
+  {
+   "name": "Dairy Queen",
+   "slug": "dairy-queen",
+   "category": "Food & Beverage",
+   "website": "dairyqueen.com",
+   "notes": "Ice cream / fast-food chain (American Dairy Queen, owned by Berkshire Hathaway) founded 1940, franchising since the early 1940s. Primary franchise format is DQ Grill & Chill. Several 2024-2025 franchisee disputes and bankruptcies drove dozens of Texas-area closures.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "Franchisee litigation over remodels / terminated agreements (Project Lonestar)",
+     "detail": "Project Lonestar (38 TX stores) sued American Dairy Queen alleging breach of a confidentiality agreement during a sale process; ADQ terminated 25 of Lonestar's franchise agreements on Jan 30, 2025 after a remodel dispute. Lonestar alleges damages of at least $4M.",
+     "source": "KWTX / WFAA",
+     "url": "https://www.kwtx.com/2025/02/25/lawsuit-reveals-conflict-between-franchisee-american-dairy-queen-corporation-heart-25-store-closures-texas/",
+     "year": 2025
+    },
+    {
+     "severity": "red",
+     "title": "Franchisee Vasari LLC bankruptcy \u2014 23 units closed",
+     "detail": "Texas-based DQ franchisee Vasari LLC closed 23 units across three states (19 TX, 3 OK, 1 NM) via a Chapter 11 bankruptcy filing.",
+     "source": "Nation's Restaurant News",
+     "url": "https://www.nrn.com/restaurant-operations/dairy-queen-franchisee-closes-23-units-with-bankruptcy-filing",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "High capital requirement for full Grill & Chill format",
+     "detail": "DQ Grill & Chill total investment runs ~$1.51M-$2.55M with a $45,000 franchise fee and required $400,000 liquid / $750,000 net worth (single unit; higher for multi-unit).",
+     "source": "Dairy Queen Franchising (official)",
+     "url": "https://www.dairyqueenfranchising.com/investment-opportunity/",
+     "year": 2024
+    }
+   ],
+   "statesOpen": [
+    {
+     "state": "TX",
+     "status": "open",
+     "note": "'We have opportunities throughout the state of Texas.'",
+     "source": "Dairy Queen Franchising available-markets",
+     "url": "https://www.dairyqueenfranchising.com/available-markets/",
+     "year": 2024
+    },
+    {
+     "state": "CA",
+     "status": "open",
+     "note": "'We have opportunities throughout the state of California.' Fresno and Sacramento DMAs flagged as hot markets.",
+     "source": "Dairy Queen Franchising available-markets",
+     "url": "https://www.dairyqueenfranchising.com/available-markets/",
+     "year": 2024
+    },
+    {
+     "state": "AL",
+     "status": "open",
+     "note": "'We have opportunities throughout the state of Alabama.'",
+     "source": "Dairy Queen Franchising available-markets",
+     "url": "https://www.dairyqueenfranchising.com/available-markets/",
+     "year": 2024
+    },
+    {
+     "state": "OK",
+     "status": "open",
+     "note": "Tulsa DMA flagged as a hot market.",
+     "source": "Dairy Queen Franchising available-markets",
+     "url": "https://www.dairyqueenfranchising.com/available-markets/",
+     "year": 2024
+    },
+    {
+     "state": "SC",
+     "status": "open",
+     "note": "Greenville DMA flagged as a hot market.",
+     "source": "Dairy Queen Franchising available-markets",
+     "url": "https://www.dairyqueenfranchising.com/available-markets/",
+     "year": 2024
+    },
+    {
+     "state": "NC",
+     "status": "open",
+     "note": "Greensboro DMA flagged as a hot market.",
+     "source": "Dairy Queen Franchising available-markets",
+     "url": "https://www.dairyqueenfranchising.com/available-markets/",
+     "year": 2024
+    },
+    {
+     "state": "NY",
+     "status": "open",
+     "note": "Syracuse DMA flagged as a hot market.",
+     "source": "Dairy Queen Franchising available-markets",
+     "url": "https://www.dairyqueenfranchising.com/available-markets/",
+     "year": 2024
+    },
+    {
+     "state": "MD",
+     "status": "open",
+     "note": "Baltimore DMA flagged as a hot market.",
+     "source": "Dairy Queen Franchising available-markets",
+     "url": "https://www.dairyqueenfranchising.com/available-markets/",
+     "year": 2024
+    },
+    {
+     "state": "WA",
+     "status": "open",
+     "note": "Limited availability: Seattle area only.",
+     "source": "Dairy Queen Franchising available-markets",
+     "url": "https://www.dairyqueenfranchising.com/available-markets/",
+     "year": 2024
+    }
+   ],
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 400000,
+     "source": "https://www.dairyqueenfranchising.com/investment-opportunity/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Single-unit liquid capital requirement; net worth $750,000 (higher for multi-unit)."
+    },
+    "franchiseFee": {
+     "value": 45000,
+     "source": "https://www.dairyqueenfranchising.com/investment-opportunity/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 4.0,
+     "source": "https://www.dairyqueenfranchising.com/investment-opportunity/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 5.0,
+     "source": "https://www.dairyqueenfranchising.com/investment-opportunity/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Marketing fee stated as 5-6%; lower bound recorded."
+    },
+    "totalInvestmentMin": {
+     "value": 1510100,
+     "source": "https://www.dairyqueenfranchising.com/investment-opportunity/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "DQ Grill & Chill format $1,510,100-$2,550,100 (official). Franchise Chatter 2024 FDD cites $1,516,000-$2,543,000."
+    },
+    "totalInvestmentMax": {
+     "value": 2550100,
+     "source": "https://www.dairyqueenfranchising.com/investment-opportunity/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "DQ Grill & Chill high end (official site)."
+    },
+    "avgUnitRevenue": {
+     "value": 1390000,
+     "source": "https://www.franchisechatter.com/2024/07/27/fdd-talk-dq-grill-chill-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Item 19-derived average sales for DQ Grill & Chill (~$1.39M)."
+    },
+    "totalUnits": {
+     "value": 1971,
+     "source": "https://sharpsheets.io/blog/dairy-queen-franchise-costs-profits/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "~1,971 units in 2025 per FDD summary (1,969 franchised, 2 company-owned); note this reflects the DQ Grill & Chill / U.S. franchise system, not all DQ-branded locations worldwide."
+    },
+    "yearFounded": {
+     "value": 1940,
+     "source": "https://en.wikipedia.org/wiki/Dairy_Queen",
+     "year": 1940,
+     "confidence": "high",
+     "note": "First store opened 1940 in Joliet, IL."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/foodfranchises/dairy-queen-franchise-07031/ufoc/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/07/27/fdd-talk-dq-grill-chill-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.dairyqueenfranchising.com/investment-opportunity/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Multi-unit requirements explicitly referenced (higher liquid/net worth)."
+    }
+   }
+  },
+  {
+   "name": "Sonic Drive-In",
+   "slug": "sonic-drive-in",
+   "category": "Food & Beverage",
+   "website": "sonicdrivein.com",
+   "notes": "Drive-in burger QSR (Inspire Brands) founded 1953 as Top Hat Drive-In, franchising since 1956. ~3,400 restaurants in 47 states. Modest unit contraction in 2023-2024 and refranchising activity (e.g., 78 units sold to KBP Brands).",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Net unit decline 2022-2024",
+     "detail": "Sonic's store count declined by about 87 units between 2022 and 2024 to ~3,144, with a net loss of ~85 restaurants in 2023-2024.",
+     "source": "Vetted Biz",
+     "url": "https://www.vettedbiz.com/buying-a-sonic-drive-in-franchise/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Refranchising / portfolio reshuffling",
+     "detail": "Sonic sold 78 drive-in restaurants in KY, NC, OH, TN and VA to multi-brand operator KBP Brands; an earlier deal had Sonic buying 73 units from a bankrupt franchisee.",
+     "source": "TheStreet / Restaurant Dive",
+     "url": "https://www.thestreet.com/restaurants/sonic-makes-major-change-to-78-restaurants-nationwide-kbg-brands",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "AUV lags burger-QSR peers",
+     "detail": "Sonic's 2024 average unit volume of ~$1.6M trails larger burger brands such as McDonald's.",
+     "source": "Restaurant Dive / Inspire Brands coverage",
+     "url": "https://en.wikipedia.org/wiki/Inspire_Brands",
+     "year": 2024
+    }
+   ],
+   "nationwide": {
+    "source": "Inspire Brands Franchising (official SONIC page)",
+    "url": "https://franchising.inspirebrands.com/sonic",
+    "year": 2026,
+    "note": "SONIC operates 'more than 3,400 restaurants in 47 states'; official franchise page lists the standard franchise-registration states and markets franchises across the U.S."
+   },
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 500000,
+     "source": "https://franchising.inspirebrands.com/sonic",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Liquid capital $500,000; net worth $1,000,000 required."
+    },
+    "franchiseFee": {
+     "value": 15000,
+     "source": "https://franchising.inspirebrands.com/sonic",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Initial franchise fee $15,000; a separate $10,000-per-restaurant development fee applies. 2024 FDD cited a $45,000 initial license fee with $30,000 credited via royalty."
+    },
+    "royaltyPercent": {
+     "value": 5.0,
+     "source": "https://franchising.inspirebrands.com/sonic",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 3.25,
+     "source": "https://franchising.inspirebrands.com/sonic",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Minimum 3.25% of gross sales for traditional restaurants (1.625% non-traditional)."
+    },
+    "totalInvestmentMin": {
+     "value": 699200,
+     "source": "https://www.franchisechatter.com/2024/07/09/fdd-talk-sonic-drive-in-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Low end = Traditional C-Store format ($699,200-$1,390,900). Full Traditional Drive-In runs $1,714,200-$3,370,900 per 2024 FDD."
+    },
+    "totalInvestmentMax": {
+     "value": 3370900,
+     "source": "https://www.franchisechatter.com/2024/07/09/fdd-talk-sonic-drive-in-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "High end = Traditional Drive-In format per 2024 FDD."
+    },
+    "avgUnitRevenue": {
+     "value": 1610000,
+     "source": "https://www.franchisechatter.com/2024/07/09/fdd-talk-sonic-drive-in-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Item 19-derived average sales (~$1.61M)."
+    },
+    "totalUnits": {
+     "value": 3400,
+     "source": "https://franchising.inspirebrands.com/sonic",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "'More than 3,400 restaurants in 47 states' per official page; Vetted Biz cites ~3,144 in 2024."
+    },
+    "yearFounded": {
+     "value": 1953,
+     "source": "https://en.wikipedia.org/wiki/Sonic_Drive-In",
+     "year": 1953,
+     "confidence": "high",
+     "note": "Opened 1953 as Top Hat Drive-In."
+    },
+    "yearFranchising": {
+     "value": 1956,
+     "source": "https://en.wikipedia.org/wiki/Sonic_Drive-In",
+     "year": 1956,
+     "confidence": "medium",
+     "note": "First franchise negotiated in Woodward, OK, 1956."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/view-fdd-docs/sonic-drive-in-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/07/09/fdd-talk-sonic-drive-in-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://franchising.inspirebrands.com/sonic",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Per-restaurant development fee structure implies multi-unit development."
+    }
+   }
+  },
+  {
+   "name": "Jimmy John's",
+   "slug": "jimmy-johns",
+   "category": "Food & Beverage",
+   "website": "jimmyjohns.com",
+   "notes": "Gourmet sandwich QSR (Inspire Brands) founded 1983 in Charleston, IL, franchising since 1994. ~2,600 franchised units. History of state-AG litigation over employee non-competes and ongoing no-poach class-action exposure.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "State attorneys general litigation over employee non-competes",
+     "detail": "Illinois (and New York) AGs sued/challenged Jimmy John's over mandatory two-year employee non-compete agreements. The company agreed to strike the provisions and, in a later settlement, to remove non-competes from new-hire packets and pay $100,000 to the IL AG for compliance education.",
+     "source": "Nation's Restaurant News",
+     "url": "https://www.nrn.com/quick-service/illinois-attorney-general-sues-jimmy-john-s-over-noncompetes",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "Franchisee no-hire / no-poach class action",
+     "detail": "A class action challenges no-hire agreements among Jimmy John's franchisees as violations of federal and state antitrust laws, alleging they restrict employee mobility across the system.",
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/jimmy-johns-class-action-says-franchise-agreement-unfair-employees/",
+     "year": 2024
+    },
+    {
+     "severity": "info",
+     "title": "Combined ongoing fees on the higher side",
+     "detail": "6% royalty plus up to 4.5% brand/ad fund (currently full 4.5% for traditional) totals ~10.5% of gross sales.",
+     "source": "Franchise Chatter (2024 FDD review)",
+     "url": "https://www.franchisechatter.com/2024/08/19/fdd-talk-jimmy-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024
+    }
+   ],
+   "fields": {
+    "franchiseFee": {
+     "value": 35000,
+     "source": "https://www.franchisechatter.com/2024/08/19/fdd-talk-jimmy-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 6.0,
+     "source": "https://www.franchisechatter.com/2024/08/19/fdd-talk-jimmy-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "6% of weekly gross sales."
+    },
+    "adFundPercent": {
+     "value": 4.5,
+     "source": "https://www.franchisechatter.com/2024/08/19/fdd-talk-jimmy-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Up to 4.5% of weekly gross sales (currently full 4.5%; 2.25% for non-traditional)."
+    },
+    "totalInvestmentMin": {
+     "value": 361200,
+     "source": "https://www.franchisechatter.com/2024/08/19/fdd-talk-jimmy-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Range $361,200-$674,200 excluding real estate purchase (2024 FDD)."
+    },
+    "totalInvestmentMax": {
+     "value": 674200,
+     "source": "https://www.franchisechatter.com/2024/08/19/fdd-talk-jimmy-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "avgUnitRevenue": {
+     "value": 986095,
+     "source": "https://www.franchisechatter.com/2025/08/30/jimmy-johns-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Item 19: average revenue of $986,095 across 2,529 franchised restaurants operating the full 2024 fiscal year. (2023 figure was $977,885.)"
+    },
+    "totalUnits": {
+     "value": 2644,
+     "source": "https://www.franchisechatter.com/2024/08/19/fdd-talk-jimmy-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2023,
+     "confidence": "high",
+     "note": "2,604 franchised + 40 company-owned per 2024 FDD (FY2023 data); ~2,529 franchised units operated the full 2024 fiscal year per 2025 review."
+    },
+    "yearFounded": {
+     "value": 1983,
+     "source": "https://en.wikipedia.org/wiki/Jimmy_John's",
+     "year": 1983,
+     "confidence": "high",
+     "note": "Opened January 13, 1983 in Charleston, IL."
+    },
+    "yearFranchising": {
+     "value": 1994,
+     "source": "https://en.wikipedia.org/wiki/Jimmy_John's",
+     "year": 1994,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.jimmyjohnsfranchising.com/investment/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/08/19/fdd-talk-jimmy-johns-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.jimmyjohnsfranchising.com/investment/",
+     "year": 2024,
+     "confidence": "medium"
+    }
+   }
+  }
+ ]
+}

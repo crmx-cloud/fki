@@ -1,0 +1,587 @@
+{
+ "brands": [
+  {
+   "name": "StretchLab",
+   "slug": "stretchlab",
+   "category": "Fitness",
+   "website": "stretchlab.com",
+   "notes": "Largest assisted-stretching franchise brand, owned by Xponential Fitness. 2025 FDD reports 485 franchised studios and a median studio gross revenue of ~$536K. Parent Xponential reached a $17M FTC settlement plus a $22.75M franchisee class settlement in March 2026 over franchise-disclosure violations.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "Parent (Xponential Fitness) FTC settlement for Franchise Rule violations",
+     "detail": "FTC secured a settlement in March 2026 against Xponential Fitness \u2014 the franchisor of StretchLab, Club Pilates, Pure Barre, YogaSix and BFT \u2014 alleging it misrepresented costs, risks, and time-to-open, failed to disclose former CEO litigation, and delivered FDDs late. $17M is being returned to franchisees, the largest amount ever returned in a franchise case.",
+     "source": "Federal Trade Commission",
+     "url": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-secures-settlement-against-xponential-fitness-franchise-rule-violations",
+     "year": 2026
+    },
+    {
+     "severity": "red",
+     "title": "$22.75M franchisee class settlement",
+     "detail": "Xponential separately finalized a $22.75M settlement (paid over 35 months) with 509 existing and former franchisees who alleged they were harmed by misstatements and omissions about the franchise opportunity.",
+     "source": "Xponential Fitness investor relations / Franchise Times",
+     "url": "https://www.franchisetimes.com/franchise_news/xponential-fitness-agrees-to-pay-millions-in-ftc-franchisee-settlements/article_1aaeaf38-00e9-41e5-a7fe-4eb76c617b7a.html",
+     "year": 2026
+    },
+    {
+     "severity": "caution",
+     "title": "Time-to-open often exceeds a year",
+     "detail": "FTC found Xponential falsely claimed franchisees typically open within six months of signing; in reality openings have typically taken more than a year, lengthening the pre-revenue carrying period for StretchLab studios.",
+     "source": "Federal Trade Commission (business guidance blog)",
+     "url": "https://www.ftc.gov/business-guidance/blog/2026/03/protecting-franchisees-ftcs-case-against-xponential-fitness",
+     "year": 2026
+    }
+   ],
+   "nationwide": {
+    "source": "StretchLab franchise site / PRNewswire",
+    "url": "https://www.stretchlab.com/franchise",
+    "year": 2024,
+    "note": "StretchLab markets franchises nationally across North America with 485+ studios open; launched as a national franchise in 2019."
+   },
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 269019,
+     "source": "https://www.franchisechatter.com/2026/01/20/stretchlab-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7 low end"
+    },
+    "totalInvestmentMax": {
+     "value": 610224,
+     "source": "https://www.franchisechatter.com/2026/01/20/stretchlab-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7 high end"
+    },
+    "franchiseFee": {
+     "value": 65000,
+     "source": "https://www.franchisechatter.com/2026/01/20/stretchlab-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 8,
+     "source": "https://www.franchisechatter.com/2026/01/20/stretchlab-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "8% of Gross Sales"
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://www.franchisechatter.com/2026/01/20/stretchlab-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2% Brand Development Fund; separate local ad minimum (greater of $1,500 or 2%)"
+    },
+    "avgUnitRevenue": {
+     "value": 535521,
+     "source": "https://www.franchisechatter.com/2026/01/20/stretchlab-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "2025 FDD Item 19 MEDIAN gross revenue across 417 qualified studios (2024 measurement). Average was $556,263."
+    },
+    "totalUnits": {
+     "value": 485,
+     "source": "https://www.franchisechatter.com/2026/01/20/stretchlab-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Franchised locations at end of 2024; 0 company-owned"
+    },
+    "yearFounded": {
+     "value": 2015,
+     "source": "https://www.franchising.com/stretchlab/",
+     "year": 2015,
+     "confidence": "high",
+     "note": "Founded in Venice, CA"
+    },
+    "yearFranchising": {
+     "value": 2018,
+     "source": "https://www.franchising.com/stretchlab/",
+     "year": 2018,
+     "confidence": "medium",
+     "note": "Began franchising after Xponential Fitness acquisition in 2018"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/01/20/stretchlab-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/01/20/stretchlab-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.prnewswire.com/news-releases/stretchlab-original-and-largest-assisted-stretching-brand-inks-250th-franchise-agreement-300944062.html",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Unit count grew from ~250 agreements (2019) to 485 open studios (2024)"
+    }
+   }
+  },
+  {
+   "name": "Jiffy Lube",
+   "slug": "jiffy-lube",
+   "category": "Automotive",
+   "website": "jiffylube.com",
+   "notes": "Largest US quick-lube chain with ~2,000+ locations (1,721 franchised at end of 2024). 2025 FDD reports system-wide Item 19 average net adjusted sales of ~$1.05M. Franchise sales handled via franchise.jiffylube.com; owned by Shell.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "No-poach class settlement ($2M)",
+     "detail": "Jiffy Lube agreed to a $2M settlement over allegations it used illegal no-poaching agreements among franchisees that prevented hiring workers recently employed by another Jiffy Lube franchise, harming ~1,250 workers in the Philadelphia region.",
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/employment-labor/jiffy-lube-class-action-lawsuit-alleges-illegal-no-poach-agreement/",
+     "year": 2021
+    },
+    {
+     "severity": "caution",
+     "title": "Franchisee TCPA text-spam class settlement ($47M)",
+     "detail": "Heartland Automotive Services, a large Jiffy Lube franchisee, agreed to a $47M class action settlement over allegations it sent unsolicited promotional text messages to millions of consumers.",
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/jiffy-lube-franchisee-agrees-to-text-spam-class-action-settlement/",
+     "year": 2017
+    },
+    {
+     "severity": "info",
+     "title": "Recurring consumer service complaints",
+     "detail": "Industry complaint trackers document recurring consumer complaints against Jiffy Lube locations (deceptive upselling, missed services, vehicle damage) \u2014 a brand-reputation consideration for franchisees.",
+     "source": "Unhappy Franchisee",
+     "url": "https://www.unhappyfranchisee.com/jiffy-lube-consumer-complaints/",
+     "year": 2024
+    }
+   ],
+   "nationwide": {
+    "source": "Jiffy Lube franchise site / Entrepreneur directory",
+    "url": "https://franchise.jiffylube.com/howitworks",
+    "year": 2026,
+    "note": "1,900+ locations nationally; franchise opportunities marketed across the US in available designated market areas, plus 150+ in Canada."
+   },
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 236000,
+     "source": "https://www.franchisechatter.com/2025/08/13/jiffy-lube-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 452650,
+     "source": "https://www.franchisechatter.com/2025/08/13/jiffy-lube-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 35000,
+     "source": "https://vettedbiz.com/jiffy-lube-franchise/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Standard new-franchise fee $35,000; $0 applies to special conversions only. Prior batch value 0 superseded by verification audit 2026-06-11."
+    },
+    "royaltyPercent": {
+     "value": 4,
+     "source": "https://www.franchisechatter.com/2025/08/13/jiffy-lube-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "0% first 6 months; 4% thereafter (3% if paid early), 5% if supply agreement terminated"
+    },
+    "adFundPercent": {
+     "value": 4,
+     "source": "https://www.franchisechatter.com/2025/08/13/jiffy-lube-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "1.5% national + 2.5% local/coop = 4% minimum total per 2025 FDD"
+    },
+    "avgUnitRevenue": {
+     "value": 1050644,
+     "source": "https://www.franchisechatter.com/2025/08/13/jiffy-lube-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "2025 FDD Item 19 system-wide average 'Net Adjusted Sales' across 2,003 locations open 12 full months (gross sales minus promotions, warranty, non-royalty income, fleet discounts)"
+    },
+    "totalUnits": {
+     "value": 1721,
+     "source": "https://www.franchisechatter.com/2025/08/13/jiffy-lube-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Franchised units end of 2024; plus 354 company-owned"
+    },
+    "yearFounded": {
+     "value": 1979,
+     "source": "https://en.wikipedia.org/wiki/Jiffy_Lube",
+     "year": 1979,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1979,
+     "source": "https://www.jiffylube.com/about/history",
+     "year": 1979,
+     "confidence": "medium"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/08/13/jiffy-lube-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/08/13/jiffy-lube-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://franchise.jiffylube.com/howitworks",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Existing stores protected by a 3-mile non-compete ring per franchisor materials"
+    }
+   }
+  },
+  {
+   "name": "Midas",
+   "slug": "midas",
+   "category": "Automotive",
+   "website": "midas.com",
+   "notes": "Legacy automotive service brand (founded 1956), owned by TBC Corp. 2025 FDD reports 975 franchised shops and Item 19 average annual gross revenue of ~$1.23M. Franchise fee waived for veterans/first responders.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Franchisee bait-and-switch / consumer-fraud settlements",
+     "detail": "Multiple Midas franchisees have faced consumer-protection actions: one operator paid $1.8M to settle bait-and-switch claims (cheap brake specials upsold to costly unnecessary repairs); a California franchisee (CRC Luxury Motors) prompted a settlement with $150K restitution + $50K civil penalties for unnecessary/negligent repairs.",
+     "source": "Courthouse News Service",
+     "url": "https://www.courthousenews.com/midas-franchisee-settles-bait-and-switch-claims/",
+     "year": 2014
+    },
+    {
+     "severity": "caution",
+     "title": "Franchisee wage-and-hour class action",
+     "detail": "Auto Systems Centers, Inc., a Midas franchisee operating 100+ centers, faced a class action alleging hourly technicians were required to work unpaid pre-shift time and were auto-clocked out for untaken meal breaks.",
+     "source": "Coffman Legal",
+     "url": "https://www.mcoffmanlegal.com/overtime-case-filed-against-midas-franchisee-auto-systems-centers/",
+     "year": 2023
+    },
+    {
+     "severity": "info",
+     "title": "Wide net-income spread between top and bottom shops",
+     "detail": "2025 FDD Item 19 shows top-quartile shops averaging $365,962 net income (16.8%) versus bottom-quartile $31,646 (4.2%), indicating substantial unit-level performance variance.",
+     "source": "Franchise Chatter",
+     "url": "https://www.franchisechatter.com/2026/01/26/midas-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    }
+   ],
+   "nationwide": {
+    "source": "International Franchise Association / Midas franchise site",
+    "url": "https://www.franchise.org/franchise-opportunities/midas-international-corporation/",
+    "year": 2026,
+    "note": "Midas markets franchises nationwide; reached 100 stores across 40 states within first year and operates ~975 US shops."
+   },
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 341650,
+     "source": "https://www.franchisechatter.com/2026/01/26/midas-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7; new 8-bay shop"
+    },
+    "totalInvestmentMax": {
+     "value": 924890,
+     "source": "https://www.franchisechatter.com/2026/01/26/midas-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 10000,
+     "source": "https://www.franchisechatter.com/2026/01/26/midas-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Initial franchise fee $10,000 to $35,000; lower bound used. Waived for US military veterans and first responders."
+    },
+    "royaltyPercent": {
+     "value": 10,
+     "source": "https://sharpsheets.io/blog/midas-franchises-costs-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Standard royalty 10% of gross sales; 2% is the lowest category tier only. Prior batch value 2 superseded by verification audit 2026-06-11."
+    },
+    "avgUnitRevenue": {
+     "value": 1234101,
+     "source": "https://www.franchisechatter.com/2026/01/26/midas-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "2025 FDD Item 19 average annual gross revenue across 941 qualifying US shops. Top quartile $1.98M, bottom quartile $708,869."
+    },
+    "totalUnits": {
+     "value": 975,
+     "source": "https://www.franchisechatter.com/2026/01/26/midas-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Franchised locations end of 2024; 0 company-owned"
+    },
+    "yearFounded": {
+     "value": 1956,
+     "source": "https://www.encyclopedia.com/marketing/encyclopedias-almanacs-transcripts-and-maps/midas-inc",
+     "year": 1956,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1956,
+     "source": "https://www.franchising.com/midas/",
+     "year": 1956,
+     "confidence": "medium"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/01/26/midas-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/01/26/midas-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/01/26/midas-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Initial franchise fee waived for US military veterans and first responders"
+    }
+   }
+  },
+  {
+   "name": "Meineke Car Care Centers",
+   "slug": "meineke",
+   "category": "Automotive",
+   "website": "meineke.com",
+   "notes": "Automotive repair franchise (founded 1972), owned by Driven Brands. 2025 FDD reports 716 franchised centers and Item 19 average gross revenue of ~$971K. Carries notably high franchise fees and an SBA loan default rate reported around 31%.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "High SBA loan default rate (~31%)",
+     "detail": "Industry analysis reports Meineke has one of the highest SBA loan default rates of any franchise \u2014 roughly 31% of ~280 SBA-guaranteed loans to Meineke franchisees since 2001 reportedly defaulted, signaling elevated franchisee financial failure risk.",
+     "source": "Assett Franchise analysis",
+     "url": "https://assettfranchise.com/meineke-franchise-worth-it-or-is-there-a-cleaner-path/",
+     "year": 2024
+    },
+    {
+     "severity": "caution",
+     "title": "High total ongoing fee load (~15% off the top)",
+     "detail": "Critics note Meineke's combined royalty (tiered up to 7%) plus 8% advertising fund can total roughly 15% of gross revenue, among the highest fee structures in franchising, before lease markups.",
+     "source": "Franchise Chatter",
+     "url": "https://www.franchisechatter.com/2022/01/17/considering-a-meineke-franchise-dont-overlook-these-25-important-franchise-fees/",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "Franchisee fraud/misrepresentation litigation",
+     "detail": "A co-branded Econo-Lube/Meineke franchisee sued Meineke, Driven Brands and Econo Lube alleging fraud, intentional and negligent misrepresentation, breach of contract and unjust enrichment; Meineke has also pursued post-termination trademark-infringement actions against former franchisees.",
+     "source": "Repairer Driven News",
+     "url": "https://www.repairerdrivennews.com/2021/05/26/attorney-judge-rejected-notion-meineke-lacks-responsibility-for-franchisee-service/",
+     "year": 2021
+    }
+   ],
+   "statesOpen": [],
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 224898,
+     "source": "https://www.franchisechatter.com/2026/02/02/meineke-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 1200818,
+     "source": "https://www.franchisechatter.com/2026/02/02/meineke-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 45000,
+     "source": "https://www.franchisechatter.com",
+     "year": 2025,
+     "confidence": "high",
+     "note": "New-center fee $45,000; $20,000 applies to additional centers only. Prior batch value 20000 superseded by verification audit 2026-06-11."
+    },
+    "royaltyPercent": {
+     "value": 3,
+     "source": "https://www.franchisechatter.com/2026/02/02/meineke-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Tiered 3%-7% by product/service category, subject to $20,800 annual minimum; lower bound used"
+    },
+    "adFundPercent": {
+     "value": 8,
+     "source": "https://www.franchisechatter.com/2026/02/02/meineke-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "8% of gross revenues (1.5% for tires, towing, government inspections)"
+    },
+    "avgUnitRevenue": {
+     "value": 971221,
+     "source": "https://www.franchisechatter.com/2026/02/02/meineke-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "2025 FDD Item 19 average gross revenue across 549 centers operating full 2024 FY (2+ years open, 5+ repair bays). Median $913,607."
+    },
+    "totalUnits": {
+     "value": 716,
+     "source": "https://www.franchisechatter.com/2026/02/02/meineke-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Franchised end of 2024; brand reports 900+ total locations across concepts"
+    },
+    "yearFounded": {
+     "value": 1972,
+     "source": "https://www.franchisechatter.com/2026/02/02/meineke-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 1972,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1972,
+     "source": "https://www.franchisechatter.com/2026/02/02/meineke-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 1972,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/02/meineke-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/02/meineke-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/02/meineke-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Reduced franchise fees ($22,500 second, $20,000 third+) indicate multi-unit development"
+    }
+   }
+  },
+  {
+   "name": "AAMCO Transmissions & Total Car Care",
+   "slug": "aamco",
+   "category": "Automotive",
+   "website": "aamco.com",
+   "notes": "Transmission and total car care franchise (founded late 1950s/early 1960s, franchising since 1963). ~525-545 mostly-franchised centers. Has a notable history of franchisee fraud litigation and significant system-wide unit contraction (865 centers in 2009 to ~636 by 2017).",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "Franchisee class action alleging fraud and financial ruin",
+     "detail": "In 2013 several current and former franchisees filed a class action against AAMCO and its parent companies alleging fraudulent inducement, unfair fees, and use of 'Take Over Specialists' (Floaters) who ran struggling locations on scripts using fraudulent methods to inflate sales. Plaintiffs' counsel said franchisees lost homes and went through bankruptcy (one cited ~$520K loss).",
+     "source": "Unhappy Franchisee",
+     "url": "https://unhappyfranchisee.com/aamco-franchise-lawsuit-alleges-pervasive-blatant-fraud/",
+     "year": 2013
+    },
+    {
+     "severity": "red",
+     "title": "Long-term system-wide unit contraction",
+     "detail": "AAMCO had 865 franchised centers in 2009 but reported just 636 in its 2017 FDD, and current counts are ~525-545 \u2014 a multi-year decline in the franchise network.",
+     "source": "Unhappy Franchisee / AAMCO 2017 FDD",
+     "url": "https://www.unhappyfranchisee.com/category/franchisor/aamco-transmission-franchise/",
+     "year": 2017
+    },
+    {
+     "severity": "caution",
+     "title": "Shop owners sued franchisor (local market disputes)",
+     "detail": "Local AAMCO shop owners have separately sued the franchisor over the franchise relationship, as reported in regional investigative coverage.",
+     "source": "NBC4 Washington",
+     "url": "https://www.nbcwashington.com/news/local/under-the-hood-shop-owners-sue-aamco/2042836/",
+     "year": 2015
+    }
+   ],
+   "nationwide": {
+    "source": "Entrepreneur franchise directory",
+    "url": "https://www.entrepreneur.com/franchises/directory/aamco-transmissions-and-total-car-care/282060",
+    "year": 2025,
+    "note": "AAMCO markets franchises across the United States (and Canada) with 500+ centers."
+   },
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 263100,
+     "source": "https://www.vettedbiz.com/franchises/aamco-transmissions",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "2025 FDD figure cited as $263,100-$400,200; franchisepayback lists a narrower $237K-$361K range (conflict between sources/FDD years)"
+    },
+    "totalInvestmentMax": {
+     "value": 400200,
+     "source": "https://www.vettedbiz.com/franchises/aamco-transmissions",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Includes $40,000-$60,000 working capital; see min note re: source conflict"
+    },
+    "franchiseFee": {
+     "value": 39500,
+     "source": "https://www.vettedbiz.com/franchises/aamco-transmissions",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 7.5,
+     "source": "https://www.franchisepayback.com/franchise/aamco-transmission",
+     "year": 2025,
+     "confidence": "high",
+     "note": "7.5% of gross receipts; an earlier source cited 8% minimum royalty"
+    },
+    "adFundPercent": {
+     "value": 4,
+     "source": "https://www.franchisepayback.com/franchise/aamco-transmission",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "4-5% advertising; plus $150/month national and local ad of 4% or $500/week (whichever greater), up to 5% in top markets"
+    },
+    "avgUnitRevenue": {
+     "value": 938379,
+     "source": "https://www.franchisepayback.com/franchise/aamco-transmission",
+     "year": 2025,
+     "confidence": "low",
+     "note": "Reported median ~$938,379 (average ~$1,001,878 per vettedbiz). CONFLICT: at least one source (franchiseba.com) states AAMCO makes no Item 19 financial performance representation \u2014 treat AUV as unverified pending direct FDD Item 19 confirmation."
+    },
+    "totalUnits": {
+     "value": 525,
+     "source": "https://www.franchisepayback.com/franchise/aamco-transmission",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "~525-545 centers, nearly all franchised; sources vary 525-555"
+    },
+    "yearFounded": {
+     "value": 1957,
+     "source": "https://en.wikipedia.org/wiki/AAMCO_Transmissions",
+     "year": 1957,
+     "confidence": "medium",
+     "note": "Wikipedia cites 1957 founding; franchisepayback lists 1962 (conflict) \u2014 1957 is the commonly cited founding year"
+    },
+    "yearFranchising": {
+     "value": 1963,
+     "source": "https://en.wikipedia.org/wiki/AAMCO_Transmissions",
+     "year": 1963,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.vettedbiz.com/franchises/aamco-transmissions",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.unhappyfranchisee.com/category/franchisor/aamco-transmission-franchise/",
+     "year": 2017,
+     "confidence": "medium",
+     "note": "Long-term net unit decline from 865 (2009) to ~525-636 in subsequent FDDs"
+    }
+   }
+  }
+ ]
+}

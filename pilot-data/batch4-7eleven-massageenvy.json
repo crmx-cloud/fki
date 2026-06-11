@@ -1,0 +1,374 @@
+{
+ "brands": [
+  {
+   "name": "7-Eleven",
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 50000,
+     "source": "https://swoopfunding.com/us/business-loans/franchise-finance/7-eleven-franchise/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "$50K-$250K by store; VettedBiz cites $105K typical"
+    },
+    "totalInvestmentMin": {
+     "value": 142150,
+     "source": "https://fddexchange.com/view-fdd-docs/7-eleven-2025-fdd-franchise-information-costs-and-fees/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 1627710,
+     "source": "https://fddexchange.com/view-fdd-docs/7-eleven-2025-fdd-franchise-information-costs-and-fees/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Wide range: traditional model (7-Eleven owns land/building/equipment) vs Business Conversion"
+    },
+    "franchiseFee": {
+     "value": 0,
+     "source": "https://www.vettedbiz.com/franchises/7-eleven",
+     "year": 2025,
+     "confidence": "high",
+     "note": "RANGE $0-$1.1M, store-specific by historical gross profit"
+    },
+    "royaltyPercent": {
+     "value": null,
+     "source": "unverified",
+     "note": "GROSS PROFIT SPLIT ~50% (not sales royalty); covers rent/building/equipment/bookkeeping"
+    },
+    "adFundPercent": {
+     "value": 1,
+     "source": "https://www.franchisedirect.com/retailfranchises/7-eleven-franchise-07012/ufoc/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "1% of GROSS PROFIT, not sales"
+    },
+    "avgUnitRevenue": {
+     "value": null,
+     "source": "unverified",
+     "note": "CONFLICT: $2.13M cited by FranchiseCaliber but franchisepayback says FDD does not disclose AUV \u2014 held out pending direct FDD verification"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://franchisecaliber.com/franchise/7-eleven",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Aggregated-level disclosure; conflicting secondary reporting"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/view-fdd-docs/7-eleven-2025-fdd-franchise-information-costs-and-fees/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "sbaApproved": {
+     "value": null,
+     "source": "unverified",
+     "note": "SBA directory reinstated Jun 2025; listing unconfirmed"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://franchise.7-eleven.com/franchise/franchises-for-veterans-program",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Up to 20% off fee (max $50K) within 5yr of separation; 10% after; +65% special financing"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://franchise.7-eleven.com/franchise/stores-available",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "exclusiveTerritories": {
+     "value": false,
+     "source": "https://www.franchisedirect.com/retailfranchises/7-eleven-franchise-07012/ufoc/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Item 12: no exclusive territory; single-location license"
+    },
+    "ownerTypes": {
+     "value": [
+      "owner_operator"
+     ],
+     "source": "https://www.franchiseba.com/is-a-7-eleven-franchise-right-for-you-exploring-costs-requirements-and-potential/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.franchisedirect.com/retailfranchises/7-eleven-franchise-07012/ufoc/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.franchiseba.com/is-a-7-eleven-franchise-right-for-you-exploring-costs-requirements-and-potential/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.franchiseba.com/is-a-7-eleven-franchise-right-for-you-exploring-costs-requirements-and-potential/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "trainingWeeks": {
+     "value": null,
+     "source": "unverified",
+     "note": "~300 hours initial training (College of Operations, Irving TX); week count not stated"
+    },
+    "ongoingSupport": {
+     "value": [
+      "field consultant visits",
+      "bookkeeping/payroll/financial reporting services",
+      "merchandising and inventory support",
+      "in-store operational training",
+      "financing programs"
+     ],
+     "source": "https://www.franchisepayback.com/franchise/7-eleven",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "marketingSupport": {
+     "value": [
+      "national advertising fund (1% of gross profit)",
+      "proprietary product and brand marketing"
+     ],
+     "source": "https://www.franchisedirect.com/retailfranchises/7-eleven-franchise-07012/ufoc/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "employeesRequired": {
+     "value": null,
+     "source": "unverified"
+    },
+    "minFootprint": {
+     "value": "1,400-1,800+ sq ft selling space",
+     "source": "https://franchise.7-eleven.com/franchise/stores-available",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "totalUnits": {
+     "value": 8254,
+     "source": "https://www.franchisepayback.com/franchise/7-eleven",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "US: 7,229 franchised + 1,025 company-owned per 2025 FDD"
+    },
+    "yearFounded": {
+     "value": 1927,
+     "source": "https://www.franchisedirect.com/retailfranchises/7-eleven-franchise-07012/ufoc/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1964,
+     "source": "https://www.franchisedirect.com/retailfranchises/7-eleven-franchise-07012/ufoc/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "closureCount": {
+     "value": 444,
+     "source": "https://www.npr.org/2024/10/12/g-s1-28033/7-eleven-store-closures-us-canada",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "US/Canada closures announced 2024; 645 more planned FY2026"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.npr.org/2024/10/12/g-s1-28033/7-eleven-store-closures-us-canada",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Multi-year net contraction"
+    }
+   },
+   "notes": "ANOMALY: gross-profit split (~50%) not sales royalty; 7-Eleven provides land/building/equipment/bookkeeping \u2014 hence wide fee ($0-1.1M) and investment ranges. AUV held out due to conflicting sources. System contracting in North America."
+  },
+  {
+   "name": "Massage Envy",
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 150000,
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "VettedBiz cites $160K"
+    },
+    "totalInvestmentMin": {
+     "value": 719350,
+     "source": "https://www.vettedbiz.com/massage-envy-franchise/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD; Entrepreneur 2026 lists $695,870-$1,046,506 (likely newer FDD)"
+    },
+    "totalInvestmentMax": {
+     "value": 1081000,
+     "source": "https://www.vettedbiz.com/massage-envy-franchise/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 45000,
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "high",
+     "note": "$28K-45K range in some scenarios"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "https://www.franchisechatter.com/2025/10/16/massage-envy-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://www.franchisechatter.com/2025/10/16/massage-envy-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "+supplemental marketing fund up to 2% more"
+    },
+    "avgUnitRevenue": {
+     "value": 1137964,
+     "source": "https://www.franchisechatter.com/2025/10/16/massage-envy-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "FY2024 avg, current-format 1yr+ locations (187 units); median $1,070,589. CAVEAT: only 187 of 1,009 units reporting"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/10/16/massage-envy-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/healthbeautyfranchises/massage-envy-franchise-09302/ufoc/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "sbaApproved": {
+     "value": null,
+     "source": "unverified"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "$9,000 off first unit; $7,000 subsequent"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "ownerTypes": {
+     "value": [
+      "owner_operator"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Broker channels market semi-absentee but unverified from primary source"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "trainingWeeks": {
+     "value": 3,
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "10d OTJ + 5d classroom; VettedBiz says ~4wks Scottsdale HQ"
+    },
+    "ongoingSupport": {
+     "value": [
+      "initial training at Scottsdale AZ HQ",
+      "on-the-job and classroom training",
+      "additional training as requested",
+      "field operations support"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "marketingSupport": {
+     "value": [
+      "national advertising fund (2%)",
+      "supplemental marketing fund (up to 2%)",
+      "national brand campaigns"
+     ],
+     "source": "https://www.franchisechatter.com/2025/10/16/massage-envy-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "employeesRequired": {
+     "value": "10-15",
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "minFootprint": {
+     "value": "2,300-2,800 sq ft",
+     "source": "https://www.franchisechatter.com/2021/11/19/how-much-is-a-massage-envy-franchise-how-much-does-a-massage-envy-franchise-make-other-faqs/",
+     "year": 2024,
+     "confidence": "medium"
+    },
+    "totalUnits": {
+     "value": 1009,
+     "source": "https://www.franchisechatter.com/2025/10/16/massage-envy-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "12/31/2024, all franchised"
+    },
+    "yearFounded": {
+     "value": 2002,
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2003,
+     "source": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "closureCount": {
+     "value": 44,
+     "source": "https://www.franchisechatter.com/2025/10/16/massage-envy-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Net decline 2024 (1,053\u21921,009); 3 consecutive yrs of decline"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.franchisechatter.com/2025/10/16/massage-envy-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    }
+   },
+   "notes": "Contracting system (net -100 units 2022-2024) but solid mature-unit economics. Item 19 covers only 187 of 1,009 units \u2014 major sampling caveat. Total fees can reach ~10% (6% royalty + 2% + up to 2% supplemental)."
+  }
+ ]
+}

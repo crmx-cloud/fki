@@ -1,0 +1,412 @@
+{
+  "brands": [
+    {
+      "name": "B12 Store, The",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "No Item 19 financial performance representation",
+          "detail": "The 2024 FDD does not disclose average unit revenue (Item 19), so no franchisor-backed earnings claim exists. Prospective buyers cannot verify unit economics from official sources.",
+          "source": "franchisepayback",
+          "url": "https://www.franchisepayback.com/franchise/the-b-12-store",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Clinical/medical-oversight model with state licensing exposure",
+          "detail": "Stores administer injectable B12, NAD+, glutathione, vitamin C and lipotropic compounds. Administration of injectables requires licensed medical practitioners and physician/medical-director oversight, and the corporate-practice-of-medicine and scope-of-practice rules vary materially by state. Franchisee must secure appropriate medical staffing/MSO structure per jurisdiction.",
+          "source": "franchisepayback / franchising.com",
+          "url": "https://www.franchising.com/the_b12_store/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "https://www.vettedbiz.com/franchises/the-b12-store", "year": 2024, "confidence": "medium", "note": "Directory-reported; FDD Item 7 liquid capital not directly published. Net worth req ~$300k cited by same source."},
+        "totalInvestmentMin": {"value": 81000, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "high", "note": "FDD Item 7, 2024 FDD."},
+        "totalInvestmentMax": {"value": 223000, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "high", "note": "FDD Item 7, 2024 FDD."},
+        "franchiseFee": {"value": 50000, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "high", "note": "FDD Item 5. CONFLICT: one search summary cited a $50k-$125k range; the detailed 2024 FDD extract shows a single $50,000 fee."},
+        "royaltyPercent": {"value": null, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "high", "note": "Royalty is a FLAT fee, not a percentage: $1,500/month per FDD. Percent field set null because the model is fixed-dollar."},
+        "adFundPercent": {"value": null, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "high", "note": "Marketing is a FLAT fee, not a percentage: $500/month per 2024 FDD extract. (Some secondary sources cite $1,500/mo marketing - conflict; flagged.)"},
+        "avgUnitRevenue": {"value": null, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "high", "note": "No Item 19 disclosed (AUV undisclosed)."},
+        "item19Available": {"value": false, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "high", "note": "AUV undisclosed in 2024 FDD."},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/the-b-12-store-2024-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high", "note": "2022, 2023 and 2024 FDDs on file."},
+        "sbaApproved": {"value": null, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "low", "note": "Unverified - not mentioned in available sources."},
+        "veteranDiscount": {"value": null, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "low", "note": "Unverified - not mentioned in FDD extract."},
+        "multiUnitAvailable": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/b12-store-the/335226377", "year": 2024, "confidence": "medium", "note": "Multi-unit/area development implied by directory listings; not individually confirmed in FDD extract."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "high", "note": "FDD grants exclusive territory; franchisor reserves online/alternative-channel rights."},
+        "ownerTypes": {"value": ["owner_operator", "semi_absentee"], "source": "https://www.franchising.com/the_b12_store/", "year": 2024, "confidence": "low", "note": "Inferred from small-footprint retail/clinical model; not explicitly enumerated in sources."},
+        "canRunFromHome": {"value": false, "source": "https://www.franchising.com/the_b12_store/", "year": 2024, "confidence": "medium", "note": "Retail storefront / clinic model - not home-based."},
+        "canRunPartTime": {"value": null, "source": "https://www.franchising.com/the_b12_store/", "year": 2024, "confidence": "low", "note": "Unverified."},
+        "absenteeOwnership": {"value": null, "source": "https://www.franchising.com/the_b12_store/", "year": 2024, "confidence": "low", "note": "Unverified."},
+        "trainingWeeks": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/b12-store-the/335226377", "year": 2024, "confidence": "medium", "note": "Training is 20 hours total (10 classroom + 10 on-the-job) per Entrepreneur - i.e. well under 1 week; not expressed in weeks."},
+        "ongoingSupport": {"value": ["operations support", "clinical procedures training", "on-site opening support"], "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "medium", "note": "From FDD training-program description."},
+        "marketingSupport": {"value": ["brand marketing fund"], "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "low", "note": "Flat monthly marketing fee funds brand support; specific deliverables not itemized."},
+        "employeesRequired": {"value": null, "source": "https://www.franchising.com/the_b12_store/", "year": 2024, "confidence": "low", "note": "Unverified; requires at least licensed medical staff to administer injections."},
+        "minFootprint": {"value": null, "source": "https://www.franchising.com/the_b12_store/", "year": 2024, "confidence": "low", "note": "Unverified - small retail footprint, exact sq ft not published."},
+        "totalUnits": {"value": 48, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "high", "note": "2024 FDD: 47 franchised + 1 company-owned."},
+        "yearFounded": {"value": 2014, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "medium", "note": "Year established 2014 per franchisepayback."},
+        "yearFranchising": {"value": null, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "low", "note": "Not specified in available sources."},
+        "closureCount": {"value": null, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "low", "note": "Unverified - Item 20 turnover not captured."},
+        "isGrowing": {"value": true, "source": "https://www.franchisepayback.com/franchise/the-b-12-store", "year": 2024, "confidence": "medium", "note": "+18% YoY unit growth per franchisepayback."}
+      },
+      "notes": "Small injectable-wellness retail franchise. Strongest data from 2024 FDD via franchisepayback/fddexchange. Royalty and marketing are FLAT monthly fees ($1,500 royalty + $500 marketing in 2024 extract), so percent fields are null by design - some secondary sources cite $1,500/mo marketing (conflict). Liquid capital and net worth come from directories, not the FDD directly. No Item 19. Clinical licensing for injectables is the key per-state risk."
+    },
+    {
+      "name": "Epic Health and Fitness",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Very little verifiable franchise data exists",
+          "detail": "No reliable total-investment, franchise-fee, royalty, unit-count or Item 19 figures could be sourced from FDD or reputable directories. VettedBiz/ZoomInfo list units as N/A. This is itself a finding: the system is too small/opaque for diligence from public records.",
+          "source": "vettedbiz / zoominfo",
+          "url": "https://www.vettedbiz.com/listing/epic-health-and-fitness/",
+          "year": 2022
+        },
+        {
+          "severity": "caution",
+          "title": "Conflicting founding/franchising dates across sources",
+          "detail": "Sources variously state founded 2004 (veteran-owned wellness co.), established 2012 by Scott & Katie Griggs, and began franchising 2014. These cannot be reconciled from public data; treat all dates as unverified.",
+          "source": "entrepreneur / franchisehelp",
+          "url": "https://www.entrepreneur.com/franchises/directory/epic-health-and-fitness/335226620",
+          "year": 2022
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified - no figure in any source."},
+        "totalInvestmentMin": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified - not disclosed."},
+        "totalInvestmentMax": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified - not disclosed."},
+        "franchiseFee": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified - not disclosed."},
+        "royaltyPercent": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "adFundPercent": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "avgUnitRevenue": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified - no Item 19 found."},
+        "item19Available": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "fddAvailable": {"value": null, "source": "https://www.franchimp.com/franchise/epic-104347", "year": 2022, "confidence": "low", "note": "A franchimp listing exists but no current FDD confirmed; status unverified."},
+        "sbaApproved": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "veteranDiscount": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/epic-health-and-fitness/335226620", "year": 2022, "confidence": "low", "note": "Described as veteran-owned but no franchisee veteran discount confirmed."},
+        "multiUnitAvailable": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "exclusiveTerritories": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "ownerTypes": {"value": [], "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified - not enumerated."},
+        "canRunFromHome": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "canRunPartTime": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "absenteeOwnership": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "trainingWeeks": {"value": null, "source": "https://www.franchisehelp.com/franchises/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "Training offered at franchisor and franchisee locations; duration unverified."},
+        "ongoingSupport": {"value": ["bidding support", "sales tips", "billing support", "ongoing operational support"], "source": "https://www.franchisehelp.com/franchises/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "Generic descriptions from directory; low confidence."},
+        "marketingSupport": {"value": [], "source": "https://www.franchisehelp.com/franchises/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "employeesRequired": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "minFootprint": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "totalUnits": {"value": null, "source": "https://www.zoominfo.com/c/epic-health--fitness/529348266", "year": 2022, "confidence": "low", "note": "Directories list units as N/A; unverified."},
+        "yearFounded": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/epic-health-and-fitness/335226620", "year": 2022, "confidence": "low", "note": "CONFLICT: 2004 vs 2012 cited; unverified."},
+        "yearFranchising": {"value": 2014, "source": "https://www.entrepreneur.com/franchises/directory/epic-health-and-fitness/335226620", "year": 2022, "confidence": "low", "note": "2014 cited by a single secondary source; unverified."},
+        "closureCount": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."},
+        "isGrowing": {"value": null, "source": "https://www.vettedbiz.com/listing/epic-health-and-fitness/", "year": 2022, "confidence": "low", "note": "unverified."}
+      },
+      "notes": "DATA-SCARCE BRAND. No public FDD financials, fees, unit counts, or Item 19 could be verified. Founding dates conflict (2004/2012/2014-franchising). Recorded as nulls per accuracy rules rather than padding. Diligence would require obtaining the FDD directly from the franchisor."
+    },
+    {
+      "name": "Essential Speech and ABA Therapy",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Healthcare/clinical model - licensed practitioners and payer dependence",
+          "detail": "Delivers speech therapy and Applied Behavior Analysis (ABA) for children with autism/developmental delays. Requires licensed SLPs and BCBAs/RBTs, state licensure of the clinic, and typically insurance/Medicaid credentialing and prior-authorization. Reimbursement rates and ABA licensure rules vary by state and are subject to payer policy changes - a material operating risk.",
+          "source": "sharpsheets / speechandabafranchise",
+          "url": "https://sharpsheets.io/blog/essential-speech-and-aba-therapy-franchise-fdd-profits-costs/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Very young, mostly company-owned system with thin Item 19",
+          "detail": "Only ~8 units in 2024 (4 franchised, 4 company-owned); began franchising 2023. The ~$5.29M average gross-sales figure derives from a tiny, heavily company-owned sample and should not be treated as a representative franchisee outcome.",
+          "source": "franchisepayback",
+          "url": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 75000, "source": "https://www.ifpg.org/top-franchises/essential-speech-and-aba-therapy", "year": 2025, "confidence": "medium", "note": "Directory-reported liquid req; net worth req ~$350k cited alongside."},
+        "totalInvestmentMin": {"value": 209000, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "high", "note": "FDD Item 7. Some sources cite $209k-$669k range."},
+        "totalInvestmentMax": {"value": 669000, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "high", "note": "FDD Item 7."},
+        "franchiseFee": {"value": 49500, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "high", "note": "FDD Item 5."},
+        "royaltyPercent": {"value": 5, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "high", "note": "5% of gross revenue."},
+        "adFundPercent": {"value": null, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "high", "note": "Advertising is a FLAT fee ($300/quarter), not a percentage; percent null by design."},
+        "avgUnitRevenue": {"value": 5289000, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "medium", "note": "~$5.29M average gross sales cited; from a tiny, mostly company-owned sample - treat cautiously. FDD field elsewhere marked 'undisclosed' (conflict)."},
+        "item19Available": {"value": true, "source": "https://sharpsheets.io/blog/essential-speech-and-aba-therapy-franchise-fdd-profits-costs/", "year": 2024, "confidence": "medium", "note": "An Item 19 gross-sales figure is reported; sample is thin."},
+        "fddAvailable": {"value": true, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "high", "note": "2024/2025 FDD on file."},
+        "sbaApproved": {"value": null, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "low", "note": "unverified."},
+        "veteranDiscount": {"value": true, "source": "https://sharpsheets.io/blog/essential-speech-and-aba-therapy-franchise-fdd-profits-costs/", "year": 2024, "confidence": "medium", "note": "10% discount on franchise fee for veterans, per secondary sources."},
+        "multiUnitAvailable": {"value": true, "source": "https://speechandabafranchise.com/", "year": 2024, "confidence": "low", "note": "Implied; not explicitly confirmed in FDD extract."},
+        "exclusiveTerritories": {"value": false, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "high", "note": "Non-exclusive 'Designated Territory' ~3-mile radius; franchisor reserves alternative channels."},
+        "ownerTypes": {"value": ["owner_operator", "executive"], "source": "https://speechandabafranchise.com/", "year": 2024, "confidence": "low", "note": "Clinical model can be run as executive/manager-led with licensed clinicians; inferred."},
+        "canRunFromHome": {"value": false, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "medium", "note": "Clinic-based therapy center; not home-based."},
+        "canRunPartTime": {"value": null, "source": "https://speechandabafranchise.com/", "year": 2024, "confidence": "low", "note": "unverified."},
+        "absenteeOwnership": {"value": null, "source": "https://speechandabafranchise.com/", "year": 2024, "confidence": "low", "note": "unverified; executive/semi model plausible but unconfirmed."},
+        "trainingWeeks": {"value": null, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "low", "note": "Tuition-free initial training for up to 3 people; duration not given in weeks."},
+        "ongoingSupport": {"value": ["operational support", "initial training", "brand systems access"], "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "medium", "note": "From FDD/marketing descriptions."},
+        "marketingSupport": {"value": ["brand marketing"], "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "low", "note": "Flat quarterly ad fee; deliverables not itemized."},
+        "employeesRequired": {"value": null, "source": "https://speechandabafranchise.com/", "year": 2024, "confidence": "low", "note": "Requires licensed SLPs and BCBAs/RBTs; specific count unverified."},
+        "minFootprint": {"value": null, "source": "https://speechandabafranchise.com/", "year": 2024, "confidence": "low", "note": "unverified."},
+        "totalUnits": {"value": 8, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "medium", "note": "8 units in 2024 (4 franchised + 4 company-owned). Some sources say '15 units' - likely includes pipeline/signed; conflict flagged."},
+        "yearFounded": {"value": 2017, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "high", "note": "Founded 2017 in Missouri City, TX."},
+        "yearFranchising": {"value": 2023, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "high", "note": "Began franchising 2023."},
+        "closureCount": {"value": null, "source": "https://www.franchisepayback.com/franchise/essential-speech-and-aba-therapy", "year": 2024, "confidence": "low", "note": "unverified - too young to assess."},
+        "isGrowing": {"value": true, "source": "https://speechandabafranchise.com/", "year": 2024, "confidence": "medium", "note": "Early-stage expansion; small base."}
+      },
+      "notes": "Young healthcare franchise (8 units, franchising since 2023). Investment, fee and 5% royalty well-sourced from 2024 FDD. Ad fund is flat $300/qtr (percent null). The ~$5.29M AUV is from a tiny, mostly company-owned sample - flagged. Unit count conflict (8 vs 15). Clinical licensing (SLP/BCBA), state ABA licensure and insurance reimbursement are the dominant risks."
+    },
+    {
+      "name": "FreeForm Chiropractic",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Chiropractic clinical model - licensed DC and state CPOM rules",
+          "detail": "Requires a licensed Doctor of Chiropractic and, in many states, an ownership/management structure compliant with corporate-practice-of-medicine and chiropractic-board rules. Non-DC franchisees typically need an MSO/management-services arrangement; permissibility varies by state.",
+          "source": "freeformfranchise",
+          "url": "https://www.freeformfranchise.com/about/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Emerging system; no verified Item 19",
+          "detail": "~9-10 units and franchising only since 2021. No franchisor earnings claim (Item 19) could be verified, and the investment range differs across sources ($326.9k-$435.7k vs $379.7k-$599.7k).",
+          "source": "entrepreneur / franzy",
+          "url": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "medium", "note": "Cash requirement $100k; net worth req $250k per Entrepreneur."},
+        "totalInvestmentMin": {"value": 379700, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "medium", "note": "CONFLICT: Entrepreneur shows $379,700-$599,696 (2025); franzy/other show $326,896-$435,696. Used Entrepreneur figure; both ranges noted."},
+        "totalInvestmentMax": {"value": 599696, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "medium", "note": "CONFLICT as above; alternative max $435,696 from franzy."},
+        "franchiseFee": {"value": 40000, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "high", "note": "FDD Item 5 ($40,000), corroborated by multiple sources."},
+        "royaltyPercent": {"value": 7, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "high", "note": "7% royalty, corroborated."},
+        "adFundPercent": {"value": 2, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "high", "note": "2% advertising royalty; plus $500/mo technology fee."},
+        "avgUnitRevenue": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "low", "note": "No verified Item 19."},
+        "item19Available": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "low", "note": "unverified."},
+        "fddAvailable": {"value": true, "source": "https://franzy.com/franchises/freeform-chiropractic", "year": 2025, "confidence": "high", "note": "2025 FDD referenced."},
+        "sbaApproved": {"value": true, "source": "https://www.freeformfranchise.com/steps-to-ownership/", "year": 2025, "confidence": "medium", "note": "Franchisor states it is 'registered with the SBA'; SBA Franchise Directory listing not independently confirmed."},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "medium", "note": "10% off franchise fee for veterans."},
+        "multiUnitAvailable": {"value": true, "source": "https://www.freeformfranchise.com/", "year": 2025, "confidence": "low", "note": "Implied by multi-state expansion; not explicitly confirmed."},
+        "exclusiveTerritories": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "low", "note": "unverified - territory terms not captured."},
+        "ownerTypes": {"value": ["owner_operator", "semi_absentee"], "source": "https://www.freeformfranchise.com/about/", "year": 2025, "confidence": "low", "note": "DC-owner-operator or manager-led with licensed DC; inferred."},
+        "canRunFromHome": {"value": false, "source": "https://www.freeformfranchise.com/about/", "year": 2025, "confidence": "medium", "note": "Clinic-based; not home-based."},
+        "canRunPartTime": {"value": null, "source": "https://www.freeformfranchise.com/about/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "absenteeOwnership": {"value": null, "source": "https://www.freeformfranchise.com/about/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "trainingWeeks": {"value": null, "source": "https://www.freeformfranchise.com/steps-to-ownership/", "year": 2025, "confidence": "low", "note": "Training/support emphasized but duration not published in weeks."},
+        "ongoingSupport": {"value": ["systems and operations support", "training", "ongoing franchise support"], "source": "https://www.freeformfranchise.com/", "year": 2025, "confidence": "low", "note": "Generic franchisor descriptions."},
+        "marketingSupport": {"value": ["brand advertising fund"], "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "low", "note": "Funded by 2% ad royalty; deliverables not itemized."},
+        "employeesRequired": {"value": null, "source": "https://www.freeformfranchise.com/about/", "year": 2025, "confidence": "low", "note": "Requires licensed DC(s) + front-desk/CAs; count unverified."},
+        "minFootprint": {"value": null, "source": "https://www.freeformfranchise.com/about/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "totalUnits": {"value": 9, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "medium", "note": "9 units per Entrepreneur; franchisor site claims '10+'. Conflict; +125% growth cited."},
+        "yearFounded": {"value": 2016, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "medium", "note": "Founded 2016 per Entrepreneur. CONFLICT: franzy says founded 2022; Entrepreneur used (higher confidence)."},
+        "yearFranchising": {"value": 2021, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "medium", "note": "Began franchising 2021 per Entrepreneur."},
+        "closureCount": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "low", "note": "unverified."},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/freeform-chiropractic/335226757", "year": 2025, "confidence": "medium", "note": "+125% unit growth cited; from a tiny base."}
+      },
+      "notes": "Emerging chiropractic franchise (~9-10 units, franchising since 2021). Fee ($40k), 7% royalty, 2% ad fund and $500/mo tech fee are well-corroborated from the 2025 FDD via Entrepreneur. Two different investment ranges circulate (conflict flagged). Founding year conflicts (2016 vs 2022). No verified Item 19. SBA 'registered' per franchisor but not independently confirmed in SBA directory. Chiropractic licensing/CPOM is the key per-state risk."
+    },
+    {
+      "name": "Iron 24",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very young, mostly company-owned 24/7 unstaffed gym",
+          "detail": "7 units in 2024 with only 2 franchised vs 5 company-owned, and no franchisor earnings claim (Item 19 undisclosed). The app-managed, low/no-staff 24/7 access model carries member-safety, security and liability exposure typical of unstaffed gyms. Unproven franchisee-level economics.",
+          "source": "franchisepayback / vettedbiz",
+          "url": "https://www.franchisepayback.com/franchise/iron-24",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": null, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "low", "note": "Liquid capital not disclosed in available sources."},
+        "totalInvestmentMin": {"value": 201050, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "high", "note": "FDD Item 7 ($201,050-$480,750)."},
+        "totalInvestmentMax": {"value": 480750, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "high", "note": "FDD Item 7."},
+        "franchiseFee": {"value": 39000, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "high", "note": "FDD Item 5."},
+        "royaltyPercent": {"value": 7, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "high", "note": "7% of gross sales."},
+        "adFundPercent": {"value": 3, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "medium", "note": "Ad fund reported as a 3%-8% range; recorded the floor (3%). Range flagged."},
+        "avgUnitRevenue": {"value": null, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "high", "note": "Item 19 undisclosed."},
+        "item19Available": {"value": false, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "high", "note": "No Item 19 disclosed."},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/iron-24-2022-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high", "note": "2022/2023/2024 FDDs on file."},
+        "sbaApproved": {"value": null, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "low", "note": "unverified."},
+        "veteranDiscount": {"value": null, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "low", "note": "unverified - not mentioned."},
+        "multiUnitAvailable": {"value": true, "source": "https://iron24.com/franchise/", "year": 2024, "confidence": "low", "note": "Implied; not explicitly confirmed in FDD extract."},
+        "exclusiveTerritories": {"value": false, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "high", "note": "Defined territory ~1.5-3 mile radius, non-exclusive; franchisor retains broad alternative-channel rights."},
+        "ownerTypes": {"value": ["semi_absentee", "owner_operator"], "source": "https://iron24.com/franchise/", "year": 2024, "confidence": "low", "note": "App-managed low-staff model suits semi-absentee; inferred."},
+        "canRunFromHome": {"value": false, "source": "https://iron24.com/franchise/", "year": 2024, "confidence": "medium", "note": "Physical gym facility; not home-based."},
+        "canRunPartTime": {"value": null, "source": "https://iron24.com/franchise/", "year": 2024, "confidence": "low", "note": "unverified, though low-staff model may permit reduced operator hours."},
+        "absenteeOwnership": {"value": null, "source": "https://iron24.com/franchise/", "year": 2024, "confidence": "low", "note": "unverified."},
+        "trainingWeeks": {"value": 2, "source": "https://www.vettedbiz.com/franchises/iron-24", "year": 2024, "confidence": "medium", "note": "Initial training ~2 weeks at corporate HQ; some sources say format flexible (in-person/virtual/hybrid)."},
+        "ongoingSupport": {"value": ["initial training", "operations support", "app/technology platform"], "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "medium", "note": "App-based access/membership management is core support."},
+        "marketingSupport": {"value": ["brand advertising fund"], "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "low", "note": "Funded by ad fee; deliverables not itemized."},
+        "employeesRequired": {"value": null, "source": "https://iron24.com/franchise/", "year": 2024, "confidence": "low", "note": "Designed to operate with minimal/no full-time staff via app; exact count unverified."},
+        "minFootprint": {"value": null, "source": "https://iron24.com/franchise/", "year": 2024, "confidence": "low", "note": "unverified."},
+        "totalUnits": {"value": 7, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "high", "note": "7 units in 2024 (2 franchised + 5 company-owned)."},
+        "yearFounded": {"value": 2022, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "medium", "note": "Founded 2022 per franchisepayback."},
+        "yearFranchising": {"value": null, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "low", "note": "Not explicitly stated; FDDs exist from 2022 so franchising began ~2022."},
+        "closureCount": {"value": null, "source": "https://www.franchisepayback.com/franchise/iron-24", "year": 2024, "confidence": "low", "note": "unverified - too young."},
+        "isGrowing": {"value": true, "source": "https://iron24.com/franchise/", "year": 2024, "confidence": "low", "note": "Early-stage expansion; very small base, mostly company-owned."}
+      },
+      "notes": "Very young 24/7 app-managed gym franchise (7 units, mostly company-owned). Investment, $39k fee and 7% royalty well-sourced from 2024 FDD. Ad fund quoted as a 3%-8% range (floor recorded). No Item 19. Liquid capital not disclosed. Mostly-company-owned system + unstaffed model = unproven franchisee economics and security/liability caveats."
+    },
+    {
+      "name": "Ohm Fitness",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Young EMS-studio system, mostly company-owned, no Item 19",
+          "detail": "6 units in 2024 (4 franchised, 2 company-owned), franchising since 2022, with no franchisor earnings claim (Item 19 undisclosed). EMS (electro-muscle-stimulation) training is an emerging US category; franchisee unit economics are unproven.",
+          "source": "franchisepayback / vettedbiz",
+          "url": "https://www.franchisepayback.com/franchise/ohm-fitness",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting franchise-fee figures across FDD versions/sources",
+          "detail": "Sources variously report a $49,000 franchise fee, a $39,000 fee, and even a $199,000-$224,000 figure (likely a multi-unit/development or total-fee artifact). The single-unit franchise fee is most consistently $49,000.",
+          "source": "vettedbiz / franchisepayback",
+          "url": "https://www.vettedbiz.com/franchises/ohm-fitness/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": null, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "low", "note": "Liquid capital not disclosed in available sources."},
+        "totalInvestmentMin": {"value": 374000, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "high", "note": "FDD Item 7 ($374k-$885k). CONFLICT: other versions show $378.5k-$890k and $337.5k-$612.7k."},
+        "totalInvestmentMax": {"value": 885000, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "high", "note": "FDD Item 7; alternative maxes $890k / $612.7k across versions."},
+        "franchiseFee": {"value": 49000, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "medium", "note": "$49,000 single-unit fee most consistent. CONFLICT: $39,000 and $199k-$224k also reported (latter likely multi-unit/dev)."},
+        "royaltyPercent": {"value": 6, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "high", "note": "6% royalty."},
+        "adFundPercent": {"value": 5, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "medium", "note": "franchisepayback extract shows 5% ad fund. CONFLICT: one search summary cited 1% marketing fee. 5% used (FDD extract)."},
+        "avgUnitRevenue": {"value": null, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "high", "note": "Item 19 undisclosed."},
+        "item19Available": {"value": false, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "high", "note": "No Item 19 disclosed."},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/ohm-fitness-2022-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high", "note": "2022 and 2024 FDDs on file."},
+        "sbaApproved": {"value": null, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "low", "note": "unverified."},
+        "veteranDiscount": {"value": null, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "low", "note": "unverified - not mentioned."},
+        "multiUnitAvailable": {"value": true, "source": "https://www.franchisetimes.com/franchise_news/ohm-fitness-attracts-developers-as-it-rolls-out-ems-training-franchise/article_88d49108-4fe8-11ed-8acf-977fe5dfb608.html", "year": 2022, "confidence": "medium", "note": "Franchise Times reports multi-unit area developers; consistent with the $199k-$224k development-fee figure."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "medium", "note": "Territory defined as ~10,000 households >$75k income with exclusive physical placement; franchisor reserves alternative channels."},
+        "ownerTypes": {"value": ["owner_operator", "semi_absentee"], "source": "https://ohmfitness.com/pages/franchise", "year": 2024, "confidence": "low", "note": "Studio model; inferred."},
+        "canRunFromHome": {"value": false, "source": "https://ohmfitness.com/pages/franchise", "year": 2024, "confidence": "medium", "note": "Physical studio; not home-based."},
+        "canRunPartTime": {"value": null, "source": "https://ohmfitness.com/pages/franchise", "year": 2024, "confidence": "low", "note": "unverified."},
+        "absenteeOwnership": {"value": null, "source": "https://ohmfitness.com/pages/franchise", "year": 2024, "confidence": "low", "note": "unverified."},
+        "trainingWeeks": {"value": null, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "medium", "note": "Initial training ~8 days total (3 days management in Scottsdale + ~5 days fitness instruction); ~1-1.5 weeks, not cleanly weeks."},
+        "ongoingSupport": {"value": ["management training", "fitness class instruction training", "operations support"], "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "medium", "note": "From FDD training description."},
+        "marketingSupport": {"value": ["brand marketing fund"], "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "low", "note": "Funded by ad fee; deliverables not itemized."},
+        "employeesRequired": {"value": null, "source": "https://ohmfitness.com/pages/franchise", "year": 2024, "confidence": "low", "note": "Requires trained EMS instructors; count unverified."},
+        "minFootprint": {"value": null, "source": "https://ohmfitness.com/pages/franchise", "year": 2024, "confidence": "low", "note": "unverified."},
+        "totalUnits": {"value": 6, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "high", "note": "6 units in 2024 (4 franchised + 2 company-owned)."},
+        "yearFounded": {"value": 2021, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "high", "note": "Founded 2021 by Doug Payne (ex-Massage Envy/EWC/Orangetheory), HQ Scottsdale."},
+        "yearFranchising": {"value": 2022, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "high", "note": "Began franchising 2022."},
+        "closureCount": {"value": null, "source": "https://www.franchisepayback.com/franchise/ohm-fitness", "year": 2024, "confidence": "low", "note": "unverified - too young."},
+        "isGrowing": {"value": true, "source": "https://franchisingmagazineusa.com/special-feature/ohm-fitness-experiences-electrifying-growth-across-country/", "year": 2024, "confidence": "low", "note": "Press claims growth; small base, mostly company/early franchised."}
+      },
+      "notes": "Young EMS-training studio franchise (6 units, founded 2021, franchising 2022). Investment, 6% royalty and founding facts well-sourced from 2024 FDD. Franchise fee ($49k single-unit) and ad fund (5% vs 1%) conflict across sources/versions - flagged. No Item 19. Liquid capital not disclosed. EMS is an emerging US category with unproven franchisee economics."
+    },
+    {
+      "name": "Zivel",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "No public FDD financials - fees and investment undisclosed online",
+          "detail": "Zivel confirms an FDD exists (released after NDA/application) but no total investment, franchise fee, royalty, ad fund, or Item 19 figures could be sourced from any public/directory source. Diligence requires obtaining the FDD directly.",
+          "source": "zivelfranchise",
+          "url": "https://www.zivelfranchise.com/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Semi-absentee positioning on a young, multi-modality recovery model",
+          "detail": "Markets a low-staff (1-2 employees), 'run-as-a-side-business' semi-absentee model across ~8 recovery modalities (float, cryo, infrared sauna, oxygen, compression, CryoSlimming/Toning/Facial). CryoSlimming/aesthetic services may trigger state device/medical-aesthetics regulation in some jurisdictions; verify per state. Earnings unproven without Item 19.",
+          "source": "zivelfranchise / athletechnews",
+          "url": "https://athletechnews.com/best-wellness-recovery-franchises/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified - not published."},
+        "totalInvestmentMin": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified - not published. Site only compares to others 'up to $1.25M'."},
+        "totalInvestmentMax": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified - not published."},
+        "franchiseFee": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified - not disclosed."},
+        "royaltyPercent": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "adFundPercent": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "avgUnitRevenue": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified - no Item 19 found."},
+        "item19Available": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "fddAvailable": {"value": true, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "medium", "note": "Franchisor states FDD/Franchise Agreement provided after application + NDA."},
+        "sbaApproved": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "veteranDiscount": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "multiUnitAvailable": {"value": true, "source": "https://www.zivelfranchise.com/your-dream", "year": 2025, "confidence": "low", "note": "References running 'location(s)'; multi-unit implied, not confirmed."},
+        "exclusiveTerritories": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "ownerTypes": {"value": ["semi_absentee", "owner_operator"], "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "medium", "note": "Explicitly positioned as semi-absentee / side-business; owner-operator also possible."},
+        "canRunFromHome": {"value": false, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "medium", "note": "Physical recovery suite/studio; not home-based."},
+        "canRunPartTime": {"value": true, "source": "https://www.zivelfranchise.com/your-dream", "year": 2025, "confidence": "medium", "note": "Franchisor says model can be run 'as a side business, rather than a primary source of income.'"},
+        "absenteeOwnership": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "Semi-absentee marketed; fully-absentee unverified."},
+        "trainingWeeks": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "ongoingSupport": {"value": [], "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified - not itemized publicly."},
+        "marketingSupport": {"value": [], "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "employeesRequired": {"value": 2, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "medium", "note": "Franchisor: 'only takes one to two employees during most business hours' (machine-driven model). Recorded 2 as practical max."},
+        "minFootprint": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "totalUnits": {"value": 19, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "medium", "note": "Franchisor site: 19 locations open + 2 under development. Self-reported, not FDD-confirmed."},
+        "yearFounded": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified - not stated. HQ Nashville, TN."},
+        "yearFranchising": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "closureCount": {"value": null, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "isGrowing": {"value": true, "source": "https://www.zivelfranchise.com/", "year": 2025, "confidence": "low", "note": "19 open + 2 in development suggests growth; self-reported."}
+      },
+      "notes": "DATA-SCARCE on financials. No public investment/fee/royalty/Item 19 data; FDD only released post-NDA. Strongest verifiable facts are operational/self-reported: 19 locations open (+2 dev), Nashville HQ, semi-absentee/side-business model with 1-2 staff, and a recovery menu (float, cryo, infrared sauna, oxygen, compression, CryoSlimming/Toning/Facial). Most financial fields are null with 'unverified'. CryoSlimming/aesthetics may have per-state device/medical regulation."
+    },
+    {
+      "name": "SWTHZ Contrast Therapy Studio",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "FDD discloses litigation and/or bankruptcy (Item 3/Item 4)",
+          "detail": "VettedBiz flags that SweatHouz's FDD discloses lawsuits and/or bankruptcy information. Specific nature/status not available in public summaries; prospective buyers should review Items 3 and 4 of the current FDD directly.",
+          "source": "vettedbiz",
+          "url": "https://www.vettedbiz.com/franchises/sweathouz",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Aggressive expansion against a young, mostly-recent unit base with escalating royalty",
+          "detail": "Announced opening ~2 studios/week through end of 2025 off a base of only 37 units (22 franchised, 15 company-owned) and franchising since 2022. Royalty escalates 6% -> 7% (mo 25) -> 8% (mo 49), increasing cost burden as units mature. Rapid sign-then-build growth raises execution/saturation risk.",
+          "source": "finance.yahoo / franchisepayback",
+          "url": "https://finance.yahoo.com/news/sweathouz-expands-nationwide-opening-two-190000180.html",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "High capital intensity with modest reported margin",
+          "detail": "Total investment ~$570k-$1.19M with reported AUV ~$581k and EBITDA margin ~10.3% (secondary). Top-studio >$1.2M is not representative. Verify Item 19 sample size and breadth before relying on the average.",
+          "source": "franchisepayback / 1851franchise",
+          "url": "https://www.franchisepayback.com/franchise/sweathouz",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 550000, "source": "https://sharpsheets.io/blog/sweathouz-franchise-franchise-costs-fees-profits/", "year": 2025, "confidence": "medium", "note": "Min liquidity '$550K+' cited by secondary sources; not confirmed verbatim from FDD Item 7."},
+        "totalInvestmentMin": {"value": 569757, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "high", "note": "FDD Item 7 ($569,757-$1,193,974)."},
+        "totalInvestmentMax": {"value": 1193974, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "high", "note": "FDD Item 7."},
+        "franchiseFee": {"value": 45000, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "high", "note": "FDD Item 5."},
+        "royaltyPercent": {"value": 6, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "high", "note": "Starting royalty 6%; ESCALATES to 7% at month 25 and 8% at month 49. Recorded starting rate."},
+        "adFundPercent": {"value": 2, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "medium", "note": "CONFLICT: search summary says 2% weekly brand fund; franchisepayback extract shows 5% marketing. Recorded 2% (FDD-described brand fund); 5% noted as conflict."},
+        "avgUnitRevenue": {"value": 581000, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "medium", "note": "AUV ~$581k per franchisepayback. Top studio >$1.2M (1851) is not representative. Yahoo/1851 also cite $1,213,536 gross at a top unit - conflict on which is 'average'."},
+        "item19Available": {"value": true, "source": "https://1851franchise.com/sweathouz-franchise-costs-fees-profit-and-data-for-2026-2730419", "year": 2025, "confidence": "high", "note": "2024/2025 FDD includes Item 19 with AUV and earnings estimates ($169,896-$218,437)."},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/sweathouz-2022-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high", "note": "2022 and 2024/2025 FDDs on file."},
+        "sbaApproved": {"value": null, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "low", "note": "unverified."},
+        "veteranDiscount": {"value": null, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "low", "note": "unverified - not mentioned in FDD extract."},
+        "multiUnitAvailable": {"value": true, "source": "https://1851franchise.com/sweathouz/sweathouz-new-york-tribeca-expansion-2731111", "year": 2025, "confidence": "medium", "note": "Multi-unit/area development active (e.g. 12-unit NYC deal)."},
+        "exclusiveTerritories": {"value": false, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "high", "note": "Non-exclusive territory with a protected area; franchisor 'will not permit another entity to operate within the designated protected territory.'"},
+        "ownerTypes": {"value": ["owner_operator", "semi_absentee"], "source": "https://sweathouz.com/franchise/", "year": 2025, "confidence": "low", "note": "Studio model; multi-unit developers suggest semi-absentee too. Inferred."},
+        "canRunFromHome": {"value": false, "source": "https://sweathouz.com/franchise/", "year": 2025, "confidence": "medium", "note": "Physical studio; not home-based."},
+        "canRunPartTime": {"value": null, "source": "https://sweathouz.com/franchise/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "absenteeOwnership": {"value": null, "source": "https://sweathouz.com/franchise/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "trainingWeeks": {"value": null, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "low", "note": "'Extensive initial training' (orientation, operations, sales, facility mgmt) at Atlanta HQ or virtual; duration not given in weeks."},
+        "ongoingSupport": {"value": ["initial training (operations, sales, facility management)", "ongoing operations support"], "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "medium", "note": "From FDD training description."},
+        "marketingSupport": {"value": ["brand/marketing fund", "national brand marketing"], "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "medium", "note": "Brand fund funds marketing; deliverables not fully itemized."},
+        "employeesRequired": {"value": null, "source": "https://sweathouz.com/franchise/", "year": 2025, "confidence": "low", "note": "unverified."},
+        "minFootprint": {"value": null, "source": "https://sweathouz.com/franchise/", "year": 2025, "confidence": "low", "note": "unverified - private-suite contrast-therapy studio."},
+        "totalUnits": {"value": 37, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "high", "note": "37 units in 2025 (22 franchised + 15 company-owned). Note: many more signed/under development per press."},
+        "yearFounded": {"value": 2019, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "high", "note": "Founded 2019."},
+        "yearFranchising": {"value": 2022, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "high", "note": "Began franchising 2022."},
+        "closureCount": {"value": null, "source": "https://www.franchisepayback.com/franchise/sweathouz", "year": 2025, "confidence": "low", "note": "unverified - Item 20 turnover not captured; system is young."},
+        "isGrowing": {"value": true, "source": "https://finance.yahoo.com/news/sweathouz-expands-nationwide-opening-two-190000180.html", "year": 2025, "confidence": "high", "note": "Rapid expansion - ~2 new studios/week announced through end of 2025."}
+      },
+      "notes": "Capital-intensive contrast-therapy (infrared sauna + cold plunge + vitamin-C shower) studio franchise. Investment, $45k fee, escalating 6/7/8% royalty, founding (2019/franchising 2022) and 37-unit count well-sourced from 2024/2025 FDD. Conflicts: ad/brand fund 2% vs 5%; AUV ~$581k vs top-studio $1.2M (averages must not be confused). FDD discloses litigation/bankruptcy (Item 3/4) per VettedBiz - the key red-adjacent caution. Aggressive ~2-studios/week expansion off a small base."
+    }
+  ]
+}

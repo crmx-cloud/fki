@@ -1,0 +1,367 @@
+{
+ "brands": [
+  {
+   "name": "Kumon Math & Reading Centers",
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 70000,
+     "source": "https://www.kumonfranchise.com/buyer-faqs",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMin": {
+     "value": 73123,
+     "source": "https://fddexchange.com/kumon-2025-fdd-franchise-information-costs-and-fees/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 165360,
+     "source": "https://fddexchange.com/kumon-2025-fdd-franchise-information-costs-and-fees/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 1000,
+     "source": "https://www.franchisedirect.com/directory/kumon/ufoc/908/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Atypical low fee; $1,000 deposit + $1,000 to franchisor; some sources cite $2,000 total"
+    },
+    "royaltyPercent": {
+     "value": null,
+     "source": "unverified",
+     "note": "Royalty is per-student (~$36/student/month), NOT a percentage. Blended ~5.1% is secondary, not contractual"
+    },
+    "adFundPercent": {
+     "value": null,
+     "source": "unverified",
+     "note": "Per operations manual; New Center Marketing Fee ~$300/month"
+    },
+    "avgUnitRevenue": {
+     "value": null,
+     "source": "unverified",
+     "note": "No Item 19; circulating ~$173K AUV is third-party, unverified"
+    },
+    "item19Available": {
+     "value": false,
+     "source": "https://www.vettedbiz.com/buying-a-kumon-franchise/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/kumon-2025-fdd-franchise-information-costs-and-fees/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "sbaApproved": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/directory/kumon/ufoc/908/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.veteransfranchise.com/franchise/Kumon",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Up to ~$10,000 incentive; terms vary by source"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/directory/kumon/ufoc/908/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "exclusiveTerritories": {
+     "value": false,
+     "source": "https://www.franchisedirect.com/directory/kumon/ufoc/908/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Item 12: no exclusive territory"
+    },
+    "ownerTypes": {
+     "value": [
+      "owner_operator"
+     ],
+     "source": "https://www.franchisedirect.com/directory/kumon/ufoc/908/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Must personally instruct; full-time"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.franchisedirect.com/directory/kumon/ufoc/908/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.franchisedirect.com/directory/kumon/ufoc/908/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.franchisedirect.com/directory/kumon/ufoc/908/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": null,
+     "source": "unverified",
+     "note": "Two-semester Instructor Development Program (~4+ months), not expressible in weeks"
+    },
+    "ongoingSupport": {
+     "value": [
+      "instructor development/achievement testing",
+      "monthly instructor meetings",
+      "online training",
+      "professional development activities"
+     ],
+     "source": "https://www.franchisedirect.com/directory/kumon/ufoc/908/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "marketingSupport": {
+     "value": [
+      "New Center Marketing Fee (~$300/month)",
+      "advertising contribution per operations manual",
+      "national/brand advertising programs"
+     ],
+     "source": "https://www.franchisedirect.com/directory/kumon/ufoc/908/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "employeesRequired": {
+     "value": null,
+     "source": "unverified"
+    },
+    "minFootprint": {
+     "value": null,
+     "source": "unverified",
+     "note": "~1,000-1,200 sq ft per secondary sources, unverified from FDD"
+    },
+    "totalUnits": {
+     "value": 1689,
+     "source": "https://www.vettedbiz.com/buying-a-kumon-franchise/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "US count; ~25,420 is GLOBAL"
+    },
+    "yearFounded": {
+     "value": 1958,
+     "source": "https://www.franchisedirect.com/directory/kumon/ufoc/908/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Japan 1958; US ops ~1980s"
+    },
+    "yearFranchising": {
+     "value": 1958,
+     "source": "https://www.franchisedirect.com/directory/kumon/ufoc/908/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "US-specific ~1994, conflicting"
+    },
+    "closureCount": {
+     "value": null,
+     "source": "unverified"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.kumonfranchise.com/us-en/assets/pressrelease/release2023-1201.html",
+     "year": 2024,
+     "confidence": "medium"
+    }
+   },
+   "notes": "Royalty is per-student (not %) \u2014 royaltyPercent null with note. NO Item 19. Owner must personally instruct + pass proficiency testing; owner_operator only, full-time, not home-based. No exclusive territory. Unit count/founding year conflicts (US vs global) flagged."
+  },
+  {
+   "name": "Mathnasium",
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 112750,
+     "source": "https://www.franchisegator.com/franchises/mathnasium/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "totalInvestmentMin": {
+     "value": 112936,
+     "source": "https://www.franchisechatter.com/2025/07/17/mathnasium-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 149616,
+     "source": "https://www.franchisechatter.com/2025/07/17/mathnasium-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 49000,
+     "source": "https://www.franchisechatter.com/2025/07/17/mathnasium-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "$26,500 each additional unit"
+    },
+    "royaltyPercent": {
+     "value": 10,
+     "source": "https://www.franchisechatter.com/2025/07/17/mathnasium-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Greater of 10% or $1,500/mo from month 24"
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://www.franchisechatter.com/2025/07/17/mathnasium-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "$250 + 2% of monthly gross receipts"
+    },
+    "avgUnitRevenue": {
+     "value": 367545,
+     "source": "https://www.franchisechatter.com/2025/07/17/mathnasium-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Item 19 AUV 2024; median $316,794; 853 centers reporting"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/07/17/mathnasium-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/view-fdd-docs/mathnasium-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "sbaApproved": {
+     "value": null,
+     "source": "unverified",
+     "note": "SBA loans used (~1.0% default rate cited) but directory listing unconfirmed"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.franchisegator.com/franchises/mathnasium/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "25% off initial fee for veterans and educators"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/07/17/mathnasium-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/directory/mathnasium/ufoc/164/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Protected territory per Item 12 (conditions apply)"
+    },
+    "ownerTypes": {
+     "value": [
+      "owner_operator",
+      "semi_absentee"
+     ],
+     "source": "https://www.franchisegator.com/franchises/mathnasium/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Semi-absentee with hired center director"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.franchisedirect.com/directory/mathnasium/ufoc/164/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.franchisegator.com/franchises/mathnasium/",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.franchisegator.com/franchises/mathnasium/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "trainingWeeks": {
+     "value": null,
+     "source": "unverified",
+     "note": "Staged program in hours/days (30hr online + live sessions + 3 days LA), not weeks"
+    },
+    "ongoingSupport": {
+     "value": [
+      "Field Support Specialist (first year)",
+      "Franchise Business Consultant (ongoing)",
+      "monthly webinars (first 12 months)",
+      "Mathnasium@home online platform",
+      "curriculum/operations support"
+     ],
+     "source": "https://www.franchisegator.com/franchises/mathnasium/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "marketingSupport": {
+     "value": [
+      "national/brand marketing system",
+      "local marketing tools",
+      "digital marketing programs"
+     ],
+     "source": "https://www.franchisegator.com/franchises/mathnasium/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "employeesRequired": {
+     "value": "2-9",
+     "source": "https://www.franchisegator.com/franchises/mathnasium/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "minFootprint": {
+     "value": "1,000-1,500 sq ft",
+     "source": "https://www.franchisegator.com/franchises/mathnasium/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "totalUnits": {
+     "value": 999,
+     "source": "https://www.franchisechatter.com/2025/07/17/mathnasium-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "US: 995 franchised + 4 company-owned end of 2024"
+    },
+    "yearFounded": {
+     "value": 2002,
+     "source": "https://en.wikipedia.org/wiki/Mathnasium",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2003,
+     "source": "https://www.franchisedirect.com/directory/mathnasium/ufoc/164/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "closureCount": {
+     "value": null,
+     "source": "unverified",
+     "note": "Net +27 franchised units 2024; absolute closure count not extracted"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/07/17/mathnasium-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high"
+    }
+   },
+   "notes": "Cleanest dataset: 2025 FDD (2024 financials). Item 19 AUV $367,545 official. 10% royalty + 2% marketing. 25% veteran/educator fee discount. Protected territory. 999 US units, growing."
+  }
+ ]
+}

@@ -1,0 +1,249 @@
+{
+  "brands": [
+    {
+      "name": "That 1 Painter",
+      "website": "https://that1painter.com",
+      "notes": "Fast-growing residential/commercial painting franchise under ResiBrands; began franchising in 2021-2022 and grew from zero to 265+ territories (94 franchisees) by end of 2024. Strong Item 19 average gross revenue but a very young system with rapid unit expansion outpacing operating history.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, rapidly expanding system",
+          "detail": "Began franchising in 2021-2022; the system added 203 franchised territories in a single year, ending 2024 with 94 franchisees in 265 territories plus 117 signed-but-unopened agreements. Explosive growth with limited multi-year operating history means few units have proven long-term durability.",
+          "source": "FranchiseChatter 2026 review / Entrepreneur",
+          "url": "https://www.franchisechatter.com/2026/01/27/that-1-painter-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Item 19 average skewed by top performers",
+          "detail": "Reported ~$843K-$894K average gross revenue is computed across a small base of locations open 12+ months and is heavily influenced by top-third performers (franchisor markets a top-third average of ~$1.65M). Averages should not be read as typical unit performance for a system this young.",
+          "source": "That 1 Painter franchise site / FranchiseChatter",
+          "url": "https://that1painter.com/franchise/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Above-category advertising obligations",
+          "detail": "Beyond the 6% royalty and 2% brand fund, franchisees must spend $3,000/month on local advertising in year one, then the greater of 4% of monthly gross or $3,000/month, plus a $650-$1,300/month ad management fee and a ~$461/territory/week minimum royalty. Total ongoing fee load is meaningful for an emerging brand.",
+          "source": "Sharpsheets / FranchiseChatter FDD summary",
+          "url": "https://www.franchisechatter.com/2025/01/27/fdd-talk-that-1-painter-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 96500, "source": "https://that1painter.com/franchise/", "year": 2025, "confidence": "medium", "note": "Franchisor site lists $96,500-$137,000; FDD-derived summaries cite $113K-$189K depending on operating model (subcontractor vs employee). Range varies by model."},
+        "totalInvestmentMax": {"value": 189000, "source": "https://www.franchisechatter.com/2025/01/27/fdd-talk-that-1-painter-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "medium", "note": "2024 FDD total investment $139,750-$189,000; franchisor site shows lower $96,500-$137,000 for one model."},
+        "franchiseFee": {"value": 59000, "source": "https://that1painter.com/franchise/", "year": 2025, "confidence": "high", "note": "Single territory franchise fee."},
+        "royaltyPercent": {"value": 6, "source": "https://www.franchisechatter.com/2025/01/27/fdd-talk-that-1-painter-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high", "note": "6% of gross revenue; minimum royalty ~$461/territory/week."},
+        "adFundPercent": {"value": 2, "source": "https://www.franchisechatter.com/2025/01/27/fdd-talk-that-1-painter-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high", "note": "2% brand fund (capped at 3%); separate local advertising minimum of $3,000/month or 4% of gross applies."},
+        "avgUnitRevenue": {"value": 843538, "source": "https://www.franchisechatter.com/2025/01/27/fdd-talk-that-1-painter-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "medium", "note": "Item 19: $843,538 average gross revenue across 19 franchised/affiliate locations open 12+ months as of 12/31/2023. Represents gross revenue, not profit; skewed by top performers."},
+        "totalUnits": {"value": 95, "source": "https://www.franchisechatter.com/2026/01/27/that-1-painter-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "high", "note": "94 franchisees operating 265 territories + 1 company-owned business operating 6 territories as of 12/31/2024. Counted by operators; territory count is far higher (265+)."},
+        "yearFounded": {"value": 2011, "source": "https://www.vettedbiz.com/that-1-painter-franchise/", "year": 2025, "confidence": "medium", "note": "Founded 2011 (Austin, TX)."},
+        "yearFranchising": {"value": 2021, "source": "https://www.vettedbiz.com/that-1-painter-franchise/", "year": 2025, "confidence": "high", "note": "Began offering franchises June 2021 (some FDD summaries cite first units in 2022)."},
+        "sbaApproved": {"value": true, "source": "https://that1painter.com/franchise/", "year": 2025, "confidence": "high", "note": "Listed on the SBA Franchise Directory per franchisor site."},
+        "canRunFromHome": {"value": true, "source": "https://www.franchisechatter.com/2026/01/27/that-1-painter-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "Home-office operating model."},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/that-1-painter/335226504", "year": 2026, "confidence": "high", "note": "Jumped from #443 to #230 on Entrepreneur Franchise 500 after adding ~179 units in a year."},
+        "fddAvailable": {"value": true, "source": "https://www.franchisechatter.com/2025/01/27/fdd-talk-that-1-painter-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high"},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2025/01/27/fdd-talk-that-1-painter-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high"},
+        "multiUnitAvailable": {"value": true, "source": "https://that1painter.com/franchise/", "year": 2025, "confidence": "high", "note": "Multi-territory ownership offered; system structured around territories."}
+      }
+    },
+    {
+      "name": "Lawn Pride",
+      "website": "https://lawnpride.com",
+      "notes": "Lawn fertilization/weed-control franchise owned by Neighborly (acquired 2022); began franchising January 2023 and grew roughly 6x to 36 units by end of 2024. Very young franchise system with thin franchisee-level performance data (Item 19 reflects only the original affiliate location).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Brand-new franchise system with minimal franchisee track record",
+          "detail": "Began franchising January 2023 with zero franchised units through 2022. By end of 2024 there were 36 businesses (35 franchised + 1 affiliate). Almost no franchised units have multiple years of operating history, so performance and unit-survival data are not yet meaningful.",
+          "source": "FranchiseChatter / Neighborly disclosures",
+          "url": "https://www.franchisechatter.com/2026/02/10/lawn-pride-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Item 19 covers only the affiliate location, not franchisees",
+          "detail": "The 2023 FDD Item 19 reported per-invoice averages ($81.53 residential / $258.48 commercial in 2022) for the single affiliate-owned Indianapolis business only. There is no franchisee-level revenue disclosure, so prospective buyers have no system-wide earnings benchmark.",
+          "source": "FranchiseChatter 2024 FDD review",
+          "url": "https://www.franchisechatter.com/2024/01/26/fdd-talk-lawn-pride-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Royalty at/above lawn-care category norm",
+          "detail": "Up to 8% royalty plus 2% marketing fee is at the higher end versus several established lawn-care franchises, a consideration for a system without proven franchisee margins.",
+          "source": "Sharpsheets / FranchiseGrade",
+          "url": "https://sharpsheets.io/blog/lawn-pride-franchise-fdd-profits-costs/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "https://www.franchise.com/franchise/lawn-pride", "year": 2024, "confidence": "high", "note": "Minimum liquid capital; minimum net worth $250,000."},
+        "totalInvestmentMin": {"value": 134770, "source": "https://www.franchisechatter.com/2024/01/26/fdd-talk-lawn-pride-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high", "note": "2023 FDD: $134,770-$153,420. Later third-party summaries cite a wider $141K-$244K range."},
+        "totalInvestmentMax": {"value": 153420, "source": "https://www.franchisechatter.com/2024/01/26/fdd-talk-lawn-pride-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "medium", "note": "2023 FDD upper bound; some 2025/2026 third-party sources report up to $243,710."},
+        "franchiseFee": {"value": 40000, "source": "https://www.franchisechatter.com/2024/01/26/fdd-talk-lawn-pride-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "medium", "note": "2023 FDD lists $40,000; later summaries cite $40,050-$62,300 reflecting multi-territory pricing."},
+        "royaltyPercent": {"value": 8, "source": "https://sharpsheets.io/blog/lawn-pride-franchise-fdd-profits-costs/", "year": 2024, "confidence": "high", "note": "Up to 8% of gross sales, with minimum fees applicable."},
+        "adFundPercent": {"value": 2, "source": "https://www.franchisechatter.com/2024/01/26/fdd-talk-lawn-pride-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high", "note": "2% marketing/MAP fee on gross sales."},
+        "totalUnits": {"value": 36, "source": "https://www.franchisechatter.com/2026/02/10/lawn-pride-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "high", "note": "36 businesses as of 12/31/2024 (35 franchised + 1 affiliate-operated). Added ~30 units in 2024."},
+        "yearFounded": {"value": 1993, "source": "https://www.franchisechatter.com/2024/01/26/fdd-talk-lawn-pride-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high", "note": "Original Indianapolis affiliate operation dates to 1993."},
+        "yearFranchising": {"value": 2023, "source": "https://www.franchisechatter.com/2024/01/26/fdd-talk-lawn-pride-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high", "note": "Began franchising January 2023."},
+        "trainingWeeks": {"value": 2, "source": "https://sharpsheets.io/blog/lawn-pride-franchise-fdd-profits-costs/", "year": 2024, "confidence": "medium", "note": "Roughly two weeks of initial training at headquarters."},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2024/01/26/fdd-talk-lawn-pride-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high", "note": "Item 19 present but limited to per-invoice averages for the single affiliate location."},
+        "fddAvailable": {"value": true, "source": "https://www.franchisechatter.com/2024/01/26/fdd-talk-lawn-pride-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "https://www.franchisechatter.com/2026/02/10/lawn-pride-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "high", "note": "System grew ~6x in 2024."},
+        "multiUnitAvailable": {"value": true, "source": "https://franchise.neighborly.com/lawn-pride", "year": 2025, "confidence": "medium", "note": "Multi-territory ownership offered via Neighborly platform."},
+        "ownerTypes": {"value": ["owner-operator", "semi-absentee"], "source": "https://franchise.neighborly.com/lawn-pride", "year": 2025, "confidence": "low", "note": "Neighborly markets manager-run/semi-absentee paths; confirm in current FDD."}
+      }
+    },
+    {
+      "name": "True North Restoration",
+      "website": "https://truenorthfranchise.com",
+      "notes": "Water/fire/mold property-damage restoration franchise that consolidated several independent companies under one brand circa 2021 and began franchising in 2021. Emerging, low-cost-entry system (~10-18 units) with an Item 19 gross-sales figure; founding-year sourcing conflicts between an operator legacy date (1984) and brand formation (2019-2021).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Emerging system, small unit base",
+          "detail": "Brand formed when ~six independent restoration companies combined (circa 2019-2021) and began franchising in 2021. Unit counts reported across sources are small and inconsistent (FDD ~8-10 franchised + company units; one directory cites ~18 in 2024). Limited history means franchisee outcomes are not yet well established.",
+          "source": "Entrepreneur / 1851 Franchise / Vetted Biz",
+          "url": "https://www.entrepreneur.com/franchises/directory/true-north-restoration/335226228",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting founding-year claims across sources",
+          "detail": "Vetted Biz lists founding year 1984 (likely a legacy operator date), while news/brand sources describe the True North brand forming around 2019 with six companies joining in late 2021. Treat the brand as effectively new despite older operator roots.",
+          "source": "Vetted Biz vs 1851 Franchise / corridorbusiness",
+          "url": "https://www.vettedbiz.com/franchises/true-north-restoration",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Royalty/fee figures vary between sources",
+          "detail": "Reported royalties range from 5% (Vetted Biz) to 7% (multiple aggregators) of gross revenue, with a 2% marketing fee; franchise fee reported as $25,000-$49,500. Discrepancies suggest FDD-version drift; verify against the current FDD before relying on a specific figure.",
+          "source": "Vetted Biz / Sharpsheets / FranNet",
+          "url": "https://www.vettedbiz.com/franchises/true-north-restoration",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 80000, "source": "https://truenorthfranchise.com/restoration-franchise-cost/", "year": 2025, "confidence": "medium", "note": "~$80,000 liquid capital and ~$350,000 net worth cited by aggregators/franchisor."},
+        "totalInvestmentMin": {"value": 87300, "source": "https://www.vettedbiz.com/franchises/true-north-restoration", "year": 2023, "confidence": "medium", "note": "Vetted Biz cites $87,300-$195,000; other sources cite $139,530-$233,300 depending on territory size. Ranges conflict across FDD versions."},
+        "totalInvestmentMax": {"value": 195000, "source": "https://www.vettedbiz.com/franchises/true-north-restoration", "year": 2023, "confidence": "low", "note": "Upper bound varies ($195K to $233,300) by source/territory."},
+        "franchiseFee": {"value": 49500, "source": "https://www.vettedbiz.com/franchises/true-north-restoration", "year": 2023, "confidence": "medium", "note": "Reported as $25,000-$49,500; $49,500 is the commonly cited full-territory fee."},
+        "royaltyPercent": {"value": 7, "source": "https://frannet.com/franchise_directory/true-north-restoration/", "year": 2024, "confidence": "low", "note": "Multiple aggregators cite 7% of gross revenue; Vetted Biz cites 5%. Conflict noted in risk flags."},
+        "adFundPercent": {"value": 2, "source": "https://www.vettedbiz.com/franchises/true-north-restoration", "year": 2023, "confidence": "medium", "note": "2% marketing/advertising fee on monthly revenue."},
+        "avgUnitRevenue": {"value": 654369, "source": "https://www.vettedbiz.com/franchises/true-north-restoration", "year": 2023, "confidence": "low", "note": "Reported Item 19 average yearly gross sales of $654,369. Small sample for an emerging system; represents gross sales not profit. Verify in current FDD."},
+        "totalUnits": {"value": 10, "source": "https://www.vettedbiz.com/franchises/true-north-restoration", "year": 2023, "confidence": "low", "note": "FDD-era ~10 U.S. units; one 2024 directory reports ~18 with 125% 3-yr growth. Sources conflict."},
+        "yearFranchising": {"value": 2021, "source": "https://www.entrepreneur.com/franchises/directory/true-north-restoration/335226228", "year": 2025, "confidence": "high", "note": "Began franchising in 2021."},
+        "trainingWeeks": {"value": 2, "source": "https://www.vettedbiz.com/franchises/true-north-restoration", "year": 2023, "confidence": "medium", "note": "Two-week initial training at headquarters."},
+        "item19Available": {"value": true, "source": "https://www.vettedbiz.com/franchises/true-north-restoration", "year": 2023, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "https://truenorthfranchise.com/faqs/", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "https://1851franchise.com/1851-franchises-fastest-growing-emerging-franchises-of-2026-true-north-restoration-2731292", "year": 2026, "confidence": "high", "note": "Named a fastest-growing emerging franchise for 2026; ranked #461 Franchise 500 in 2025."},
+        "multiUnitAvailable": {"value": true, "source": "https://truenorthfranchise.com/restoration-franchise-cost-and-how-owners-scale-with-true-north-restoration/", "year": 2025, "confidence": "medium", "note": "Franchisor markets scaling/multi-territory."}
+      }
+    },
+    {
+      "name": "Fundraising University",
+      "website": "https://fundraisingu.net",
+      "notes": "School-sports fundraising franchise (founded ~2009-2011, Gilbert AZ) helping high school teams run fundraising campaigns; ~28 units in 2022 growing to ~58 in 2025. Item 19 shows a high system average gross sales but with wide dispersion across thirds; royalty/fee structure is variable and tiered.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Wide performance dispersion in Item 19",
+          "detail": "2022 Item 19 average gross sales of $648,427 masks a large spread: upper third averaged $1,203,691, middle third $487,628, and lower third only $253,962. The system average is pulled up by top performers; bottom-third results are roughly a fifth of the top third.",
+          "source": "FranchiseChatter 2024 FDD review",
+          "url": "https://www.franchisechatter.com/2024/05/08/fdd-talk-fundraising-university-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Complex, variable fee structure",
+          "detail": "Royalty, brand-fund and local-marketing obligations are not flat percentages; they vary by length of operation, number of territories, and the number of high-school-age students in a territory. Some sources also reference a tiered monthly royalty ($1,500 rising to $2,000). Buyers must model fees against their specific territory.",
+          "source": "FranchiseChatter / Sharpsheets",
+          "url": "https://www.franchisechatter.com/2024/05/08/fdd-talk-fundraising-university-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Franchise-fee figures conflict across sources/FDD versions",
+          "detail": "Reported initial franchise fee ranges from $59,500 to $69,500 to $80,000 depending on source and territory size (student-population tiers). The 2024 FDD review cites $69,500; later listings cite $60,000-$80,000. Confirm against the current FDD.",
+          "source": "FranchiseChatter / Peersense / Franchising.com",
+          "url": "https://peersense.com/franchise/fundraising-university",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "https://www.franchisehelp.com/franchises/fundraising-university/", "year": 2024, "confidence": "medium", "note": "~$50,000 liquid capital; net worth requirement reported ~$115,000."},
+        "totalInvestmentMin": {"value": 89850, "source": "https://www.franchisechatter.com/2024/05/08/fdd-talk-fundraising-university-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high", "note": "2023 FDD: $89,850-$101,501. Older 2023 reviews cite a lower $77K-$85K range from an earlier FDD."},
+        "totalInvestmentMax": {"value": 101501, "source": "https://www.franchisechatter.com/2024/05/08/fdd-talk-fundraising-university-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high"},
+        "franchiseFee": {"value": 69500, "source": "https://www.franchisechatter.com/2024/05/08/fdd-talk-fundraising-university-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "low", "note": "2023 FDD review cites $69,500; other sources cite $59,500-$80,000 by territory size. Conflict noted in risk flags."},
+        "avgUnitRevenue": {"value": 648427, "source": "https://www.franchisechatter.com/2024/05/08/fdd-talk-fundraising-university-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "medium", "note": "2022 Item 19 average gross sales of $648,427 across performing outlets. Represents gross sales (all consideration from operations), not profit; wide dispersion across thirds."},
+        "totalUnits": {"value": 58, "source": "https://sharpsheets.io/blog/fundraising-university-franchise-costs-fees-profits/", "year": 2025, "confidence": "medium", "note": "~58 total units in 2025 (51 franchised + 7 company-owned); 2022 FDD showed 28 (23 franchised + 5 affiliate)."},
+        "yearFounded": {"value": 2009, "source": "https://www.franchising.com/fundraising_university/", "year": 2024, "confidence": "medium", "note": "Founded ~2009 by Mike Bahun; the franchisor site '15 years' badge implies ~2011. Sources differ slightly."},
+        "trainingWeeks": {"value": 1, "source": "https://www.franchisechatter.com/2024/05/08/fdd-talk-fundraising-university-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "low", "note": "Initial training included ($15,000 training fee in startup costs); duration not precisely disclosed in summary."},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2024/05/08/fdd-talk-fundraising-university-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "https://www.franchisechatter.com/2024/05/08/fdd-talk-fundraising-university-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high"},
+        "multiUnitAvailable": {"value": true, "source": "https://www.franchisechatter.com/2024/05/08/fdd-talk-fundraising-university-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "high", "note": "Multi-territory purchase affects royalty/fee structure."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.franchisechatter.com/2024/05/08/fdd-talk-fundraising-university-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2023, "confidence": "medium", "note": "Territories defined by high-school-age student population."},
+        "canRunFromHome": {"value": true, "source": "https://www.franchisehelp.com/franchises/fundraising-university/", "year": 2024, "confidence": "medium", "note": "Sales/service model that can be run from a home office."}
+      }
+    },
+    {
+      "name": "Rumble Boxing",
+      "website": "https://www.rumbleboxinggym.com",
+      "notes": "Boxing-themed boutique fitness franchise; grew from 13 to 84 franchised studios (2022-2024). Formerly an Xponential Fitness brand, acquired by Extraordinary Brands in 2025. Significant inherited regulatory/legal baggage from Xponential, high capital requirements, and only 38% of qualified studios meeting the Item 19 average revenue.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Xponential Fitness regulatory and class-action settlements",
+          "detail": "Rumble's former parent Xponential Fitness agreed to pay nearly $40M to settle with the FTC (~$17M) and 500+ current/former franchisees over allegations it violated the FTC Act and Franchise Rule by misleading prospective franchisees about studio opening timelines. NY AG separately secured $3.9M+ for misleading franchise owners. Shareholder class actions alleged fraud.",
+          "source": "Franchise Times / Athletech News / NY Attorney General",
+          "url": "https://www.franchisetimes.com/franchise_news/xponential-fitness-agrees-to-pay-millions-in-ftc-franchisee-settlements/article_1aaeaf38-00e9-41e5-a7fe-4eb76c617b7a.html",
+          "year": 2026
+        },
+        {
+          "severity": "red",
+          "title": "Studio closures across the former parent's system",
+          "detail": "Litigation alleged Xponential falsely claimed it had never closed a store while reportedly closing at least 30 studios; the company closed 140 total units in 2025 against 341 gross openings. Rumble's company-owned count fell from 5 (2023) to 1 (2024). Boutique-fitness closure risk is elevated.",
+          "source": "Franchise Times (class action coverage)",
+          "url": "https://www.franchisetimes.com/franchise_legal/xponential-fitness-defrauded-shareholders-class-action-suits-allege/article_2fab1286-db3e-11ee-8370-fff981831fcb.html",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Ownership change / leadership churn",
+          "detail": "Extraordinary Brands acquired Rumble Boxing (and CycleBar) from Xponential in 2025, and Xponential installed a new CEO amid slowing sales. New ownership and management of the brand introduces transition risk for franchisees' support and standards.",
+          "source": "Franchise Times / FranchiseChatter",
+          "url": "https://www.franchisetimes.com/issue-archive/2026/april/big-shifts-coming-at-xponential-fitness-under-new-ceo-as-sales-slow/article_3151b42f-e475-4ea2-8463-83424c22313d.html",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Most studios fall short of the average revenue",
+          "detail": "Per the 2025 FDD Item 19, only 38% of qualified studios met or exceeded the $492,590 average gross revenue (median $399,647). Average monthly membership attrition was 8.8%. High investment ($510K-$1.14M) against sub-average performance for the majority is a meaningful caution.",
+          "source": "FranchiseChatter 2026 review (2025 FDD)",
+          "url": "https://www.franchisechatter.com/2026/03/08/rumble-boxing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "https://1851franchise.com/franchise-deep-dive-rumble-boxing-franchise-cost-fees-profit-and-data-2725388", "year": 2026, "confidence": "medium", "note": "~$100,000 liquid capital; ~$500,000 net worth requirement."},
+        "totalInvestmentMin": {"value": 509640, "source": "https://www.franchisechatter.com/2026/03/08/rumble-boxing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2025 FDD total investment $509,640-$1,141,016."},
+        "totalInvestmentMax": {"value": 1141016, "source": "https://www.franchisechatter.com/2026/03/08/rumble-boxing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 60000, "source": "https://www.franchisechatter.com/2026/03/08/rumble-boxing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 7, "source": "https://www.franchisechatter.com/2026/03/08/rumble-boxing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "7% of gross sales, payable weekly."},
+        "adFundPercent": {"value": 2, "source": "https://www.franchisechatter.com/2026/03/08/rumble-boxing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2% brand development fund; plus local advertising of greater of $1,500 or 2% of prior month's gross sales."},
+        "avgUnitRevenue": {"value": 492590, "source": "https://www.franchisechatter.com/2026/03/08/rumble-boxing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "high", "note": "2025 FDD Item 19: 56 qualified studios (operated full year) averaged $492,590 gross revenue, median $399,647; only 38% met/exceeded the average. Gross revenue, not profit."},
+        "totalUnits": {"value": 85, "source": "https://www.franchisechatter.com/2026/03/08/rumble-boxing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "high", "note": "84 franchised + 1 company-owned as of end of 2024."},
+        "yearFounded": {"value": 2017, "source": "https://www.rumbleboxinggym.com/franchise", "year": 2025, "confidence": "high", "note": "Founded January 2017 in Chelsea, NYC as a boxing-inspired group fitness concept."},
+        "yearFranchising": {"value": 2018, "source": "https://www.franchisechatter.com/2025/03/01/rumble-boxing-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "low", "note": "Began franchising under Xponential circa 2018; exact first-franchise year should be confirmed in FDD."},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2026/03/08/rumble-boxing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "https://www.franchisechatter.com/2026/03/08/rumble-boxing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "https://www.franchisechatter.com/2026/03/08/rumble-boxing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "medium", "note": "Ranked #487 on Entrepreneur 2026 Franchise 500; franchised unit count still rising though company-owned shrank and parent-system closures occurred."},
+        "minFootprint": {"value": 1500, "source": "https://www.franchisechatter.com/2022/02/10/rumbles-initial-franchise-fee-royalty-fee-26-other-fees/", "year": 2025, "confidence": "low", "note": "Boutique studio footprint typically ~1,500-2,500 sq ft; confirm in current FDD."},
+        "multiUnitAvailable": {"value": true, "source": "https://1851franchise.com/franchise-deep-dive-rumble-boxing-franchise-cost-fees-profit-and-data-2725388", "year": 2026, "confidence": "medium", "note": "Multi-unit development offered."}
+      }
+    }
+  ]
+}

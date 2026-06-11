@@ -1,0 +1,121 @@
+{"brands": [
+ {"name": "Holiday Inn Express",
+  "slug": "holiday-inn-express",
+  "category": "Hospitality",
+  "website": "ihg.com",
+  "notes": "IHG's largest and fastest-growing brand with 2,800+ US hotels. A hotel-scale franchise: ground-up development runs roughly $13M-$19M, well beyond typical small-business franchise capital, and most economics are driven by real estate the franchisee must separately acquire/finance.",
+  "riskFlags": [
+   {"severity": "caution", "title": "Hotel-scale capital requirement", "detail": "Total investment for a typical 93-room Holiday Inn Express runs $12.8M-$19.5M (Entrepreneur), and roughly $7.9M-$11.1M excluding land/real-estate acquisition per IHG's FDD framing. This is a developer/investor-class commitment, not an operator-level franchise.", "source": "Entrepreneur Franchise Directory", "url": "https://www.entrepreneur.com/franchises/directory/holiday-inn-express/335297", "year": 2026},
+   {"severity": "info", "title": "Brand standards / PIP renovation obligations", "detail": "IHG-branded hotels are subject to periodic Property Improvement Plan (PIP) and brand-standard refresh requirements that can require substantial capital reinvestment over the franchise term, common across major flag-hotel systems.", "source": "VettedBiz", "url": "https://www.vettedbiz.com/franchises/holiday-inn-express/", "year": 2024}
+  ],
+  "nationwide": {"source": "Entrepreneur Franchise Directory", "url": "https://www.entrepreneur.com/franchises/directory/holiday-inn-express/335297", "year": 2026, "note": "Franchising opportunities listed across United States regions; brand operates 2,800+ US locations."},
+  "fields": {
+   "totalInvestmentMin": {"value": 12847351, "source": "https://www.entrepreneur.com/franchises/directory/holiday-inn-express/335297", "year": 2026, "confidence": "high", "note": "Typical 93-room hotel, including real estate. IHG FDD also cites ~$7.9M-$11.1M excluding land acquisition."},
+   "totalInvestmentMax": {"value": 19461100, "source": "https://www.entrepreneur.com/franchises/directory/holiday-inn-express/335297", "year": 2026, "confidence": "high"},
+   "franchiseFee": {"value": 50000, "source": "https://www.vettedbiz.com/franchises/holiday-inn-express/", "year": 2024, "confidence": "medium", "note": "CONFLICT: VettedBiz cites a $50,000 application fee (reducible to $25K/$15K in some cases); Entrepreneur lists $75,000. Both refer to the initial/application fee."},
+   "royaltyPercent": {"value": 6, "source": "https://www.vettedbiz.com/franchises/holiday-inn-express/", "year": 2024, "confidence": "high", "note": "6% monthly royalty on gross rooms revenue; additional brand-marketing, technology and reservation fees apply."},
+   "totalUnits": {"value": 3264, "source": "https://www.entrepreneur.com/franchises/directory/holiday-inn-express/335297", "year": 2026, "confidence": "medium", "note": "Global Holiday Inn Express system; 2,400+ in the US per IHG. Other sources cite ~2,847."},
+   "yearFounded": {"value": 1991, "source": "https://www.vettedbiz.com/franchises/holiday-inn-express/", "year": 2024, "confidence": "medium", "note": "Holiday Inn Express brand launched ~1991 (parent Holiday Inn dates to 1952). Entrepreneur lists 1952/1954 for the combined Holiday Inn lineage."},
+   "fddAvailable": {"value": true, "source": "https://www.vettedbiz.com/franchises/holiday-inn-express/", "year": 2024, "confidence": "high"},
+   "absenteeOwnership": {"value": true, "source": "https://development.ihg.com/hotel-brands/holiday-inn-express", "year": 2025, "confidence": "low", "note": "Hotels typically run by on-site management/operators; ownership commonly investor/absentee with professional management."},
+   "isGrowing": {"value": true, "source": "https://development.ihg.com/hotel-brands/holiday-inn-express", "year": 2025, "confidence": "medium", "note": "IHG describes Holiday Inn Express as its largest and fastest-growing brand."}
+  }},
+ {"name": "RE/MAX",
+  "slug": "remax",
+  "category": "Services",
+  "website": "remax.com",
+  "notes": "Real estate brokerage franchise founded 1973, franchising since 1975, with ~140K+ agents globally. Faces structural headwinds: US agent-count declines and a $55M antitrust commission-lawsuit settlement that reshaped industry commission practices.",
+  "riskFlags": [
+   {"severity": "red", "title": "$55M buyer-broker commission antitrust settlement", "detail": "RE/MAX agreed in September 2023 to pay $55 million to settle the Sitzer/Burnett, Moehrl and Nosalek class actions alleging Sherman Antitrust violations over inflated seller-paid commissions. The settlements (alongside NAR's) materially changed how US real estate commissions are structured.", "source": "HousingWire", "url": "https://www.housingwire.com/articles/re-max-settles-buyer-broker-commission-lawsuits-for-55-million/", "year": 2023},
+   {"severity": "caution", "title": "Declining US agent count", "detail": "US agent count fell 6.0% YoY to 56,494 by Q3 2023; in Q1 2024 total agent count declined again (-0.2%) with US+Canada combined down 4.3% YoY as the housing market slowed. Agent count is the core revenue driver for RE/MAX franchisees.", "source": "RISMedia", "url": "https://www.rismedia.com/2024/05/03/remax-posts-declines-q1-down-yoy-revenue-agent-count/", "year": 2024}
+  ],
+  "nationwide": {"source": "Franchise Help", "url": "https://www.franchisehelp.com/franchises/re-max/", "year": 2025, "note": "RE/MAX franchises offices across all US states and internationally; nationwide franchise availability."},
+  "fields": {
+   "liquidCapitalMin": {"value": 35000, "source": "https://www.franchisehelp.com/franchises/re-max/", "year": 2025, "confidence": "medium"},
+   "totalInvestmentMin": {"value": 40000, "source": "https://www.franchisehelp.com/franchises/re-max/", "year": 2025, "confidence": "high", "note": "Range varies by office density; sources cite ~$40K-$245K."},
+   "totalInvestmentMax": {"value": 245500, "source": "https://www.vettedbiz.com/franchises/remax", "year": 2024, "confidence": "high"},
+   "franchiseFee": {"value": 17500, "source": "https://www.vettedbiz.com/franchises/remax", "year": 2024, "confidence": "high", "note": "Low end (low-density, lump-sum) $17,500; high-density/financed up to $37,500."},
+   "totalUnits": {"value": 475, "source": "https://www.vettedbiz.com/franchises/remax", "year": 2024, "confidence": "low", "note": "Figure represents US franchised offices per VettedBiz; RE/MAX operates ~8,000 offices and 140K+ agents globally. Office-count metrics vary widely by source/scope."},
+   "yearFounded": {"value": 1973, "source": "https://en.wikipedia.org/wiki/RE/MAX", "year": 2024, "confidence": "high"},
+   "yearFranchising": {"value": 1975, "source": "https://en.wikipedia.org/wiki/RE/MAX", "year": 2024, "confidence": "high"},
+   "fddAvailable": {"value": true, "source": "https://www.vettedbiz.com/franchises/remax", "year": 2024, "confidence": "high"},
+   "multiUnitAvailable": {"value": true, "source": "https://www.franchisehelp.com/franchises/re-max/", "year": 2025, "confidence": "medium"},
+   "ownerTypes": {"value": ["owner_operator", "semi_absentee"], "source": "https://www.franchisehelp.com/franchises/re-max/", "year": 2025, "confidence": "low", "note": "Broker-owner model; many owners are licensed brokers."}
+  }},
+ {"name": "Express Employment Professionals",
+  "slug": "express-employment-professionals",
+  "category": "Services",
+  "website": "expresspros.com",
+  "notes": "Staffing/recruiting franchise founded 1983, franchising since 1985, with 840+ offices. Strong Item 19: mature offices average well over $5M in annual sales; ranked #1 in staffing/recruiting on Entrepreneur's 2026 list.",
+  "riskFlags": [
+   {"severity": "info", "title": "High revenue but margin-driven model", "detail": "Item 19 sales figures are gross staffing billings, not profit; the royalty is structured as a share of gross margin (Express retains 40% of temp/contract gross margin and 10% of direct-hire receipts), so franchisee net economics depend heavily on margin and labor costs rather than top-line revenue.", "source": "Franchise Chatter (2024 FDD Talk)", "url": "https://www.franchisechatter.com/2024/06/03/fdd-talk-express-employment-professionals-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024}
+  ],
+  "nationwide": {"source": "Entrepreneur Franchise Directory", "url": "https://www.entrepreneur.com/franchises/directory/express-employment-professionals/282332", "year": 2026, "note": "Lists franchising opportunities across all 50 states plus DC; seeking franchisees nationwide."},
+  "fields": {
+   "totalInvestmentMin": {"value": 131000, "source": "https://www.entrepreneur.com/franchises/directory/express-employment-professionals/282332", "year": 2026, "confidence": "high", "note": "CONFLICT: Franchise Chatter cites $91,700-$213,000; ranges vary by territory size."},
+   "totalInvestmentMax": {"value": 598700, "source": "https://www.entrepreneur.com/franchises/directory/express-employment-professionals/282332", "year": 2026, "confidence": "high"},
+   "franchiseFee": {"value": 40000, "source": "https://www.entrepreneur.com/franchises/directory/express-employment-professionals/282332", "year": 2026, "confidence": "high", "note": "Up to $40,000; varies by market/territory size (as low as $20,000)."},
+   "royaltyPercent": {"value": 8, "source": "https://www.entrepreneur.com/franchises/directory/express-employment-professionals/282332", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 8% royalty + 2% ad. FDD describes it as a gross-margin share (Express retains 40% of temp gross margin / 10% of direct-hire receipts)."},
+   "adFundPercent": {"value": 2, "source": "https://www.entrepreneur.com/franchises/directory/express-employment-professionals/282332", "year": 2026, "confidence": "medium"},
+   "avgUnitRevenue": {"value": 4400000, "source": "https://www.franchisechatter.com/2024/06/03/fdd-talk-express-employment-professionals-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "medium", "note": "Item 19 (2024 FDD): median annual gross revenue ~$4.4M; offices open 2+ years average ~$5.3M. Gross staffing billings, not profit."},
+   "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2024/06/03/fdd-talk-express-employment-professionals-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high"},
+   "fddAvailable": {"value": true, "source": "https://www.franchisechatter.com/2024/06/03/fdd-talk-express-employment-professionals-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high"},
+   "totalUnits": {"value": 843, "source": "https://www.entrepreneur.com/franchises/directory/express-employment-professionals/282332", "year": 2026, "confidence": "medium", "note": "US franchise units; 860+ globally across US, Canada, South Africa, Australia, New Zealand."},
+   "yearFounded": {"value": 1983, "source": "https://www.entrepreneur.com/franchises/directory/express-employment-professionals/282332", "year": 2026, "confidence": "high"},
+   "yearFranchising": {"value": 1985, "source": "https://www.entrepreneur.com/franchises/directory/express-employment-professionals/282332", "year": 2026, "confidence": "high"},
+   "multiUnitAvailable": {"value": true, "source": "https://www.franchisedirect.com/business-services-franchises/express-employment-professionals/", "year": 2026, "confidence": "medium"},
+   "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/express-employment-professionals/282332", "year": 2026, "confidence": "medium", "note": "Ranked #1 in Staffing/Recruiting on Entrepreneur's 2026 Franchise 500."}
+  }},
+ {"name": "Jackson Hewitt Tax Service",
+  "slug": "jackson-hewitt",
+  "category": "Services",
+  "website": "jacksonhewitt.com",
+  "notes": "#2 US retail tax-prep franchise founded 1982, franchising since 1986, with thousands of locations including Walmart kiosks. Low entry cost but high 15% royalty + 6% ad fee, and the brand carries a history of fraud litigation and a 2024 no-poach antitrust settlement.",
+  "riskFlags": [
+   {"severity": "red", "title": "$10.8M no-poach antitrust settlement (2024)", "detail": "Jackson Hewitt agreed to pay over $10 million to settle litigation alleging it required franchisees to sign no-poach agreements (from at least 2003) that restricted recruiting/hiring of tax preparers across franchises, suppressing wages.", "source": "HR Dive", "url": "https://www.hrdive.com/news/jackson-hewitt-10-million-settlement-no-poach-antitrust/713038/", "year": 2024},
+   {"severity": "caution", "title": "Historic franchisee fraud litigation (2007 DOJ)", "detail": "In 2007 the US Department of Justice sued five corporations operating 125+ Jackson Hewitt franchise stores and 24 individuals, alleging pervasive fraud (false returns, phony W-2s) with more than $70M in alleged Treasury losses. The episode contributed to a sharp market-share decline.", "source": "US DOJ", "url": "https://www.justice.gov/archive/opa/pr/2007/April/07_tax_215.html", "year": 2007},
+   {"severity": "caution", "title": "Structural decline of retail tax-prep", "detail": "Retail tax preparation has lost share since the recession as customers shift to lower-cost online filing; Jackson Hewitt reportedly lost nearly 50% of its market share over a four-year stretch, declining faster than competitors.", "source": "Unhappy Franchisee", "url": "http://www.unhappyfranchisee.com/jackson-hewitt-franchise-complaints/", "year": 2024},
+   {"severity": "info", "title": "High ongoing fee load", "detail": "Royalty of 15% plus a 6.5% advertising fee is high relative to most service franchises, compressing franchisee margins on a seasonal revenue stream.", "source": "PeerSense", "url": "https://peersense.com/franchise/jackson-hewitt-inc", "year": 2026}
+  ],
+  "nationwide": {"source": "Jackson Hewitt / Wikipedia", "url": "https://en.wikipedia.org/wiki/Jackson_Hewitt", "year": 2024, "note": "Operates franchised and company-owned locations nationwide, including kiosks in ~3,000 Walmart stores across the US."},
+  "fields": {
+   "franchiseFee": {"value": 25000, "source": "https://peersense.com/franchise/jackson-hewitt-inc", "year": 2026, "confidence": "high"},
+   "totalInvestmentMin": {"value": 49350, "source": "https://sharpsheets.io/blog/jackson-hewitt-tax-service-franchise-fdd-profits-costs/", "year": 2025, "confidence": "medium", "note": "Existing-franchisee standard business ~$49,350-$80,500; new franchisee standard business ~$96,050-$127,500."},
+   "totalInvestmentMax": {"value": 127500, "source": "https://sharpsheets.io/blog/jackson-hewitt-tax-service-franchise-fdd-profits-costs/", "year": 2025, "confidence": "medium", "note": "New-franchisee standard business high end."},
+   "royaltyPercent": {"value": 15, "source": "https://peersense.com/franchise/jackson-hewitt-inc", "year": 2026, "confidence": "medium"},
+   "adFundPercent": {"value": 6.5, "source": "https://peersense.com/franchise/jackson-hewitt-inc", "year": 2026, "confidence": "medium", "note": "Cited as 6% to 6.5% advertising fee across sources."},
+   "totalUnits": {"value": 5167, "source": "https://www.vettedbiz.com/franchises/jackson-hewitt/", "year": 2024, "confidence": "low", "note": "~5,167 US locations (2,744 franchised, 2,423 company/kiosk) per one source; brand cites ~6,000 total. Counts vary widely by season and source."},
+   "yearFounded": {"value": 1982, "source": "https://en.wikipedia.org/wiki/Jackson_Hewitt", "year": 2024, "confidence": "high"},
+   "yearFranchising": {"value": 1986, "source": "https://en.wikipedia.org/wiki/Jackson_Hewitt", "year": 2024, "confidence": "high"},
+   "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/jackson-hewitt-tax-service-2023-fdd-franchise-information-costs-and-fees/", "year": 2023, "confidence": "high"},
+   "multiUnitAvailable": {"value": true, "source": "https://www.bizbuysell.com/franchise-for-sale/jackson-hewitt-tax-services-business-services-franchise/", "year": 2026, "confidence": "medium"},
+   "canRunPartTime": {"value": true, "source": "https://www.franchisegrade.com/franchises/jackson-hewitt-tax-service", "year": 2024, "confidence": "low", "note": "Seasonal tax business; many operators run part-time/seasonally."}
+  }},
+ {"name": "FASTSIGNS",
+  "slug": "fastsigns",
+  "category": "Services",
+  "website": "fastsigns.com",
+  "notes": "Sign and visual-communications franchise founded 1985, franchising since 1986, with 650+ US centers. Strong Item 19 (avg gross sales ~$1.11M per center, 2025 FDD), SBA-backed financing program, and a 50% veteran/first-responder franchise-fee discount.",
+  "riskFlags": [
+   {"severity": "info", "title": "B2B sales-intensive, multi-staff model", "detail": "FASTSIGNS centers are full retail/production locations (~$231K-$386K to open) requiring B2B sales effort and staff; gross sales (~$1.11M AUV) are not profit, and top-quartile discretionary profit is cited at ~32.5% in Item 19, implying meaningful spread between strong and weak units.", "source": "Franchise Chatter (2026 review)", "url": "https://www.franchisechatter.com/2026/03/24/fastsigns-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026}
+  ],
+  "nationwide": {"source": "FASTSIGNS franchise site", "url": "https://www.fsfastsigns.com/own-a-fastsigns/investment/", "year": 2026, "note": "Franchising across the USA (and Canada); 650+ US centers, 775+ worldwide."},
+  "fields": {
+   "liquidCapitalMin": {"value": 80000, "source": "https://www.fsfastsigns.com/own-a-fastsigns/investment/", "year": 2026, "confidence": "high"},
+   "totalInvestmentMin": {"value": 231225, "source": "https://www.fsfastsigns.com/own-a-fastsigns/investment/", "year": 2026, "confidence": "high"},
+   "totalInvestmentMax": {"value": 386285, "source": "https://www.fsfastsigns.com/own-a-fastsigns/investment/", "year": 2026, "confidence": "high"},
+   "franchiseFee": {"value": 49750, "source": "https://www.franchisechatter.com/2026/03/24/fastsigns-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "$24,875 (50% off) for veterans/first responders."},
+   "royaltyPercent": {"value": 6, "source": "https://www.franchisechatter.com/2026/03/24/fastsigns-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "Service fee 3% of gross sales year 1, then 6% from year 2 onward."},
+   "adFundPercent": {"value": 2, "source": "https://www.franchisechatter.com/2026/03/24/fastsigns-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "1% of gross sales year 1, then 2% from year 2 onward."},
+   "avgUnitRevenue": {"value": 1111091, "source": "https://www.franchisechatter.com/2026/03/24/fastsigns-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "Item 19 (2025 FDD): average gross sales $1,111,091 across 684 centers. Gross sales, not profit; top quartile ~32.5% discretionary profit."},
+   "item19Available": {"value": true, "source": "https://www.fsfastsigns.com/own-a-fastsigns/financial-performance/", "year": 2026, "confidence": "high"},
+   "fddAvailable": {"value": true, "source": "https://www.franchisechatter.com/2026/03/24/fastsigns-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high"},
+   "sbaApproved": {"value": true, "source": "https://frannet.com/franchise-directory/fastsigns/", "year": 2026, "confidence": "medium", "note": "FASTSIGNS offers an SBA-backed financing program for approved franchisees."},
+   "veteranDiscount": {"value": true, "source": "https://franchisebusinessreview.com/post/fastsigns-nerdstogo-proves-great-fit-for-veterans/", "year": 2025, "confidence": "high", "note": "50% off initial franchise fee ($24,875) for veterans and first responders."},
+   "totalUnits": {"value": 745, "source": "https://frannet.com/franchise-directory/fastsigns/", "year": 2026, "confidence": "medium", "note": "650+ US centers; 745 worldwide. FASTSIGNS site cites 775+ worldwide."},
+   "yearFounded": {"value": 1985, "source": "https://frannet.com/franchise-directory/fastsigns/", "year": 2026, "confidence": "high"},
+   "yearFranchising": {"value": 1986, "source": "https://frannet.com/franchise-directory/fastsigns/", "year": 2026, "confidence": "high"},
+   "multiUnitAvailable": {"value": true, "source": "https://www.franchisegator.com/franchises/fastsigns/", "year": 2026, "confidence": "medium"},
+   "isGrowing": {"value": true, "source": "https://www.fsfastsigns.com/own-a-fastsigns/investment/", "year": 2026, "confidence": "medium"}
+  }}
+]}

@@ -1,0 +1,400 @@
+{
+ "brands": [
+  {
+   "name": "Great Clips",
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 100000,
+     "source": "https://franchise.greatclips.com/is-great-clips-right-for-you/investment",
+     "year": 2026,
+     "confidence": "high",
+     "note": "$250K high-cost markets; net worth $500K"
+    },
+    "totalInvestmentMin": {
+     "value": 187800,
+     "source": "https://www.franchisechatter.com/2026/05/07/great-clips-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 419900,
+     "source": "https://www.franchisechatter.com/2026/05/07/great-clips-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 20000,
+     "source": "https://franchise.greatclips.com/faq/index",
+     "year": 2025,
+     "confidence": "high",
+     "note": "$35K under 3-salon Three Star Program; +$5K initial ad fund"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "https://franchise.greatclips.com/faq/index",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 5,
+     "source": "https://www.franchisechatter.com/2026/05/07/great-clips-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "avgUnitRevenue": {
+     "value": 399179,
+     "source": "https://www.franchisechatter.com/2026/05/07/great-clips-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Item 19 FY2024 all 4,147 US salons; reporting subset $413,389 AUV / $82,637 (20%) cash flow"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/05/07/great-clips-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/healthbeautyfranchises/great-clips-franchise-07056/ufoc/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "sbaApproved": {
+     "value": true,
+     "source": "https://www.sba.gov/document/support-sba-franchise-directory",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Verified in May 27 2026 directory download"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://franchise.greatclips.com/faq/index",
+     "year": 2026,
+     "confidence": "high",
+     "note": "$5,000 rebate on first-salon fee"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://franchise.greatclips.com/faq/index",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Avg franchisee owns 5-6 salons after 5 years"
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/great-clips/282392",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Protected radius ~3/4 mile, varies"
+    },
+    "ownerTypes": {
+     "value": [
+      "owner_operator",
+      "semi_absentee",
+      "executive"
+     ],
+     "source": "https://franchise.greatclips.com/faq/index",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Manager-run; ~95% of franchisees never cut hair; many keep day jobs"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/great-clips/282392",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/great-clips/282392",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Owners commonly keep day jobs (manager-run)"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/great-clips/282392",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Semi-absentee standard; full absentee no"
+    },
+    "trainingWeeks": {
+     "value": 2,
+     "source": "https://www.entrepreneur.com/franchises/directory/great-clips/282392",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "69 total hours + Great Clips University ongoing"
+    },
+    "ongoingSupport": {
+     "value": [
+      "Great Clips University (300+ online courses)",
+      "Manager training (LEADS)",
+      "Franchisee training programs",
+      "Stylist training",
+      "Field business consultants"
+     ],
+     "source": "https://franchise.greatclips.com/faq/index",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "marketingSupport": {
+     "value": [
+      "National ad fund (5%)",
+      "$5,000 initial Market Development Ad Fund",
+      "Market co-op advertising",
+      "Grand opening support",
+      "Online Check-In app marketing"
+     ],
+     "source": "https://franchise.greatclips.com/faq/index",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "employeesRequired": {
+     "value": "10-12",
+     "source": "https://franchise.greatclips.com/faq/index",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Manager + assistant + 8-10 stylists"
+    },
+    "minFootprint": {
+     "value": "900-1,200 sq ft",
+     "source": "https://franchise.greatclips.com/faq/index",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "totalUnits": {
+     "value": 4439,
+     "source": "https://www.entrepreneur.com/franchises/directory/great-clips/282392",
+     "year": 2024,
+     "confidence": "high",
+     "note": "100% franchised, 0 company-owned"
+    },
+    "yearFounded": {
+     "value": 1982,
+     "source": "https://www.entrepreneur.com/franchises/directory/great-clips/282392",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1983,
+     "source": "https://www.entrepreneur.com/franchises/directory/great-clips/282392",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "closureCount": {
+     "value": 103,
+     "source": "https://www.franchisechatter.com/2026/05/07/great-clips-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "2025 FDD Item 20, closed during 2024"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/05/07/great-clips-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "+12 net 2024, essentially flat; churn 103 closures"
+    },
+    "geographicFocus": {
+     "value": "All 50 US states + DC",
+     "source": "https://www.entrepreneur.com/franchises/directory/great-clips/282392",
+     "year": 2026,
+     "confidence": "medium"
+    }
+   },
+   "notes": "Very clean dataset. 100% franchised. Item 19: all-salon AUV $399,179; reporting subset $413,389 with 20% operating cash flow. Fee $20K ($35K Three Star 3-unit). Semi-absentee manager-run is franchisor's own positioning."
+  },
+  {
+   "name": "Anytime Fitness",
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 100000,
+     "source": "https://franchise.anytimefitness.com/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor's own >$100K; conflicting $115-175K in directories"
+    },
+    "totalInvestmentMin": {
+     "value": 458826,
+     "source": "https://www.franchisechatter.com/2025/08/14/anytime-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 907607,
+     "source": "https://www.franchisechatter.com/2025/08/14/anytime-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 42500,
+     "source": "https://www.franchisechatter.com/2025/08/14/anytime-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "As low as $22,500 for veterans/multi-unit per FDD tiers"
+    },
+    "royaltyPercent": {
+     "value": null,
+     "source": "unverified",
+     "note": "FLAT $820/month per center (not %); FDD reserves right to convert to up to 8% on 30 days notice"
+    },
+    "adFundPercent": {
+     "value": null,
+     "source": "unverified",
+     "note": "FLAT $600/month + required local spend $600-1,000/mo by tier"
+    },
+    "avgUnitRevenue": {
+     "value": 442686,
+     "source": "https://www.franchisechatter.com/2025/08/14/anytime-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Item 19 FY2024, 1,656 centers w/ Coaching Suite; SmartCoaching subset $531,750"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/08/14/anytime-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://franchisevs.com/franchise/anytime-fitness",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "sbaApproved": {
+     "value": true,
+     "source": "https://www.sba.gov/document/support-sba-franchise-directory",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Verified in May 27 2026 directory download"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.veteransfranchise.com/franchise/Anytime-Fitness",
+     "year": 2026,
+     "confidence": "high",
+     "note": "20% off standard fee (VetFran)"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://franchisevs.com/franchise/anytime-fitness",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/anytime-fitness/306988",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "ownerTypes": {
+     "value": [
+      "owner_operator",
+      "semi_absentee",
+      "executive"
+     ],
+     "source": "https://www.entrepreneur.com/franchise/how-anytime-fitness-broke-into-the-franchise-500-top-10/225190",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "~20-50 hrs/wk owners; semi-absentee with club manager common"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/anytime-fitness/306988",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/anytime-fitness/306988",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "24/7 keyless model designed for low owner labor"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/anytime-fitness/306988",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "trainingWeeks": {
+     "value": 2,
+     "source": "https://frannet.com/franchise-directory/anytime-fitness/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "2 weeks at MN HQ; 24hr OTJ + 39hr classroom"
+    },
+    "ongoingSupport": {
+     "value": [
+      "2-week initial training at MN HQ",
+      "Ongoing assistance: calls, on-site visits, digital at no extra cost",
+      "SmartCoaching technology suite",
+      "Franchise business coaching"
+     ],
+     "source": "https://frannet.com/franchise-directory/anytime-fitness/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "marketingSupport": {
+     "value": [
+      "National ad fund ($600/mo per center)",
+      "Tiered local marketing spend ($600-1,000/mo)",
+      "Grand opening/presale programs",
+      "Global brand campaigns"
+     ],
+     "source": "https://www.franchisechatter.com/2025/08/14/anytime-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "employeesRequired": {
+     "value": "0-1",
+     "source": "https://www.entrepreneur.com/franchises/directory/anytime-fitness/306988",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Minimal staffing model; manager ~$45K in company P&L"
+    },
+    "minFootprint": {
+     "value": "4,000-7,000 sq ft",
+     "source": "https://franchisevs.com/franchise/anytime-fitness",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "totalUnits": {
+     "value": 5623,
+     "source": "https://www.entrepreneur.com/franchises/directory/anytime-fitness/306988",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Worldwide; US: 2,290 franchised + 11 company at YE2024"
+    },
+    "yearFounded": {
+     "value": 2002,
+     "source": "https://www.vettedbiz.com/franchises/anytime-fitness",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Sources conflict 2001 vs 2002"
+    },
+    "yearFranchising": {
+     "value": 2002,
+     "source": "https://www.entrepreneur.com/franchises/directory/anytime-fitness/306988",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "closureCount": {
+     "value": null,
+     "source": "unverified",
+     "note": "US net -8 franchised units 2024, -20 in 2023; absolute closure count not public"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/anytime-fitness/306988",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "+10.9% units/3yr worldwide; US slowly shrinking"
+    }
+   },
+   "notes": "ANOMALY: royalty + ad fund are FLAT MONTHLY FEES ($820 + $600/mo), not percentages; FDD reserves conversion to 8%. US franchised count slowly declining while global grows. Term unusually short: 5 years. Item 19 varies by cohort."
+  }
+ ]
+}

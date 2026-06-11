@@ -1,0 +1,222 @@
+{
+  "brands": [
+    {
+      "name": "Neighborly (Mr. Rooter)",
+      "website": "https://www.mrrooter.com/",
+      "notes": "Mr. Rooter Plumbing is a 50+ year-old plumbing/drain-cleaning franchise and a Neighborly brand. It is a large, stable home-services system (229 franchised + 3 company units as of 12/31/2024) with a robust Item 19 disclosure ($2.0M average / $1.27M median AUV). Figures sourced to the 2025 FDD via Franchise Chatter.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Total fee burden at upper end of home-services norm",
+          "detail": "Ongoing fees total roughly 8% of gross sales: 6% royalty plus a 2% national marketing (MAP) fee, with up to an additional 3% Local Marketing Group contribution. This is typical-to-slightly-high for the trades-services category but not an outlier.",
+          "source": "Franchise Chatter (2025 FDD review)",
+          "url": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 122303, "source": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Range $122,303-$263,800 excluding real estate (2025 FDD)"},
+        "totalInvestmentMax": {"value": 263800, "source": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 42500, "source": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "$42,500 base plus $425 per 1,000 population over the territory minimum"},
+        "royaltyPercent": {"value": 6, "source": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "6% of gross sales, with minimums and special roll-in rates"},
+        "adFundPercent": {"value": 2, "source": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2% national MAP fee; up to an additional 3% local marketing group contribution"},
+        "avgUnitRevenue": {"value": 2009644, "source": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "FDD Item 19 (2025 FDD, full-year 2024): average annual gross sales $2,009,644 across 188 franchises; median $1,270,728. Represents total gross sales from plumbing/drain services, not profit."},
+        "totalUnits": {"value": 229, "source": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "229 franchised + 3 company-owned as of 12/31/2024"},
+        "yearFounded": {"value": 1970, "source": "https://www.franchise.org/franchise-opportunities/mr-rooter-plumbing/", "year": 2026, "confidence": "medium", "note": "CONFLICT: most sources cite founded 1970; a minority cite 1968"},
+        "fddAvailable": {"value": true, "source": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Discloses average and median AUV plus distribution"},
+        "veteranDiscount": {"value": true, "source": "https://www.syncrevenue.com/franchises/mr-rooter-plumbing", "year": 2026, "confidence": "high", "note": "VetFran member: 20% off the initial franchise fee for honorably discharged veterans"},
+        "isGrowing": {"value": true, "source": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": "Mature, stable system of ~230+ units"}
+      }
+    },
+    {
+      "name": "QC Kinetix",
+      "website": "https://qckinetix.com/",
+      "notes": "QC Kinetix is a regenerative-medicine / non-surgical pain franchise that underwent sharp contraction in 2024 (184 to 167 units, systemwide sales -28.6%) and faces consumer class-action litigation plus at least one franchisee arbitration alleging misrepresentation. New CEO (June 2024) launched a 'QCK 2.0' turnaround. High-risk profile.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Sharp unit contraction and systemwide sales decline",
+          "detail": "QC Kinetix began 2024 with 184 units and ended with 167 (net loss of 17). Systemwide sales fell 28.6%, from $157M (2023) to $112M (2024). CEO Mark Montini disclosed that ~10 units were 'technically open but never actually started operating' and another 30-40 had ceased operations by mid-2024. Roughly half the closures were 'strategic' market exits; the rest were franchisees who could not sustain operations financially.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_news/regenerative-medicine-franchise-qc-kinetix-stages-comeback-after-backslide/article_7deb2aac-8acf-4923-9020-f37f1b87c7e1.html",
+          "year": 2025
+        },
+        {
+          "severity": "red",
+          "title": "Consumer class-action litigation over deceptive practices",
+          "detail": "Class actions allege QC Kinetix marketed unproven stem-cell/regenerative treatments as 'scientifically validated and FDA-approved' when they are neither, omitted FDA-mandated warnings, used high-pressure electronic-signature sales, and advertised '0% interest / low monthly payment' financing while enrolling patients in loans at 9.99%+ APR. Includes Robertson v. QC Franchise Group LLC et al. (filed Nov. 2023, settled/dismissed with prejudice) and related FDUTPA actions.",
+          "source": "Kozyak Tropin & Throckmorton / ClassAction.org complaint",
+          "url": "https://kttlaw.com/qckinetix/",
+          "year": 2024
+        },
+        {
+          "severity": "red",
+          "title": "Franchisee arbitration alleging misrepresentation at sale",
+          "detail": "A franchisee (Stephen Alexander) brought an arbitration alleging the franchisor made numerous misrepresentations to induce purchase of two franchises; the arbitration was stayed pending mediation. One franchisee also noted litigation created reputational challenges with financing partners.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_news/regenerative-medicine-franchise-qc-kinetix-stages-comeback-after-backslide/article_7deb2aac-8acf-4923-9020-f37f1b87c7e1.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Leadership churn during downturn",
+          "detail": "Mark Montini replaced Scott Hoots as CEO in June 2024, mid-contraction, and launched a 'QCK 2.0' recovery strategy. Q2 2025 reportedly showed the first same-clinic sales growth in five quarters, but the turnaround is recent and unproven.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_news/regenerative-medicine-franchise-qc-kinetix-stages-comeback-after-backslide/article_7deb2aac-8acf-4923-9020-f37f1b87c7e1.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High upfront capital and fee load",
+          "detail": "Initial investment runs roughly $250,100-$655,080 with a $55,000 franchise fee, 8% royalty, 1% brand-development fee, plus heavy mandated local marketing spend ($20,000+/month in early months) and up to $1,800/month technology fee. High burn relative to revenue contributed to franchisee failures.",
+          "source": "Entrepreneur / Franchise Chatter",
+          "url": "https://www.entrepreneur.com/franchises/directory/qc-kinetix/336432",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "https://www.entrepreneur.com/franchises/directory/qc-kinetix/336432", "year": 2026, "confidence": "high", "note": "Net worth requirement $500,000"},
+        "totalInvestmentMin": {"value": 250100, "source": "https://www.entrepreneur.com/franchises/directory/qc-kinetix/336432", "year": 2026, "confidence": "medium", "note": "CONFLICT: Entrepreneur (current) lists $250,100-$655,080; FDD-derived sources (franchisepayback/franchiseoverview) cite $227,330-$495,860"},
+        "totalInvestmentMax": {"value": 655080, "source": "https://www.entrepreneur.com/franchises/directory/qc-kinetix/336432", "year": 2026, "confidence": "medium", "note": "CONFLICT: FDD-derived sources cite ~$495,860 max"},
+        "franchiseFee": {"value": 55000, "source": "https://www.entrepreneur.com/franchises/directory/qc-kinetix/336432", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 8, "source": "https://www.entrepreneur.com/franchises/directory/qc-kinetix/336432", "year": 2026, "confidence": "high", "note": "8% of weekly gross revenue, with monthly minimums ($1,000 months 3-5, $1,500 from month 6)"},
+        "adFundPercent": {"value": 1, "source": "https://www.entrepreneur.com/franchises/directory/qc-kinetix/336432", "year": 2026, "confidence": "high", "note": "1% brand-development fee; separately, large mandated local marketing spend (~$20,000+/month early on)"},
+        "totalUnits": {"value": 167, "source": "https://www.franchisetimes.com/franchise_news/regenerative-medicine-franchise-qc-kinetix-stages-comeback-after-backslide/article_7deb2aac-8acf-4923-9020-f37f1b87c7e1.html", "year": 2024, "confidence": "high", "note": "167 at year-end 2024 (down from 184 at start of 2024). Entrepreneur's 2026 listing shows 133, indicating continued contraction."},
+        "yearFounded": {"value": 2017, "source": "https://www.entrepreneur.com/franchises/directory/qc-kinetix/336432", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/qc-kinetix/336432", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "https://www.vettedbiz.com/franchises/qc-kinetix", "year": 2025, "confidence": "high", "note": "$1,000 off initial franchise fee for honorably discharged veterans; not applicable to additional franchises"},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/qc-kinetix-2024-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/qc-kinetix/336432", "year": 2026, "confidence": "high", "note": "Entrepreneur shows -3% unit growth; system contracted from ~184 to 133 units across 2024-2026"}
+      }
+    },
+    {
+      "name": "Rolling Suds",
+      "website": "https://www.rollingsudsfranchise.com/",
+      "notes": "Rolling Suds is a power/soft-washing franchise; the original business dates to ~1990 (Warrington, PA, founder Brian Wendling Sr.) but the franchise launched in 2022/2023. Fast-growing (64 franchised units by end of 2024) with a modest Item 19 (5 mature units averaged $419,193 in 2024). Early-stage system; limited operating history.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very young franchise with thin Item 19 base",
+          "detail": "The franchise only launched in 2022/2023 (7 units opened in 2023). The 2024 Item 19 average of $419,193 is based on just 5 franchised outlets open the entire calendar year, a small sample that may not represent newer or scaled units (range $206,608-$670,883).",
+          "source": "Franchise Chatter (2025 FDD review)",
+          "url": "https://www.franchisechatter.com/2025/06/13/rolling-suds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting cost/fee figures across sources",
+          "detail": "Investment ranges and franchise-fee figures vary widely across aggregators ($136K-$499K range cited; fee reported as both $54,900 and $75,000). The 2025 FDD (per Franchise Chatter) shows $186,150-$251,850 total investment and a $54,900 franchise fee.",
+          "source": "Franchise Chatter / PeerSense",
+          "url": "https://www.franchisechatter.com/2025/06/13/rolling-suds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 200000, "source": "https://americasbestfranchises.com/franchises/rolling-suds/", "year": 2026, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 186150, "source": "https://www.franchisechatter.com/2025/06/13/rolling-suds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Range $186,150-$251,850 per 2025 FDD; other aggregators cite wider ranges"},
+        "totalInvestmentMax": {"value": 251850, "source": "https://www.franchisechatter.com/2025/06/13/rolling-suds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 54900, "source": "https://www.franchisechatter.com/2025/06/13/rolling-suds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": "CONFLICT: 2025 FDD per Franchise Chatter shows $54,900; PeerSense lists $75,000"},
+        "royaltyPercent": {"value": 8, "source": "https://www.franchisechatter.com/2025/06/13/rolling-suds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Greater of 8% of gross revenue or applicable minimum royalty"},
+        "adFundPercent": {"value": 2, "source": "https://www.franchisechatter.com/2025/06/13/rolling-suds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2% brand fund; plus local advertising requirement of greater of 4% of gross revenue or $2,500 per service vehicle/month"},
+        "avgUnitRevenue": {"value": 419193, "source": "https://www.franchisechatter.com/2025/06/13/rolling-suds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "FDD Item 19 (2025 FDD, full-year 2024): average gross revenue $419,193 across only 5 franchised outlets open the full year; median $384,467; range $206,608-$670,883. Gross revenue, not profit."},
+        "totalUnits": {"value": 64, "source": "https://www.franchisechatter.com/2025/06/13/rolling-suds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "64 franchised + 3 company-owned as of 12/31/2024"},
+        "yearFounded": {"value": 1990, "source": "https://americasbestfranchises.com/franchises/rolling-suds/", "year": 2026, "confidence": "medium", "note": "Original power-washing business founded ~1990 in Warrington, PA"},
+        "yearFranchising": {"value": 2022, "source": "https://americasbestfranchises.com/franchises/rolling-suds/", "year": 2026, "confidence": "medium", "note": "CONFLICT: sources cite franchising began 2022; FDD shows first franchised units opened in 2023"},
+        "fddAvailable": {"value": true, "source": "https://www.franchisechatter.com/2025/06/13/rolling-suds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2025/06/13/rolling-suds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "https://www.franchisechatter.com/2025/06/13/rolling-suds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Rapid expansion from 7 units (2023) to 64 franchised (end 2024)"}
+      }
+    },
+    {
+      "name": "Prime IV Hydration & Wellness",
+      "website": "https://primeivhydration.com/",
+      "notes": "Prime IV Hydration & Wellness is a fast-growing IV-therapy/wellness franchise (founded 2017-2018 in Denver, CO; began franchising 2020). Entrepreneur's current listing shows 215 units. Limited public Item 19 detail (franchisor discloses less financial performance than category peers). Conflicting royalty figures (7% vs 8%) across sources.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Limited financial-performance transparency",
+          "detail": "Multiple aggregators note Prime IV discloses substantially less Item 19 financial-performance information than other franchises in the IV/wellness category, making unit-economics due diligence harder for prospective franchisees.",
+          "source": "FranchisePayback",
+          "url": "https://www.franchisepayback.com/franchise/prime-iv-hydration-wellness",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Regulatory exposure inherent to IV-therapy model",
+          "detail": "IV hydration/wellness clinics operate in a medically regulated space (medical-director requirements, scope-of-practice and state board rules for IV administration vary by state). This is a category-wide regulatory consideration rather than a Prime-IV-specific finding; no Prime-IV-specific lawsuit was located in this research.",
+          "source": "FranchiseWire (category overview)",
+          "url": "https://www.franchisewire.com/the-rise-of-infusions-prime-iv-hydration-wellness-franchise/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting fee figures across sources",
+          "detail": "Royalty is reported as both 7% and 8%, marketing/ad fee as 1% to 2%, and total investment ranges differ widely by source ($164K-$632K). Entrepreneur's current listing shows 7% royalty, 1%-2% ad fee, and $187,701-$631,193 investment.",
+          "source": "Entrepreneur",
+          "url": "https://www.entrepreneur.com/franchises/directory/prime-iv-hydration-wellness/335226338",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "https://www.entrepreneur.com/franchises/directory/prime-iv-hydration-wellness/335226338", "year": 2026, "confidence": "high", "note": "Net worth requirement $400,000"},
+        "totalInvestmentMin": {"value": 187701, "source": "https://www.entrepreneur.com/franchises/directory/prime-iv-hydration-wellness/335226338", "year": 2026, "confidence": "medium", "note": "CONFLICT: Entrepreneur lists $187,701-$631,193; FDD-derived sources cite ranges as low as $164,633 and as high as $632,000"},
+        "totalInvestmentMax": {"value": 631193, "source": "https://www.entrepreneur.com/franchises/directory/prime-iv-hydration-wellness/335226338", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 49000, "source": "https://www.entrepreneur.com/franchises/directory/prime-iv-hydration-wellness/335226338", "year": 2026, "confidence": "high", "note": "Some sources cite a lower-tier fee starting around $34,000"},
+        "royaltyPercent": {"value": 7, "source": "https://www.entrepreneur.com/franchises/directory/prime-iv-hydration-wellness/335226338", "year": 2026, "confidence": "medium", "note": "CONFLICT: Entrepreneur lists 7%; several FDD-derived aggregators cite 8%"},
+        "adFundPercent": {"value": 1, "source": "https://www.entrepreneur.com/franchises/directory/prime-iv-hydration-wellness/335226338", "year": 2026, "confidence": "medium", "note": "Reported as 1%-2% (Entrepreneur shows 1%-2%; some sources cite 1%)"},
+        "totalUnits": {"value": 215, "source": "https://www.entrepreneur.com/franchises/directory/prime-iv-hydration-wellness/335226338", "year": 2026, "confidence": "high", "note": "215 units per Entrepreneur 2026 listing; marketing materials cite 300+ open or in development"},
+        "yearFounded": {"value": 2017, "source": "https://www.entrepreneur.com/franchises/directory/prime-iv-hydration-wellness/335226338", "year": 2026, "confidence": "medium", "note": "CONFLICT: Entrepreneur lists 2017; some sources cite 2018 (Denver, CO; founder Amy Neary)"},
+        "yearFranchising": {"value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/prime-iv-hydration-wellness/335226338", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/prime-iv-hydration-wellness/335226338", "year": 2026, "confidence": "high", "note": "15% off franchise fee"},
+        "fddAvailable": {"value": true, "source": "https://www.franchisepayback.com/franchise/prime-iv-hydration-wellness", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "https://www.franchise.org/2024/03/prime-iv-hydration-wellness-named-one-of-north-americas-fastest-growing-franchises/", "year": 2024, "confidence": "high", "note": "Named one of North America's fastest-growing franchises (IFA, 2024)"}
+      }
+    },
+    {
+      "name": "Red Barn Homebuyers",
+      "website": "https://www.redbarnhomebuyers.com/",
+      "notes": "Red Barn Homebuyers is a real-estate-investing / house-flipping franchise founded by HGTV personalities Ken and Anita Corsini; the franchise launched in 2022. Low entry cost ($59K-$258K) but a high 10% royalty. Entrepreneur shows strong unit growth (54 units in 2024 FDD to ~150 in 2026). Note royalty-structure conflict (10% vs a flat per-year fee per Entrepreneur).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High royalty relative to category and ongoing-fee conflict",
+          "detail": "FDD-derived sources report a 10% royalty, high for the model. Entrepreneur's listing instead shows an ongoing fee of roughly '$6K+/yr' (a flat/minimum structure) with $0 ad royalty, which conflicts with the 10% figure. Prospective franchisees should confirm the exact royalty basis against the current FDD.",
+          "source": "FranchisePayback vs. Entrepreneur",
+          "url": "https://www.franchisepayback.com/franchise/red-barn",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Real-estate wholesaling/flipping model carries market and regulatory risk",
+          "detail": "House-flipping/real-estate-investment franchises are exposed to housing-market cycles, interest-rate sensitivity, and tightening state rules around wholesaling and marketing of equitable interests. This is a category/model risk; no Red-Barn-specific lawsuit was located in this research.",
+          "source": "Entrepreneur franchise directory (category)",
+          "url": "https://www.entrepreneur.com/franchises/directory/red-barn-homebuyers/336731",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting franchise-fee figures",
+          "detail": "Franchise fee is reported as both $29,500 and $34,500 across sources; Entrepreneur's current listing shows $34,500. Founding-year data also conflicts (operator history from 2005 vs. franchise entity organized 2021, franchising 2022).",
+          "source": "Entrepreneur / FranchiseGator",
+          "url": "https://www.entrepreneur.com/franchises/directory/red-barn-homebuyers/336731",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 40000, "source": "https://www.franchisegator.com/franchises/red-barn-homebuyers/", "year": 2026, "confidence": "medium", "note": "Minimum net worth ~$75,000"},
+        "totalInvestmentMin": {"value": 59465, "source": "https://www.entrepreneur.com/franchises/directory/red-barn-homebuyers/336731", "year": 2026, "confidence": "high", "note": "Entrepreneur $59,465-$257,820; FDD-derived sources cite $59,405-$257,900 (close match)"},
+        "totalInvestmentMax": {"value": 257820, "source": "https://www.entrepreneur.com/franchises/directory/red-barn-homebuyers/336731", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 34500, "source": "https://www.entrepreneur.com/franchises/directory/red-barn-homebuyers/336731", "year": 2026, "confidence": "medium", "note": "CONFLICT: Entrepreneur shows $34,500; some sources cite $29,500"},
+        "royaltyPercent": {"value": 10, "source": "https://www.franchisepayback.com/franchise/red-barn", "year": 2026, "confidence": "low", "note": "CONFLICT: FDD-derived sources report 10%; Entrepreneur lists an ongoing fee of '~$6K+/yr' (flat/minimum) with $0 ad royalty. Verify royalty basis against current FDD."},
+        "totalUnits": {"value": 54, "source": "https://fddexchange.com/red-barn-2024-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "medium", "note": "54 franchised per 2024 FDD; Entrepreneur's 2026 listing shows ~150 units and marketing cites 185+ franchisees"},
+        "yearFounded": {"value": 2021, "source": "https://www.franchisepayback.com/franchise/red-barn", "year": 2026, "confidence": "medium", "note": "CONFLICT: franchise entity organized Aug 2021; Entrepreneur lists 2005 (the Corsinis' operator/flipping history start)"},
+        "yearFranchising": {"value": 2022, "source": "https://www.entrepreneur.com/franchises/directory/red-barn-homebuyers/336731", "year": 2026, "confidence": "high", "note": "Began offering franchises April 2022"},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/red-barn-homebuyers/336731", "year": 2026, "confidence": "high", "note": "10% off franchise fee"},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/red-barn-2024-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high"},
+        "canRunFromHome": {"value": true, "source": "https://www.franchisegator.com/franchises/red-barn-homebuyers/", "year": 2026, "confidence": "medium", "note": "Home-based real-estate-investment model"},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/red-barn-homebuyers/336731", "year": 2026, "confidence": "high", "note": "Strong unit growth (54 units in 2024 FDD to ~150 in 2026 listing); #1 in category on Entrepreneur Franchise 500 (2026)"}
+      }
+    }
+  ]
+}

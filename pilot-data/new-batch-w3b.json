@@ -1,0 +1,991 @@
+{
+ "brands": [
+  {
+   "name": "Drybar",
+   "slug": "drybar",
+   "category": "Beauty & Self Care",
+   "website": "drybar.com",
+   "notes": "Blowout-only hair salon franchise founded 2010, franchising since 2012; franchisor rights owned by WellBiz Brands (acquired by Transom Capital in January 2026). Roughly 188 US shops with premium build-out costs and a membership-driven service model. Note: thedrybar.com 301-redirects to drybar.com, which is the brand's official domain.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Net system contraction since 2021 ownership change",
+     "detail": "When WellBiz acquired the franchise rights in February 2021 the system comprised 228 shops (141 franchised plus 87 operated by Drybar Holdings as the largest franchisee). Entrepreneur's 2026 listing shows 188 units, a net decline of roughly 17% over five years, though the most recent year shows renewed growth (+12% YoY per FDD-data analysis).",
+     "source": "PR Newswire (WellBiz acquisition announcement) vs. Entrepreneur Franchise 500 2026",
+     "url": "https://www.prnewswire.com/news-releases/wellbiz-brands-inc-announces-acquisition-of-drybar-franchise-rights-301226505.html",
+     "year": 2026
+    },
+    {
+     "severity": "caution",
+     "title": "AUV compression from prior peak",
+     "detail": "FDD-data analysis shows average unit volume compressed from a prior peak of roughly $1.2M to about $904K in the 2025 FDD Item 19, though recent data shows stabilization with a +5.7% year-over-year increase.",
+     "source": "FranchiseInvestorData Drybar FDD analysis",
+     "url": "https://franchiseinvestordata.com/franchise/drybar",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "Parent WellBiz Brands sold to Transom Capital (Jan 2026)",
+     "detail": "Transom Capital Group, an operationally focused private equity firm, completed its acquisition of parent WellBiz Brands from KSL Capital Partners on January 22, 2026. New ownership introduces uncertainty around future royalty, marketing-fund, and support direction.",
+     "source": "Transom Capital Group press release",
+     "url": "https://transomcap.com/news/transom-acquires-wellbiz-brands-a-leading-beauty-wellness-franchisor-platform/",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "Parent company history of franchisee litigation (sister brand)",
+     "detail": "Franchise Times reported that WellBiz Brands inherited a significant amount of franchisee litigation, primarily arbitration cases at sister brand Amazing Lash Studio (2021-2023), resolved through confidential settlements, agreement terminations, and transfers. No Drybar-specific franchisee litigation was found.",
+     "source": "Franchise Times, 'How WellBiz Brands Is Giving Itself a Makeover' (Oct 30, 2025)",
+     "url": "https://www.franchisetimes.com/franchise_times_cover_stories/top-franchise-ceos/how-wellbiz-brands-is-giving-itself-a-makeover/article_86873ebc-fe0b-450a-8576-a812b6453984.html",
+     "year": 2025
+    }
+   ],
+   "nationwide": {
+    "source": "Drybar franchise development site - investment information page (states 'Available nationwide' with state-specific disclosures for franchise-registration states)",
+    "url": "https://www.drybarfranchise.com/investment-information/",
+    "year": 2026,
+    "note": "Franchisor's own development site markets territories nationwide and lists registration-state disclosures; Canadian expansion mentioned separately."
+   },
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 300000,
+     "source": "https://www.drybarfranchise.com/investment-information/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Franchisor development site states $300,000 liquid capital; Entrepreneur lists $250,000. Franchisor figure used as most current."
+    },
+    "totalInvestmentMin": {
+     "value": 409979,
+     "source": "https://www.drybarfranchise.com/investment-information/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Range $409,979-$1,029,249 per 2025 FDD, confirmed on both franchisor site and Entrepreneur."
+    },
+    "totalInvestmentMax": {
+     "value": 1029249,
+     "source": "https://www.drybarfranchise.com/investment-information/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 50000,
+     "source": "https://www.entrepreneur.com/franchises/directory/drybar/335523",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Confirmed by franchisor development site."
+    },
+    "royaltyPercent": {
+     "value": 7,
+     "source": "https://www.drybarfranchise.com/investment-information/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "7% of gross receipts."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://www.drybarfranchise.com/investment-information/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "2% Brand Marketing Fund plus a required $2,000/month local advertising spend."
+    },
+    "avgUnitRevenue": {
+     "value": 904000,
+     "source": "https://franchiseinvestordata.com/franchise/drybar",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Average unit volume per 2025 FDD Item 19 data as analyzed by FranchiseInvestorData. Conflict: other analyses cite a ~$1.2M historical AUV, which the same source identifies as a prior peak before compression. Represents gross sales, not profit."
+    },
+    "totalUnits": {
+     "value": 188,
+     "source": "https://www.entrepreneur.com/franchises/directory/drybar/335523",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor site cites '185+ locations nationwide'; FranchiseInvestorData cites ~200."
+    },
+    "yearFounded": {
+     "value": 2010,
+     "source": "https://www.entrepreneur.com/franchises/directory/drybar/335523",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2012,
+     "source": "https://www.entrepreneur.com/franchises/directory/drybar/335523",
+     "year": 2026,
+     "confidence": "high",
+     "note": "FranchiseInvestorData lists 2015; Entrepreneur directory (2012) used as more authoritative."
+    },
+    "trainingWeeks": {
+     "value": 1,
+     "source": "https://www.entrepreneur.com/franchises/directory/drybar/335523",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Derived: Entrepreneur lists 24 hours on-the-job + 34 hours classroom (58 hours total, ~1 work week)."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://franchiseinvestordata.com/franchise/drybar",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD is the basis for published investment and Item 19 figures."
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://franchiseinvestordata.com/franchise/drybar",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD contains Item 19 financial performance representations (AUV data)."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.drybarfranchise.com/investment-information/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "20% off initial franchise fee for veterans/active-duty military; same discount for >=51% minority-owned businesses."
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://franchiseinvestordata.com/franchise/drybar",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Area development fees disclosed and multi-unit development deals signed (e.g., 12-unit Chunara Group agreement)."
+    },
+    "exclusiveTerritories": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/drybar/335523",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/drybar/335523",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/drybar/335523",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/drybar/335523",
+     "year": 2026,
+     "confidence": "high"
+    }
+   }
+  },
+  {
+   "name": "Amazing Lash Studio",
+   "slug": "amazing-lash-studio",
+   "category": "Beauty & Self Care",
+   "website": "amazinglashstudio.com",
+   "notes": "Eyelash-extension membership studio franchise founded 2010, franchising since 2013; a WellBiz Brands company (acquired by Transom Capital January 2026). The system has contracted sharply from a ~276-unit peak to under 200 studios after 70 closures in 2024, and franchisees pursued arbitration claims against the franchisor in 2021-2023.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "70 studio closures in 2024; system shrank 23% in one year",
+     "detail": "Per the 2025 FDD (Item 20 data summarized by Franchise Chatter), outlets fell from 262 at the start of 2024 to 201 at year-end (net -61), with 70 studios closing during the year. The system peaked at 276 units in 2022 and declined in both 2023 (-14) and 2024.",
+     "source": "Franchise Chatter, Amazing Lash Studio Franchise Review 2025 (2025 FDD data)",
+     "url": "https://www.franchisechatter.com/2025/10/28/amazing-lash-studio-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "Franchisee arbitration claims and independent franchisee association (2021-2023)",
+     "detail": "Franchise Times reported a handful of franchisee arbitration cases (2021-2023) alleging California Franchise Investment Law violations, breach of contract over pricing/supply/quality of eyelash products, and unjust enrichment; in early 2023 a franchisee group formed an independent association alleging 'rampant price gouging, the elimination of vital resources and the blatant retaliation against franchisees.' WellBiz says most disputes were resolved via confidential settlements, terminations, or transfers.",
+     "source": "Franchise Times, 'How WellBiz Brands Is Giving Itself a Makeover' (Oct 30, 2025)",
+     "url": "https://www.franchisetimes.com/franchise_times_cover_stories/top-franchise-ceos/how-wellbiz-brands-is-giving-itself-a-makeover/article_86873ebc-fe0b-450a-8576-a812b6453984.html",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "Continued contraction and Franchise 500 drop-off",
+     "detail": "Entrepreneur's current directory listing shows 187 units with a negative (-30%) unit trend, and the brand did not rank on Entrepreneur's 2025 Franchise 500 after holding the #1 category ranking in 2021-2022.",
+     "source": "Entrepreneur franchise directory; Franchise Chatter 2025 review",
+     "url": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026
+    },
+    {
+     "severity": "caution",
+     "title": "Wide unit-level performance dispersion",
+     "detail": "2025 FDD Item 19: the bottom 10 studios averaged $194,723 in 2024 revenue versus $1,185,146 for the top 10 \u2014 roughly a 6x spread \u2014 indicating outcomes are highly operator- and market-dependent.",
+     "source": "Franchise Chatter, Amazing Lash Studio Franchise Review 2025",
+     "url": "https://www.franchisechatter.com/2025/10/28/amazing-lash-studio-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Parent WellBiz Brands sold to Transom Capital (Jan 2026)",
+     "detail": "Transom Capital Group completed its acquisition of parent WellBiz Brands from KSL Capital Partners on January 22, 2026, introducing uncertainty around future system strategy and support.",
+     "source": "Transom Capital Group press release",
+     "url": "https://transomcap.com/news/transom-acquires-wellbiz-brands-a-leading-beauty-wellness-franchisor-platform/",
+     "year": 2026
+    }
+   ],
+   "nationwide": {
+    "source": "Amazing Lash Studio franchise development site - market availability page ('Prime territories are available in markets across the U.S.')",
+    "url": "https://franchising.amazinglashstudio.com/market-availability/",
+    "year": 2026,
+    "note": "Franchisor markets territories across the U.S. via an interactive availability map; given recent system contraction, confirm specific-market availability directly with the franchisor."
+   },
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 150000,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "totalInvestmentMin": {
+     "value": 464464,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Range $464,464-$719,754; consistent with 2025 FDD figures cited by Franchise Chatter."
+    },
+    "totalInvestmentMax": {
+     "value": 719754,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 50000,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high",
+     "note": "6% of gross receipts, confirmed by 2025 FDD summary (Franchise Chatter)."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "2% marketing fund plus a $2,000/month local advertising requirement per 2025 FDD summary; some directories cite a combined 4% marketing obligation."
+    },
+    "avgUnitRevenue": {
+     "value": 574361,
+     "source": "https://www.franchisechatter.com/2025/10/28/amazing-lash-studio-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 19: average 2024 gross revenue of all 192 franchised studios open the full year; median was $545,132. Gross revenue, not profit."
+    },
+    "totalUnits": {
+     "value": 187,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high",
+     "note": "201 units (all franchised) at year-end 2024 per FDD Item 20; Entrepreneur 2026 listing shows 187."
+    },
+    "closureCount": {
+     "value": 70,
+     "source": "https://www.franchisechatter.com/2025/10/28/amazing-lash-studio-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Studios closed during calendar 2024 per 2025 FDD data (net unit change -61: 262 to 201)."
+    },
+    "yearFounded": {
+     "value": 2010,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2013,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 1,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Derived: 24 hours on-the-job + 31.75 hours classroom (~56 hours, about 1 work week)."
+    },
+    "employeesRequired": {
+     "value": 10,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/10/28/amazing-lash-studio-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD is the basis of published cost and performance figures."
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/10/28/amazing-lash-studio-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Item 19 discloses revenue, new-client trials, conversion, and membership metrics."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high",
+     "note": "20% off franchise fee or development fee."
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://franchising.amazinglashstudio.com/market-availability/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Franchisor markets multi-unit territory development; development fees disclosed in FDD."
+    },
+    "exclusiveTerritories": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/amazing-lash-studio/334605",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.franchisechatter.com/2025/10/28/amazing-lash-studio-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Units declined three consecutive years: 276 (2022) -> 262 (2023) -> 201 (2024) -> 187 (Entrepreneur 2026)."
+    }
+   }
+  },
+  {
+   "name": "Palm Beach Tan",
+   "slug": "palm-beach-tan",
+   "category": "Beauty & Self Care",
+   "website": "palmbeachtan.com",
+   "notes": "The largest US tanning-salon chain (founded 1990, Coppell, TX), franchising as 'Palm Beach Beauty & Tan' since 2001 with ~635 mostly company-owned and franchised salons in 34 states. Franchise-sales availability evidence is thin: the brand's own site solicits applications but lists no open markets, and Franchising.com shows it as not currently accepting new applicants there.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Franchise sales appear selective or limited",
+     "detail": "Franchising.com's brand page states Palm Beach Tan is 'not currently accepting new applicants' on that platform, and the franchisor's own franchising page provides an application and FDD request process but publishes no available-market list, investment figures, or development targets.",
+     "source": "Franchising.com brand overview; palmbeachtan.com/franchising",
+     "url": "https://www.franchising.com/palmbeachtan/",
+     "year": 2026
+    },
+    {
+     "severity": "caution",
+     "title": "Indoor tanning regulatory and tax headwinds",
+     "detail": "Indoor tanning services are subject to a federal 10% excise tax (ACA 'tanning tax') collected from customers, and the industry faces ongoing FDA/health-regulatory scrutiny and state-level restrictions on minors \u2014 structural headwinds for the core service category.",
+     "source": "IRS - Excise Tax on Indoor Tanning Services FAQ",
+     "url": "https://www.irs.gov/businesses/small-businesses-self-employed/excise-tax-on-indoor-tanning-services-frequently-asked-questions",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "Slight system contraction in current directory data",
+     "detail": "Entrepreneur's 2026 listing shows 635 units with a -2% unit trend; only roughly 300+ of the system's locations are franchised, with the majority company-owned, limiting franchisee-validation sample size.",
+     "source": "Entrepreneur franchise directory - Palm Beach Beauty & Tan",
+     "url": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "BIPA biometric-privacy class action settlement (Illinois)",
+     "detail": "Rottner v. Palm Beach Tan, Inc.: class action alleging the company's fingerprint-scan check-in system violated the Illinois Biometric Information Privacy Act; settled, covering customers who used finger scanners at Illinois salons between November 2010 and March 2016.",
+     "source": "Official settlement website (pbtsettlement.com)",
+     "url": "https://www.pbtsettlement.com/",
+     "year": 2016
+    },
+    {
+     "severity": "info",
+     "title": "Supplier litigation: Sunless, Inc. v. Palm Beach Tan (6th Cir. 2022)",
+     "detail": "Commercial dispute with spray-tan equipment maker Sunless, Inc. over trademark/branding of spray-tan booths reached the Sixth Circuit in 2022 (preliminary-injunction appeal decided May 2022). Commercial, not franchisee, litigation.",
+     "source": "Justia - Sunless, Inc. v. Palm Beach Tan, Inc., No. 21-3616 (6th Cir. 2022)",
+     "url": "https://law.justia.com/cases/federal/appellate-courts/ca6/21-3616/21-3616-2022-05-06.html",
+     "year": 2022
+    },
+    {
+     "severity": "info",
+     "title": "Conflicting fee disclosures across directories",
+     "detail": "Entrepreneur lists a $30,000 franchise fee, 4-6% royalty, and 5.5% ad royalty; FranchiseOverview cites a $5,000-$22,000 fee with 4% royalty and 3.5% ad fund; Vetted Biz cites $30,000 / 5% / 2%. Prospects should verify against the current Palm Beach Beauty & Tan FDD.",
+     "source": "Entrepreneur vs. FranchiseOverview vs. Vetted Biz listings",
+     "url": "https://franchiseoverview.com/company/palm-beach-tan",
+     "year": 2026
+    }
+   ],
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 250000,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists $250,000 liquid capital; Vetted Biz cites $155,000 minimum. Entrepreneur used as more current."
+    },
+    "totalInvestmentMin": {
+     "value": 648453,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Range $648,453-$1,131,247; consistent across Entrepreneur, Vetted Biz, FranchiseOverview, and Peersense FDD summaries."
+    },
+    "totalInvestmentMax": {
+     "value": 1131247,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 5000,
+     "source": "https://peersense.com/franchise/palm-beach-beauty-amp-tan",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Current FDD fee range $5K-$22K (lower bound used); verification audit 2026-06-11. Prior batch value 30000 superseded."
+    },
+    "royaltyPercent": {
+     "value": 4,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Tiered royalty: Entrepreneur lists 4%-6% (reported elsewhere as 4% year 1, 5% year 2, 6% from year 3). Lower bound shown."
+    },
+    "adFundPercent": {
+     "value": 5.5,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur and Peersense list 5.5% ad royalty; FranchiseOverview cites 3.5% and Vetted Biz 2%. Verify in current FDD."
+    },
+    "avgUnitRevenue": {
+     "value": 483575,
+     "source": "https://www.vettedbiz.com/franchises/palm-beach-beauty-tan/",
+     "year": 2023,
+     "confidence": "low",
+     "note": "Vetted Biz FDD-derived figure for typical yearly gross sales per salon (2023 FDD analysis). Palm Beach Tan's Item 19 has historically been based largely on company-owned salon performance; treat as indicative gross sales only."
+    },
+    "totalUnits": {
+     "value": 635,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "high",
+     "note": "System spans Palm Beach Tan, Palm Beach Beauty & Tan, and Planet Tan brands in 34 states; 300+ franchised, majority company-owned."
+    },
+    "yearFounded": {
+     "value": 1990,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2001,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur and Peersense list 2001; Franchising.com lists 1998."
+    },
+    "trainingWeeks": {
+     "value": 4,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Derived: 120 hours on-the-job + 57.5 hours classroom (~177.5 hours, roughly 4 work weeks)."
+    },
+    "employeesRequired": {
+     "value": 3,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists 3-5 employees required; lower bound shown."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://palmbeachtan.com/franchising",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor's franchising page offers the FDD in electronic and paper formats."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/palm-beach-beauty-tan/299708",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur 2026 shows a -2% unit trend (635 units)."
+    }
+   }
+  },
+  {
+   "name": "Sola Salons",
+   "slug": "sola-salons",
+   "category": "Beauty & Self Care",
+   "website": "solasalonstudios.com",
+   "notes": "Salon-suite (studio rental) franchise founded 2004 in Denver, franchising since 2005; the segment leader with 700+ locations (Radiance Holdings parent), ranked #80 on Entrepreneur's 2026 Franchise 500 and #1 in the salon-suites category. Semi-passive real-estate-style model: franchisees lease space to independent beauty professionals.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Very high investment relative to unit gross revenue",
+     "detail": "Total investment runs roughly $950K-$1.95M (2025-2026 FDDs) against an average 2024 unit gross revenue of $442,438 (2025 FDD Item 19), implying a multi-year payback that depends heavily on lease terms, build-out cost, and suite occupancy.",
+     "source": "Sola franchising site (Item 7) and Franchise Chatter 2026 review (Item 19)",
+     "url": "https://www.franchisechatter.com/2026/03/15/sola-salons-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "Long-term commercial lease exposure inherent to the model",
+     "detail": "Franchisees sign large commercial leases and re-rent suites to independent stylists; during the COVID-19 closures some salon-suite franchisees reported six-figure rent debt and lost stylist fees, and industry consultants have publicly criticized salon-suite franchise economics. Sola itself reported only 4 closures of established units in 2024.",
+     "source": "Suites Consulting Group critique; Franchise Chatter 2026 review (closure data)",
+     "url": "https://www.suitesconsulting.com/ss-franchises---its-worse-than-you-think.html",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Isolated federal litigation (non-systemic)",
+     "detail": "A 2022 federal case, Brown v. Sola Salon Studios LLC (S.D.N.Y., 1:22-cv-04737), appears on public dockets; no pattern of franchisee-vs-franchisor litigation or franchisee-association disputes was found in public sources.",
+     "source": "CourtListener docket",
+     "url": "https://www.courtlistener.com/docket/63366071/brown-v-sola-salon-studios-llc/",
+     "year": 2022
+    }
+   ],
+   "nationwide": {
+    "source": "Sola franchising site - investment page ('Prime territories available in major markets throughout the United States and Canada')",
+    "url": "https://www.solafranchising.com/investment/",
+    "year": 2026,
+    "note": "Franchisor markets territories across the US (and Canada); specific prime-market availability varies."
+   },
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 500000,
+     "source": "https://www.entrepreneur.com/franchises/directory/sola-salons/334756",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "totalInvestmentMin": {
+     "value": 1182000,
+     "source": "https://sharpsheets.io/blog/sola-salon-studios-costs-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7 range $1.182M-$1.939M (FDD canon); franchisor 2026 page shows $950K-$1.75M. Prior batch value 950214 superseded."
+    },
+    "totalInvestmentMax": {
+     "value": 1939000,
+     "source": "https://sharpsheets.io/blog/sola-salon-studios-costs-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7 range $1.182M-$1.939M (FDD canon); franchisor 2026 page shows $950K-$1.75M. Prior batch value 1748296 superseded."
+    },
+    "franchiseFee": {
+     "value": 60000,
+     "source": "https://www.solafranchising.com/investment/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "$60,000 for new franchisees; $45,000 for additional units purchased by existing franchisees."
+    },
+    "royaltyPercent": {
+     "value": 5.5,
+     "source": "https://www.solafranchising.com/investment/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "5.5% of gross revenue, minimum $500/month."
+    },
+    "adFundPercent": {
+     "value": 1.5,
+     "source": "https://www.solafranchising.com/investment/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "National Marketing Fund currently 1.5% of gross revenue (cap 2%); a local marketing cooperative of up to 2% may also apply."
+    },
+    "avgUnitRevenue": {
+     "value": 442438,
+     "source": "https://www.franchisechatter.com/2026/03/15/sola-salons-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 19: average 2024 gross revenue of 625 qualifying locations; median $420,052; range $58,507-$1,181,814. Gross revenue (suite rents), not profit."
+    },
+    "totalUnits": {
+     "value": 740,
+     "source": "https://www.entrepreneur.com/franchises/directory/sola-salons/334756",
+     "year": 2026,
+     "confidence": "high",
+     "note": "660 franchised + 69 company-owned at year-end 2024 per FDD Item 20."
+    },
+    "closureCount": {
+     "value": 4,
+     "source": "https://www.franchisechatter.com/2026/03/15/sola-salons-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Units open 12+ months that closed during 2024 per 2025 FDD; system grew +32 net units in 2024."
+    },
+    "yearFounded": {
+     "value": 2004,
+     "source": "https://www.entrepreneur.com/franchises/directory/sola-salons/334756",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2005,
+     "source": "https://www.entrepreneur.com/franchises/directory/sola-salons/334756",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur directory page lists 2005; some Entrepreneur summaries say 2006."
+    },
+    "employeesRequired": {
+     "value": 0,
+     "source": "https://www.entrepreneur.com/franchises/directory/sola-salons/334756",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Suite-rental model requires no service employees; occupants are independent beauty professionals."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.solafranchising.com/investment/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor site references its 2024 and 2026 FDDs (Item 7) directly."
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/03/15/sola-salons-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Item 19 discloses average/median gross revenue for 2023 and 2024."
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2021/03/26/considering-a-sola-salon-studios-franchise-dont-overlook-these-25-important-franchise-fees/",
+     "year": 2021,
+     "confidence": "medium",
+     "note": "Units can be purchased in development packs of 2, 3, 6, or 12; discounted $45K fee for additional units."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/sola-salons/334756",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/sola-salons/334756",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/sola-salons/334756",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/sola-salons/334756",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/03/15/sola-salons-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchised units grew 585 -> 631 -> 660 over 2023-2024; 740 total per Entrepreneur 2026 (+17.8% trend)."
+    }
+   }
+  },
+  {
+   "name": "Batteries Plus",
+   "slug": "batteries-plus",
+   "category": "Retail",
+   "website": "batteriesplus.com",
+   "notes": "Battery, light-bulb, key-fob and device-repair retail franchise founded 1988 in Hartland, WI, franchising since 1992; ~739 locations and a 31-year streak on Entrepreneur's Franchise 500 (#281 in 2026). Reached operating presence in all 50 states in October 2025 and signed 63 new franchise units in 2025.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Franchised store count was flat-to-declining 2022-2024",
+     "detail": "Per FDD Item 20 data, franchised stores went 590 -> 609 (2022), 609 -> 606 (2023), and 606 -> 604 (2024), while company-owned stores grew from 112 to 133 \u2014 net franchise growth stalled even as corporate locations expanded. 2025 development signings (63 units) suggest a re-acceleration not yet reflected in open-store counts.",
+     "source": "Franchise Chatter, Batteries Plus Franchise Review 2026 (FDD data)",
+     "url": "https://www.franchisechatter.com/2026/02/28/batteries-plus-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "Wide unit-performance variance (3.3x quartile spread)",
+     "detail": "Item 19: top-quartile franchised stores averaged $1,608,969 in net revenue vs. $491,356 for the bottom quartile (system average $935,755, median $811,364; range $257K-$8.1M) \u2014 outcomes vary heavily by operator and market.",
+     "source": "Batteries Plus franchise site / Franchise Chatter 2026 review (FDD Item 19)",
+     "url": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Mandatory arbitration and fee-shifting in franchise agreement",
+     "detail": "Disputes are governed by Wisconsin law and resolved by binding arbitration in Milwaukee under AAA procedures; Batteries Plus may recover costs and reasonable attorneys' fees if a franchisee loses a dispute. No significant franchisee litigation was identified in public records for 2024-2026.",
+     "source": "Franchise Chatter fee/agreement analysis",
+     "url": "https://www.franchisechatter.com/2022/02/13/considering-a-batteries-plus-bulbs-franchise-dont-overlook-these-31-important-franchise-fees/",
+     "year": 2022
+    }
+   ],
+   "statesOpen": [
+    {
+     "state": "CT",
+     "status": "open",
+     "note": "Listed as an available franchise territory on the franchisor's investment page.",
+     "source": "Batteries Plus franchise site - available markets",
+     "url": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026
+    },
+    {
+     "state": "DE",
+     "status": "open",
+     "note": "Listed as an available franchise territory on the franchisor's investment page.",
+     "source": "Batteries Plus franchise site - available markets",
+     "url": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026
+    },
+    {
+     "state": "MD",
+     "status": "open",
+     "note": "Listed as an available franchise territory on the franchisor's investment page.",
+     "source": "Batteries Plus franchise site - available markets",
+     "url": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026
+    },
+    {
+     "state": "MA",
+     "status": "open",
+     "note": "Listed as an available franchise territory on the franchisor's investment page.",
+     "source": "Batteries Plus franchise site - available markets",
+     "url": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026
+    },
+    {
+     "state": "NY",
+     "status": "open",
+     "note": "Listed as an available franchise territory on the franchisor's investment page.",
+     "source": "Batteries Plus franchise site - available markets",
+     "url": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026
+    },
+    {
+     "state": "OH",
+     "status": "open",
+     "note": "Listed as an available franchise territory on the franchisor's investment page.",
+     "source": "Batteries Plus franchise site - available markets",
+     "url": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026
+    },
+    {
+     "state": "PA",
+     "status": "open",
+     "note": "Listed as an available franchise territory on the franchisor's investment page.",
+     "source": "Batteries Plus franchise site - available markets",
+     "url": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026
+    },
+    {
+     "state": "VA",
+     "status": "open",
+     "note": "Listed as an available franchise territory on the franchisor's investment page.",
+     "source": "Batteries Plus franchise site - available markets",
+     "url": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026
+    },
+    {
+     "state": "WA",
+     "status": "open",
+     "note": "Listed as an available franchise territory on the franchisor's investment page.",
+     "source": "Batteries Plus franchise site - available markets",
+     "url": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026
+    },
+    {
+     "state": "TX",
+     "status": "open",
+     "note": "Dallas and Houston metros specifically listed as available markets. Brand also signed deals across 13 states in 2025 and now operates in all 50 states, so availability extends beyond this published list \u2014 verify by market.",
+     "source": "Batteries Plus franchise site - available markets; PR Newswire Dec 2025",
+     "url": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026
+    }
+   ],
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 125000,
+     "source": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Franchisor site states minimum $125,000 liquid; Entrepreneur lists $150,000."
+    },
+    "totalInvestmentMin": {
+     "value": 262646,
+     "source": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Range $262,646-$496,996, matching Entrepreneur and the current FDD Item 7."
+    },
+    "totalInvestmentMax": {
+     "value": 496996,
+     "source": "https://www.batteriesplusfranchise.com/franchise-opportunity/franchise-investment-costs/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 44500,
+     "source": "https://www.entrepreneur.com/franchises/directory/batteries-plus/282124",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists $44,500; franchisor site shows a $15,000-$44,500 range (lower tiers likely for additional/conversion stores); Franchise Chatter's 2026 review cites $49,500 from the latest FDD. Verify in current FDD."
+    },
+    "royaltyPercent": {
+     "value": 5,
+     "source": "https://www.entrepreneur.com/franchises/directory/batteries-plus/282124",
+     "year": 2026,
+     "confidence": "high",
+     "note": "5% of net revenues, confirmed by FDD summaries."
+    },
+    "adFundPercent": {
+     "value": 1,
+     "source": "https://www.franchisechatter.com/2026/02/28/batteries-plus-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "1% national marketing fee plus required local advertising of up to 4% (minimum $20,000/year after the first year); Entrepreneur lists the combined ad obligation as 4%."
+    },
+    "avgUnitRevenue": {
+     "value": 935755,
+     "source": "https://www.franchisechatter.com/2026/02/28/batteries-plus-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "FDD Item 19: average net revenue of 494 franchised stores open 12+ months for the most recent fiscal year; median $811,364; range $257,416-$8,136,121. Net revenue (sales), not profit."
+    },
+    "totalUnits": {
+     "value": 739,
+     "source": "https://www.entrepreneur.com/franchises/directory/batteries-plus/282124",
+     "year": 2026,
+     "confidence": "high",
+     "note": "604 franchised + 133 company-owned at year-end 2024 per FDD Item 20."
+    },
+    "yearFounded": {
+     "value": 1988,
+     "source": "https://www.entrepreneur.com/franchises/directory/batteries-plus/282124",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1992,
+     "source": "https://www.entrepreneur.com/franchises/directory/batteries-plus/282124",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 5,
+     "source": "https://www.entrepreneur.com/franchises/directory/batteries-plus/282124",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Derived: 100+ hours on-the-job plus 108 hours classroom (~208 hours, roughly 5 work weeks)."
+    },
+    "employeesRequired": {
+     "value": 5,
+     "source": "https://www.entrepreneur.com/franchises/directory/batteries-plus/282124",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists 5-8 employees required; lower bound shown."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/28/batteries-plus-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/28/batteries-plus-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Item 19 discloses franchised and corporate store revenue plus corporate EBITDA margin (10.9%)."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/batteries-plus/282124",
+     "year": 2026,
+     "confidence": "high",
+     "note": "$10,000 off first-store franchise fee; franchisor also advertises discounts for first responders."
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.prnewswire.com/news-releases/batteries-plus-expands-into-all-50-states-wraps-2025-with-63-new-units-302640406.html",
+     "year": 2025,
+     "confidence": "high",
+     "note": "24 franchise deals totaling 63 units signed in 2025, including multi-unit agreements."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/batteries-plus/282124",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/batteries-plus/282124",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/batteries-plus/282124",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/batteries-plus/282124",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.prnewswire.com/news-releases/batteries-plus-expands-into-all-50-states-wraps-2025-with-63-new-units-302640406.html",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "63 new units signed and 30 stores opened in 2025, reaching all 50 states; however, open franchised-store count was roughly flat 2022-2024 (see risk flag)."
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,736 @@
+{
+  "brands": [
+    {
+      "name": "Level Up Automation",
+      "website": "levelupyourhome.com",
+      "notes": "Smart-home/commercial automation services franchise founded 2016 in Northborough, MA, franchising since 2021; very small emerging system (~10 units) with a low-cost, home-based, tech-services model. Directory sources show conflicting fee figures, so current FDD verification is advised.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very small, unproven system",
+          "detail": "Only about 10 units after roughly 4 years of franchising (franchising since 2021). System performance at scale is unproven and there is no public Item 19 data found.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting fee disclosures across directories",
+          "detail": "Entrepreneur lists a $35,000 franchise fee and $51.8K-$68.2K total investment; Franchise Gator-affiliated listings cite a $49,500 fee and $56.3K-$72.7K investment. Prospects should confirm against the current FDD (FDDs are listed on Wefranch).",
+          "source": "Entrepreneur vs. Franchise Gator listings",
+          "url": "https://www.franchisegator.com/franchises/level-up-smart-home-automation/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Franchise sales availability appears limited",
+          "detail": "Franchising.com showed the brand as not currently accepting new applicants, and the brand's own Franchise Gator listing has been noted as at capacity, suggesting paused or selective franchise sales.",
+          "source": "Franchising.com brand overview",
+          "url": "https://www.franchising.com/level_up_automation/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 50000,
+          "source": "https://www.franchisegator.com/franchises/level-up-smart-home-automation/",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "totalInvestmentMin": {
+          "value": 51800,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur range $51,800-$68,200; Franchise Gator shows $56,300-$72,700"
+        },
+        "totalInvestmentMax": {
+          "value": 68200,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Franchise Gator shows max of $72,700"
+        },
+        "franchiseFee": {
+          "value": 35000,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Conflict: some aggregator listings report a $49,500 franchise fee; Entrepreneur (typically FDD-derived) lists $35,000"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalUnits": {
+          "value": 10,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur reports +66.7% unit growth"
+        },
+        "yearFounded": {
+          "value": 2016,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2021,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchise Gator lists 2020; Entrepreneur and franchise counsel announcement (spadealaw.com) support 2021 launch"
+        },
+        "employeesRequired": {
+          "value": 0,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://wefranch.com/franchise/57vm/level-up-automation/fdds",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur lists 10% off franchise fee; Franchise Gator lists 15% off"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "+66.7% unit growth per Entrepreneur, but off a very small base (~10 units)"
+        },
+        "marketingSupport": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Marketing templates, SEO, website development per Entrepreneur"
+        },
+        "ongoingSupport": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/level-up-automation/336208",
+          "year": 2026,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "Lightspeed Restoration",
+      "website": "lightspeedrestoration.com",
+      "notes": "Water/fire damage restoration franchise launched in 2023 by Home Franchise Concepts (a JM Family Enterprises subsidiary), headquartered in Flower Mound/Coppell, TX. Very young brand (~38 units) but backed by a large, experienced multi-brand franchisor; fee structure is a $5K franchise fee plus a $44K-$112K territory fee.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new brand with no long-term track record",
+          "detail": "Founded and franchising since 2023; only ~38 units. No multi-year unit-economics history exists for franchisee outcomes in this system.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Layered ongoing fees and territory pricing",
+          "detail": "Beyond the $5,000 franchise fee, territory fees run $44,000-$112,000; ongoing costs include a tiered royalty (reported 2%-8%, with $500-$1,000 monthly minimums), 2% brand fund (min $500/mo), and a $750/month technology fee for the first territory (2025 FDD summary).",
+          "source": "Franchise Direct FDD summary (2025 FDD)",
+          "url": "https://www.franchisedirect.com/lightspeed-restoration-franchise-costs-fees-fdd",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "FDD contains litigation/bankruptcy disclosures to review",
+          "detail": "Vetted Biz flags that Lightspeed Restoration's FDD discloses lawsuit and/or bankruptcy information (Items 3/4); specifics are not public and should be reviewed in the FDD before purchase. May relate to parent-company history rather than this young brand.",
+          "source": "Vetted Biz franchise profile",
+          "url": "https://www.vettedbiz.com/franchises/lightspeed-restoration",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Backed by large parent (mitigant)",
+          "detail": "Part of Home Franchise Concepts, a subsidiary of JM Family Enterprises ($22B annual revenue), which partially offsets typical new-brand risk; brand ranked #32 on Entrepreneur's Top New & Emerging Franchises list.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 132230,
+          "source": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Other sources cite $119,780-$125,000; Entrepreneur lists $132,230"
+        },
+        "totalInvestmentMin": {
+          "value": 154230,
+          "source": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Range $154,230-$334,000 per 2025 FDD Item 7 (also reported by Franchise Direct)"
+        },
+        "totalInvestmentMax": {
+          "value": 334000,
+          "source": "https://www.franchisedirect.com/lightspeed-restoration-franchise-costs-fees-fdd",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 5000,
+          "source": "https://www.franchisedirect.com/lightspeed-restoration-franchise-costs-fees-fdd",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Initial franchise fee is $5,000 PLUS a territory fee of $44,000-$112,000 (varies by territory demographics); effective minimum entry licensing cost ~$49,000, which is why some aggregators report a $49K fee"
+        },
+        "royaltyPercent": {
+          "value": 2,
+          "source": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Tiered royalty reported as 2%-8% of sales (other summaries describe it starting at 8% and declining as revenue grows), with monthly minimums of $500 (year 1) / $1,000 thereafter per 2025 FDD"
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "https://www.franchisedirect.com/lightspeed-restoration-franchise-costs-fees-fdd",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2% of monthly deposits, $500/month minimum"
+        },
+        "totalUnits": {
+          "value": 38,
+          "source": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 38; Vetted Biz lists 27 and Franchise Direct ~30 (different snapshot dates for a fast-changing young system)"
+        },
+        "yearFounded": {
+          "value": 2023,
+          "source": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2023,
+          "source": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "https://www.franchisedirect.com/lightspeed-restoration-franchise-costs-fees-fdd",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "12-14 days of required training (third-party certifications plus in-person/virtual instruction at the Coppell, TX Experience Center); Entrepreneur lists 123 classroom + 37 on-the-job hours"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.franchisedirect.com/lightspeed-restoration-franchise-costs-fees-fdd",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026,
+          "confidence": "high",
+          "note": "15% off initial franchise and territory fees for veterans and spouses"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://www.franchisedirect.com/lightspeed-restoration-franchise-costs-fees-fdd",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "FDD prices additional contiguous territories (e.g., reduced $250/mo tech fee per added territory)"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/lightspeed-restoration/335226481",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "0 to ~38 units since 2023 launch; ranked #32 Top New & Emerging Franchises"
+        }
+      }
+    },
+    {
+      "name": "Voda Cleaning & Restoration",
+      "website": "myvoda.com",
+      "notes": "Carpet/floor cleaning and water-damage restoration franchise (parent: Franchise Playbook, CEO Dan Claps) built on the DNA Pro Cleaning predecessor business; began franchising in 2023 and sold 100+ territories within a year. Item 19 is anchored on the high-performing affiliate flagship outlet, with franchisee quartile data first appearing in the 2025 FDD.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Territories sold far ahead of open units",
+          "detail": "Brand marketing cites 100+ franchise owners and 260+ locations/territories awarded across 31 states, but the 2025 FDD shows only 58 franchised units open plus 1 company outlet at 2024 year-end. Rapid territory sales out ahead of operating units is a classic emerging-brand execution risk.",
+          "source": "Entrepreneur directory claim vs. 2025 FDD data via Franchise Chatter",
+          "url": "https://www.franchisechatter.com/2025/08/20/voda-cleaning-restoration-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Item 19 anchored on a single affiliate flagship outlet",
+          "detail": "Headline revenue ($2.4M-$2.7M) comes from the predecessor 'DNA Pro Cleaning' flagship covering ~3 territories with 6 service vans — not a typical franchisee. In the 2025 FDD, the bottom 25% of the 13 reporting franchisees averaged only ~$203K-$280K gross revenue.",
+          "source": "Franchise Chatter FDD Talk 2024/2025 reviews",
+          "url": "https://www.franchisechatter.com/2024/08/07/fdd-talk-voda-cleaning-restoration-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High combined ongoing fee load",
+          "detail": "7% royalty (with monthly minimums) + brand fund 1-2% + required local advertising of the greater of 5% of revenue or $2,500-$5,000/month + $1,000+/month technology fee — a heavier ongoing burden than many home-services peers.",
+          "source": "Franchise Chatter FDD summary / Entrepreneur directory",
+          "url": "https://www.franchisechatter.com/2025/08/20/voda-cleaning-restoration-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 75000,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMin": {
+          "value": 206659,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur range $206,659-$376,873; 2025 FDD Item 7 per Franchise Chatter was $201,374-$357,608"
+        },
+        "totalInvestmentMax": {
+          "value": 376873,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "2025 FDD per Franchise Chatter shows $357,608 max"
+        },
+        "franchiseFee": {
+          "value": 59500,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 7,
+          "source": "https://www.franchisechatter.com/2025/08/20/voda-cleaning-restoration-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Greater of 7% of gross revenue or $0-$1,500/month minimum"
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "https://www.franchisechatter.com/2025/08/20/voda-cleaning-restoration-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Brand fund: 1% of gross revenue first 12 months, 2% thereafter; separate required local advertising of greater of 5% or $2,500-$5,000/month"
+        },
+        "avgUnitRevenue": {
+          "value": 2728877,
+          "source": "https://www.franchisechatter.com/2025/08/20/voda-cleaning-restoration-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Item 19 (2025 FDD): 2024 gross revenue of the affiliate flagship/predecessor outlet (covers ~3 territories, 6 vans) — NOT a franchisee average. Among 13 franchisees open 12+ months, top-25% averaged ~$603K-$1.04M and bottom-25% ~$203K-$280K"
+        },
+        "totalUnits": {
+          "value": 102,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur 2026 listing; 2025 FDD showed 58 franchised + 1 company-owned at 2024 year-end; marketing cites 260+ territories awarded"
+        },
+        "yearFounded": {
+          "value": 2009,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "2009 reflects the predecessor flagship business (formerly DNA Pro Cleaning); the Voda franchise brand was created ~2022 and began franchising 2023"
+        },
+        "yearFranchising": {
+          "value": 2023,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "employeesRequired": {
+          "value": 2,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 2-4 employees required"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://fddexchange.com/view-fdd-docs/voda-cleaning-restoration-2023-fdd-franchise-information-costs-and-fees/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://www.franchisechatter.com/2025/08/20/voda-cleaning-restoration-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists veteran incentive as not available"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://myvoda.com/about-us/news-press/voda-cleaning-restoration-awards-five-territories-in-denver/",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Multi-territory development deals awarded (e.g., 5 territories in Denver)"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "low",
+          "note": "Listed as part-time capable by Entrepreneur, but emergency restoration work is typically a full-time commitment"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/voda-cleaning-restoration/335226362",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Ranked #65 Fastest-Growing and #26 Top New & Emerging (Franchise 500, 2026); 0 to 58+ open franchised units in two years"
+        }
+      }
+    },
+    {
+      "name": "Vicky Bakery",
+      "website": "vickybakery.com",
+      "notes": "Cuban bakery-cafe brand founded 1972 in Hialeah, FL with a ~50-year family operating history, but only franchising since 2021 (~27 units, concentrated in South Florida). High investment ($627K-$1.2M) and steep liquidity requirements ($500K liquid / $750K net worth) relative to its short franchising track record.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High investment and liquidity bar for a young franchise system",
+          "detail": "Total investment of $626,700-$1,198,700 with $500,000 minimum liquid assets and $750,000 net worth required, while the brand has only franchised since 2021 — franchisee-level economics outside the founding family network are largely unproven. No public Item 19 earnings data was found.",
+          "source": "Vicky Bakery official franchise page / Entrepreneur directory",
+          "url": "https://vickybakery.com/franchise/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Geographic concentration in South Florida",
+          "detail": "Nearly all ~27 locations are in the greater Miami / South Florida market; the concept's Cuban bakery model is untested in other regions, concentrating market and hurricane-exposure risk.",
+          "source": "Entrepreneur Franchise Directory / vickybakery.com locations",
+          "url": "https://www.entrepreneur.com/franchises/directory/vicky-bakery/336316",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 500000,
+          "source": "https://vickybakery.com/franchise/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Minimum net worth $750,000 also required (franchisor's own franchise page)"
+        },
+        "totalInvestmentMin": {
+          "value": 626700,
+          "source": "https://www.entrepreneur.com/franchises/directory/vicky-bakery/336316",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Entrepreneur: $626,700-$1,198,700; SharpSheets cites a lower $439K floor from an earlier FDD"
+        },
+        "totalInvestmentMax": {
+          "value": 1198700,
+          "source": "https://www.entrepreneur.com/franchises/directory/vicky-bakery/336316",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 35000,
+          "source": "https://vickybakery.com/franchise/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "https://vickybakery.com/franchise/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "6% of gross monthly sales"
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "https://vickybakery.com/franchise/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2% of gross monthly sales"
+        },
+        "totalUnits": {
+          "value": 27,
+          "source": "https://www.entrepreneur.com/franchises/directory/vicky-bakery/336316",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Up from 25 in 2024 (+50% growth over recent period per Entrepreneur)"
+        },
+        "yearFounded": {
+          "value": 1972,
+          "source": "https://www.entrepreneur.com/franchises/directory/vicky-bakery/336316",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2021,
+          "source": "https://www.entrepreneur.com/franchises/directory/vicky-bakery/336316",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 3,
+          "source": "https://www.entrepreneur.com/franchises/directory/vicky-bakery/336316",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Derived from 120 total training hours (101 on-the-job + 19 classroom) per Entrepreneur"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://vickybakery.com/franchise/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Franchisor's site directs prospects to review the FDD after initial inquiry"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/vicky-bakery/336316",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/vicky-bakery/336316",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/vicky-bakery/336316",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/vicky-bakery/336316",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/vicky-bakery/336316",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "25 units (2024) to 27 units; Entrepreneur reports +50% growth over its measured period"
+        }
+      }
+    },
+    {
+      "name": "Just Poke",
+      "website": "justpoke.com",
+      "notes": "Seattle-area fast-casual poke bowl chain founded 2016 (HQ Bellevue, WA; founder Norman Wu), franchising since 2020 with ~32-36 locations concentrated in the Puget Sound region plus British Columbia expansion. Low-overhead model (no full kitchens), but it remains a regional emerging brand with no public Item 19 data found.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Regional emerging brand, unproven outside Pacific Northwest",
+          "detail": "Franchising only since 2020 with ~32-36 units, nearly all in the Puget Sound / Seattle region (with early BC, Canada expansion). The concept's performance outside its home market is unproven, and the crowded poke segment has seen other chains struggle.",
+          "source": "Entrepreneur Franchise Directory / justpoke.com franchising page",
+          "url": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No public Item 19 / earnings data found",
+          "detail": "No FDD Item 19 financial performance representations for Just Poke could be located in public franchise databases; prospective buyers must obtain the FDD directly to evaluate unit economics.",
+          "source": "Web search of FDD aggregators (Vetted Biz, Franchise Chatter, franchimp)",
+          "url": "https://justpoke.com/franchising/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {
+          "value": 186000,
+          "source": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Range $186,000-$299,500 per Entrepreneur"
+        },
+        "totalInvestmentMax": {
+          "value": 299500,
+          "source": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "franchiseFee": {
+          "value": 35000,
+          "source": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Plus $300/month technology fee per Entrepreneur"
+        },
+        "totalUnits": {
+          "value": 36,
+          "source": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 36 (+176.9% growth); franchisor site says 32 restaurants open by 2024 with 40+ targeted by 2026"
+        },
+        "yearFounded": {
+          "value": 2016,
+          "source": "https://justpoke.com/franchising/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2020,
+          "source": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Actively franchising in the US since 2020 (Entrepreneur directory listing is FDD-derived)"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "50% off franchise fee for veterans per Entrepreneur"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://justpoke.com/franchising/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "32 restaurants open by 2024 including British Columbia expansion; targeting 40+ by 2026"
+        },
+        "marketingSupport": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/just-poke/335732",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Co-op advertising, social media, SEO, grand-opening support"
+        },
+        "ongoingSupport": {
+          "value": true,
+          "source": "https://justpoke.com/franchising/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Site selection, lease negotiation, continuous training per franchisor site"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,872 @@
+{
+  "brands": [
+    {
+      "name": "The Goddard School",
+      "slug": "goddard-school",
+      "category": "Education & Children",
+      "website": "goddardschool.com",
+      "notes": "Premium early-childhood education/preschool franchise founded 1983, franchising since 1988, with 675 schools (all franchised) and strong post-pandemic growth. High-investment real-estate-driven model with a well-documented Item 19 (avg mature-school revenue ~$2.28M).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Settled $11M negligent-hiring / shaken-baby lawsuit (franchisor named)",
+          "detail": "A Connecticut judge refused to dismiss Goddard Systems Inc. from an $11M suit alleging a Wilton, CT franchisee's negligent hiring led to an employee permanently injuring a 6-month-old; the court found open questions about how much control the franchisor had over franchisee background checks. Goddard Systems settled the case in May 2025. Illustrates franchisor vicarious-liability and brand-safety exposure inherent to childcare.",
+          "source": "Law360",
+          "url": "https://www.law360.com/articles/2343269/goddard-systems-settles-11m-shaken-baby-suit-in-conn",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Very wide investment range driven by real estate path",
+          "detail": "Franchisor's own disclosure shows total estimated initial investment from about $1.0M (build-to-suit lease) up to $8.9M (buy land and build), one of the widest ranges in the childcare category; financing exposure differs dramatically by development path.",
+          "source": "The Goddard School franchise site",
+          "url": "https://goddardschoolfranchise.com/franchise-opportunities",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "https://goddardschoolfranchise.com/available-markets",
+        "url": "https://goddardschoolfranchise.com/available-markets",
+        "year": 2026,
+        "note": "Franchisor's Available Markets page states prime opportunities are available nationwide; ~670+ schools in 37-38 states plus DC, with 2025 licenses awarded in AZ, CA, FL, IL, MA, TN, TX and WA."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 350000,
+          "source": "https://goddardschoolfranchise.com/franchise-opportunities",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor lists $350K minimum liquidity and $500K minimum net worth; Entrepreneur directory lists a $300K cash requirement."
+        },
+        "totalInvestmentMin": {
+          "value": 1003500,
+          "source": "https://goddardschoolfranchise.com/franchise-opportunities",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor build-to-suit lease range $1,003,500-$1,503,000; Entrepreneur lists overall range starting at $952,500."
+        },
+        "totalInvestmentMax": {
+          "value": 8908000,
+          "source": "https://goddardschoolfranchise.com/franchise-opportunities",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Upper bound of franchisor's buy-land-and-build path ($5,493,500-$8,908,000); Entrepreneur lists $8,568,000."
+        },
+        "franchiseFee": {
+          "value": 135000,
+          "source": "https://goddardschoolfranchise.com/franchise-opportunities",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 7,
+          "source": "https://goddardschoolfranchise.com/franchise-opportunities",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "https://goddardschoolfranchise.com/franchise-opportunities",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Franchisor lists 2% marketing fee that may be increased to a maximum of 4%; Entrepreneur lists 4% ad royalty."
+        },
+        "avgUnitRevenue": {
+          "value": 2282039,
+          "source": "https://www.franchisechatter.com/2024/09/07/fdd-talk-the-goddard-school-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024,
+          "confidence": "high",
+          "note": "2024 FDD Item 19: average 2023 gross revenue of 589 mature franchised schools (open >18 months as of 12/31/2023). Franchisor site separately reports 2025 average EBITDA of $546,554 for schools open 18+ months."
+        },
+        "totalUnits": {
+          "value": 675,
+          "source": "https://www.entrepreneur.com/franchises/directory/goddard-school-the/282378",
+          "year": 2026,
+          "confidence": "high",
+          "note": "All units franchised; 2024 FDD reported 627 schools at 2023 year-end, zero company-owned."
+        },
+        "closureCount": {
+          "value": 1,
+          "source": "https://www.franchisechatter.com/2024/09/07/fdd-talk-the-goddard-school-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "One mature school closed during calendar 2023 per the 2024 FDD Item 19 discussion; system grew net +29 units in 2023."
+        },
+        "yearFounded": {
+          "value": 1983,
+          "source": "https://www.entrepreneur.com/franchises/directory/goddard-school-the/282378",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1988,
+          "source": "https://www.entrepreneur.com/franchises/directory/goddard-school-the/282378",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "https://www.entrepreneur.com/franchises/directory/goddard-school-the/282378",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Converted from 92 classroom training hours plus ongoing on-the-job training listed by Entrepreneur."
+        },
+        "employeesRequired": {
+          "value": 25,
+          "source": "https://www.entrepreneur.com/franchises/directory/goddard-school-the/282378",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.franchimp.com/?page=pdf&f=105436_2024.pdf",
+          "year": 2024,
+          "confidence": "high",
+          "note": "2024 Goddard Systems FDD publicly indexed on FranChimp."
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://www.franchisechatter.com/2024/09/07/fdd-talk-the-goddard-school-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/goddard-school-the/282378",
+          "year": 2026,
+          "confidence": "high",
+          "note": "$20,000 off franchise fee for veterans."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/goddard-school-the/282378",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/goddard-school-the/282378",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/goddard-school-the/282378",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/goddard-school-the/282378",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/goddard-school-the/282378",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur shows +10.3% unit growth; 60 new franchise agreements signed in 2025 per IFA."
+        }
+      }
+    },
+    {
+      "name": "Kiddie Academy",
+      "slug": "kiddie-academy",
+      "category": "Education & Children",
+      "website": "kiddieacademy.com",
+      "notes": "Education-based childcare franchise founded 1981, franchising since 1992, with ~355 academies in 39 states plus DC and strong recent growth (62 new agreements in 2024). Publishes Item 19-based average revenue (~$2.19M) and gross profit on its own franchising site.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisor denied summary judgment in infant wrongful-death vicarious-liability case",
+          "detail": "After a 3-month-old died in the care of a Texas Kiddie Academy franchisee in August 2018, a Texas federal court denied Kiddie Academy's motion for summary judgment, rejecting the franchisor's argument that it bore no liability for the franchisee's negligence — significant vicarious-liability and brand-safety exposure for the system.",
+          "source": "Lathrop GPM franchise law alert",
+          "url": "https://www.lathropgpm.com/insights/texas-federal-court-denies-motion-for-summary-judgment-regarding-franchisors-vicarious-liability-in-wrongful-death-claim/",
+          "year": 2021
+        },
+        {
+          "severity": "caution",
+          "title": "Recurring franchisor-franchisee litigation",
+          "detail": "Multiple disputes with franchisees are on the public record: Kiddie Academy v. Wonder World Learning (D. Md. 17-cv-3420, trademark/contract, settled 2021), a 2018 suit by terminated franchisee Sierra Learning Academy (settled 2019), and Kiddie Academy Domestic Franchising v. Paradise Organization Corp. filed April 2024 in E.D.N.Y.",
+          "source": "PacerMonitor / U.S. District Court of Maryland opinions",
+          "url": "https://www.pacermonitor.com/public/case/53144493/Kiddie_Academy_Domestic_Franchising,_LLC_v_Paradise_Organization_Corp_et_al",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Franchisee-complaint site alleges weak unit economics for some owners",
+          "detail": "UnhappyFranchisee.com hosts a Kiddie Academy complaints thread alleging that a minority of franchisees operate above ~70% capacity (claimed break-even) and citing past regional unit losses; unverified advocacy-site claims that conflict with the franchisor's current published averages, but worth diligence against the current FDD Item 19 and Item 20.",
+          "source": "UnhappyFranchisee.com",
+          "url": "https://unhappyfranchisee.com/kiddie-academy-franchise-complaints/",
+          "year": 2024
+        }
+      ],
+      "nationwide": {
+        "source": "https://kiddieacademy.com/franchising/available-locations/",
+        "url": "https://kiddieacademy.com/franchising/available-locations/",
+        "year": 2025,
+        "note": "Franchisor's Available Locations page states it is accepting franchise inquiries in all 50 states plus DC; ~360 academies open in 39 states + DC with 75+ in development and priority markets in TX, FL and the Carolinas."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 250000,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net worth requirement $750,000."
+        },
+        "totalInvestmentMin": {
+          "value": 405000,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Range $405,000-$6,950,000 depending on real estate path (lease vs land purchase/build)."
+        },
+        "totalInvestmentMax": {
+          "value": 6950000,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 150000,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 7,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high",
+          "note": "FDD summaries note a reduced 3.5% royalty for the first six months for franchisees signing during scheduled orientation."
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "avgUnitRevenue": {
+          "value": 2193815,
+          "source": "https://kiddieacademy.com/franchising/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Franchisor-published Item 19-based figure: 2025 average annual gross revenue ($2,193,815) and average gross profit ($534,330) for academies open at least 24 months."
+        },
+        "totalUnits": {
+          "value": 355,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high",
+          "note": "FDD-derived counts: 345 units in 2025, 344 franchised / 1 company-owned."
+        },
+        "yearFounded": {
+          "value": 1981,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1992,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 3,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Converted from 101.5 classroom hours plus 32 on-the-job hours listed by Entrepreneur."
+        },
+        "employeesRequired": {
+          "value": 25,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.franchisedirect.com/directory/kiddieacademy/ufoc/135/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "FDD summarized publicly by Franchise Direct and FDD-analysis sites."
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://kiddieacademy.com/franchising/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high",
+          "note": "$25,000 off franchise fee for veterans."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/kiddie-academy/289943",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur shows +17.9% unit growth; 62 new franchise agreements signed in 2024 per franchisor."
+        }
+      }
+    },
+    {
+      "name": "Code Ninjas",
+      "slug": "code-ninjas",
+      "category": "Education & Children",
+      "website": "codeninjas.com",
+      "notes": "Kids' coding/STEM learning-center franchise founded and franchising since 2016; rapid early growth (71 to 275 US franchised centers 2019-2021) has reversed into modest contraction, and Item 19 average revenue (~$185K, 2021 data) is low relative to the investment. Now backed by PE firm Eagle Merchant Partners.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "System contraction after rapid early growth",
+          "detail": "Entrepreneur's 2026 directory shows -11% unit growth (348 total units including international). FDD-derived counts show continuously operating US centers fell from 268 (2021) to 248 (2023), and the broader US after-school program market shrank ~3.6%/yr 2018-2023 per franchise analysts.",
+          "source": "Entrepreneur Franchise Directory / Franchise Chatter analysis",
+          "url": "https://www.franchisechatter.com/2024/08/15/code-ninjas-issues-to-consider-before-investing-in-this-franchise-my-honest-take/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Customer billing complaints at some centers (BBB)",
+          "detail": "Better Business Bureau profiles for Code Ninjas centers include complaints of recurring overcharges and difficulty reaching management to resolve billing issues — a unit-level customer-experience risk in a membership-billing model.",
+          "source": "Better Business Bureau",
+          "url": "https://www.bbb.org/us/nc/morrisville/profile/computer-training/code-ninjas-0593-90315208",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Curriculum reliance on Roblox amid platform child-safety lawsuits",
+          "detail": "Code Ninjas' game-building curriculum leans on Roblox; in September 2025 at least one center (Fargo, ND) paused all Roblox-related activities in response to multi-state child-safety lawsuits against the platform, including by the State of Louisiana — a content/reputation dependency to monitor.",
+          "source": "Valley News Live",
+          "url": "https://www.valleynewslive.com/2025/09/18/code-ninjas-fargo-pausing-roblox-related-activities-amid-lawsuits/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "https://connect.codeninjas.com/franchising/franchise-owning-a-franchise",
+        "url": "https://connect.codeninjas.com/franchising/franchise-owning-a-franchise",
+        "year": 2026,
+        "note": "Franchisor's franchising portal actively solicits new franchisees and lists existing-center resales available for immediate purchase across the US, Canada and UK; no state-specific restrictions published."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 100000,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net worth requirement $300,000."
+        },
+        "totalInvestmentMin": {
+          "value": 174750,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur range $174,750-$298,250; franchisor's own franchising portal shows tables of $130,300-$348,550 and $174,250-$265,750 depending on offering."
+        },
+        "totalInvestmentMax": {
+          "value": 298250,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Franchisor portal shows up to $348,550 for one offering type."
+        },
+        "franchiseFee": {
+          "value": 40000,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Conflicting disclosures: Entrepreneur lists $40,000; the franchisor's portal lists $35,000 or $45,000 depending on offering; older FDD summaries list $30,000."
+        },
+        "royaltyPercent": {
+          "value": 8,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur 2026 lists 8%; older FDD summaries (2023) list 6% — royalty appears to have been raised."
+        },
+        "adFundPercent": {
+          "value": 2.25,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur 2026 lists 2.25%; older FDD summaries list 2%."
+        },
+        "avgUnitRevenue": {
+          "value": 185341,
+          "source": "https://www.franchisechatter.com/2023/05/12/fdd-talk-code-ninjas-franchise-costs-fees-average-revenues-and-or-profits-2023-review/",
+          "year": 2023,
+          "confidence": "medium",
+          "note": "FDD Item 19-derived: average annualized gross sales of franchised centers open and operational for full months during calendar 2021 (~$15,445/month). Older data point; verify against the current FDD."
+        },
+        "totalUnits": {
+          "value": 348,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur global count including US, Canada and UK; US FDD-derived counts show 244 units in 2025 (239 franchised, 5 company-owned)."
+        },
+        "closureCount": {
+          "value": 20,
+          "source": "https://www.franchisechatter.com/2024/08/15/code-ninjas-issues-to-consider-before-investing-in-this-franchise-my-honest-take/",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "Net decline of continuously operating US centers from 268 (2021) to 248 (2023) per FDD-based analysis; not a gross closure tally."
+        },
+        "yearFounded": {
+          "value": 2016,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2016,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 1,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Converted from 28 classroom training hours listed by Entrepreneur."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://fddexchange.com/view-fdd-docs/code-ninjas-2025-fdd-franchise-information-costs-and-fees/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD publicly indexed on The FDD Exchange."
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://www.franchisechatter.com/2023/05/12/fdd-talk-code-ninjas-franchise-costs-fees-average-revenues-and-or-profits-2023-review/",
+          "year": 2023,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "high",
+          "note": "10% off franchise fee for veterans."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/code-ninjas/335093",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur shows -11% recent unit change; US continuously-operating center count also declined 2021-2023."
+        }
+      }
+    },
+    {
+      "name": "School of Rock",
+      "slug": "school-of-rock",
+      "category": "Education & Children",
+      "website": "schoolofrock.com",
+      "notes": "Performance-based music education franchise founded 1998 (inspiration for the 2003 film), franchising since 2005; 400+ schools across 16 countries with strong recent unit growth and a published Item 19 (avg franchised school sales ~$669K in 2023). Past franchisee-relations turmoil (2015-2017) and 2025 founder-conduct allegations are reputational watch items.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "2025 published allegations of misconduct by founder Paul Green",
+          "detail": "In 2025 the online magazine Air Mail published allegations by former students of inappropriate behavior by founder Paul Green during his tenure (physical aggression, giving alcohol to minors, sexualized conduct). Green left the company in 2009, but the coverage is a brand-reputation risk for the namesake system.",
+          "source": "Wikipedia summary of Air Mail reporting",
+          "url": "https://en.wikipedia.org/wiki/School_of_Rock_(company)",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Abuse-related lawsuit against a franchise location (Palo Alto)",
+          "detail": "A lawsuit alleged the Palo Alto School of Rock knew about and failed to act on an inappropriate relationship between a teacher and a student — illustrative of the child-safety liability exposure inherent to youth-instruction franchises.",
+          "source": "KRON4",
+          "url": "https://www.kron4.com/news/bay-area/school-of-rock-in-palo-alto-faces-lawsuit-for-allegedly-protecting-teacher-in-sex-abuse-case/",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "Historical franchisee-relations crisis under prior CEO (2015-2017)",
+          "detail": "UnhappyFranchisee.com documented widespread franchisee complaints under then-CEO Dzana Homan — elimination of the Franchise Advisory Committee, refusal to recognize the independent franchisee association, legal threats against critics, and 21 locations reacquired from franchisees in 2018. Homan departed June 2017; the system has grown strongly under subsequent leadership.",
+          "source": "UnhappyFranchisee.com",
+          "url": "https://unhappyfranchisee.com/school-rock-franchise-complaints/",
+          "year": 2018
+        }
+      ],
+      "nationwide": {
+        "source": "https://www.schoolofrock.com/franchising/franchise-opportunities",
+        "url": "https://www.schoolofrock.com/franchising/franchise-opportunities",
+        "year": 2025,
+        "note": "Franchisor solicits new US franchisees nationwide and invites inquiries for any community; analysts note the largest open-territory opportunities are in the Midwest and Southeast."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 150000,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net worth requirement $350,000."
+        },
+        "totalInvestmentMin": {
+          "value": 425250,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMax": {
+          "value": 704800,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 59900,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high",
+          "note": "FDD summaries show the initial fee ranging $54,900-$59,900 depending on program."
+        },
+        "royaltyPercent": {
+          "value": 8,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 3,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "avgUnitRevenue": {
+          "value": 669409,
+          "source": "https://www.franchisechatter.com/2024/12/29/fdd-talk-school-of-rock-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024,
+          "confidence": "high",
+          "note": "2024 FDD Item 19: average annual total sales of 202 franchised schools open full-time throughout calendar 2023; company-owned schools averaged $858,602."
+        },
+        "totalUnits": {
+          "value": 416,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Global count across 16 countries; 2024 FDD reported 234 US franchised + 47 company-owned at 2023 year-end. 400th school announced in 2025."
+        },
+        "closureCount": {
+          "value": 1,
+          "source": "https://www.franchisechatter.com/2024/12/29/fdd-talk-school-of-rock-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "One franchised school closed (non-renewal) and one company-owned school closed in 2023 per the 2024 FDD."
+        },
+        "yearFounded": {
+          "value": 1998,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2005,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 1,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Converted from 35 classroom training hours plus ongoing on-the-job training listed by Entrepreneur."
+        },
+        "employeesRequired": {
+          "value": 14,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur lists 14-21 employees required."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.franchisedirect.com/entertainmentfranchises/school-of-rock-franchise-12603/ufoc/",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://www.franchisechatter.com/2024/12/29/fdd-talk-school-of-rock-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high",
+          "note": "$5,000 off franchise fee for veterans."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/school-of-rock/333874",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur shows +35.5% unit growth; franchised units grew 184 to 234 between 2021 and 2023 per the FDD."
+        }
+      }
+    },
+    {
+      "name": "Supercuts",
+      "slug": "supercuts",
+      "category": "Beauty & Self Care",
+      "website": "supercuts.com",
+      "notes": "Iconic value haircare franchise founded 1975, franchising since 1979, owned by publicly traded Regis Corporation (NYSE: RGS). Large but shrinking system (~2,141 units, -23% recent unit change) as parent Regis works through years of financial distress and network contraction; low per-unit average sales (~$264K) with an 11% combined fee load.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Parent Regis Corporation: multi-year financial distress and severe system shrinkage",
+          "detail": "Regis has contracted from roughly 7,000+ salons pre-pandemic to 3,941 total locations as of June 30, 2025, with systemwide revenue still declining ($286.8M in Q3 FY2024 to $266.9M in Q3 FY2025). Supercuts' own FDD shows franchised stores falling from 2,496 (end 2019) to 2,252 (end 2021) — 244 net franchised units lost in two years — and Entrepreneur's 2026 directory shows -23% recent unit change (2,141 units). Analysts describe the company as emerging from 'years of network contraction and financial distress' including a 2024 balance-sheet restructuring.",
+          "source": "Regis Corporation FY2025 results (Business Wire) / Supercuts 2022 FDD Item 20 via Franchise Chatter / Entrepreneur",
+          "url": "https://www.businesswire.com/news/home/20250903985787/en/Regis-Corporation-Reports-Financial-Results-for-Fourth-Fiscal-Quarter-and-Full-Fiscal-Year-2025",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Strategy shift: franchisor buying back salons, reducing reliance on franchisees",
+          "detail": "In December 2024 Regis acquired the 314-salon Alline Salon Group franchisee portfolio for $22M, pivoting from a pure franchisor to a hybrid franchise/company-owned model. This diversifies Regis revenue but signals weak franchisee economics and changes the franchisor's incentives relative to its remaining franchisees.",
+          "source": "Business Wire / BeyondSPX analysis of Regis (RGS)",
+          "url": "https://www.businesswire.com/news/home/20241106247461/en/Regis-Corporation-Reports-Continued-Profitability-for-the-First-Fiscal-Quarter-2025",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Low average unit volume vs. fee load",
+          "detail": "FDD Item 19 average gross sales of ~$264K per franchised store (FY July 2021-June 2022) against a 6% royalty plus 5% advertising fee leaves thin margins after stylist labor and rent; stylist labor shortages have pressured the value-haircut segment broadly.",
+          "source": "Franchise Chatter FDD Talk (2022 Supercuts FDD)",
+          "url": "https://www.franchisechatter.com/2022/12/04/fdd-talk-supercuts-franchise-costs-fees-average-revenues-and-or-profits-2022-review/",
+          "year": 2022
+        }
+      ],
+      "nationwide": {
+        "source": "https://www.regiscorp.com/franchise-opportunities",
+        "url": "https://www.regiscorp.com/franchise-opportunities",
+        "year": 2026,
+        "note": "Regis's franchise-opportunities page offers Supercuts franchising across the United States (plus Canada, Puerto Rico and the UK) via inquiry form; no state-by-state restrictions published."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 350000,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur 2026 lists $350K cash / $1.2M net worth (Supercuts historically requires multi-store development commitments); older Entrepreneur copy cited $150K liquid / $500K net worth for a single location."
+        },
+        "totalInvestmentMin": {
+          "value": 180406,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Per-store range $180,406-$312,878."
+        },
+        "totalInvestmentMax": {
+          "value": 312878,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 39500,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "https://www.franchisechatter.com/2022/12/04/fdd-talk-supercuts-franchise-costs-fees-average-revenues-and-or-profits-2022-review/",
+          "year": 2022,
+          "confidence": "high",
+          "note": "4% of net service+merchandise revenue during a new store's first year, then 6% for the remainder of the term; Entrepreneur also lists 6%."
+        },
+        "adFundPercent": {
+          "value": 5,
+          "source": "https://www.franchisechatter.com/2022/12/04/fdd-talk-supercuts-franchise-costs-fees-average-revenues-and-or-profits-2022-review/",
+          "year": 2022,
+          "confidence": "high",
+          "note": "5% of net monthly service revenue (excludes merchandise sales); Entrepreneur also lists 5%."
+        },
+        "avgUnitRevenue": {
+          "value": 264304,
+          "source": "https://www.franchisechatter.com/2022/12/04/fdd-talk-supercuts-franchise-costs-fees-average-revenues-and-or-profits-2022-review/",
+          "year": 2022,
+          "confidence": "medium",
+          "note": "2022 FDD Item 19: average gross sales of all US franchised Supercuts stores open during FY July 1, 2021-June 30, 2022; gross sales only, before all costs. Older data point; verify against current FDD."
+        },
+        "totalUnits": {
+          "value": 2141,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Down sharply from ~2,500 franchised US stores at end of 2019; system is nearly all franchised (company-owned stores fell to 18 by end of 2021 per the FDD)."
+        },
+        "closureCount": {
+          "value": 244,
+          "source": "https://www.franchisechatter.com/2022/12/04/fdd-talk-supercuts-franchise-costs-fees-average-revenues-and-or-profits-2022-review/",
+          "year": 2022,
+          "confidence": "medium",
+          "note": "Net loss of franchised US stores over 2020-2021 (2,496 to 2,252) per FDD Item 20 data; contraction has continued since per Entrepreneur's -23% unit-change figure."
+        },
+        "yearFounded": {
+          "value": 1975,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1979,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 1,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Converted from 25-40 on-the-job training hours listed by Entrepreneur."
+        },
+        "employeesRequired": {
+          "value": 6,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur lists 6-8 employees required per store."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.franchisedirect.com/directory/supercuts/ufoc/237/",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://www.franchisechatter.com/2022/12/04/fdd-talk-supercuts-franchise-costs-fees-average-revenues-and-or-profits-2022-review/",
+          "year": 2022,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high",
+          "note": "$2,500 rebate on first-store franchise fee for veterans."
+        },
+        "exclusiveTerritories": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/supercuts/282848",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur shows -23% recent unit change; Regis system contraction documented in SEC filings and earnings releases through FY2025."
+        }
+      }
+    }
+  ]
+}

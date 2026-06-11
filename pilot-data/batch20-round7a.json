@@ -1,0 +1,267 @@
+{
+  "brands": [
+    {
+      "name": "Tropical Smoothie Cafe",
+      "website": "tropicalsmoothiecafe.com",
+      "notes": "Fast-casual smoothie/food franchise (1,500+ units, nearly all franchised) with strong unit growth and FY2024 Item 19 AUV just over $1.0M. Elevated franchisor litigation count and a large multi-unit franchisee Chapter 11 in 2025 warrant diligence.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Elevated franchisor litigation disclosed",
+          "detail": "Third-party FDD analysis reports 22 active litigation cases in Item 3 of the current FDD, described as well above average, including a 2025 ADA website-accessibility suit and a pending 2025 NLRB case (07-CA-364665). Historical regulatory actions include a $25,000 Virginia SCC payment with rescission offers and Maryland Securities Commissioner findings of franchise-law disclosure violations.",
+          "source": "Franchise Investor Data (FDD Item 3 summary)",
+          "url": "https://franchiseinvestordata.com/franchise/tropical-smoothie-cafe",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Large multi-unit franchisee Chapter 11 bankruptcy (2025)",
+          "detail": "Phoenix-area franchisee JND Tropics, operating at least 10 Tropical Smoothie Cafe locations, filed for Chapter 11 bankruptcy protection in June 2025, indicating unit-level economics can fail even at scale in some markets.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_news/phoenix-tropical-smoothie-franchisee-files-for-chapter-11-bankruptcy/article_15af5799-9273-462b-a28d-46b718a07345.html",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "DOL wage and child-labor violations at franchisee locations",
+          "detail": "A federal Department of Labor investigation found two Tampa-area Tropical Smoothie Cafe franchisees shortchanged 149 workers and violated child labor laws (minors working excess hours and illegally operating a trash compactor). Franchisee-level, not franchisor, conduct.",
+          "source": "U.S. Department of Labor",
+          "url": "https://www.dol.gov/newsroom/releases/whd/whd20230208-0",
+          "year": 2023
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 175000, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "medium", "note": "Entrepreneur 2026 lists $175,000 cash requirement (net worth $400,000); some FDD-summary sources cite ~$90K-$125K liquid. Most recent/authoritative figure used."},
+        "totalInvestmentMin": {"value": 340750, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high", "note": "FDD Item 7 range $340,750-$814,500; drive-thru adds ~$40K-$60K."},
+        "totalInvestmentMax": {"value": 814500, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 35000, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high", "note": "$25,000 for second and subsequent units under a multi-unit agreement; $17,500 for qualifying veterans (sharpsheets.io FDD summary)."},
+        "royaltyPercent": {"value": 6, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 5, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high", "note": "5% advertising/marketing fund; combined ongoing fee burden 11% of revenue."},
+        "avgUnitRevenue": {"value": 1005063, "source": "https://www.franchisechatter.com/2025/07/31/tropical-smoothie-cafe-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "FDD Item 19: FY2024 average net revenues across 1,268 cafes open 12+ months (median $954,743; top 10% avg $1,737,553). Newer 2026-FDD-derived sources cite $978,298 across 1,431 cafes for FY2025, suggesting a slight AUV dip as the base grows."},
+        "totalUnits": {"value": 1596, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high", "note": "Entrepreneur 2026. FDD: 1,514 franchised + 1 company-owned at year-end 2024."},
+        "yearFounded": {"value": 1997, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1997, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high"},
+        "employeesRequired": {"value": 15, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high", "note": "Range 15-20."},
+        "minFootprint": {"value": 1200, "source": "https://sharpsheets.io/blog/tropical-smoothie-cafe-franchise-costs-profits/", "year": 2025, "confidence": "medium", "note": "Typical 1,200-1,900 sq ft end-cap or in-line location."},
+        "fddAvailable": {"value": true, "source": "https://www.franchisedirect.com/tropical-smoothie-cafe-franchise-costs-fees", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2025/07/31/tropical-smoothie-cafe-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high", "note": "50% discount on first-store franchise fee and $5,000 off additional stores."},
+        "multiUnitAvailable": {"value": true, "source": "https://sharpsheets.io/blog/tropical-smoothie-cafe-franchise-costs-profits/", "year": 2025, "confidence": "high", "note": "Reduced $25,000 fee for second and subsequent units under multi-unit agreements."},
+        "exclusiveTerritories": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high", "note": "Entrepreneur lists exclusive territories as not available."},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "https://www.franchisechatter.com/2025/07/31/tropical-smoothie-cafe-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "+143 net franchised units in 2024; ~+40% units over three years per Entrepreneur."},
+        "marketingSupport": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "medium"},
+        "ongoingSupport": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "medium"},
+        "ownerTypes": {"value": ["owner-operator", "multi-unit operator"], "source": "https://www.entrepreneur.com/franchises/directory/tropical-smoothie-cafe/308831", "year": 2026, "confidence": "medium", "note": "Absentee ownership not allowed; multi-unit agreements offered with reduced fees."}
+      }
+    },
+    {
+      "name": "Wingstop",
+      "website": "wingstop.com",
+      "notes": "Publicly traded (NASDAQ: WING) chicken-wing QSR with best-in-class Item 19 AUV (~$2.13M franchised, FY2024) and record unit growth, but 2025 brought the brand's first annual domestic same-store sales decline in 22 years. Entry bar is high: 3-store minimum commitment and steep capital requirements.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "First annual same-store sales decline in 22 years (2025)",
+          "detail": "US same-store sales fell 3.3% in 2025 — Wingstop's first annual domestic comp decline in more than two decades — with Q3 down 5.6% and Q4 down 5.8%, driven by soft demand among Hispanic and low-income consumers spreading to more geographies. Systemwide sales still grew 12.1% on 493 net new openings, raising sales-transfer/cannibalization questions for existing operators.",
+          "source": "Franchise Times / Restaurant Dive",
+          "url": "https://www.franchisetimes.com/franchise_news/wingstop-reports-first-same-store-annual-sales-decline-in-22-years/article_270710fe-56f0-48fc-9da7-985a801b39e1.html",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Very high entry requirements vs. QSR category norms",
+          "detail": "Entrepreneur's 2026 directory lists a $2.1M liquid capital and $5M net worth requirement, and Wingstop requires a minimum 3-store development commitment for new territories — substantially above typical QSR franchise entry bars and effectively excluding single-unit first-time buyers.",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/wingstop/282950",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Franchisee-level wage-theft and labor enforcement actions",
+          "detail": "A five-unit California Wingstop franchisee was ordered to pay over $3.2M for wage-theft violations affecting an estimated 551 workers, and the US DOL separately cited a franchisee for illegal uniform/training deductions (2022). Franchisee-level conduct, but a recurring brand-system labor-compliance theme.",
+          "source": "Restaurant Business",
+          "url": "https://www.restaurantbusinessonline.com/operations/wingstop-franchisee-ordered-pay-32m-wage-theft-violations-california",
+          "year": 2023
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 2100000, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "medium", "note": "Entrepreneur 2026 lists $2.1M liquid / $5M net worth, reflecting the multi-unit (3-store minimum) brand-partner standard. Older third-party sources cite $600K liquid / $1.2M net worth."},
+        "totalInvestmentMin": {"value": 298200, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high", "note": "Per-store FDD Item 7 range $298,200-$1,013,500, excluding real estate. 3-store minimum commitment multiplies totals."},
+        "totalInvestmentMax": {"value": 1013500, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high", "note": "Often structured as $20,000 franchise fee plus $10,000 development fee per store under development agreements (sharpsheets/biz2credit FDD summaries)."},
+        "royaltyPercent": {"value": 6, "source": "https://www.franchisechatter.com/2025/12/18/wingstop-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 5.5, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high", "note": "5.5% ad fund per current FDD (Entrepreneur and franchisechatter); previously commonly split as 4% national + 1% local."},
+        "avgUnitRevenue": {"value": 2128349, "source": "https://www.franchisechatter.com/2025/12/18/wingstop-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "FDD Item 19: FY2024 average annual net sales of franchised restaurants open the full 52 weeks ended 12/28/2024 (median $2,011,985; all-restaurant average $2,138,111). Wingstop Inc. SEC filings corroborate ~$2.1M domestic AUV."},
+        "totalUnits": {"value": 2818, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high", "note": "Entrepreneur 2026 (includes international). FDD: 2,154 US franchised + 50 company-owned at year-end 2024."},
+        "yearFounded": {"value": 1994, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1998, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high"},
+        "employeesRequired": {"value": 8, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high", "note": "Range 8-10."},
+        "fddAvailable": {"value": true, "source": "https://www.franchisedirect.com/foodfranchises/wingstop-franchise-07445/ufoc/", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2025/12/18/wingstop-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high", "note": "$15,000 off first-store franchise fee."},
+        "multiUnitAvailable": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high", "note": "Multi-unit is effectively mandatory: minimum 3-store development commitment for new territories."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "https://www.franchisetimes.com/franchise_news/wingstop-reports-first-same-store-annual-sales-decline-in-22-years/article_270710fe-56f0-48fc-9da7-985a801b39e1.html", "year": 2026, "confidence": "high", "note": "Record 493 net new openings in 2025 (+19.2% global footprint); +50.5% units over 3 years per Entrepreneur. Unit growth strong despite same-store sales decline."},
+        "marketingSupport": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "medium"},
+        "ongoingSupport": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "medium"},
+        "ownerTypes": {"value": ["multi-unit operator", "experienced restaurant operator"], "source": "https://www.entrepreneur.com/franchises/directory/wingstop/282950", "year": 2026, "confidence": "medium", "note": "3-store minimum commitment and $5M net worth requirement target multi-unit developers; absentee ownership not allowed."}
+      }
+    },
+    {
+      "name": "SERVPRO",
+      "website": "servpro.com",
+      "notes": "Restoration-services giant (founded 1967, franchising since 1969, 2,345 units) ranked #12 on Entrepreneur's 2026 Franchise 500 with 40+ consecutive years on the list. Key diligence items: no Item 19 earnings disclosure, a short 5-year agreement term, a $100K franchise fee, and franchisee-level overbilling/consumer-protection actions.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "No Item 19 financial performance representation and short 5-year term",
+          "detail": "SERVPRO does not provide an Item 19 financial performance representation in its FDD, so no franchisor-backed earnings data exists; third-party revenue estimates (~$1.69M AUV) cannot be verified against the FDD. Analysts also flag the short 5-year agreement term (vs. 10-year category norms) and a PE-driven fee structure under Blackstone ownership.",
+          "source": "Franchise Investor Data (FDD analysis)",
+          "url": "https://franchiseinvestordata.com/franchise/servpro",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee overbilling and consumer-protection enforcement",
+          "detail": "In 2020 the North Carolina Attorney General secured a consent decree against a SERVPRO operator over overbilling and fraudulent liens following Hurricane Florence, requiring liens to be voided and deceptive practices to cease. In 2025 a California court sanctioned ServPro Global DRT in a dispute with a wildfire victim and ordered production of five years of customer-complaint and fraud-related files. Franchisee-level conduct that creates recurring brand-reputation risk in the disaster-restoration category.",
+          "source": "FranchiseComplaints.org / 2UrbanGirls court reporting",
+          "url": "https://2urbangirls.com/2025/11/court-rebukes-servpro-franchisee-for-attempting-to-extort-payment-from-wildfire-victim/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Private-equity ownership since 2019",
+          "detail": "Blackstone acquired a majority stake in SERVPRO Industries in 2019 (parent now Commodore Parent Holdings LLC, CEO Brett Ponton). Third-party FDD analysts attribute the elevated $100K franchise fee and current fee structure to PE ownership.",
+          "source": "Entrepreneur directory / Franchise Investor Data",
+          "url": "https://www.entrepreneur.com/franchises/directory/servpro/282790",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 155000, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "medium", "note": "Entrepreneur 2026 cash requirement; vettedbiz cites a lower $60K minimum-cash figure. Most recent directory value used."},
+        "totalInvestmentMin": {"value": 258780, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high", "note": "FDD Item 7 range $258,780-$379,500 for a unit franchise."},
+        "totalInvestmentMax": {"value": 379500, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 100000, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high", "note": "Current unit franchise fee; older sources cite a $59K fee from prior FDD years. High vs. restoration-category norms."},
+        "royaltyPercent": {"value": 3, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "medium", "note": "Sliding scale 3%-10% of gross sales depending on volume (lower bound shown); some sources cite ~7% of monthly sales as typical. Plus $200/mo technology fee."},
+        "adFundPercent": {"value": 3, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 2345, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high", "note": "+14.4% over 3 years."},
+        "yearFounded": {"value": 1967, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1969, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "https://www.vettedbiz.com/franchises/servpro", "year": 2025, "confidence": "medium", "note": "Two-week initial program at corporate HQ; Entrepreneur lists ~114 on-the-job + ~50 classroom hours total."},
+        "employeesRequired": {"value": 5, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high", "note": "Range 5-10."},
+        "fddAvailable": {"value": true, "source": "https://www.franchisedirect.com/homeservicesfranchises/servpro-franchise-07343/ufoc/", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": false, "source": "https://franchiseinvestordata.com/franchise/servpro", "year": 2026, "confidence": "high", "note": "SERVPRO does not make an Item 19 financial performance representation; third-party AUV estimates (~$1.69M) are not FDD-backed and are therefore omitted from avgUnitRevenue."},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high", "note": "20% off franchise fee."},
+        "exclusiveTerritories": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high", "note": "Entrepreneur lists exclusive territories as not available."},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "high", "note": "+14.4% units over 3 years; 41st consecutive year on the Franchise 500."},
+        "marketingSupport": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "medium"},
+        "ongoingSupport": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "medium"},
+        "ownerTypes": {"value": ["owner-operator"], "source": "https://www.entrepreneur.com/franchises/directory/servpro/282790", "year": 2026, "confidence": "medium", "note": "Absentee ownership, home-based, and part-time operation all not allowed."}
+      }
+    },
+    {
+      "name": "Nothing Bundt Cakes",
+      "website": "nothingbundtcakes.com",
+      "notes": "Fast-growing retail bakery franchise (#47 on Entrepreneur's 2026 Franchise 500, #1 in retail baked goods) with FY2024 Item 19 average net revenues of $1.48M across 459 mature bakeries. KKR acquired the brand from Roark Capital for $2B+ in March 2026, and a 2025 mandatory Sunday-opening policy created franchisee friction.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisee backlash over mandatory Sunday-opening policy",
+          "detail": "Starting February 2025, corporate reversed a long-standing tradition and required all bakeries to open at least five hours on Sundays, removing franchisees' option to close. CNN reported significant franchisee anger, with at least one California franchisee putting his bakery up for sale in response — an indicator of franchisor-franchisee control tension.",
+          "source": "CNN Business",
+          "url": "https://www.cnn.com/2025/01/20/business/nothing-bundt-cakes-sunday-mandate",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Ownership change: KKR acquired brand for $2B+ (March 2026)",
+          "detail": "KKR is acquiring Nothing Bundt Cakes from Roark Capital for more than $2 billion — the second private-equity flip since 2021 (Roark bought it in 2021 and added ~390 locations). PE transitions can bring fee, supplier, and growth-target changes for franchisees.",
+          "source": "Restaurant Dive / Benzinga / KKR 8-K",
+          "url": "https://www.restaurantdive.com/news/nothing-bundt-cakes-roark-kkr/815842/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 250000, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high", "note": "Candidates (with partners/investors) must demonstrate combined liquid capital of at least $250,000."},
+        "totalInvestmentMin": {"value": 667100, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high", "note": "Entrepreneur 2026 range $667,100-$1,032,500; the 2025 FDD Item 7 listed $667,100-$906,500 (franchisechatter)."},
+        "totalInvestmentMax": {"value": 1032500, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high", "note": "Most recent directory figure; 2025 FDD cited $906,500 max."},
+        "franchiseFee": {"value": 45000, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high", "note": "Some older summaries cite $35K; current FDD fee is $45,000."},
+        "royaltyPercent": {"value": 6, "source": "https://www.franchisechatter.com/2025/12/17/nothing-bundt-cakes-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "6% of weekly net revenues."},
+        "adFundPercent": {"value": 5, "source": "https://www.franchisechatter.com/2025/12/17/nothing-bundt-cakes-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "5% of weekly net revenues (combined production + paid media funds); total ongoing burden 11%."},
+        "avgUnitRevenue": {"value": 1480010, "source": "https://www.franchisechatter.com/2025/12/17/nothing-bundt-cakes-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "FDD Item 19: FY2024 (1/1-12/29/2024) average net revenues across all 459 bakeries open 24+ months. Top third avg $2,083,606; bottom third avg $985,034."},
+        "totalUnits": {"value": 722, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high", "note": "Entrepreneur 2026. FDD: 643 franchised + 17 company-owned at year-end 2024; brand celebrated 700th bakery and targets 1,000 units by 2027."},
+        "yearFounded": {"value": 1997, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high", "note": "Founded in Dallas/Las Vegas by Dena Tripp and Debbie Shwetz."},
+        "yearFranchising": {"value": 2006, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high"},
+        "employeesRequired": {"value": 15, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high", "note": "Range 15-20."},
+        "fddAvailable": {"value": true, "source": "https://www.franchisechatter.com/2025/12/17/nothing-bundt-cakes-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2025/12/17/nothing-bundt-cakes-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists veteran incentives as N/A."},
+        "exclusiveTerritories": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "high", "note": "+62.2% units over 3 years; +101 net franchised units in 2024; #20 fastest-growing franchise (2026)."},
+        "marketingSupport": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "medium", "note": "Includes purchasing co-ops, field operations, and social media support."},
+        "ongoingSupport": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "medium"},
+        "ownerTypes": {"value": ["owner-operator"], "source": "https://www.entrepreneur.com/franchises/directory/nothing-bundt-cakes/334378", "year": 2026, "confidence": "medium", "note": "Absentee, home-based, and part-time operation all not allowed."}
+      }
+    },
+    {
+      "name": "Painting with a Twist",
+      "website": "paintingwithatwist.com",
+      "notes": "Original paint-and-sip franchise (founded 2007 post-Katrina, franchising since 2009) with low entry cost ($119K-$255.5K) and flexible semi-absentee/part-time operation, but the system has contracted (~207 units, -8% over three years) and Item 19 average gross sales are modest at ~$252K (FY2023, excluding alcohol/retail revenue).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "System contraction: unit count declining",
+          "detail": "Entrepreneur's directory shows 207 units with an 8% decline over three years, and the FDD Item 19 measurement cohort shrank from 233 franchised studios (FY2018) to 191 studios open 12+ months (FY2023) — a multi-year net contraction in the paint-and-sip category since its late-2010s peak.",
+          "source": "Entrepreneur directory / FranDB FDD analysis",
+          "url": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Modest unit-level revenue; Item 19 excludes alcohol and retail sales",
+          "detail": "FY2023 Item 19 average gross sales were $251,747 across 191 studios (bottom quartile ~$151,430), and the Item 19 gross-revenue definition excludes revenue from alcohol and retail sales during classes — so headline AUV is small relative to most retail franchises and should be modeled carefully against the 6% royalty and fixed costs.",
+          "source": "FranDB FDD analysis (2024 FDD, FY2023 data)",
+          "url": "https://www.frandb.com/franchise/painting-with-a-twist/2024",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 80000, "source": "https://paintingwithatwistfranchise.com/frequently-asked-questions/", "year": 2025, "confidence": "high", "note": "Liquid assets of $80,000 and net worth of at least $200,000 required; confirmed by Entrepreneur directory."},
+        "totalInvestmentMin": {"value": 119000, "source": "https://paintingwithatwistfranchise.com/startup-costs/", "year": 2025, "confidence": "high", "note": "FDD Item 7 range $119,000-$255,500 per the franchisor's own startup-costs page and Entrepreneur."},
+        "totalInvestmentMax": {"value": 255500, "source": "https://paintingwithatwistfranchise.com/startup-costs/", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high", "note": "$20,000 for veterans (20% VetFran discount)."},
+        "royaltyPercent": {"value": 6, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high", "note": "6% of gross sales; plus $150/mo technology fee."},
+        "adFundPercent": {"value": 2, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high"},
+        "avgUnitRevenue": {"value": 251747, "source": "https://www.frandb.com/franchise/painting-with-a-twist/2024", "year": 2024, "confidence": "medium", "note": "FDD Item 19 (2024 FDD): FY2023 average gross sales across 191 US franchised studios open 12+ full months as of 12/31/2023; bottom quartile averaged ~$151,430. Item 19 gross revenue excludes alcohol and retail sales made during classes."},
+        "totalUnits": {"value": 207, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high", "note": "Entrepreneur directory; brand markets '230+ studios open or in development.'"},
+        "yearFounded": {"value": 2007, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high", "note": "Founded in Mandeville, LA by Cathy Deano and Renee Maloney after Hurricane Katrina; parent Twist Brands LLC."},
+        "yearFranchising": {"value": 2009, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high"},
+        "employeesRequired": {"value": 4, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high", "note": "Range 4-6."},
+        "fddAvailable": {"value": true, "source": "https://www.franchisedirect.com/painting-with-a-twist-franchise-costs-fees", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "https://www.frandb.com/franchise/painting-with-a-twist/2024", "year": 2024, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high", "note": "20% off franchise fee via IFA VetFran program."},
+        "multiUnitAvailable": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "medium", "note": "More than 30% of franchisees operate at least two studios."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high"},
+        "absenteeOwnership": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high", "note": "Entrepreneur lists absentee ownership as allowed."},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high"},
+        "canRunPartTime": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "high", "note": "-8% units over 3 years per Entrepreneur; Item 19 cohort shrank from 233 (2018) to 191 (2023)."},
+        "marketingSupport": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "medium"},
+        "ongoingSupport": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "medium"},
+        "ownerTypes": {"value": ["owner-operator", "semi-absentee"], "source": "https://www.entrepreneur.com/franchises/directory/painting-with-a-twist/334288", "year": 2025, "confidence": "medium", "note": "Absentee ownership and part-time operation both allowed per Entrepreneur."}
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+export function FranchiseKILogo({ size = 32, className = "" }: { size?: number; className?: string }) {
+  // Matches Brent's chosen logo: Concept A Pin+Key
+  // Navy pin body with cyan key shaft/teeth
+  // Updated to current cyan (#06b6d4) accent
+  const h = size;
+  const w = size * 0.7; // Pin+key is taller than wide
+  return (
+    <svg
+      width={w}
+      height={h}
+      viewBox="0 0 50 96"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      {/* Pin body */}
+      <path
+        d="M25 2C14.5 2 6 10.5 6 21C6 34 25 56 25 56C25 56 44 34 44 21C44 10.5 35.5 2 25 2Z"
+        fill="#06b6d4"
+      />
+      {/* Keyhole circle - dark cutout */}
+      <circle cx="25" cy="19" r="8" fill="#0f172a" />
+      {/* Inner keyhole dot */}
+      <circle cx="25" cy="17.5" r="3.5" fill="#06b6d4" />
+      {/* Keyhole slot */}
+      <rect x="23.5" y="18" width="3" height="7" rx="1" fill="#0f172a" />
+      {/* Key shaft */}
+      <rect x="22" y="50" width="6" height="24" rx="2" fill="#06b6d4" />
+      {/* Key teeth - left side */}
+      <rect x="13" y="57" width="9" height="4.5" rx="1.5" fill="#06b6d4" />
+      <rect x="15" y="65" width="7" height="4.5" rx="1.5" fill="#06b6d4" />
+    </svg>
+  );
+}

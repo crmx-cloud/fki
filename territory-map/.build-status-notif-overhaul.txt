@@ -1,0 +1,8 @@
+BUILD PASSED - Fri Mar 27 00:35:01 UTC 2026
+All changes compile successfully.
+
+Files modified:
+  1. convex/schema.ts - Added 16 new optional fields to appNotifications
+  2. convex/notifications.ts - Updated create/update mutations + list/getUnreadCount queries
+  3. src/pages/NotificationsAdminPage.tsx - Expanded create dialog from 5→8 steps
+  4. src/components/NotificationBell.tsx - Added image, video, clickable URL support

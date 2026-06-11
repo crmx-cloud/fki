@@ -1,0 +1,2842 @@
+{
+  "brands": [
+    {
+      "name": "Lightspeed Restoration",
+      "nationwide": {
+        "source": "Lightspeed Restoration franchise site \u2014 Available Territories",
+        "url": "https://franchise.lightspeedrestoration.com/available-territories/",
+        "year": 2026,
+        "note": "Franchisor territory page: 'rapidly growing brand with expanding franchise markets across the country'; map shows 'plenty of available territories' nationwide. Hottest markets: Boston, Chicago, Dallas, Denver, Houston, Las Vegas, New York, Orlando, Philadelphia, Phoenix, Salt Lake City, Seattle, St. Louis, Tampa."
+      }
+    },
+    {
+      "name": "Lindora",
+      "statesOpen": [
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Existing footprint (30+ locations in Southern California, 1 in Monroe, WA) at time of franchise launch",
+          "source": "Business Wire (Xponential Fitness press release)",
+          "url": "https://www.businesswire.com/news/home/20240415187746/en/Lindora-Leader-in-Wellness-Solutions-Signs-First-Wave-of-Multi-Unit-Franchise-Agreements-in-Key-Markets",
+          "year": 2024
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Existing footprint (30+ locations in Southern California, 1 in Monroe, WA) at time of franchise launch",
+          "source": "Business Wire (Xponential Fitness press release)",
+          "url": "https://www.businesswire.com/news/home/20240415187746/en/Lindora-Leader-in-Wellness-Solutions-Signs-First-Wave-of-Multi-Unit-Franchise-Agreements-in-Key-Markets",
+          "year": 2024
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "First wave of multi-unit franchise agreements signed: Dallas TX, Boise ID, Rochester & Buffalo NY, Atlanta GA, Chicago IL, Portland OR",
+          "source": "Business Wire (Xponential Fitness press release)",
+          "url": "https://www.businesswire.com/news/home/20240415187746/en/Lindora-Leader-in-Wellness-Solutions-Signs-First-Wave-of-Multi-Unit-Franchise-Agreements-in-Key-Markets",
+          "year": 2024
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "First wave of multi-unit franchise agreements signed: Dallas TX, Boise ID, Rochester & Buffalo NY, Atlanta GA, Chicago IL, Portland OR",
+          "source": "Business Wire (Xponential Fitness press release)",
+          "url": "https://www.businesswire.com/news/home/20240415187746/en/Lindora-Leader-in-Wellness-Solutions-Signs-First-Wave-of-Multi-Unit-Franchise-Agreements-in-Key-Markets",
+          "year": 2024
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "First wave of multi-unit franchise agreements signed: Dallas TX, Boise ID, Rochester & Buffalo NY, Atlanta GA, Chicago IL, Portland OR",
+          "source": "Business Wire (Xponential Fitness press release)",
+          "url": "https://www.businesswire.com/news/home/20240415187746/en/Lindora-Leader-in-Wellness-Solutions-Signs-First-Wave-of-Multi-Unit-Franchise-Agreements-in-Key-Markets",
+          "year": 2024
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "First wave of multi-unit franchise agreements signed: Dallas TX, Boise ID, Rochester & Buffalo NY, Atlanta GA, Chicago IL, Portland OR",
+          "source": "Business Wire (Xponential Fitness press release)",
+          "url": "https://www.businesswire.com/news/home/20240415187746/en/Lindora-Leader-in-Wellness-Solutions-Signs-First-Wave-of-Multi-Unit-Franchise-Agreements-in-Key-Markets",
+          "year": 2024
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "First wave of multi-unit franchise agreements signed: Dallas TX, Boise ID, Rochester & Buffalo NY, Atlanta GA, Chicago IL, Portland OR",
+          "source": "Business Wire (Xponential Fitness press release)",
+          "url": "https://www.businesswire.com/news/home/20240415187746/en/Lindora-Leader-in-Wellness-Solutions-Signs-First-Wave-of-Multi-Unit-Franchise-Agreements-in-Key-Markets",
+          "year": 2024
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "First wave of multi-unit franchise agreements signed: Dallas TX, Boise ID, Rochester & Buffalo NY, Atlanta GA, Chicago IL, Portland OR",
+          "source": "Business Wire (Xponential Fitness press release)",
+          "url": "https://www.businesswire.com/news/home/20240415187746/en/Lindora-Leader-in-Wellness-Solutions-Signs-First-Wave-of-Multi-Unit-Franchise-Agreements-in-Key-Markets",
+          "year": 2024
+        }
+      ],
+      "note": "Xponential Fitness brand; began franchising Nov 2023. Only documented markets listed; no published nationwide availability statement found."
+    },
+    {
+      "name": "Magnolia Soap and Bath Co.",
+      "statesOpen": [
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Franchisor 'Hot Market' \u2014 actively recruiting franchisees",
+          "source": "Magnolia Soap & Bath franchising site",
+          "url": "https://www.magnoliafranchising.com/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Franchisor 'Hot Market' \u2014 actively recruiting franchisees",
+          "source": "Magnolia Soap & Bath franchising site",
+          "url": "https://www.magnoliafranchising.com/",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Franchisor 'Hot Market' \u2014 actively recruiting franchisees",
+          "source": "Magnolia Soap & Bath franchising site",
+          "url": "https://www.magnoliafranchising.com/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Franchisor 'Hot Market' \u2014 actively recruiting franchisees",
+          "source": "Magnolia Soap & Bath franchising site",
+          "url": "https://www.magnoliafranchising.com/",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Franchisor 'Hot Market' \u2014 actively recruiting franchisees",
+          "source": "Magnolia Soap & Bath franchising site",
+          "url": "https://www.magnoliafranchising.com/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Franchisor 'Hot Market' \u2014 actively recruiting franchisees",
+          "source": "Magnolia Soap & Bath franchising site",
+          "url": "https://www.magnoliafranchising.com/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Franchisor 'Hot Market' \u2014 actively recruiting franchisees",
+          "source": "Magnolia Soap & Bath franchising site",
+          "url": "https://www.magnoliafranchising.com/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Franchisor 'Hot Market' \u2014 actively recruiting franchisees",
+          "source": "Magnolia Soap & Bath franchising site",
+          "url": "https://www.magnoliafranchising.com/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Franchisor 'Hot Market' \u2014 actively recruiting franchisees",
+          "source": "Magnolia Soap & Bath franchising site",
+          "url": "https://www.magnoliafranchising.com/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Franchisor 'Hot Market' \u2014 actively recruiting franchisees",
+          "source": "Magnolia Soap & Bath franchising site",
+          "url": "https://www.magnoliafranchising.com/",
+          "year": 2026
+        }
+      ],
+      "note": "Franchisor map shows additional 'Open Markets' beyond these 10 hot-market states but does not enumerate them; 50+ stores across 17 states."
+    },
+    {
+      "name": "MaidThis Cleaning",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "HI",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "ND",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "SD",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Franchisor: 'currently offering cleaning franchise opportunities in the GREEN states' \u2014 available in every state except CA, NY, WA",
+          "source": "MaidThis Franchise \u2014 Locations",
+          "url": "https://maidthisfranchise.com/locations/",
+          "year": 2026
+        }
+      ],
+      "note": "Available in every US state except California, New York, and Washington per the franchisor's territory page."
+    },
+    {
+      "name": "Massage Envy",
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory \u2014 Massage Envy",
+        "url": "https://www.entrepreneur.com/franchises/directory/massage-envy/315409",
+        "year": 2026,
+        "note": "'Franchising opportunities available in the following regions: United States.' 1,100+ US locations in 49 states; franchisor maintains an available-markets page (massageenvy.com/about-us/own-a-franchise/available-markets)."
+      }
+    },
+    {
+      "name": "Mathnasium",
+      "nationwide": {
+        "source": "Franchising.com \u2014 Mathnasium Learning Centers",
+        "url": "https://www.franchising.com/mathnasium/",
+        "year": 2026,
+        "note": "Accepting franchise inquiries from all 50 states plus DC (and Canada); franchisor cites hundreds of available territories across US metro markets."
+      }
+    },
+    {
+      "name": "Neighborly (Mr. Rooter)",
+      "statesOpen": [
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "HI",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "ND",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "SD",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Listed among states from which Mr. Rooter Plumbing is currently accepting franchise inquiries",
+          "source": "Franchise Gator \u2014 Mr. Rooter Plumbing",
+          "url": "https://www.franchisegator.com/franchises/mr-rooter-plumbing/",
+          "year": 2026
+        }
+      ],
+      "note": "Mature Neighborly brand with US-wide presence; this is the conservative documented list (36 states). Other directories (e.g. FranNet) list additional states incl. TX/AZ/CA, and Neighborly highlights open territories in TX and AL (franchiseba.com)."
+    },
+    {
+      "name": "Nothing Bundt Cakes",
+      "nationwide": {
+        "source": "Nothing Bundt Cakes \u2014 Franchise Opportunities (franchisor site)",
+        "url": "https://www.nothingbundtcakes.com/franchise-opportunities/",
+        "year": 2026,
+        "note": "'We're expanding across the U.S.! Availability varies by region.' ~800 bakeries in 45 states; growth focus on Northeast and Northwest (e.g. CT, MA, MD, NJ, NY, OR, PA, WA, WI) per franchise listings."
+      }
+    },
+    {
+      "name": "Ohm Fitness",
+      "statesOpen": [
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Area representative deal to develop 20 EMS fitness studios throughout North Carolina (PR dated 2023-03-24)",
+          "source": "PRWeb \u2014 OHM Fitness press release",
+          "url": "https://www.prweb.com/releases/ohm-fitness-is-slated-to-open-20-locations-in-north-carolina-825121991.html",
+          "year": 2023
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Area representative deal for 70 studios across the Texas Triangle (DFW 25, Austin/San Antonio 20, Houston 25); article dated 2023-05-11",
+          "source": "Retail & Restaurant Facility Business",
+          "url": "https://retailrestaurantfb.com/ohm-fitness-to-open-70-new-locations-across-texas-triangle/",
+          "year": 2023
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Franchise development deal for ~30 New Jersey locations announced Feb 2023",
+          "source": "ROI-NJ",
+          "url": "https://www.roi-nj.com/2023/02/06/lifestyle/ohm-fitness-plans-to-open-30-n-j-locations-in-next-few-years/",
+          "year": 2023
+        }
+      ],
+      "note": "Emerging EMS studio brand (first studio Scottsdale AZ, 2022); franchisor publishes no territory/state list. Additional development announced in 2022-23 press for AZ, CO, KS, MO, South FL, DC and San Diego, but those releases are undated on accessible pages so only verifiable states are listed."
+    },
+    {
+      "name": "Orangetheory Fitness",
+      "nationwide": {
+        "source": "Franchising.com \u2014 Orangetheory Fitness",
+        "url": "https://www.franchising.com/orangetheoryfitness/",
+        "year": 2026,
+        "note": "Accepting franchise inquiries from all 50 US states + DC; ~1,300 US studios. Caveat: development opportunities are limited \u2014 most growth goes to existing franchise owners (<0.1% of inquirers franchise)."
+      }
+    },
+    {
+      "name": "Painting with a Twist",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Listed among states where Painting with a Twist is currently accepting franchises",
+          "source": "Franchise Gator \u2014 Painting with a Twist",
+          "url": "https://www.franchisegator.com/franchises/painting-with-a-twist/",
+          "year": 2025
+        }
+      ],
+      "note": "~220+ studios open or under development in 39 states; availability list per Franchise Gator (2025)."
+    },
+    {
+      "name": "Pet Evolution",
+      "note": "No published state-availability evidence found. Franchisor site (petevolutionfranchising.com) says only 'key markets across the nation' with no state list, and the FranchiseDirect listing (franchisedirect.com/pet-franchises/pet-evolution/) shows 'This company is not accepting inquiries at this time' as of June 2026. Honest gap \u2014 availability unverified."
+    },
+    {
+      "name": "Planet Fitness",
+      "note": "Not currently selling new franchises to new US candidates. Franchising.com listing (franchising.com/planetfitness/) states 'Planet Fitness is not currently accepting new applicants' (2026); industry sources report US growth is driven by existing multi-unit franchisees via Area Development Agreements, with new-candidate opportunities focused internationally. 2,896 clubs in all 50 states as of Dec 2025."
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "nationwide": {
+        "source": "Franchise Gator \u2014 Popeyes",
+        "url": "https://www.franchisegator.com/franchises/popeyes/",
+        "year": 2026,
+        "note": "'Territories and development rights are available throughout the United States and franchise incentives are available to qualified candidates'; accepting inquiries from all 50 states + DC. Franchisor portal: franchising.popeyes.com."
+      }
+    },
+    {
+      "name": "Prime IV Hydration & Wellness",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "HI",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "ND",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "SD",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Listed among states from which Prime IV is currently accepting franchise inquiries (AZ, NY, WA not listed)",
+          "source": "Franchise Gator \u2014 Prime IV Hydration & Wellness",
+          "url": "https://www.franchisegator.com/franchises/prime-iv-hydration-wellness/",
+          "year": 2026
+        }
+      ],
+      "note": "Accepting inquiries from 47 states + DC per Franchise Gator (2026); Arizona, New York, and Washington not on the list."
+    },
+    {
+      "name": "QC Kinetix",
+      "note": "Franchise development was frozen for ~1 year from July 2024 after a sharp contraction; QC Kinetix relaunched franchise sales in Sept 2025 targeting 50 new franchise owners and 120 new clinics over 24 months in unspecified 'high-potential markets' (franchise.org: https://www.franchise.org/2025/09/qc-kinetix-relaunches-strategic-franchise-expansion-following-comprehensive-brand-transformation/ ; Franchise Times: 'Regenerative Medicine Franchise QC Kinetix Stages Comeback After Backslide'). No published state-availability list found, so no states/nationwide claim recorded."
+    },
+    {
+      "name": "Red Barn Homebuyers",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Franchisor: 'We have real estate franchise opportunities available in every US state except Hawaii, North Dakota, South Dakota, and Rhode Island'",
+          "source": "Red Barn Homebuyers franchise site",
+          "url": "https://redbarnfranchise.com/",
+          "year": 2026
+        }
+      ],
+      "note": "Sales in registration states (CA, IL, IN, MD, MN, NY, VA, WA, WI) are subject to franchise registration per the site's legal disclaimer."
+    },
+    {
+      "name": "Rolling Suds",
+      "statesOpen": [
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "ND",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Listed among states from which Rolling Suds is currently accepting franchise inquiries (HI, MN, NJ, OR, PA, SD, WA not listed)",
+          "source": "Franchise.com \u2014 Rolling Suds",
+          "url": "https://www.franchise.com/franchise/rolling-suds",
+          "year": 2026
+        }
+      ],
+      "note": "Fast-growing power-washing franchise (250+ locations in 31 states as of 2025); home market PA not on the accepting-inquiries list, suggesting sold-out territories there."
+    },
+    {
+      "name": "Rumble Boxing",
+      "statesOpen": [
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "HI",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "ND",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "SD",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Listed among states from which Rumble Boxing is accepting franchise inquiries (MD, ME, NJ, WA, WV, WY not listed)",
+          "source": "Franchise Solutions \u2014 Rumble Boxing",
+          "url": "https://www.franchisesolutions.com/franchise/rumble-boxing",
+          "year": 2026
+        }
+      ],
+      "note": "Xponential Fitness brand; 44 states + DC per Franchise Solutions (2026)."
+    },
+    {
+      "name": "SERVPRO",
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory \u2014 Servpro",
+        "url": "https://www.entrepreneur.com/franchises/directory/servpro/282790",
+        "year": 2026,
+        "note": "'Franchising opportunities available in the following regions: United States.' 2,200+ locations covering 97% of US zip codes; new candidates buy one territory license at a time, and a Resale Assistance Program handles existing-territory sales (servpro.com/franchise-ownership)."
+      }
+    },
+    {
+      "name": "SWTHZ Contrast Therapy Studio",
+      "statesOpen": [
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Listed among states with SWTHZ franchise opportunities available",
+          "source": "Franchise Solutions \u2014 SWTHZ",
+          "url": "https://www.franchisesolutions.com/franchise/swthz",
+          "year": 2026
+        }
+      ],
+      "note": "78 studios open across 25 states with 90+ in development; press describes 'nationwide' expansion (Yahoo Finance, 2025) but the published availability list covers these 25 states."
+    },
+    {
+      "name": "Soccer Stars",
+      "nationwide": {
+        "source": "Soccer Stars Franchise \u2014 Available Territories (franchisor site)",
+        "url": "https://www.soccerstarsfranchise.com/available-territories/",
+        "year": 2026,
+        "note": "Franchisor's territory page lists opportunities in all 50 states + DC (each categorized 'Available' or 'Growing'); 'primed to expand both nationwide and abroad.' Hot markets: AZ, CA, FL, HI, IL, MA, NJ, NM, NY, PA, SC, TX."
+      }
+    }
+  ]
+}

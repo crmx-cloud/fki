@@ -1,0 +1,588 @@
+{
+ "brands": [
+  {
+   "name": "Wild Birds Unlimited",
+   "slug": "wild-birds-unlimited",
+   "category": "Pets",
+   "website": "wbu.com",
+   "notes": "Leading specialty bird-feeding retail franchise founded in Indianapolis (1981) and franchising since 1983, HQ in Carmel, Indiana. ~340 franchised units across the US and Canada with a full Item 19 disclosing mean annual sales of roughly $858K.",
+   "riskFlags": [
+    {
+     "severity": "info",
+     "title": "Flat unit count in 2024",
+     "detail": "Franchised unit count was unchanged year-over-year (340 in 2023 and 2024) after modest gains in prior years (+7 in 2023), and the franchisor added its first company-owned location. Steady, not high-growth.",
+     "source": "Franchise Chatter 2025 review (2025 FDD)",
+     "url": "https://www.franchisechatter.com/2025/07/22/wild-birds-unlimited-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Wide revenue dispersion",
+     "detail": "Item 19 shows a very wide store sales range ($169,482 to $2,733,484), so unit economics vary substantially by location and market.",
+     "source": "Franchise Chatter 2025 review (2024 sales data)",
+     "url": "https://www.franchisechatter.com/2025/07/22/wild-birds-unlimited-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    }
+   ],
+   "statesOpen": [],
+   "nationwide": {
+    "source": "Wild Birds Unlimited official franchise site - Available Markets in the USA (44 states with locations; nationwide development)",
+    "url": "https://franchise.wbu.com/best-franchise-in-usa/",
+    "year": 2026,
+    "note": "Franchisor lists available markets across the USA; brand has locations in 44 states and franchises nationwide plus Canada."
+   },
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 226601,
+     "source": "https://www.franchisechatter.com/2025/07/22/wild-birds-unlimited-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7"
+    },
+    "totalInvestmentMax": {
+     "value": 378977,
+     "source": "https://www.franchisechatter.com/2025/07/22/wild-birds-unlimited-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7"
+    },
+    "franchiseFee": {
+     "value": 40000,
+     "source": "https://www.franchisechatter.com/2025/07/22/wild-birds-unlimited-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "New franchisee fee; $20,000 for existing franchisee additional store, $5,000 for converting an independent store"
+    },
+    "royaltyPercent": {
+     "value": 4,
+     "source": "https://www.franchisechatter.com/2025/07/22/wild-birds-unlimited-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "4% of gross sales"
+    },
+    "adFundPercent": {
+     "value": 1,
+     "source": "https://www.franchisechatter.com/2025/07/22/wild-birds-unlimited-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "1% national ad fund; additional local advertising requirement"
+    },
+    "avgUnitRevenue": {
+     "value": 858133,
+     "source": "https://www.franchisechatter.com/2025/07/22/wild-birds-unlimited-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Item 19 mean annual store sales (2024 data, 2025 FDD); median $773,456; range $169,482-$2,733,484"
+    },
+    "totalUnits": {
+     "value": 341,
+     "source": "https://www.franchisechatter.com/2025/07/22/wild-birds-unlimited-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "340 franchised + 1 company-owned at end of 2024 per FDD; franchisor publicly cites ~363 including Canada"
+    },
+    "yearFounded": {
+     "value": 1981,
+     "source": "https://franchise.wbu.com/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "First store opened in Indianapolis in 1981"
+    },
+    "yearFranchising": {
+     "value": 1983,
+     "source": "https://www.franchisedirect.com/wild-birds-unlimited-franchise-costs-fees",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/07/22/wild-birds-unlimited-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/07/22/wild-birds-unlimited-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/07/22/wild-birds-unlimited-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Reduced $20,000 fee for existing franchisees opening additional stores"
+    }
+   }
+  },
+  {
+   "name": "Sky Zone",
+   "slug": "sky-zone",
+   "category": "Entertainment & Recreation",
+   "website": "skyzone.com",
+   "notes": "Indoor trampoline park pioneer founded 2004, franchising since 2009; ~193 units (126 franchised, 67 company-owned) per 2024 FDD. Multi-million-dollar buildout business in the active-entertainment sector with inherent injury-liability exposure.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Personal-injury litigation exposure (sector-wide)",
+     "detail": "Trampoline parks including Sky Zone face recurring personal-injury lawsuits over supervision, waiver enforceability, and equipment maintenance; reported Sky Zone suits in 2018 and 2020. Catastrophic pediatric injury cases are an active plaintiff-bar focus across the category.",
+     "source": "Penney & Associates / Attorney911 trampoline injury litigation overviews",
+     "url": "https://www.penneylawyers.com/serious-injuries/sky-zone-trampoline-park-injuries-lawsuits-and-legal-options/",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "High capital bar",
+     "detail": "Total investment of roughly $2.18M to $4.72M with $500,000 liquid capital and $1.8M net worth minimums; large-format real-estate-dependent buildout.",
+     "source": "FDD Exchange (2024 Sky Zone FDD)",
+     "url": "https://fddexchange.com/sky-zone-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024
+    },
+    {
+     "severity": "info",
+     "title": "No/limited Item 19 financial performance representation",
+     "detail": "Some analyses indicate Sky Zone does not make a full Item 19 earnings disclosure; third-party revenue figures are estimates, not FDD-sourced earnings claims.",
+     "source": "Franzy / VettedBiz franchise analysis",
+     "url": "https://franzy.com/franchises/sky-zone",
+     "year": 2026
+    }
+   ],
+   "statesOpen": [],
+   "nationwide": {
+    "source": "Sky Zone official franchise page - territories available across 320+ markets; franchising nationwide",
+    "url": "https://www.skyzone.com/franchise/",
+    "year": 2026,
+    "note": "Franchisor states 270+ parks in 320+ US markets with territories still available; franchises sold nationwide (US and Canada)."
+   },
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 2178000,
+     "source": "https://fddexchange.com/sky-zone-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "2024 FDD Item 7; varies with 16,000-50,000 sq ft park size"
+    },
+    "totalInvestmentMax": {
+     "value": 4722500,
+     "source": "https://fddexchange.com/sky-zone-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "2024 FDD Item 7"
+    },
+    "franchiseFee": {
+     "value": 75000,
+     "source": "https://fddexchange.com/sky-zone-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "$60,000 veteran fee (20% discount)"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "https://fddexchange.com/sky-zone-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "6% of gross sales"
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://fddexchange.com/sky-zone-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "2% national advertising"
+    },
+    "liquidCapitalMin": {
+     "value": 500000,
+     "source": "https://www.franchisegator.com/franchises/sky-zone/",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "totalUnits": {
+     "value": 193,
+     "source": "https://fddexchange.com/sky-zone-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "126 franchised + 67 company-owned per 2024 FDD; franchisor publicly cites 270+ parks currently"
+    },
+    "yearFounded": {
+     "value": 2004,
+     "source": "https://franzy.com/franchises/sky-zone",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2009,
+     "source": "https://franzy.com/franchises/sky-zone",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/sky-zone-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://topfranchise.com/products/sky-zone-trampoline-park-franchise/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "20% off initial franchise fee for veterans/active-duty military"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.prnewswire.com/news-releases/multi-unit-franchisee-becomes-sky-zones-largest-owner-following-latest-acquisition-deal-302084320.html",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Brand actively promotes multi-unit ownership"
+    }
+   }
+  },
+  {
+   "name": "Urban Air Adventure Park",
+   "slug": "urban-air-adventure-park",
+   "category": "Entertainment & Recreation",
+   "website": "urbanair.com",
+   "notes": "Large-format indoor adventure park brand owned by Unleashed Brands; ~193 franchised units with a full Item 19 (2.0 parks averaging ~$3.19M gross sales). Among the highest-capital entertainment franchises, with a history of franchisee disputes and injury litigation.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "Major injury arbitration award",
+     "detail": "Damion Collins v. Urban Air Overland Park produced a $15.6M arbitration award (Sept 14, 2023) in which the arbitrator found the signed waiver NOT enforceable, citing systemic safety-information failures. Catastrophic-injury exposure is a material risk for the format.",
+     "source": "Attorney911 trampoline injury litigation summary",
+     "url": "https://attorney911.com/texas-trampoline-park-injury-lawyer-sky-zone-urban-air-childrens-catastrophic-injury-cases/",
+     "year": 2023
+    },
+    {
+     "severity": "caution",
+     "title": "Franchisee litigation over undisclosed costs",
+     "detail": "A group of ~50 franchisees (Adventure Park Franchisee Association) sued Urban Air alleging post-PE-acquisition changes added untenable, undisclosed costs. The franchisor prevailed on standing grounds, but the dispute signals franchisee-relations friction.",
+     "source": "Franchise Times / Bloomberg Law",
+     "url": "https://www.franchisetimes.com/franchise_news/franchisee-group-sues-urban-air-over-rising-costs/article_ed341352-036d-51a4-b73d-19ba3dfadb09.html",
+     "year": 2023
+    },
+    {
+     "severity": "caution",
+     "title": "Franchisee bankruptcy / closures",
+     "detail": "A Fredericksburg, VA Urban Air franchisee (Two Fish Partners) filed Chapter 11 in 2025, illustrating that individual unit-level financial failures occur in this high-capex model.",
+     "source": "Bondoro filing alert",
+     "url": "https://bondoro.com/urban-air-adventure-park-franchisee-filing-alert/",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "Very high capital bar",
+     "detail": "Total investment of ~$3.11M to $5.79M with $750,000 liquid capital and $1.5M net worth required per the franchisor's development site.",
+     "source": "Urban Air official franchise investment page",
+     "url": "https://www.urbanairfranchise.com/investment/",
+     "year": 2026
+    }
+   ],
+   "statesOpen": [],
+   "nationwide": {
+    "source": "Urban Air official franchise development site (USA Franchise Opportunities + Canadian Territories)",
+    "url": "https://www.urbanairfranchise.com/investment/",
+    "year": 2026,
+    "note": "Franchisor markets opportunities across the USA and Canada; offers nationwide territory availability."
+   },
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 3554000,
+     "source": "https://sharpsheets.io/blog/urban-air-adventure-park-franchise-fdd-profits-costs/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7 range $3.554M-$8.332M per verification audit 2026-06-11. Prior batch value 3111409 superseded."
+    },
+    "totalInvestmentMax": {
+     "value": 8332000,
+     "source": "https://sharpsheets.io/blog/urban-air-adventure-park-franchise-fdd-profits-costs/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7 range $3.554M-$8.332M per verification audit 2026-06-11. Prior batch value 5791969 superseded."
+    },
+    "franchiseFee": {
+     "value": 100000,
+     "source": "https://www.franchisechatter.com/2026/02/08/urban-air-adventure-park-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 7,
+     "source": "https://www.franchisechatter.com/2026/02/08/urban-air-adventure-park-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "7% of monthly gross sales"
+    },
+    "adFundPercent": {
+     "value": 5,
+     "source": "https://www.franchisechatter.com/2026/02/08/urban-air-adventure-park-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Up to 6% local marketing (currently 5%); NAF up to 5% currently 0%"
+    },
+    "avgUnitRevenue": {
+     "value": 3190864,
+     "source": "https://www.franchisechatter.com/2026/02/08/urban-air-adventure-park-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Item 19 2.0-park average gross sales (123 units, 2024 data in 2025 FDD); avg EBITDA $613,352 (19.2%). 2.5-park avg sales $4,233,365."
+    },
+    "liquidCapitalMin": {
+     "value": 750000,
+     "source": "https://www.urbanairfranchise.com/investment/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "totalUnits": {
+     "value": 197,
+     "source": "https://www.franchisechatter.com/2026/02/08/urban-air-adventure-park-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "193 franchised + 4 company-owned at end of 2024"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/08/urban-air-adventure-park-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "+13 (2022), +18 (2023), +14 (2024) franchised units"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/08/urban-air-adventure-park-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/08/urban-air-adventure-park-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.urbanairfranchise.com/investment/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Markets 2.0 and 2.5 park formats and multi-park development"
+    }
+   }
+  },
+  {
+   "name": "Altitude Trampoline Park",
+   "slug": "altitude-trampoline-park",
+   "category": "Entertainment & Recreation",
+   "website": "altitudetrampolinepark.com",
+   "notes": "Dallas-based indoor trampoline/adventure park brand founded 2013, franchising since 2016; ~80 units (69 franchised, 11 company-owned) per 2025 FDD. High-capital active-entertainment format with category-typical injury-liability exposure.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Personal-injury litigation exposure (sector-wide)",
+     "detail": "Altitude parks have faced injury suits (e.g., a 2018 New Jersey case over a child's leg injury) centered on maintenance and supervision; the trampoline-park category broadly draws catastrophic-injury litigation and waiver-enforceability challenges.",
+     "source": "Attorney911 / trampoline injury litigation overviews",
+     "url": "https://attorney911.com/texas-trampoline-park-injury-lawyer-sky-zone-urban-air-childrens-catastrophic-injury-cases/",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "High capital bar",
+     "detail": "Total investment of roughly $1.63M to $2.96M including franchise fee; large-format leased-real-estate buildout.",
+     "source": "FDD Exchange (2024 Altitude FDD)",
+     "url": "https://fddexchange.com/altitude-trampoline-park-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024
+    }
+   ],
+   "statesOpen": [],
+   "nationwide": {
+    "source": "Altitude Trampoline Park official franchising site",
+    "url": "https://www.altitudetrampolinepark.com/franchising/",
+    "year": 2026,
+    "note": "Franchisor markets franchise opportunities nationally and internationally; reported double-digit annual openings."
+   },
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 1625000,
+     "source": "https://fddexchange.com/altitude-trampoline-park-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "2024 FDD Item 7; figures vary by FDD version"
+    },
+    "totalInvestmentMax": {
+     "value": 2957500,
+     "source": "https://fddexchange.com/altitude-trampoline-park-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "2024 FDD Item 7"
+    },
+    "franchiseFee": {
+     "value": 50000,
+     "source": "https://fddexchange.com/altitude-trampoline-park-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Sources range $40,000-$50,000 across FDD versions; most recent cite $50,000"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "https://fddexchange.com/altitude-trampoline-park-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "6% royalty"
+    },
+    "avgUnitRevenue": {
+     "value": 1919103,
+     "source": "https://www.franchisepayback.com/franchise/altitude-trampoline-park",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Reported average yearly gross sales per FDD-derived analysis; represents gross sales not profit"
+    },
+    "totalUnits": {
+     "value": 80,
+     "source": "https://fddexchange.com/altitude-trampoline-park-2025-fdd-franchise-information-costs-and-fees/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "69 franchised + 11 company-owned per 2025 FDD"
+    },
+    "yearFounded": {
+     "value": 2013,
+     "source": "https://www.franchimp.com/franchise/altitude-trampoline-105893",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "FDD lists 2013; some sources cite 2011-2012"
+    },
+    "yearFranchising": {
+     "value": 2016,
+     "source": "https://www.franchimp.com/franchise/altitude-trampoline-105893",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/altitude-trampoline-park-2025-fdd-franchise-information-costs-and-fees/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.franchise.org/2024/03/altitude-trampoline-park-grows-footprint-with-double-digit-openings/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Reported double-digit openings in 2023-2024"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/altitude-trampoline-park-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Area development option with multi-park commitments offered"
+    }
+   }
+  },
+  {
+   "name": "Hampton by Hilton",
+   "slug": "hampton-by-hilton",
+   "category": "Hospitality",
+   "website": "hilton.com/en/corporate/development",
+   "notes": "Upper-midscale hotel brand under Hilton, founded 1984 and franchising since 1984; 3,200+ properties globally (2,200+ in the US) and Entrepreneur's #1 hotel franchise for over a decade. A multi-million-dollar, real-estate-intensive hotel-development franchise, not a small-business format.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Hotel-scale capital requirement",
+     "detail": "Total investment is hotel-development scale: roughly $15.2M to $22.2M (broader range $6.9M-$22.2M across sources) with ~$3.0M liquid capital, a 22-year agreement term, and land/construction risk. This is an institutional-grade investment, not an owner-operator small business.",
+     "source": "Franchise Investor Data / PeerSense (2023-2024 Hampton FDD)",
+     "url": "https://franchiseinvestordata.com/franchise/hampton-by-hilton",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "High ongoing fee load",
+     "detail": "Combined ongoing fees total ~10% of gross rooms revenue (6% royalty + 4% program/marketing fee covering Hilton Honors, CRS, and technology), standard for upper-midscale but a meaningful drag on margins.",
+     "source": "Room1903 / PeerSense FDD analysis",
+     "url": "https://peersense.com/franchise/hampton-inns",
+     "year": 2026
+    }
+   ],
+   "statesOpen": [],
+   "nationwide": {
+    "source": "Hilton corporate development site - Hampton by Hilton US franchise development (2,200+ US franchises)",
+    "url": "https://www.hilton.com/en/corporate/development/",
+    "year": 2026,
+    "note": "Hilton actively develops Hampton hotels nationwide across the US (2,200+ US properties) plus Canada and 46 countries internationally."
+   },
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 15200000,
+     "source": "https://franchiseinvestordata.com/franchise/hampton-by-hilton",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "More recent FDD-derived range; broader cross-source range starts ~$6.9M"
+    },
+    "totalInvestmentMax": {
+     "value": 22186000,
+     "source": "https://peersense.com/franchise/hampton-inns",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "FDD-derived upper bound"
+    },
+    "franchiseFee": {
+     "value": 75000,
+     "source": "https://peersense.com/franchise/hampton-inns",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Sources cite $75,000 base; some cite $100,000 - varies by number of rooms (per-key minimums apply)"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "https://room1903.com/franchise-deep-dive-hampton-by-hilton-franchise-costs-fees-profit-and-data-864",
+     "year": 2026,
+     "confidence": "high",
+     "note": "6% of gross rooms revenue"
+    },
+    "adFundPercent": {
+     "value": 4,
+     "source": "https://room1903.com/franchise-deep-dive-hampton-by-hilton-franchise-costs-fees-profit-and-data-864",
+     "year": 2026,
+     "confidence": "high",
+     "note": "4% program/marketing fee (Hilton Honors, CRS, technology, marketing)"
+    },
+    "liquidCapitalMin": {
+     "value": 3000000,
+     "source": "https://peersense.com/franchise/hampton-inns",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "totalUnits": {
+     "value": 3200,
+     "source": "https://en.wikipedia.org/wiki/Hampton_by_Hilton",
+     "year": 2026,
+     "confidence": "high",
+     "note": "3,200+ properties in 46 countries; 2,200+ in the US"
+    },
+    "yearFounded": {
+     "value": 1984,
+     "source": "https://en.wikipedia.org/wiki/Hampton_by_Hilton",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Launched 1984 as Hampton Inn by Holiday Corporation"
+    },
+    "yearFranchising": {
+     "value": 1984,
+     "source": "https://www.franchising.com/hamptoninnsuites/",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://peersense.com/franchise/hampton-inns",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/what-hampton-by-hiltons-14-year-reign-as-the-top-hotel/442323",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Entrepreneur Franchise 500 #1 hotel franchise for 14+ consecutive years; continued global expansion"
+    }
+   }
+  }
+ ]
+}

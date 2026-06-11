@@ -1,0 +1,13 @@
+BUILD STATUS: ✅ SUCCESS
+Date: 2026-03-27T00:24 UTC
+Build command: bun run build (vite v7.3.1)
+Result: ✓ 1973 modules transformed, built in 18.02s
+
+Changes made:
+1. TerritoriesPage.tsx — Added brand quick-action bar (View Public Map + Copy Embed Code) when brand filter selected; made brand badges in table clickable to open map in new tab; added EmbedCodeDialog
+2. FranchiseDashboardPage.tsx — Added "View My Map" (new tab) and "Get Embed Code" quick-action cards; existing "View Territory Map" renamed to "Manage Territories" 
+3. BrandsAdminPage.tsx — Updated View Map links in table and card views to open in new tab (target="_blank")
+4. FranchiseProfilePage.tsx — Added "Preview Map" and "Embed Code" buttons in profile header area; added EmbedCodeDialog
+
+All pages reuse the existing EmbedCodeDialog component.
+No new files created. Only targeted edits.

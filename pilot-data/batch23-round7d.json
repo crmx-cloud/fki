@@ -1,0 +1,245 @@
+{
+  "brands": [
+    {
+      "name": "MaidThis Cleaning",
+      "website": "maidthis.com",
+      "notes": "Remote-run residential and Airbnb/vacation-rental cleaning franchise founded by Neel Parekh (Los Angeles, 2013; franchising since 2020). Fully home-based, low-investment model; system is young and small, and unit counts conflict sharply between directories (43 per Entrepreneur 2026 vs 15 per a 2025 FDD-derived profile).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Conflicting system-size data across sources",
+          "detail": "Entrepreneur's 2026 listing shows 43 units with +186.7% growth, while FranchisePayback's profile built on the 2025 FDD shows only 15 total units (13 franchised, 2 company-owned). The gap likely reflects sold-but-not-open territories or differing count methods; verify against the current FDD Item 20 before relying on either figure.",
+          "source": "Entrepreneur vs FranchisePayback (2025 FDD)",
+          "url": "https://www.franchisepayback.com/franchise/maidthis",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Young, small, unproven system with unverified revenue marketing claims",
+          "detail": "Franchising only since 2020. Per FranchisePayback, the franchisor does not disclose average unit volume in its FDD; the ~$139K average revenue figure circulating on directory sites has undisclosed methodology and is not a verified Item 19 figure. No lawsuits or bankruptcy disclosures were found in searches.",
+          "source": "FranchisePayback (2025 FDD profile)",
+          "url": "https://www.franchisepayback.com/franchise/maidthis",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": { "value": 56300, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "medium", "note": "Entrepreneur 2026 range $56,300-$71,650; FranchisePayback's 2025 FDD profile shows $50,000-$68,000. Lower bound of most recent listing used." },
+        "totalInvestmentMax": { "value": 71650, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "medium", "note": "Upper bound of Entrepreneur 2026 range." },
+        "franchiseFee": { "value": 42500, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "medium", "note": "Entrepreneur 2026 lists $42,500; FranchisePayback (2025 FDD) lists $39,000 — fee appears to have increased." },
+        "royaltyPercent": { "value": 6, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "high", "note": "6% of gross revenue, consistent across Entrepreneur and FranchisePayback. Plus $200/mo technology fee." },
+        "adFundPercent": { "value": 2, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 2% ad royalty; FranchisePayback shows 7% — conflict unresolved, Entrepreneur figure used as more consistent with other directories." },
+        "totalUnits": { "value": 43, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "low", "note": "Entrepreneur 2026 figure. FranchisePayback (2025 FDD) shows 15 total units — see risk flag." },
+        "yearFounded": { "value": 2013, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "high" },
+        "yearFranchising": { "value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "high" },
+        "trainingWeeks": { "value": 1, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "medium", "note": "50 hours total (25 classroom + 25 on-the-job), roughly one week equivalent." },
+        "employeesRequired": { "value": 0, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "high", "note": "Listed as 0 employees required to run; cleaners are typically contractors in this model." },
+        "fddAvailable": { "value": true, "source": "https://fddexchange.com/maidthis-2024-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high", "note": "FDDs issued annually; 2025 FDD is the latest cited by FranchisePayback." },
+        "veteranDiscount": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "high", "note": "10% off franchise fee for veterans." },
+        "exclusiveTerritories": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "high" },
+        "absenteeOwnership": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "high" },
+        "canRunFromHome": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "high", "note": "Fully remote model is the brand's core pitch." },
+        "canRunPartTime": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "high" },
+        "isGrowing": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "medium", "note": "Entrepreneur shows positive unit growth, though absolute counts conflict across sources." },
+        "ownerTypes": { "value": ["owner-operator", "semi-absentee"], "source": "https://www.entrepreneur.com/franchises/directory/maidthis-cleaning/336063", "year": 2026, "confidence": "medium", "note": "Part-time operation allowed, absentee not; remote management model supports semi-absentee operation." }
+      }
+    },
+    {
+      "name": "Gatsby Glass",
+      "website": "gatsbyglass.com",
+      "notes": "Custom glass and shower-door installation franchise launched by HorsePower Brands (Omaha), franchising since 2022 with very fast territory sales (94 territories sold, 25 franchisees open at end of 2024). Strong audited Item 19 ($1.13M average gross sales, 2024) but the parent platform faces multiple franchisee fraud lawsuits across sister brands.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Parent HorsePower Brands faces multiple franchisee fraud lawsuits",
+          "detail": "Former iFoam franchisees sued HorsePower Brands, its co-founders and CEO in federal court (E.D. Pa.) alleging 'inflated and unachievable' annual projections, seeking rescission and $2.2M in losses. This follows earlier Ponzi-scheme allegations against sister brand Blingle (case sent to mediation in 2024) and fraud allegations by Mighty Dog Roofing franchisees. Gatsby Glass itself is not the named brand, but it shares ownership, leadership, and the development model under scrutiny.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_insights/franchisees-allege-horsepower-brands-provided-inflated-annual-projections/article_120dda2f-e3de-4a9c-8960-cadec719b4db.html",
+          "year": 2025
+        },
+        {
+          "severity": "red",
+          "title": "Heavy unit distress at sister brands in the same platform",
+          "detail": "A Mighty Dog Roofing (HorsePower sister brand) franchisee reported that of the brand's 143 territories, 40 have closed and another 25 are 'on the edge' of going out of business. Franchisees across HorsePower brands report unhelpful training and misrepresented investment costs. Franchise Times continued coverage into April 2026 as franchisees allege fraud and the franchisor files its own counter-suits.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_legal/for-locations-on-brink-of-closure-franchisees-say-horsepower-brands-falls-short/article_2b69411e-f61a-11ef-a150-5fe37bb32625.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Large gap between territories sold and franchisees actually open",
+          "detail": "FDD Item 20 data shows 94 franchised territories at end of 2024 but only 25 franchisees open and operating; the Item 19 sample is just 8 franchisees who operated the full calendar year. Rapid territory pre-sales ahead of openings is the same pattern criticized in HorsePower's sister-brand litigation.",
+          "source": "Franchise Chatter 2026 review (2025 FDD data)",
+          "url": "https://www.franchisechatter.com/2026/05/27/gatsby-glass-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Heavy mandatory local marketing spend",
+          "detail": "Franchisees must spend $20,000 on initial marketing within the first 90 days, and thereafter the greater of $2,000/month or 5% of monthly gross revenues on local advertising — a significant fixed obligation for a new unit on top of royalties.",
+          "source": "Franchise Chatter 2026 review (FDD data)",
+          "url": "https://www.franchisechatter.com/2026/05/27/gatsby-glass-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": { "value": 150000, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists $150K liquid; IFPG lists $100K. Net worth requirement $500,000." },
+        "totalInvestmentMin": { "value": 195691, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "medium", "note": "Range $195,691-$255,716 per Entrepreneur and Franchise Chatter 2026; IFPG shows an older/higher $289,543-$353,399 range from the 2024 FDD." },
+        "totalInvestmentMax": { "value": 255716, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "medium", "note": "Upper bound of current range; see conflict note on min." },
+        "franchiseFee": { "value": 59500, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "high", "note": "Consistent across Entrepreneur, Franchise Chatter, SharpSheets." },
+        "royaltyPercent": { "value": 5, "source": "https://www.franchisechatter.com/2026/05/27/gatsby-glass-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "medium", "note": "Tiered: 5% on first $1M gross revenue, 4% on $1M-$3M, 3% above $3M, with $500/mo minimum. Older sources cited 8.5% — current FDD structure used. Plus $792/mo technology fee per Entrepreneur." },
+        "avgUnitRevenue": { "value": 1132746, "source": "https://www.franchisechatter.com/2026/05/27/gatsby-glass-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "high", "note": "FDD Item 19: average gross sales of 8 franchisees (operating 27 territories) open the entire 2024 calendar year; range $596,422-$2,738,808; top half averaged $1,559,539, bottom half $705,953. Small sample relative to system size." },
+        "item19Available": { "value": true, "source": "https://www.franchisechatter.com/2026/05/27/gatsby-glass-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high" },
+        "fddAvailable": { "value": true, "source": "https://www.franchisechatter.com/2026/05/27/gatsby-glass-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high" },
+        "totalUnits": { "value": 111, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "medium", "note": "Entrepreneur 2026 count (territories). FDD Item 20 showed 94 franchised territories at end of 2024 with only 25 franchisees open and operating — see risk flag. No company-owned units." },
+        "yearFranchising": { "value": 2022, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "high", "note": "Entrepreneur lists 'founded 1985' but that reflects a predecessor/affiliate glass business; the Gatsby Glass brand and franchise program launched under HorsePower Brands, franchising since 2022." },
+        "trainingWeeks": { "value": 1, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "medium", "note": "48 hours total (32 classroom + 16 on-the-job), roughly one week." },
+        "employeesRequired": { "value": 0, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 0 required to run the business." },
+        "veteranDiscount": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "high", "note": "10% off first-territory franchise fee." },
+        "exclusiveTerritories": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "high", "note": "Protected territories; franchise term 10 years, renewable." },
+        "multiUnitAvailable": { "value": true, "source": "https://www.franchisechatter.com/2026/05/27/gatsby-glass-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "25 franchisees hold 94 territories (avg ~3.8 territories each); Item 19 group of 8 franchisees operated 27 territories." },
+        "absenteeOwnership": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "high" },
+        "canRunFromHome": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "medium" },
+        "canRunPartTime": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "medium" },
+        "isGrowing": { "value": true, "source": "https://www.franchisechatter.com/2026/05/27/gatsby-glass-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "Item 20: 9 outlets end-2022, 50 end-2023, 94 end-2024; ranked No. 255 on Entrepreneur's 2026 Franchise 500. Growth is in territories sold; opened-and-operating count lags." },
+        "ownerTypes": { "value": ["owner-operator", "executive", "multi-unit"], "source": "https://www.entrepreneur.com/franchises/directory/gatsby-glass/335226501", "year": 2026, "confidence": "medium", "note": "Absentee not allowed; most franchisees are multi-territory operators per Item 20 data." }
+      }
+    },
+    {
+      "name": "Dryer Vent Superheroes",
+      "website": "dryerventheroes.com",
+      "notes": "Home-based dryer vent cleaning and repair franchise from Home Run Franchises (Thomas Scott, Nashville), launched in late 2022 with a flat monthly royalty ($1,000-$3,000/mo) instead of a percentage. Growing fast per company PR (32 to 78 units, +41% same-store sales as of May 2026), but the system is very young and unit counts vary widely by source. Note: dryerventsuperheroes.com redirects to the brand's operating domain dryerventheroes.com; the franchise recruiting site is dryerventheroesfranchise.com.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "FDD contains litigation and/or bankruptcy disclosures",
+          "detail": "Vetted Biz's profile states that 'this franchise discloses lawsuits and/or bankruptcy information in its FDD, which may impact your evaluation.' Specifics are behind a paywall and were not independently verified — review FDD Items 3 and 4 directly before any transaction.",
+          "source": "Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/dryer-vent-superheroes",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Wildly conflicting unit counts across sources",
+          "detail": "Vetted Biz lists 25 US locations, Entrepreneur lists 46 units, and the company's own May 2026 press release (via Yahoo Finance) claims growth from 32 to 78 units. The spread likely reflects territories sold vs open units and different snapshot dates; the 78-unit figure is a self-reported marketing claim.",
+          "source": "Vetted Biz / Entrepreneur / company press release on Yahoo Finance",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/dryer-vent-superheroes-reports-41-111600194.html",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Very new, unproven system in a narrow service niche",
+          "detail": "The brand launched in late 2022 and began franchising the same year. Single-service dryer vent cleaning is a thin niche (the company itself markets it as a wide-open market: ~95M US dryers, <5% professionally serviced) with low barriers to entry from HVAC and duct-cleaning competitors. No Item 19 financial performance data was found in public sources.",
+          "source": "Company press release via Yahoo Finance",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/dryer-vent-superheroes-reports-41-111600194.html",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": { "value": 50000, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "medium", "note": "Entrepreneur lists $50K liquid and $50K net worth; Vetted Biz lists $20K minimum cash, franchise.com lists $50K." },
+        "totalInvestmentMin": { "value": 71100, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "medium", "note": "Entrepreneur range $71,100-$212,750 (upper end = large multi-territory). Franchisor's own Item 7 page and other directories show $68,750-$169,800. Range varies with territory size." },
+        "totalInvestmentMax": { "value": 212750, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "medium", "note": "Upper bound of Entrepreneur range; see conflict note." },
+        "franchiseFee": { "value": 39000, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "medium", "note": "Base/small-territory fee. Tiered by market size — Entrepreneur shows a $39,000-$117,000 range; franchisor materials cite $49K/$98K/$147K for small/medium/large territories." },
+        "totalUnits": { "value": 46, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "low", "note": "Entrepreneur figure. Company PR claims 78 units as of May 2026; Vetted Biz shows 25 — see risk flag." },
+        "yearFounded": { "value": 2022, "source": "https://www.vettedbiz.com/franchises/dryer-vent-superheroes", "year": 2025, "confidence": "medium", "note": "Vetted Biz and the company's own PR say launched (late) 2022; Entrepreneur lists founded 2016, franzy lists 2021 — conflict noted, brand-launch year used." },
+        "yearFranchising": { "value": 2022, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "high", "note": "Entrepreneur and Vetted Biz agree franchising began 2022." },
+        "trainingWeeks": { "value": 3, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "medium", "note": "105.5 hours total (91.5 classroom + 14 on-the-job), spread over multiple weeks." },
+        "employeesRequired": { "value": 0, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "medium", "note": "Listed as 0 required to run; owner-operator launch model." },
+        "fddAvailable": { "value": true, "source": "https://www.vettedbiz.com/franchises/dryer-vent-superheroes", "year": 2025, "confidence": "high" },
+        "veteranDiscount": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "high", "note": "$5,000 off franchise fee." },
+        "exclusiveTerritories": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "high", "note": "Franchise term 10 years, renewable." },
+        "absenteeOwnership": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "high" },
+        "canRunFromHome": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "high", "note": "Mobile, home-based service business." },
+        "canRunPartTime": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "high" },
+        "isGrowing": { "value": true, "source": "https://finance.yahoo.com/sectors/healthcare/articles/dryer-vent-superheroes-reports-41-111600194.html", "year": 2026, "confidence": "medium", "note": "Company-reported growth from 32 to 78 units with 41% same-store sales increase (May 2026 press release — self-reported)." },
+        "ownerTypes": { "value": ["owner-operator"], "source": "https://www.entrepreneur.com/franchises/directory/dryer-vent-superheroes/335226884", "year": 2025, "confidence": "medium", "note": "Full-time owner-operator required (no part-time, no absentee). Royalty is a flat $1,000-$3,000/month rather than a percentage, plus $600/mo technology fee." }
+      }
+    },
+    {
+      "name": "Up Closets",
+      "website": "upclosets.com",
+      "notes": "Custom closet design/installation franchise from Home Run Franchises (Thomas Scott, Nashville), franchising since 2022 with a home-based, flat-monthly-royalty model ($1,000-$4,000/mo). Rapid territory sales (Entrepreneur shows 93 units, +4,550% growth) but a 2025 FDD-derived profile shows 44 open franchised units; no litigation found in searches.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Gap between reported units and FDD-derived open-unit count",
+          "detail": "Entrepreneur's 2026 listing shows 93 units with an eye-catching +4,550% growth rate, while FranchisePayback's 2025 FDD-based profile shows 44 open franchised units (0 company-owned). The difference likely reflects territories sold but not yet open — a pattern common to fast-selling emerging brands; verify open vs sold in the current FDD Item 20.",
+          "source": "Entrepreneur vs FranchisePayback (2025 FDD)",
+          "url": "https://www.franchisepayback.com/franchise/up-closets",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Very new brand competing against entrenched closet franchises",
+          "detail": "Founded 2020-2022 (sources conflict) and franchising only since 2022, Up Closets competes in a category dominated by long-established systems (Closets by Design, Closet Factory, California Closets) with far larger AUVs and brand recognition. The circulating ~$503K AUV figure is not a formally disclosed FDD Item 19 number per FranchisePayback. No lawsuits, closures, or bankruptcy disclosures surfaced in searches.",
+          "source": "FranchisePayback / Franchise Chatter category data",
+          "url": "https://www.franchisepayback.com/franchise/up-closets",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": { "value": 50000, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "high", "note": "$50K liquid cash and $50K net worth per Entrepreneur." },
+        "totalInvestmentMin": { "value": 71350, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "medium", "note": "Entrepreneur range $71,350-$218,000 (upper end = larger/multiple territories); FranchisePayback's 2025 FDD profile shows $71,000-$128,000 for a single territory." },
+        "totalInvestmentMax": { "value": 218000, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "medium", "note": "Upper bound of Entrepreneur range; single-territory max is ~$128,000 per FranchisePayback." },
+        "franchiseFee": { "value": 39000, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "high", "note": "Base single-territory fee; Entrepreneur shows $39,000-$117,000 tiered by territory size/count." },
+        "adFundPercent": { "value": 2, "source": "https://www.franchisepayback.com/franchise/up-closets", "year": 2025, "confidence": "low", "note": "FranchisePayback lists a 2% brand fund; Entrepreneur lists $0 ad royalty (plus a $500/mo brand & technology fee). Conflict unresolved." },
+        "totalUnits": { "value": 93, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "low", "note": "Entrepreneur 2026 figure (likely territories); FranchisePayback (2025 FDD) shows 44 open franchised units — see risk flag." },
+        "yearFounded": { "value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 2020; FranchisePayback lists 2022. Founded by Thomas Scott, Nashville TN." },
+        "yearFranchising": { "value": 2022, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "high" },
+        "trainingWeeks": { "value": 3, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "medium", "note": "105.5 hours total (91.5 classroom + 14 on-the-job), spread over multiple weeks." },
+        "employeesRequired": { "value": 0, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "medium", "note": "Listed as 0 required to run at launch." },
+        "fddAvailable": { "value": true, "source": "https://www.franchisepayback.com/franchise/up-closets", "year": 2025, "confidence": "high", "note": "2025 FDD is the latest cited." },
+        "veteranDiscount": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "high", "note": "$5,000 off franchise fee." },
+        "exclusiveTerritories": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "high", "note": "Franchise term 10 years, renewable." },
+        "absenteeOwnership": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "high" },
+        "canRunFromHome": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "high", "note": "Home-based; no showroom required." },
+        "canRunPartTime": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "high" },
+        "isGrowing": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "medium", "note": "Both Entrepreneur and FDD-derived sources show rapid unit/territory growth since 2022 launch." },
+        "ownerTypes": { "value": ["owner-operator"], "source": "https://www.entrepreneur.com/franchises/directory/up-closets/335226883", "year": 2026, "confidence": "medium", "note": "Full-time owner-operator (no part-time, no absentee). Royalty is a flat $1,000-$4,000/month rather than a percentage." }
+      }
+    },
+    {
+      "name": "Wise Coatings",
+      "website": "wisecoatings.com",
+      "notes": "Epoxy/polyaspartic concrete floor coating franchise founded in 2020 by home-services entrepreneur Brandon Vaughn, franchising since 2021. Very small founder-led system (~15 locations: 14 franchised, 1 corporate per Vetted Biz); no litigation or bankruptcy disclosures found, but key figures (royalty, investment range, unit count) conflict across sources.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Very small, very young founder-led system",
+          "detail": "Founded 2020, franchising since 2021, with roughly 15 locations (14 franchised, 1 corporate) per Vetted Biz — other sources claim ~20. A system this small has limited validation data, limited peer franchisees to interview, and heavy dependence on founder Brandon Vaughn. Vetted Biz also notes the FDD does not disclose any lawsuits or bankruptcy.",
+          "source": "Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/wise-coatings/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Conflicting fee and investment data across sources",
+          "detail": "Royalty is reported as 5% + 2% marketing by Vetted Biz, while founder Brandon Vaughn has publicly referenced a 7% royalty (possibly the combined figure); investment ranges vary from ~$103K-$122K (FDD Item 7 per Vetted Biz) to $114,550-$133,650 (TopFranchise), and unit counts range 15-20. The circulating ~$499K gross sales figure could not be confirmed as a formal FDD Item 19 disclosure and is omitted from fields. Verify all numbers against the current FDD.",
+          "source": "Vetted Biz / TopFranchise (conflict documented)",
+          "url": "https://www.vettedbiz.com/franchises/wise-coatings/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Crowded, low-moat category",
+          "detail": "Garage floor coatings is one of the most heavily franchised emerging home-service niches (Garage Kings, Hello Garage, GarageExperts, Garage Force, plus HorsePower's Grand Welcome-adjacent coating brands), with low technical barriers to entry — territory competition and price pressure are structural risks for a 15-unit newcomer.",
+          "source": "FranChimp franchise database (category listings)",
+          "url": "https://www.franchimp.com/franchise/wise-coatings-123975",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": { "value": 90000, "source": "https://www.vettedbiz.com/franchises/wise-coatings/", "year": 2025, "confidence": "medium", "note": "Vetted Biz lists $90,000 minimum cash required." },
+        "totalInvestmentMin": { "value": 102957, "source": "https://www.vettedbiz.com/franchises/wise-coatings/", "year": 2025, "confidence": "medium", "note": "FDD Item 7 range $102,957-$122,007 per Vetted Biz; TopFranchise shows $114,550-$133,650 — conflict noted." },
+        "totalInvestmentMax": { "value": 122007, "source": "https://www.vettedbiz.com/franchises/wise-coatings/", "year": 2025, "confidence": "medium", "note": "Upper bound of Vetted Biz FDD Item 7 range; see conflict note on min." },
+        "franchiseFee": { "value": 50000, "source": "https://www.vettedbiz.com/franchises/wise-coatings/", "year": 2025, "confidence": "medium", "note": "Vetted Biz lists $50,000; some directories list $49,500." },
+        "royaltyPercent": { "value": 5, "source": "https://www.vettedbiz.com/franchises/wise-coatings/", "year": 2025, "confidence": "medium", "note": "5% of monthly sales per Vetted Biz, plus 2% marketing fee. Founder has publicly referenced '7% royalty,' likely the combined 5%+2%." },
+        "adFundPercent": { "value": 2, "source": "https://www.vettedbiz.com/franchises/wise-coatings/", "year": 2025, "confidence": "medium", "note": "2% of monthly sales marketing fee." },
+        "totalUnits": { "value": 15, "source": "https://www.vettedbiz.com/franchises/wise-coatings/", "year": 2025, "confidence": "medium", "note": "14 franchised + 1 corporate per Vetted Biz; All USA Franchises mentions ~20 locations — conflict noted." },
+        "yearFounded": { "value": 2020, "source": "https://www.vettedbiz.com/franchises/wise-coatings/", "year": 2025, "confidence": "high", "note": "Founded by Brandon Vaughn." },
+        "yearFranchising": { "value": 2021, "source": "https://www.franchimp.com/franchise/wise-coatings-123975", "year": 2025, "confidence": "high", "note": "First FDD on record is 2021 (FranChimp archives 2021 and 2022 FDDs)." },
+        "fddAvailable": { "value": true, "source": "https://www.franchimp.com/franchise/wise-coatings-123975", "year": 2025, "confidence": "high", "note": "2021 and 2022 FDDs publicly archived on FranChimp." },
+        "canRunFromHome": { "value": true, "source": "https://www.vettedbiz.com/franchises/wise-coatings/", "year": 2025, "confidence": "low", "note": "Mobile service model promoted as low-overhead/home-based by directories; not confirmed from FDD." }
+      }
+    }
+  ]
+}

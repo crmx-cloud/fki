@@ -1,0 +1,969 @@
+{
+ "brands": [
+  {
+   "name": "GNC",
+   "slug": "gnc",
+   "category": "Retail",
+   "website": "gnc.com",
+   "notes": "Health and nutrition retail franchise founded 1935, franchising since 1988. Emerged from a 2020 Chapter 11 with mass store closures and the system continues to contract; franchise development runs through gncfranchising.com.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "2020 Chapter 11 bankruptcy with up to 1,200 store closures",
+     "detail": "GNC Holdings filed Chapter 11 in June 2020 after years of declining sales and $900M+ in debt, announcing plans to close as many as 1,200 of its ~5,200 U.S. stores while it sought a buyer.",
+     "source": "The Washington Post",
+     "url": "https://www.washingtonpost.com/business/2020/06/24/gnc-files-bankruptcy-will-close-up-1200-stores/",
+     "year": 2020
+    },
+    {
+     "severity": "caution",
+     "title": "551 stores permanently closed via bankruptcy lease rejections, including franchise leases",
+     "detail": "Per GNC's SEC filing, 551 stores were permanently closed effective June 2020 after the Bankruptcy Court authorized rejection of certain unexpired U.S. and Canada company-owned and franchise leases.",
+     "source": "GNC Holdings SEC filing (10-Q, Q2 2020)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1502034/000162828020012374/gnc-20200630.htm",
+     "year": 2020
+    },
+    {
+     "severity": "caution",
+     "title": "Continuing system contraction",
+     "detail": "Entrepreneur's franchise directory shows a -10% unit growth rate for GNC Franchising; the franchised system has continued shedding units since the 2020 restructuring.",
+     "source": "Entrepreneur Franchise 500 directory",
+     "url": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026
+    }
+   ],
+   "nationwide": {
+    "source": "GNC Franchising FAQ (franchisor site)",
+    "url": "https://gncfranchising.com/faq",
+    "year": 2026,
+    "note": "Franchisor FAQ states U.S. franchise opportunities are available (plus international/master franchise markets); offers remain subject to state franchise registration."
+   },
+   "fields": {
+    "franchiseFee": {
+     "value": 20000,
+     "source": "https://gncfranchising.com/faq",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor FAQ: $20,000 standard; $15,000 for current GNC employees and honorably discharged veterans. Conflicts with Entrepreneur directory listing of $40,000 \u2014 franchisor's own current figure used."
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "https://gncfranchising.com/faq",
+     "year": 2026,
+     "confidence": "high",
+     "note": "6% of gross sales for U.S. franchises (5% for international per franchisor FAQ)."
+    },
+    "adFundPercent": {
+     "value": 3,
+     "source": "https://gncfranchising.com/faq",
+     "year": 2026,
+     "confidence": "high",
+     "note": "3% of gross sales toward national marketing."
+    },
+    "totalInvestmentMin": {
+     "value": 172000,
+     "source": "https://franchisevs.com/cost/gnc/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD range $172K-$449K per verification audit 2026-06-11. Prior batch value 149722 superseded."
+    },
+    "totalInvestmentMax": {
+     "value": 449000,
+     "source": "https://franchisevs.com/cost/gnc/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD range $172K-$449K per verification audit 2026-06-11. Prior batch value 388630 superseded."
+    },
+    "liquidCapitalMin": {
+     "value": 240000,
+     "source": "https://gncfranchising.com/faq",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Franchisor FAQ states minimum $240,000 in liquid assets; conflicts with Entrepreneur ($130,000) and Franchise Gator ($125,000) \u2014 franchisor figure used as most authoritative."
+    },
+    "avgUnitRevenue": {
+     "value": 443685,
+     "source": "https://www.vettedbiz.com/franchises/gnc",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Annual gross sales of reporting franchised stores per VettedBiz analysis of GNC FDD Item 19 (gross sales only, no profit data); another FDD analysis cites 2024 average gross sales of $475,925 across 675 reporting stores."
+    },
+    "totalUnits": {
+     "value": 6019,
+     "source": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur total units (includes company-owned and international franchise locations); VettedBiz lists ~2,140 U.S. locations."
+    },
+    "closureCount": {
+     "value": 551,
+     "source": "https://www.sec.gov/Archives/edgar/data/1502034/000162828020012374/gnc-20200630.htm",
+     "year": 2020,
+     "confidence": "high",
+     "note": "Stores permanently closed effective June 2020 via Chapter 11 lease rejections; company had announced plans to close up to 1,200-1,400 stores overall."
+    },
+    "yearFounded": {
+     "value": 1935,
+     "source": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1988,
+     "source": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 3,
+     "source": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026,
+     "confidence": "low",
+     "note": "Derived from Entrepreneur-listed 40 classroom hours + 80 on-the-job hours (~120 hours at 40 hrs/week)."
+    },
+    "employeesRequired": {
+     "value": 3,
+     "source": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Entrepreneur lists 3-4 employees required; lower bound shown."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2021/04/08/fdd-talk-gnc-franchise-review-financial-performance-analysis-costs-fees-and-more-3/",
+     "year": 2021,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2021/04/08/fdd-talk-gnc-franchise-review-financial-performance-analysis-costs-fees-and-more-3/",
+     "year": 2021,
+     "confidence": "high",
+     "note": "Item 19 discloses gross retail sales of franchised stores (average, median, high, low); no cost or margin data."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://gncfranchising.com/faq",
+     "year": 2026,
+     "confidence": "high",
+     "note": "VetFran 5-star member; reduced $15,000 franchise fee ($5,000 off) for honorably discharged U.S. veterans. Entrepreneur lists 50% off first-store fee."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Entrepreneur shows -10% unit growth; system has been contracting since the 2020 bankruptcy."
+    },
+    "marketingSupport": {
+     "value": [
+      "Co-op advertising",
+      "National ad fund (3% of gross sales)"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "ongoingSupport": {
+     "value": [
+      "Site selection assistance",
+      "Lease negotiation",
+      "Franchisee intranet platform"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/gnc-franchising/282377",
+     "year": 2026,
+     "confidence": "medium"
+    }
+   }
+  },
+  {
+   "name": "Edible Arrangements",
+   "slug": "edible-arrangements",
+   "category": "Retail",
+   "website": "edible.com",
+   "notes": "Fruit-arrangement and gifting retail franchise (rebranded 'Edible'), founded 1999 and franchising since 2000. Roughly 900 locations with a shrinking unit count and a notable history of franchisee litigation against the franchisor.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "Franchisee association lawsuit alleging self-dealing and ad fund misuse (2020)",
+     "detail": "The EA Group Advancement Association sued Edible Arrangements in Fulton County (GA) Superior Court in March 2020, alleging founder Tariq Farid engaged in self-dealing via affiliate companies, improperly used advertising-fund money for operations, and unfairly imposed system-wide mandates.",
+     "source": "Franchise Times",
+     "url": "https://www.franchisetimes.com/franchise_news/lawsuit-alleges-edible-arrangements-founder-is-self-dealing/article_f382f458-09a2-507a-9a92-aae40a9e333a.html",
+     "year": 2020
+    },
+    {
+     "severity": "caution",
+     "title": "Valentine's Day 2020 ordering-system failure harmed franchisees",
+     "detail": "The franchisor's EA Connect ordering system went down on Feb 14, 2020, leaving franchisees unable to access customer information to fulfill orders on their biggest day, resulting in mass undelivered orders; the failure featured in the franchisee lawsuit.",
+     "source": "Franchise Times",
+     "url": "https://www.franchisetimes.com/franchise_insights/as-founder-struggles-to-fix-edible-franchisees-file-lawsuit/article_aa6f5944-a5bb-55a5-8d4a-f5043ae99901.html",
+     "year": 2020
+    },
+    {
+     "severity": "caution",
+     "title": "Unit count declining",
+     "detail": "Entrepreneur's directory lists 904 total units with a -10% growth rate; VettedBiz counts ~685 U.S. locations, well below the brand's historical peak of 1,200+.",
+     "source": "Entrepreneur Franchise 500 directory",
+     "url": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Earlier franchisee litigation history (2010-2012)",
+     "detail": "A group of franchisees sued Edible Arrangements in 2010-2011 alleging unfair practices around mandated POS systems, fees, and discounting programs; disputes were pushed into arbitration.",
+     "source": "Inc.com",
+     "url": "https://www.inc.com/news/articles/201107/edible-arrangements-lawsuit.html",
+     "year": 2011
+    }
+   ],
+   "nationwide": {
+    "source": "Edible franchise development site",
+    "url": "https://franchise.edible.com/",
+    "year": 2026,
+    "note": "Franchisor states opportunities available across the U.S. and Canada; site lists state-registration disclaimer for CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, WI."
+   },
+   "fields": {
+    "franchiseFee": {
+     "value": 30000,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "high",
+     "note": "$30,000 standard; reduced fee for qualifying veterans."
+    },
+    "royaltyPercent": {
+     "value": 5,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "high",
+     "note": "5% of gross sales."
+    },
+    "adFundPercent": {
+     "value": 3.5,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "high",
+     "note": "3.5% national advertising fund; an additional ~1.5% local marketing commitment is reported by FDD analyses."
+    },
+    "totalInvestmentMin": {
+     "value": 240000,
+     "source": "https://franchise.edible.com/investment/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor investment page: $240K-$531K. Entrepreneur lists a lower $183,600-$409,700 range \u2014 franchisor's current figure used."
+    },
+    "totalInvestmentMax": {
+     "value": 531000,
+     "source": "https://franchise.edible.com/investment/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "liquidCapitalMin": {
+     "value": 250000,
+     "source": "https://franchise.edible.com/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Franchisor site lists $250K liquid capital and $750K minimum net worth; conflicts with Entrepreneur's $80,000 cash requirement \u2014 franchisor figure used."
+    },
+    "avgUnitRevenue": {
+     "value": 515984,
+     "source": "https://www.vettedbiz.com/franchises/edible-arrangements/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Average yearly gross sales per unit per VettedBiz analysis derived from Edible's FDD Item 19; other FDD analyses cite ~$541K AUV depending on FDD year."
+    },
+    "totalUnits": {
+     "value": 904,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Total units incl. international; ~685 U.S. locations per VettedBiz."
+    },
+    "yearFounded": {
+     "value": 1999,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2000,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Some sources cite 2001."
+    },
+    "trainingWeeks": {
+     "value": 2,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "low",
+     "note": "Derived from Entrepreneur-listed 41 classroom hours + 45 on-the-job hours (~86 hours)."
+    },
+    "employeesRequired": {
+     "value": 6,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchimp.com/?page=pdf&f=102587_2024.pdf",
+     "year": 2024,
+     "confidence": "high",
+     "note": "2024 FDD on public record."
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.vettedbiz.com/franchises/edible-arrangements/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "high",
+     "note": "$10,000 off first-store franchise fee for veterans per Entrepreneur (other sources describe a reduced $20,000 fee)."
+    },
+    "exclusiveTerritories": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/edible/299915",
+     "year": 2025,
+     "confidence": "high",
+     "note": "-10% unit growth rate per Entrepreneur."
+    },
+    "ongoingSupport": {
+     "value": [
+      "Training programs for new and experienced franchisees",
+      "Real estate and staffing guidance",
+      "Technology systems",
+      "E-commerce infrastructure"
+     ],
+     "source": "https://franchise.edible.com/",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "marketingSupport": {
+     "value": [
+      "Marketing expertise and localized tools",
+      "National advertising fund"
+     ],
+     "source": "https://franchise.edible.com/",
+     "year": 2026,
+     "confidence": "medium"
+    }
+   }
+  },
+  {
+   "name": "Dogtopia",
+   "slug": "dogtopia",
+   "category": "Pets",
+   "website": "dogtopia.com",
+   "notes": "Dog daycare, boarding and spa franchise founded 2002, franchising since 2005, with ~280 open U.S. locations and continued unit growth. High investment ($664K-$1.5M) with strong franchisee satisfaction scores but isolated pet-safety litigation and consumer complaints.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Pet-death negligence lawsuit at a franchised location (2023)",
+     "detail": "Baylis v. Dogtopia Enterprises LLC (Harris County, TX, filed Dec 2023) alleges negligence and DTPA violations after a French bulldog died of heat stroke at a Houston Galleria-area Dogtopia; case was still pending as of 2026 per a third-party due-diligence report.",
+     "source": "FranchiseComplaints.org due diligence report",
+     "url": "https://www.franchisecomplaints.org/reports/dogtopia-franchise-due-diligence/",
+     "year": 2023
+    },
+    {
+     "severity": "info",
+     "title": "Consumer complaints at individual locations",
+     "detail": "BBB complaints against individual Dogtopia locations cite illness outbreaks (e.g., Giardia), overcrowding, and billing disputes; no class actions or regulatory enforcement found in public records for 2024-2026.",
+     "source": "Better Business Bureau",
+     "url": "https://www.bbb.org/us/az/phoenix/profile/dog-daycare/dogtopia-1126-1000053829/complaints",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "Effective ongoing fee burden exceeds headline royalty",
+     "detail": "Franchise Chatter's fee analysis of the Dogtopia FDD found the base percentage burden is at least 11% of gross sales once royalty, brand fund, and local marketing commitments are combined, before technology and other program fees.",
+     "source": "Franchise Chatter",
+     "url": "https://www.franchisechatter.com/2022/02/06/considering-a-dogtopia-franchise-dont-overlook-these-25-important-franchise-fees/",
+     "year": 2022
+    }
+   ],
+   "nationwide": {
+    "source": "Entrepreneur Franchise 500 directory",
+    "url": "https://www.entrepreneur.com/franchises/directory/dogtopia/329162",
+    "year": 2026,
+    "note": "Entrepreneur lists franchising opportunities available throughout the United States; franchisor site notes offers are only made in states where Dogtopia is registered or otherwise qualified."
+   },
+   "fields": {
+    "franchiseFee": {
+     "value": 49500,
+     "source": "https://www.dogtopia.com/franchising-us/the-investment/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 7,
+     "source": "https://www.dogtopia.com/franchising-us/the-investment/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "7% of gross sales."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://www.entrepreneur.com/franchises/directory/dogtopia/329162",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "2% ad royalty per Entrepreneur; additional local marketing commitment applies per FDD fee analyses."
+    },
+    "totalInvestmentMin": {
+     "value": 664355,
+     "source": "https://www.dogtopia.com/franchising-us/the-investment/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor states $664,355-$1,478,820 total investment."
+    },
+    "totalInvestmentMax": {
+     "value": 1478820,
+     "source": "https://www.dogtopia.com/franchising-us/the-investment/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "liquidCapitalMin": {
+     "value": 300000,
+     "source": "https://www.dogtopia.com/franchising-us/the-investment/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Minimum $300K liquid capital and $1M net worth per franchisor."
+    },
+    "avgUnitRevenue": {
+     "value": 916000,
+     "source": "https://franchiseinvestordata.com/franchise/dogtopia",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Median AUV per FDD Item 19 analysis (top quartile ~$1.2M, bottom quartile ~$650K, ~290 locations); other Item 19 analyses cite average yearly gross sales of $905,798."
+    },
+    "totalUnits": {
+     "value": 274,
+     "source": "https://www.entrepreneur.com/franchises/directory/dogtopia/329162",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists 274 units; FranchiseInvestorData counts ~290 US locations."
+    },
+    "yearFounded": {
+     "value": 2002,
+     "source": "https://www.entrepreneur.com/franchises/directory/dogtopia/329162",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2005,
+     "source": "https://www.entrepreneur.com/franchises/directory/dogtopia/329162",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 4,
+     "source": "https://www.entrepreneur.com/franchises/directory/dogtopia/329162",
+     "year": 2026,
+     "confidence": "low",
+     "note": "Derived from Entrepreneur-listed 80 classroom + 80 on-the-job hours (~160 hours); one FDD analysis describes a 6-week training program."
+    },
+    "employeesRequired": {
+     "value": 15,
+     "source": "https://www.entrepreneur.com/franchises/directory/dogtopia/329162",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists 15-20 employees required; lower bound shown."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchimp.com/?page=pdf&f=109475_2024.pdf",
+     "year": 2024,
+     "confidence": "high",
+     "note": "2024 FDD on public record."
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://franchiseinvestordata.com/franchise/dogtopia",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Item 19 discloses gross sales analysis and key operating metrics."
+    },
+    "sbaApproved": {
+     "value": true,
+     "source": "https://www.dogtopia.com/franchising-us/the-investment/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Franchisor states up to 90% financing available via SBA registry plus $100M reserved with preferred lenders."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.dogtopia.com/franchising-us/the-investment/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "10% veteran discount on franchise fee."
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.dogtopia.com/franchising-us/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Franchisor signs multi-unit development agreements (e.g., publicized four-daycare agreements)."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/dogtopia/329162",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "absenteeOwnership": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/dogtopia/329162",
+     "year": 2026,
+     "confidence": "low",
+     "note": "Entrepreneur lists absentee ownership as allowed; in practice the model is marketed as semi-absentee and one FDD analysis describes it as not absentee-friendly."
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/dogtopia/329162",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/dogtopia/329162",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/dogtopia/329162",
+     "year": 2026,
+     "confidence": "high",
+     "note": "+12.3% unit growth per Entrepreneur, though one analysis notes growth moderated to ~3.8% in 2024."
+    }
+   }
+  },
+  {
+   "name": "Camp Bow Wow",
+   "slug": "camp-bow-wow",
+   "category": "Pets",
+   "website": "campbowwow.com",
+   "notes": "Dog daycare and boarding franchise founded 2000, franchising since 2003, with 220+ camps in the U.S. and Canada; acquired by Propelled Brands in Feb 2024. Strong Item 19 ($1.09M mean gross sales, 2025) but a heavy build-out cost of roughly $955K-$1.23M.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Dog death, failed inspections, and staff walkout at Littleton, CO camp (2025)",
+     "detail": "A Denver7 investigation found the Camp Bow Wow Littleton location failed four state inspections in one year (understaffing, overcrowding, safety violations), a dog died in its care in August 2025 with the camp cited for making false or fraudulent statements about its response, and employees walked off the job in October 2025; the location was fined and transitioned to new ownership.",
+     "source": "Denver7 (KMGH) Investigates",
+     "url": "https://www.denver7.com/news/investigations/littleton-doggy-daycare-had-a-history-of-violations-and-a-dog-death-at-the-facility-records-show",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Franchisor-initiated litigation against former franchisee",
+     "detail": "Camp Bow Wow Franchising, Inc. v. Gone to the Dogs, LLC (D. Colo., 1:22-cv-01252, filed May 2022) is a franchisor-franchisee dispute that proceeded through federal court and arbitration-related motions into 2025.",
+     "source": "Justia Dockets",
+     "url": "https://dockets.justia.com/docket/colorado/codce/1:2022cv01252/215383",
+     "year": 2022
+    },
+    {
+     "severity": "info",
+     "title": "Ownership change: acquired by Propelled Brands (2024)",
+     "detail": "Propelled Brands (parent of FASTSIGNS and others) acquired Camp Bow Wow in February 2024, a change of franchisor control prospective franchisees should evaluate.",
+     "source": "Propelled Brands press release",
+     "url": "https://www.propelledbrands.com/news/2024/february/propelled-brands-acquires-camp-bow-wow-elevating/",
+     "year": 2024
+    }
+   ],
+   "nationwide": {
+    "source": "Camp Bow Wow Franchising FAQ (franchisor site)",
+    "url": "https://www.campbowwow.com/franchising/about-us/faqs/",
+    "year": 2026,
+    "note": "Franchisor FAQ markets available territories across the United States (plus Canada) via its available-territories map; in May 2026 the brand announced a reduced-investment model to accelerate multi-unit growth (franchise.org)."
+   },
+   "fields": {
+    "franchiseFee": {
+     "value": 50000,
+     "source": "https://www.campbowwow.com/franchising/about-us/faqs/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "$50,000 standard; $25,000 for veterans and first responders."
+    },
+    "royaltyPercent": {
+     "value": 7,
+     "source": "https://www.entrepreneur.com/franchises/directory/camp-bow-wow/308958",
+     "year": 2025,
+     "confidence": "high",
+     "note": "7% of net revenue or a minimum monthly amount, whichever is greater, per FDD analyses."
+    },
+    "adFundPercent": {
+     "value": 1,
+     "source": "https://www.entrepreneur.com/franchises/directory/camp-bow-wow/308958",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "totalInvestmentMin": {
+     "value": 954606,
+     "source": "https://www.campbowwow.com/franchising/about-us/faqs/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Franchisor cites $954,606-$1,229,536 per its 2025 FDD; a reduced-investment model was announced May 2026 (franchise.org)."
+    },
+    "totalInvestmentMax": {
+     "value": 1229536,
+     "source": "https://www.campbowwow.com/franchising/about-us/faqs/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "liquidCapitalMin": {
+     "value": 500000,
+     "source": "https://www.campbowwow.com/franchising/about-us/faqs/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Minimum $500K liquid assets and $1.2M net worth per franchisor FAQ."
+    },
+    "avgUnitRevenue": {
+     "value": 1089860,
+     "source": "https://www.campbowwow.com/franchising/about-us/faqs/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Mean average gross sales of reporting camps in 2025 ($1,089,859.75) per franchisor-published Item 19 data; top 25% of camps averaged $1,480,842."
+    },
+    "totalUnits": {
+     "value": 227,
+     "source": "https://www.entrepreneur.com/franchises/directory/camp-bow-wow/308958",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Franchisor cites 220+ U.S. locations plus one in Canada."
+    },
+    "yearFounded": {
+     "value": 2000,
+     "source": "https://www.entrepreneur.com/franchises/directory/camp-bow-wow/308958",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2003,
+     "source": "https://www.entrepreneur.com/franchises/directory/camp-bow-wow/308958",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 2,
+     "source": "https://www.entrepreneur.com/franchises/directory/camp-bow-wow/308958",
+     "year": 2025,
+     "confidence": "low",
+     "note": "Derived from Entrepreneur-listed 48 classroom + 32 on-the-job hours (~80 hours)."
+    },
+    "employeesRequired": {
+     "value": 8,
+     "source": "https://www.entrepreneur.com/franchises/directory/camp-bow-wow/308958",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Entrepreneur lists 8-20 employees; lower bound shown."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://vetmyfranchise.com/franchise/camp-bow-wow-franchising-inc",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD reviewed publicly."
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.campbowwow.com/franchising/about-us/faqs/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor publishes Item 19-derived mean and top-quartile gross sales figures."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.campbowwow.com/franchising/about-us/faqs/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "50% off franchise fee ($25,000) for veterans and first responders."
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.campbowwow.com/franchising/about-us/faqs/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Over 50% of camps are owned by multi-unit owners; May 2026 reduced-investment model targets multi-unit growth."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/camp-bow-wow/308958",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/camp-bow-wow/308958",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/camp-bow-wow/308958",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/camp-bow-wow/308958",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/camp-bow-wow/308958",
+     "year": 2025,
+     "confidence": "high",
+     "note": "+6.1% unit growth per Entrepreneur."
+    }
+   }
+  },
+  {
+   "name": "Pet Supplies Plus",
+   "slug": "pet-supplies-plus",
+   "category": "Pets",
+   "website": "petsuppliesplus.com",
+   "notes": "Pet retail (food, supplies, grooming) franchise founded 1987, franchising since 1990, with ~729 stores and steady growth; the largest pet-retail franchise in the U.S. Strong $2.7M AUV but recent franchisee bankruptcies and a 2024 parent-company Chapter 11 warrant scrutiny.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Former parent Franchise Group Inc. filed Chapter 11 (Nov 2024)",
+     "detail": "Franchise Group Inc., then parent of the Pet Supplies Plus franchisor, filed for Chapter 11 protection on Nov 3, 2024 to restructure; the Pet Supplies Plus franchisor entity itself did not file for bankruptcy.",
+     "source": "TheStreet",
+     "url": "https://www.thestreet.com/retail/pet-supplies-plus-franchisee-files-chapter-11-bankruptcy",
+     "year": 2024
+    },
+    {
+     "severity": "caution",
+     "title": "Multiple franchisee Chapter 11 bankruptcies (2025-2026)",
+     "detail": "At least two Pet Supplies Plus franchisees filed Chapter 11, including Florida-based PSP TS LLC in May 2026 (listing $1M-$10M in liabilities), following an earlier franchisee filing covered in 2025.",
+     "source": "TheStreet",
+     "url": "https://www.thestreet.com/retail/another-pet-supplies-plus-franchisee-files-chapter-11-bankruptcy",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "Franchisee termination and trademark/non-compete litigation (2025)",
+     "detail": "Franchisee J.L.E.T. Enterprises LLC had its franchise agreement terminated in May 2025 and faced litigation in the U.S. District Court for the Western District of Missouri over trademark infringement and non-compete breaches after attempting to operate independently.",
+     "source": "TheStreet",
+     "url": "https://www.thestreet.com/retail/pet-supplies-plus-franchisee-files-chapter-11-bankruptcy",
+     "year": 2025
+    }
+   ],
+   "nationwide": {
+    "source": "Entrepreneur Franchise 500 directory",
+    "url": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+    "year": 2026,
+    "note": "Entrepreneur lists franchising offered in all 50 states plus DC; stores currently operate in ~44 states."
+   },
+   "fields": {
+    "franchiseFee": {
+     "value": 49900,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Also confirmed on franchisor development site."
+    },
+    "royaltyPercent": {
+     "value": 2,
+     "source": "https://www.petsuppliesplusfranchising.com/the-financial-benefits-of-owning-the-top-pet-franchise/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "2% of gross sales for the first 12 months, 3% thereafter; lower bound shown."
+    },
+    "adFundPercent": {
+     "value": 3.5,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Up to 3.5% of gross sales; per FDD analyses ~2/3 is PSP-directed local spend and ~1/3 goes to the marketing/advertising fund."
+    },
+    "totalInvestmentMin": {
+     "value": 520250,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Entrepreneur range $520,250-$1,818,900."
+    },
+    "totalInvestmentMax": {
+     "value": 1818900,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "liquidCapitalMin": {
+     "value": 200000,
+     "source": "https://www.petsuppliesplusfranchising.com/the-financial-benefits-of-owning-the-top-pet-franchise/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Franchisor site cites $200K liquid assets and $600K net worth; Entrepreneur lists $300K cash requirement \u2014 franchisor figure used."
+    },
+    "avgUnitRevenue": {
+     "value": 2700000,
+     "source": "https://www.petsuppliesplusfranchising.com/the-financial-benefits-of-owning-the-top-pet-franchise/",
+     "year": 2021,
+     "confidence": "high",
+     "note": "Item 19-derived average unit volume for the 2021 calendar year across 248 franchised stores open 12+ months, as published by the franchisor; more recent FDD analyses cite a ~$2.6M median."
+    },
+    "totalUnits": {
+     "value": 729,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "high",
+     "note": "TheStreet (2026) reports 725 locations in 44 states; parent also operates the Wag N' Wash sister brand."
+    },
+    "yearFounded": {
+     "value": 1987,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Some press reports cite 1988."
+    },
+    "yearFranchising": {
+     "value": 1990,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 2,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Comprehensive 2-week operational training program plus 80-160 on-the-job hours per Entrepreneur."
+    },
+    "employeesRequired": {
+     "value": 5,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists 5-30 employees; lower bound shown."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisegenius.com/research/pet-supplies-plus-Franchise-Disclosure-Documents-FDD",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.petsuppliesplusfranchising.com/the-financial-benefits-of-owning-the-top-pet-franchise/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor publishes Item 19-derived AUV figures."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "high",
+     "note": "20% off initial franchise fee for qualified veterans; ranked in Entrepreneur's Top Franchises for Veterans (2025)."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "absenteeOwnership": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "high",
+     "note": "+3.7% unit growth per Entrepreneur; 40 new stores opened and 23 agreements sold by mid-2024."
+    },
+    "ongoingSupport": {
+     "value": [
+      "Real estate and site selection guidance",
+      "Store design and customized layouts",
+      "Management and employee training",
+      "Ongoing district support",
+      "Purchasing co-op access (700+ stores)"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "marketingSupport": {
+     "value": [
+      "Marketing and merchandising support",
+      "POS and ecommerce systems",
+      "Loyalty program support"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/pet-supplies-plus/299709",
+     "year": 2026,
+     "confidence": "medium"
+    }
+   }
+  }
+ ]
+}

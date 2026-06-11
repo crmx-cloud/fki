@@ -1,0 +1,819 @@
+{
+  "brands": [
+    {
+      "name": "Subway",
+      "slug": "subway",
+      "category": "Food & Beverage",
+      "website": "subway.com",
+      "notes": "World's largest sandwich franchise (founded 1965, franchising since 1974) with a low entry cost ($15K fee) but high combined ongoing fees (12.5% of gross) and a multi-year US unit contraction. Franchise recruitment runs through subwayfranchise.com; no published list of open US markets was found.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Sustained US unit contraction",
+          "detail": "Subway closed a net 729 US stores in 2025, its steepest decline since 2021, and has shrunk by 3,417 US restaurants since early 2021 (22,190 to 18,773). Franchise revenue fell 6% in 2025 as royalties declined.",
+          "source": "Restaurant Dive",
+          "url": "https://www.restaurantdive.com/news/subway-closes-3k-units-since-2021/819216/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Weak unit economics vs. sandwich competitors; franchisee bankruptcies",
+          "detail": "Subway's AUV is estimated at roughly $490K-$500K, far below Jersey Mike's (~$1.3M-$1.4M) and Jimmy John's (~$1M), pressuring franchisee profitability; several operators have declared bankruptcy, including 43-unit MTF Enterprises in 2026.",
+          "source": "Restaurant Dive",
+          "url": "https://www.restaurantdive.com/news/subway-closes-3k-units-since-2021/819216/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee association disputes over discount promotions",
+          "detail": "Franchisees have repeatedly clashed with corporate over mandated value promotions ($5/$6.99 Footlong offers), including FTC complaints alleging they were 'bullied into honoring a promotion that is unprofitable.' The North American Association of Subway Franchisees (NAASF, representing ~10,000 North American locations) said discounting is 'killing our bottom line.'",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_news/value-meals-killing-our-bottom-line-say-subway-operators-as-association-seeks-sit-down/article_a9f3061a-704f-11ef-8886-1b34b7caddeb.html",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "High combined ongoing fees (12.5% of gross sales)",
+          "detail": "8% royalty plus 4.5% advertising is among the highest combined fee loads in QSR, a heavy burden on top of below-average unit volumes.",
+          "source": "BizFranHub (2025 FDD summary)",
+          "url": "https://www.bizfranhub.com/news/subway-franchise-costs-fees-requirements-profit-potential/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No Item 19 financial performance representation in the FDD",
+          "detail": "Subway does not disclose AUV or earnings data in its FDD, forcing prospective franchisees to rely on third-party estimates (~$490K AUV per third-party analyses) and independent validation.",
+          "source": "Business Ownership Guide (Subway FDD analysis)",
+          "url": "https://businessownershipguide.com/subway-franchise-fdd-cost/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 100000,
+          "source": "https://www.subwayfranchise.com/en-us/faqs",
+          "year": 2026,
+          "confidence": "high",
+          "note": "$100,000 liquid assets (cash-on-hand) required per location, per franchisor FAQ"
+        },
+        "totalInvestmentMin": {
+          "value": 238625,
+          "source": "https://www.entrepreneur.com/franchises/directory/subway/282839",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur range $238,625-$536,745; Franchise Direct (2025 FDD) shows a $199,135 low that includes non-traditional formats"
+        },
+        "totalInvestmentMax": {
+          "value": 536745,
+          "source": "https://www.entrepreneur.com/franchises/directory/subway/282839",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 15000,
+          "source": "https://www.subwayfranchise.com/en-us/faqs",
+          "year": 2026,
+          "confidence": "high",
+          "note": "$15,000 per location, per franchisor FAQ"
+        },
+        "royaltyPercent": {
+          "value": 8,
+          "source": "https://www.subwayfranchise.com/en-us/faqs",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 4.5,
+          "source": "https://www.subwayfranchise.com/en-us/faqs",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalUnits": {
+          "value": 35622,
+          "source": "https://www.entrepreneur.com/franchises/directory/subway/282839",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Global figure (Entrepreneur, -3% trend); ~18,773 US locations per Restaurant Dive (May 2026)"
+        },
+        "closureCount": {
+          "value": 729,
+          "source": "https://www.restaurantdive.com/news/subway-closes-3k-units-since-2021/819216/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net US closures in 2025; 3,417 net US closures since early 2021"
+        },
+        "yearFounded": {
+          "value": 1965,
+          "source": "https://www.entrepreneur.com/franchises/directory/subway/282839",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1974,
+          "source": "https://www.entrepreneur.com/franchises/directory/subway/282839",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "employeesRequired": {
+          "value": 8,
+          "source": "https://www.entrepreneur.com/franchises/directory/subway/282839",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur lists 8-12 employees required"
+        },
+        "minFootprint": {
+          "value": 400,
+          "source": "https://www.subwayfranchise.com/en-us/growth-opportunities",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Non-traditional formats start at ~400 sq ft per franchisor site; traditional storefronts are larger"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.franchisedirect.com/directory/subway/ufoc/915/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD summarized publicly by Franchise Direct"
+        },
+        "item19Available": {
+          "value": false,
+          "source": "https://businessownershipguide.com/subway-franchise-fdd-cost/",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Subway does not make an Item 19 financial performance representation; third-party AUV estimates run ~$490K-$500K (Circana via Restaurant Dive)"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/subway/282839",
+          "year": 2026,
+          "confidence": "high",
+          "note": "$7,500 off first-unit franchise fee for veterans"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://www.subwayfranchise.com/en-us/growth-opportunities",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Multi-unit packages of 25, 50, and 100+ locations offered"
+        },
+        "exclusiveTerritories": {
+          "value": false,
+          "source": "https://www.franchisedirect.com/directory/subway/ufoc/915/",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Conflict: 2025 FDD summary states 'Franchisees will not receive an exclusive territory'; Entrepreneur's listing says exclusive territories are available. FDD-derived source treated as authoritative."
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/subway/282839",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/subway/282839",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/subway/282839",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": false,
+          "source": "https://www.restaurantdive.com/news/subway-closes-3k-units-since-2021/819216/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "US unit count declining since 2021; Entrepreneur shows -3% total units"
+        }
+      }
+    },
+    {
+      "name": "KFC",
+      "slug": "kfc",
+      "category": "Food & Beverage",
+      "website": "kfc.com",
+      "notes": "Yum! Brands fried-chicken giant (founded 1930, franchising since 1952) with strong global growth but a multi-year US sales and traffic slide; entry costs are heavy ($1.85M-$3.77M, $1.5M net worth) and franchise opportunities are listed across all 50 states.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Multi-decade US sales slide",
+          "detail": "KFC's US systemwide sales fell about 5% in the first half of 2025 while international sales rose 7%; the chain logged quarterly US traffic declines of 2%-12% through 2024-2025 and closed more than 3% of its US restaurants.",
+          "source": "The Food Institute",
+          "url": "https://foodinstitute.com/focus/kfc-struggles-to-stop-its-multi-decade-u-s-slide/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee distress and closures",
+          "detail": "Major Midwestern franchisee EYM Chicken closed about 25 KFC restaurants across Illinois, Indiana and Wisconsin (more than half its 47 stores) amid bankruptcy restructuring in August 2024.",
+          "source": "Restaurant Business",
+          "url": "https://www.restaurantbusinessonline.com/financing/struggling-franchisee-closes-25-kfc-restaurants-midwest",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Lost US chicken category leadership",
+          "detail": "Once the top US chicken chain, KFC now ranks third behind Chick-fil-A and Popeyes on most industry rankings, reflecting sustained competitive share loss at home.",
+          "source": "The Food Institute",
+          "url": "https://foodinstitute.com/focus/kfc-struggles-to-stop-its-multi-decade-u-s-slide/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Large international franchisee collapse (Turkey, 2025)",
+          "detail": "Yum Brands severed ties with major international franchisee IS Gida in 2025 for failing to meet standards; IS Gida declared bankruptcy and 283 Turkish locations closed. International event, but illustrates concentration risk among mega-franchisees.",
+          "source": "Food Republic",
+          "url": "https://www.foodrepublic.com/1851195/kfc-struggling-to-stay-open/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Franchising.com KFC listing",
+        "url": "https://www.franchising.com/kfc/",
+        "year": 2026,
+        "note": "Listing shows KFC franchise opportunities available in all 50 US states plus DC"
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 750000,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net worth requirement is $1.5M"
+        },
+        "totalInvestmentMin": {
+          "value": 1852825,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Range $1,852,825-$3,771,550"
+        },
+        "totalInvestmentMax": {
+          "value": 3771550,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 45000,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 4,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 4%-5% (lower bound shown); most FDD-based reviews cite 5% of gross sales"
+        },
+        "adFundPercent": {
+          "value": 5,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "high",
+          "note": "National advertising/co-op contribution"
+        },
+        "avgUnitRevenue": {
+          "value": 1346289,
+          "source": "https://www.franchisechatter.com/2025/09/03/kfc-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD Item 19: average net sales of 2,850 franchised single-brand US outlets open all of FY2024; median $1,283,574; gross sales, not profit; only 44% of units met or exceeded the average"
+        },
+        "totalUnits": {
+          "value": 32402,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Global figure; US footprint has been contracting (see riskFlags)"
+        },
+        "yearFounded": {
+          "value": 1930,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1952,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 6,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "6 weeks on-the-job plus 1.5 days classroom; approximately 10 weeks total including orientation and online components"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.franchisechatter.com/2025/09/03/kfc-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD publicly reviewed"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://www.franchisechatter.com/2025/09/03/kfc-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Item 19 discloses average/median net sales for franchised and company-owned outlets"
+        },
+        "exclusiveTerritories": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/kfc/282495",
+          "year": 2026,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "Burger King",
+      "slug": "burger-king",
+      "category": "Food & Beverage",
+      "website": "bk.com",
+      "notes": "Restaurant Brands International's flame-grilled burger chain (founded 1954, franchising since 1961), currently mid-turnaround ('Reclaim the Flame') after a wave of large franchisee bankruptcies in 2023-2025; new franchising runs primarily through multi-unit acquisitions via franchising.bk.com.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Wave of large franchisee bankruptcies (2023-2025)",
+          "detail": "Four major operators filed Chapter 11: TOMS King (90 units, 2023), Meridian Restaurants Unlimited (120 units, 2023), Premier Kings (172 units, 2023), and Consolidated Burger Holdings (57 units, April 2025, after sales fell 12.5% and operating losses doubled to $12.5M).",
+          "source": "Restaurant Dive",
+          "url": "https://www.restaurantdive.com/news/burger-king-florida-franchisee-consolidated-burger-holdings-chapter-11/745440/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Mandatory remodel capex strains leveraged franchisees",
+          "detail": "Bankruptcy filings shared a pattern: operators with significant acquisition debt could not simultaneously service obligations and fund mandatory 'Reclaim the Flame' remodels, which the brand has backed with hundreds of millions in corporate investment.",
+          "source": "Eleven Floor (Consolidated Burger Holdings bankruptcy analysis)",
+          "url": "https://elevenflo.com/blog/consolidated-burger-holdings-bankruptcy",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Corporate consolidation of franchise base",
+          "detail": "Parent RBI acquired Burger King's largest franchisee, Carrols Restaurant Group (~1,000+ units), for about $1 billion in 2024, planning to remodel and refranchise units — reshaping who holds territory in the system.",
+          "source": "Entrepreneur",
+          "url": "https://www.entrepreneur.com/business-news/burger-kings-owner-buys-biggest-franchisee-for-1b/468409",
+          "year": 2024
+        }
+      ],
+      "nationwide": {
+        "source": "Burger King Franchising (official)",
+        "url": "https://franchising.bk.com/",
+        "year": 2026,
+        "note": "Official franchising site solicits US inquiries with a 'Priority Markets' and 'Existing Markets' map and states BK offers 'franchising opportunities primarily through multi-unit acquisitions'; no state-level restrictions published"
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 500000,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net worth requirement is $1M"
+        },
+        "totalInvestmentMin": {
+          "value": 2064200,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Range $2,064,200-$4,730,500 (Entrepreneur 2026); older summaries cite ~$1.8M-$4.2M"
+        },
+        "totalInvestmentMax": {
+          "value": 4730500,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 50000,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 4.5,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 4.5,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "avgUnitRevenue": {
+          "value": 1658463,
+          "source": "https://franchisebusinessreview.com/post/burger-king-franchise-costs/",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "FDD-reported average annual sales for franchised traditional restaurants (2024 data; QSR Magazine corroborates $1.658M franchised / $1.731M company-owned). BK does not make an Item 19 earnings claim — figure is gross sales, not profit. Non-traditional units average $1,321,324."
+        },
+        "totalUnits": {
+          "value": 19732,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Global figure, +2.5% trend; US base has contracted amid franchisee bankruptcies (see riskFlags)"
+        },
+        "yearFounded": {
+          "value": 1954,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1961,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 8,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Derived: up to 64 classroom hours plus up to 320 on-the-job hours (~8 full-time weeks), held in Miami, FL or a BK-specified location"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://franchisebusinessreview.com/post/burger-king-franchise-costs/",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://franchising.bk.com/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchising opportunities offered 'primarily through multi-unit acquisitions'"
+        },
+        "exclusiveTerritories": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/burger-king/284266",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Global units +2.5% per Entrepreneur; US unit count has declined amid franchisee bankruptcies and closures — see riskFlags"
+        }
+      }
+    },
+    {
+      "name": "Wendy's",
+      "slug": "wendys",
+      "category": "Food & Beverage",
+      "website": "wendys.com",
+      "notes": "Legacy burger brand (founded 1969, franchising since 1971) with strong ~$2.1M franchised unit volumes and official development incentives (Build-to-Suit, Groundbreaker/Pacesetter), but currently executing 'Project Fresh' — closing roughly 300 underperforming US restaurants in 2025-2026 amid same-store sales declines.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Project Fresh closures: ~300 US restaurants closing",
+          "detail": "Wendy's shuttered 28 locations in Q4 2025 and expects to close 5%-6% of its 5,959 US restaurants (298-358 locations) in the first half of 2026, targeting consistently underperforming units as part of its Project Fresh turnaround.",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/lifestyle/wendys-close-hundreds-restaurants-company-looks-focus-value-boost-sales",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "US same-store sales declines, underperforming peers",
+          "detail": "US same-store sales fell 4.7% in Q3 2025 (recent quarters down ~5%-6% year over year), underperforming McDonald's and Burger King; global systemwide sales fell 2.6%.",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/lifestyle/wendys-close-hundreds-restaurants-company-looks-focus-value-boost-sales",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Turnaround program underway",
+          "detail": "Project Fresh (launched October 2025) is a 4-pillar plan covering brand revitalization, operations, system optimization, and capital reallocation; closures are paired with reinvestment in higher-performing units and new-build incentives.",
+          "source": "Restaurant Times",
+          "url": "https://www.restauranttimes.com/news/restaurants-news/wendys-us-restaurant-closures/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Wendy's Franchising — Available Markets (official)",
+        "url": "https://www.wendys.com/franchising/available-markets",
+        "year": 2026,
+        "note": "Official availability-map page: 'Wendy's is seeking new multi-unit experienced operators...' with a US/global availability map; disclaimer that 'there is no assurance or guarantee that you will be approved for development in any geographic area'"
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 500000,
+          "source": "https://www.wendys.com/franchising/programs",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor requires minimum liquidity of $500,000 and minimum net worth of $1M"
+        },
+        "totalInvestmentMin": {
+          "value": 393191,
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Range $393,191-$2,992,000; low end reflects non-traditional/conversion formats"
+        },
+        "totalInvestmentMax": {
+          "value": 2992000,
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 50000,
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 4,
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Standard royalty 4% of gross sales; Entrepreneur lists a 4%-6% range"
+        },
+        "adFundPercent": {
+          "value": 4,
+          "source": "https://franchiseinvestordata.com/franchise/wendys",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Standard 4% advertising/marketing fund; Entrepreneur lists 1.5%-4%, reflecting development incentive programs (Groundbreaker/Pacesetter) that reduce fees in early years"
+        },
+        "avgUnitRevenue": {
+          "value": 2100000,
+          "source": "https://franchiseinvestordata.com/franchise/wendys",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Median AUV per FDD Item 19 across ~5,100 US locations (top quartile $2.7M, bottom quartile $1.5M) per FranchiseInvestorData; FranchiseChatter's 2022-FDD review reported $1.89M average sales. Gross sales, not profit."
+        },
+        "totalUnits": {
+          "value": 7347,
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Global figure, +4.2% per Entrepreneur; ~94% franchised. US closures of ~300 units planned for 2026 (see riskFlags)"
+        },
+        "yearFounded": {
+          "value": 1969,
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1971,
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 20,
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Initial training modules take approximately 20-24 weeks, including ~72 classroom hours and extensive on-the-job training (~520+ hours)"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.franchisedirect.com/foodfranchises/wendys-franchise-08373/ufoc/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://franchiseinvestordata.com/franchise/wendys",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "FDD Item 19 unit-volume data publicly cited by multiple FDD-analysis services"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://www.wendys.com/franchising/available-markets",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor is 'seeking new multi-unit experienced operators'"
+        },
+        "exclusiveTerritories": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "high",
+          "note": "'Wendy's does not provide territory exclusivity for any franchisees'"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "ongoingSupport": {
+          "value": ["training", "grand opening assistance", "lease negotiation", "market research and site selection help", "proprietary software access"],
+          "source": "https://www.entrepreneur.com/franchises/directory/wendys/299712",
+          "year": 2026,
+          "confidence": "medium"
+        }
+      }
+    },
+    {
+      "name": "Domino's",
+      "slug": "dominos",
+      "category": "Food & Beverage",
+      "website": "dominos.com",
+      "notes": "World's largest pizza chain (founded 1960 in Ypsilanti, MI; franchising since 1967) with strong FDD-disclosed unit volumes and low entry costs — but US franchises are currently sold only to internal candidates with at least one year as a Domino's GM or supervisor.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchise sales closed to external candidates",
+          "detail": "Per the franchisor: 'At this time, Domino's is only considering internal franchisee candidates. In order to become a franchisee in the U.S., you must have at least one year of experience working as a Domino's general manager or supervisor,' plus completion of Franchise Management School. Outside investors cannot buy in directly.",
+          "source": "Domino's Franchising (official)",
+          "url": "https://biz.dominos.com/about-us/franchising/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Joint-employer wage-theft litigation (NY Attorney General)",
+          "detail": "In 2016 the NY AG sued Domino's Pizza entities and three franchisees for systemic wage theft (at least $565K underpaid at 10 stores), alleging Domino's PULSE payroll software under-calculated wages — the first case treating a fast-food franchisor as joint employer; franchisee settlements totaled $480K.",
+          "source": "New York Attorney General press release",
+          "url": "https://ag.ny.gov/press-release/2016/ag-schneiderman-announces-lawsuit-seeking-hold-dominos-and-its-franchisees-liable",
+          "year": 2016
+        },
+        {
+          "severity": "info",
+          "title": "No exclusive territory",
+          "detail": "Franchisees receive only an 'area of primary responsibility' — typically a one-mile radius around the store (half-mile in dense areas) — not an exclusive territory, per the 2025 FDD.",
+          "source": "Franchise Direct (Domino's 2025 FDD summary)",
+          "url": "https://www.franchisedirect.com/foodfranchises/dominos-pizza-franchise-07460/ufoc/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Domino's Franchising (official)",
+        "url": "https://biz.dominos.com/about-us/franchising/",
+        "year": 2026,
+        "note": "US franchising program is national with no geographic restrictions published, but it is currently open only to internal candidates (at least 1 year as a Domino's general manager or supervisor)"
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 75000,
+          "source": "https://www.nerdwallet.com/business/learn/dominos-franchise",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Minimum liquid capital $75,000; net worth requirement $250,000"
+        },
+        "totalInvestmentMin": {
+          "value": 156450,
+          "source": "https://www.franchisechatter.com/2025/09/09/dominos-pizza-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD range $156,450-$743,500; conflict: Franchise Direct's summary lists a $107,450 low — FranchiseChatter's direct 2025 FDD citation used"
+        },
+        "totalInvestmentMax": {
+          "value": 743500,
+          "source": "https://www.franchisechatter.com/2025/09/09/dominos-pizza-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 0,
+          "source": "https://www.franchisechatter.com/2025/09/09/dominos-pizza-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD initial franchise fee ranges $0-$10,000 depending on store type/program (lower bound shown); some directories cite a $25,000 figure that does not match the FDD"
+        },
+        "royaltyPercent": {
+          "value": 5.5,
+          "source": "https://www.franchisechatter.com/2025/09/09/dominos-pizza-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "5.5% of weekly royalty sales"
+        },
+        "adFundPercent": {
+          "value": 4,
+          "source": "https://www.franchisechatter.com/2025/09/09/dominos-pizza-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "4% of weekly royalty sales per 2025 FDD (corroborated by Franchise Direct); some directories cite 5%-8%"
+        },
+        "avgUnitRevenue": {
+          "value": 1376284,
+          "source": "https://www.franchisechatter.com/2025/09/09/dominos-pizza-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Derived: 2025 FDD Item 19 average weekly unit sales of $26,467 for franchised US stores (2024) x 52 weeks. 'Royalty sales' = total receipts excluding sales tax and coupon discounts; gross sales, not profit."
+        },
+        "totalUnits": {
+          "value": 21365,
+          "source": "https://www.franchisedirect.com/foodfranchises/dominos-pizza-franchise-07460/ufoc/",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Global estimate; US year-end 2024 per 2025 FDD: 6,751 franchised + 292 company-owned = 7,043 stores"
+        },
+        "yearFounded": {
+          "value": 1960,
+          "source": "https://biz.dominos.com/about-us/history/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "'Domino's started out small, with just one store in Ypsilanti, Michigan, in 1960'; Franchise Direct lists 1963, franchisor's own history page used"
+        },
+        "yearFranchising": {
+          "value": 1967,
+          "source": "https://www.franchisedirect.com/foodfranchises/dominos-pizza-franchise-07460/ufoc/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.franchisedirect.com/foodfranchises/dominos-pizza-franchise-07460/ufoc/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD publicly summarized"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://www.franchisechatter.com/2025/09/09/dominos-pizza-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Item 19 discloses average weekly unit sales for franchised and company-owned US stores"
+        },
+        "exclusiveTerritories": {
+          "value": false,
+          "source": "https://www.franchisedirect.com/foodfranchises/dominos-pizza-franchise-07460/ufoc/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Area of primary responsibility only (~1-mile radius; half-mile in dense areas)"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.franchisedirect.com/foodfranchises/dominos-pizza-franchise-07460/ufoc/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Store must always be under on-premises supervision of the franchisee or controlling person"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.franchisedirect.com/foodfranchises/dominos-pizza-franchise-07460/ufoc/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Franchisee must devote full time as manager of the store"
+        }
+      }
+    }
+  ]
+}

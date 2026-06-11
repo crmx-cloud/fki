@@ -1,0 +1,468 @@
+{
+  "brands": [
+    {
+      "name": "KeyGlee",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Severe unit contraction",
+          "detail": "System fell from 111 total units (106 franchised + 5 company-owned, 2023 FDD) to 59 units per Entrepreneur's 2026 listing, which shows a -21% one-year growth rate. Roughly half the system has exited in ~2 years.",
+          "source": "Entrepreneur / FranchisePayback (2023 FDD data)",
+          "url": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153",
+          "year": 2026
+        },
+        {
+          "severity": "red",
+          "title": "Regulatory risk to the wholesaling business model",
+          "detail": "KeyGlee's core model is real estate wholesaling (assignment of purchase contracts). States are tightening rules: Illinois treats more than one wholesale deal per 12 months as unlicensed brokerage; Kentucky HB 62 (2023) heavily restricts wholesale marketing; Nebraska (2024) requires a real estate license to publicly market an equitable interest. Franchisees in restrictive states may need licenses or face enforcement. No KeyGlee-specific lawsuit was found in this research, but the model itself is under scrutiny.",
+          "source": "REsimpli wholesaling laws by state guide (and KY/NE statutes referenced therein)",
+          "url": "https://resimpli.com/blog/wholesaling-laws-and-regulations/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High and unusual fee structure",
+          "detail": "Entrepreneur lists a dual royalty of 9%/18% and a franchise fee range of $45,000-$100,000 (2023 FDD listed $100,000 flat). The 18% tier and $250/mo technology fee are well above home-services norms; conflicting figures across sources warrant direct FDD verification.",
+          "source": "Entrepreneur",
+          "url": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 60000, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 67300, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "medium", "note": "CONFLICT: 2023 FDD-based sources (franchisepayback.com) list $122,000 min; Entrepreneur's current listing shows $67,300"},
+        "totalInvestmentMax": {"value": 311950, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "medium", "note": "CONFLICT: 2023 FDD-based sources list $297,000 max"},
+        "franchiseFee": {"value": 45000, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "medium", "note": "Tiered $45,000-$100,000 per Entrepreneur; 2023 FDD listed $100,000 (franchisepayback.com)"},
+        "royaltyPercent": {"value": 9, "source": "https://www.franchisepayback.com/franchise/keyglee", "year": 2023, "confidence": "medium", "note": "Entrepreneur lists dual structure 9%/18%; 18% tier likely tied to lower upfront fee option"},
+        "adFundPercent": {"value": 1, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "high", "note": "Up to 1%"},
+        "avgUnitRevenue": {"value": null, "source": "https://www.franchisepayback.com/franchise/keyglee", "year": 2023, "confidence": "unverified", "note": "Franchisepayback shows a $253,000 average revenue figure but notes the franchisor does not formally disclose it; not treated as a verified Item 19 number"},
+        "item19Available": {"value": false, "source": "https://www.franchisepayback.com/franchise/keyglee", "year": 2023, "confidence": "medium", "note": "Per franchisepayback, franchisor does not formally disclose financial performance"},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/keyglee-2023-fdd-franchise-information-costs-and-fees/", "year": 2023, "confidence": "high", "note": "2023 FDD on FDD Exchange; no newer public FDD located in this research"},
+        "sbaApproved": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "high", "note": "10% off franchise fee"},
+        "multiUnitAvailable": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "exclusiveTerritories": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "medium", "note": "CONFLICT: marketing-oriented sources claim exclusive geographic protection; Entrepreneur FDD-derived data says no exclusive territories"},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "medium", "note": "Absentee not allowed, part-time not allowed"},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "medium", "note": "40 hours on-the-job + 43 hours classroom (~2 weeks); franchisepayback cites 30 hours initial plus up to 48 hours on-the-job support"},
+        "ongoingSupport": {"value": ["immersion training with specialists", "software/systems training", "on-the-job support (up to 48 hours)"], "source": "https://www.franchisepayback.com/franchise/keyglee", "year": 2023, "confidence": "medium"},
+        "marketingSupport": {"value": ["national ad fund (up to 1% of gross sales)"], "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "medium"},
+        "employeesRequired": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "medium"},
+        "minFootprint": {"value": null, "source": null, "year": null, "confidence": "unverified", "note": "Home-based permitted; no minimum footprint disclosed"},
+        "totalUnits": {"value": 59, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "high", "note": "Down from 111 total (106 franchised + 5 company) in 2023 FDD"},
+        "yearFounded": {"value": 2016, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "medium", "note": "CONFLICT: franchisepayback/sharpsheets list 2019 (Arizona); Entrepreneur lists 2016"},
+        "yearFranchising": {"value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "high"},
+        "closureCount": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "unverified", "note": "Exact Item 20 closure counts not obtained, but net decline of ~50 units between 2023 FDD and 2026 listing implies substantial closures/exits"},
+        "isGrowing": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/keyglee/335226153", "year": 2026, "confidence": "high", "note": "-21% unit growth per Entrepreneur; still advertising open franchise opportunities"}
+      },
+      "notes": "Real estate wholesaling franchise (Tempe/Phoenix AZ origin). Still actively offering franchises per Entrepreneur, but the system is shrinking sharply and the wholesaling model faces growing state-level licensing restrictions. Data conflicts across sources (founding year, fee, investment range) suggest the FDD has changed materially between 2023 and the current listing; verify against the latest FDD before publishing."
+    },
+    {
+      "name": "Image One Facility Solutions",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Conflicting fee and investment figures across sources",
+          "detail": "Franchise fee reported as $24,750-$29,750 (older sources/thefranchisemall), 'up to $29,750' (franchimp 2021 FDD data), and $39,750 (Vetted Biz, 2025). Total investment reported variously as $37,360-$103,208, $43,025-$91,375, and $49,900-$72,049. Figures have evidently risen across FDD years; verify against the current FDD.",
+          "source": "Vetted Biz / Franchimp / TheFranchiseMall",
+          "url": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Small system",
+          "detail": "Roughly 20-23 franchised locations after ~14 years of franchising; slow but positive growth (10 units in 2021 FDD to ~23 in 2025).",
+          "source": "Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 10000, "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 49900, "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "medium", "note": "CONFLICT: other sources list $37,360 or $43,025 minimums (older FDD years)"},
+        "totalInvestmentMax": {"value": 72049, "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "medium", "note": "CONFLICT: other sources list maxima up to $103,208"},
+        "franchiseFee": {"value": 39750, "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "medium", "note": "CONFLICT: older sources list $24,750-$29,750"},
+        "royaltyPercent": {"value": 10, "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "high"},
+        "adFundPercent": {"value": 2, "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "high", "note": "Marketing fee of 2% of monthly sales"},
+        "avgUnitRevenue": {"value": 327211, "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "medium", "note": "Item 19 average yearly gross sales; Vetted Biz estimates owner-operator earnings $39,266-$49,082"},
+        "item19Available": {"value": true, "source": "https://fddexchange.com/image-one-facility-solutions-2024-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high", "note": "FDD includes Item 19 with annual gross revenue data"},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/image-one-facility-solutions-2024-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high"},
+        "sbaApproved": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "veteranDiscount": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "multiUnitAvailable": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "exclusiveTerritories": {"value": null, "source": null, "year": null, "confidence": "unverified", "note": "Territory terms not disclosed in publicly reviewed material"},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "medium", "note": "Vetted Biz earnings model assumes owner-operator; other ownership modes unverified"},
+        "canRunFromHome": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "canRunPartTime": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "absenteeOwnership": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "trainingWeeks": {"value": 1, "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "medium", "note": "Five days at corporate HQ in Clearwater, FL, plus ongoing training"},
+        "ongoingSupport": {"value": ["ongoing training opportunities", "corporate operational support"], "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "medium"},
+        "marketingSupport": {"value": ["brand marketing programs funded by 2% marketing fee"], "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "medium"},
+        "employeesRequired": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "minFootprint": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "totalUnits": {"value": 23, "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "medium", "note": "CONFLICT: other 2025 sources report 20 franchised units, 0 company-owned"},
+        "yearFounded": {"value": 2010, "source": "https://www.franchimp.com/franchise/image-one-104383", "year": 2021, "confidence": "medium", "note": "Image One Facility Solutions, Inc. incorporated in Illinois Nov 3, 2010; predecessor Image One brand history dates earlier (one source says franchising since 2001 under prior ownership)"},
+        "yearFranchising": {"value": 2011, "source": "https://thefranchisemall.com/franchises/details/14751-0-image_one_facility_solutions.htm", "year": 2025, "confidence": "low", "note": "CONFLICT: franchimp (FDD-derived) says affiliate franchises offered starting 2014; thefranchisemall says 2011"},
+        "closureCount": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "isGrowing": {"value": true, "source": "https://www.vettedbiz.com/franchises/image-one-facility-solutions/", "year": 2025, "confidence": "medium", "note": "10 franchised units in 2021 FDD to ~20-23 in 2025; slow but positive"}
+      },
+      "notes": "B2B commercial/janitorial cleaning franchise out of Rolling Meadows, IL (training in Clearwater, FL). Transparent FDD with Item 19. Main data quality issue is the spread of fee/investment figures across FDD years; the 2025 Vetted Biz figures were used as most current."
+    },
+    {
+      "name": "GoldenTrust Insurance",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Insurance licensing required",
+          "detail": "Operating an independent insurance agency requires state insurance producer licensing (franchisor's 40-hour training includes licensing assistance, implying owners must obtain a license). Adds a regulatory gate and ramp time before revenue.",
+          "source": "GoldenTrust franchise site",
+          "url": "https://franchise.goldentrust.com/en",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Territory exclusivity claims conflict with FDD-derived data",
+          "detail": "Franchisor marketing says 'Your territory is yours. No internal competition,' but Entrepreneur's FDD-derived listing reports NO exclusive territories. Verify Item 12 directly.",
+          "source": "GoldenTrust franchise site vs Entrepreneur",
+          "url": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Geographic concentration in Florida/Texas",
+          "detail": "System built almost entirely in Florida (HQ Doral, FL) with early Texas expansion. Heavy exposure to the volatile Florida property insurance market.",
+          "source": "GoldenTrust franchise site",
+          "url": "https://franchise.goldentrust.com/en",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "totalInvestmentMin": {"value": 71500, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 120900, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 38000, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 3, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "medium"},
+        "adFundPercent": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "medium", "note": "Ad fee is a flat $1,000/month, not a percentage; also $125/user/month technology fee"},
+        "avgUnitRevenue": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "item19Available": {"value": null, "source": null, "year": null, "confidence": "unverified", "note": "No Item 19 data found in any reviewed source; franchisor site makes no earnings claims"},
+        "fddAvailable": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "medium", "note": "Franchising since 2021 with FDD-derived data in Entrepreneur directory; FDD itself not located publicly"},
+        "sbaApproved": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "high", "note": "$10,000 off franchise fee"},
+        "multiUnitAvailable": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "exclusiveTerritories": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "medium", "note": "CONFLICT: franchisor marketing claims exclusive territory protection"},
+        "ownerTypes": {"value": ["owner_operator", "semi_absentee", "absentee"], "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "medium", "note": "Absentee ownership allowed per Entrepreneur"},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "medium", "note": "Retail agency office required"},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "medium"},
+        "absenteeOwnership": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "medium"},
+        "trainingWeeks": {"value": 2, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "medium", "note": "40 hours on-the-job + 40 hours classroom"},
+        "ongoingSupport": {"value": ["carrier access", "licensing and LLC setup assistance", "technology platform", "in-house financing"], "source": "https://franchise.goldentrust.com/en", "year": 2026, "confidence": "medium"},
+        "marketingSupport": {"value": ["corporate marketing programs funded by $1,000/month ad fee"], "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "medium"},
+        "employeesRequired": {"value": 2, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "medium", "note": "2-7 employees required"},
+        "minFootprint": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "totalUnits": {"value": 56, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "medium", "note": "CONFLICT: franchisor site claims 75+ active franchises (2026); Entrepreneur FDD-derived count is 56"},
+        "yearFounded": {"value": 2015, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2021, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "high"},
+        "closureCount": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/goldentrust-insurance/335226274", "year": 2025, "confidence": "high", "note": "+273% growth rate per Entrepreneur; 0 to ~56-75 agencies since 2021"}
+      },
+      "notes": "Independent insurance agency franchise, HQ Doral, FL; founded 2015, franchising 2021. One of the cheapest entries in insurance franchising with a low 3% royalty and flat $1,000/mo ad fee, in-house financing, and fast unit growth concentrated in FL/TX. No public Item 19 found. Buyers need state insurance licensing."
+    },
+    {
+      "name": "CPA Moms",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Stagnant micro-system",
+          "detail": "Only 7 units with 0.0% growth per Entrepreneur (2026) after franchising since 2020. Very limited validation pool and network effects.",
+          "source": "Entrepreneur",
+          "url": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Active CPA license required",
+          "detail": "Franchise applications are only accepted from actively licensed CPAs, drastically narrowing the buyer pool and making the license a hard prerequisite to operate.",
+          "source": "CPA MOMS franchise site",
+          "url": "https://cpamoms.com/franchise/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "High fixed technology fee relative to size",
+          "detail": "$595/month technology fee plus 10% royalty on a small home-based practice can be a meaningful drag in early ramp.",
+          "source": "Entrepreneur",
+          "url": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "totalInvestmentMin": {"value": 35714, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 51917, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 33000, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "high", "note": "Range $33,000-$40,750"},
+        "royaltyPercent": {"value": 10, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "high"},
+        "avgUnitRevenue": {"value": null, "source": null, "year": null, "confidence": "unverified", "note": "No public Item 19 data found"},
+        "item19Available": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "fddAvailable": {"value": true, "source": "https://cpamoms.com/franchise/", "year": 2026, "confidence": "medium", "note": "FDD provided to applicants per franchisor site; not located in public repositories"},
+        "sbaApproved": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "veteranDiscount": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "medium", "note": "Listed as not applicable on Entrepreneur"},
+        "multiUnitAvailable": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "exclusiveTerritories": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "medium"},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "medium", "note": "Absentee not allowed; built for licensed-CPA owner-operators (part-time permitted)"},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "high", "note": "Virtual accounting and tax practice"},
+        "canRunPartTime": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 1, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "medium", "note": "50 hours classroom training"},
+        "ongoingSupport": {"value": ["pre-opening training", "brand support", "customer research"], "source": "https://cpamoms.com/franchise/", "year": 2026, "confidence": "medium"},
+        "marketingSupport": {"value": ["brand awareness marketing"], "source": "https://cpamoms.com/franchise/", "year": 2026, "confidence": "medium"},
+        "employeesRequired": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "medium"},
+        "minFootprint": {"value": null, "source": null, "year": null, "confidence": "unverified", "note": "Virtual/home-based; no footprint requirement disclosed"},
+        "totalUnits": {"value": 7, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "high"},
+        "yearFounded": {"value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "medium", "note": "Founded by Mayumi Young; the CPA MOMS brand/network predates the 2020 franchise entity"},
+        "yearFranchising": {"value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "high"},
+        "closureCount": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "isGrowing": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/cpa-moms/336166", "year": 2026, "confidence": "medium", "note": "0.0% growth rate, flat at 7 units"}
+      },
+      "notes": "Virtual accounting/tax franchise exclusively for licensed CPA mothers; 5-year agreement term (short vs industry norm of 10). Genuine franchise with FDD, but a niche micro-system: 7 flat units, 10% royalty, $595/mo tech fee, no exclusive territories. No Item 19 data found publicly."
+    },
+    {
+      "name": "Dope CFO Certified Advisor",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Not currently accepting new franchisees",
+          "detail": "Franchising.com states Dope CFO is not currently accepting new applicants; system sits at 18 units. The franchise channel appears paused while the company's primary business remains its non-franchise training program.",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/dope_cfo/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Hybrid franchise/certification model — verify what is being purchased",
+          "detail": "DOPE CFO operates two distinct offerings: a non-franchise cannabis-accounting training/certification program sold via dopecfo.com (the bulk of its 'certified advisor' community), and a separate registered franchise ('Dope CFO Certified Advisor', franchising since June 2, 2022) for fractional-CFO practices. Most advisors using the brand are program graduates, not franchisees.",
+          "source": "dopecfo.com / Entrepreneur",
+          "url": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Cannabis-industry dependency",
+          "detail": "Client base is cannabis/CBD/hemp operators: federal illegality, IRC 280E tax burden, banking friction, and client failure rates create elevated revenue volatility. Cannabis-adjacent service businesses are also generally ineligible for SBA-guaranteed financing.",
+          "source": "CFO.com profile of Dope CFO / SBA SOP 50 10 eligibility rules",
+          "url": "https://www.cfo.com/news/how-dope-cfo-andrew-hunzicker-raymond-guns-is-evolving-as-cannabis-finance-matures/814134/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "totalInvestmentMin": {"value": 83150, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 113250, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 75000, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 8, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "high"},
+        "avgUnitRevenue": {"value": null, "source": null, "year": null, "confidence": "unverified", "note": "No public Item 19 data found"},
+        "item19Available": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "fddAvailable": {"value": true, "source": "https://www.franchising.com/dope_cfo/", "year": 2025, "confidence": "medium", "note": "Began offering franchises June 2, 2022; FDD-derived data appears in directories but FDD not located in free public repositories"},
+        "sbaApproved": {"value": false, "source": "https://www.sba.gov/", "year": 2025, "confidence": "medium", "note": "SBA SOP excludes direct and indirect marijuana-related businesses from SBA-guaranteed lending; a cannabis-focused CFO franchise would generally be ineligible"},
+        "veteranDiscount": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "medium", "note": "Listed as N/A"},
+        "multiUnitAvailable": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "exclusiveTerritories": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "medium"},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "medium", "note": "Absentee not allowed, part-time not allowed; designed for accounting/finance professionals"},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 3, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "medium", "note": "120 hours classroom training (~3 work-weeks) plus on-the-job component"},
+        "ongoingSupport": {"value": ["cannabis accounting and 280E tax training", "tools and templates", "national advisor network"], "source": "https://www.dopecfo.com/", "year": 2026, "confidence": "medium"},
+        "marketingSupport": {"value": ["client acquisition system (offer letters, price quoting tools, prospect emails)"], "source": "https://www.dopecfo.com/", "year": 2026, "confidence": "medium"},
+        "employeesRequired": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "medium"},
+        "minFootprint": {"value": null, "source": null, "year": null, "confidence": "unverified", "note": "Home-based; no footprint requirement disclosed"},
+        "totalUnits": {"value": 18, "source": "https://www.franchimp.com/franchise/dope-cfo-124000", "year": 2025, "confidence": "medium"},
+        "yearFounded": {"value": 2018, "source": "https://www.entrepreneur.com/franchises/directory/dope-cfo-certified-advisor/336745", "year": 2026, "confidence": "high", "note": "Founded by Andrew Hunzicker, CPA (Bend, OR)"},
+        "yearFranchising": {"value": 2022, "source": "https://www.franchising.com/dope_cfo/", "year": 2025, "confidence": "high", "note": "Began offering franchises June 2, 2022"},
+        "closureCount": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "isGrowing": {"value": false, "source": "https://www.franchising.com/dope_cfo/", "year": 2025, "confidence": "medium", "note": "18 units; not accepting new applicants — franchise channel effectively paused"}
+      },
+      "notes": "Anomalous model as suspected: the well-known DOPE CFO product is a non-franchise cannabis-accounting certification/training program (dopecfo.com); 'Dope CFO Certified Advisor' is a separate, small registered franchise (since 6/2022, 18 units, $75k fee, 8% royalty, 5-year term) whose new-applicant intake is currently paused per franchising.com. Treat as effectively dormant for new buyers and confirm which offering any listing refers to."
+    },
+    {
+      "name": "Canopy Lawn Care",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Item 19 based on a single affiliate-owned unit with excluded expenses",
+          "detail": "The 2025 FDD Item 19 reflects one affiliate unit in Raleigh, NC (opened 2016): $963,529 revenue, 23.1% margin after disclosed expenses — but 'certain expenses have been excluded that a franchise operator may incur,' including facility rent and a full-time manager. No franchisee results are included.",
+          "source": "Franchise Chatter 2026 review of 2025 FDD",
+          "url": "https://www.franchisechatter.com/2026/02/21/canopy-lawn-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Zero franchisee track record before 2024",
+          "detail": "Item 20 shows 0 franchised units through 2023 and all 37 franchised units opened in 2024. The entire franchise cohort is brand-new; renewal, attrition, and unit economics at franchisee level are untested.",
+          "source": "Franchise Chatter 2026 review of 2025 FDD",
+          "url": "https://www.franchisechatter.com/2026/02/21/canopy-lawn-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Heavy mandatory marketing spend and ramping minimum royalties",
+          "detail": "Required local advertising spend is the greater of $30,000/year for the first territory (+$10,000 per additional contiguous territory) or 10% of prior-year gross revenues, on top of the 8% royalty whose monthly minimum ramps to $3,375 per territory after 61 months, plus a 1% brand fund (cap 2%).",
+          "source": "FDD Exchange / Franchise Chatter",
+          "url": "https://fddexchange.com/view-fdd-docs/canopy-lawn-care-2025-fdd-franchise-information-costs-and-fees/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Owned by Empower Brands; brand repositioned",
+          "detail": "Canopy was acquired by multi-brand platform Empower Brands and refocused exclusively on lawn treatment programs; it did not rank on Entrepreneur's 2026 Franchise 500.",
+          "source": "Franchise Chatter",
+          "url": "https://www.franchisechatter.com/2026/02/21/canopy-lawn-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "totalInvestmentMin": {"value": 97900, "source": "https://fddexchange.com/view-fdd-docs/canopy-lawn-care-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 185200, "source": "https://fddexchange.com/view-fdd-docs/canopy-lawn-care-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49500, "source": "https://fddexchange.com/view-fdd-docs/canopy-lawn-care-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high", "note": "Plus $0.95 per single-family dwelling unit for territories exceeding 45,000 dwellings"},
+        "royaltyPercent": {"value": 8, "source": "https://fddexchange.com/view-fdd-docs/canopy-lawn-care-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high", "note": "Greater of 8% of gross revenues or minimum royalty ($500-$3,375/month per territory by tenure)"},
+        "adFundPercent": {"value": 1, "source": "https://fddexchange.com/view-fdd-docs/canopy-lawn-care-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high", "note": "Brand fund currently 1%, contractual max 2%; CONFLICT: franchisepayback lists 4%, likely conflating brand fund with local ad requirements"},
+        "avgUnitRevenue": {"value": 963529, "source": "https://www.franchisechatter.com/2026/02/21/canopy-lawn-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "medium", "note": "Item 19 (2025 FDD, 2024 data) — single affiliate-owned Raleigh NC unit, NOT franchisee results; 1,006 accounts, 23.1% margin after disclosed (incomplete) expenses"},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2026/02/21/canopy-lawn-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/canopy-lawn-care-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high"},
+        "sbaApproved": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "veteranDiscount": {"value": null, "source": null, "year": null, "confidence": "unverified", "note": "Veteran-targeted listings exist (syncrevenue.com) but a specific discount amount was not verified"},
+        "multiUnitAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/canopy-lawn-care-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "medium", "note": "FDD fee structure explicitly contemplates multiple contiguous territories"},
+        "exclusiveTerritories": {"value": true, "source": "https://www.franchisepayback.com/franchise/canopy-lawn-care", "year": 2025, "confidence": "medium", "note": "Territory protection based on population density/dwelling counts; franchisor reserves national-account rights inside territories"},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.franchisepayback.com/franchise/canopy-lawn-care", "year": 2025, "confidence": "low", "note": "Ownership-mode detail not explicitly disclosed in reviewed sources"},
+        "canRunFromHome": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "canRunPartTime": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "absenteeOwnership": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "trainingWeeks": {"value": null, "source": "https://www.franchisepayback.com/franchise/canopy-lawn-care", "year": 2025, "confidence": "unverified", "note": "Mandatory initial training program (Canopy System, agronomics, marketing, sales, IT, safety) — duration not disclosed"},
+        "ongoingSupport": {"value": ["initial training program", "supplemental training", "mandatory annual conference"], "source": "https://www.franchisepayback.com/franchise/canopy-lawn-care", "year": 2025, "confidence": "medium"},
+        "marketingSupport": {"value": ["brand fund programs (1% of gross revenues)", "required local advertising program (min $30,000/year first territory)"], "source": "https://fddexchange.com/view-fdd-docs/canopy-lawn-care-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high"},
+        "employeesRequired": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "minFootprint": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "totalUnits": {"value": 42, "source": "https://www.franchisepayback.com/franchise/canopy-lawn-care", "year": 2025, "confidence": "high", "note": "37 franchised + 5 company-owned (2025 FDD)"},
+        "yearFounded": {"value": 2015, "source": "https://www.franchisepayback.com/franchise/canopy-lawn-care", "year": 2025, "confidence": "medium", "note": "Founded in Raleigh, NC; affiliate flagship unit opened 2016 per Item 19"},
+        "yearFranchising": {"value": 2020, "source": "https://www.franchisepayback.com/franchise/canopy-lawn-care", "year": 2025, "confidence": "low", "note": "CONFLICT: franchisepayback says franchising since 2020, but Item 20 shows 0 franchised units through 2023; effective franchise launch under Empower Brands was 2023-2024"},
+        "closureCount": {"value": 0, "source": "https://www.franchisechatter.com/2026/02/21/canopy-lawn-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "medium", "note": "No franchise closures in Item 20 (2022-2024); system too new for meaningful attrition data"},
+        "isGrowing": {"value": true, "source": "https://www.franchisechatter.com/2026/02/21/canopy-lawn-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "0 to 37 franchised units in 2024"}
+      },
+      "notes": "Lawn treatment franchise (Raleigh, NC origin) relaunched as a franchise under Empower Brands with explosive 2024 unit sales (37 openings in one year) but zero seasoned franchisees. Item 19 is a single affiliate unit with materially excluded expenses. Total cost of ownership is higher than headline fees suggest due to $30k minimum local ad spend and ramping minimum royalties."
+    },
+    {
+      "name": "Daisy",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very young, VC-backed system",
+          "detail": "Founded 2023, franchising since January 2024, ~10 units. Raised a $15M Series C in March 2025 to accelerate growth. No multi-year franchisee performance history exists; growth-stage investor pressure may prioritize expansion speed.",
+          "source": "Entrepreneur / Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_news/with-15m-in-series-c-funding-daisy-accelerates-smart-home-franchise-growth/article_bc8692cc-f9db-11ef-a3aa-138efad05947.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "No exclusive territory",
+          "detail": "Per FDD-derived sources, Daisy does not grant exclusive territories and retains the right to operate competing locations, authorize other franchisees, and use alternative sales channels within a franchisee's assigned region.",
+          "source": "FranchisePayback (2024 FDD)",
+          "url": "https://www.franchisepayback.com/franchise/daisy",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Widely conflicting third-party figures — verify against current FDD",
+          "detail": "Investment ranges reported as $36,500-$308,500 (Entrepreneur), $210,000-$309,000 (franchisepayback/sharpsheets), and $236,550-$954,100 (Vetted Biz, whose Daisy page also contained corrupted data referencing an unrelated gym brand). Revenue figures of $4.5M-$6.2M circulate without verifiable Item 19 sourcing. The spread partly reflects Daisy's conversion model (acquiring/converting existing AV-integration businesses) vs greenfield starts.",
+          "source": "Entrepreneur vs FranchisePayback vs Vetted Biz",
+          "url": "https://www.entrepreneur.com/franchises/directory/daisy/335226899",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 75000, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists $75,000-$150,000 liquid capital; Vetted Biz lists $85,000"},
+        "totalInvestmentMin": {"value": 36500, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "medium", "note": "CONFLICT: 2024 FDD-based sources list $210,000 min; low end likely reflects conversion of an existing integration business"},
+        "totalInvestmentMax": {"value": 308500, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "medium", "note": "Franchisepayback lists $309,000; Vetted Biz lists up to $954,100 (data quality concerns on that page)"},
+        "franchiseFee": {"value": 50000, "source": "https://www.franchisepayback.com/franchise/daisy", "year": 2024, "confidence": "medium", "note": "Entrepreneur shows $25,000-$50,000 range (lower tier likely for conversions)"},
+        "royaltyPercent": {"value": 10, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 3, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "medium", "note": "CONFLICT: franchisepayback states 8%; 3% corroborated by sharpsheets-derived search results"},
+        "avgUnitRevenue": {"value": null, "source": null, "year": null, "confidence": "unverified", "note": "Third-party figures of $6,220,000 (franchisepayback, marked 'undisclosed') and $4,539,007 (Vetted Biz, corrupted page) could not be verified as genuine Item 19 disclosures — excluded"},
+        "item19Available": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "fddAvailable": {"value": true, "source": "https://www.franchisepayback.com/franchise/daisy", "year": 2024, "confidence": "high", "note": "2024 FDD (first FDD year)"},
+        "sbaApproved": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "veteranDiscount": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "unverified", "note": "Entrepreneur lists veteran incentives as 'varies'"},
+        "multiUnitAvailable": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "exclusiveTerritories": {"value": false, "source": "https://www.franchisepayback.com/franchise/daisy", "year": 2024, "confidence": "high", "note": "FDD explicitly grants no exclusive territory; franchisor retains competing channels"},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "medium", "note": "Absentee and part-time not permitted; brand targets existing smart-home/AV integration business owners for conversion"},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "medium", "note": "Home/mobile operation allowed per Entrepreneur"},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "https://www.franchisepayback.com/franchise/daisy", "year": 2024, "confidence": "medium", "note": "Mandatory 5-10 day initial program (Newport Beach/Costa Mesa, CA or virtual); Entrepreneur lists 40 hrs on-the-job + 40 hrs classroom"},
+        "ongoingSupport": {"value": ["initial and on-the-job training", "operational guidance", "additional training available (extra fees may apply)"], "source": "https://www.franchisepayback.com/franchise/daisy", "year": 2024, "confidence": "medium"},
+        "marketingSupport": {"value": ["brand/ad fund programs (3% of gross sales)"], "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "medium"},
+        "employeesRequired": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "medium"},
+        "minFootprint": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "totalUnits": {"value": 10, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "medium", "note": "Directory counts lag; Daisy has been acquiring and converting existing integrators through 2025, so the operating footprint may be larger"},
+        "yearFounded": {"value": 2023, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "high", "note": "Founded by CEO Hagan Kappler; parent Daisyco Inc., Costa Mesa, CA"},
+        "yearFranchising": {"value": 2024, "source": "https://www.entrepreneur.com/franchises/directory/daisy/335226899", "year": 2026, "confidence": "high", "note": "Franchising launched January 2024"},
+        "closureCount": {"value": null, "source": null, "year": null, "confidence": "unverified", "note": "System too new for closure history"},
+        "isGrowing": {"value": true, "source": "https://www.franchisetimes.com/franchise_news/with-15m-in-series-c-funding-daisy-accelerates-smart-home-franchise-growth/article_bc8692cc-f9db-11ef-a3aa-138efad05947.html", "year": 2025, "confidence": "high", "note": "0 to ~10+ units since Jan 2024; $15M Series C (Mar 2025) earmarked for franchise growth"}
+      },
+      "notes": "Smart-home/small-business technology installation and service franchise (Costa Mesa, CA). Legitimate, fast-moving, VC-backed startup franchise with a conversion-heavy model (acquiring existing AV integrators), which explains the wild variance in published investment figures. 10% royalty + 3% ad fund and no territorial exclusivity. The Vetted Biz profile for Daisy contained cross-contaminated data from an unrelated brand and was discounted."
+    },
+    {
+      "name": "CR3 American Exteriors",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Small, young system with no Item 19",
+          "detail": "Approximately 10 total units (7 franchised + 3 company-owned, 2024 FDD), franchising only since 2022/2023, and no financial performance representation disclosed (AUV listed as undisclosed). Unit economics cannot be validated from public data.",
+          "source": "FranchisePayback (2024 FDD)",
+          "url": "https://www.franchisepayback.com/franchise/cr3-american-exteriors",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Inconsistent figures across directories",
+          "detail": "Franchise fee reported as $35,000 (Franchise Gator/Franchise Direct) vs $40,000 (franchisepayback, FDD-based); royalty as 6% (FDD-based) vs 6.5% (Gator); franchising since 2022 (payback) vs 2023 (Gator). Gator also lists liquid capital $75,000 against net worth $50,000, which is internally inconsistent.",
+          "source": "Franchise Gator vs FranchisePayback",
+          "url": "https://www.franchisegator.com/franchises/cr3-american-exteriors/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 75000, "source": "https://www.franchisegator.com/franchises/cr3-american-exteriors/", "year": 2026, "confidence": "medium", "note": "Gator simultaneously lists net worth $50,000, which is inconsistent; treat with caution"},
+        "totalInvestmentMin": {"value": 73000, "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "high"},
+        "totalInvestmentMax": {"value": 188000, "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "medium", "note": "CONFLICT: Franchise Gator and Franchise Direct list $35,000"},
+        "royaltyPercent": {"value": 6, "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "medium", "note": "CONFLICT: Franchise Gator lists 6.5%"},
+        "adFundPercent": {"value": 1, "source": "https://www.franchisedirect.com/cr3-american-exteriors-franchise-costs-fees-fdd", "year": 2024, "confidence": "medium", "note": "1% of prior month's gross revenue to system marketing fund"},
+        "avgUnitRevenue": {"value": null, "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "unverified", "note": "AUV undisclosed"},
+        "item19Available": {"value": false, "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/cr3-american-exteriors-2024-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high"},
+        "sbaApproved": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "veteranDiscount": {"value": true, "source": "https://www.franchisegator.com/franchises/cr3-american-exteriors/", "year": 2026, "confidence": "medium", "note": "10% off franchise fee for qualified veterans"},
+        "multiUnitAvailable": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "exclusiveTerritories": {"value": true, "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "medium", "note": "Protected territory; franchisor may serve national accounts extending into franchise areas"},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "low", "note": "Ownership-mode detail not explicitly disclosed in reviewed sources"},
+        "canRunFromHome": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "canRunPartTime": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "absenteeOwnership": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "trainingWeeks": {"value": null, "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "unverified", "note": "In-person training in Pennsylvania plus online modules; duration not disclosed"},
+        "ongoingSupport": {"value": ["operational procedures training", "software systems training", "sales techniques training", "customer service protocols", "online learning modules"], "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "medium"},
+        "marketingSupport": {"value": ["system-wide marketing fund (1% of gross revenue)"], "source": "https://www.franchisedirect.com/cr3-american-exteriors-franchise-costs-fees-fdd", "year": 2024, "confidence": "medium"},
+        "employeesRequired": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "minFootprint": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "totalUnits": {"value": 10, "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "medium", "note": "7 franchised + 3 company-owned (2024 FDD); Gator lists 11 total"},
+        "yearFounded": {"value": 2017, "source": "https://www.franchisegator.com/franchises/cr3-american-exteriors/", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2022, "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "medium", "note": "CONFLICT: Franchise Gator lists 2023"},
+        "closureCount": {"value": null, "source": null, "year": null, "confidence": "unverified"},
+        "isGrowing": {"value": true, "source": "https://www.franchisepayback.com/franchise/cr3-american-exteriors", "year": 2024, "confidence": "low", "note": "0 to 7 franchised units since franchising began; growth positive but from a tiny base"}
+      },
+      "notes": "Roofing/exteriors (roofing, gutters, siding, windows/doors) franchise headquartered in Pennsylvania, serving residential and commercial customers. Genuine emerging franchise with FDD on file, but tiny system, no Item 19, and modest cross-source inconsistencies in fee/royalty/timeline figures. Third-party financing available."
+    }
+  ]
+}

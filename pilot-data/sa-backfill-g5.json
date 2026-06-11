@@ -1,0 +1,2051 @@
+{
+  "brands": [
+    {
+      "name": "Spark by Hilton",
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/spark-by-hilton/335226809",
+        "year": 2026,
+        "note": "Available Territories: United States. Conversion hotel brand with 400+ opportunities in development; present in 30+ US markets."
+      }
+    },
+    {
+      "name": "Sport Clips",
+      "nationwide": {
+        "source": "Sport Clips Franchise \u2014 Growth Markets & Available Territories",
+        "url": "https://sportclipsfranchise.com/research/growth-markets-available-territories/",
+        "year": 2026,
+        "note": "\"Opportunities available in prime markets across the nation.\" Highlighted growth markets include CA, CT, DE, GA, IL, IA, MD, MA, MI, MN, NH, NY, OH, OR, PA, VT, VA, WA; locations in 49 states + DC."
+      }
+    },
+    {
+      "name": "Steamoji",
+      "statesOpen": [
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging brand (~9 US territories sold as of Dec 2024)",
+          "source": "FranchiseSolutions \u2014 Steamoji Academy for Kids listing",
+          "url": "https://www.franchisesolutions.com/franchise/steamoji-academy-for-kids",
+          "year": 2026
+        }
+      ],
+      "note": "Not registered/offering in franchise-registration states (e.g. NY, IL, MN, WA, VA, WI) per listing; also expanding across Canada excl. Quebec."
+    },
+    {
+      "name": "Taco Bell",
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/taco-bell/282858",
+        "year": 2026,
+        "note": "Available Territories: United States. Official franchise page tacobell.com/franchise; 8,000+ US units, national development incentive programs."
+      }
+    },
+    {
+      "name": "That 1 Painter",
+      "statesOpen": [
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; ResiBrands company with locations in 34 states (2025 FDD)",
+          "source": "FranchiseSolutions \u2014 That 1 Painter listing",
+          "url": "https://www.franchisesolutions.com/franchise/that-1-painter",
+          "year": 2026
+        }
+      ],
+      "note": "Availability list excludes most franchise-registration states; brand directs prospects to contact for additional territories."
+    },
+    {
+      "name": "The Cleaning Authority",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; locations in 40 states (2024 FDD)",
+          "source": "Franchise.com \u2014 The Cleaning Authority listing",
+          "url": "https://www.franchise.com/franchise/the-cleaning-authority",
+          "year": 2026
+        }
+      ],
+      "note": "Franchisor maintains an available-markets page (cleaningauthorityfranchise.com/available-markets/, blocked to bots); offers hometown and enterprise market sizes."
+    },
+    {
+      "name": "The UPS Store",
+      "nationwide": {
+        "source": "The UPS Store Franchise (official)",
+        "url": "https://www.theupsstorefranchise.com/all-locations-by-state",
+        "year": 2026,
+        "note": "Official franchise site lists opportunities browsable by state and county across the US; 5,200+ centers, largest US shipping/print franchise network, accepting inquiries in all 50 states."
+      }
+    },
+    {
+      "name": "Travelin' Tom's Coffee",
+      "nationwide": {
+        "source": "Franchising.com \u2014 Travelin' Tom's Coffee Truck",
+        "url": "https://www.franchising.com/travelintomscoffeetruck/",
+        "year": 2026,
+        "note": "Mobile coffee-truck franchise with 350+ trucks in 37 states and 'rapidly expanding nationwide'; territories offered across all 50 states per listing."
+      }
+    },
+    {
+      "name": "Tropical Smoothie Cafe",
+      "nationwide": {
+        "source": "Tropical Smoothie Cafe Franchise (official) \u2014 Available U.S. Franchise Territories",
+        "url": "https://www.tropicalsmoothiefranchise.com/available-territories/",
+        "year": 2026,
+        "note": "Official territory page with all-50-state selector; opportunities across the US incl. Indianapolis, Nashville, Houston, Dallas, Columbus, Charlotte; 1,500+ cafes in 44 states."
+      }
+    },
+    {
+      "name": "True North Restoration",
+      "nationwide": {
+        "source": "True North Restoration Franchise (official) \u2014 Territories",
+        "url": "https://truenorthfranchise.com/territories/",
+        "year": 2026,
+        "note": "\"True North Restoration is rapidly growing and expanding throughout the United States\" \u2014 official territories page with custom territory build-out during discovery."
+      }
+    },
+    {
+      "name": "Two Maids & A Mop",
+      "nationwide": {
+        "source": "Franchise.com \u2014 Two Maids listing",
+        "url": "https://www.franchise.com/franchise/two-maids",
+        "year": 2026,
+        "note": "Accepting franchise inquiries in all 50 states + DC; franchisor site (twomaidsfranchise.com) advertises 300+ territories available for development across the US."
+      }
+    },
+    {
+      "name": "Up Closets",
+      "statesOpen": [
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "ND",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "SD",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; actively expanding emerging brand",
+          "source": "Franchise.com \u2014 Up Closets Custom Closets listing",
+          "url": "https://www.franchise.com/franchise/up-closets-custom-closets",
+          "year": 2026
+        }
+      ],
+      "note": "Directory state lists vary slightly (some also show CA, IL, MD, MN, NY); three territory sizes offered based on population."
+    },
+    {
+      "name": "Valhallan",
+      "statesOpen": [
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Named target state for prospective franchisees in brand growth announcement; recruiting franchise owners across the US, Canada and UK",
+          "source": "PR Newswire \u2014 Valhallan Franchise Soars to Record Brand Growth in March",
+          "url": "https://www.prnewswire.com/news-releases/valhallan-franchise-soars-to-record-brand-growth-in-march-301791916.html",
+          "year": 2023
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Named target state for prospective franchisees in brand growth announcement; recruiting franchise owners across the US, Canada and UK",
+          "source": "PR Newswire \u2014 Valhallan Franchise Soars to Record Brand Growth in March",
+          "url": "https://www.prnewswire.com/news-releases/valhallan-franchise-soars-to-record-brand-growth-in-march-301791916.html",
+          "year": 2023
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Named target state for prospective franchisees in brand growth announcement; recruiting franchise owners across the US, Canada and UK",
+          "source": "PR Newswire \u2014 Valhallan Franchise Soars to Record Brand Growth in March",
+          "url": "https://www.prnewswire.com/news-releases/valhallan-franchise-soars-to-record-brand-growth-in-march-301791916.html",
+          "year": 2023
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Named target state for prospective franchisees in brand growth announcement; recruiting franchise owners across the US, Canada and UK",
+          "source": "PR Newswire \u2014 Valhallan Franchise Soars to Record Brand Growth in March",
+          "url": "https://www.prnewswire.com/news-releases/valhallan-franchise-soars-to-record-brand-growth-in-march-301791916.html",
+          "year": 2023
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Named target state for prospective franchisees in brand growth announcement; recruiting franchise owners across the US, Canada and UK",
+          "source": "PR Newswire \u2014 Valhallan Franchise Soars to Record Brand Growth in March",
+          "url": "https://www.prnewswire.com/news-releases/valhallan-franchise-soars-to-record-brand-growth-in-march-301791916.html",
+          "year": 2023
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Named target state for prospective franchisees in brand growth announcement; recruiting franchise owners across the US, Canada and UK",
+          "source": "PR Newswire \u2014 Valhallan Franchise Soars to Record Brand Growth in March",
+          "url": "https://www.prnewswire.com/news-releases/valhallan-franchise-soars-to-record-brand-growth-in-march-301791916.html",
+          "year": 2023
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Named target state for prospective franchisees in brand growth announcement; recruiting franchise owners across the US, Canada and UK",
+          "source": "PR Newswire \u2014 Valhallan Franchise Soars to Record Brand Growth in March",
+          "url": "https://www.prnewswire.com/news-releases/valhallan-franchise-soars-to-record-brand-growth-in-march-301791916.html",
+          "year": 2023
+        }
+      ],
+      "note": "Operates in ~13-20 states; acquired XP League in late 2025 (Franchise Times). Current valhallan.com/franchise URL returns 404, so no up-to-date official territory page was verifiable."
+    },
+    {
+      "name": "Vicky Bakery",
+      "statesOpen": [
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "\"South Florida, Southwest Florida, Central Florida, and other major markets across the Sunshine State and Southeast open for development\" (verified quote, article dated 2023-03-31)",
+          "source": "Vicky Bakery (official blog)",
+          "url": "https://vickybakery.com/5-reasons-why-now-is-the-time-to-buy-a-vicky-bakery-franchise/",
+          "year": 2023
+        }
+      ],
+      "note": "South-Florida concentrated Cuban bakery. CEO told Franchise Times (2023) Florida supports 60-65 stores; after that the brand will look at the Carolinas, Alabama and Texas \u2014 those states are future targets, not currently documented as open."
+    },
+    {
+      "name": "Voda Cleaning & Restoration",
+      "nationwide": {
+        "source": "FranchiseSolutions \u2014 Voda Cleaning & Restoration listing",
+        "url": "https://www.franchisesolutions.com/franchise/voda-cleaning-restoration",
+        "year": 2026,
+        "note": "Accepting inquiries in all 50 states; franchisor press (myvoda.com) describes active 'nationwide expansion' \u2014 100+ owners, 270+ territories across 32 states since 2023."
+      }
+    },
+    {
+      "name": "Wingstop",
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/wingstop/282950",
+        "year": 2026,
+        "note": "Available Territories: United States. Official development page wingstop.com/available-markets. High entry bar: $1.2M net worth, ~$204k-$335k liquid, 3-store minimum development agreement; operating in 47 states."
+      }
+    },
+    {
+      "name": "Wise Coatings",
+      "statesOpen": [
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "HI",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; emerging concrete-coatings brand (founded 2020) in early growth stage",
+          "source": "FranchiseSolutions \u2014 Wise Coatings listing",
+          "url": "https://www.franchisesolutions.com/franchise/wise-coatings",
+          "year": 2026
+        }
+      ],
+      "note": "Listing covers 45 states + DC (IL, ND, RI, SD, WA not shown as accepting inquiries)."
+    },
+    {
+      "name": "XP League",
+      "note": "No current franchise-availability evidence found. XP League was acquired by Valhallan Esports from Unleashed Brands in late 2025 (franchisetimes.com); its franchise site (xpleaguefranchise.com) is offline (IIS default page / timeouts) and xpleague.com no longer mentions franchise opportunities. Status of new franchise sales post-acquisition is unclear."
+    },
+    {
+      "name": "Zivel",
+      "nationwide": {
+        "source": "America's Best Franchises \u2014 ZIVEL listing",
+        "url": "https://americasbestfranchises.com/franchises/zivel/",
+        "year": 2026,
+        "note": "\"Franchises are available throughout the United States\" with exclusive protected territories. Franchisor site (zivelfranchise.com) sets territory case-by-case and publishes no state list; ~15-22 locations across ~10 states."
+      }
+    },
+    {
+      "name": "beem Light Sauna",
+      "statesOpen": [
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Currently accepting franchise inquiries in this state per listing; 300+ territories awarded to 80+ owners across 30 states",
+          "source": "FranchiseSolutions \u2014 beem Light Sauna listing",
+          "url": "https://www.franchisesolutions.com/franchise/beem-light-sauna",
+          "year": 2026
+        }
+      ],
+      "note": "Listing covers 45 states + DC (HI, MD, ND, NY, SD not shown as accepting inquiries); brand says market availability changes daily."
+    }
+  ]
+}

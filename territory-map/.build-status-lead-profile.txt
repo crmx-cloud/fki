@@ -1,0 +1,7 @@
+BUILD STATUS: SUCCESS
+Date: 2026-03-27T00:30:00Z
+Changes:
+  - convex/crm.ts: Updated getLead query with field masking for brand roles + deletedAt check
+  - src/components/crm/LeadProfilePanel.tsx: New component - slide-over panel with full lead profile
+  - src/pages/CRMPage.tsx: Added selectedLeadId state, imports, wired panel to click handlers
+Build output: 1974 modules, dist/assets/index-CLFYXMKe.js (1,256.27 kB)

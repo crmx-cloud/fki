@@ -1,0 +1,697 @@
+{
+ "brands": [
+  {
+   "name": "Orangetheory Fitness",
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 190000,
+     "source": "https://www.vettedbiz.com/franchises/orangetheory",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "totalInvestmentMin": {
+     "value": 821622,
+     "source": "https://www.franchimp.com/?page=pdf&f=105620_2024.pdf",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 1377160,
+     "source": "https://www.franchimp.com/?page=pdf&f=105620_2024.pdf",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 59950,
+     "source": "https://www.franchimp.com/?page=pdf&f=105620_2024.pdf",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 8,
+     "source": "https://www.vettedbiz.com/franchises/orangetheory",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 3,
+     "source": "https://www.vettedbiz.com/franchises/orangetheory",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "CONFLICT: 3% (VettedBiz) vs 2% other sources"
+    },
+    "avgUnitRevenue": {
+     "value": 1000000,
+     "source": "https://www.franchimp.com/blog/article/fitness-franchise-fdd-analysis-2026",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "CONFLICT: ~$1.0M median (FranChimp, 1,269 US) vs $807,976 avg (VettedBiz)"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchimp.com/?page=pdf&f=105620_2024.pdf",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchimp.com/?page=pdf&f=105620_2024.pdf",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "sbaApproved": {
+     "value": true,
+     "source": "https://www.franchimp.com/blog/article/fitness-franchise-fdd-analysis-2026",
+     "year": 2025,
+     "confidence": "low",
+     "note": "~5.0% SBA default rate cited"
+    },
+    "veteranDiscount": {
+     "value": null,
+     "source": "unverified"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/fitnessfranchises/orangetheory-fitness-franchise-09691/ufoc/",
+     "year": 2024,
+     "confidence": "medium"
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.franchimp.com/?page=pdf&f=105620_2024.pdf",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Protected territory w/ carve-outs (Item 12)"
+    },
+    "ownerTypes": {
+     "value": [
+      "owner_operator",
+      "semi_absentee"
+     ],
+     "source": "https://www.franchisedirect.com/fitnessfranchises/orangetheory-fitness-franchise-09691/ufoc/",
+     "year": 2024,
+     "confidence": "low"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.franchimp.com/?page=pdf&f=105620_2024.pdf",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.vettedbiz.com/franchises/orangetheory",
+     "year": 2024,
+     "confidence": "low"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.vettedbiz.com/franchises/orangetheory",
+     "year": 2024,
+     "confidence": "low"
+    },
+    "trainingWeeks": {
+     "value": null,
+     "source": "unverified",
+     "note": "4-day onsite pre-sales program, not weeks"
+    },
+    "ongoingSupport": {
+     "value": [
+      "operations support",
+      "field/area representative support",
+      "technology systems",
+      "ongoing coaching education"
+     ],
+     "source": "https://www.franchisedirect.com/fitnessfranchises/orangetheory-fitness-franchise-09691/ufoc/",
+     "year": 2024,
+     "confidence": "low"
+    },
+    "marketingSupport": {
+     "value": [
+      "national advertising fund",
+      "grand opening/pre-sales marketing",
+      "co-op/local marketing"
+     ],
+     "source": "https://www.vettedbiz.com/franchises/orangetheory",
+     "year": 2024,
+     "confidence": "low"
+    },
+    "minFootprint": {
+     "value": "~2,500-3,500 sq ft",
+     "source": "https://www.franchisedirect.com/fitnessfranchises/orangetheory-fitness-franchise-09691/ufoc/",
+     "year": 2024,
+     "confidence": "low"
+    },
+    "totalUnits": {
+     "value": 1298,
+     "source": "https://www.vettedbiz.com/franchises/orangetheory",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "yearFounded": {
+     "value": 2010,
+     "source": "https://en.wikipedia.org/wiki/Orangetheory_Fitness",
+     "year": 2010,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2010,
+     "source": "https://en.wikipedia.org/wiki/Orangetheory_Fitness",
+     "year": 2010,
+     "confidence": "high"
+    },
+    "closureCount": {
+     "value": null,
+     "source": "unverified",
+     "note": "3rd-party tracker: 26 US closures Aug 2025-May 2026"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.otfinsider.com/news/otf-studio-closures-2026",
+     "year": 2025,
+     "confidence": "low",
+     "note": "Flat/declining; accelerating closures 2025-26"
+    }
+   },
+   "notes": "AUV conflict ($1.0M median vs $808K avg) flagged. Recent closures accelerating per 3rd-party tracker. Pre-sales training is 4 days, not weeks."
+  },
+  {
+   "name": "Planet Fitness",
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 1500000,
+     "source": "https://sharpsheets.io/blog/planet-fitness-franchises-costs-profits/",
+     "year": 2024,
+     "confidence": "medium"
+    },
+    "totalInvestmentMin": {
+     "value": 1525000,
+     "source": "https://www.franchisechatter.com/2025/09/27/planet-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 5221500,
+     "source": "https://www.franchisechatter.com/2025/09/27/planet-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 20000,
+     "source": "https://www.franchisechatter.com/2024/09/18/fdd-talk-planet-fitness-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 7,
+     "source": "https://www.franchisechatter.com/2024/09/18/fdd-talk-planet-fitness-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "ANOMALY: 7% of MEMBERSHIP/EFT dues, not all gross sales"
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://www.franchisechatter.com/2024/09/18/fdd-talk-planet-fitness-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "NAF 2% of EFT + mandatory LOCAL ad spend = greater of $60K or 7% of EFT dues"
+    },
+    "avgUnitRevenue": {
+     "value": 1873895,
+     "source": "https://www.franchisechatter.com/2024/09/18/fdd-talk-planet-fitness-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Item 19: avg $1,873,895, median $1,794,689"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/09/18/fdd-talk-planet-fitness-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/view-fdd-docs/planet-fitness-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "sbaApproved": {
+     "value": null,
+     "source": "unverified"
+    },
+    "veteranDiscount": {
+     "value": null,
+     "source": "unverified",
+     "note": "Membership military discount exists; NO franchise-fee discount confirmed"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/fitnessfranchises/planet-fitness-franchise-12988/ufoc/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Heavily area-developer driven"
+    },
+    "exclusiveTerritories": {
+     "value": false,
+     "source": "https://www.franchisedirect.com/fitnessfranchises/planet-fitness-franchise-12988/ufoc/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "ANOMALY: NO protected territory under standard agreement; only via ADA"
+    },
+    "ownerTypes": {
+     "value": [
+      "semi_absentee",
+      "executive",
+      "owner_operator"
+     ],
+     "source": "https://www.franchisedirect.com/fitnessfranchises/planet-fitness-franchise-12988/ufoc/",
+     "year": 2024,
+     "confidence": "low"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.franchisedirect.com/fitnessfranchises/planet-fitness-franchise-12988/ufoc/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.franchisedirect.com/fitnessfranchises/planet-fitness-franchise-12988/ufoc/",
+     "year": 2024,
+     "confidence": "medium"
+    },
+    "absenteeOwnership": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/fitnessfranchises/planet-fitness-franchise-12988/ufoc/",
+     "year": 2024,
+     "confidence": "low",
+     "note": "Investor/executive model common"
+    },
+    "trainingWeeks": {
+     "value": 2,
+     "source": "https://www.specialstrong.com/how-are-the-personal-trainers-at-planet-fitness-gym/",
+     "year": 2024,
+     "confidence": "low"
+    },
+    "ongoingSupport": {
+     "value": [
+      "operations manual",
+      "equipment maintenance support",
+      "field operations support",
+      "technology/management systems"
+     ],
+     "source": "https://www.franchisedirect.com/fitnessfranchises/planet-fitness-franchise-12988/ufoc/",
+     "year": 2024,
+     "confidence": "low"
+    },
+    "marketingSupport": {
+     "value": [
+      "national advertising fund (NAF)",
+      "required local advertising spend",
+      "grand opening marketing"
+     ],
+     "source": "https://www.franchisechatter.com/2024/09/18/fdd-talk-planet-fitness-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "medium"
+    },
+    "minFootprint": {
+     "value": "~15,000-20,000 sq ft (typical club)",
+     "source": "https://www.franchisedirect.com/fitnessfranchises/planet-fitness-franchise-12988/ufoc/",
+     "year": 2024,
+     "confidence": "low"
+    },
+    "totalUnits": {
+     "value": 2568,
+     "source": "https://www.franchisechatter.com/2025/09/27/planet-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "2,298 franchised + 270 company-owned YE2024"
+    },
+    "yearFounded": {
+     "value": 1992,
+     "source": "https://en.wikipedia.org/wiki/Planet_Fitness",
+     "year": 1992,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2003,
+     "source": "https://en.wikipedia.org/wiki/Planet_Fitness",
+     "year": 2003,
+     "confidence": "high"
+    },
+    "closureCount": {
+     "value": null,
+     "source": "unverified"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/09/27/planet-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Growing, but US franchising reportedly limited to area developers"
+    }
+   },
+   "notes": "ANOMALIES: royalty on EFT dues not gross sales; no territory protection without ADA; huge local ad mandate ($60K or 7% EFT); $3M net worth / $1.5M liquid bar; reportedly not accepting new individual US franchisees."
+  },
+  {
+   "name": "Burn Boot Camp",
+   "fields": {
+    "liquidCapitalMin": {
+     "value": null,
+     "source": "unverified"
+    },
+    "totalInvestmentMin": {
+     "value": 281899,
+     "source": "https://www.franchisechatter.com/2026/03/30/burn-boot-camp-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 645344,
+     "source": "https://www.franchisechatter.com/2026/03/30/burn-boot-camp-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 60000,
+     "source": "https://www.franchisechatter.com/2026/03/30/burn-boot-camp-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "https://www.franchisechatter.com/2026/03/30/burn-boot-camp-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://www.franchisechatter.com/2026/03/30/burn-boot-camp-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "May increase up to 3%"
+    },
+    "avgUnitRevenue": {
+     "value": 680997,
+     "source": "https://www.franchisechatter.com/2026/03/30/burn-boot-camp-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Item 19: avg $680,997, median $638,290; avg NOI $114,287"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/03/30/burn-boot-camp-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://fddexchange.com/burn-boot-camp-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "sbaApproved": {
+     "value": null,
+     "source": "unverified"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.burnbootcampfranchise.com/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "VetFran 15% off initial fee"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://www.franchisetimes.com/fitness-finance/multi-unit-franchisees-help-drive-burn-boot-camp-s-rise/article_d8b8cf0b-8a4e-4cd9-bb2c-e2b1db358163.html",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "exclusiveTerritories": {
+     "value": false,
+     "source": "https://franchise.burnbootcamp.com/available-territories",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Protected but explicitly NOT exclusive"
+    },
+    "ownerTypes": {
+     "value": [
+      "owner_operator",
+      "semi_absentee",
+      "executive"
+     ],
+     "source": "https://www.burnbootcampfranchise.com/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.burnbootcampfranchise.com/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.burnbootcampfranchise.com/",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.burnbootcampfranchise.com/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "trainingWeeks": {
+     "value": 2,
+     "source": "https://www.burnbootcampfranchise.com/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "ongoingSupport": {
+     "value": [
+      "launch/opening support",
+      "operations support",
+      "field support",
+      "technology systems",
+      "ongoing training"
+     ],
+     "source": "https://www.burnbootcampfranchise.com/",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "marketingSupport": {
+     "value": [
+      "national marketing fund",
+      "grand opening marketing",
+      "digital/social marketing support"
+     ],
+     "source": "https://www.burnbootcampfranchise.com/",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "totalUnits": {
+     "value": 365,
+     "source": "https://www.franchisechatter.com/2026/03/30/burn-boot-camp-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "yearFounded": {
+     "value": 2012,
+     "source": "https://www.burnbootcampfranchise.com/our-culture/",
+     "year": 2012,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2015,
+     "source": "https://www.burnbootcampfranchise.com/our-culture/",
+     "year": 2015,
+     "confidence": "high"
+    },
+    "closureCount": {
+     "value": null,
+     "source": "unverified"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://insider.fitt.co/press-release/burn-boot-camp-ends-2025-with-double-digit-growth-and-strong-franchisee-profitability-while-expanding-national-footprint/",
+     "year": 2025,
+     "confidence": "high"
+    }
+   },
+   "notes": "Item 19 includes NOI disclosure (rare transparency). VetFran 15% veteran discount. Territory protected but NOT exclusive."
+  },
+  {
+   "name": "Goldfish Swim School",
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 435000,
+     "source": "https://www.vettedbiz.com/franchises/goldfish-swim-school",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "totalInvestmentMin": {
+     "value": 1673263,
+     "source": "https://fddexchange.com/view-fdd-docs/goldfish-swim-school-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 3728930,
+     "source": "https://fddexchange.com/view-fdd-docs/goldfish-swim-school-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 50000,
+     "source": "https://fddexchange.com/view-fdd-docs/goldfish-swim-school-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "https://fddexchange.com/view-fdd-docs/goldfish-swim-school-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 3,
+     "source": "https://fddexchange.com/view-fdd-docs/goldfish-swim-school-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "CONFLICT: 3% (FDDExchange) vs 2% (VettedBiz)"
+    },
+    "avgUnitRevenue": {
+     "value": null,
+     "source": "unverified",
+     "note": "NO Item 19; circulating ~$1.47M figures are third-party estimates only"
+    },
+    "item19Available": {
+     "value": false,
+     "source": "https://fddexchange.com/view-fdd-docs/goldfish-swim-school-2024-fdd-franchise-information-costs-and-fees/",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchimp.com/?page=pdf&f=104803_2024.pdf",
+     "year": 2024,
+     "confidence": "high"
+    },
+    "sbaApproved": {
+     "value": null,
+     "source": "unverified"
+    },
+    "veteranDiscount": {
+     "value": null,
+     "source": "unverified"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://goldfishswimschool.com/franchise-opportunities/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://goldfishswimschool.com/franchise-opportunities/about-us",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "ownerTypes": {
+     "value": [
+      "semi_absentee",
+      "owner_operator",
+      "executive"
+     ],
+     "source": "https://goldfishswimschool.com/franchise-opportunities/",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://goldfishswimschool.com/about/our-facility/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://goldfishswimschool.com/franchise-opportunities/",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://goldfishswimschool.com/franchise-opportunities/",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "trainingWeeks": {
+     "value": 3,
+     "source": "https://www.franchisegrade.com/franchises/goldfish-swim-school",
+     "year": 2024,
+     "confidence": "low",
+     "note": "~116 hrs initial training"
+    },
+    "ongoingSupport": {
+     "value": [
+      "site selection support",
+      "construction/buildout support",
+      "operations support",
+      "field support",
+      "technology systems"
+     ],
+     "source": "https://www.goldfishswimschool.com/franchise-opportunities/why-us-/site-selection/",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "marketingSupport": {
+     "value": [
+      "brand/marketing fund",
+      "grand opening marketing",
+      "national brand marketing"
+     ],
+     "source": "https://goldfishswimschool.com/franchise-opportunities/",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "minFootprint": {
+     "value": "7,000-10,000 sq ft",
+     "source": "https://goldfishswimschool.com/about/our-facility/",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "totalUnits": {
+     "value": 177,
+     "source": "https://www.vettedbiz.com/franchises/goldfish-swim-school",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "200+ incl Canada per 2026 releases"
+    },
+    "yearFounded": {
+     "value": 2006,
+     "source": "https://goldfishswimschool.com/about/our-story/",
+     "year": 2006,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2009,
+     "source": "https://goldfishswimschool.com/franchise-opportunities/about-us",
+     "year": 2009,
+     "confidence": "high"
+    },
+    "closureCount": {
+     "value": null,
+     "source": "unverified"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "http://www.franchise.org/2026/03/20-years-200-plus-locations-goldfish-swim-school-celebrates-platinum-anniversary/",
+     "year": 2026,
+     "confidence": "high"
+    }
+   },
+   "notes": "NO Item 19 \u2014 revenue estimates are third-party only, correctly excluded. High capital (pool buildout). Ad fund conflict 2% vs 3% flagged."
+  }
+ ]
+}

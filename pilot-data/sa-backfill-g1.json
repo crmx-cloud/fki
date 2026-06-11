@@ -1,0 +1,2177 @@
+{
+  "brands": [
+    {
+      "name": "1-Tom-Plumber",
+      "nationwide": {
+        "source": "America's Best Franchises",
+        "url": "https://americasbestfranchises.com/franchises/1-tom-plumber/",
+        "year": 2026,
+        "note": "\"Franchises available throughout the United States.\" ~94 units in 28 states; territory availability open across most U.S. markets (franchisor territory list at 1tomplumberfranchise.com/territories/)."
+      }
+    },
+    {
+      "name": "7-Eleven",
+      "statesOpen": [
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Accepting franchise inquiries per Franchise Gator listing",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/7-eleven/",
+          "year": 2026
+        }
+      ],
+      "note": "Official disclaimer: \"Franchises are not available to residents of North Dakota, South Dakota, Minnesota and Hawaii.\" Specific store availability listed at franchise.7-eleven.com/franchise/stores-available."
+    },
+    {
+      "name": "Ace Hardware",
+      "nationwide": {
+        "source": "Franchising.com Ace Hardware profile",
+        "url": "https://www.franchising.com/acehardwarestore/",
+        "year": 2025,
+        "note": "Store opportunities listed in all 50 US states; ~5,200 locally owned stores across all 50 states. Note: cooperative member-ownership model, not a traditional franchise."
+      },
+      "note": "Open-a-store program at myace.com/open-a-store/."
+    },
+    {
+      "name": "All Dry Services",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "ND",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "SD",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Franchise opportunities available per Franchise.com listing",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/all-dry-restoration-and-cleanup",
+          "year": 2025
+        }
+      ],
+      "note": "Not listed: AK, CO, HI. 2024 FDD shows operating locations in 34 states."
+    },
+    {
+      "name": "Anytime Fitness",
+      "nationwide": {
+        "source": "Anytime Fitness franchise site - Available Franchise Territories",
+        "url": "https://franchise.anytimefitness.com/franchise/available-franchise-territories",
+        "year": 2026,
+        "note": "Franchisor interactive territory map covers all 50 states + DC with high/medium availability designations; aiming to double domestic clubs across all 50 states."
+      }
+    },
+    {
+      "name": "B12 Store, The",
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/b12-store-the/335226377",
+        "year": 2022,
+        "note": "Available Territories: \"United States\" (listing data updated Dec 2022). ~48 mall-based franchised units per 2024 FDD; verify current territory availability with franchisor."
+      }
+    },
+    {
+      "name": "Bath Tune-Up",
+      "nationwide": {
+        "source": "Franchise Solutions",
+        "url": "https://www.franchisesolutions.com/franchise/bath-tune-up",
+        "year": 2026,
+        "note": "Accepting inquiries from all 50 states + DC (also Canadian provinces). Home Franchise Concepts brand; franchisor development site at franchise.bathtune-up.com."
+      }
+    },
+    {
+      "name": "Big Chicken",
+      "nationwide": {
+        "source": "The Franchise King (2025 update)",
+        "url": "https://www.thefranchiseking.com/shaqs-big-chicken",
+        "year": 2025,
+        "note": "Development areas include WA, CA, NV, TX, OK, AR, IL, TN, AL, SC, MI, OH, PA, NJ, MA and all other states open for franchising development; 350+ locations in development. Franchisor site: franchise.bigchicken.com."
+      }
+    },
+    {
+      "name": "Big Frog Custom T-Shirts",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "ND",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "SD",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Available per franchisor territory map (tiers: hot/available/limited)",
+          "source": "Big Frog Franchise Group - Territories",
+          "url": "https://bigfrogfranchise.com/territories/",
+          "year": 2026
+        }
+      ],
+      "note": "Franchisor: \"virtually unlimited franchise opportunities all over the United States\" but territory map marks AK, HI, RI, DC and US territories as unavailable; availability tier varies by state."
+    },
+    {
+      "name": "Blingle!",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "SD",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/blingle",
+          "year": 2026
+        }
+      ],
+      "note": "35 states + DC listed. Not listed: AK, CA, HI, IL, IN, MD, MI, MN, ND, NH, NY, RI, VA, WA, WI. Horse Power Brands company; franchisor page at blingle.com/own-a-franchise/."
+    },
+    {
+      "name": "BooXkeeping",
+      "nationwide": {
+        "source": "Franchise Solutions",
+        "url": "https://www.franchisesolutions.com/franchise/booxkeeping",
+        "year": 2026,
+        "note": "Franchise available in all 50 states + DC per listing."
+      }
+    },
+    {
+      "name": "Boost Home Healthcare",
+      "nationwide": {
+        "source": "Franchise Solutions",
+        "url": "https://www.franchisesolutions.com/franchise/boost-home-healthcare",
+        "year": 2026,
+        "note": "Accepting inquiries from all 50 states + DC. Registered in all states with deferral restrictions in HI, IL, MD, MN, ND, NY, VA, WA (per FranchiseGrade). Best Life Brands company."
+      }
+    },
+    {
+      "name": "Bumble Bee Blinds",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "ND",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "SD",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Accepting inquiries per FranNet directory listing",
+          "source": "FranNet",
+          "url": "https://frannet.com/franchise-directory/bumble-bee-blinds/",
+          "year": 2026
+        }
+      ],
+      "note": "43 states listed. Not listed: CA, HI, MD, MN, NY, VA, WA, DC. 155 protected territories sold as of Dec 2024. Horse Power Brands company."
+    },
+    {
+      "name": "Bumble Roofing",
+      "nationwide": {
+        "source": "Bumble Roofing franchising site - Available Territories",
+        "url": "https://bumbleroofingfranchising.com/available-territories/",
+        "year": 2026,
+        "note": "\"Bumble Roofing features nationwide availability across the US, with active territories already in service in California.\" Empower Brands company."
+      }
+    },
+    {
+      "name": "Burn Boot Camp",
+      "nationwide": {
+        "source": "Burn Boot Camp franchise site - Available Markets",
+        "url": "https://www.burnbootcampfranchise.com/available-markets/",
+        "year": 2026,
+        "note": "\"Prime territories are available nationwide\"; 620+ open and awarded territories; franchisor publishes per-state market pages (e.g., FL, NY)."
+      }
+    },
+    {
+      "name": "CPA Moms",
+      "note": "No documented state-availability evidence found (honest gap). Franchising since 2020 per cpamoms.com/franchise/; Entrepreneur directory listing (entrepreneur.com/franchises/directory/cpa-moms/336166) has an empty Available Territories section. Known franchises only in KY, TN, TX, FL, AZ, AK per company materials."
+    },
+    {
+      "name": "CR3 American Exteriors",
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/cr3-american-exteriors/335226425",
+        "year": 2026,
+        "note": "Available Territories: \"United States.\" Small system (2024 FDD: franchised locations in 7 states); Loyalty Brands company; franchisor site cr3franchise.com."
+      }
+    },
+    {
+      "name": "Cabinet IQ",
+      "statesOpen": [
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Franchisor territories page pitches expansion across Texas only",
+          "source": "Cabinet IQ - Franchise Territories",
+          "url": "https://cabinetiq.com/franchise/territories/",
+          "year": 2026
+        }
+      ],
+      "note": "Conflicting signals: franchisor's own territories page is Texas-focused, while third-party listings (Franchise.com, IFPG, America's Best Franchises) describe US-wide expansion with ~100 units; Franchise.com currently shows 'not accepting inquiries.' Only TX is documented by the franchisor."
+    },
+    {
+      "name": "Canopy Lawn Care",
+      "nationwide": {
+        "source": "Canopy Franchise - Available Markets",
+        "url": "https://www.canopyfranchise.com/territories/",
+        "year": 2026,
+        "note": "\"Exclusive franchise territories in select high-demand markets across the US\" - selective market-by-market sales; most states shown as 'Inquire for Available Markets.' IFPG (2025): currently focused on US development. Empower Brands company."
+      }
+    },
+    {
+      "name": "Chick-fil-A",
+      "nationwide": {
+        "source": "Chick-fil-A Franchise page",
+        "url": "https://www.chick-fil-a.com/franchise",
+        "year": 2026,
+        "note": "Accepts Expressions of Interest across the US (plus Canada and Puerto Rico). Unique operator model: $10K initial commitment, Chick-fil-A owns the location/real estate, no territory purchase or equity; highly selective (<1% of ~20K annual inquiries)."
+      }
+    },
+    {
+      "name": "Cookie Plug",
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/cookie-plug/335226879",
+        "year": 2022,
+        "note": "Available Territories: \"United States\" (listing data Dec 2022); development announced in FL, AZ, TX, TN, NC, UT, OH, CA, PR. Caveat: Franchise Times (Jan 2025) reports shift to 'quality over quantity' after store closures - verify current sales activity."
+      }
+    },
+    {
+      "name": "Costa Oil",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Available per Franchise Solutions listing",
+          "source": "Franchise Solutions",
+          "url": "https://www.franchisesolutions.com/franchise/costa-oil-10-minute-oil-change",
+          "year": 2026
+        }
+      ],
+      "note": "44 states + DC listed. Not listed: AK, HI, ND, NY, RI, SD. ~50 locations across 21 states; franchisor info at costaoils.com/franchising/."
+    }
+  ]
+}

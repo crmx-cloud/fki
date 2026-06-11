@@ -1,0 +1,1064 @@
+{
+ "brands": [
+  {
+   "name": "1-800-GOT-JUNK?",
+   "slug": "1-800-got-junk",
+   "category": "Home Services",
+   "website": "1800gotjunk.com",
+   "notes": "Junk-removal pioneer founded 1989 in Vancouver (parent O2E Brands), franchising since 1998 with ~166 locations. Strong unit economics (median ~$3.1M gross revenue per franchised business), but US territories are effectively sold out and combined ongoing fees are high.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "US territories effectively sold out",
+     "detail": "The franchisor's own development page states the brand 'sold out' and that availability arises mainly when an existing franchise partner decides to sell; it steers prospects to sister brands WOW 1 DAY PAINTING and Shack Shine. New entry is mostly via resale or adding subterritories to existing owners.",
+     "source": "1-800-GOT-JUNK? franchise business-opportunity page",
+     "url": "https://www.1800gotjunk.com/us_en/franchise/business-opportunity",
+     "year": 2026
+    },
+    {
+     "severity": "caution",
+     "title": "High combined ongoing fees vs category norms",
+     "detail": "Entrepreneur lists an 8% royalty plus 6% ad royalty plus 2% technology fee (~16% combined of gross sales), well above the 8-10% combined burden typical of home-services franchises.",
+     "source": "Entrepreneur Franchise 500 directory",
+     "url": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "Franchisee termination litigation (Millennium Asset Recovery)",
+     "detail": "In 1-800-Got Junk? LLC v. Superior Court (Cal. Ct. App. 2010), a Southern California franchisee terminated for under-reporting revenue sued for wrongful termination; the court let the franchisee proceed under the Washington-law choice-of-law clause, which limits summary termination without cure. Overall disclosed litigation volume in the FDD is low.",
+     "source": "Quimbee case brief, 1-800-Got Junk? LLC v. Superior Court, 116 Cal. Rptr. 3d 923",
+     "url": "https://www.quimbee.com/cases/1-800-got-junk-llc-v-superior-court-of-los-angeles-county",
+     "year": 2010
+    }
+   ],
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 59000,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur 'cash requirement'; FranchiseInvestorData lists $40K liquid capital \u2014 sources conflict."
+    },
+    "totalInvestmentMin": {
+     "value": 183800,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "high",
+     "note": "FDD Item 7 range $183,800-$294,000."
+    },
+    "totalInvestmentMax": {
+     "value": 294000,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 65000,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Range $65,000-$97,500; minimum purchase is 8 subterritories for the $65,000 minimum initial fee."
+    },
+    "royaltyPercent": {
+     "value": 8,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 6,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Plus a 2% technology fee per Entrepreneur."
+    },
+    "avgUnitRevenue": {
+     "value": 3100000,
+     "source": "https://franchiseinvestordata.com/franchise/1-800-got-junk",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Median annual gross revenue per US franchised business per 2025 FDD Item 19 (147 reporting US franchised businesses); many franchise partners run multiple subterritories. Conflict: VettedBiz reports ~$2.03M yearly gross sales; Franchise Chatter's 2024 FDD review reported $3.06M average sales."
+    },
+    "totalUnits": {
+     "value": 166,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur count; 2025 FDD shows 147 US franchised businesses (per FranchiseInvestorData) and VettedBiz lists 146 US locations."
+    },
+    "yearFounded": {
+     "value": 1989,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1998,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 1,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Approximately 34 hours total (8 on-the-job + 26 classroom) per Entrepreneur, i.e. under one week."
+    },
+    "employeesRequired": {
+     "value": 3,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "high",
+     "note": "3-10 employees required to run."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/directory/1800gotjunk/ufoc/1654/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://franchiseinvestordata.com/franchise/1-800-got-junk",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD includes Item 19 financial performance representations."
+    },
+    "veteranDiscount": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists veteran incentives as N/A."
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://franchiseinvestordata.com/franchise/1-800-got-junk",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Expansion model is built on adding subterritories to existing franchise partners."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunFromHome": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Can be run from home/mobile unit."
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Marginal unit growth (+0.6% per Entrepreneur); growth comes mostly from subterritory expansion rather than new franchisees."
+    },
+    "ownerTypes": {
+     "value": [
+      "owner-operator"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Absentee ownership not permitted; owner-operator model."
+    },
+    "marketingSupport": {
+     "value": [
+      "Co-op advertising",
+      "SEO",
+      "Social media",
+      "Centralized sales contact center"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "ongoingSupport": {
+     "value": [
+      "Consolidated contact center (sales, dispatch, field support)",
+      "Business coaching"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/1-800-got-junk/293278",
+     "year": 2026,
+     "confidence": "medium"
+    }
+   }
+  },
+  {
+   "name": "Budget Blinds",
+   "slug": "budget-blinds",
+   "category": "Home Services",
+   "website": "budgetblinds.com",
+   "notes": "Largest US window-coverings franchise (parent Home Franchise Concepts), founded 1992, franchising since 1994, with roughly 1,500 home-based territories across the US and Canada and strong recent unit growth (+7.1%). Flat-fee royalty structure and low overhead, but single-territory revenue is modest and there is a documented history of franchisee complaints.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Franchisee complaints: terminations, churning allegations, fee burden",
+     "detail": "Unhappy Franchisee documents former franchisees alleging the franchisor terminated owners and resold territories ('churning'), kept a late royalty payment while terminating anyway, and that flat monthly fees ($1,500-$2,000 per territory after first-year waivers) left small operators barely breaking even. These are unverified franchisee allegations, not adjudicated findings.",
+     "source": "Unhappy Franchisee \u2014 Budget Blinds franchise complaints",
+     "url": "https://www.unhappyfranchisee.com/budget-blinds-franchise-complaints/comment-page-1/",
+     "year": 2014
+    },
+    {
+     "severity": "info",
+     "title": "Historical system attrition (2010-2014)",
+     "detail": "Per an Unhappy Franchisee analysis of FDD data, of 939 Budget Blinds franchises, about 163 (17%) were terminated, not renewed, reacquired, or ceased operation between 2010 and 2014. The system has since returned to strong growth (1,362 to 1,489 US units in 2025 per FranchiseInvestorData).",
+     "source": "Unhappy Franchisee \u2014 Budget Blinds franchise horror story",
+     "url": "https://www.unhappyfranchisee.com/budget-blinds-franchise-horror-story/",
+     "year": 2014
+    },
+    {
+     "severity": "info",
+     "title": "Litigation disclosed in FDD",
+     "detail": "VettedBiz notes the franchise discloses lawsuits and/or bankruptcy information in its FDD (Items 3-4); prospective buyers should review the current FDD for specifics.",
+     "source": "VettedBiz Budget Blinds franchise profile",
+     "url": "https://www.vettedbiz.com/franchises/budget-blinds",
+     "year": 2026
+    }
+   ],
+   "nationwide": {
+    "source": "Budget Blinds franchise site \u2014 Available Territories",
+    "url": "https://franchise.budgetblinds.com/available-territories/",
+    "year": 2026,
+    "note": "Franchisor actively markets territories of 25,000-36,000 households via a US availability map with no published state exclusions; ~1,500 territories already operate across the US and Canada, so some areas are resale-only."
+   },
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 84500,
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Entrepreneur cash requirement; franchisor financing of up to $56,000 available for qualified candidates."
+    },
+    "totalInvestmentMin": {
+     "value": 100500,
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Range $100,500-$211,250; matches franchisor's own franchise site."
+    },
+    "totalInvestmentMax": {
+     "value": 211250,
+     "source": "https://franchise.budgetblinds.com/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 19950,
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Initial franchise fee $19,950 plus a separate $70,000 initial territory fee (~$89,950 combined upfront)."
+    },
+    "royaltyPercent": {
+     "value": 3.5,
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists 3.5%+ with an escalating flat monthly structure ($300-$2,000/month by tenure); ad fund is a flat $500-$1,500/month rather than a percentage, so adFundPercent is omitted."
+    },
+    "avgUnitRevenue": {
+     "value": 853650,
+     "source": "https://franchiseinvestordata.com/franchise/budget-blinds",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Mean gross sales for single-territory US franchisees per FDD Item 19 (2026 FDD, effective April 2026; 2024-2025 data). Median across territories is ~$540K and multi-territory (3+) operators average $2.5M+; VettedBiz reports ~$557K yearly gross sales \u2014 distribution is heavily skewed by territory count."
+    },
+    "totalUnits": {
+     "value": 1476,
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "high",
+     "note": "FranchiseInvestorData reports 1,489 US units after +127 net growth in 2025; ~1,500 incl. Canada per franchisor."
+    },
+    "yearFounded": {
+     "value": 1992,
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1994,
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 2,
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Two-week program (93.5 classroom hours) combining hands-on, live, and virtual training."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/directory/budgetblinds/ufoc/1747/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://franchiseinvestordata.com/franchise/budget-blinds",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Item 19 reports gross sales by territory count cohort."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://franchise.budgetblinds.com/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "15% off the initial franchise fee for qualified veterans and eligible spouses."
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://franchiseinvestordata.com/franchise/budget-blinds",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Item 19 breaks out multi-territory (3+) operators, who average $2.5M+ in gross sales."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunFromHome": {
+     "value": true,
+     "source": "https://franchise.budgetblinds.com/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor markets a home-office, low-overhead, no-retail-space model."
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "high",
+     "note": "+7.1% unit growth per Entrepreneur; +127 net US units in 2025 per FranchiseInvestorData."
+    },
+    "ownerTypes": {
+     "value": [
+      "owner-operator"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Absentee ownership not permitted."
+    },
+    "marketingSupport": {
+     "value": [
+      "Co-op advertising",
+      "Social media",
+      "SEO",
+      "Website development",
+      "Email marketing",
+      "Regional marketing manager access"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "ongoingSupport": {
+     "value": [
+      "Purchasing co-ops",
+      "Field operations assistance",
+      "Product/installation support team",
+      "Franchisee intranet",
+      "Weekly calls with Regional Operations Manager"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/budget-blinds/282159",
+     "year": 2026,
+     "confidence": "medium"
+    }
+   }
+  },
+  {
+   "name": "CertaPro Painters",
+   "slug": "certapro-painters",
+   "category": "Home Services",
+   "website": "certapro.com",
+   "notes": "North America's largest residential/commercial painting franchise (parent FirstService Brands), founded and franchising since 1992 with ~335 units. Established brand with broad market availability, but the unit count declined ~9% in the most recent Entrepreneur data and there is a history of franchisee and regulatory friction.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Unit count contraction (-9%)",
+     "detail": "Entrepreneur's 2026 directory shows 335 units with a -9% growth rate; VettedBiz separately lists only 307 US locations. Prospects should examine Item 20 outlet tables for terminations and non-renewals.",
+     "source": "Entrepreneur Franchise 500 directory",
+     "url": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026
+    },
+    {
+     "severity": "caution",
+     "title": "EPA lead-paint (RRP Rule) enforcement against franchisees",
+     "detail": "Multiple CertaPro franchise locations have been cited for failing to comply with the EPA's Lead Renovation, Repair, and Painting Rule; CertaPro Painters of Maine (IDK Ventures) was fined for not providing required documents and hiring uncertified subcontractors. A 2023 suit by Marathon Resource Management also alleged breach of contract.",
+     "source": "AI Biz Journal \u2014 CertaPro Painters lawsuit overview",
+     "url": "https://aibizjournal.com/certapro-painters-lawsuit-compliance-customer-issues/",
+     "year": 2024
+    },
+    {
+     "severity": "caution",
+     "title": "Long-running franchisee gripe site alleging high failure rate and churning",
+     "detail": "An ex-franchisee gripe campaign (certaprosucks.org, covered by Unhappy Franchisee) alleges a very high franchise failure rate and repeated reselling of failed territories. These are unverified allegations by disgruntled former franchisees, not adjudicated findings, but they have persisted for years.",
+     "source": "Unhappy Franchisee \u2014 CertaPro Sucks gripe site coverage",
+     "url": "https://unhappyfranchisee.com/certapro-painters-certapro-sucks-the-movie-the-gripe-site/",
+     "year": 2011
+    }
+   ],
+   "nationwide": {
+    "source": "CertaPro Painters franchise site \u2014 Available Markets",
+    "url": "https://certapro.com/franchise/available-markets/",
+    "year": 2026,
+    "note": "Franchisor states 'We have availability in all major and secondary markets' and lists open markets across most US states; at time of check the page showed no available markets in KY, RI, TN, UT, WY, and DC."
+   },
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 85000,
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "totalInvestmentMin": {
+     "value": 171000,
+     "source": "https://certapro.com/franchise/investment/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor's own investment page: $171,000-$302,500; Entrepreneur lists a higher max of $320,500."
+    },
+    "totalInvestmentMax": {
+     "value": 302500,
+     "source": "https://certapro.com/franchise/investment/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Conflict: Entrepreneur 2026 lists $320,500 max; franchisor site used as primary."
+    },
+    "franchiseFee": {
+     "value": 65000,
+     "source": "https://certapro.com/franchise/investment/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "https://sharpsheets.io/blog/certapro-painters-franchise-costs-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Base royalty 6%, tiered 6/5/4% \u2014 4% applies only at top sales tier. Prior batch value 4 superseded by verification audit 2026-06-11."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists 2%-3% ad royalty."
+    },
+    "avgUnitRevenue": {
+     "value": 1453667,
+     "source": "https://www.vettedbiz.com/certapro-painters-franchise-review",
+     "year": 2025,
+     "confidence": "low",
+     "note": "FDD Item 19-derived average yearly gross sales per VettedBiz. Conflict: other analyses of the 2025 FDD (2024 data) report $879,663 average across all 314 reporting US franchises open 12+ months, $1,159,850 for franchises open 5+ years, and ~$2.06M for the top quartile of mature units \u2014 the figure varies sharply by cohort."
+    },
+    "totalUnits": {
+     "value": 335,
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "VettedBiz lists 307 US locations; franchisor markets '350+ locally owned franchises in the US and Canada'."
+    },
+    "yearFounded": {
+     "value": 1992,
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1992,
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 3,
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Approximately 120 hours (80 classroom + 40 on-the-job) per Entrepreneur."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/directory/certapropainters/ufoc/60/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.vettedbiz.com/certapro-painters-franchise-review",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD includes Item 19 gross sales representations."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "high",
+     "note": "20% off franchise fee for veterans; VetFran participant per franchisor site."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Residential territory is exclusive (zip-code based); commercial painting is not limited to exclusive territories per franchisor."
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunFromHome": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "-9% unit growth rate per Entrepreneur 2026 data."
+    },
+    "ownerTypes": {
+     "value": [
+      "owner-operator",
+      "executive-model"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Absentee ownership not permitted; owners manage painting crews/subcontractors rather than painting themselves."
+    },
+    "marketingSupport": {
+     "value": [
+      "Co-op advertising",
+      "Ad templates",
+      "National media",
+      "Regional advertising",
+      "Social media",
+      "SEO",
+      "Website development",
+      "Email marketing",
+      "Loyalty program/app"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "ongoingSupport": {
+     "value": [
+      "Purchasing co-ops",
+      "Newsletter",
+      "Meetings & conventions",
+      "Toll-free support line",
+      "Grand opening assistance",
+      "Online support",
+      "Proprietary software",
+      "Franchisee intranet"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/certapro-painters/282187",
+     "year": 2026,
+     "confidence": "medium"
+    }
+   }
+  },
+  {
+   "name": "College HUNKS Hauling Junk & Moving",
+   "slug": "college-hunks-hauling-junk",
+   "category": "Home Services",
+   "website": "collegehunkshaulingjunk.com",
+   "notes": "Dual-revenue junk-removal and moving franchise founded 2003 in Tampa, franchising since 2007, with ~177-190 US locations. Strong Item 19 economics ($1.45M average gross revenue per location) and nationwide territory availability, but recent unit count is roughly flat-to-declining and consumer-service complaints are common.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Slight unit contraction (-2%)",
+     "detail": "Entrepreneur's directory shows 177 units with a -2% growth rate, versus 190 US locations per VettedBiz; major metros (Chicago, Miami, Denver, Boston, Seattle) are sold out and the franchisor is offering 40% franchise-fee discounts in mid-market and single-market territories to spur growth.",
+     "source": "Entrepreneur Franchise 500 directory",
+     "url": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Recurring consumer complaints across locations",
+     "detail": "Review aggregators document BBB complaints (property damage during moves, late arrivals, slow refunds) and note that the franchise model produces inconsistent pricing and service quality between locations; the Tampa BBB profile has carried a C- rating.",
+     "source": "moveBuddha College Hunks review",
+     "url": "https://www.movebuddha.com/blog/college-hunks-review/",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "Franchisor litigation against former franchisee (trademark)",
+     "detail": "College Hunks sued former franchisee Victor Spaulding / Spaulding Hauling & Moving LLC in the M.D. Fla. for trademark infringement after he allegedly operated a competing mover using 'college hunks' branding post-termination; the court allowed the suit to proceed. Indicates active post-term enforcement rather than franchisee-initiated claims.",
+     "source": "Bloomberg Law litigation coverage",
+     "url": "https://news.bloomberglaw.com/litigation/college-hunks-can-move-ahead-with-trademark-infringement-suit",
+     "year": 2024
+    }
+   ],
+   "nationwide": {
+    "source": "College HUNKS franchise development site \u2014 Territories",
+    "url": "https://collegehunksfranchise.com/territories",
+    "year": 2026,
+    "note": "Franchisor lists open territories across all 50 states (US and Canada), including incentivized 'hot' markets with 40% franchise-fee discounts; several major metros are sold out."
+   },
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 75000,
+     "source": "https://collegehunksfranchise.com/investment-financials",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Franchisor requires $75K liquid minimum, $200K net worth, 680 credit score; matches Entrepreneur cash requirement."
+    },
+    "totalInvestmentMin": {
+     "value": 203100,
+     "source": "https://vettedbiz.com/college-hunks-franchise/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7 minimum $203,100. Prior batch value 158100 superseded by verification audit 2026-06-11."
+    },
+    "totalInvestmentMax": {
+     "value": 355500,
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 55000,
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Entrepreneur lists $55,000-$75,000; the franchisor's current development site quotes $75,000 including both junk-removal and moving business lines."
+    },
+    "royaltyPercent": {
+     "value": 7,
+     "source": "https://collegehunksfranchise.com/investment-financials",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Plus 2% brand development fee and 1% technology fee."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://collegehunksfranchise.com/investment-financials",
+     "year": 2026,
+     "confidence": "high",
+     "note": "2% brand development (marketing) fee."
+    },
+    "avgUnitRevenue": {
+     "value": 1450000,
+     "source": "https://collegehunksfranchise.com/investment-financials",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Average gross revenue per franchised location per the CHHJ&M 2025 FDD (Item 19), as cited on the franchisor's development site; top 25% of owners averaged $3.09M gross revenue with $309K average EBITDA. Franchise Chatter's 2024 FDD review reported $1.28M average."
+    },
+    "totalUnits": {
+     "value": 177,
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "VettedBiz lists 190 US locations \u2014 counts differ by source/date."
+    },
+    "yearFounded": {
+     "value": 2003,
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2007,
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 2,
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Approximately 101 hours total (68 on-the-job + 33 classroom) per Entrepreneur, roughly 2.5 weeks."
+    },
+    "employeesRequired": {
+     "value": 4,
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/directory/collegehunkshaulingjunk/ufoc/2491/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://collegehunksfranchise.com/investment-financials",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Franchisor publicly cites 2025 FDD Item 19 figures."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "high",
+     "note": "$7,500 off franchise fee; VetFran participant."
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "https://collegehunksfranchise.com/franchise-opportunity",
+     "year": 2026,
+     "confidence": "high",
+     "note": "70% of franchisees own multiple territories per franchisor."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://collegehunksfranchise.com/franchise-opportunity",
+     "year": 2026,
+     "confidence": "high",
+     "note": "One protected territory included with each franchise."
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Entrepreneur lists part-time operation as allowed."
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "-2% unit growth per Entrepreneur; franchisor is incentivizing new territories with fee discounts."
+    },
+    "ownerTypes": {
+     "value": [
+      "owner-operator",
+      "semi-absentee"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Absentee ownership not permitted, but part-time operation is allowed per Entrepreneur."
+    },
+    "marketingSupport": {
+     "value": [
+      "Co-op advertising",
+      "Ad templates",
+      "National/regional media",
+      "Social media management",
+      "SEO",
+      "Website development",
+      "Email marketing",
+      "Loyalty program/app"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "ongoingSupport": {
+     "value": [
+      "Newsletter",
+      "Meetings & conventions",
+      "Toll-free assistance",
+      "Grand opening support",
+      "Field operations guidance",
+      "Site selection",
+      "Proprietary software",
+      "Franchisee intranet"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/college-hunks-hauling-junk-moving/329044",
+     "year": 2025,
+     "confidence": "medium"
+    }
+   }
+  },
+  {
+   "name": "Home Instead",
+   "slug": "home-instead",
+   "category": "Health & Wellness",
+   "website": "homeinstead.com",
+   "notes": "Leading non-medical in-home senior care franchise founded 1994 in Omaha, franchising since 1995, acquired by Honor Technology in 2021; ~1,200 units globally with 603 reporting US franchises averaging $2.6M gross revenue (2025 FDD). Low entry cost relative to AUV, but caregiver labor/wage compliance and post-acquisition franchisee relations are documented risk areas.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "DOL found systemic wage violations at franchise locations",
+     "detail": "A US Department of Labor investigation of a Bowling Green, KY Home Instead operator expanded to six additional franchise locations across Alabama, Kentucky, and Tennessee after uncovering systemic FLSA violations, recovering $201,356 in back wages for 320 caregivers. Wage-and-hour exposure is a structural risk in home care staffing.",
+     "source": "US Department of Labor news release",
+     "url": "https://www.dol.gov/newsroom/releases/whd/whd20220204",
+     "year": 2022
+    },
+    {
+     "severity": "caution",
+     "title": "Post-Honor-acquisition franchisee friction and HQ layoffs",
+     "detail": "After Honor Technology acquired Home Instead in 2021, many franchisees objected to the platform integration and strategic direction, and Honor laid off ~15% of HQ staff in June 2023, including long-time Home Instead employees. Trade coverage in 2024 reported the relationship had substantially improved ('from cynic to optimist').",
+     "source": "Home Health Care News",
+     "url": "https://homehealthcarenews.com/2023/06/honor-lays-off-15-of-hq-staff-including-long-time-home-instead-employees/",
+     "year": 2023
+    },
+    {
+     "severity": "info",
+     "title": "Independent franchisee association organized around Honor agreements",
+     "detail": "An Independent Association of Home Instead Franchisees circulated a legal memorandum to franchisees regarding the Honor agreements following the 2021 acquisition \u2014 evidence of organized franchisee concern about contract changes under the new owner.",
+     "source": "Independent Association of Home Instead Franchisees memorandum",
+     "url": "https://www.iaohif.com/assets/docs/Memorandum%20Regarding%20Honor%20Agreements%20(1).pdf",
+     "year": 2021
+    },
+    {
+     "severity": "info",
+     "title": "EEOC suit against a California franchisee",
+     "detail": "A 2023 EEOC lawsuit against R. MacArthur Corp., a Home Instead franchisee in Alameda, CA, alleged sexual and racial harassment of and retaliation against a caregiver. Franchisee-level rather than franchisor-level litigation.",
+     "source": "FranchiseInvestorData Home Instead risk summary",
+     "url": "https://franchiseinvestordata.com/franchise/home-instead",
+     "year": 2023
+    }
+   ],
+   "nationwide": {
+    "source": "Franchise Gator Home Instead listing",
+    "url": "https://www.franchisegator.com/franchises/home-instead/",
+    "year": 2026,
+    "note": "Listing states Home Instead 'is currently accepting inquiries from the following states' with essentially all 50 US states named; the franchisor's site (franchises.homeinstead.com) markets both new territories and existing franchises for sale in the US and Canada."
+   },
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 300000,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "low",
+     "note": "Major source conflict: Entrepreneur lists a $300,000 cash requirement (with $500,000 net worth), while Franchise Gator lists $59,000 liquid and VettedBiz $25,000 minimum cash. Entrepreneur used as primary; verify against current FDD before relying on this."
+    },
+    "totalInvestmentMin": {
+     "value": 91040,
+     "source": "https://www.frandb.com/franchise/home-instead/2025",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7 range $91,040-$269,750; matches Entrepreneur. Franchisor markets a typical new-market startup of $98K-$125K."
+    },
+    "totalInvestmentMax": {
+     "value": 269750,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 54000,
+     "source": "https://www.frandb.com/franchise/home-instead/2025",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 5,
+     "source": "https://www.frandb.com/franchise/home-instead/2025",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Plus $500/month technology fee and $209-$3,418/month required systems fees per 2025 FDD."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "https://www.frandb.com/franchise/home-instead/2025",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "avgUnitRevenue": {
+     "value": 2609616,
+     "source": "https://www.frandb.com/franchise/home-instead/2025",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Average gross revenue across 603 US franchised businesses in operation for the full 2024 calendar year, per 2025 FDD Item 19; median was $2,261,503."
+    },
+    "totalUnits": {
+     "value": 1218,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur worldwide count. US system is ~625 locations (619 franchised + 6 corporate per FranDB 2025 FDD data)."
+    },
+    "closureCount": {
+     "value": 10,
+     "source": "https://www.frandb.com/franchise/home-instead/2025",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "10 US outlets ceased operations in the most recent FDD reporting year, alongside 54 transfers and 4 franchisor reacquisitions, per FranDB's 2025 FDD Item 20 summary."
+    },
+    "yearFounded": {
+     "value": 1994,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1995,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 1,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Approximately 45 hours total (16 on-the-job + 28.75 classroom) per Entrepreneur, i.e. about one week."
+    },
+    "employeesRequired": {
+     "value": 9,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "9-12 employees required per Entrepreneur (office staff; caregiver workforce is additional)."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisedirect.com/directory/homeinstead/ufoc/112/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.frandb.com/franchise/home-instead/2025",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists 20% off franchise fee; Franchise Gator and 1851 report a full franchise-fee waiver for qualified veterans (limited availability, e.g. two veterans per year)."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunFromHome": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists home/mobile operation as possible; most owners operate from a small office staffed 9-12."
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "+2.6% per Entrepreneur; FranDB shows ~1% US unit growth (616 to 620) \u2014 slow but positive."
+    },
+    "ownerTypes": {
+     "value": [
+      "owner-operator",
+      "executive-model"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Absentee ownership not permitted; owners manage an office team of 9-12 plus caregiver staff."
+    },
+    "marketingSupport": {
+     "value": [
+      "Co-op advertising",
+      "Ad templates",
+      "National media",
+      "Regional advertising",
+      "Social media",
+      "SEO",
+      "Website development",
+      "Email marketing"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "ongoingSupport": {
+     "value": [
+      "Purchasing co-ops",
+      "Newsletter",
+      "Meetings & conventions",
+      "Toll-free line",
+      "Grand opening assistance",
+      "Online support",
+      "Security/safety procedures",
+      "Field operations",
+      "Proprietary software",
+      "Franchisee intranet"
+     ],
+     "source": "https://www.entrepreneur.com/franchises/directory/home-instead/282432",
+     "year": 2026,
+     "confidence": "medium"
+    }
+   }
+  }
+ ]
+}

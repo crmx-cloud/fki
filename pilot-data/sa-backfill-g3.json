@@ -1,0 +1,2200 @@
+{
+  "brands": [
+    {
+      "name": "Freeway Insurance",
+      "nationwide": {
+        "source": "Freeway Insurance Franchise (official)",
+        "url": "https://www.freewayfranchise.com/",
+        "year": 2026,
+        "note": "Official franchise site: 'With more than 650 locations across the U.S., Freeway insurance franchise is now expanding and entering new key markets nationwide.' Franchise footprint reached 28 states by 2025 per Confie."
+      }
+    },
+    {
+      "name": "Fundraising University",
+      "statesOpen": [
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Listed among states where Fundraising University is 'currently accepting inquiries' (Franchise Gator listing)",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/opportunities/fundraising-university/",
+          "year": 2026
+        }
+      ],
+      "note": "Operates 90+ territories across 39 states; accepting inquiries in the 36 jurisdictions listed (registration states such as CA, NY, WA, MD, WI not listed)."
+    },
+    {
+      "name": "Gameday Men's Health",
+      "note": "No state-level availability evidence found. Brand has locations in 37 states (2025 FDD per FranchiseGrade) and ~1,000 clinics in pipeline (ICSC), and is actively recruiting franchisees, but no published 'available states/territories' list was located."
+    },
+    {
+      "name": "Gatsby Glass",
+      "statesOpen": [
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Listed as an available state: 'Open a Gatsby Glass in any of these available states' (FranchiseSolutions listing)",
+          "source": "FranchiseSolutions",
+          "url": "https://www.franchisesolutions.com/franchise/gatsby-glass",
+          "year": 2026
+        }
+      ],
+      "note": "Sister portal franchise.com shows 'not currently accepting inquiries' for this brand, so portal data conflicts; FranchiseSolutions list used as the documented availability evidence."
+    },
+    {
+      "name": "Glo Tanning",
+      "nationwide": {
+        "source": "Glo Tanning (official franchise page)",
+        "url": "https://www.glotanning.com/franchise/",
+        "year": 2026,
+        "note": "Official site states: 'We're Franchising Nationwide - Explore Opportunities Near You!' 100+ locations across 15 states."
+      }
+    },
+    {
+      "name": "GoldenTrust Insurance",
+      "statesOpen": [
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Official franchise site cites '70+ agencies across Florida and Texas in under 5 years'; exclusive zones offered in these markets",
+          "source": "GoldenTrust Franchise (official)",
+          "url": "https://franchise.goldentrust.com/en",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Official franchise site cites '70+ agencies across Florida and Texas in under 5 years'; exclusive zones offered in these markets",
+          "source": "GoldenTrust Franchise (official)",
+          "url": "https://franchise.goldentrust.com/en",
+          "year": 2026
+        }
+      ],
+      "note": "Florida-based; recent expansion into Texas (3 locations). No evidence of franchise sales beyond FL/TX."
+    },
+    {
+      "name": "Goldfish Swim School",
+      "statesOpen": [
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Brand blog: 'We currently have available territories in states such as' CA, FL (Tampa), GA, IN, IA, TX (Dallas), VA",
+          "source": "Goldfish Swim School franchise blog",
+          "url": "https://goldfishswimschool.com/franchise-opportunities/blog/splash-worthy-opportunities-for-franchisees-to-join-our-brand/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Brand blog: 'We currently have available territories in states such as' CA, FL (Tampa), GA, IN, IA, TX (Dallas), VA",
+          "source": "Goldfish Swim School franchise blog",
+          "url": "https://goldfishswimschool.com/franchise-opportunities/blog/splash-worthy-opportunities-for-franchisees-to-join-our-brand/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Brand blog: 'We currently have available territories in states such as' CA, FL (Tampa), GA, IN, IA, TX (Dallas), VA",
+          "source": "Goldfish Swim School franchise blog",
+          "url": "https://goldfishswimschool.com/franchise-opportunities/blog/splash-worthy-opportunities-for-franchisees-to-join-our-brand/",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Brand blog: 'We currently have available territories in states such as' CA, FL (Tampa), GA, IN, IA, TX (Dallas), VA",
+          "source": "Goldfish Swim School franchise blog",
+          "url": "https://goldfishswimschool.com/franchise-opportunities/blog/splash-worthy-opportunities-for-franchisees-to-join-our-brand/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Brand blog: 'We currently have available territories in states such as' CA, FL (Tampa), GA, IN, IA, TX (Dallas), VA",
+          "source": "Goldfish Swim School franchise blog",
+          "url": "https://goldfishswimschool.com/franchise-opportunities/blog/splash-worthy-opportunities-for-franchisees-to-join-our-brand/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Brand blog: 'We currently have available territories in states such as' CA, FL (Tampa), GA, IN, IA, TX (Dallas), VA",
+          "source": "Goldfish Swim School franchise blog",
+          "url": "https://goldfishswimschool.com/franchise-opportunities/blog/splash-worthy-opportunities-for-franchisees-to-join-our-brand/",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Brand blog: 'We currently have available territories in states such as' CA, FL (Tampa), GA, IN, IA, TX (Dallas), VA",
+          "source": "Goldfish Swim School franchise blog",
+          "url": "https://goldfishswimschool.com/franchise-opportunities/blog/splash-worthy-opportunities-for-franchisees-to-join-our-brand/",
+          "year": 2026
+        }
+      ],
+      "note": "200+ schools in 40 states; mature system where most markets are sold out - official Available Markets page (goldfishswimschool.com/franchise-opportunities/available-markets/) shows remaining open territories only in select markets."
+    },
+    {
+      "name": "Hand & Stone Massage and Facial Spa",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "HI",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Listed under 'Available Markets' for Hand & Stone (Franchising.com brand page)",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/handandstonemassages/",
+          "year": 2026
+        }
+      ],
+      "note": "650+ spas in 38 states; seeking franchisees 'in major metro areas nationwide' per brand PR. Available Markets list covers 46 states + DC (FL, NJ, ND, SD not listed). Also franchising across Canada."
+    },
+    {
+      "name": "Hawaii Fluid Art",
+      "note": "No state-availability evidence found. Company's own franchise page (hawaiifluidart.com/franchise/) is live but contains no availability statement, and the franchise.com listing states the brand is 'not currently accepting inquiries.' Honest gap - footprint is TX-heavy with studios in ~12 states."
+    },
+    {
+      "name": "Hello Sugar",
+      "statesOpen": [
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "DC",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "HI",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "ND",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "SD",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Listed among states where Hello Sugar is 'currently accepting inquiries' (franchise.com listing)",
+          "source": "Franchise.com",
+          "url": "https://www.franchise.com/franchise/hello-sugar",
+          "year": 2026
+        }
+      ],
+      "note": "Accepting inquiries in 45 states + DC; AZ (home market), CA, NV, NY, UT not listed. National footprint growing via 2025 acquisition of 20 Waxxpot salons (GA, KY, OH, TX)."
+    },
+    {
+      "name": "HomeVestors of America",
+      "nationwide": {
+        "source": "HomeVestors Franchise (official available-territories page)",
+        "url": "https://franchise.homevestors.com/available-territories/",
+        "year": 2026,
+        "note": "Official Available Franchise Markets page lists every U.S. state with 'Territories are available. Contact us for more information.' 1,100+ franchisees in 47 states."
+      }
+    },
+    {
+      "name": "Hydrate IV Bar",
+      "statesOpen": [
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "States with operating/open Hydrate IV Bar locations per official franchise page; franchise program 'continuing to grow'",
+          "source": "Hydrate IV Bar (official franchise page)",
+          "url": "https://hydrateivbar.com/iv-therapy-franchise/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "States with operating/open Hydrate IV Bar locations per official franchise page; franchise program 'continuing to grow'",
+          "source": "Hydrate IV Bar (official franchise page)",
+          "url": "https://hydrateivbar.com/iv-therapy-franchise/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "States with operating/open Hydrate IV Bar locations per official franchise page; franchise program 'continuing to grow'",
+          "source": "Hydrate IV Bar (official franchise page)",
+          "url": "https://hydrateivbar.com/iv-therapy-franchise/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "States with operating/open Hydrate IV Bar locations per official franchise page; franchise program 'continuing to grow'",
+          "source": "Hydrate IV Bar (official franchise page)",
+          "url": "https://hydrateivbar.com/iv-therapy-franchise/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "States with operating/open Hydrate IV Bar locations per official franchise page; franchise program 'continuing to grow'",
+          "source": "Hydrate IV Bar (official franchise page)",
+          "url": "https://hydrateivbar.com/iv-therapy-franchise/",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "States with operating/open Hydrate IV Bar locations per official franchise page; franchise program 'continuing to grow'",
+          "source": "Hydrate IV Bar (official franchise page)",
+          "url": "https://hydrateivbar.com/iv-therapy-franchise/",
+          "year": 2026
+        }
+      ],
+      "note": "~30 U.S. franchises. Coming soon: NJ (Wayne) and SC (Charleston, Hilton Head). Site invites inquiries for unopened states ('we will get in touch as these areas open'); brand has also announced registrations in WI, IN, MI."
+    },
+    {
+      "name": "Image One Facility Solutions",
+      "nationwide": {
+        "source": "Image One Franchise (official available-territories page)",
+        "url": "https://imageonefranchise.com/available-territories/",
+        "year": 2026,
+        "note": "Official territory-mapping page lists available franchise territories in all 50 states + DC, with specific open cities per state."
+      }
+    },
+    {
+      "name": "Iron 24",
+      "nationwide": {
+        "source": "PR Newswire (Iron 24 launch announcement)",
+        "url": "https://www.prnewswire.com/news-releases/new-zero-staff-low-cost-gym-concept-iron-24-announces-first-15-locations-pursues-franchise-development-nationwide-301581245.html",
+        "year": 2022,
+        "note": "'Pursues Franchise Development Nationwide' - first 15 locations across TX, FL, MN, OK, LA, CO. Current franchise page (iron24.com/franchise/) imposes no geographic restriction; ~19 locations open across U.S. and Canada."
+      }
+    },
+    {
+      "name": "Jersey Mike's Subs",
+      "nationwide": {
+        "source": "Franchising.com (Jersey Mike's brand page)",
+        "url": "https://www.franchising.com/jerseymikessubs/",
+        "year": 2026,
+        "note": "Available Markets lists all 50 U.S. states + DC; 'territories throughout the country are now available for development.' 4,000+ locations open and in development."
+      }
+    },
+    {
+      "name": "Just Poke",
+      "statesOpen": [
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Pacific Northwest brand with ~20+ locations in Puget Sound/Washington; franchising page invites inquiries 'to discuss the opportunities in your area'",
+          "source": "Just Poke (official franchising page)",
+          "url": "https://justpoke.com/franchising/",
+          "year": 2026
+        }
+      ],
+      "note": "Only WA is a documented active franchise market; coming-soon units in WA, AZ, and UT and stated ambition to 'expand into select markets across the US and Canada,' but no published state-availability list."
+    },
+    {
+      "name": "KeyGlee",
+      "note": "Still actively offering franchises as of 2026 - official franchising page (https://www.keyglee.com/franchising) shows 'Apply Now' and 'Claim Your Area' - but publishes no state-level availability list. System has contracted sharply from its ~180-unit peak, so availability claims beyond 'inquire for your area' would be guesswork; omitted."
+    },
+    {
+      "name": "Koala Insulation",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "HI",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "ND",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "SD",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "State shows available franchise territories on Koala Insulation's official territory-mapping page",
+          "source": "Koala Insulation Franchise (official available-markets page)",
+          "url": "https://koalainsulationfranchise.com/available-markets/",
+          "year": 2026
+        }
+      ],
+      "note": "Official map lists open territories in 48 states; NM and WY marked 'Not Available.' 395 franchised units in 37 states (2025); some individual territories marked SOLD."
+    },
+    {
+      "name": "Kumon Math & Reading Centers",
+      "nationwide": {
+        "source": "FranchiseSolutions (Kumon North America listing)",
+        "url": "https://www.franchisesolutions.com/franchise/kumon-north-america-inc",
+        "year": 2026,
+        "note": "Accepting franchise inquiries in all 50 states + DC; 1,500+ centers nationwide. Official site kumonfranchise.com offers state-by-state opportunity search."
+      }
+    },
+    {
+      "name": "LaundroLab",
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "'Franchises available throughout the United States with the exception of: CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, and WI'",
+          "source": "America's Best Franchises",
+          "url": "https://americasbestfranchises.com/franchises/laundrolab/",
+          "year": 2026
+        }
+      ],
+      "note": "Available in 36 states (excludes 14 franchise-registration states pending compliance); 500+ territories primed for franchising."
+    },
+    {
+      "name": "Lawn Pride",
+      "nationwide": {
+        "source": "Neighborly (official Lawn Pride franchise page)",
+        "url": "https://franchise.neighborly.com/lawn-pride/start-your-own-lawn-care-business",
+        "year": 2026,
+        "note": "'Designated territories available across the U.S. and Canada.' Neighborly brand described as having nearly unlimited territory availability nationwide following the 2022 acquisition."
+      }
+    },
+    {
+      "name": "Level Up Automation",
+      "note": "No current state-availability evidence. Official franchise page (levelupyourhome.com/pages/franchise) says it is 'evaluating franchise owners' but lists no states; at 2022 launch it was registered in FL, NY, and CA (levelupyourhome.com blog), and Franchise Gator indicates the program 'reached its current goals' with more opportunities 'coming soon.' Omitted rather than guessed."
+    }
+  ]
+}

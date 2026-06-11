@@ -1,0 +1,652 @@
+{
+ "brands": [
+  {
+   "name": "Visiting Angels",
+   "slug": "visiting-angels",
+   "category": "Health & Wellness",
+   "website": "visitingangels.com",
+   "notes": "One of the largest non-medical senior home-care franchises in the US, founded 1998 and franchising since 1998 (Living Assistance Services, Inc.). ~539 US franchised units at end of 2024 with strong long-tenure unit revenues, but the sector carries recurring caregiver wage/overtime litigation risk.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Caregiver overtime/minimum-wage collective action against franchisee",
+     "detail": "Njoroge et al. v. Primacare Partners LLC d/b/a Visiting Angels Baltimore East (D. Md., No. 22-cv-425-BAH) alleges live-in and dayshift caregivers worked over 40 hrs/week without FLSA overtime and that 24-hour caregivers' flat day rates fell below minimum wage; court allowed it to proceed as a collective action. Reflects sector-wide wage-and-hour exposure at the franchisee level.",
+     "source": "visitingangelscase.com (court notice site)",
+     "url": "https://visitingangelscase.com/",
+     "year": 2023
+    },
+    {
+     "severity": "info",
+     "title": "Federal civil monetary penalty at a franchise location",
+     "detail": "Visiting Angels of Rhode Island agreed to pay $158,000 to settle HHS-OIG allegations of employing an individual excluded from federal health programs (Civil Monetary Penalties Law). Location-level compliance issue, not franchisor-wide.",
+     "source": "HHS Office of Inspector General",
+     "url": "https://oig.hhs.gov/fraud/enforcement/visiting-angels-of-rhode-island-agreed-to-pay-158000-for-allegedly-violating-the-civil-monetary-penalties-law-by-employing-an-excluded-individual/",
+     "year": 2023
+    },
+    {
+     "severity": "info",
+     "title": "Flat unit growth",
+     "detail": "Net change of only +1 franchised unit in 2024 (539 outlets), indicating a mature, slow-growth US system rather than rapid expansion.",
+     "source": "FranchiseChatter FDD review (2025 FDD)",
+     "url": "https://www.franchisechatter.com/2026/01/28/visiting-angels-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026
+    }
+   ],
+   "nationwide": {
+    "source": "Visiting Angels Franchise Development (Living Assistance Services, Inc.)",
+    "url": "https://franchise.visitingangels.com/",
+    "year": 2026,
+    "note": "Franchise development site states 'Nationwide Territories & Opportunities Are Now Available' with 600+ US franchises; specific market availability checked via territory map tool."
+   },
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 125460,
+     "source": "https://www.franchisechatter.com/2026/01/28/visiting-angels-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "From 2025 FDD Item 7."
+    },
+    "totalInvestmentMax": {
+     "value": 171150,
+     "source": "https://www.franchisechatter.com/2026/01/28/visiting-angels-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "From 2025 FDD Item 7."
+    },
+    "franchiseFee": {
+     "value": 51950,
+     "source": "https://franchisepayback.com/franchise/visiting-angels",
+     "year": 2025,
+     "confidence": "high",
+     "note": "New-franchise fee starts at $51,950; $15,950 is the transfer-only minimum. Prior batch value 15950 superseded by verification audit 2026-06-11."
+    },
+    "royaltyPercent": {
+     "value": 3.5,
+     "source": "https://www.franchisechatter.com/2026/01/28/visiting-angels-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Tiered: 3.5% of gross revenues, stepping down to 3.25% above $125K/mo and 3.0% above $225K/mo; monthly minimums apply."
+    },
+    "adFundPercent": {
+     "value": 2.5,
+     "source": "https://www.franchisechatter.com/2026/01/28/visiting-angels-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "2.5% of gross revenues or tiered $425-$1,195 monthly minimum."
+    },
+    "avgUnitRevenue": {
+     "value": 1000000,
+     "source": "https://www.franchisechatter.com/2026/01/28/visiting-angels-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "low",
+     "note": "Item 19 (2024) is presented as a revenue-vs-longevity distribution, not a single AUV; for franchisees operating 73+ months, 20.6% earned $1M-$1.5M annually. $1M is an approximate lower-band figure for mature units, not a system average."
+    },
+    "totalUnits": {
+     "value": 539,
+     "source": "https://www.franchisechatter.com/2026/01/28/visiting-angels-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "539 franchised outlets, 0 company-owned, at end of 2024 (2025 FDD)."
+    },
+    "yearFounded": {
+     "value": 1998,
+     "source": "https://www.visitingangels.com/roanokeva/our-history",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Founded 1998 by Larry Meigs and Jeffrey Johnson; Living Assistance Services, Havertown PA."
+    },
+    "yearFranchising": {
+     "value": 1998,
+     "source": "https://businessgoal.co.uk/who-owns-visiting-angels-founder-larry-meigs-leads/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Began franchising in 1998 in the Philadelphia area."
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "https://www.franchisechatter.com/2026/01/28/visiting-angels-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Net +1 US franchised unit in 2024 \u2014 essentially flat."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/01/28/visiting-angels-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/01/28/visiting-angels-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Item 19 present as a revenue-by-tenure distribution."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/01/11/fdd-talk-visiting-angels-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Grants a Protected Territory sized by population (up to 325K+)."
+    }
+   }
+  },
+  {
+   "name": "Right at Home",
+   "slug": "right-at-home",
+   "category": "Health & Wellness",
+   "website": "rightathome.net",
+   "notes": "Large in-home senior care franchise founded 1995 (Omaha, NE) and franchising since 2000; ~539 US franchised offices at end of 2024 with disclosed Item 19 net-billings figures. Grew +31 units in 2024 and carries the standard home-care wage-and-hour litigation exposure.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Sector-wide caregiver wage-and-hour exposure",
+     "detail": "In-home care franchises broadly face FLSA/state overtime and minimum-wage claims at the franchisee level (live-in, 24-hour and travel-time pay disputes are common across the senior-care category). No franchisor-wide Right at Home class action was located, but franchisees inherit this category risk.",
+     "source": "FranchiseChatter / sector litigation context",
+     "url": "https://www.franchisechatter.com/2026/02/06/right-at-home-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "State home-care licensure required",
+     "detail": "Senior home-care operation requires state-specific home care agency licenses and caregiver background-check/training compliance, which vary by state and add regulatory cost/time to launch.",
+     "source": "Right at Home franchise overview (Franchising.com)",
+     "url": "https://www.franchising.com/rightathome/",
+     "year": 2026
+    }
+   ],
+   "nationwide": {
+    "source": "Right at Home franchise overview (Franchising.com) / WebSearch sector summary",
+    "url": "https://www.franchising.com/rightathome/",
+    "year": 2026,
+    "note": "Franchises sold across the US (one of the largest home-care franchises in the world, 750+ locations across 5 countries); grants protected territories of ~200,000-350,000 population."
+   },
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 150000,
+     "source": "https://www.franchisechatter.com/2025/02/07/fdd-talk-right-at-home-franchise-costs-fees-average-revenues-and-or-profits-2024-review-2/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Minimum liquid capital requirement of $150,000."
+    },
+    "totalInvestmentMin": {
+     "value": 92100,
+     "source": "https://www.franchisechatter.com/2026/02/06/right-at-home-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "2025 FDD Item 7."
+    },
+    "totalInvestmentMax": {
+     "value": 165309,
+     "source": "https://www.franchisechatter.com/2026/02/06/right-at-home-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "2025 FDD Item 7."
+    },
+    "franchiseFee": {
+     "value": 49500,
+     "source": "https://www.franchisechatter.com/2026/02/06/right-at-home-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 5.0,
+     "source": "https://www.franchisechatter.com/2026/02/06/right-at-home-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Greater of 5% of Net Billings or a minimum quarterly royalty."
+    },
+    "adFundPercent": {
+     "value": 2.0,
+     "source": "https://www.franchisechatter.com/2026/02/06/right-at-home-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Brand marketing: greater of 2% on first $1M or 1% on next $2M of Net Billings, plus 1-2% local marketing."
+    },
+    "avgUnitRevenue": {
+     "value": 1739357,
+     "source": "https://www.franchisechatter.com/2026/02/06/right-at-home-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Item 19 (2024): average Net Billings across all offices open 1+ year. Offices open 61+ months averaged $1,848,745 (median $1,386,635)."
+    },
+    "totalUnits": {
+     "value": 539,
+     "source": "https://www.franchisechatter.com/2026/02/06/right-at-home-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "539 franchised + 12 company-owned at end of 2024 (2025 FDD)."
+    },
+    "yearFounded": {
+     "value": 1995,
+     "source": "https://en.wikipedia.org/wiki/Right_at_Home",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Founded 1995 in Fremont, NE by Allen Hager."
+    },
+    "yearFranchising": {
+     "value": 2000,
+     "source": "https://franchisebusinessreview.com/post/right-at-home-20-years-in-franchising/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Began franchising in 2000."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://franchiseinvestordata.com/franchise/right-at-home",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "25% veteran discount on franchise fee reported."
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/06/right-at-home-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "+31 net franchised units in 2024."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/06/right-at-home-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/06/right-at-home-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.franchising.com/rightathome/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Grants protected territories of ~200,000-350,000 population."
+    }
+   }
+  },
+  {
+   "name": "Comfort Keepers",
+   "slug": "comfort-keepers",
+   "category": "Health & Wellness",
+   "website": "comfortkeepers.com",
+   "notes": "In-home senior care franchise (CK Franchising, Inc., Irvine CA) founded 1998 and franchising since 1999; ~578 US franchised + 41 company-owned units (619 total). Multiple franchisee-level wage and 'no-hire' enforcement actions in the network elevate compliance/litigation risk.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "DOL contempt action over repeated overtime violations at a Comfort Keepers operator",
+     "detail": "The U.S. Department of Labor sought a contempt order against Tim Paul / TPS Caregiving (operating as Comfort Keepers Home Care) for allegedly continuing to withhold overtime pay from 700+ employees after a 2022 consent judgment in S.D. Indiana barred future violations.",
+     "source": "McKnight's Home Care",
+     "url": "https://www.mcknightshomecare.com/news/comfort-keepers-franchise-owner-commits-continued-wage-infractions-dol-alleges/",
+     "year": 2024
+    },
+    {
+     "severity": "caution",
+     "title": "California AG $500K judgment over unlawful 'no-hire' clauses",
+     "detail": "California Attorney General obtained a stipulated judgment requiring Comfort Keepers to pay $500,000 in civil penalties for using unlawful no-hire/non-solicitation and onerous liquidated-damages provisions in client care agreements; a related no-hire-clause investigation continued in 2025.",
+     "source": "California DOJ / Office of the Attorney General",
+     "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-holds-home-care-company-liable-unfairly-suppressing",
+     "year": 2024
+    },
+    {
+     "severity": "caution",
+     "title": "Caregiver overtime class action (Pennsylvania)",
+     "detail": "PA Minimum Wage Act class action alleged Comfort Keepers paid caregivers a flat hourly rate for all hours and failed to pay 1.5x for hours over 40/week.",
+     "source": "The Lore Law Firm case summary",
+     "url": "https://www.overtime-flsa.com/cases/comfort-keepers-case-summary/",
+     "year": 2023
+    }
+   ],
+   "nationwide": {
+    "source": "Comfort Keepers Franchising (territories page) / sector summary",
+    "url": "https://www.comfortkeepersfranchise.com/territories/",
+    "year": 2026,
+    "note": "625+ US franchise locations; franchisor markets available territories nationwide and grants protected territories (~350,000 population)."
+   },
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 116950,
+     "source": "https://www.franchisepayback.com/franchise/comfort-keepers",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7; reported range $116,950-$188,250 (other sources round to $117K-$188K)."
+    },
+    "totalInvestmentMax": {
+     "value": 188250,
+     "source": "https://www.franchisepayback.com/franchise/comfort-keepers",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7."
+    },
+    "franchiseFee": {
+     "value": 55000,
+     "source": "https://www.comfortkeepersfranchise.com/investment",
+     "year": 2026,
+     "confidence": "high",
+     "note": "$55,000 for first territory; discounts for additional territories and veterans."
+    },
+    "royaltyPercent": {
+     "value": 5.0,
+     "source": "https://www.franchisepayback.com/franchise/comfort-keepers",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 2.0,
+     "source": "https://swoopfunding.com/us/business-loans/franchise-finance/comfort-keepers/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "2% national brand fund reported (plus local marketing minimums); one source lists a 4% brand fund \u2014 figure may vary, lower/recurring value used."
+    },
+    "totalUnits": {
+     "value": 619,
+     "source": "https://www.franchisepayback.com/franchise/comfort-keepers",
+     "year": 2025,
+     "confidence": "high",
+     "note": "619 total (578 franchised, 41 company-owned) per 2025 FDD."
+    },
+    "yearFounded": {
+     "value": 1998,
+     "source": "https://www.franchisepayback.com/franchise/comfort-keepers",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Founded 1998."
+    },
+    "yearFranchising": {
+     "value": 1999,
+     "source": "https://www.franchisedirect.com/healthcareseniorcarefranchises/comfort-keepers-franchise-07029/ufoc/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Began franchising in 1999."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.comfortkeepersfranchise.com/investment",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Veteran discount on franchise fee offered."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisepayback.com/franchise/comfort-keepers",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.comfortkeepersfranchise.com/territories/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Grants protected territories (~350,000 population)."
+    }
+   }
+  },
+  {
+   "name": "Senior Helpers",
+   "slug": "senior-helpers",
+   "category": "Health & Wellness",
+   "website": "seniorhelpers.com",
+   "notes": "In-home senior care franchise founded 2002 and franchising since 2005; ~355 US franchised + 5 company-owned units (360 total), growing ~+22 units/year. Discloses detailed Item 19 revenue-by-tenure data; low entry capital requirements relative to the category.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Sector-wide caregiver wage-and-hour exposure",
+     "detail": "Home-care franchisees broadly face FLSA/state overtime, minimum-wage, live-in and travel-time pay claims; no franchisor-wide Senior Helpers class action was located in the searches, but franchisees carry this category-level employment-law risk.",
+     "source": "FranchiseChatter FDD review / sector context",
+     "url": "https://www.franchisechatter.com/2025/08/16/senior-helpers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "State home-care licensure and caregiver compliance required",
+     "detail": "Operating requires state home care agency licensure, background checks and caregiver training that vary by state, adding regulatory cost and time to launch.",
+     "source": "Senior Helpers Franchise (Our Story)",
+     "url": "https://www.seniorhelpersfranchise.com/why-senior-helpers/our-story/",
+     "year": 2026
+    }
+   ],
+   "nationwide": {
+    "source": "Senior Helpers Franchise / sector summary",
+    "url": "https://www.seniorhelpersfranchise.com/investment/",
+    "year": 2026,
+    "note": "~370 US territories; franchisor describes selling franchises 'throughout the country' and grants protected territories of 200,000-350,000 population."
+   },
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 50000,
+     "source": "https://www.franchisechatter.com/2024/08/05/fdd-talk-senior-helpers-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Minimum $50,000 liquid assets ($200,000 net worth) \u2014 among lowest in the senior-care category."
+    },
+    "totalInvestmentMin": {
+     "value": 149000,
+     "source": "https://www.franchisechatter.com/2025/08/16/senior-helpers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7."
+    },
+    "totalInvestmentMax": {
+     "value": 201000,
+     "source": "https://www.franchisechatter.com/2025/08/16/senior-helpers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2025 FDD Item 7."
+    },
+    "franchiseFee": {
+     "value": 55000,
+     "source": "https://www.franchisechatter.com/2025/08/16/senior-helpers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Single territory."
+    },
+    "royaltyPercent": {
+     "value": 5.0,
+     "source": "https://www.franchisechatter.com/2025/08/16/senior-helpers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high",
+     "note": "5% of gross sales year 1; thereafter greater of 5% or minimum periodic payment."
+    },
+    "adFundPercent": {
+     "value": 1.0,
+     "source": "https://www.franchisechatter.com/2025/08/16/senior-helpers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Marketing fund up to 2% of gross sales; currently 1% on first $2M, 0.5% above; plus a brand management fee per period."
+    },
+    "avgUnitRevenue": {
+     "value": 1686350,
+     "source": "https://www.franchisechatter.com/2025/08/16/senior-helpers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Item 19 (2024): average gross revenue for the 232 units open 60+ months (median $1,312,197). Excludes operating costs."
+    },
+    "totalUnits": {
+     "value": 360,
+     "source": "https://www.franchisechatter.com/2025/08/16/senior-helpers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "360 total (355 franchised, 5 company-owned) at end of 2024."
+    },
+    "yearFounded": {
+     "value": 2002,
+     "source": "https://www.seniorhelpersfranchise.com/why-senior-helpers/our-story/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Founded 2002 by Tony Bonacuse and Peter Ross."
+    },
+    "yearFranchising": {
+     "value": 2005,
+     "source": "https://www.betheboss.com/blog/senior-helpers-franchise-interview-with-peter-ross-ceo/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Began franchising in 2005."
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/08/16/senior-helpers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "+22 net franchised units in 2024 (+19 in 2023)."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/08/16/senior-helpers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2025/08/16/senior-helpers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.seniorhelpersfranchise.com/investment/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Grants protected territories of 200,000-350,000 population."
+    }
+   }
+  },
+  {
+   "name": "BrightStar Care",
+   "slug": "brightstar-care",
+   "category": "Health & Wellness",
+   "website": "brightstarcare.com",
+   "notes": "Higher-acuity home care + medical staffing franchise founded 2002 (Gurnee, IL, Shelly Sun) and franchising since 2005; ~373 franchised + 35 company-owned units at end of 2024, growing +26 units. Highest disclosed Item 19 average revenue in this batch (~$2.46M for first agencies open 12+ months) but carries notable franchisee-relations and wage litigation.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "Franchisor-vs-franchisee non-compete litigation",
+     "detail": "BrightStar Franchising, LLC v. Foreside Management Co. (N.D. Ill., No. 1:25-cv-08741, decided Oct 29, 2025): former California franchisees let agreements expire and kept operating; court granted BrightStar a partial preliminary injunction enforcing an 18-month non-compete/non-solicit under Illinois law, rejecting the franchisees' California \u00a716600 defense. Indicates aggressive post-term restrictive-covenant enforcement against exiting franchisees.",
+     "source": "Goldstein Law Group analysis / Justia docket",
+     "url": "https://www.goldlawgroup.com/franchise-freedom-or-contractual-control-the-battle-over-brightstars-non-compete-brightstar-franchising_-llc-v-foreside-mgmt-co-_2025-u-s-dist-lexis-213306/",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "Caregiver overtime / wage-and-hour claims at franchise operators",
+     "detail": "Multiple wage suits at BrightStar operators, including a Kentucky caregiver alleging 90+ hour weeks without time-and-a-half overtime, and a California class action alleging unpaid on-call time, denied meal/rest breaks, and unreimbursed expenses.",
+     "source": "OvertimePayLaws.org",
+     "url": "https://www.overtimepaylaws.org/brightstar-care-overtime-pay-lawsuits/",
+     "year": 2024
+    },
+    {
+     "severity": "info",
+     "title": "Federal civil monetary penalty at a franchise location",
+     "detail": "JRC Ventures d/b/a BrightStar Care of Chattanooga paid a $20,374 HHS-OIG settlement (Oct 2024) for employing an individual excluded from federal health programs. Location-level compliance issue.",
+     "source": "HHS Office of Inspector General",
+     "url": "https://oig.hhs.gov/fraud/enforcement/brightstar-care-of-chattanooga-agreed-to-pay-20000-for-allegedly-violating-the-civil-monetary-penalties-law-by-employing-an-excluded-individual/",
+     "year": 2024
+    }
+   ],
+   "nationwide": {
+    "source": "BrightStar Care Franchising (Available Territories)",
+    "url": "https://www.brightstarfranchising.com/available-territories/",
+    "year": 2026,
+    "note": "Territories available in nearly all 50 states (currently none in HI, MN, NE, NH, OK); typical territory 200,000-300,000 population with 15,000+ aged 65+."
+   },
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 132499,
+     "source": "https://www.franchisechatter.com/2026/02/24/brightstar-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "2025 FDD Item 7."
+    },
+    "totalInvestmentMax": {
+     "value": 235038,
+     "source": "https://www.franchisechatter.com/2026/02/24/brightstar-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "2025 FDD Item 7."
+    },
+    "franchiseFee": {
+     "value": 25000,
+     "source": "https://www.franchisechatter.com/2026/02/24/brightstar-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Lower bound: $25,000 for markets under 200K population; $50,000 for 200K-300K population territories."
+    },
+    "royaltyPercent": {
+     "value": 5.25,
+     "source": "https://www.franchisechatter.com/2026/02/24/brightstar-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "5.25% of monthly Net Billings on non-National Accounts; 6.25% on National Accounts."
+    },
+    "adFundPercent": {
+     "value": 2.5,
+     "source": "https://www.franchisechatter.com/2026/02/24/brightstar-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Greater of $500/month or 2.5% of prior month's Net Billings."
+    },
+    "avgUnitRevenue": {
+     "value": 2463257,
+     "source": "https://www.franchisechatter.com/2026/02/24/brightstar-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Item 19 (2024): average revenue for first franchised agencies open 12+ months, across all service lines (personal care, skilled, companion, staffing). Top quartile $4.72M, bottom quartile $967K; avg gross margin 42.4%."
+    },
+    "totalUnits": {
+     "value": 373,
+     "source": "https://www.franchisechatter.com/2026/02/24/brightstar-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "373 franchised (+26 vs 2023) + 35 company-owned at end of 2024."
+    },
+    "yearFounded": {
+     "value": 2002,
+     "source": "https://en.wikipedia.org/wiki/BrightStar_Care",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Founded 2002 in Gurnee, IL by Shelly Sun and J.D. Sun."
+    },
+    "yearFranchising": {
+     "value": 2005,
+     "source": "https://en.wikipedia.org/wiki/BrightStar_Care",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Began franchising in 2005 (first franchise launched 2006)."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2024/02/08/fdd-talk-brightstar-care-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "$5,000 franchise-fee discount for qualifying military veterans."
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/24/brightstar-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2024,
+     "confidence": "high",
+     "note": "+26 net franchised units in 2024."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/24/brightstar-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "https://www.franchisechatter.com/2026/02/24/brightstar-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "https://www.brightstarfranchising.com/available-territories/",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Territories sized ~200,000-300,000 population."
+    }
+   }
+  }
+ ]
+}

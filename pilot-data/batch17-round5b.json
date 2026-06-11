@@ -1,0 +1,460 @@
+{
+  "brands": [
+    {
+      "name": "XP League",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Parent company Unleashed Brands faces franchisee RICO lawsuit",
+          "detail": "54 franchisees of sister brand Premier Martial Arts sued parent Unleashed Brands alleging RICO violations, fraudulent inducement and breach of contract, seeking at least $75M. Case concerns a sister brand, not XP League itself, but reflects platform-level franchisee-relations risk.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_news/54-premier-martial-arts-franchisees-sue-unleashed-brands-alleging-rico-act-violations/article_38de4366-bd24-11ed-9d2c-c3a50713a974.html",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "No Item 19 financial performance representation",
+          "detail": "XP League's 2024 FDD (issued April 30, 2024) does not include an Item 19 financial performance representation, so franchisee revenue/profit cannot be validated from the FDD.",
+          "source": "FranChimp (2024 FDD index)",
+          "url": "https://www.franchimp.com/franchise/xp-league-113498",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Young, small system",
+          "detail": "Founded and franchising since 2020; 43 total units in the 2024 FDD (41 franchised, 2 corporate). Limited operating history for the center-based model.",
+          "source": "FranchisePayback",
+          "url": "https://www.franchisepayback.com/franchise/xp-league",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 75000, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists liquid cash $75,000-$200,000. CONFLICT: vettedbiz lists minimum cash $95,000; franchimp lists $30,000 minimum cash."},
+        "totalInvestmentMin": {"value": 83000, "source": "https://www.franchisepayback.com/franchise/xp-league", "year": 2024, "confidence": "medium", "note": "2024 FDD-derived range $83,000 (Mobile Division low end) to $332,000. CONFLICT: Entrepreneur (2026) lists $58,000-$225,000, possibly a newer FDD; xpleaguefranchise.com cited $190,750-$332,000 for center format."},
+        "totalInvestmentMax": {"value": 332000, "source": "https://www.franchisepayback.com/franchise/xp-league", "year": 2024, "confidence": "medium", "note": "High end for XP League Center format per 2024 FDD-derived data. CONFLICT: Entrepreneur (2026) lists max $225,000."},
+        "franchiseFee": {"value": 35000, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "high", "note": "Consistent across Entrepreneur, FranchisePayback, and franchisor materials."},
+        "royaltyPercent": {"value": 8, "source": "https://www.franchisepayback.com/franchise/xp-league", "year": 2024, "confidence": "high", "note": "8% of gross sales, with $500+/mo minimum per Entrepreneur."},
+        "adFundPercent": {"value": 5, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "low", "note": "Entrepreneur lists 5% ad royalty but page data is internally inconsistent (also shows 8%); FranchisePayback shows 'up to 5%'. Treat as approximate."},
+        "avgUnitRevenue": {"value": null, "source": "https://www.franchimp.com/franchise/xp-league-113498", "year": 2024, "confidence": "high", "note": "No Item 19 in 2024 FDD; no verified system AUV. Third-party 'estimated' figures exist but are not FDD-sourced."},
+        "item19Available": {"value": false, "source": "https://www.franchimp.com/franchise/xp-league-113498", "year": 2024, "confidence": "medium", "note": "FranChimp FDD index marks Item 19 financials as not disclosed in 2024 FDD."},
+        "fddAvailable": {"value": true, "source": "https://www.franchimp.com/?page=pdf&f=113498_2024.pdf", "year": 2024, "confidence": "high", "note": "2024 FDD publicly indexed."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory was discontinued in 2023; SBA eligibility is now lender-determined. No verified source found."},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "medium", "note": "5% off franchise and development fees for veterans."},
+        "multiUnitAvailable": {"value": true, "source": "https://www.franchisepayback.com/franchise/xp-league", "year": 2024, "confidence": "medium", "note": "Development/multi-territory fee structures referenced in FDD-derived sources."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.franchisepayback.com/franchise/xp-league", "year": 2024, "confidence": "medium", "note": "Defined geographic territory in which no other XP League franchises may operate; Entrepreneur also lists exclusive territories = Yes."},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "medium", "note": "Absentee ownership not allowed; part-time not allowed per Entrepreneur."},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "medium", "note": "Home/mobile-based = Yes; Mobile Division format exists alongside center format."},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "medium", "note": "Part-time operation not allowed per Entrepreneur."},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "medium", "note": "Absentee ownership not allowed."},
+        "trainingWeeks": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 34 classroom hours plus on-the-job training; no verified duration in weeks."},
+        "ongoingSupport": {"value": ["initial HQ training program", "ongoing webinars", "hands-on coaching", "virtual meetings"], "source": "https://www.franchisepayback.com/franchise/xp-league", "year": 2024, "confidence": "medium", "note": ""},
+        "marketingSupport": {"value": ["grand opening marketing program ($8,000 mobile / $10,000 center minimum)", "national brand fund", "Unleashed Brands platform marketing resources"], "source": "https://www.xpleaguefranchise.com/investment/", "year": 2025, "confidence": "medium", "note": "Grand opening minimums per franchisor investment page as summarized by search results."},
+        "employeesRequired": {"value": 1, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 1 employee required to run."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Center square footage not verified; mobile format requires no fixed footprint."},
+        "totalUnits": {"value": 46, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 46 units. 2024 FDD showed 43 (41 franchised + 2 corporate) per FranchisePayback."},
+        "yearFounded": {"value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "high", "note": ""},
+        "yearFranchising": {"value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "high", "note": ""},
+        "closureCount": {"value": null, "source": "unverified", "year": 2024, "confidence": "low", "note": "Item 20 closure/termination detail not found in public sources."},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/xp-league/336258", "year": 2026, "confidence": "medium", "note": "Unit count grew from 43 (2024 FDD) to 46 (Entrepreneur 2026); Entrepreneur growth rate +43.8%."}
+      },
+      "notes": "Parent company: Unleashed Brands LLC (acquired XP League April 26, 2022 — PRNewswire https://www.prnewswire.com/news-releases/unleashed-brands-acquires-youth-esports-franchise-xp-league-301532484.html). Youth esports coaching league; offers both mobile and center-based formats, HQ Bedford, TX. Vetted Biz page for this brand contained cross-brand data contamination (referenced 'Skoah') and was discounted."
+    },
+    {
+      "name": "Valhallan",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very small, very young system with conflicting unit counts",
+          "detail": "2024 FDD-derived data shows only 9 total units (8 franchised, 1 company-owned); Entrepreneur lists 14 units and Vetted Biz 15. Limited operating history and small validation base for the arena model.",
+          "source": "FranchisePayback / Entrepreneur",
+          "url": "https://www.franchisepayback.com/franchise/valhallan",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Fee and royalty terms have shifted across FDD years",
+          "detail": "Franchise fee reported at $30,000 (2022 FDD) vs $39,000 (current); royalty reported variously at 6%, 7% and 8% across FDD Exchange, Entrepreneur, and Vetted Biz. Investment ranges also differ by model (studio vs arena). Verify against the current FDD before relying on any figure.",
+          "source": "The FDD Exchange / Entrepreneur",
+          "url": "https://fddexchange.com/view-fdd-docs/valhallan-2023-fdd-franchise-information-costs-and-fees/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Sold through franchise developer FranchiCzar",
+          "detail": "Entrepreneur lists parent company as FranchiCzar, a franchise development platform; brands sold through development platforms can carry aggressive-sales-cycle risk typical of emerging concepts.",
+          "source": "Entrepreneur",
+          "url": "https://www.entrepreneur.com/franchises/directory/valhallan/336763",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "medium", "note": "Entrepreneur cash requirement $100,000."},
+        "totalInvestmentMin": {"value": 166060, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists $166,060-$329,850. CONFLICT: FranchisePayback (2024 FDD) lists $83,000-$330,000; older 2022/2023 FDDs listed a smaller 'studio' model at $63,450-$105,900 (fddexchange/vettedbiz)."},
+        "totalInvestmentMax": {"value": 329850, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "medium", "note": "Arena model high end; consistent with vettedbiz arena range $142,160-$305,400 and payback max $330,000."},
+        "franchiseFee": {"value": 39000, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "medium", "note": "Confirmed by FranchisePayback (2024 FDD). CONFLICT: 2022 FDD listed $30,000 (fddexchange)."},
+        "royaltyPercent": {"value": 7, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "medium", "note": "Confirmed by FranchisePayback (2024 FDD: 7.00%). CONFLICT: Vetted Biz reported 8%; older data 6%."},
+        "adFundPercent": {"value": 5, "source": "https://www.franchisepayback.com/franchise/valhallan", "year": 2024, "confidence": "low", "note": "FranchisePayback lists advertising fund 5.00%. CONFLICT: Entrepreneur lists ad royalty fee as 0."},
+        "avgUnitRevenue": {"value": 75000, "source": "https://www.franchisepayback.com/franchise/valhallan", "year": 2024, "confidence": "low", "note": "Single secondary source citing ~$75,000 average revenue from FDD-derived data; year of measurement not specified. Treat as low confidence."},
+        "item19Available": {"value": true, "source": "https://www.franchisepayback.com/franchise/valhallan", "year": 2024, "confidence": "low", "note": "FranchisePayback reports an Item 19 revenue figure, implying an Item 19 exists; not independently confirmed against the FDD."},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/valhallan-2023-fdd-franchise-information-costs-and-fees/", "year": 2023, "confidence": "high", "note": "2022 and 2023 FDDs publicly indexed on FDD Exchange."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued 2023; no verified lender-eligibility source found."},
+        "veteranDiscount": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "low", "note": "Entrepreneur lists veteran incentive as N/A; franchisor may still negotiate. Treat as no published discount."},
+        "multiUnitAvailable": {"value": true, "source": "https://www.vettedbiz.com/franchises/valhallan/", "year": 2024, "confidence": "medium", "note": "Area development agreements offered: $30,000 first location + $20,000 per additional location."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "low", "note": "Entrepreneur lists exclusive territories = Yes. CONFLICT: FranchisePayback describes a defined 0.5-4 mile territory with non-exclusive protection. Verify in FDD Item 12."},
+        "ownerTypes": {"value": ["owner_operator", "semi_absentee"], "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "low", "note": "Absentee not allowed; part-time operation allowed and 0 employees required suggests semi-absentee feasible. Not an FDD-verified classification."},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "medium", "note": "Home/mobile operation = No; requires arena/studio location."},
+        "canRunPartTime": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "medium", "note": "Part-time operation = Yes per Entrepreneur."},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "medium", "note": "Absentee ownership not allowed."},
+        "trainingWeeks": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "medium", "note": "60 classroom hours + 44 on-the-job hours per Entrepreneur; plus annual refresher up to 4 days (FranchisePayback). No verified weeks figure."},
+        "ongoingSupport": {"value": ["initial training for franchisee, manager and one additional person", "annual refresher training (up to 4 days)", "annual convention", "technology platform ($250/mo tech fee)"], "source": "https://www.franchisepayback.com/franchise/valhallan", "year": 2024, "confidence": "medium", "note": ""},
+        "marketingSupport": {"value": ["brand advertising fund", "local marketing guidance"], "source": "https://www.franchisepayback.com/franchise/valhallan", "year": 2024, "confidence": "low", "note": "Ad fund existence per FranchisePayback; specifics unverified."},
+        "employeesRequired": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "low", "note": "Entrepreneur lists 0 employees required; in practice coaches are typically hired."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Arena square footage not verified in public sources."},
+        "totalUnits": {"value": 14, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "low", "note": "CONFLICT: 2024 FDD-derived count was 9 (8 franchised + 1 company-owned, FranchisePayback); Vetted Biz reported 15."},
+        "yearFounded": {"value": 2021, "source": "https://www.franchisepayback.com/franchise/valhallan", "year": 2024, "confidence": "low", "note": "FranchisePayback: founded 2021 in Houston, TX. CONFLICT: Entrepreneur lists founded 2022."},
+        "yearFranchising": {"value": 2022, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "medium", "note": "Entrepreneur and Vetted Biz both list franchising since 2022."},
+        "closureCount": {"value": null, "source": "unverified", "year": 2024, "confidence": "low", "note": "Item 20 closure data not found in public sources."},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/valhallan/336763", "year": 2026, "confidence": "low", "note": "Unit count appears to have risen from 9 (2024 FDD) to 14 (Entrepreneur 2026), but counts conflict across sources."}
+      },
+      "notes": "Parent/platform: FranchiCzar (per Entrepreneur). Esports training arenas for ages ~8-17. Two historical formats (studio and arena); current offering appears to be the arena model. Data quality across secondary sources is inconsistent — FDD verification recommended before publication."
+    },
+    {
+      "name": "Soccer Stars",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Hyper-rapid franchising: 0 to 147 franchised units in ~2 years",
+          "detail": "Franchising began in 2022 (3 units at YE2022), reaching 85 franchised units at YE2023 and 147 at YE2024. Most franchisees have under two years of operating history, and Item 19 reflects only 30 outlets open 1+ year.",
+          "source": "Franchise Chatter (2026 review of 2025 FDD)",
+          "url": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Marketing revenue claims far exceed franchisee Item 19 averages",
+          "detail": "Broker/marketing materials cite '$1.4M average revenue and $635K net operating income' (figures rooted in legacy company-owned territory operations), while the 2025 FDD Item 19 shows average total revenue of $167,060 and net income after royalties of $33,142 for the 30 reporting franchisees. Use the FDD figure.",
+          "source": "Franchise Chatter vs Franchise Sidekick",
+          "url": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Company-owned units shrinking as system converts to franchising",
+          "detail": "Company-owned units fell from 13 (2022) to 6 (YE2024), including 4 company-owned closures in 2024, as the legacy corporate business converts/refranchises territories.",
+          "source": "Franchise Chatter",
+          "url": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "https://www.syncrevenue.com/franchises/soccer-stars", "year": 2026, "confidence": "medium", "note": "Liquid capital $100,000; minimum net worth $250,000 per directory sources."},
+        "totalInvestmentMin": {"value": 70350, "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "2025 FDD: $70,350-$102,250."},
+        "totalInvestmentMax": {"value": 102250, "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": ""},
+        "franchiseFee": {"value": 49500, "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "PeerSense lists '$50K fee' rounded; FDD figure is $49,500."},
+        "royaltyPercent": {"value": 8, "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "Greater of 8% of Gross Revenues or monthly Minimum ($700 Core program / $800 Plus)."},
+        "adFundPercent": {"value": 1, "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "National brand fund: greater of 1% of gross revenues or $200/month; plus up to 3% local advertising requirement."},
+        "avgUnitRevenue": {"value": 167060, "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "2025 FDD Item 19: average total revenue $167,060 (2024 fiscal year, 30 franchised outlets open 1+ year); average net income after royalties $33,142. CONFLICT: marketing materials cite $1.4M AUV from legacy company-operations data."},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": ""},
+        "fddAvailable": {"value": true, "source": "https://franchiseoverview.com/company/soccer-stars", "year": 2026, "confidence": "medium", "note": "2025 FDD analyzed by multiple secondary outlets."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued 2023; no verified eligibility source found."},
+        "veteranDiscount": {"value": true, "source": "https://www.syncrevenue.com/franchises/soccer-stars", "year": 2026, "confidence": "medium", "note": "10% off franchise fee for veterans (reduces fee to $44,550)."},
+        "multiUnitAvailable": {"value": true, "source": "https://www.soccerstarsfranchise.com/the-investment/", "year": 2026, "confidence": "medium", "note": "Multi-unit/multi-territory discounts offered per franchisor investment page."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.soccerstarsfranchise.com/the-investment/", "year": 2026, "confidence": "low", "note": "Franchisor markets protected territories; Item 12 exclusivity terms not independently verified."},
+        "ownerTypes": {"value": ["owner_operator", "semi_absentee"], "source": "https://www.soccerstarsfranchise.com/the-investment/", "year": 2026, "confidence": "low", "note": "Owner manages coaches; model is coach-staffed and mobile, commonly pitched as owner-operator or semi-absentee executive model. Not FDD-verified."},
+        "canRunFromHome": {"value": true, "source": "https://www.soccerstarsfranchise.com/the-investment/", "year": 2026, "confidence": "high", "note": "100% mobile model — classes run at parks, schools, gyms, churches, community centers; no facility required."},
+        "canRunPartTime": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No verified source on part-time operation."},
+        "absenteeOwnership": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Not verified in public sources."},
+        "trainingWeeks": {"value": null, "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "low", "note": "FDD shows an Enhanced Business Coaching and Training Fee of $5,750; training duration in weeks not verified."},
+        "ongoingSupport": {"value": ["business coaching", "coach training systems", "curriculum (ages 1-18+)", "operations platform"], "source": "https://www.soccerstarsfranchise.com/the-investment/", "year": 2026, "confidence": "low", "note": "From franchisor marketing; not FDD-itemized."},
+        "marketingSupport": {"value": ["national brand fund (1% or $200/mo)", "local advertising program (up to 3%)"], "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": ""},
+        "employeesRequired": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Coach-staffed model; specific required headcount not verified."},
+        "minFootprint": {"value": null, "source": "https://www.soccerstarsfranchise.com/the-investment/", "year": 2026, "confidence": "medium", "note": "Mobile/home-based — no fixed facility footprint required."},
+        "totalUnits": {"value": 153, "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "YE2024 per 2025 FDD: 147 franchised + 6 company-owned."},
+        "yearFounded": {"value": 2000, "source": "https://en.wikipedia.org/wiki/Super_Soccer_Stars", "year": 2025, "confidence": "high", "note": "Founded 2000 in New York City by Gustavo Szulansky as Super Soccer Stars."},
+        "yearFranchising": {"value": 2022, "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "First 3 franchised units at YE2022."},
+        "closureCount": {"value": 4, "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "medium", "note": "4 company-owned closures in 2024; franchised-unit closures not separately reported."},
+        "isGrowing": {"value": true, "source": "https://www.franchisechatter.com/2026/03/10/soccer-stars-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "+62 net new franchised units in 2024."}
+      },
+      "notes": "Parent company: Youth Athletes United (also parent of Amazing Athletes and other youth sports brands). Mobile/home-based youth soccer coaching, ages 1-18. Note one search-result snippet inverted the franchised/company-owned counts ('0 franchised, 147 company-owned') — the FDD-derived table from Franchise Chatter (147 franchised / 6 company-owned at YE2024) is authoritative here."
+    },
+    {
+      "name": "Steamoji",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Gap between territories sold and academies open",
+          "detail": "Franchisor announced 50 territories sold across Canada and the US by December 2024 but only 21 academies open — a sold-to-open ratio that warrants diligence on opening timelines and franchisee funding. Another directory source claims 29 academies with 61 territories in development.",
+          "source": "Steamoji Franchise (official announcement)",
+          "url": "https://steamojifranchise.com/steamoji-franchise-fifty-50-territories-sold-across-canada-us-by-december-2024/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Item 19 exists but figures are not publicly disclosed",
+          "detail": "The franchisor's FAQ confirms Item 19 includes performance data from existing locations, but no public secondary source publishes the figures; the brand also spans US and Canadian units, complicating comparability.",
+          "source": "Steamoji Franchise FAQ",
+          "url": "https://steamojifranchise.com/faq/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Young system with high investment ceiling",
+          "detail": "Franchising only since 2020 with ~21 open units, while the build-out can exceed $500K at the top of the range — payback depends heavily on enrollment ramp at a small sample of existing academies.",
+          "source": "Steamoji Franchise (investment page)",
+          "url": "https://steamojifranchise.com/investment-costs/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "https://steamojifranchise.com/investment-costs/", "year": 2026, "confidence": "high", "note": "Franchisor states $100,000 in available capital needed."},
+        "totalInvestmentMin": {"value": 214595, "source": "https://steamojifranchise.com/investment-costs/", "year": 2026, "confidence": "high", "note": "Current franchisor-stated range $214,595-$502,245. CONFLICT: 2024 FDD-era sources cite $196,363-$487,213; 2022 FDD listed $210,500-$488,000 (Academy) and a discontinued Studio format at $76,500-$88,500."},
+        "totalInvestmentMax": {"value": 502245, "source": "https://steamojifranchise.com/investment-costs/", "year": 2026, "confidence": "high", "note": ""},
+        "franchiseFee": {"value": 45000, "source": "https://steamojifranchise.com/investment-costs/", "year": 2026, "confidence": "high", "note": "Current official site: $45,000. CONFLICT: older directory listings (Franchise Gator and 2024 FDD-era sources) cite $40,000."},
+        "royaltyPercent": {"value": 8, "source": "https://steamojifranchise.com/faq/", "year": 2026, "confidence": "high", "note": "8% of gross revenue, per franchisor FAQ."},
+        "adFundPercent": {"value": 2, "source": "https://steamojifranchise.com/faq/", "year": 2026, "confidence": "high", "note": "2% brand fund contribution for national marketing."},
+        "avgUnitRevenue": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Item 19 exists per franchisor FAQ, but figures are not publicly available in any reviewed source."},
+        "item19Available": {"value": true, "source": "https://steamojifranchise.com/faq/", "year": 2026, "confidence": "high", "note": "'Item 19 of our FDD includes performance data from existing locations.'"},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/steamoji-2024-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high", "note": "2022 and 2024 FDDs indexed on FDD Exchange."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Canadian-founded franchisor; SBA Franchise Directory discontinued 2023. No verified source."},
+        "veteranDiscount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No veteran discount mentioned on franchisor site or reviewed directories."},
+        "multiUnitAvailable": {"value": true, "source": "https://steamojifranchise.com/steamoji-franchise-fifty-50-territories-sold-across-canada-us-by-december-2024/", "year": 2024, "confidence": "medium", "note": "Multiple territories sold to developers; 50 territories vs 21 open academies implies multi-territory deals."},
+        "exclusiveTerritories": {"value": true, "source": "https://steamojifranchise.com/faq/", "year": 2026, "confidence": "high", "note": "'We offer protected territories based on population density and market demand.'"},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://steamojifranchise.com/faq/", "year": 2026, "confidence": "low", "note": "Owner-operator implied by instructor-led academy model (4:1 student-instructor ratio); semi-absentee suitability not verified."},
+        "canRunFromHome": {"value": false, "source": "https://steamojifranchise.com/investment-costs/", "year": 2026, "confidence": "high", "note": "Requires a built-out physical academy."},
+        "canRunPartTime": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Not addressed in reviewed sources."},
+        "absenteeOwnership": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Not addressed in reviewed sources."},
+        "trainingWeeks": {"value": null, "source": "https://steamojifranchise.com/faq/", "year": 2026, "confidence": "low", "note": "Training is in-person and online with on-site launch support; duration not stated."},
+        "ongoingSupport": {"value": ["in-person and online training", "on-site launch support", "curriculum platform (1,500+ project hours)", "ongoing operations support"], "source": "https://steamojifranchise.com/faq/", "year": 2026, "confidence": "medium", "note": ""},
+        "marketingSupport": {"value": ["national brand fund (2%)", "marketing training and playbooks"], "source": "https://steamojifranchise.com/faq/", "year": 2026, "confidence": "medium", "note": ""},
+        "employeesRequired": {"value": null, "source": "https://steamojifranchise.com/faq/", "year": 2026, "confidence": "low", "note": "Staffing scales with enrollment at 4:1 student-to-instructor ratio; fixed headcount not stated."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Academy square footage not stated in reviewed sources."},
+        "totalUnits": {"value": 21, "source": "https://steamojifranchise.com/steamoji-franchise-fifty-50-territories-sold-across-canada-us-by-december-2024/", "year": 2024, "confidence": "high", "note": "21 open academies, 50 territories sold (US + Canada) as of Dec 2024. CONFLICT: another directory source claims 29 academies open with 61 territories in development."},
+        "yearFounded": {"value": 2018, "source": "https://steamojifranchise.com/faq/", "year": 2026, "confidence": "medium", "note": "Launched 2018 (Vancouver, BC origin)."},
+        "yearFranchising": {"value": 2020, "source": "https://steamojifranchise.com/faq/", "year": 2026, "confidence": "medium", "note": "Began franchising 2020 per multiple directory sources."},
+        "closureCount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No closure data found in public sources."},
+        "isGrowing": {"value": true, "source": "https://steamojifranchise.com/steamoji-franchise-fifty-50-territories-sold-across-canada-us-by-december-2024/", "year": 2024, "confidence": "medium", "note": "Territory sales and academy openings trending up through 2024; 166,512 project sessions and ~15,000 apprentices reported."}
+      },
+      "notes": "Independent franchisor (no large platform parent identified); STEM/maker 'apprenticeship' academy for ages 7-14, US and Canada. Investment and fee figures on the official site (2026) are newer than the 2024 FDD-era directory data — both recorded with conflicts flagged."
+    },
+    {
+      "name": "Bath Tune-Up",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Reported unit economics are weak relative to even a modest investment",
+          "detail": "Secondary FDD analyses report average gross sales of roughly $0.36M per location (and one outlet-level dataset as low as ~$89K), with estimated payback of 10.5-12.5 years per FranchisePayback-style modeling. Young units dominate the system, so averages skew low, but validate Item 19 carefully.",
+          "source": "SHARPSHEETS / Vetted Biz (conflicting figures)",
+          "url": "https://sharpsheets.io/blog/bath-tune-up-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Young brand inside an established platform",
+          "detail": "Launched 2020 as the bath sibling of Kitchen Tune-Up under Home Franchise Concepts (a JM Family Enterprises company). Platform is well-capitalized and established, but the Bath Tune-Up concept itself has a short track record.",
+          "source": "Entrepreneur",
+          "url": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 73930, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "medium", "note": "Entrepreneur cash requirement $73,930; net worth requirement $200,000."},
+        "totalInvestmentMin": {"value": 109930, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "high", "note": "$109,930-$173,860; consistent across Entrepreneur and FDD-derived directories. CONFLICT: sharpsheets cites $130,000-$189,000."},
+        "totalInvestmentMax": {"value": 173860, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "high", "note": ""},
+        "franchiseFee": {"value": 19950, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "high", "note": "Initial franchise fee $19,950; territory fees additional (HFC structure)."},
+        "royaltyPercent": {"value": 7, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "high", "note": "Sliding scale 7% down to 4% of gross revenue as volume grows (reported as 4%-7%); plus $450/month technology fee."},
+        "adFundPercent": {"value": 1, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "high", "note": "1% advertising/brand fund fee."},
+        "avgUnitRevenue": {"value": 360000, "source": "https://sharpsheets.io/blog/bath-tune-up-franchise-fdd-profits-costs/", "year": 2025, "confidence": "low", "note": "SHARPSHEETS reports ~$0.36M average gross sales per location from FDD analysis. CONFLICT: Vetted Biz reports yearly gross sales of $88,976. Conflicting secondary figures — verify against current FDD Item 19 before publishing."},
+        "item19Available": {"value": true, "source": "https://sharpsheets.io/blog/bath-tune-up-franchise-fdd-profits-costs/", "year": 2025, "confidence": "medium", "note": "Secondary analyses publish Item 19-derived revenue figures, indicating an Item 19 is included."},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/bath-tune-up-2021-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high", "note": "FDDs publicly indexed (2021 onward); 2024 FDD referenced by Vetted Biz."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued 2023; HFC brands historically SBA-financeable but no current verified source."},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "medium", "note": "15% off initial franchise and territory fees for veterans."},
+        "multiUnitAvailable": {"value": true, "source": "https://franchise.bathtune-up.com/investment-start-up-costs/", "year": 2026, "confidence": "low", "note": "HFC sells additional territories; multi-territory ownership common across HFC brands. Not FDD-verified here."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "medium", "note": "Exclusive territories = Yes per Entrepreneur."},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "medium", "note": "Absentee not allowed; home-based owner-operator model."},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "high", "note": "Home-based/mobile operation = Yes; no showroom required."},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "medium", "note": "Part-time = No per Entrepreneur."},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "medium", "note": "Absentee ownership not allowed."},
+        "trainingWeeks": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "medium", "note": "121 classroom hours + 66 on-the-job hours per Entrepreneur; weeks figure not stated by a verified source."},
+        "ongoingSupport": {"value": ["HFC corporate training (classroom + on-the-job)", "ongoing coaching", "technology platform ($450/mo)", "10-year renewable agreement"], "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "medium", "note": ""},
+        "marketingSupport": {"value": ["1% national brand fund", "local marketing programs via Home Franchise Concepts platform"], "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "medium", "note": ""},
+        "employeesRequired": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "low", "note": "Entrepreneur lists 0 employees required; work performed via subcontractors/installers in practice."},
+        "minFootprint": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "medium", "note": "Home-based — no minimum commercial footprint required."},
+        "totalUnits": {"value": 57, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 57 units (growth +54.1%). 2024 FDD showed 48 franchised locations per Vetted Biz."},
+        "yearFounded": {"value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "high", "note": ""},
+        "yearFranchising": {"value": 2020, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "high", "note": ""},
+        "closureCount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Item 20 closure detail not found in public sources."},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/bath-tune-up/336344", "year": 2026, "confidence": "medium", "note": "48 units (2024 FDD) to 57 (Entrepreneur 2026); +54.1% growth rate listed."}
+      },
+      "notes": "Parent company: Home Franchise Concepts (HFC), a JM Family Enterprises company — sister brands include Budget Blinds, Kitchen Tune-Up, Two Maids, AdvantaClean. Home-based bathroom remodeling concept spun out of Kitchen Tune-Up in 2020. Conflicting AUV reporting between secondary sources is the main data caveat."
+    },
+    {
+      "name": "Bumble Bee Blinds",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Parent HorsePower Brands faces multi-state franchisee fraud litigation",
+          "detail": "Franchisees of sister brand Mighty Dog Roofing sued franchisor entities and HorsePower Brands executives in Pennsylvania, Nebraska and New Jersey alleging inflated financial projections and misrepresented investment costs; one franchisee alleged 40 of 143 territories closed with 25 more near closure. Dozens of franchisees formed an AAFD association in April 2025. Earlier Blingle (another HPB brand) case sent to mediation in 2024. Litigation targets the platform behind Bumble Bee Blinds, not the Bumble Bee entity itself.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/issue-archive/2026/april/franchisees-allege-fraud-at-mighty-dog-as-franchisor-files-its-own-lawsuits/article_314ff79b-0b5c-45bd-b3f7-c831de07e88e.html",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Aggressive territory sales outpacing open units; churn appearing",
+          "detail": "155 protected territories sold vs 45 franchisees open and operating as of Dec 31, 2024 (official site). One secondary FDD analysis reports 14 terminations and 6 transfers in Item 20 (~9% churn) — low-confidence source but directionally consistent with platform-wide complaints.",
+          "source": "Bumble Bee Blinds (official) / FranDB",
+          "url": "https://www.bumblebeeblinds.com/own-a-franchise",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Early Item 19 was founder-business based; franchisee averages are far lower",
+          "detail": "2023 FDD Item 19 showcased the Omaha founder business ($1.53M gross sales, $223K adjusted EBITDA). The 2025 FDD reportedly shows average gross revenue of $486,075 (median $392,204) across 12 franchisees operating all of 2024 — roughly a third of the founder figure often used in marketing.",
+          "source": "Franchise Chatter / FranDB",
+          "url": "https://www.franchisechatter.com/2025/04/14/bumble-bee-blinds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 75000, "source": "https://frannet.com/franchise-directory/bumble-bee-blinds/", "year": 2025, "confidence": "medium", "note": "$75,000 liquid capital, $400,000 minimum net worth per FranNet/Vetted Biz."},
+        "totalInvestmentMin": {"value": 164743, "source": "https://www.bumblebeeblinds.com/own-a-franchise", "year": 2025, "confidence": "high", "note": "2025 FDD: $164,743-$210,778 for a single protected territory (official site). CONFLICT: Franchise Chatter 2025 review cites $163,599-$196,048 from the prior FDD."},
+        "totalInvestmentMax": {"value": 210778, "source": "https://www.bumblebeeblinds.com/own-a-franchise", "year": 2025, "confidence": "high", "note": ""},
+        "franchiseFee": {"value": 59500, "source": "https://www.franchisechatter.com/2025/04/14/bumble-bee-blinds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Consistent across Franchise Chatter, FranchisePayback and FranDB."},
+        "royaltyPercent": {"value": 8.5, "source": "https://www.franchisechatter.com/2025/04/14/bumble-bee-blinds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": "Greater of 8.5% of Gross Revenues Collected or Minimum Royalty Fee (FDD-derived; sharpsheets concurs). CONFLICT: FranDB claims 6% tiered to 4% over $1M — low confidence."},
+        "adFundPercent": {"value": null, "source": "unverified", "year": 2025, "confidence": "low", "note": "Conflicting reports: Vetted Biz cites 3%-5% brand marketing fee; Franchise Chatter describes $15,000 initial Brand Marketing Fee plus local ad spend (greater of $2,000/mo or 5%) and $1,000/mo Digital Management Fee; FranDB claims 0% brand fund. Cannot verify a single percentage."},
+        "avgUnitRevenue": {"value": 486075, "source": "https://www.frandb.com/franchise/bumble-bee-blinds/2025", "year": 2025, "confidence": "low", "note": "2025 FDD Item 19 (per FranDB): average gross revenue $486,075, median $392,204, across 12 franchisees open all of 2024. CONFLICT: 2023 FDD Item 19 used founder business only ($1,534,831 gross sales, 2022). Single secondary source for the 2025 figure."},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2025/04/14/bumble-bee-blinds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": ""},
+        "fddAvailable": {"value": true, "source": "https://www.franchisechatter.com/2025/04/14/bumble-bee-blinds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "FDD analyzed by multiple outlets, 2023-2026."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued 2023; no verified eligibility source found."},
+        "veteranDiscount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No published veteran discount found; official site does not list one."},
+        "multiUnitAvailable": {"value": true, "source": "https://www.franchisechatter.com/2025/04/14/bumble-bee-blinds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "FDD prices 2-3 and 4-5 protected-territory packages (Digital Management Fee tiers $1,000/$1,500 per month)."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.bumblebeeblinds.com/own-a-franchise", "year": 2025, "confidence": "high", "note": "Protected territory model; 155 protected territories sold as of Dec 31, 2024."},
+        "ownerTypes": {"value": ["owner_operator"], "source": "https://www.bumblebeeblinds.com/own-a-franchise", "year": 2025, "confidence": "low", "note": "Marketed as home-based, appointment-driven owner-operated business; semi-absentee suitability not verified."},
+        "canRunFromHome": {"value": true, "source": "https://www.bumblebeeblinds.com/own-a-franchise", "year": 2025, "confidence": "high", "note": "'Home-based, mobile, appointment-driven window treatment business... Start from home with low overhead.'"},
+        "canRunPartTime": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Not addressed in reviewed sources."},
+        "absenteeOwnership": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Not addressed in reviewed sources."},
+        "trainingWeeks": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "HPB provides initial training and a contact center; duration in weeks not verified."},
+        "ongoingSupport": {"value": ["HorsePower Brands platform support", "contact/call center", "accounting support", "technology stack (bundled ~$2,332/mo fixed fees per FranDB)"], "source": "https://www.frandb.com/franchise/bumble-bee-blinds/2025", "year": 2025, "confidence": "low", "note": "Fixed-fee bundle figure from single secondary source."},
+        "marketingSupport": {"value": ["digital management program ($1,000/mo single territory)", "grand-opening/brand marketing program ($15,000 initial)", "local advertising program (greater of $2,000/mo or 5%)"], "source": "https://www.franchisechatter.com/2025/04/14/bumble-bee-blinds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": ""},
+        "employeesRequired": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Installer staffing not specified in reviewed sources."},
+        "minFootprint": {"value": null, "source": "https://www.bumblebeeblinds.com/own-a-franchise", "year": 2025, "confidence": "medium", "note": "Home-based — no commercial footprint required at start."},
+        "totalUnits": {"value": 45, "source": "https://www.bumblebeeblinds.com/own-a-franchise", "year": 2025, "confidence": "high", "note": "45 franchisees open and operating across 155 protected territories as of Dec 31, 2024. CONFLICT: directory sources citing '105' or '151-153 locations' appear to count sold territories, not open units."},
+        "yearFounded": {"value": 2022, "source": "https://www.franchisechatter.com/2025/04/14/bumble-bee-blinds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": "Brand created Oct 2022 when HorsePower Brands (HPB Blinds and Shutters LLC) acquired and rebranded the 2015-founded Omaha Blinds and Shutters founder business; franchising began 2022."},
+        "yearFranchising": {"value": 2022, "source": "https://www.franchisechatter.com/2025/04/14/bumble-bee-blinds-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "First franchised units in 2022 (2 founder-owned)."},
+        "closureCount": {"value": null, "source": "https://www.frandb.com/franchise/bumble-bee-blinds/2025", "year": 2025, "confidence": "low", "note": "FranDB reports 14 terminations and 6 transfers in Item 20 (~9% churn) — single low-confidence source; recorded as flag, not verified count."},
+        "isGrowing": {"value": true, "source": "https://www.bumblebeeblinds.com/own-a-franchise", "year": 2025, "confidence": "medium", "note": "Rapid territory and unit growth (17 units YE2023 to 45 open YE2024); Entrepreneur Franchise 500 #266 (2026). Growth is real but accompanied by platform-level litigation risk — see riskFlags."}
+      },
+      "notes": "Parent company: HorsePower Brands (Omaha, NE) via HPB Blinds and Shutters LLC; sister brands include Mighty Dog Roofing, Blingle, iFOAM, Gatsby Glass, Heroes Lawn Care. Mobile/home-based window treatment sales and installation. The red flag concerns sister-brand and platform litigation — no Bumble Bee Blinds-specific franchisee lawsuit was found in reviewed sources."
+    },
+    {
+      "name": "Cabinet IQ",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Item 19 based almost entirely on two affiliate-owned Texas locations",
+          "detail": "2025 FDD Item 19 reports the affiliate-owned Cedar Park ($2.15M revenue, 17.2% adjusted profit) and Austin ($1.72M revenue, 23.6% adjusted profit) locations, plus one franchisee's 6-month stub period ($519K revenue). Franchised units (first opened 2024) have essentially no full-year disclosed results yet.",
+          "source": "Franchise Chatter",
+          "url": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Very young franchise system",
+          "detail": "Zero franchised units through 2023, then 15 franchised units opened in 2024 alongside 2 company/affiliate locations. Reported founding year varies (2021 per directory write-ups, but the Cedar Park affiliate was in 'Year 7' during 2024, implying ~2017-2018 origins for the founder business).",
+          "source": "Franchise Chatter",
+          "url": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 75000, "source": "https://www.franchisedirect.com/home-services-franchises/cabinet-iq/", "year": 2026, "confidence": "medium", "note": "$75,000 liquid capital, $200,000 minimum net worth."},
+        "totalInvestmentMin": {"value": 298350, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2025 FDD: $298,350-$454,750 for base territory with single showroom. Earlier FDDs were lower ($189K-$288K in 2023; $218K-$305K in 2024)."},
+        "totalInvestmentMax": {"value": 454750, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": ""},
+        "franchiseFee": {"value": 59500, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2025 FDD lists $53,550-$59,500 (lower end reflects discounts); standard fee $59,500."},
+        "royaltyPercent": {"value": 6, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "6% of Gross Sales, subject to minimum royalties from month 13."},
+        "adFundPercent": {"value": 1, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Brand fund currently 1% of gross sales (capped at 2%); separate local advertising requirement of greater of 4% or $4,500-$5,500/month minimums."},
+        "avgUnitRevenue": {"value": 1933004, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": "Arithmetic average of the two affiliate-owned locations' 2024 gross revenue ($2,145,793 Cedar Park + $1,720,215 Austin) disclosed in Item 19. NOT franchisee results — see riskFlags. One franchisee stub period: $519,265 over 6 months."},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": ""},
+        "fddAvailable": {"value": true, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2023-2025 FDDs analyzed by Franchise Chatter."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued 2023; no verified eligibility source found."},
+        "veteranDiscount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "No published veteran discount found in reviewed sources."},
+        "multiUnitAvailable": {"value": true, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": "Additional Territory pricing exists in FDD (e.g., +$1,000 local ad minimum per additional territory)."},
+        "exclusiveTerritories": {"value": true, "source": "https://cabinetiq.com/franchise/territories/", "year": 2026, "confidence": "medium", "note": "Territories include minimum 100,000 households within a 30-45 minute drive time."},
+        "ownerTypes": {"value": ["owner_operator", "semi_absentee"], "source": "https://cabinetiq.com/franchise/", "year": 2026, "confidence": "medium", "note": "Franchisor explicitly markets a semi-absentee path with a General Manager overseeing day-to-day."},
+        "canRunFromHome": {"value": false, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Requires a retail showroom."},
+        "canRunPartTime": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Not addressed in reviewed sources."},
+        "absenteeOwnership": {"value": false, "source": "https://cabinetiq.com/franchise/", "year": 2026, "confidence": "low", "note": "Semi-absentee with GM is marketed; full absentee not offered in reviewed sources."},
+        "trainingWeeks": {"value": null, "source": "https://americasbestfranchises.com/franchises/cabinet-iq/", "year": 2026, "confidence": "low", "note": "Three-stage training: 98 classroom hours + 40 on-the-job hours; weeks figure not stated."},
+        "ongoingSupport": {"value": ["three-stage initial training (98 classroom hrs + 40 OTJ hrs)", "design and installation systems/technology", "ongoing operations coaching"], "source": "https://americasbestfranchises.com/franchises/cabinet-iq/", "year": 2026, "confidence": "low", "note": ""},
+        "marketingSupport": {"value": ["brand fund (currently 1%)", "structured local advertising program (4% or $4,500+/mo)", "grand opening marketing"], "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": ""},
+        "employeesRequired": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Showroom staff/installers needed; required count not verified."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Showroom square footage not verified in public sources."},
+        "totalUnits": {"value": 17, "source": "https://www.vettedbiz.com/franchises/cabinet-iq/", "year": 2025, "confidence": "medium", "note": "17 total in 2025 (15 franchised + 2 company/affiliate-owned)."},
+        "yearFounded": {"value": 2021, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "low", "note": "Directory write-ups cite 2021 (Michael Hartel, Austin TX). CONFLICT: Item 19 describes the Cedar Park affiliate in 'Year 7' during 2024, implying founder business dates to ~2017-2018."},
+        "yearFranchising": {"value": 2022, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": "Began franchising 2022; first franchised openings 2024."},
+        "closureCount": {"value": 0, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": "No closures in 2022-2024 unit tables (system too young to read much into this)."},
+        "isGrowing": {"value": true, "source": "https://www.franchisechatter.com/2025/09/21/cabinet-iq-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "0 to 15 franchised units in 2024."}
+      },
+      "notes": "Independent franchisor founded by Michael Hartel (Austin, TX) — no platform parent identified. Showroom-based kitchen cabinet/countertop design and installation. Investment range has risen materially across FDD years ($189K-$288K in 2023 to $298K-$455K in 2025)."
+    },
+    {
+      "name": "Designery, The",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Parent HomeFront Brands facing reported franchisee turmoil",
+          "detail": "A December 2025 Unhappy Franchisee guest post reports system-wide franchisee discontent across HomeFront Brands (Top Rail Fence, The Designery, Temporary Wall Systems, Window Hero): delayed support, pressure to sign updated agreements, a rising number of resales (including 2 Designery territories listed for sale), stalled sibling concepts, and heavy convention no-shows. No lawsuits documented in the piece.",
+          "source": "Unhappy Franchisee",
+          "url": "https://unhappyfranchisee.com/homefront-brands-franchise-turmoil/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Unit counts vary wildly across sources (territories vs open units)",
+          "detail": "2024 FDD-derived count was 21 units; the 2025 FDD reportedly lists 73 franchised locations; Entrepreneur lists 117 units with a '+3,800%' growth rate. The spread strongly suggests sold-territory counts are being reported as open units in some channels.",
+          "source": "Vetted Biz / Franchise Chatter / Entrepreneur (conflict)",
+          "url": "https://www.entrepreneur.com/franchises/directory/designery-the/336865",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Item 19 historically based on affiliate-owned locations",
+          "detail": "The 2023 FDD's widely cited $2.17M average sales figure derives from affiliate-owned predecessor locations (A1 Kitchen & Bath), not franchisee results; most franchisees opened 2023 or later.",
+          "source": "Franchise Chatter",
+          "url": "https://www.franchisechatter.com/2023/12/01/fdd-talk-the-designery-franchise-costs-fees-average-revenues-and-or-profits-2023-review/",
+          "year": 2023
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 250000, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "low", "note": "Entrepreneur cash requirement $250,000 (net worth $500,000). CONFLICT: Franchise Gator and other directories list $100,000 liquid / $200,000 net worth."},
+        "totalInvestmentMin": {"value": 185439, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "medium", "note": "Entrepreneur (2026): $185,439-$420,439. CONFLICT: FranchisePayback (2026) lists $156,089-$387,089; 2023 FDD listed $134K-$272K (Franchise Chatter) and $156,089-$387,089 appears in the 2024 FDD."},
+        "totalInvestmentMax": {"value": 420439, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "medium", "note": ""},
+        "franchiseFee": {"value": 54900, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists $54,900-$68,900. CONFLICT: FranchisePayback (2026) lists $59,900-$73,900; 2023 FDD payments-to-franchisor were $59,900-$73,900."},
+        "royaltyPercent": {"value": 7, "source": "https://www.franchisechatter.com/2023/12/01/fdd-talk-the-designery-franchise-costs-fees-average-revenues-and-or-profits-2023-review/", "year": 2023, "confidence": "high", "note": "Tiered: 7% on gross revenue up to $75K/mo, 6% on $75K-$150K, 5% above $150K. Entrepreneur summarizes as 5%-7%."},
+        "adFundPercent": {"value": 2, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "low", "note": "Entrepreneur lists 2% ad royalty. CONFLICT: 2023 FDD-derived sources list a 1% marketing fee."},
+        "avgUnitRevenue": {"value": 2170000, "source": "https://www.franchisechatter.com/2023/12/01/fdd-talk-the-designery-franchise-costs-fees-average-revenues-and-or-profits-2023-review/", "year": 2023, "confidence": "low", "note": "$2.17M average sales from 2023 FDD Item 19, based on AFFILIATE-OWNED locations, not franchisees. No verified franchisee-based AUV found in newer FDD coverage. Treat as upper-bound marketing figure."},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2023/12/01/fdd-talk-the-designery-franchise-costs-fees-average-revenues-and-or-profits-2023-review/", "year": 2023, "confidence": "high", "note": "Item 19 present but affiliate-based (see riskFlags)."},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/the-designery-2024-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high", "note": "2023 and 2024 FDDs publicly indexed."},
+        "sbaApproved": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "SBA Franchise Directory discontinued 2023; no verified eligibility source found."},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "medium", "note": "$5,000 off franchise fee for veterans."},
+        "multiUnitAvailable": {"value": true, "source": "https://homefrontbrands.com/brands/the-designery/", "year": 2026, "confidence": "low", "note": "HomeFront Brands sells multi-territory packages across its portfolio; Designery-specific terms not verified."},
+        "exclusiveTerritories": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "medium", "note": "Exclusive territories = Yes per Entrepreneur."},
+        "ownerTypes": {"value": ["owner_operator", "semi_absentee", "absentee"], "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "low", "note": "Entrepreneur lists absentee ownership allowed = Yes; given showroom model, treat absentee claim cautiously."},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "medium", "note": "Home/mobile operation = No; showroom/design-center based."},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "medium", "note": "Part-time = No per Entrepreneur."},
+        "absenteeOwnership": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "low", "note": "Per Entrepreneur listing; not corroborated elsewhere."},
+        "trainingWeeks": {"value": null, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "low", "note": "21 classroom hours + 20 on-the-job hours per Entrepreneur; weeks figure not verified."},
+        "ongoingSupport": {"value": ["initial training (classroom + on-the-job)", "HomeFront Brands shared services platform", "technology stack ($599/mo tech fee)", "design/quoting tools"], "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "low", "note": ""},
+        "marketingSupport": {"value": ["brand/ad fund (1%-2%, sources conflict)", "local marketing programs via HomeFront Brands"], "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "low", "note": ""},
+        "employeesRequired": {"value": 0, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "low", "note": "Entrepreneur lists 0 employees required to run; practical operation typically requires design/sales staff."},
+        "minFootprint": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Showroom/design-center square footage not verified."},
+        "totalUnits": {"value": 73, "source": "https://www.vettedbiz.com/franchises/the-designery/", "year": 2025, "confidence": "low", "note": "73 franchised US locations per 2025 FDD-derived reporting. CONFLICT: 2024 FDD showed 21 units; Entrepreneur (2026) lists 117. Spread likely reflects sold territories vs open units — see riskFlags."},
+        "yearFounded": {"value": 2007, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "medium", "note": "Predecessor business (A1 Kitchen & Bath) founded 2007; The Designery brand/franchise concept launched 2021 and joined HomeFront Brands 2022."},
+        "yearFranchising": {"value": 2021, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "high", "note": "Franchising since 2021 (franchisor entity: A1 Kitchen & Bath Franchising, LLC)."},
+        "closureCount": {"value": null, "source": "unverified", "year": 2026, "confidence": "low", "note": "Item 20 closure data not found; note rising resale listings per Unhappy Franchisee (Dec 2025)."},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/designery-the/336865", "year": 2026, "confidence": "low", "note": "Unit/territory counts rising rapidly (ranked #44 Fastest-Growing 2026), but franchisee-health signals are mixed — see riskFlags."}
+      },
+      "notes": "Parent company: HomeFront Brands (Charlotte/Huntersville, NC) — portfolio includes Top Rail Fence, Window Hero, Temporary Wall Systems. Kitchen/bath/closet design-and-install with showroom. Vetted Biz page for this brand contained cross-brand data contamination (restaurant content, $488K-$2.9M investment range) and was discounted. Primary data caveat: territories-sold vs open-units inflation and parent-level franchisee discontent."
+    }
+  ]
+}
