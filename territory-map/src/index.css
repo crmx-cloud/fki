@@ -714,6 +714,15 @@
   50%      { box-shadow: 0 0 0 3px rgba(34, 211, 238, 0.12), 0 0 28px -4px rgba(34, 211, 238, 0.75); }
 }
 .enhance-pulse { animation: enhance-pulse-glow 2.4s ease-in-out infinite; }
+
+/* Caret nudges down so the card reads as "expand me", not just a banner */
+@keyframes enhance-caret-nudge {
+  0%, 60%, 100% { transform: translateY(0); }
+  30%           { transform: translateY(3px); }
+}
+.enhance-caret-bounce { animation: enhance-caret-nudge 2.4s ease-in-out infinite; }
+
 @media (prefers-reduced-motion: reduce) {
   .enhance-pulse { animation: none; box-shadow: 0 0 18px -6px rgba(34, 211, 238, 0.5); }
+  .enhance-caret-bounce { animation: none; }
 }

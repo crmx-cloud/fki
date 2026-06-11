@@ -23,6 +23,7 @@ import {
   Save,
   User,
   ShieldCheck,
+  ChevronDown,
 } from "lucide-react";
 
 /* ── Shared constants (must match convex/prospect.ts) ── */
@@ -558,13 +559,32 @@ export function ProspectProfilePage() {
             setShowEnhanced(true);
             setTimeout(() => document.getElementById("enhance-section")?.scrollIntoView({ behavior: "smooth", block: "start" }), 60);
           }}
-          className="enhance-pulse w-full bg-gradient-to-r from-cyan-500/15 to-blue-500/15 border border-cyan-400/40 rounded-xl p-5 text-center hover:from-cyan-500/25 hover:to-blue-500/25 transition-all"
+          className="enhance-pulse group w-full bg-gradient-to-r from-cyan-500/15 to-blue-500/15 border border-cyan-400/40 rounded-xl p-5 text-left hover:from-cyan-500/25 hover:to-blue-500/25 transition-all"
         >
-          <Sparkles className="w-5 h-5 text-cyan-400 inline mr-2" />
-          <span className="text-base font-bold text-cyan-300">Enhance My Matches</span>
-          <p className="text-xs text-muted-foreground mt-1">
-            2 more minutes of questions = dramatically sharper matches — investment goals, lifestyle, must-haves, and more
-          </p>
+          <div className="flex items-center gap-4">
+            <div className="w-10 h-10 shrink-0 rounded-xl bg-cyan-500/15 flex items-center justify-center">
+              <Sparkles className="w-5 h-5 text-cyan-400" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2 flex-wrap">
+                <h2 className="text-lg font-bold text-cyan-300">Enhance My Matches</h2>
+                {enhancedRemaining > 0 && (
+                  <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-400/40">
+                    {enhancedRemaining} question{enhancedRemaining === 1 ? "" : "s"} left
+                  </span>
+                )}
+              </div>
+              <p className="text-xs text-muted-foreground mt-0.5">
+                2 more minutes of questions = dramatically sharper matches — investment goals, lifestyle, must-haves, and more
+              </p>
+            </div>
+            <div className="shrink-0 flex flex-col items-center gap-1">
+              <div className="w-9 h-9 rounded-full border border-cyan-400/50 bg-cyan-500/15 flex items-center justify-center group-hover:bg-cyan-500/30 transition-colors">
+                <ChevronDown className="w-5 h-5 text-cyan-300 enhance-caret-bounce" />
+              </div>
+              <span className="text-[10px] font-semibold uppercase tracking-wide text-cyan-400/80">Expand</span>
+            </div>
+          </div>
         </button>
       )}
 
