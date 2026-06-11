@@ -42,7 +42,7 @@ export const normalizeVideoUrls = internalMutation({
 
 /** QA: create a TEST lead assigned to a user (broker-visibility testing). */
 export const createTestLeadAssigned = internalMutation({
-  args: { assigneeEmail: v.string(), brandName: v.string() },
+  args: { assigneeEmail: v.string(), brandName: v.string(), leadEmail: v.optional(v.string()) },
   handler: async (ctx, args) => {
     const users = await ctx.db.query("users").collect();
     const user = users.find((u: any) => u.email?.toLowerCase() === args.assigneeEmail.toLowerCase());
@@ -55,7 +55,7 @@ export const createTestLeadAssigned = internalMutation({
       brandId: brand._id,
       firstName: "BROKER TEST",
       lastName: "Lead",
-      email: "broker.test.lead@franchiseki.com",
+      email: args.leadEmail ?? "broker.test.lead@franchiseki.com",
       stage: "new_lead",
       salesRepId: user._id,
       source: "qa-test",

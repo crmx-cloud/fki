@@ -200,6 +200,8 @@ export const saveProfile = mutation({
 
     if (existing) {
       await ctx.db.patch(existing._id, data);
+      // Keep the consultant's AI brief in sync with the latest profile
+      await ctx.scheduler.runAfter(0, internal.prospectBrief.generateForUser, { userId });
       return existing._id;
     } else {
       const profileId = await ctx.db.insert("prospectProfiles", {
@@ -221,6 +223,7 @@ export const saveProfile = mutation({
         leadKind: "prospect_signup",
         notes: args.timeline ? `Timeline: ${args.timeline}` : undefined,
       });
+      await ctx.scheduler.runAfter(0, internal.prospectBrief.generateForUser, { userId });
 
       return profileId;
     }
@@ -1044,6 +1047,35 @@ export function scoreBrandForProspect(opts: {
       return affinities.some((a) => catLower.includes(a));
     });
     if (hasAffinity) psychScore += 1;
+  }
+
+  // Lifestyle priorities (0–1) — day-to-day "what matters most" alignment
+  if (prospect.lifestylePriorities?.length) {
+    let lifestyleHit = false;
+    for (const pr of prospect.lifestylePriorities) {
+      switch (pr) {
+        case "flexibility":
+          if (fp?.canRunFromHome || fp?.canRunPartTime || fp?.absenteeOwnership) lifestyleHit = true;
+          break;
+        case "high_earning":
+          if (auv > 750_000 || fp?.multiUnitAvailable) lifestyleHit = true;
+          break;
+        case "community":
+          if (brand.category?.match(/service|education|health|pets|child/i)) lifestyleHit = true;
+          break;
+        case "health_wellness":
+          if (brand.category?.match(/health|fitness|wellness|beauty/i)) lifestyleHit = true;
+          break;
+        case "creativity":
+          if (brand.category?.match(/food|entertainment|beauty|retail/i)) lifestyleHit = true;
+          break;
+        case "predictable_routine":
+          if ((fp?.totalUnits || 0) >= 100 || (fp?.trainingWeeks || 0) >= 2) lifestyleHit = true;
+          break;
+      }
+      if (lifestyleHit) break;
+    }
+    if (lifestyleHit) psychScore += 1;
   }
 
   score += Math.min(5, psychScore);

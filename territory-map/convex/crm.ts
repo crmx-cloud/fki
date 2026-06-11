@@ -598,6 +598,11 @@ export const createLeadFromProspect = mutation({
 
     // Sync to CRMX (GoHighLevel FKI sub-account) — fail-soft, never blocks the lead
     const inquiryBrand = await ctx.db.get(args.brandId);
+    // Generate the consultant AI brief now that a lead exists for this prospect
+    const briefUserId = await getAuthUserId(ctx);
+    if (briefUserId) {
+      await ctx.scheduler.runAfter(0, internal.prospectBrief.generateForUser, { userId: briefUserId });
+    }
     await ctx.scheduler.runAfter(0, internal.crmxPush.pushLeadToCRMX, {
       firstName: args.firstName,
       lastName: args.lastName,

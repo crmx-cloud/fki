@@ -190,3 +190,4 @@ export const allStateAvailability = query({
   args: {},
   handler: async (ctx) => await ctx.db.query("stateAvailability").collect(),
 });
+

@@ -503,6 +503,24 @@ export function ProspectProfilePage() {
         </div>
       </div>
 
+      {/* ════ ENHANCE MY MATCHES — prominent, pulsing (crucial for match quality) ════ */}
+      {!showEnhanced && (
+        <button
+          type="button"
+          onClick={() => {
+            setShowEnhanced(true);
+            setTimeout(() => document.getElementById("enhance-section")?.scrollIntoView({ behavior: "smooth", block: "start" }), 60);
+          }}
+          className="enhance-pulse w-full bg-gradient-to-r from-cyan-500/15 to-blue-500/15 border border-cyan-400/40 rounded-xl p-5 text-center hover:from-cyan-500/25 hover:to-blue-500/25 transition-all"
+        >
+          <Sparkles className="w-5 h-5 text-cyan-400 inline mr-2" />
+          <span className="text-base font-bold text-cyan-300">Enhance My Matches</span>
+          <p className="text-xs text-muted-foreground mt-1">
+            2 more minutes of questions = dramatically sharper matches — investment goals, lifestyle, must-haves, and more
+          </p>
+        </button>
+      )}
+
       {/* Section 1: Financial */}
       <div className="bg-card border border-border rounded-xl p-6 space-y-5">
         <div className="flex items-center gap-3 mb-1">
@@ -639,21 +657,8 @@ export function ProspectProfilePage() {
         </Select>
       </div>
 
-      {/* ════ ENHANCE MY MATCHES ═══════════════════════════════════════ */}
-      {!showEnhanced && (
-        <button
-          type="button"
-          onClick={() => setShowEnhanced(true)}
-          className="w-full bg-gradient-to-r from-cyan-500/10 to-blue-500/10 border border-cyan-500/20 rounded-xl p-5 text-center hover:from-cyan-500/20 hover:to-blue-500/20 transition-all"
-        >
-          <Sparkles className="w-5 h-5 text-cyan-400 inline mr-2" />
-          <span className="text-sm font-semibold text-cyan-300">Enhance My Matches</span>
-          <p className="text-xs text-muted-foreground mt-1">
-            Answer more questions to unlock truly personalized franchise recommendations
-          </p>
-        </button>
-      )}
-
+      {/* ════ ENHANCE MY MATCHES (expanded content) ════════════════════ */}
+      <div id="enhance-section" />
       {showEnhanced && (
         <>
           <div className="border-t border-border pt-4">
