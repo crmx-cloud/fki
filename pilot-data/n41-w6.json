@@ -1,0 +1,379 @@
+{
+  "brands": [
+    {
+      "name": "Phenix Salon Suites",
+      "slug": "phenix-salon-suites",
+      "category": "Beauty & Self Care",
+      "website": "phenixsalonsuites.com",
+      "notes": "Salon-suite leasing concept (franchisees rent suites to independent beauty professionals); semi-absentee B2B model with 0-1 employees and no inventory. Royalty and ad fund are charged per square foot ($0.34/sq.ft. and $0.06/sq.ft. monthly) rather than as a percent of revenue, so royaltyPercent/adFundPercent are intentionally omitted.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Litigation history disclosed in FDD",
+          "detail": "Vetted Biz's FDD review notes Phenix Salon Suites discloses lawsuits and/or bankruptcy information in its Franchise Disclosure Document; prospective buyers should review Item 3 details. No major active franchisee litigation surfaced in public searches.",
+          "source": "Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/phenix-salon-suites",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "High investment relative to revenue",
+          "detail": "Initial investment of $721K-$1.42M against a median reported unit gross revenue of roughly $426K; the model's economics rest on long-term suite-rental margins rather than top-line volume, so payback math differs from typical salon concepts.",
+          "source": "Franchise Investor Data (2025 FDD summary)",
+          "url": "https://franchiseinvestordata.com/franchise/phenix-salon-suites",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        {"state": "AK", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "AL", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "AR", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "AZ", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "CA", "status": "open", "note": "Limited - Orange County only", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "CO", "status": "open", "note": "Limited - Denver only", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "CT", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "DC", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "DE", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "FL", "status": "open", "note": "Limited - Southeast Florida (south of West Palm Beach) only", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "GA", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "HI", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "IA", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "ID", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "IL", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "IN", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "KS", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "KY", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "LA", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "MA", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "MD", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "ME", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "MI", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "MN", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "MO", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "MS", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "MT", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "NC", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "ND", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "NE", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "NH", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "NJ", "status": "open", "note": "Limited - Northern New Jersey only", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "NM", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "NY", "status": "open", "note": "Limited - Long Island only", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "OH", "status": "open", "note": "Limited - Columbus only", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "OK", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "OR", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "PA", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "RI", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "SC", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "SD", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "TN", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "TX", "status": "open", "note": "Limited - Dallas-Fort Worth only", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "UT", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "VA", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "VT", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "WA", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "WI", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "WV", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026},
+        {"state": "WY", "status": "open", "note": "Listed as available market", "source": "Phenix Salon Suites Franchising - US Territories", "url": "https://phenixsalonsuitesfranchising.com/territories/united-states/", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 300000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 721309, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1420469, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 52500, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Standard single-unit fee; reduced to $40,500 for a second unit under multi-unit agreements"},
+        "avgUnitRevenue": {"value": 426000, "source": "Franchise Investor Data summary of 2025 FDD Item 19 (https://franchiseinvestordata.com/franchise/phenix-salon-suites)", "year": 2025, "confidence": "medium", "note": "Median gross revenue of 134 reporting franchised locations per Item 19 of the 2025 FDD; top quartile ~$550K, bottom quartile ~$310K"},
+        "totalUnits": {"value": 421, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Franchisor reports 425+ locations including international (UK)"},
+        "yearFounded": {"value": 2007, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2010, "source": "Entrepreneur Franchise 500 directory (https://www.entrepreneur.com/franchises/directory/phenix-salon-suites/333857)", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 2010; franchisor PR and franchising.com cite 2012"},
+        "employeesRequired": {"value": 1, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "0-1 employees; suite renters are independent professionals, not staff"},
+        "minFootprint": {"value": 3500, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Typical build-out 3,500-7,500 sq ft accommodating up to 47 suites"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Phenix Salon Suites 2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Investor Data summary of 2025 FDD Item 19", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "$17,500 off franchise fee"},
+        "multiUnitAvailable": {"value": true, "source": "Franchise Chatter 2025 review (2024-2025 FDD)", "year": 2025, "confidence": "high", "note": "Discounted fees for second and subsequent units"},
+        "exclusiveTerritories": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory (+22.7% unit growth)", "year": 2026, "confidence": "high"},
+        "ownerTypes": {"value": ["semi-absentee", "owner-operator"], "source": "Franchising.com Phenix Salon Suites franchise profile", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "The Lash Lounge",
+      "slug": "the-lash-lounge",
+      "category": "Beauty & Self Care",
+      "website": "thelashlounge.com",
+      "notes": "Eyelash-extension salon franchise founded in Dallas; sold by Franworth to The Riverside Company in March 2024 as the anchor of Riverside's boutique beauty platform. Actively selling franchises in all US states per its franchise site.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisor negative equity disclosed as special risk",
+          "detail": "The franchisor reported a members' deficit (negative equity) of $3,055,433 and negative working capital of roughly $2.73M as of December 31, 2023, and its FDD flags this as a special risk that calls into question its financial ability to support franchisees.",
+          "source": "FranPass FDD analysis of The Lash Lounge",
+          "url": "https://franpass.com/franchise/the-lash-lounge",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Settled franchisee arbitration claims (2019-2020)",
+          "detail": "Four litigation matters stemmed from arbitration claims filed by franchisees against predecessor The Lash Lounge Franchise, LLC in 2019, alleging misrepresented construction and pre-opening training costs and fraudulent misrepresentation; all settled in early 2020.",
+          "source": "FranPass FDD analysis of The Lash Lounge",
+          "url": "https://franpass.com/franchise/the-lash-lounge",
+          "year": 2020
+        },
+        {
+          "severity": "info",
+          "title": "Ownership change in 2024",
+          "detail": "Franworth sold The Lash Lounge to The Riverside Company in March 2024 in a recapitalization/restructuring; new ownership may change support, fees, and strategy versus historical FDDs.",
+          "source": "PR Newswire / Franchise Times",
+          "url": "https://www.prnewswire.com/news-releases/franworth-sells-the-lash-lounge-recapitalizes-and-restructures-302093255.html",
+          "year": 2024
+        }
+      ],
+      "nationwide": {
+        "source": "The Lash Lounge franchise site: 'growing quickly across the country, offering amazing opportunities in all states'",
+        "url": "https://franchise.thelashlounge.com/",
+        "year": 2026,
+        "note": "Franchisor advertises availability in all US states"
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "The Lash Lounge franchise site and Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 269063, "source": "The Lash Lounge franchise site (franchise.thelashlounge.com)", "year": 2026, "confidence": "medium", "note": "Franchisor-published range $269,063-$790,080; Entrepreneur's 2026 directory lists $363,098-$702,084"},
+        "totalInvestmentMax": {"value": 790080, "source": "The Lash Lounge franchise site (franchise.thelashlounge.com)", "year": 2026, "confidence": "medium", "note": "Franchisor-published range $269,063-$790,080; Entrepreneur's 2026 directory lists $363,098-$702,084"},
+        "franchiseFee": {"value": 60000, "source": "Entrepreneur Franchise 500 directory (https://www.entrepreneur.com/franchises/directory/lash-lounge-the/334187)", "year": 2026, "confidence": "medium", "note": "Earlier FDDs (through ~2024) listed $50,000"},
+        "royaltyPercent": {"value": 6, "source": "The Lash Lounge franchise site and Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Minimum royalty of $250/week applies after second year of operation"},
+        "adFundPercent": {"value": 2, "source": "The Lash Lounge franchise site and Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Plus required local advertising spend (~$1,500-$2,000/month in year one per 2025 FDD summaries)"},
+        "avgUnitRevenue": {"value": 658000, "source": "Franchise Chatter FDD Talk 2024 review of The Lash Lounge (https://www.franchisechatter.com/2024/06/10/fdd-talk-the-lash-lounge-franchise-costs-fees-average-revenues-and-or-profits-2024-review/)", "year": 2024, "confidence": "medium", "note": "Average gross sales of franchised salons for calendar 2023 per Item 19 of the 2024 FDD; 2025 FDD discloses 2024 revenue for 121 salons by quartile"},
+        "totalUnits": {"value": 123, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFounded": {"value": 2006, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2010, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "employeesRequired": {"value": 6, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "6-12 employees"},
+        "fddAvailable": {"value": true, "source": "Research and Markets - The Lash Lounge Franchise Disclosure Document", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 review (2025 FDD Item 19 includes 2024 revenue by quartile for 121 salons)", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "$2,500 off franchise fee or $10,000 off development fee"},
+        "multiUnitAvailable": {"value": true, "source": "Entrepreneur Franchise 500 directory (multi-unit development fee incentive disclosed)", "year": 2026, "confidence": "medium"},
+        "exclusiveTerritories": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory (+13.9% unit growth)", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Scissors & Scotch",
+      "slug": "scissors-scotch",
+      "category": "Beauty & Self Care",
+      "website": "scissorsscotch.com",
+      "notes": "Upscale men's grooming franchise (barbershop + spa amenities + private bar/lounge) founded in Omaha in 2015. Young but fast-growing system actively seeking franchise partners nationwide.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Young, small franchise system",
+          "detail": "Franchising only since 2017 with roughly 33 open units; limited operating history versus mature grooming brands, though no lawsuits or bankruptcy are disclosed in its FDD per Vetted Biz's review.",
+          "source": "Vetted Biz FDD review; Entrepreneur Franchise 500 directory",
+          "url": "https://www.vettedbiz.com/franchises/scissors-scotch",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "High investment and staffing needs for the category",
+          "detail": "Initial investment of $631,800-$845,250 with 10-25 employees required is at the high end for hair-care franchises, reflecting the built-in bar/lounge component (which also entails local liquor licensing).",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/scissors-scotch/335362",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Scissors & Scotch franchise site: 'looking to expand nationwide, and are seeking business partners to join us'",
+        "url": "https://franchise.scissorsscotch.com/",
+        "year": 2026,
+        "note": "Franchisor states nationwide US expansion intent; no excluded states published"
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 200000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Some franchisor materials cite $300,000 liquid"},
+        "totalInvestmentMin": {"value": 631800, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 845250, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "Entrepreneur Franchise 500 directory; Sharpsheets FDD summary", "year": 2026, "confidence": "high", "note": "$40,000 for second unit and $20,000 for each additional under multi-unit agreements"},
+        "royaltyPercent": {"value": 4, "source": "Entrepreneur Franchise 500 directory; Vetted Biz FDD review", "year": 2026, "confidence": "medium", "note": "Tiered royalty of 4%-6.5% of gross sales, rising with sales volume; 4% is the starting/base tier"},
+        "adFundPercent": {"value": 2, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "avgUnitRevenue": {"value": 967630, "source": "Sharpsheets Scissors & Scotch FDD analysis (https://sharpsheets.io/blog/scissors-scotch-barbershop-franchise-fdd-profits-costs/)", "year": 2025, "confidence": "medium", "note": "Average annual gross sales per location derived from FDD Item 19"},
+        "totalUnits": {"value": 33, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFounded": {"value": 2015, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2017, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "employeesRequired": {"value": 10, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "10-25 employees to operate"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Scissors & Scotch FDD on file)", "year": 2023, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Sharpsheets FDD analysis (Item 19 gross sales disclosed)", "year": 2025, "confidence": "medium"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "$5,000 off franchise fee"},
+        "multiUnitAvailable": {"value": true, "source": "Sharpsheets FDD summary (multi-unit agreement fee schedule)", "year": 2025, "confidence": "high"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory (+135.7% unit growth)", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Minuteman Press",
+      "slug": "minuteman-press",
+      "category": "Services",
+      "website": "minutemanpress.com",
+      "notes": "B2B print, design and marketing-services franchise operating since 1973 with 1,000+ locations in 5 countries; ranked #1 in Entrepreneur's Printing/Marketing Services category for 20+ consecutive years. Distinctive royalty cap: 6% royalties apply only up to a fixed monthly sales level, with no ad fund fee.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Landmark 1998 FTC judgment for deceptive earnings claims",
+          "detail": "After a six-month trial, the US District Court (E.D.N.Y.) found Minuteman Press International, affiliate Speedy Sign-A-Rama, and officers including chairman Roy Titus liable for false and unsubstantiated earnings and profit claims made to prospective franchisees (FTC v. Minuteman Press, 53 F. Supp. 2d 248). Decades old, but a landmark franchise-disclosure case tied to this franchisor.",
+          "source": "Federal Trade Commission press release / Justia",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/1998/10/ftc-wins-landmark-case-against-national-franchisor",
+          "year": 1998
+        },
+        {
+          "severity": "caution",
+          "title": "Ongoing franchisee complaints documented",
+          "detail": "Unhappy Franchisee maintains a long-running Minuteman Press complaint thread where former and current franchisees allege issues including equipment leasing costs and disputes over resale/transfer; individual claims are unverified but the volume is notable.",
+          "source": "UnhappyFranchisee.com",
+          "url": "https://unhappyfranchisee.com/minuteman-press-franchise-complaints/",
+          "year": 2024
+        }
+      ],
+      "nationwide": {
+        "source": "Minuteman Press franchise FAQ: 'Select areas are available across the U.S.' plus international markets",
+        "url": "https://minutemanpressfranchise.com/faq/",
+        "year": 2026,
+        "note": "Sells across the US, though specific territories are subject to availability"
+      },
+      "fields": {
+        "totalInvestmentMin": {"value": 81991, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Lower end reflects equipment leasing; buying equipment outright raises the range (~$161K-$221K per Vetted Biz)"},
+        "totalInvestmentMax": {"value": 221089, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 35000, "source": "Entrepreneur Franchise 500 directory; Vetted Biz FDD review", "year": 2026, "confidence": "medium", "note": "Fee ranges $35,000-$48,500 depending on market/territory; $35,000 is the low end of the standard new-franchisee range"},
+        "royaltyPercent": {"value": 6, "source": "Minuteman Press franchise FAQ; Vetted Biz FDD review", "year": 2026, "confidence": "high", "note": "6% of gross monthly sales, capped at a fixed monthly sales level - no royalties on sales above the cap"},
+        "adFundPercent": {"value": 0, "source": "Entrepreneur Franchise 500 directory; Vetted Biz FDD review (no national ad fund fee)", "year": 2026, "confidence": "high"},
+        "avgUnitRevenue": {"value": 766202, "source": "Vetted Biz Minuteman Press FDD review (https://www.vettedbiz.com/franchises/minuteman-press)", "year": 2025, "confidence": "medium", "note": "Average 2024 gross sales of US franchised centers per FDD Item 19; gross revenue, not profit"},
+        "totalUnits": {"value": 1028, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "All franchised; operates in US, Canada, UK, Australia, South Africa"},
+        "yearFounded": {"value": 1973, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1975, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "employeesRequired": {"value": 3, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "minFootprint": {"value": 1000, "source": "Minuteman Press franchise FAQ (typical new center ~1,000 sq ft)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Minuteman Press FDD on file)", "year": 2024, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz FDD review (Item 19 average gross sales disclosed)", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Minuteman Press franchise FAQ", "year": 2026, "confidence": "high", "note": "$10,000 off licensing fee for new locations; $5,000 off existing locations"},
+        "exclusiveTerritories": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": false, "source": "Minuteman Press franchise FAQ; Entrepreneur directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory (+6.3% unit growth); ASI: topped 1,000 locations and $630M system sales in 2024", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Liberty Tax",
+      "slug": "liberty-tax",
+      "category": "Services",
+      "website": "libertytax.com",
+      "notes": "Retail income-tax preparation franchise founded by John Hewitt in 1997; one of the largest US tax-prep franchises but the system has contracted significantly and its parent (NextPoint Financial) went through bankruptcy in 2023. Low entry cost but the 14% royalty plus 5% advertising fee is among the highest combined fee loads in franchising.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Parent company bankruptcy (2023)",
+          "detail": "Parent NextPoint Financial Inc. filed CCAA proceedings in Canada and Chapter 15 in Delaware in July 2023 with ~$284M in debt; its assets, including Liberty Tax, were sold to lender groups under court supervision. Franchised locations were not part of the proceedings, but ownership and capital structure changed via distressed sale.",
+          "source": "Accounting Today",
+          "url": "https://www.accountingtoday.com/news/liberty-tax-parent-restructures-after-bankruptcy",
+          "year": 2023
+        },
+        {
+          "severity": "red",
+          "title": "DOJ tax-fraud enforcement against franchisees and 2019 consent settlement",
+          "detail": "Between 2013 and 2018 the DOJ filed 10 civil enforcement actions against Liberty Tax franchisees (including 'Elite 18' operators) for fabricating income, dependents, and credits on customer returns; ~70% of 28,000 IRS audits of Liberty customer returns (TY2012-2017) required corrections. A 2019 DOJ settlement imposed compliance obligations and barred founder/ex-CEO John Hewitt from the business.",
+          "source": "US Department of Justice",
+          "url": "https://www.justice.gov/archives/opa/pr/justice-department-announces-settlement-liberty-tax-service",
+          "year": 2019
+        },
+        {
+          "severity": "caution",
+          "title": "System contraction",
+          "detail": "Entrepreneur's 2026 directory shows 1,969 units with a -24% unit-count trend, down from ~2,500+ locations historically; the company closed dozens of offices during the 2017-2019 fraud fallout and the network has kept shrinking.",
+          "source": "Entrepreneur Franchise 500 directory; Franchise Times",
+          "url": "https://www.entrepreneur.com/franchises/directory/liberty-tax-service/282901",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "High ongoing fees vs industry norms",
+          "detail": "14% royalty on gross receipts (with annual minimums from year two) plus a 5% advertising fee is a 19% combined fee load - far above the 6-10% typical for service franchises - on a relatively low average unit volume (~$132K).",
+          "source": "Liberty Tax franchise investment page; Sharpsheets FDD analysis",
+          "url": "https://www.libertytaxfranchise.com/investment-information",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Liberty Tax franchise investment page: franchises sold to residents of any jurisdiction where registration/filing requirements are met",
+        "url": "https://www.libertytaxfranchise.com/investment-information",
+        "year": 2026,
+        "note": "Actively recruiting US-wide, subject to state franchise registration"
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 49970, "source": "Liberty Tax franchise investment page; Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 71400, "source": "Liberty Tax franchise investment page; Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "Liberty Tax franchise investment page (https://www.libertytaxfranchise.com/investment-information)", "year": 2026, "confidence": "high", "note": "Current published fee; FDD summaries from 2024-2025 listed $40,000"},
+        "royaltyPercent": {"value": 14, "source": "Liberty Tax franchise investment page; Sharpsheets FDD analysis", "year": 2026, "confidence": "high", "note": "14% of gross receipts with annual minimums ($5K year 2, $8K year 3, $11K year 4+)"},
+        "adFundPercent": {"value": 5, "source": "Liberty Tax franchise investment page", "year": 2026, "confidence": "high"},
+        "avgUnitRevenue": {"value": 132000, "source": "Sharpsheets Liberty Tax Service FDD analysis (https://sharpsheets.io/blog/liberty-tax-service-franchise-fdd-profits-costs/)", "year": 2025, "confidence": "medium", "note": "Average annual revenue (AUV) per franchised office derived from FDD data; highly seasonal tax-season business"},
+        "totalUnits": {"value": 1969, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Other directories cite ~2,090-2,500 depending on date and US/Canada scope"},
+        "yearFounded": {"value": 1997, "source": "Wikipedia - Liberty Tax (founded by John Hewitt, 1997)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1998, "source": "Franchise Gator Liberty Tax Service profile", "year": 2025, "confidence": "medium"},
+        "employeesRequired": {"value": 5, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "5-10 employees, largely seasonal"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Liberty Tax FDD on file); Franchise Direct UFOC", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Sharpsheets FDD analysis (revenue performance data disclosed)", "year": 2025, "confidence": "medium"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Storefront required during tax season despite seasonal business model"},
+        "isGrowing": {"value": false, "source": "Entrepreneur Franchise 500 directory (-24% unit trend)", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Plato's Closet",
+      "slug": "platos-closet",
+      "category": "Retail",
+      "website": "platoscloset.com",
+      "notes": "Resale (buy-sell-trade) teen and young-adult apparel retailer franchised by Winmark Corporation (NASDAQ: WINA) since 1999, with 525+ stores in the US and Canada and a 99% franchisee renewal rate. Marketing fee is a flat annual amount (~$1,500/year per Entrepreneur) rather than a percent of sales, so adFundPercent is omitted.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Litigation disclosures in FDD",
+          "detail": "Vetted Biz's review notes Plato's Closet discloses lawsuits and/or bankruptcy information in its FDD (Item 3/4 history); no significant active franchisee litigation or closure waves surfaced in public searches, and Winmark reports a 99% franchise renewal rate.",
+          "source": "Vetted Biz FDD review; Winmark Franchises",
+          "url": "https://www.vettedbiz.com/franchises/platos-closet",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Winmark Franchises Plato's Closet page: 525+ locations across North America with open territories listed on its Available Territories page",
+        "url": "https://www.winmarkfranchises.com/platos-closet/",
+        "year": 2026,
+        "note": "Recruiting across the US and Canada; specific open territories listed on Winmark's available-territories page"
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 90000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Winmark's application screens for ~$75,000+ liquid"},
+        "totalInvestmentMin": {"value": 327200, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 449000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "Entrepreneur Franchise 500 directory; Franchise Chatter 2025 FDD review", "year": 2026, "confidence": "high", "note": "Reduced to $15,000 for second/subsequent stores or existing Winmark-brand franchisees"},
+        "royaltyPercent": {"value": 5, "source": "Entrepreneur Franchise 500 directory; Franchise Chatter 2025 FDD review", "year": 2026, "confidence": "high", "note": "Plus flat annual marketing fee (~$1,500) and required local marketing spend"},
+        "avgUnitRevenue": {"value": 1307875, "source": "Winmark Franchises Plato's Closet page citing FDD Item 19 (https://www.winmarkfranchises.com/platos-closet/)", "year": 2026, "confidence": "high", "note": "Average gross sales across 492 stores open at least one year, per Item 19 of the current Plato's Closet FDD; top quartile averaged $2,033,682"},
+        "totalUnits": {"value": 526, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFounded": {"value": 1998, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1999, "source": "Entrepreneur Franchise 500 directory; Winmark Franchises", "year": 2026, "confidence": "high"},
+        "employeesRequired": {"value": 15, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "15-20 employees"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct Plato's Closet UFOC/FDD listing", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Winmark Franchises Plato's Closet page (publishes Item 19 averages)", "year": 2026, "confidence": "high"},
+        "multiUnitAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review (reduced $15,000 fee for second/subsequent stores)", "year": 2025, "confidence": "high"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory (+5.8% unit growth)", "year": 2026, "confidence": "high"}
+      }
+    }
+  ]
+}

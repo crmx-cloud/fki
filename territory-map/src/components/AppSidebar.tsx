@@ -141,6 +141,9 @@ function SidebarNav() {
                 <SidebarGroupContent>
                   <SidebarMenu>
                     <NavLink href="/tags" label="Tags" icon={Tag} isActive={location.pathname === "/tags"} />
+                    {myProfile?.isSuperAdmin && (
+                      <NavLink href="/users" label="Users" icon={User} isActive={location.pathname === "/users"} />
+                    )}
                     <NavLink href="/claims-admin" label="Brand Claims" icon={Shield} isActive={location.pathname === "/claims-admin"} />
                     <NavLink href="/notifications-admin" label="Notifications" icon={Bell} isActive={location.pathname === "/notifications-admin"} />
                   </SidebarMenu>
@@ -192,7 +195,7 @@ function SidebarUserMenu() {
   const { setOpenMobile } = useSidebar();
 
   const roleLabel = myProfile?.profile?.role === "super_admin" ? "Super Admin"
-    : myProfile?.profile?.role === "broker" ? "Broker"
+    : myProfile?.profile?.role === "broker" ? "Consultant"
     : myProfile?.profile?.role === "admin" ? "Admin"
     : myProfile?.profile?.role === "standard" ? "Standard"
     : myProfile?.profile?.role === "brand_admin" ? "Brand Admin"

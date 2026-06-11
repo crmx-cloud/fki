@@ -88,7 +88,7 @@ const TABS: { id: TabId; icon: any; label: string }[] = [
   { id: "pipeline", icon: TrendingUp, label: "Pipeline" },
   { id: "notes", icon: StickyNote, label: "Notes" },
   { id: "tags", icon: Tag, label: "Tags" },
-  { id: "reps", icon: Users, label: "Sales Reps" },
+  { id: "reps", icon: Users, label: "Consultants" },
 ];
 
 // ── Types ────────────────────────────────────────────────
@@ -322,13 +322,13 @@ export function LeadProfilePanel({
                 )}
               </div>
 
-              {/* Row 2: Sales Rep & Setter quick-assign */}
+              {/* Row 2: Consultant & Setter quick-assign */}
               {canEdit && (
                 <div className="flex items-center gap-3 mt-3">
                   <HeaderRepPicker
                     lead={lead}
                     field="salesRep"
-                    label="Sales Rep"
+                    label="Consultant"
                     currentUserId={lead.salesRepId}
                     leadId={leadId!}
                   />
@@ -457,8 +457,12 @@ function HeaderRepPicker({
   const profiles = useQuery(api.users.listProfiles) || [];
   const updateLead = useMutation(api.crm.updateLead);
 
+  const assignableRoles =
+    field === "salesRep"
+      ? ["super_admin", "admin", "standard", "closer", "setter", "broker"] // consultants assignable as the lead's consultant
+      : ["super_admin", "admin", "standard", "closer", "setter"];
   const internalUsers = profiles.filter(
-    (p: any) => ["super_admin", "admin", "standard", "closer", "setter"].includes(p.role) && p.isActive !== false
+    (p: any) => assignableRoles.includes(p.role) && p.isActive !== false
   );
 
   const current = currentUserId
@@ -1100,7 +1104,7 @@ function TagsTab({
 }
 
 // ════════════════════════════════════════════════════════════
-// ── Tab 7: Sales Reps (Option A — Full Detail) ────────────
+// ── Tab 7: Consultants (Option A — Full Detail) ────────────
 // ════════════════════════════════════════════════════════════
 
 function SalesRepsTab({
@@ -1126,13 +1130,13 @@ function SalesRepsTab({
 
   return (
     <div className="space-y-5">
-      {/* Sales Rep Card */}
+      {/* Consultant Card */}
       <section>
-        <TabSectionHeader icon={UserCheck} label="Sales Rep" />
+        <TabSectionHeader icon={UserCheck} label="Consultant" />
         {associations.salesRep ? (
           <RepCard
             user={associations.salesRep}
-            role="Sales Rep"
+            role="Consultant"
             stats={repStats}
             color="emerald"
           />
@@ -1171,7 +1175,7 @@ function SalesRepsTab({
                   <div className="text-xs">
                     <div className="flex items-center gap-1.5 flex-wrap">
                       <span className="text-slate-400 font-medium">
-                        {h.field === "salesRep" ? "Sales Rep" : "Setter"}
+                        {h.field === "salesRep" ? "Consultant" : "Setter"}
                       </span>
                       {h.fromName ? (
                         <>

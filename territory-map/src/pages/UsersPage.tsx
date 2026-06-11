@@ -14,7 +14,7 @@ const ROLE_CONFIG: Record<string, { label: string; color: string; desc: string; 
   standard:    { label: "Standard",    color: "#06b6d4", desc: "Create & edit brands, leads, territories", icon: UserCog },
   closer:      { label: "Closer",      color: "#22c55e", desc: "Sales rep — closes deals, manages assigned leads", icon: UserCog },
   setter:      { label: "Setter",      color: "#14b8a6", desc: "Sets appointments, qualifies leads for closers", icon: UserCog },
-  broker:      { label: "Broker",      color: "#ec4899", desc: "Vetted external broker — assigned leads only, read-only tags, no export", icon: UserCog },
+  broker:      { label: "Consultant",  color: "#ec4899", desc: "Vetted franchise consultant — assigned leads only, read-only tags, no export", icon: UserCog },
   brand_admin: { label: "Brand Admin", color: "#3b82f6", desc: "Access scoped to assigned brands only", icon: Building2 },
   franchisor:  { label: "Franchisor",  color: "#f59e0b", desc: "Marketplace franchisor account", icon: Building2 },
   prospect:    { label: "Prospect",    color: "#64748b", desc: "Public user / franchise prospect", icon: Users },
@@ -65,6 +65,8 @@ export function UsersPage() {
   // Invite form
   const [showInvite, setShowInvite] = useState(false);
   const [invEmail, setInvEmail] = useState("");
+  const [invFirstName, setInvFirstName] = useState("");
+  const [invPhone, setInvPhone] = useState("");
   const [invRole, setInvRole] = useState("standard");
   const [invBrandIds, setInvBrandIds] = useState<string[]>([]);
   const [invPerms, setInvPerms] = useState<Record<string, boolean>>({
@@ -170,12 +172,17 @@ export function UsersPage() {
   }
 
   async function handleInvite() {
-    if (!invEmail.trim()) return;
+    if (!invEmail.trim() || !invFirstName.trim()) {
+      setInviteMsg("First name and email are required.");
+      return;
+    }
     setInviting(true);
     setInviteMsg(null);
     try {
       const result = await createInvite({
         email: invEmail.trim().toLowerCase(),
+        firstName: invFirstName.trim(),
+        phone: invPhone.trim() || undefined,
         role: invRole as any,
         brandIds: invRole === "brand_admin" ? invBrandIds as Id<"brands">[] : undefined,
         permissions: ["brand_admin", "franchisor"].includes(invRole) ? invPerms : undefined,
@@ -185,9 +192,11 @@ export function UsersPage() {
       } else if ((result as any).updated) {
         setInviteMsg(`Updated pending invite for ${invEmail}.`);
       } else {
-        setInviteMsg(`Invite created for ${invEmail}. They'll receive the role when they sign up.`);
+        setInviteMsg(`Invite sent to ${invEmail} — they'll get an email with a signup link.`);
       }
       setInvEmail("");
+      setInvFirstName("");
+      setInvPhone("");
     } catch (e: any) {
       setInviteMsg(`Error: ${e.message}`);
     } finally {
@@ -229,13 +238,33 @@ export function UsersPage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-3">
-            <div className="md:col-span-2">
-              <label className="text-xs font-medium text-muted-foreground mb-1 block">Email Address</label>
+            <div>
+              <label className="text-xs font-medium text-muted-foreground mb-1 block">First Name *</label>
+              <input
+                type="text"
+                value={invFirstName}
+                onChange={(e) => setInvFirstName(e.target.value)}
+                placeholder="First name"
+                className="w-full px-3 py-2 rounded-lg border bg-background text-sm"
+              />
+            </div>
+            <div>
+              <label className="text-xs font-medium text-muted-foreground mb-1 block">Email Address *</label>
               <input
                 type="email"
                 value={invEmail}
                 onChange={(e) => setInvEmail(e.target.value)}
-                placeholder="user@franchiseki.com"
+                placeholder="user@example.com"
+                className="w-full px-3 py-2 rounded-lg border bg-background text-sm"
+              />
+            </div>
+            <div>
+              <label className="text-xs font-medium text-muted-foreground mb-1 block">Mobile Phone</label>
+              <input
+                type="tel"
+                value={invPhone}
+                onChange={(e) => setInvPhone(e.target.value)}
+                placeholder="(555) 123-4567"
                 className="w-full px-3 py-2 rounded-lg border bg-background text-sm"
               />
               {["super_admin", "admin", "standard"].includes(invRole) && !invEmail.endsWith("@franchiseki.com") && invEmail.includes("@") && (

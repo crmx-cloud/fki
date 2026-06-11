@@ -393,7 +393,7 @@ export function ForFranchisorsPage() {
               {
                 step: "3",
                 title: "Embed, Share & Start Getting Leads",
-                desc: "Copy the embed code for your website, share the link with brokers, and watch the leads roll in.",
+                desc: "Copy the embed code for your website, share the link with consultants, and watch the leads roll in.",
               },
             ].map((item, i) => (
               <div key={i} className="flex gap-6 items-start">

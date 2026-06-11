@@ -462,6 +462,8 @@ const schema = defineSchema({
 
   invites: defineTable({
     email: v.string(),
+    firstName: v.optional(v.string()),
+    phone: v.optional(v.string()),
     role: v.union(
       v.literal("super_admin"),
       v.literal("admin"),

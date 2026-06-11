@@ -214,9 +214,11 @@ export const ensureProfile = mutation({
       role = "franchisor";
       if (brandClaim.brandId) brandIds = [brandClaim.brandId];
     }
+    const invitePhone = invite?.phone;
+    const inviteFirstName = (invite as any)?.firstName;
 
     const nameParts = user.name?.split(" ") || [];
-    const firstName = nameParts[0] || email.split("@")[0];
+    const firstName = inviteFirstName || nameParts[0] || email.split("@")[0];
     const lastName = nameParts.slice(1).join(" ") || undefined;
 
     const profileId = await ctx.db.insert("userProfiles", {
@@ -224,6 +226,7 @@ export const ensureProfile = mutation({
       role,
       firstName,
       lastName,
+      phone: invitePhone,
       brandIds,
       permissions,
       isActive: true,
@@ -477,6 +480,8 @@ export const deleteProfile = mutation({
 export const createInvite = mutation({
   args: {
     email: v.string(),
+    firstName: v.optional(v.string()),
+    phone: v.optional(v.string()),
     role: roleValidator,
     brandIds: v.optional(v.array(v.id("brands"))),
     permissions: permissionsValidator,
@@ -559,6 +564,8 @@ export const createInvite = mutation({
 
     await ctx.db.insert("invites", {
       email: args.email.toLowerCase(),
+      firstName: args.firstName,
+      phone: args.phone,
       role: args.role,
       brandIds: args.brandIds,
       permissions: args.permissions,
@@ -570,6 +577,14 @@ export const createInvite = mutation({
       userId,
       action: "invite_user",
       details: `Invited ${args.email} as ${args.role}`,
+    });
+
+    // Send the invite email through CRMX (fail-soft — invite still works
+    // via signup even if the email send hiccups)
+    await ctx.scheduler.runAfter(0, internal.verificationSend.sendInviteEmail, {
+      email: args.email.toLowerCase(),
+      firstName: args.firstName || "there",
+      role: args.role,
     });
 
     return { success: true };

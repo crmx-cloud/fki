@@ -122,7 +122,7 @@ export default function AutoAssignmentPanel({ brandId }: { brandId?: Id<"brands"
                     {rule.isActive ? "Active" : "Inactive"}
                   </Badge>
                   <span className="text-xs text-slate-500">
-                    {rule.mode === "equal" ? "Equal rotation" : "Custom ratio"} → {rule.assignAs === "sales_rep" ? "Sales Rep" : "Setter"}
+                    {rule.mode === "equal" ? "Equal rotation" : "Custom ratio"} → {rule.assignAs === "sales_rep" ? "Consultant" : "Setter"}
                   </span>
                 </div>
                 <div className="flex items-center gap-1">
@@ -203,7 +203,7 @@ export default function AutoAssignmentPanel({ brandId }: { brandId?: Id<"brands"
                 onClick={() => setAssignAs("sales_rep")}
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${assignAs === "sales_rep" ? "bg-emerald-100 text-emerald-700 border border-emerald-300" : "bg-white border border-slate-200 text-slate-600 hover:bg-slate-50"}`}
               >
-                Sales Rep
+                Consultant
               </button>
               <button
                 type="button"

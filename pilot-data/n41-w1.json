@@ -1,0 +1,355 @@
+{
+  "brands": [
+    {
+      "name": "Jack in the Box",
+      "slug": "jack-in-the-box",
+      "category": "Food & Beverage",
+      "website": "jackinthebox.com",
+      "notes": "Major QSR burger chain actively recruiting multi-unit franchise partners across published target markets (franchise site: jackintheboxfranchising.com). Brand is mid-way through its 2025 'JACK on Track' turnaround, which includes closing 150-200 underperforming restaurants while selling new franchises in growth markets.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "'JACK on Track' block closure program (150-200 restaurants)",
+          "detail": "In April 2025 Jack in the Box announced a plan to close 150-200 underperforming restaurants. The company closed 86 restaurants in FY2025, including 51 under the block closure program (38 in Q4, 13 in Q3).",
+          "source": "Jack in the Box Inc. Form 8-K, Q4 FY2025 earnings release (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000807882/000080788225000070/ex991-q425earningsrelease.htm",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee association no-confidence vote and breach-of-contract lawsuit (2019-2021, settled)",
+          "detail": "The National Jack in the Box Franchisee Association passed a no-confidence vote in then-CEO Lenny Comma (Oct 2019) and sued the franchisor for breach of contract over marketing-fund audit rights and remodel cost-shifting. The suit was settled in 2021 with concessions to franchisees under new CEO Darin Harris.",
+          "source": "Restaurant Business",
+          "url": "https://www.restaurantbusinessonline.com/financing/jack-box-settles-its-dispute-franchisees",
+          "year": 2021
+        },
+        {
+          "severity": "info",
+          "title": "Del Taco divested December 2025",
+          "detail": "As part of the JACK on Track plan, Jack in the Box completed the sale of sister brand Del Taco to Yadav Enterprises for approximately $119 million on December 22, 2025, refocusing the company on the core Jack in the Box brand.",
+          "source": "Jack in the Box Inc. Form 8-K (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000807882/000080788225000081/ex991-pressreleasexdeltaco.htm",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        {"state": "CO", "status": "open", "note": "Listed as available market on franchisor's available-markets page.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "ID", "status": "open", "note": "Listed as available market on franchisor's available-markets page.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "IL", "status": "open", "note": "Listed as available market on franchisor's available-markets page.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "IN", "status": "open", "note": "Listed as available market on franchisor's available-markets page.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "MI", "status": "open", "note": "Listed as available market on franchisor's available-markets page.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "MO", "status": "open", "note": "Listed as available market on franchisor's available-markets page.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "NM", "status": "open", "note": "Listed as available market on franchisor's available-markets page.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "OK", "status": "open", "note": "Listed as available market on franchisor's available-markets page.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "OR", "status": "open", "note": "Listed as available market on franchisor's available-markets page.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "WA", "status": "open", "note": "Listed as available market on franchisor's available-markets page.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "CA", "status": "open", "note": "Limited opportunities only, per franchisor's available-markets page.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "UT", "status": "open", "note": "Limited markets available, per franchisor's available-markets page.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "FL", "status": "open", "note": "Orlando DMA only.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "GA", "status": "open", "note": "Macon and Savannah DMAs only.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "LA", "status": "open", "note": "Baton Rouge DMA only.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "NC", "status": "open", "note": "Charlotte DMA only.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "OH", "status": "open", "note": "Cincinnati DMA only.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "SC", "status": "open", "note": "Greenville DMA only.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "TN", "status": "open", "note": "Nashville DMA only.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026},
+        {"state": "TX", "status": "open", "note": "West Texas only.", "source": "Jack in the Box Franchising - Available Markets", "url": "https://www.jackintheboxfranchising.com/available-markets", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 750000, "source": "Jack in the Box Franchising (franchisor site)", "year": 2026, "confidence": "high", "note": "$750,000 minimum liquidity; $1.5M minimum net worth."},
+        "totalInvestmentMin": {"value": 1909500, "source": "Jack in the Box Franchising (franchisor site)", "year": 2026, "confidence": "high", "note": "Franchisor cites $1,909,500-$4,041,500; 2025 FDD-derived sources cite $1,910,500-$4,032,100."},
+        "totalInvestmentMax": {"value": 4041500, "source": "Jack in the Box Franchising (franchisor site)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "Vetted Biz FDD analysis", "year": 2025, "confidence": "high", "note": "Per location."},
+        "royaltyPercent": {"value": 5, "source": "Vetted Biz FDD analysis", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 5, "source": "Vetted Biz FDD analysis", "year": 2025, "confidence": "high", "note": "5% of gross sales marketing fund."},
+        "avgUnitRevenue": {"value": 1928638, "source": "Vetted Biz FDD analysis (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per restaurant per FDD Item 19 analysis; franchisor advertises ~$1.9M AUV."},
+        "totalUnits": {"value": 2178, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Systemwide; roughly 9 of 10 restaurants are franchised. Unit count trending about -1% amid JACK on Track closures."},
+        "closureCount": {"value": 86, "source": "Jack in the Box Inc. Form 8-K, Q4 FY2025 earnings release (SEC EDGAR)", "year": 2025, "confidence": "high", "note": "Restaurants closed in FY2025, including 51 under the JACK on Track block closure program."},
+        "yearFounded": {"value": 1951, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1982, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists franchising since 1982; some FDD-summary sources cite earlier franchising activity."},
+        "trainingWeeks": {"value": 6, "source": "Vetted Biz FDD analysis", "year": 2025, "confidence": "medium", "note": "Initial training approximately 6-8 weeks, conducted in San Diego, CA."},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "25% off first-unit franchise fee."},
+        "multiUnitAvailable": {"value": true, "source": "Jack in the Box Franchising (franchisor site)", "year": 2026, "confidence": "high", "note": "3+ store commitments earn 2% royalty reduction for 5 years or $150,000 interest-free loan; average franchisee owns 15+ units."},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Entrepreneur Franchise 500 directory; SEC FY2025 8-K", "year": 2025, "confidence": "medium", "note": "US unit count contracting (~-1%) during the 2025-2026 JACK on Track closure program, even as new franchise markets are sold."},
+        "fddAvailable": {"value": true, "source": "Vetted Biz FDD analysis", "year": 2025, "confidence": "high", "note": "2025 FDD on file."},
+        "item19Available": {"value": true, "source": "Vetted Biz FDD analysis", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Bojangles",
+      "slug": "bojangles",
+      "category": "Food & Beverage",
+      "website": "bojangles.com",
+      "notes": "Southeastern chicken-and-biscuits chain actively selling franchises and expanding into new markets (bojangles.com/franchising redirects to bojanglesfranchising.com). The franchisor publishes an interactive territories map (Available/Future/Reserved markets) but no public state-by-state list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisee association lawsuit over marketing fund and undisclosed 'accrual account'",
+          "detail": "The Bojangles of America Franchisee Association (30 franchisees operating 380+ restaurants) sued Bojangles Opco in NC Superior Court for breach of contract and unfair/deceptive trade practices, alleging the company blocked a promised audit of the marketing fund and concealed an 'accrual account' funded by franchisee contributions that was not disclosed in the FDD.",
+          "source": "Restaurant Business",
+          "url": "https://www.restaurantbusinessonline.com/financing/franchisees-sue-bojangles-over-marketing",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Bojangles sued its largest franchise group",
+          "detail": "Bojangles filed suit against its largest franchise group and an accounting firm in 2024, indicating active franchisor-franchisee litigation in both directions.",
+          "source": "Charlotte Business Journal (via Yahoo Finance)",
+          "url": "https://finance.yahoo.com/news/bojangles-sues-largest-franchise-114839416.html",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Maryland franchisee collapse closed 5 locations",
+          "detail": "A Bojangles franchisee closed all 5 of its Maryland locations in late 2023; former employees alleged gross financial mismanagement including wage theft and fraudulent W-2s. Reflects single-operator failure rather than systemwide issues.",
+          "source": "WUSA9",
+          "url": "https://www.wusa9.com/article/news/local/maryland/former-employees-allege-gross-mismanagement-fraud-owner-now-closed-bojangles-restaurants/65-9cc4b5a5-5228-445c-b7cb-19fdb5fc028e",
+          "year": 2023
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 1000000, "source": "Bojangles Franchising (franchisor site)", "year": 2026, "confidence": "high", "note": "$1,000,000 required liquidity and $2,500,000 required net worth per location."},
+        "totalInvestmentMin": {"value": 780780, "source": "Bojangles Franchising (franchisor site)", "year": 2026, "confidence": "high", "note": "Express format low end; traditional restaurants run $2,851,880-$3,951,200. 2025 FDD-derived range: $778,670-$3,829,400."},
+        "totalInvestmentMax": {"value": 3951200, "source": "Bojangles Franchising (franchisor site)", "year": 2026, "confidence": "high", "note": "Traditional restaurant high end."},
+        "franchiseFee": {"value": 35000, "source": "Bojangles 2025 FDD (via FDD.ninja and Franchise Direct FDD summary)", "year": 2025, "confidence": "high", "note": "Standard fee for a traditional restaurant; Express restaurant fee is $20,000."},
+        "royaltyPercent": {"value": 4, "source": "Franchise Direct FDD summary (2025 FDD)", "year": 2025, "confidence": "high", "note": "4% of total monthly gross sales."},
+        "adFundPercent": {"value": 1, "source": "Franchise Direct FDD summary (2025 FDD)", "year": 2025, "confidence": "high", "note": "1% national Marketing Development Fund; franchisees must additionally spend 3% of gross sales on local marketing (less co-op amounts). Directories often quote the combined 4%."},
+        "avgUnitRevenue": {"value": 2350216, "source": "Bojangles 2024 FDD Item 19 (via Franchise Chatter FDD Talk review)", "year": 2024, "confidence": "high", "note": "Average gross sales of 448 franchised full-size restaurants with bone-in chicken menu, fiscal 2023 (53 weeks ended 12/31/2023). Express franchised average: $2,117,580."},
+        "totalUnits": {"value": 830, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Systemwide, roughly +7.4% trend; 2024 FDD showed 528 franchised + 285 company-owned at end of 2023."},
+        "yearFounded": {"value": 1977, "source": "Entrepreneur Franchise 500 directory; Franchise Direct", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1978, "source": "Entrepreneur Franchise 500 directory; Franchise Direct", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 13, "source": "Franchise Direct FDD summary (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Initial program 13-26 weeks for managing owners/operators; managers get 4-8 weeks at Bojangles University in Charlotte, NC."},
+        "veteranDiscount": {"value": true, "source": "Bojangles Franchising (franchisor site)", "year": 2026, "confidence": "high", "note": "Qualified veteran, women, and minority franchisees get 50% off the franchise fee and reduced royalty for the first three years."},
+        "multiUnitAvailable": {"value": true, "source": "Bojangles Franchising (franchisor site)", "year": 2026, "confidence": "high", "note": "Development agreements for 3+ and 5+ unit operators with equipment reimbursement incentives."},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Franchise Chatter FDD Talk review (2024 FDD outlet tables); Entrepreneur", "year": 2024, "confidence": "high", "note": "Franchised units grew 496 -> 507 -> 528 across 2021-2023; Entrepreneur shows +7.4% trend."},
+        "fddAvailable": {"value": true, "source": "FDD.ninja (Bojangles 2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter FDD Talk review", "year": 2024, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Qdoba Mexican Eats",
+      "slug": "qdoba-mexican-eats",
+      "category": "Food & Beverage",
+      "website": "qdoba.com",
+      "notes": "Fast-casual Mexican chain actively selling franchises across US markets (franchise site: qdobafranchise.com) with 450+ future restaurants under signed development commitments and a minimum two-restaurant commitment for new franchisees.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Franchisor-franchisee litigation over failed opening (Fiesta Ventures)",
+          "detail": "A franchisee whose Beavercreek, OH restaurant failed to open on time was defaulted by Qdoba in Feb 2024 and sued alleging breach of contract and unfair business practices; in Aug 2025 a California federal court allowed Qdoba's counter-claims for lost future royalties to proceed.",
+          "source": "Goldstein Law Firm franchise litigation commentary",
+          "url": "https://www.goldlawgroup.com/california-federal-court-gives-another-bullet-to-franchisors-in-franchise-termination-cases/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Historical contraction under prior ownership",
+          "detail": "Under former parent Jack in the Box, Qdoba moved to close 67 stores companywide in 2017 before being sold. Current ownership reports 16 consecutive quarters of positive same-store sales through 2024 and net franchised-unit growth (+42 in FY2024 per the 2025 FDD).",
+          "source": "Springfield Business Journal",
+          "url": "https://sbj.net/stories/qdoba-moves-to-close-67-stores-companywide,17064",
+          "year": 2017
+        }
+      ],
+      "nationwide": {
+        "source": "QDOBA press release: new franchise development agreements across the United States; qdobafranchise.com available territories",
+        "url": "https://www.qdoba.com/media/qdoba-kicks-off-2025-with-planned-new-franchise-development-agreements-across-the-united-states",
+        "year": 2025,
+        "note": "Actively selling franchises in markets across the US (450+ restaurant commitments signed); specific territories subject to availability via the franchisor's Available Territories page. Minimum two-restaurant commitment."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 350000, "source": "QDOBA Franchise (franchisor site, What It Takes)", "year": 2026, "confidence": "high", "note": "Liquid capital $350,000+; minimum net worth $1,000,000."},
+        "totalInvestmentMin": {"value": 545500, "source": "Qdoba 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Traditional restaurant, excluding real property and liquor license; non-traditional from $236,500. Franchisor site currently shows $249,100-$1,299,000 for traditional."},
+        "totalInvestmentMax": {"value": 1294000, "source": "Qdoba 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "QDOBA Franchise (franchisor site); 2025 FDD summaries", "year": 2025, "confidence": "high", "note": "Traditional restaurant; $20,000 for non-traditional."},
+        "royaltyPercent": {"value": 5, "source": "Qdoba 2025 FDD (via Franchise Chatter review); franchisor site", "year": 2025, "confidence": "high", "note": "5% of gross sales for traditional restaurants (franchisor site lists 6% for the non-traditional model)."},
+        "adFundPercent": {"value": 2.75, "source": "Qdoba 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Marketing fee 2.75% of gross sales plus 1.25% required local advertising spend (combined ~4%)."},
+        "avgUnitRevenue": {"value": 1643653, "source": "Qdoba 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Average net restaurant sales for 318 traditional franchised restaurants reporting a trailing 12-month period; individual results vary."},
+        "totalUnits": {"value": 777, "source": "Qdoba 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "End of FY2024: 613 franchised + 164 company-owned."},
+        "yearFounded": {"value": 1995, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Founded in Denver, CO."},
+        "yearFranchising": {"value": 1997, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory; franchisor VetFran membership", "year": 2026, "confidence": "high", "note": "$10,000 off the initial franchise fee for honorably discharged veterans."},
+        "multiUnitAvailable": {"value": true, "source": "QDOBA Franchise (franchisor site)", "year": 2026, "confidence": "high", "note": "Franchisees must commit to opening a minimum of two restaurants."},
+        "exclusiveTerritories": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Qdoba 2025 FDD outlet tables (via Franchise Chatter); QDOBA press release", "year": 2025, "confidence": "high", "note": "+42 net franchised outlets in FY2024 and 450+ signed future-restaurant commitments; company-owned units declined by 12 as units refranchised."},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Tim Hortons",
+      "slug": "tim-hortons",
+      "category": "Food & Beverage",
+      "website": "timhortons.com",
+      "notes": "Canada's largest QSR chain (parent: Restaurant Brands International) actively selling US franchises via franchising.timhortons.com, with core availability in the Midwest/Northeast and announced expansion into Southern markets. States listed below are those with explicit named development evidence; the franchisor maintains a broader available-markets page.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Major franchisee association lawsuits (Great White North Franchisee Association)",
+          "detail": "US and Canadian franchisee associations sued Tim Hortons/RBI in 2018, alleging improper use of the advertising fund (seeking $500M in the Canadian action), supply 'price gouging,' intimidation of association members, and ~$450,000 forced remodel costs. Over 70% of Canadian franchisees had joined the GWNFA at its peak.",
+          "source": "CBC News; Restaurant Business",
+          "url": "https://www.cbc.ca/news/business/tim-hortons-great-white-north-franchisee-association-united-states-lawsuit-1.4646588",
+          "year": 2018
+        },
+        {
+          "severity": "caution",
+          "title": "Flat US franchised unit count despite expansion push",
+          "detail": "Per the 2025 FDD, US franchised locations saw a net change of -2 in 2024 (after +6 in 2023 and -1 in 2022), ending 2024 at 640 franchised units, even as parent RBI targets large-scale US growth.",
+          "source": "Franchise Chatter 2025 FDD review",
+          "url": "https://www.franchisechatter.com/2025/07/27/tim-hortons-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "High combined ongoing fees and mandatory refurbishment",
+          "detail": "Royalty of 4.5%-6% plus a 4% advertising contribution puts total ongoing fees as high as 10% of sales, above typical QSR norms, and franchisees face a mandatory refurbishment cycle every 5 years.",
+          "source": "Franchise Chatter 2025 FDD review",
+          "url": "https://www.franchisechatter.com/2025/07/27/tim-hortons-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        {"state": "NY", "status": "open", "note": "Largest US market; Manhattan (NYC) named among new markets opening before 2026.", "source": "QSR Magazine - Tim Hortons U.S. Ready to Unlock the Future After Breakthrough Year", "url": "https://www.qsrmagazine.com/story/tim-hortons-u-s-ready-to-unlock-the-future-after-breakthrough-year/", "year": 2025},
+        {"state": "FL", "status": "open", "note": "Bradenton, FL named as a new development market.", "source": "QSR Magazine - Tim Hortons U.S. Ready to Unlock the Future After Breakthrough Year", "url": "https://www.qsrmagazine.com/story/tim-hortons-u-s-ready-to-unlock-the-future-after-breakthrough-year/", "year": 2025},
+        {"state": "TX", "status": "open", "note": "College Station, TX named as a new market; Austin opened Dec 2024.", "source": "QSR Magazine - Tim Hortons U.S. Ready to Unlock the Future After Breakthrough Year", "url": "https://www.qsrmagazine.com/story/tim-hortons-u-s-ready-to-unlock-the-future-after-breakthrough-year/", "year": 2025},
+        {"state": "TN", "status": "open", "note": "Nashville cited among performing 2025 new-market locations.", "source": "QSR Magazine - Tim Hortons U.S. Ready to Unlock the Future After Breakthrough Year", "url": "https://www.qsrmagazine.com/story/tim-hortons-u-s-ready-to-unlock-the-future-after-breakthrough-year/", "year": 2025},
+        {"state": "VA", "status": "open", "note": "Norfolk cited among performing 2025 new-market locations.", "source": "QSR Magazine - Tim Hortons U.S. Ready to Unlock the Future After Breakthrough Year", "url": "https://www.qsrmagazine.com/story/tim-hortons-u-s-ready-to-unlock-the-future-after-breakthrough-year/", "year": 2025},
+        {"state": "MI", "status": "open", "note": "Core Midwest growth market (204 locations, second-largest US state).", "source": "Tim Hortons US Franchising - Available Markets", "url": "https://franchising.timhortons.com/available-markets.html", "year": 2026},
+        {"state": "OH", "status": "open", "note": "Core Midwest growth market per franchisor's US franchising site.", "source": "Tim Hortons US Franchising - Available Markets", "url": "https://franchising.timhortons.com/available-markets.html", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 500000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Cash requirement listed as $500,000-$4,000,000; net worth $1,500,000-$10,000,000."},
+        "totalInvestmentMin": {"value": 978000, "source": "Tim Hortons 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Standard shop formats; non-standard shops (kiosks etc.) can start far lower (directory sources cite from ~$246,500). Freestanding drive-thru builds run $1,017,600-$1,370,500."},
+        "totalInvestmentMax": {"value": 1772500, "source": "Tim Hortons 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "Tim Hortons 2025 FDD (via Franchise Chatter and Franchise Direct summaries)", "year": 2025, "confidence": "high", "note": "Standard shop; $25,000 for a non-standard shop. 20-year franchise agreement term."},
+        "royaltyPercent": {"value": 4.5, "source": "Tim Hortons 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Standard royalty ranges 4.5%-6% of gross sales depending on the underlying real estate/lease arrangement; 4.5% is the low end, not a discounted tier."},
+        "adFundPercent": {"value": 4, "source": "Tim Hortons 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "4% of gross sales advertising contribution."},
+        "avgUnitRevenue": {"value": 1268844, "source": "Tim Hortons 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "Annualized from the disclosed $105,737 average monthly sales for 579 US standard shops open as of 12/31/2024; derived figure, not stated as an annual AUV in the FDD."},
+        "totalUnits": {"value": 663, "source": "Tim Hortons 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "US only: 640 franchised + 23 company-owned at end of 2024. Systemwide (incl. Canada/international) is ~5,000+ units."},
+        "yearFounded": {"value": 1964, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1965, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "exclusiveTerritories": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Auntie Anne's",
+      "slug": "auntie-annes",
+      "category": "Food & Beverage",
+      "website": "auntieannes.com",
+      "notes": "World's largest soft-pretzel franchise (GoTo Foods, formerly Focus Brands), actively recruiting US franchisees via development.gotofoods.com/auntie-annes. The franchisor does not publish a state-by-state availability list (one broker portal notes inquiries are demand-gated), so state availability is omitted pending FDD confirmation.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Venue/landlord dependence (malls, outlets, airports)",
+          "detail": "Unit economics hinge on foot traffic the franchisee does not control, in space leased from landlords with leverage; 2024 average net sales ranged from $763K (enclosed mall) to $1.8M (airport), showing heavy location-driven variability.",
+          "source": "Vetted Biz - Auntie Anne's Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/auntie-annes",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Royalty can be raised to 8% at franchisor's sole discretion; mandatory remodel cycle",
+          "detail": "The 7% royalty may be increased to 8% of Net Sales at Auntie Anne's sole discretion, and franchisees must refresh shops every 5 years and fully remodel every 10 years - ongoing costs not captured in headline investment figures.",
+          "source": "Franchise Chatter 2025 FDD review; Vetted Biz",
+          "url": "https://www.franchisechatter.com/2025/10/10/auntie-annes-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "41 closures in 2024 (about 3.4% of units)",
+          "detail": "41 franchised closures against ~1,193 total units in 2024 - a closure rate below the food-category average - alongside 52 transfers, suggesting units mostly sell as going concerns; system still grew +26 net franchised units.",
+          "source": "Vetted Biz - Auntie Anne's Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/auntie-annes",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 120000, "source": "GoTo Foods development site (franchisor)", "year": 2026, "confidence": "high", "note": "Minimum liquid capital $120,000; minimum net worth $300,000."},
+        "totalInvestmentMin": {"value": 156175, "source": "Auntie Anne's 2025 FDD (via Franchise Chatter review; Entrepreneur)", "year": 2025, "confidence": "high", "note": "Range covers kiosk/mall through larger formats; franchisor site cites $158,000-$836,000 for enclosed-mall builds in 2026."},
+        "totalInvestmentMax": {"value": 638300, "source": "Auntie Anne's 2025 FDD (via Franchise Chatter review; Entrepreneur)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 35500, "source": "Auntie Anne's 2025 FDD (via Franchise Chatter review; Entrepreneur)", "year": 2025, "confidence": "high", "note": "Standard full-shop fee; reduced fees apply to some venue/secondary formats."},
+        "royaltyPercent": {"value": 7, "source": "Auntie Anne's 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "7% of Net Sales; franchisor may raise to 8% at its sole discretion."},
+        "adFundPercent": {"value": 2, "source": "Auntie Anne's 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2% of Net Sales for most locations (3% streetside; co-branded varies), plus a 1% local marketing spend obligation each quarter."},
+        "avgUnitRevenue": {"value": 762534, "source": "Auntie Anne's 2025 FDD Item 19, FY2024 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Average net sales for 498 enclosed-mall franchised shops (largest cohort) in FY2024. Other venues: outlet center $922,671; airport $1,816,883; Cinnabon co-branded $1,200,635."},
+        "totalUnits": {"value": 1194, "source": "Auntie Anne's 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "US: 1,182 franchised + 12 company-owned at end of 2024; 1,200+ locations globally across 20+ countries (2,087 systemwide per Entrepreneur, incl. international)."},
+        "yearFounded": {"value": 1988, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Founded by Anne Beiler at a Pennsylvania farmers market."},
+        "yearFranchising": {"value": 1989, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Approximately two weeks of classes plus on-the-job experience in a high-volume store (Entrepreneur lists 60 OTJ + 25 classroom hours)."},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "$15,500 off the full-shop franchise fee."},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Franchise Chatter 2025 FDD review (outlet tables)", "year": 2025, "confidence": "high", "note": "Franchised units +9 (2022), +21 (2023), +26 (2024)."},
+        "closureCount": {"value": 41, "source": "Vetted Biz - Auntie Anne's Franchise Insights", "year": 2024, "confidence": "medium", "note": "Franchised closures in 2024 (~3.4% of units, below category average)."},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Cold Stone Creamery",
+      "slug": "cold-stone-creamery",
+      "category": "Food & Beverage",
+      "website": "coldstonecreamery.com",
+      "notes": "Kahala Brands ice-cream franchise actively selling US franchises nationwide via coldstonecreameryfranchise.com, with a stated initiative to add hundreds of locations. Strong recent net unit growth, but the brand carries a well-documented history of franchisee failures and SBA-loan defaults from the 2004-2013 era that buyers should weigh.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Historically among the worst SBA loan default rates in franchising",
+          "detail": "WSJ-reported SBA data showed Cold Stone franchisee loan failure rates of roughly 31%-42% across 2004-2013, more than double typical franchise default rates and among the 10 worst brands in the SBA portfolio. Data is historical (pre-2014, spanning prior ownership) but reflects structural unit-economics risk.",
+          "source": "Law Offices of Spotora & Associates summary of WSJ SBA-default analysis",
+          "url": "https://www.spotoralaw.com/blog/2014/11/higher-than-average-default-rates-of-franchise-brands-discussed-in-wsj-article/",
+          "year": 2014
+        },
+        {
+          "severity": "caution",
+          "title": "Longstanding franchisee complaints about unit economics",
+          "detail": "Failed and current franchisees have alleged thin margins driven by mandatory two-for-one couponing/promotions, required purchases from designated suppliers, franchise 'churning,' and inadequate support. Allegations are documented in franchisee-complaint forums and a CHRIE academic case study.",
+          "source": "Unhappy Franchisee - Cold Stone Creamery Franchise Complaints",
+          "url": "https://www.unhappyfranchisee.com/cold-stone-creamery-franchise-complaints/",
+          "year": 2014
+        },
+        {
+          "severity": "info",
+          "title": "Recent net unit growth contrasts with historical contraction",
+          "detail": "Per the 2025 FDD, US franchised locations grew from 889 (start of 2022) to 992 (end of Nov 2024) - net +19, +44, and +40 across the three years - indicating the system is currently expanding.",
+          "source": "Franchise Chatter 2025 FDD review",
+          "url": "https://www.franchisechatter.com/2025/09/19/cold-stone-creamery-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Cold Stone Creamery franchise site (Kahala Brands)",
+        "url": "https://coldstonecreameryfranchise.com/",
+        "year": 2026,
+        "note": "Franchisor states it is 'rolling out a development initiative with the aim of growing the brand by hundreds of locations' and accepts franchise inquiries from all 50 states plus DC."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 125000, "source": "Cold Stone Creamery franchise site (franchisor)", "year": 2026, "confidence": "high", "note": "Franchisor site lists $125,000 liquid / $250,000 net worth; Entrepreneur lists $120,000 cash requirement."},
+        "totalInvestmentMin": {"value": 335675, "source": "Cold Stone Creamery 2025 FDD (via Franchise Chatter review; Entrepreneur)", "year": 2025, "confidence": "high", "note": "Traditional store range; franchisor site in 2026 shows traditional $390,675-$680,775 and non-traditional from $255,700."},
+        "totalInvestmentMax": {"value": 655275, "source": "Cold Stone Creamery 2025 FDD (via Franchise Chatter review; Entrepreneur)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 27000, "source": "Cold Stone Creamery franchise site; 2025 FDD summaries", "year": 2025, "confidence": "high", "note": "Standard fee for a traditional store; FDD discloses a $12,000-$27,000 range by store type/term ($8,000-$20,000 non-traditional)."},
+        "royaltyPercent": {"value": 6, "source": "Cold Stone Creamery 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 3, "source": "Cold Stone Creamery 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "3% of weekly gross sales."},
+        "avgUnitRevenue": {"value": 621052, "source": "Cold Stone Creamery 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Average gross sales across 939 US franchised stores open the full fiscal year 12/1/2023-11/30/2024; median $587,242."},
+        "totalUnits": {"value": 992, "source": "Cold Stone Creamery 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "US franchised outlets as of 11/30/2024; ~1,481 systemwide globally per Entrepreneur (~30 countries)."},
+        "yearFounded": {"value": 1988, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Founded by Donald and Susan Sutherland in Tempe, AZ."},
+        "yearFranchising": {"value": 1994, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "20% off the franchise fee."},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Franchise Chatter 2025 FDD review (outlet tables)", "year": 2025, "confidence": "high", "note": "+19 (2022), +44 (2023), +40 (2024) net US franchised units."},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    }
+  ]
+}

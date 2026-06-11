@@ -63,7 +63,7 @@ function AssociationSection({
   );
 }
 
-// ── User Picker (for Sales Rep / Setter) ───────────────────
+// ── User Picker (for Consultant / Setter) ───────────────────
 
 function UserPicker({
   currentUserId,
@@ -214,17 +214,17 @@ export default function AssociationsPanel({
         <h3 className="text-sm font-semibold text-slate-800">Associations</h3>
       </div>
 
-      {/* Sales Rep */}
+      {/* Consultant */}
       <AssociationSection
         icon={UserCheck}
-        title="Sales Rep"
+        title="Consultant"
         count={associations.salesRep ? 1 : 0}
         color="emerald"
       >
         {isAdmin ? (
           <UserPicker
             currentUserId={lead.salesRepId}
-            label="Sales Rep"
+            label="Consultant"
             onSelect={handleAssignRep}
             onClear={handleClearRep}
           />

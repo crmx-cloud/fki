@@ -1,0 +1,768 @@
+{
+  "brands": [
+    {
+      "name": "Once Upon A Child",
+      "slug": "once-upon-a-child",
+      "category": "Retail",
+      "website": "onceuponachild.com",
+      "notes": "Children's resale retail franchise founded 1984 and franchised since 1992 by Winmark Corporation; all ~430+ stores are franchised (zero company-owned) across the US and Canada, with low reported failure rates (about 3% over the past three years per Vetted Biz) and steady net unit growth.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "FDD discloses litigation/bankruptcy history",
+          "detail": "Vetted Biz's FDD analysis notes that Once Upon A Child discloses lawsuits and/or bankruptcy information in its FDD; prospective buyers should review Items 3 and 4. No major active franchisee litigation surfaced in public searches.",
+          "source": "Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/once-upon-a-child",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Store-level consumer complaints about buy-low pricing",
+          "detail": "Consumer review sites carry complaints about low buy offers and customer service at individual locations (e.g., Ocoee, FL report). These are customer-facing reputational issues inherent to the resale model rather than franchisee-franchisor disputes.",
+          "source": "Ripoff Report",
+          "url": "https://www.ripoffreport.com/reports/once-upon-a-child/ocoee-florida-34787/once-upon-a-child-great-idea-for-savy-shoppers-destroyed-by-greedy-employeremployees-oco-758552",
+          "year": 2011
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/once-upon-a-child/282652",
+        "year": 2026,
+        "note": "Entrepreneur lists franchising opportunities available in all US regions (plus Canada); Winmark actively recruits new Once Upon A Child franchisees."
+      },
+      "fields": {
+        "franchiseFee": {
+          "value": 25000,
+          "source": "Franchise Chatter 2025 review (2024 FDD)",
+          "url": "https://www.franchisechatter.com/2025/06/30/once-upon-a-child-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Standard new-franchisee fee; $15,000 for a second/subsequent store or for existing Winmark-brand franchisees."
+        },
+        "totalInvestmentMin": {
+          "value": 327200,
+          "source": "Franchise Chatter 2025 review (2024 FDD Item 7)",
+          "url": "https://www.franchisechatter.com/2025/06/30/once-upon-a-child-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2024,
+          "confidence": "high"
+        },
+        "totalInvestmentMax": {
+          "value": 462000,
+          "source": "Franchise Chatter 2025 review (2024 FDD Item 7)",
+          "url": "https://www.franchisechatter.com/2025/06/30/once-upon-a-child-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2024,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 5,
+          "source": "Franchise Chatter 2025 review (2024 FDD Item 6)",
+          "url": "https://www.franchisechatter.com/2025/06/30/once-upon-a-child-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2024,
+          "confidence": "high",
+          "note": "5% of gross sales, paid weekly."
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "Franchise Chatter 2025 review (2024 FDD Item 6)",
+          "url": "https://www.franchisechatter.com/2025/06/30/once-upon-a-child-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "Up to 2% of gross sales IF Winmark imposes an advertising fee; currently franchisees pay a $1,500/yr marketing fee plus a 5% of gross sales local-marketing minimum (combined with cooperative advertising)."
+        },
+        "avgUnitRevenue": {
+          "value": 1242127,
+          "source": "Franchise Chatter 2025 review (2024 FDD Item 19)",
+          "url": "https://www.franchisechatter.com/2025/06/30/once-upon-a-child-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Average gross sales of 395 franchised stores open 12+ months under same ownership (median $1,127,506); Item 19 also reports 66.77% average gross profit margin before operating expenses."
+        },
+        "totalUnits": {
+          "value": 430,
+          "source": "Franchise Chatter 2025 review (2024 FDD Item 20)",
+          "url": "https://www.franchisechatter.com/2025/06/30/once-upon-a-child-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2024,
+          "confidence": "high",
+          "note": "All 430 units franchised, zero company-owned, at end of 2024 (US and Canada); Entrepreneur's 2026 directory lists 439."
+        },
+        "yearFounded": {
+          "value": 1984,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/once-upon-a-child/282652",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1992,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/once-upon-a-child/282652",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Founders sold franchise rights to Winmark (then Grow Biz International) in 1992."
+        },
+        "employeesRequired": {
+          "value": 15,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/once-upon-a-child/282652",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 15-20 employees required."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/once-upon-a-child/282652",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/once-upon-a-child/282652",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/once-upon-a-child/282652",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/once-upon-a-child/282652",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "Franchise Chatter 2025 review (2024 FDD Item 5)",
+          "url": "https://www.franchisechatter.com/2025/06/30/once-upon-a-child-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Discounted $15,000 franchise fee for second and subsequent stores."
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchise Chatter 2025 review (2024 FDD Item 20)",
+          "url": "https://www.franchisechatter.com/2025/06/30/once-upon-a-child-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Net unit growth of +14 (2024), +10 (2023), +5 (2022)."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Franchise Direct FDD library",
+          "url": "https://www.franchisedirect.com/retailfranchises/once-upon-a-child-franchise-13573/ufoc/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Franchise Chatter 2025 review (2024 FDD Item 19)",
+          "url": "https://www.franchisechatter.com/2025/06/30/once-upon-a-child-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2024,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "Pickleball Kingdom",
+      "slug": "pickleball-kingdom",
+      "category": "Entertainment & Recreation",
+      "website": "pickleballkingdom.com",
+      "notes": "Indoor pickleball club franchise founded 2022 and franchising since 2023; the largest indoor pickleball franchise network by awarded locations (350+ awarded as of late 2025), but the open-unit count is far smaller and the system is very young, so unit economics have a short track record.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Large gap between awarded and open locations",
+          "detail": "Pickleball Kingdom touts 350+ awarded locations (Nov 2025 press release), but Entrepreneur's directory lists only 31 open units and a tracking site counted roughly a dozen open clubs as of May 2025. Most of the system is unbuilt pipeline; buyers should verify open-club performance, not awarded counts.",
+          "source": "PR Newswire (company release) / Entrepreneur Franchise 500 directory",
+          "url": "https://www.prnewswire.com/news-releases/pickleball-kingdom-expands-with-nine-new-clubs-opening-by-the-end-of-2025-302621755.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Very young, capital-intensive concept",
+          "detail": "Founded 2022, franchising since 2023, with total investment up to roughly $2.26M for large-footprint indoor real estate. Limited operating history exists to validate long-term demand and unit-level returns in the fast-changing pickleball facility market.",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Aggressive expansion via master franchising and acquisitions",
+          "detail": "The company is expanding rapidly through statewide multi-unit deals (e.g., all of California), acquisitions of independent clubs (The Pickle Jar, NJ), and international master franchising (India). Rapid scaling can strain franchisor support infrastructure.",
+          "source": "PR Newswire / Franchising.com news",
+          "url": "https://www.franchising.com/news/20260424_pickleball_kingdom_accelerates_expansion_in_california_with_multiunit_bay_a.html",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+        "year": 2026,
+        "note": "Entrepreneur lists Pickleball Kingdom as seeking franchisees across the United States and internationally; active multi-unit deals announced in CA, NJ, FL, OH, UT, TX in 2025-2026."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 350000,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "franchiseFee": {
+          "value": 60000,
+          "source": "Entrepreneur Franchise 500 directory (2025 FDD)",
+          "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Standard single-unit fee; SharpSheets' 2025 FDD analysis matches."
+        },
+        "totalInvestmentMin": {
+          "value": 940000,
+          "source": "SharpSheets 2025 FDD analysis (Item 7)",
+          "url": "https://sharpsheets.io/blog/pickleball-kingdom-franchise-fdd-profits-costs/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "$940,000-$2,257,600 per 2025 FDD; multi-unit development agreement range is $1,030,000-$2,347,600."
+        },
+        "totalInvestmentMax": {
+          "value": 2257600,
+          "source": "SharpSheets 2025 FDD analysis (Item 7)",
+          "url": "https://sharpsheets.io/blog/pickleball-kingdom-franchise-fdd-profits-costs/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 7,
+          "source": "SharpSheets 2025 FDD analysis / Entrepreneur directory",
+          "url": "https://sharpsheets.io/blog/pickleball-kingdom-franchise-fdd-profits-costs/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "7% of gross sales."
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "totalUnits": {
+          "value": 31,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Open units per Entrepreneur; company separately claims 350+ awarded (sold but mostly not yet open) locations."
+        },
+        "yearFounded": {
+          "value": 2022,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "yearFranchising": {
+          "value": 2023,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "10% off franchise fee for veterans."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/pickleball-kingdom/335226407",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "SharpSheets 2025 FDD analysis / company expansion announcements",
+          "url": "https://sharpsheets.io/blog/pickleball-kingdom-franchise-fdd-profits-costs/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Multi-Unit Development Agreement offered in FDD; multiple multi-unit deals announced."
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "PR Newswire (company release)",
+          "url": "https://www.prnewswire.com/news-releases/pickleball-kingdom-expands-with-nine-new-clubs-opening-by-the-end-of-2025-302621755.html",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Nine clubs opening by end of 2025 plus five in January 2026; growth measured in openings, though most awarded units remain unopened."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "The FDD Exchange (2025 FDD on file)",
+          "url": "https://fddexchange.com/view-fdd-docs/pickleball-kingdom-2025-fdd-franchise-information-costs-and-fees/",
+          "year": 2025,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "GolfTEC",
+      "slug": "golftec",
+      "category": "Entertainment & Recreation",
+      "website": "golftec.com",
+      "notes": "World's largest golf-instruction brand (founded 1995, 200+ centers worldwide), but it is NOT currently selling new US franchises: its Franchising.com profile states it is not accepting new applicants, and the system is predominantly company-owned with only a handful of US franchised centers. Listed here for reference; availability omitted.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Not currently selling US franchises",
+          "detail": "GolfTEC's Franchising.com profile states 'GolfTEC is not currently accepting new applicants,' and its corporate site has no active franchise-recruitment page. Prospective buyers cannot currently obtain a new US franchise from this brand.",
+          "source": "Franchising.com",
+          "url": "https://www.franchising.com/golftec/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Predominantly corporate-owned; conflicting franchised-unit data",
+          "detail": "Third-party FDD trackers report sharply divergent unit counts (PeerSense: 6 franchised US units; FranchiseOverview: 25 company-owned and 0 franchised, down from ~183 total units in 2021), while the brand claims 200+ corporate and franchised centers worldwide. The US franchised footprint appears minimal and the domestic system has shifted toward corporate ownership.",
+          "source": "FranchiseOverview / PeerSense",
+          "url": "https://franchiseoverview.com/company/golftec",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "No Item 19 financial performance representation",
+          "detail": "GolfTEC's 2024 FDD contains no Item 19 earnings disclosure, so there is no franchisor-provided revenue or profit data for franchised centers. No pending litigation or bankruptcy is disclosed in the FDD.",
+          "source": "FranchiseOverview (2024 FDD)",
+          "url": "https://franchiseoverview.com/company/golftec",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "franchiseFee": {
+          "value": 35000,
+          "source": "FranchiseOverview (2024 FDD); corroborated by PeerSense",
+          "url": "https://franchiseoverview.com/company/golftec",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "Historical standard fee from the most recent public FDD; new US franchises are not currently being sold."
+        },
+        "royaltyPercent": {
+          "value": 5,
+          "source": "FranchiseOverview (2024 FDD); corroborated by PeerSense",
+          "url": "https://franchiseoverview.com/company/golftec",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "5% of gross revenue."
+        },
+        "adFundPercent": {
+          "value": 4,
+          "source": "FranchiseOverview (2024 FDD)",
+          "url": "https://franchiseoverview.com/company/golftec",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "Up to 4% of gross revenues (plus 0.8% of merchandise revenue, capped annually)."
+        },
+        "totalUnits": {
+          "value": 263,
+          "source": "PeerSense",
+          "url": "https://peersense.com/franchise/golftec",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "Worldwide locations (corporate and franchised, including international) as of August 2024; US franchised count is far smaller and third-party figures conflict (0-6 franchised)."
+        },
+        "yearFounded": {
+          "value": 1995,
+          "source": "GOLFTEC corporate site (About)",
+          "url": "https://www.golftec.com/about-golftec",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": false,
+          "source": "FranchiseOverview (2024 FDD)",
+          "url": "https://franchiseoverview.com/company/golftec",
+          "year": 2024,
+          "confidence": "high"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "The FDD Exchange / FranchiseOverview (2024 FDD on public registry)",
+          "url": "https://fddexchange.com/view-fdd-docs/golftec/",
+          "year": 2024,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": false,
+          "source": "FranchiseOverview unit history (2024 FDD)",
+          "url": "https://franchiseoverview.com/company/golftec",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "Refers to the US franchised system, which has contracted as the brand shifted to corporate ownership; the overall worldwide brand continues to operate 200+ centers."
+        }
+      }
+    },
+    {
+      "name": "Fairfield by Marriott",
+      "slug": "fairfield-by-marriott",
+      "category": "Hospitality",
+      "website": "marriott.com",
+      "notes": "Marriott International's select-service hotel flag, founded 1987; 1,153 hotels open in the US and Canada at end of 2023 (1,147 franchised) per the 2024 FDD. A nearly all-franchised, mature system with very high capital requirements typical of new-build hotel franchising; franchise development runs through hotel-development.marriott.com.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Parent-company data-breach litigation and regulatory actions",
+          "detail": "FDD Item 3 discloses extensive litigation tied to the 2018 Starwood reservation-database breach, including the consolidated MDL In re Marriott International Customer Data Security Breach Litigation (MDL No. 19-md-2879), City of Chicago enforcement action, and investigations by all 50 state AGs, the FTC, and foreign regulators (UK ICO, Canada OPC, Australia OAIC).",
+          "source": "2024 Fairfield by Marriott Domestic FDD, Item 3",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-ff-fdd-3-31-2024.pdf",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Maryland-only arbitration and litigation",
+          "detail": "The FDD's state-mandated 'Special Risks' section highlights that franchisees must arbitrate certain disputes only in Maryland and litigate non-arbitrable disputes only in Maryland, which may raise dispute costs for out-of-state owners.",
+          "source": "2024 Fairfield by Marriott Domestic FDD, Special Risks page",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-ff-fdd-3-31-2024.pdf",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "20-year term, not renewable",
+          "detail": "Entrepreneur's directory lists the Fairfield franchise agreement as a 20-year term that is not renewable; continuing beyond the term requires a new agreement on then-current terms. Ongoing fees stack beyond the royalty (Program Services Contribution of 3.85% of gross room sales plus fixed per-room charges, Marriott Bonvoy loyalty charges, etc.).",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/fairfield-by-marriott/335226835",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory / Marriott domestic FDD",
+        "url": "https://www.entrepreneur.com/franchises/directory/fairfield-by-marriott/335226835",
+        "year": 2026,
+        "note": "Entrepreneur lists franchising opportunities available throughout the United States and internationally; Marriott issues a US-wide domestic FDD for the brand."
+      },
+      "fields": {
+        "franchiseFee": {
+          "value": 75000,
+          "source": "2024 Fairfield by Marriott Domestic FDD, Item 5",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-ff-fdd-3-31-2024.pdf",
+          "year": 2024,
+          "confidence": "high",
+          "note": "New-to-system application fee: $75,000 plus $400 per guestroom over 125 rooms. (Existing-hotel/transfer applications are the greater of $150,000 or $500/room - not the headline figure.)"
+        },
+        "totalInvestmentMin": {
+          "value": 11662400,
+          "source": "2024 Fairfield by Marriott Domestic FDD, cover page / Item 7",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-ff-fdd-3-31-2024.pdf",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Newly constructed prototypical 80-110 room hotel, EXCLUDING real estate, permits/impact fees, insurance, and contingencies."
+        },
+        "totalInvestmentMax": {
+          "value": 32831600,
+          "source": "2024 Fairfield by Marriott Domestic FDD, cover page / Item 7",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-ff-fdd-3-31-2024.pdf",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Upper end of the 120-150 room prototype range, excluding real estate."
+        },
+        "royaltyPercent": {
+          "value": 5.5,
+          "source": "2024 Fairfield by Marriott Domestic FDD, Item 6",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-ff-fdd-3-31-2024.pdf",
+          "year": 2024,
+          "confidence": "high",
+          "note": "5.5% of gross room sales (temporary reductions possible under development incentive programs)."
+        },
+        "adFundPercent": {
+          "value": 2.5,
+          "source": "2024 Fairfield by Marriott Domestic FDD, Item 6",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-ff-fdd-3-31-2024.pdf",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Marketing Fund contribution of 2.5% of gross room sales, included within a Program Services Contribution of 3.85% of gross room sales plus $7,000/year plus $135 per guestroom/year."
+        },
+        "totalUnits": {
+          "value": 1153,
+          "source": "2024 Fairfield by Marriott Domestic FDD, Items 19-20",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-ff-fdd-3-31-2024.pdf",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Open and operating in the US and Canada as of Dec 31, 2023: 1,147 franchised + 6 company-managed/leased. Entrepreneur's 2026 directory lists 1,344 units including international."
+        },
+        "yearFounded": {
+          "value": 1987,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/fairfield-by-marriott/335226835",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/fairfield-by-marriott/335226835",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Hotel franchises are typically investor-owned with third-party professional management."
+        },
+        "exclusiveTerritories": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/fairfield-by-marriott/335226835",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "2024 Fairfield by Marriott Domestic FDD, Item 5 (multi-unit discount table)",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-ff-fdd-3-31-2024.pdf",
+          "year": 2024,
+          "confidence": "high",
+          "note": "FDD provides multi-unit application-fee discounts; many Fairfield owners are multi-hotel groups."
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/fairfield-by-marriott/335226835",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/fairfield-by-marriott/335226835",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "2024 Fairfield by Marriott Domestic FDD, Item 20",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-ff-fdd-3-31-2024.pdf",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Net franchised-unit growth of +51 (2021), +30 (2022), +12 (2023)."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Marriott hotel development site (public FDD PDF)",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-ff-fdd-3-31-2024.pdf",
+          "year": 2024,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "2024 Fairfield by Marriott Domestic FDD, Item 19",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-ff-fdd-3-31-2024.pdf",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Item 19 reports ADR ($131.42), occupancy (69.2%), and RevPAR ($90.91) for 1,068 franchised hotels in 2023 - not whole-dollar average unit revenue, so avgUnitRevenue is omitted."
+        }
+      }
+    },
+    {
+      "name": "Scenthound",
+      "slug": "scenthound",
+      "category": "Pets",
+      "website": "scenthound.com",
+      "notes": "Membership-based dog wellness/grooming franchise founded 2015 (Jupiter, FL); one of the fastest-growing pet franchises with zero reported closures since franchising began and a 400+ unit pipeline across 32 states. Actively selling franchises via scenthoundfranchising.com, though it publishes no explicit state-by-state open-territory list, so availability is omitted pending direct confirmation.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High combined ongoing fee load",
+          "detail": "6% royalty plus up to 1.5% brand fund plus a required local advertising spend of 5.5% of gross revenue with a $25,000-$35,000 annual minimum - a total ongoing burden around 11.5%+ of revenue, which is high relative to a ~$453K median AUV.",
+          "source": "Franchise Chatter 2025 review (2025 FDD) / FranchisePayback",
+          "url": "https://www.franchisechatter.com/2025/06/27/scenthound-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "License sales outpacing openings; young system",
+          "detail": "124 licenses sold in 2025 versus 33 openings, with a 400+ unit pipeline across 32 states; the 2025 FDD Item 19 covers only 71 franchised units open a full 12 months, so most of the system has little operating history.",
+          "source": "Franchise Investor Data",
+          "url": "https://franchiseinvestordata.com/franchise/scenthound",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Wide unit-performance dispersion in Item 19",
+          "detail": "2025 FDD Item 19: average gross revenue $452,732 with top quartile at $690,195 and bottom quartile at $243,403; only 36 of 71 qualifying units reported net operating income (avg $86,279, 16.2% of revenue), so bottom-quartile economics may be thin after the ~11.5% fee load.",
+          "source": "Franchise Chatter 2025 review (2025 FDD Item 19)",
+          "url": "https://www.franchisechatter.com/2025/06/27/scenthound-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "franchiseFee": {
+          "value": 49900,
+          "source": "Franchise Chatter 2025 review (2025 FDD) / Entrepreneur directory",
+          "url": "https://www.franchisechatter.com/2025/06/27/scenthound-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "totalInvestmentMin": {
+          "value": 328099,
+          "source": "Franchise Chatter 2025 review (2025 FDD Item 7)",
+          "url": "https://www.franchisechatter.com/2025/06/27/scenthound-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "$328,099-$549,869 per 2025 FDD; Entrepreneur's 2026 listing shows a similar $322,999-$550,769 range from a newer filing."
+        },
+        "totalInvestmentMax": {
+          "value": 549869,
+          "source": "Franchise Chatter 2025 review (2025 FDD Item 7)",
+          "url": "https://www.franchisechatter.com/2025/06/27/scenthound-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "Franchise Chatter 2025 review (2025 FDD Item 6)",
+          "url": "https://www.franchisechatter.com/2025/06/27/scenthound-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "6% of gross revenue."
+        },
+        "adFundPercent": {
+          "value": 1.5,
+          "source": "Franchise Chatter 2025 review (2025 FDD Item 6)",
+          "url": "https://www.franchisechatter.com/2025/06/27/scenthound-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Brand fund of up to 1.5% of gross revenue; a separate required LOCAL ad spend of 5.5% of gross revenue ($25K-$35K/yr min/max) applies on top."
+        },
+        "avgUnitRevenue": {
+          "value": 452732,
+          "source": "Franchise Chatter 2025 review (2025 FDD Item 19)",
+          "url": "https://www.franchisechatter.com/2025/06/27/scenthound-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Average gross revenue of the 71 franchised 'Scenters' open the full 12 months of 2024 (top quartile $690,195 / bottom quartile $243,403); ~51% of revenue from memberships."
+        },
+        "totalUnits": {
+          "value": 167,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/scenthound/335644",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Per Entrepreneur's 2026 listing; the 2025 FDD reported 117 franchised + 5 company-owned at end of 2024."
+        },
+        "closureCount": {
+          "value": 0,
+          "source": "Franchise Investor Data",
+          "url": "https://franchiseinvestordata.com/franchise/scenthound",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Zero reported closures since franchising began (Dec 2020 first franchise opening); 5-year closure rate 0.0%."
+        },
+        "yearFounded": {
+          "value": 2015,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/scenthound/335644",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "employeesRequired": {
+          "value": 5,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/scenthound/335644",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/scenthound/335644",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "$5,000 off first-unit franchise fee for veterans."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/scenthound/335644",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/scenthound/335644",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/scenthound/335644",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/scenthound/335644",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "Franchise Times (multi-unit deal coverage) / Scenthound franchising site",
+          "url": "https://www.franchisetimes.com/franchise_news/former-orangetheory-owners-pivot-to-canine-care-with-scenthound/article_1a15322d-ca4c-4056-ab96-02cff2e2df19.html",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Heavy multi-unit participation; site advertises single-unit and multi-unit opportunities."
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchise Chatter 2025 review (2025 FDD Item 20)",
+          "url": "https://www.franchisechatter.com/2025/06/27/scenthound-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Franchised units grew 18 (2022) to 34 (2023) to 117 (2024); ranked #92 on Entrepreneur's 2026 Fastest-Growing Franchises."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "SharpSheets FDD analysis (2025 FDD)",
+          "url": "https://sharpsheets.io/blog/scenthound-franchise-fdd-profits-costs/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Franchise Chatter 2025 review (2025 FDD Item 19)",
+          "url": "https://www.franchisechatter.com/2025/06/27/scenthound-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025,
+          "confidence": "high"
+        }
+      }
+    }
+  ]
+}

@@ -137,3 +137,46 @@ export const verifyCode = action({
     });
   },
 });
+
+
+/** Sends a team/consultant invite email through CRMX. */
+export const sendInviteEmail = internalAction({
+  args: { email: v.string(), firstName: v.string(), role: v.string() },
+  handler: async (_ctx, args) => {
+    const token = process.env.GHL_PIT_TOKEN;
+    const locationId = process.env.GHL_LOCATION_ID;
+    if (!token || !locationId) return { sent: false, reason: "credentials_missing" };
+    const contactId = await upsertContact(token, locationId, {
+      email: args.email,
+      firstName: args.firstName,
+    });
+    if (!contactId) return { sent: false, reason: "contact_upsert_failed" };
+    const siteUrl = process.env.SITE_URL || "https://franchiseki-preview.vercel.app";
+    const roleLabel = args.role === "broker" ? "Consultant" : args.role.replace(/_/g, " ");
+    const res = await fetch(`${GHL}/conversations/messages`, {
+      method: "POST",
+      headers: headers(token),
+      body: JSON.stringify({
+        type: "Email",
+        contactId,
+        subject: `You're invited to FranchiseKI as a ${roleLabel}`,
+        html: `<div style="font-family:system-ui,sans-serif;max-width:480px;margin:0 auto;padding:24px;">
+  <div style="background:#0f1f3d;border-radius:12px 12px 0 0;padding:18px 24px;">
+    <span style="color:#ffffff;font-weight:700;letter-spacing:2px;">FRANCHISE<span style="color:#d4a857;">KI</span></span>
+  </div>
+  <div style="border:1px solid #e2e8f0;border-top:none;border-radius:0 0 12px 12px;padding:28px 24px;background:#ffffff;">
+    <p style="margin:0 0 8px;color:#0f172a;">Hi ${args.firstName},</p>
+    <p style="margin:0 0 20px;color:#475569;">You've been invited to join FranchiseKI as a <strong>${roleLabel}</strong>. Create your account with this email address and your access will be ready the moment you sign in.</p>
+    <div style="text-align:center;margin:24px 0;">
+      <a href="${siteUrl}/get-started" style="background:#0f1f3d;color:#ffffff;text-decoration:none;padding:12px 28px;border-radius:8px;font-weight:600;display:inline-block;">Accept Invite</a>
+    </div>
+    <p style="margin:20px 0 0;color:#94a3b8;font-size:13px;">Use ${args.email} when you sign up — the invite is tied to this address.</p>
+  </div>
+</div>`,
+      }),
+    });
+    const ok = res.ok;
+    if (!ok) console.error("[invite] email send failed", res.status);
+    return { sent: ok };
+  },
+});

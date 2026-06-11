@@ -1,0 +1,370 @@
+{
+  "brands": [
+    {
+      "name": "PuroClean",
+      "slug": "puroclean",
+      "category": "Home Services",
+      "website": "puroclean.com",
+      "notes": "Property damage restoration franchise (water, fire, mold, biohazard) actively selling US franchises; surpassed 500 North American locations in 2025. Founded 1990 (franchising since 1991); rebranded as PuroClean in 2001, which the franchisor celebrates as the brand's founding.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Royalty starts high at 10% on mitigation services",
+          "detail": "Per the 2025 FDD, royalty is 3% to 10% of gross receipts for mitigation services (scaling with volume) plus 3% on reconstruction, with minimum monthly royalties rising from $400 in year 1 to $2,500 in year 5 - the 10% entry rate is above typical home-services royalty norms of 5-8%.",
+          "source": "Franchise Chatter (PuroClean Franchise Review 2025, citing 2025 FDD Items 5-6)",
+          "url": "https://www.franchisechatter.com/2025/12/19/puroclean-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Historical franchisee-relations turmoil acknowledged by leadership",
+          "detail": "Franchise Times documented that when COO (later CEO) Steve White joined in 2013, PuroClean's franchisee relationship 'was a mess,' with franchisees feeling prior leadership made empty promises; the article frames it as a since-completed turnaround.",
+          "source": "Franchise Times, 'Turning Around a Franchise Relationship in Turmoil'",
+          "url": "https://www.franchisetimes.com/franchise_news/turning-around-a-franchise-relationship-in-turmoil/article_97620698-81c1-11eb-8c86-a72479bc9f7a.html",
+          "year": 2021
+        },
+        {
+          "severity": "info",
+          "title": "Customer-level complaints about some local franchise units",
+          "detail": "Consumer review sites (PissedConsumer, 1.6 stars from 26 reviews) report complaints against individual PuroClean units including overbilling, unfinished work, and damaged belongings; these are customer (not franchisee) complaints at independently owned locations.",
+          "source": "PissedConsumer - PuroClean reviews",
+          "url": "https://puroclean.pissedconsumer.com/review.html",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory - PuroClean (seeking new franchisees in all 50 states plus DC, Canada and Puerto Rico)",
+        "url": "https://www.entrepreneur.com/franchises/directory/puroclean/282733",
+        "year": 2026,
+        "note": "Entrepreneur lists PuroClean as seeking franchisees in all 50 US states plus DC."
+      },
+      "fields": {
+        "liquidCapitalMin": { "value": 70000, "source": "https://www.entrepreneur.com/franchises/directory/puroclean/282733", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists $70,000 liquid capital; some directories (Franchise Gator) cite $100,000." },
+        "totalInvestmentMin": { "value": 233503, "source": "https://www.entrepreneur.com/franchises/directory/puroclean/282733", "year": 2026, "confidence": "high", "note": "Full purchase of vehicle/equipment per 2025 FDD; with financed vehicle/equipment options the range drops to $101,280-$137,145." },
+        "totalInvestmentMax": { "value": 277118, "source": "https://www.entrepreneur.com/franchises/directory/puroclean/282733", "year": 2026, "confidence": "high" },
+        "franchiseFee": { "value": 59000, "source": "https://www.franchisechatter.com/2025/12/19/puroclean-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Standard initial franchise fee per 2025 FDD." },
+        "royaltyPercent": { "value": 10, "source": "https://www.franchisechatter.com/2025/12/19/puroclean-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Entry rate on mitigation services; scales down to 3% with volume, and reconstruction services are 3%. Minimum monthly royalty $400 (yr 1) to $2,500 (yr 5) per 2025 FDD." },
+        "adFundPercent": { "value": 2, "source": "https://www.franchisechatter.com/2025/12/19/puroclean-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2% of gross receipts marketing fee per 2025 FDD." },
+        "avgUnitRevenue": { "value": 953564, "source": "https://www.franchisechatter.com/2025/12/19/puroclean-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2025 FDD Item 19: average 2024 gross sales of 387 reporting franchisees (median $519,934); franchisees open 7+ years averaged $1,420,870." },
+        "totalUnits": { "value": 411, "source": "https://www.franchisechatter.com/2025/12/19/puroclean-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "US franchised units at end of 2024 per 2025 FDD (zero company-owned); system passed 500 total North American locations in Sept 2025 per franchisor PR (prnewswire.com/news-releases/puroclean-reaches-500-unit-milestone-fueled-by-people-first-leadership-and-relentless-customer-service-302556567.html)." },
+        "yearFounded": { "value": 1990, "source": "https://www.entrepreneur.com/franchises/directory/puroclean/282733", "year": 2026, "confidence": "medium", "note": "Per Entrepreneur; the PuroClean brand itself launched in 2001 (franchisor celebrated 25 years in 2026 per franchise.org)." },
+        "yearFranchising": { "value": 1991, "source": "https://www.entrepreneur.com/franchises/directory/puroclean/282733", "year": 2026, "confidence": "medium" },
+        "employeesRequired": { "value": 2, "source": "https://www.entrepreneur.com/franchises/directory/puroclean/282733", "year": 2026, "confidence": "high", "note": "Minimum number of employees per Entrepreneur listing." },
+        "fddAvailable": { "value": true, "source": "https://www.franchisechatter.com/2025/12/19/puroclean-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high" },
+        "item19Available": { "value": true, "source": "https://www.franchisechatter.com/2025/12/19/puroclean-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high" },
+        "veteranDiscount": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/puroclean/282733", "year": 2026, "confidence": "high", "note": "25% off franchise fee for veterans." },
+        "exclusiveTerritories": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/puroclean/282733", "year": 2026, "confidence": "high" },
+        "absenteeOwnership": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/puroclean/282733", "year": 2026, "confidence": "high" },
+        "canRunFromHome": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/puroclean/282733", "year": 2026, "confidence": "high" },
+        "canRunPartTime": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/puroclean/282733", "year": 2026, "confidence": "high" },
+        "isGrowing": { "value": true, "source": "https://www.prnewswire.com/news-releases/puroclean-reaches-500-unit-milestone-fueled-by-people-first-leadership-and-relentless-customer-service-302556567.html", "year": 2025, "confidence": "high", "note": "Net unit growth every year 2022-2024 per FDD (+39, +52, +9) and 500-unit North American milestone reached in 2025." }
+      }
+    },
+    {
+      "name": "Chem-Dry",
+      "slug": "chem-dry",
+      "category": "Home Services",
+      "website": "chemdry.com",
+      "notes": "Carpet and upholstery cleaning franchise (Harris Research / BELFOR Franchise Group), actively selling US franchises with a low entry cost and a flat monthly royalty of $479.50 per license (not a percentage) plus a $160/month brand fund fee per the 2025 FDD. The US system has contracted sharply in recent years.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Sustained US system contraction (~35% in three years)",
+          "detail": "Per FDD Item 20 data, US franchises fell from 1,692 at the start of 2022 to 1,099 at the end of 2024 (net -255 in 2022, -153 in 2023, -185 in 2024).",
+          "source": "Franchise Chatter (Chem-Dry Franchise Review 2025, citing 2025 FDD)",
+          "url": "https://www.franchisechatter.com/2025/11/09/chem-dry-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Elevated franchisor litigation load reported",
+          "detail": "FDD-tracking site FranchiseInvestorData flags 16 active litigation cases disclosed in Chem-Dry's FDD Item 3, which it characterizes as well above average and suggestive of franchisor-franchisee conflict.",
+          "source": "FranchiseInvestorData - Chem-Dry",
+          "url": "https://franchiseinvestordata.com/franchise/chem-dry",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Long-running franchisee complaints about saturation and resale value",
+          "detail": "UnhappyFranchisee has published franchisee-submitted warnings alleging oversaturated territories, intra-brand price wars, franchise terminations over technical issues after ownership changes, pressure to buy equipment/chemicals, and little-to-no franchise resale value.",
+          "source": "UnhappyFranchisee - Chem-Dry Franchise Warning / Complaints",
+          "url": "https://www.unhappyfranchisee.com/chem-dry-franchise-warning/",
+          "year": 2014
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory - Chem-Dry Carpet & Upholstery Cleaning (franchising in the United States and internationally)",
+        "url": "https://www.entrepreneur.com/franchises/directory/chem-dry-carpet-upholstery-cleaning/282193",
+        "year": 2025,
+        "note": "Entrepreneur lists US-wide availability; franchisor's recruitment site (chemdryfranchise.com) is actively soliciting US candidates but does not publish a state-by-state map."
+      },
+      "fields": {
+        "liquidCapitalMin": { "value": 50000, "source": "https://www.chemdryfranchise.com/", "year": 2026, "confidence": "high", "note": "Franchisor recruitment site; also lists $250,000 net worth." },
+        "totalInvestmentMin": { "value": 67600, "source": "https://www.franchisechatter.com/2025/11/09/chem-dry-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": "2025 FDD Item 7 ($67,600-$207,295); franchisor website quotes $92,150-$249,500." },
+        "totalInvestmentMax": { "value": 207295, "source": "https://www.franchisechatter.com/2025/11/09/chem-dry-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": "Range driven mainly by vehicle purchase vs lease (vehicle line item $0-$81,450)." },
+        "franchiseFee": { "value": 23500, "source": "https://www.franchisechatter.com/2025/11/09/chem-dry-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "medium", "note": "Initial license fee per 2025 FDD; franchisor website quotes a $36,000 franchise fee, which appears to bundle additional initial charges (FDD total initial fee approx $57,500 including startup package)." },
+        "adFundPercent": { "value": 0, "source": "https://www.franchisechatter.com/2025/11/09/chem-dry-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "No percentage ad fund: brand marketing fund is a flat $160/month per 2025 FDD. Royalty is likewise a flat $479.50/month per license, not a percentage." },
+        "avgUnitRevenue": { "value": 119966, "source": "https://www.franchisechatter.com/2025/11/09/chem-dry-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2025 FDD Item 19: average revenue per franchise license (median $99,609) across 250 reporting franchisees operating 665 licenses for 1+ year; average revenue per OWNER was $319,109 because owners typically hold multiple licenses." },
+        "totalUnits": { "value": 1099, "source": "https://www.franchisechatter.com/2025/11/09/chem-dry-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "US franchises at end of 2024 per 2025 FDD; Entrepreneur lists 1,545 including international." },
+        "closureCount": { "value": 185, "source": "https://www.franchisechatter.com/2025/11/09/chem-dry-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Net US franchise decline during 2024 (1,284 to 1,099) per FDD Item 20." },
+        "yearFounded": { "value": 1977, "source": "https://www.entrepreneur.com/franchises/directory/chem-dry-carpet-upholstery-cleaning/282193", "year": 2025, "confidence": "high" },
+        "yearFranchising": { "value": 1978, "source": "https://www.entrepreneur.com/franchises/directory/chem-dry-carpet-upholstery-cleaning/282193", "year": 2025, "confidence": "high" },
+        "fddAvailable": { "value": true, "source": "https://www.franchisechatter.com/2025/11/09/chem-dry-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high" },
+        "item19Available": { "value": true, "source": "https://www.franchisechatter.com/2025/11/09/chem-dry-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high" },
+        "veteranDiscount": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/chem-dry-carpet-upholstery-cleaning/282193", "year": 2025, "confidence": "high", "note": "20% off franchise fee for veterans." },
+        "exclusiveTerritories": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/chem-dry-carpet-upholstery-cleaning/282193", "year": 2025, "confidence": "medium", "note": "Entrepreneur lists exclusive territories as available; note franchisee complaints allege historical territory oversaturation." },
+        "absenteeOwnership": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/chem-dry-carpet-upholstery-cleaning/282193", "year": 2025, "confidence": "high" },
+        "canRunFromHome": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/chem-dry-carpet-upholstery-cleaning/282193", "year": 2025, "confidence": "high", "note": "Can be run from home / mobile unit per Entrepreneur." },
+        "canRunPartTime": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/chem-dry-carpet-upholstery-cleaning/282193", "year": 2025, "confidence": "high" },
+        "isGrowing": { "value": false, "source": "https://www.franchisechatter.com/2025/11/09/chem-dry-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "US unit count declined every year 2022-2024 per FDD Item 20." }
+      }
+    },
+    {
+      "name": "Pillar To Post Home Inspectors",
+      "slug": "pillar-to-post-home-inspectors",
+      "category": "Home Services",
+      "website": "pillartopost.com",
+      "notes": "Home inspection franchise founded and franchising since 1994, actively selling US franchises nationwide. The US unit count has been declining alongside the slow resale housing market.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Declining unit count",
+          "detail": "FDD-derived trackers show 376 US franchised units in the 2025 FDD with roughly -14% year-over-year change, and Entrepreneur's 2026 listing shows 435 total units (incl. Canada) with a -22% three-year growth rate - consistent with contraction tied to low US home-sale volumes.",
+          "source": "FranchisePayback - Pillar To Post Home Inspectors (2025 FDD data); Entrepreneur directory",
+          "url": "https://www.franchisepayback.com/franchise/pillar-to-post-home-inspectors",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Customer complaints over missed defects at local units",
+          "detail": "Consumer complaint sites document customers alleging inspectors missed mold, termite, water-damage, HVAC and plumbing problems costing thousands in repairs; these are customer claims against independently owned franchises, and at least one related breach-of-inspection-agreement case (Sullivan-Parry v Pillar to Post, NY 2007) reached court.",
+          "source": "PissedConsumer - Pillar To Post reviews; Justia (Sullivan-Parry v Pillar to Post Inc., 2007)",
+          "url": "https://pillar-to-post.pissedconsumer.com/review.html",
+          "year": 2007
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory - Pillar To Post Home Inspectors (seeking franchisees in all 50 states plus DC)",
+        "url": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691",
+        "year": 2026,
+        "note": "Entrepreneur lists nationwide availability across all 50 states plus DC."
+      },
+      "fields": {
+        "liquidCapitalMin": { "value": 60000, "source": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691", "year": 2026, "confidence": "high", "note": "Net worth requirement $200,000." },
+        "totalInvestmentMin": { "value": 102690, "source": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691", "year": 2026, "confidence": "high", "note": "Per 2025 FDD Item 7." },
+        "totalInvestmentMax": { "value": 134290, "source": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691", "year": 2026, "confidence": "high" },
+        "franchiseFee": { "value": 58500, "source": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691", "year": 2026, "confidence": "high" },
+        "royaltyPercent": { "value": 7, "source": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691", "year": 2026, "confidence": "high", "note": "7% of gross revenue." },
+        "adFundPercent": { "value": 4, "source": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691", "year": 2026, "confidence": "high", "note": "4% of gross revenue marketing/advertising fee - high relative to the 1-2% typical of many service brands." },
+        "avgUnitRevenue": { "value": 351000, "source": "https://www.franchisepayback.com/franchise/pillar-to-post-home-inspectors", "year": 2025, "confidence": "medium", "note": "Average revenue per franchise (AUV) as derived from the 2025 FDD Item 19 by FranchisePayback; verify the exact Item 19 methodology in the FDD before relying on it." },
+        "totalUnits": { "value": 376, "source": "https://www.franchisepayback.com/franchise/pillar-to-post-home-inspectors", "year": 2025, "confidence": "medium", "note": "US franchised units per 2025 FDD (0 company-owned); Entrepreneur lists 435 units including Canada." },
+        "yearFounded": { "value": 1994, "source": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691", "year": 2026, "confidence": "high" },
+        "yearFranchising": { "value": 1994, "source": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691", "year": 2026, "confidence": "high" },
+        "fddAvailable": { "value": true, "source": "https://fddexchange.com/view-fdd-docs/pillar-to-post-non-exclusive-territory-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high" },
+        "item19Available": { "value": true, "source": "https://www.franchisepayback.com/franchise/pillar-to-post-home-inspectors", "year": 2025, "confidence": "medium" },
+        "veteranDiscount": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691", "year": 2026, "confidence": "high", "note": "20% off franchise fee." },
+        "absenteeOwnership": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691", "year": 2026, "confidence": "high" },
+        "canRunFromHome": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691", "year": 2026, "confidence": "high" },
+        "canRunPartTime": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/pillar-to-post-home-inspectors/282691", "year": 2026, "confidence": "high" },
+        "isGrowing": { "value": false, "source": "https://www.franchisepayback.com/franchise/pillar-to-post-home-inspectors", "year": 2025, "confidence": "high", "note": "Unit count declining (approx -14% YoY per 2025 FDD data; -22% multi-year per Entrepreneur)." }
+      }
+    },
+    {
+      "name": "Restore Hyper Wellness",
+      "slug": "restore-hyper-wellness",
+      "category": "Health & Wellness",
+      "website": "restore.com",
+      "notes": "Wellness-studio franchise (cryotherapy, IV drips, red light, compression) actively franchising in the US via franchise.restore.com, but only in selected expansion markets shown on its territory map rather than an explicit nationwide offer. High investment, recent net unit contraction, franchisee litigation, and a state regulatory consent order warrant careful diligence.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Franchisee lawsuits and Maryland regulatory consent order",
+          "detail": "Litigation trackers report active breach-of-contract/misrepresentation suits by former franchisees in Tennessee and Colorado, and a Maryland Attorney General consent order over unregistered franchise offers - an enforcement action indicating franchise-registration compliance lapses.",
+          "source": "FranchiseVerdict litigation tracker (3 cases) and Lawfold lawsuit summary",
+          "url": "https://franchiseverdict.com/brand/restore-hyper-wellness/litigation",
+          "year": 2024
+        },
+        {
+          "severity": "red",
+          "title": "Net unit contraction with 18 permanent closures in 2024",
+          "detail": "Per 2025 FDD Item 20 data, franchised units fell from 214 to 209 during 2024 including 18 permanent closures, and company-owned units fell from 17 to 12, after years of rapid expansion that outpaced revenue.",
+          "source": "Franchise Chatter (Restore Hyper Wellness Franchise Review 2025, citing 2025 FDD)",
+          "url": "https://www.franchisechatter.com/2025/11/27/restore-hyper-wellness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee bankruptcies reported in Colorado",
+          "detail": "BusinessDen reported that Restore Hyper Wellness franchise locations in Cherry Creek (Denver) and Boulder, Colorado went bankrupt in early 2024, leaving members with unused prepaid services.",
+          "source": "BusinessDen, 'Cryotherapy spas in Cherry Creek, Boulder go bankrupt'",
+          "url": "https://businessden.com/2024/01/29/cryotherapy-spas-in-cherry-creek-boulder-go-bankrupt/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Corporate layoffs and franchisee-support complaints",
+          "detail": "Glassdoor reviews describe multiple rounds of corporate layoffs, and franchisee/employee reviews allege candidates were misled on opening costs and that franchisee support was inadequate during the 2023-2024 financial stress period.",
+          "source": "Glassdoor - Restore Hyper Wellness layoff reviews",
+          "url": "https://www.glassdoor.com/Reviews/Restore-Hyper-Wellness-layoff-Reviews-EI_IE2042864.0,22_KH23,29.htm",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": { "value": 300000, "source": "https://franchise.restore.com/investment", "year": 2026, "confidence": "high", "note": "Franchisor's stated liquidity requirement ($300k) with $1M net worth; Entrepreneur lists $400k liquid / $1.5M net worth." },
+        "totalInvestmentMin": { "value": 777174, "source": "https://www.franchisechatter.com/2025/11/27/restore-hyper-wellness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2025 FDD Item 7 for a single studio; franchisor website currently quotes $817,674-$1,289,925." },
+        "totalInvestmentMax": { "value": 1323425, "source": "https://www.franchisechatter.com/2025/11/27/restore-hyper-wellness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high" },
+        "franchiseFee": { "value": 44500, "source": "https://franchise.restore.com/investment", "year": 2026, "confidence": "high" },
+        "royaltyPercent": { "value": 7, "source": "https://franchise.restore.com/investment", "year": 2026, "confidence": "high", "note": "7% of gross sales with a $3,500 minimum monthly royalty beginning in month 13; some FDD summaries cite a 7-8% range." },
+        "adFundPercent": { "value": 2, "source": "https://franchise.restore.com/investment", "year": 2026, "confidence": "high", "note": "2% brand fund." },
+        "avgUnitRevenue": { "value": 911516, "source": "https://www.franchisechatter.com/2025/11/27/restore-hyper-wellness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2025 FDD Item 19: average 2024 gross sales of 198 franchised studios open 12+ months as of Dec 31, 2024 (median $850,994; range $135,740-$2,508,742). Gross sales, not profit." },
+        "totalUnits": { "value": 209, "source": "https://www.franchisechatter.com/2025/11/27/restore-hyper-wellness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Franchised units at end of 2024 per 2025 FDD, plus 12 company-owned (221 total)." },
+        "closureCount": { "value": 18, "source": "https://www.franchisechatter.com/2025/11/27/restore-hyper-wellness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Permanent franchise closures during 2024 per FDD Item 20." },
+        "yearFounded": { "value": 2014, "source": "https://www.entrepreneur.com/franchises/directory/restore-hyper-wellness/335630", "year": 2026, "confidence": "high" },
+        "yearFranchising": { "value": 2016, "source": "https://www.entrepreneur.com/franchises/directory/restore-hyper-wellness/335630", "year": 2026, "confidence": "high" },
+        "fddAvailable": { "value": true, "source": "https://fddexchange.com/restore-hyper-wellness-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high" },
+        "item19Available": { "value": true, "source": "https://www.franchisechatter.com/2025/11/27/restore-hyper-wellness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high" },
+        "veteranDiscount": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/restore-hyper-wellness/335630", "year": 2026, "confidence": "high", "note": "10% off franchise fee." },
+        "exclusiveTerritories": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/restore-hyper-wellness/335630", "year": 2026, "confidence": "high" },
+        "absenteeOwnership": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/restore-hyper-wellness/335630", "year": 2026, "confidence": "high" },
+        "canRunFromHome": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/restore-hyper-wellness/335630", "year": 2026, "confidence": "high" },
+        "canRunPartTime": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/restore-hyper-wellness/335630", "year": 2026, "confidence": "high" },
+        "multiUnitAvailable": { "value": true, "source": "https://fddexchange.com/restore-hyper-wellness-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high", "note": "Multi-Unit Development Agreements offered (3-20 studios; $933,674-$1,778,925 initial investment per 2025 FDD)." },
+        "isGrowing": { "value": false, "source": "https://www.franchisechatter.com/2025/11/27/restore-hyper-wellness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Net franchised unit change was -5 in 2024 after +47 in 2023; company-owned units also declined." }
+      }
+    },
+    {
+      "name": "Elements Massage",
+      "slug": "elements-massage",
+      "category": "Health & Wellness",
+      "website": "elementsmassage.com",
+      "notes": "Membership-based therapeutic massage studio franchise owned by WellBiz Brands, actively selling US franchises; the franchisor's territory page lists 25 states plus DC as fully available with remaining states at limited availability. Unit count has been roughly flat to slightly declining (around 240 studios).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Flat-to-declining unit count",
+          "detail": "FDD Item 20 data shows franchised studios slipping from 246 (end 2021) to 244 (end 2023), and Entrepreneur's current listing shows 241 units with a -1% growth rate - a mature system with no net growth.",
+          "source": "Franchise Chatter (Elements Massage 2024 FDD review); Entrepreneur directory",
+          "url": "https://www.franchisechatter.com/2024/07/08/fdd-talk-elements-massage-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Conflicting territory-protection information",
+          "detail": "Entrepreneur's listing states exclusive territories are NOT available and FDD analysts (Vetted Biz/FranchiseGrade) note Elements Massage does not offer territory protections, while the franchisor's own investment page markets 'exclusive territory rights' - prospective buyers should verify the actual protected-territory language in the FDD.",
+          "source": "Entrepreneur directory vs. elementsfranchise.com investment page",
+          "url": "https://www.entrepreneur.com/franchises/directory/elements-massage/329164",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Meaningful ongoing local ad spend obligation",
+          "detail": "Beyond the 6% royalty and 2% brand fund, franchisees must spend $2,000 per month on local advertising, raising the effective ongoing fee load.",
+          "source": "Elements Massage franchise investment page",
+          "url": "https://www.elementsfranchise.com/investment-information/",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        { "state": "CO", "status": "open", "note": "Listed as 'Available' on franchisor territory page; states not listed are 'Limited Availability'.", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "FL", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "ID", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "IL", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "IN", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "IA", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "KS", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "MI", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "MN", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "MO", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "MT", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "NE", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "NM", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "NY", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "NC", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "ND", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "OH", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "OK", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "OR", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "PA", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "SD", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "TX", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "WA", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "DC", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "WI", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 },
+        { "state": "WY", "status": "open", "source": "Elements Massage franchise territories page", "url": "https://www.elementsfranchise.com/available-territories/", "year": 2026 }
+      ],
+      "fields": {
+        "liquidCapitalMin": { "value": 150000, "source": "https://www.elementsfranchise.com/investment-information/", "year": 2026, "confidence": "high", "note": "Franchisor site lists $350,000 minimum net worth; Entrepreneur lists $600,000 net worth." },
+        "totalInvestmentMin": { "value": 515789, "source": "https://www.elementsfranchise.com/investment-information/", "year": 2026, "confidence": "high", "note": "Matches Entrepreneur and current FDD Item 7." },
+        "totalInvestmentMax": { "value": 729603, "source": "https://www.elementsfranchise.com/investment-information/", "year": 2026, "confidence": "high" },
+        "franchiseFee": { "value": 40000, "source": "https://www.elementsfranchise.com/investment-information/", "year": 2026, "confidence": "high", "note": "Multi-unit development fees range from $80,000 for two studios to $15,000/studio for 10+." },
+        "royaltyPercent": { "value": 6, "source": "https://www.elementsfranchise.com/investment-information/", "year": 2026, "confidence": "high", "note": "6% of gross receipts." },
+        "adFundPercent": { "value": 2, "source": "https://www.elementsfranchise.com/investment-information/", "year": 2026, "confidence": "high", "note": "2% brand marketing fund plus required $2,000/month local advertising spend." },
+        "avgUnitRevenue": { "value": 894425, "source": "https://www.franchisechatter.com/2024/07/08/fdd-talk-elements-massage-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high", "note": "2024 FDD Item 19: average 2023 gross revenue across 235 franchised studios open as of Jan 1, 2023 and operating all of 2023. Gross revenue, not profit." },
+        "totalUnits": { "value": 241, "source": "https://www.entrepreneur.com/franchises/directory/elements-massage/329164", "year": 2025, "confidence": "high", "note": "239-241 franchised studios plus 1 company-owned; 244 franchised per 2024 FDD." },
+        "yearFounded": { "value": 2000, "source": "https://www.entrepreneur.com/franchises/directory/elements-massage/329164", "year": 2025, "confidence": "high" },
+        "yearFranchising": { "value": 2006, "source": "https://www.entrepreneur.com/franchises/directory/elements-massage/329164", "year": 2025, "confidence": "high" },
+        "fddAvailable": { "value": true, "source": "https://fddexchange.com/view-fdd-docs/elements-massage-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high" },
+        "item19Available": { "value": true, "source": "https://www.franchisechatter.com/2024/07/08/fdd-talk-elements-massage-franchise-costs-fees-average-revenues-and-or-profits-2024-review/", "year": 2024, "confidence": "high" },
+        "veteranDiscount": { "value": true, "source": "https://www.elementsfranchise.com/investment-information/", "year": 2026, "confidence": "high", "note": "20% off initial franchise fee for qualifying veterans and minority candidates." },
+        "multiUnitAvailable": { "value": true, "source": "https://www.elementsfranchise.com/investment-information/", "year": 2026, "confidence": "high" },
+        "absenteeOwnership": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/elements-massage/329164", "year": 2025, "confidence": "high" },
+        "canRunFromHome": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/elements-massage/329164", "year": 2025, "confidence": "high" },
+        "canRunPartTime": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/elements-massage/329164", "year": 2025, "confidence": "high" },
+        "isGrowing": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/elements-massage/329164", "year": 2025, "confidence": "high", "note": "-1% unit growth; net unit change negative or flat each year 2021-2023 per FDD Item 20." }
+      }
+    },
+    {
+      "name": "SYNERGY HomeCare",
+      "slug": "synergy-homecare",
+      "category": "Health & Wellness",
+      "website": "synergyhomecare.com",
+      "notes": "Non-medical in-home care franchise founded in 2001 (franchising since 2005), actively selling franchises nationwide with consistent net unit growth (+48, +45, +51 units in 2022-2024) and strong Item 19 revenue figures. No franchisor-franchisee litigation surfaced in searches; analysts note its FDD reportedly discloses no lawsuits.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Mixed customer reviews at local agencies",
+          "detail": "Brand-wide Yelp reviews average 3.7 stars across 289 reviews, with some complaints about caregiver quality and training at certain independently owned locations; no franchisor-level litigation or regulatory actions were found in searches.",
+          "source": "Yelp brand reviews - Synergy HomeCare",
+          "url": "https://www.yelp.com/brands/synergy-homecare",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Royalty and marketing fees carry sales-quota-based minimums",
+          "detail": "The 5% royalty and 2% marketing fee are each subject to minimum payments tied to sales quotas, plus a $250/month advertising service fee, so low-revenue offices still owe fixed amounts.",
+          "source": "Franchise Chatter (Synergy HomeCare Franchise Review 2025, citing 2025 FDD)",
+          "url": "https://www.franchisechatter.com/2025/09/02/synergy-homecare-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "SYNERGY HomeCare franchise recruitment site ('Franchise opportunities are available nationwide.')",
+        "url": "https://synergyhomecarefranchise.com/",
+        "year": 2026,
+        "note": "Franchisor's own site states nationwide availability; Entrepreneur likewise lists opportunities throughout the United States."
+      },
+      "fields": {
+        "liquidCapitalMin": { "value": 50000, "source": "https://synergyhomecarefranchise.com/", "year": 2026, "confidence": "high", "note": "Franchisor site; $150,000 net worth requirement." },
+        "totalInvestmentMin": { "value": 78106, "source": "https://www.franchisechatter.com/2025/09/02/synergy-homecare-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2025 FDD Item 7 for one full Protected Territory; a 'Mini' territory starts at $51,856 and two full territories run up to $201,053." },
+        "totalInvestmentMax": { "value": 159053, "source": "https://www.franchisechatter.com/2025/09/02/synergy-homecare-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high" },
+        "franchiseFee": { "value": 52500, "source": "https://www.franchisechatter.com/2025/09/02/synergy-homecare-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Standard fee for one full Protected Territory per 2025 FDD; a 'Mini' territory is $26,250 and two full territories are $94,500." },
+        "royaltyPercent": { "value": 5, "source": "https://www.franchisechatter.com/2025/09/02/synergy-homecare-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "5% of gross sales, subject to quota-based minimums." },
+        "adFundPercent": { "value": 2, "source": "https://www.franchisechatter.com/2025/09/02/synergy-homecare-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2% of gross sales marketing fee plus $250/month advertising service fee." },
+        "avgUnitRevenue": { "value": 1303686, "source": "https://www.franchisechatter.com/2025/09/02/synergy-homecare-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "2025 FDD Item 19: average 2024 gross sales of 46 single-unit franchised businesses open 1+ year (median $985,921); multi-unit operations averaged $2,094,637. Gross sales, not profit (~51-52% reported gross margin)." },
+        "totalUnits": { "value": 550, "source": "https://www.franchisechatter.com/2025/09/02/synergy-homecare-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Franchised units at end of 2024 per 2025 FDD (0 company-owned); Entrepreneur currently lists 577." },
+        "yearFounded": { "value": 2001, "source": "https://www.entrepreneur.com/franchises/directory/synergy-homecare/321452", "year": 2026, "confidence": "high" },
+        "yearFranchising": { "value": 2005, "source": "https://www.entrepreneur.com/franchises/directory/synergy-homecare/321452", "year": 2026, "confidence": "high" },
+        "employeesRequired": { "value": 2, "source": "https://www.entrepreneur.com/franchises/directory/synergy-homecare/321452", "year": 2026, "confidence": "high", "note": "Minimum employees per Entrepreneur; caregivers hired as demand grows." },
+        "fddAvailable": { "value": true, "source": "https://fddexchange.com/view-fdd-docs/synergy-homecare-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high" },
+        "item19Available": { "value": true, "source": "https://www.franchisechatter.com/2025/09/02/synergy-homecare-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high" },
+        "veteranDiscount": { "value": true, "source": "https://synergyhomecarefranchise.com/", "year": 2026, "confidence": "high", "note": "15% off initial franchise fee for qualifying veterans." },
+        "exclusiveTerritories": { "value": true, "source": "https://www.entrepreneur.com/franchises/directory/synergy-homecare/321452", "year": 2026, "confidence": "high", "note": "Sold as Protected Territories." },
+        "multiUnitAvailable": { "value": true, "source": "https://www.franchisechatter.com/2025/09/02/synergy-homecare-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Two-territory packages offered in FDD; 121 of 167 Item 19 reporting operations were multi-territory." },
+        "absenteeOwnership": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/synergy-homecare/321452", "year": 2026, "confidence": "high" },
+        "canRunFromHome": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/synergy-homecare/321452", "year": 2026, "confidence": "high" },
+        "canRunPartTime": { "value": false, "source": "https://www.entrepreneur.com/franchises/directory/synergy-homecare/321452", "year": 2026, "confidence": "high" },
+        "isGrowing": { "value": true, "source": "https://www.franchisechatter.com/2025/09/02/synergy-homecare-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "Net unit growth of +48 (2022), +45 (2023), +51 (2024) per FDD Item 20; Entrepreneur shows +45.7% multi-year growth." }
+      }
+    }
+  ]
+}

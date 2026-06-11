@@ -1,0 +1,1014 @@
+{
+  "brands": [
+    {
+      "name": "Jet's Pizza",
+      "slug": "jets-pizza",
+      "category": "Food & Beverage",
+      "website": "jetspizza.com",
+      "notes": "Detroit-style pizza carryout/delivery franchise founded 1978 in Sterling Heights, MI, franchising since 1990; 450 US locations in 25 states at end of 2024 and growing. Unusual fee structure: royalty and advertising fund are charged as a percentage of 'Acquired Inventory' (cost of food/supplies purchased), not gross sales, and the FDD makes no Item 19 financial performance representations.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "No Item 19 financial performance representations",
+          "detail": "Jet's 2025 FDD explicitly makes no representations about past or future financial performance of franchised or company-owned outlets, so prospective franchisees cannot benchmark unit revenue from the FDD.",
+          "source": "Jet's Pizza 2025 Franchise Disclosure Document, Item 19",
+          "url": "https://www.restfinance.com/app/pdf/fdd/Jets-Pizza-2024.pdf",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Non-standard royalty base and minimum royalty regardless of sales",
+          "detail": "Royalty is 12% of 'Acquired Inventory' (cost of inventory/supplies purchased), minimum $1,200/month, and the General Advertising Fund fee can reach up to 10% of Acquired Inventory when combined with the technology fee. The FDD's state-mandated 'Special Risks' section highlights that minimum royalty payments are owed regardless of sales levels and that disputes must be litigated in Michigan.",
+          "source": "Jet's Pizza 2025 Franchise Disclosure Document, Special Risks and Item 6",
+          "url": "https://www.restfinance.com/app/pdf/fdd/Jets-Pizza-2024.pdf",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Litigation disclosed in FDD Item 3",
+          "detail": "Item 3 discloses Fekin v. Members of Kentucky #3, LLC et al. (Macomb County Circuit Court, Case No. 2021-001643-CB), a 2022 claim against Jet's, two franchisor-owned franchises and executives alleging oppressive conduct, breach of contract and breach of fiduciary duty related to plaintiff's ownership interest; related search reporting also notes a confidential 2022 promissory-note settlement ($222,250) and a settled Illinois BIPA employee-timekeeping class action (settled February 2022).",
+          "source": "Jet's Pizza 2025 Franchise Disclosure Document, Item 3",
+          "url": "https://www.restfinance.com/app/pdf/fdd/Jets-Pizza-2024.pdf",
+          "year": 2022
+        }
+      ],
+      "nationwide": {
+        "source": "Jet's Pizza official franchise page",
+        "url": "https://www.jetspizza.com/franchise/",
+        "year": 2026,
+        "note": "Franchise page advertises 'Available Territories across the United States' with current incentives; system operates 450 locations in 25 states."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 250000,
+          "source": "Jet's Pizza official franchise page ('$250k to $350K minimum cash or liquid assets')",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMin": {
+          "value": 572500,
+          "source": "Jet's Pizza 2025 Franchise Disclosure Document (restfinance.com), cover page",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "totalInvestmentMax": {
+          "value": 786000,
+          "source": "Jet's Pizza 2025 Franchise Disclosure Document (restfinance.com), cover page",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 30000,
+          "source": "Jet's Pizza 2025 Franchise Disclosure Document (restfinance.com), Item 5",
+          "year": 2025,
+          "confidence": "high",
+          "note": "$15,000 (50% off) for qualifying military veterans."
+        },
+        "royaltyPercent": {
+          "value": 12,
+          "source": "Jet's Pizza 2025 Franchise Disclosure Document (restfinance.com), Item 6",
+          "year": 2025,
+          "confidence": "high",
+          "note": "IMPORTANT: 12% of 'Acquired Inventory' (cost of food, supplies and packaging purchased), NOT of gross sales; minimum $1,200/month. Not directly comparable to sales-based royalties; third-party sites variously report 8-12% due to this structure."
+        },
+        "totalUnits": {
+          "value": 450,
+          "source": "Jet's Pizza 2025 Franchise Disclosure Document (restfinance.com), Item 20 Table 1 (394 franchised + 56 company/affiliate-owned at end of 2024)",
+          "year": 2024,
+          "confidence": "high"
+        },
+        "closureCount": {
+          "value": 3,
+          "source": "Jet's Pizza 2025 Franchise Disclosure Document (restfinance.com), Item 20 Table 3 (2024: 2 terminations + 1 non-renewal; 0 ceased operations for other reasons)",
+          "year": 2024,
+          "confidence": "high"
+        },
+        "yearFounded": {
+          "value": 1978,
+          "source": "Entrepreneur Franchise 500 directory (https://www.entrepreneur.com/franchises/directory/jets-pizza/282478); FDD Item 1 notes the original Jetts Party Shop & Pizzeria operating since 1978",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1990,
+          "source": "Jet's Pizza 2025 FDD Item 1 (Jet's America, Inc. incorporated June 8, 1990); Entrepreneur directory",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "Vetted Biz Jet's Pizza franchise analysis (https://www.vettedbiz.com/jets-pizza-franchise/) - initial training approximately two weeks at corporate HQ",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "employeesRequired": {
+          "value": 20,
+          "source": "Entrepreneur Franchise 500 directory (20-25 employees per location)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Jet's Pizza 2025 FDD publicly available via restfinance.com",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": false,
+          "source": "Jet's Pizza 2025 FDD Item 19 (no financial performance representations made)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Jet's Pizza 2025 FDD Item 5 and jetspizza.com/franchise (50% off franchise fee for honorably discharged veterans)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "Jet's Pizza 2025 FDD (Area Development Agreement for development of three stores, $75,000)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Jet's Pizza 2025 FDD Item 12 via sharpsheets.io (defined territory of 1.5 miles around location; 0.25 miles in NYC/Chicago); Entrepreneur directory lists exclusive territories available",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory (https://www.entrepreneur.com/franchises/directory/jets-pizza/282478)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Jet's Pizza 2025 FDD Item 20 Table 1 (total outlets 407 -> 422 -> 450 over 2022-2024, +28 net in 2024)",
+          "year": 2024,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "Freddy's Frozen Custard & Steakburgers",
+      "slug": "freddys-frozen-custard-steakburgers",
+      "category": "Food & Beverage",
+      "website": "freddys.com",
+      "notes": "Fast-casual steakburger and frozen custard chain founded 2002 in Wichita, KS, franchising since 2004, with 500+ US restaurants across 36 states and strong unit growth. Acquired by private equity firm Rhône in August 2025; royalty for new agreements signed on/after July 1, 2025 is 5% (up from 4.5%).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Large 31-unit franchisee filed Chapter 11 (November 2025)",
+          "detail": "M&M Custard LLC and 31 affiliates, an Overland Park, KS-based Freddy's franchisee operating 31 locations across IL, IN, KS, KY, MO and TN, filed for Chapter 11 listing $5.2M assets vs $27.7M liabilities and plans to close several locations; Freddy's corporate called it 'an unfortunate and isolated situation' not reflective of corporate stability.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_finance/large-freddy-s-frozen-custard-franchisee-files-for-bankruptcy/article_cf83f304-8aee-4701-a391-4b20bbf6a4de.html",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Royalty increased for new franchisees (4.5% to 5%)",
+          "detail": "Per the 2025 FDD, license agreements signed before July 1, 2025 pay 4.5% of gross receipts; agreements signed on or after July 1, 2025 pay 5%.",
+          "source": "Franchise Chatter review of Freddy's 2025 FDD",
+          "url": "https://www.franchisechatter.com/2025/09/04/freddys-frozen-custard-steakburgers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Private equity ownership change",
+          "detail": "Freddy's was acquired by PE firm Rhône from Thompson Street Capital Partners in August 2025; ownership transitions can bring changes to fees, support and development strategy.",
+          "source": "Franchise Chatter review of Freddy's 2025 FDD and news",
+          "url": "https://www.franchisechatter.com/2025/09/04/freddys-frozen-custard-steakburgers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Freddy's official franchising site, Available Markets page",
+        "url": "https://www.freddysfranchising.com/available-territories/",
+        "year": 2026,
+        "note": "Franchise development site solicits inquiries for all 50 US states plus DC and Puerto Rico (and Canada/international); currently operating in 36 states."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 400000,
+          "source": "Entrepreneur Franchise 500 directory (https://www.entrepreneur.com/franchises/directory/freddys-frozen-custard-steakburgers/329345); freddysfranchising.com qualification form asks for at least $400K liquid assets",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMin": {
+          "value": 785936,
+          "source": "Freddy's 2025 FDD via Franchise Chatter (In-Line Restaurant low end)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "In-Line $785,936-$1,198,665; End-Cap $1,277,598-$2,497,566; Standalone $1,487,598-$2,753,566."
+        },
+        "totalInvestmentMax": {
+          "value": 2753566,
+          "source": "Freddy's 2025 FDD via Franchise Chatter (Standalone Restaurant high end)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 35000,
+          "source": "Freddy's 2025 FDD via Franchise Chatter (https://www.franchisechatter.com/2025/09/04/freddys-frozen-custard-steakburgers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 5,
+          "source": "Freddy's 2025 FDD via Franchise Chatter",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Standard rate for new license agreements signed on or after July 1, 2025; agreements signed earlier pay 4.5% of gross receipts."
+        },
+        "adFundPercent": {
+          "value": 1.5,
+          "source": "Freddy's 2025 FDD via Franchise Chatter (National Marketing and Advertising Fund: 1.5% of gross receipts)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Entrepreneur lists ad royalty as 1.5%-3% including local advertising obligations."
+        },
+        "avgUnitRevenue": {
+          "value": 1860140,
+          "source": "Freddy's 2025 FDD Item 19 via Franchise Chatter",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Item 19: average annual gross receipts of the 463 franchised restaurants open the entire 2024 fiscal year; system-wide average (496 units) was $1,891,124 and company-owned average $2,325,836. Franchisor marketing separately cites $2,606,743 AUV for the top 25% of restaurants."
+        },
+        "totalUnits": {
+          "value": 565,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "2025 FDD reported 514 franchised + 36 company-owned at end of 2024; franchisor cites 580+ locations across 36 states in 2026."
+        },
+        "yearFounded": {
+          "value": 2002,
+          "source": "Entrepreneur Franchise 500 directory; Franchise Chatter FDD review",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2004,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Freddy's 2025 FDD summarized by FDD Exchange (https://fddexchange.com/freddys-frozen-custard-steakburgers-2025-fdd-franchise-information-costs-and-fees/) and Franchise Chatter",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Freddy's 2025 FDD Item 19 via Franchise Chatter and freddysfranchising.com (Item 19 of March 2025 FDD cited on franchise site)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory (veteran incentives listed as N/A)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "Freddy's multi-unit franchise development agreements announced via PR Newswire (https://www.prnewswire.com/news-releases/freddys-frozen-custard--steakburgers-strikes-3-franchise-deals-for-15-new-locations-302350398.html)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Freddy's 2025 FDD Item 20 via Franchise Chatter (franchised units 391 in 2022 -> 484 in 2023 -> 514 in 2024); IFA/PR Newswire report record franchise growth in 2025",
+          "year": 2025,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "Charleys Cheesesteaks",
+      "slug": "charleys-cheesesteaks",
+      "category": "Food & Beverage",
+      "website": "charleys.com",
+      "notes": "World's largest Philly cheesesteak franchise (also branded Charleys Philly Steaks / Charleys Cheesesteaks & Wings), founded 1986 near Ohio State University and franchising since 1991, with roughly 890 locations heavily weighted to malls, big-box stores, airports and military bases. Item 19 performance varies widely by venue type, and 16 franchised restaurants permanently closed in 2024.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "16 permanent franchise closures in 2024",
+          "detail": "Per the 2025 FDD Item 20, 16 franchised restaurants permanently closed and 38 temporarily closed during 2024, though the system still grew on net (761 to 813 total units); performance varies significantly by venue (airport locations averaged $1.27M vs $676K at military bases).",
+          "source": "Franchise Chatter review of Charleys 2025 FDD",
+          "url": "https://www.franchisechatter.com/2025/12/10/charleys-philly-steaks-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Historical franchisee litigation",
+          "detail": "Older FDD filings disclose franchisee suits, including Escape Enterprises, Ltd. (2004, tortious interference/unfair competition claims, settled out of court 2009 without admission of liability) and Washington State franchisee claims under the Washington Franchise Investment Law and Consumer Protection Act seeking $666,000 from franchisees who failed to open restaurants.",
+          "source": "Charleys (Gosh Enterprises) 2014 Franchise Disclosure Document, Item 3, via FDD Exchange",
+          "url": "https://fddexchange.com/wp-content/uploads/2015/02/Charley-Comlete-FDD-March-17-2014.pdf",
+          "year": 2014
+        },
+        {
+          "severity": "info",
+          "title": "No exclusive territories",
+          "detail": "Entrepreneur's directory lists exclusive territories as not available for Charleys franchisees; many units operate in non-traditional venues (malls, Walmart, airports, military bases) where landlord dynamics drive performance.",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/charleys-cheesesteaks-wings/282190",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory (seeking new franchisees throughout the United States); Charleys franchise development site",
+        "url": "https://www.entrepreneur.com/franchises/directory/charleys-cheesesteaks-wings/282190",
+        "year": 2026,
+        "note": "Franchise site (charleysfranchise.com) actively recruits in all 50 states and targets 1,000+ stores; 890+ locations open."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 175000,
+          "source": "Entrepreneur Franchise 500 directory; sharpsheets.io FDD summary",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMin": {
+          "value": 203736,
+          "source": "Charleys 2025 FDD Item 7 via Franchise Chatter and Entrepreneur",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Excludes real estate purchase; range varies widely by venue type (mall/in-line vs. drive-thru)."
+        },
+        "totalInvestmentMax": {
+          "value": 984732,
+          "source": "Entrepreneur Franchise 500 directory (2026); Franchise Chatter's 2025 FDD review cites $694,249 max for standard formats",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "franchiseFee": {
+          "value": 24500,
+          "source": "Charleys 2025 FDD via Franchise Chatter and sharpsheets.io",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Standard fee for first restaurant; $15,000 for second and subsequent restaurants."
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "Charleys 2025 FDD via Franchise Chatter (greater of $300/week or 6% of gross sales)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "Charleys 2025 FDD via Franchise Chatter (1% to Marketing Fund; additional 2% required local store marketing = 3% total advertising obligation)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "National fund contribution only; total advertising obligation is 3% of gross sales including required local marketing."
+        },
+        "avgUnitRevenue": {
+          "value": 911062,
+          "source": "Charleys 2025 FDD Item 19 via Franchise Chatter",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Item 19: average gross sales of the 641 franchised restaurants open the entire 2024 calendar year; median was $813,041. Airport units averaged $1.27M, military base units $676K."
+        },
+        "totalUnits": {
+          "value": 892,
+          "source": "Entrepreneur Franchise 500 directory (2026); 2025 FDD reported 813 total units (744 franchised + 69 company-owned) at end of 2024",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "closureCount": {
+          "value": 16,
+          "source": "Charleys 2025 FDD Item 20 via Franchise Chatter (16 franchised restaurants permanently closed in 2024)",
+          "year": 2024,
+          "confidence": "high"
+        },
+        "yearFounded": {
+          "value": 1986,
+          "source": "Entrepreneur Franchise 500 directory; charleys.com Our Story (first location at Ohio State University, 1986)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1991,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "employeesRequired": {
+          "value": 20,
+          "source": "Entrepreneur Franchise 500 directory (minimum of 20 employees per location)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "2025 FDD reviewed by Franchise Chatter; historical FDDs publicly available via FDD Exchange",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Charleys 2025 FDD Item 19 via Franchise Chatter",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory (50% off franchise fee for veterans)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "Charleys 2025 FDD via Franchise Chatter (reduced $15,000 fee for second and subsequent restaurants; over half of growth from existing franchisees per charleysfranchise.com)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "exclusiveTerritories": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Charleys 2025 FDD Item 20 via Franchise Chatter (672 total units end-2022 -> 761 end-2023 -> 813 end-2024)",
+          "year": 2024,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "Playa Bowls",
+      "slug": "playa-bowls",
+      "category": "Food & Beverage",
+      "website": "playabowls.com",
+      "notes": "Acai/pitaya superfruit bowl and smoothie chain founded 2014 in Belmar, NJ, franchising since 2016, grown to roughly 370-400+ locations with rapid PE-backed expansion (acquired by Sycamore Partners in September 2024). Simple no-cook operation in small ~1,000-1,500 sq ft footprints; franchisor says it has not yet opened in half of US states and is selling territories nationwide.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Private equity ownership change (Sycamore Partners)",
+          "detail": "Sycamore Partners acquired the then-250-unit chain from Tamarix Equity Partners and other investors in September 2024; PE ownership transitions can change fees, support and growth strategy. The brand grew sales 44% to $225M in 2023 and is targeting 500 units by 2027.",
+          "source": "Restaurant Business",
+          "url": "https://www.restaurantbusinessonline.com/financing/playa-bowls-acquired-private-equity-firm-sycamore-partners",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Young, very fast-growing franchise system",
+          "detail": "Franchising only since 2016, the system roughly tripled from 126 units (2021) to ~372+ (2026) and has signed 195 additional franchise commitments; rapid expansion under new ownership can strain franchisee support infrastructure and market selection discipline. Units are still concentrated in the Northeast (operating in 22 states as of 2024).",
+          "source": "Restaurant Business; Playa Bowls franchise site (195 franchise commitments)",
+          "url": "https://franchise.playabowls.com/playa-bowls-signs-195-franchise-commitments/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory (seeking franchisees nationwide); Playa Bowls franchise site",
+        "url": "https://www.entrepreneur.com/franchises/directory/playa-bowls/336830",
+        "year": 2026,
+        "note": "Franchisor states it is 'expanding nationwide with opportunities in key markets' and has not yet opened in 50% of US states (franchise.playabowls.com)."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 150000,
+          "source": "Playa Bowls franchise site (https://franchise.playabowls.com/) and Entrepreneur Franchise 500 directory ($150K liquid + $500K net worth to qualify)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMin": {
+          "value": 281960,
+          "source": "Playa Bowls franchise site investment summary (https://franchise.playabowls.com/a-valuable-investment/) and Entrepreneur directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor targets turnkey investment under $500,000."
+        },
+        "totalInvestmentMax": {
+          "value": 1055594,
+          "source": "Playa Bowls franchise site investment summary and Entrepreneur directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 35000,
+          "source": "Playa Bowls 2025 FDD via Vetted Biz (https://www.vettedbiz.com/franchises/playa-bowls); Entrepreneur directory",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "Playa Bowls 2025 FDD via Vetted Biz and sharpsheets.io",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "Playa Bowls 2025 FDD via Vetted Biz (2% of monthly sales to marketing fund)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Entrepreneur lists ad royalty as 2%-4% including local advertising obligations."
+        },
+        "avgUnitRevenue": {
+          "value": 1235948,
+          "source": "Playa Bowls 2025 FDD Item 19 via Vetted Biz",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Average yearly gross sales per Vetted Biz's analysis of the 2025 FDD; franchisor's own marketing cites $1,117,488 average sales (~$1,000/sq ft) and Entrepreneur/IFA cite $1.28M+ AUV for 2026."
+        },
+        "totalUnits": {
+          "value": 372,
+          "source": "Entrepreneur Franchise 500 directory (2026); franchisor site claims 'over 400 locations open' in 2026",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "yearFounded": {
+          "value": 2014,
+          "source": "Entrepreneur Franchise 500 directory; franchise.playabowls.com brand history (first location Belmar, NJ, 2014)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2016,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "Vetted Biz (two-week training program at Playa Bowls headquarters covering operations and brand standards)",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "employeesRequired": {
+          "value": 20,
+          "source": "Playa Bowls franchise site investment summary (20-30 employees, mostly part-time)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "minFootprint": {
+          "value": 1000,
+          "source": "Playa Bowls franchise site investment summary (locations of approximately 1,000-1,500 sq ft)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Playa Bowls 2025 FDD available via FranChimp (https://www.franchimp.com/?page=pdf&f=111797_2025.pdf) and reviewed by Vetted Biz",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Playa Bowls 2025 FDD Item 19 via Vetted Biz; franchisor publicly cites average unit sales on franchise site",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory (15% off franchise fee)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "Playa Bowls franchise site (60% of units owned by multi-unit franchisees; 60% of growth from existing franchisees expanding)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Restaurant Business (126 units in 2021 -> 250 in 2024); franchisor reports 400+ open in 2026 with 500 targeted by 2027",
+          "year": 2026,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "One Hour Heating & Air Conditioning",
+      "slug": "one-hour-heating-air-conditioning",
+      "category": "Home Services",
+      "website": "onehourheatandair.com",
+      "notes": "Residential HVAC service franchise founded 1999, franchising since 2003, part of the Authority Brands family (sister brand to Benjamin Franklin Plumbing and Mister Sparky), with 400+ protected territories of ~100,000 population each. Suits both new startups and conversions of existing HVAC businesses; minimum monthly royalty applies regardless of sales.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Franchisor-franchisee litigation (David Michael Plumbing, 2024)",
+          "detail": "Benjamin Franklin Franchising, One Hour Air Conditioning Franchising and Mister Sparky Franchising (Authority Brands affiliates) sued seven-agreement franchisee David Michael Plumbing for underreporting sales and underpaying royalties after terminating the agreements; the franchisee's counterclaims (promissory estoppel, Michigan Franchise Investment Law) failed in the E.D. Michigan (Case 2:24-cv-10286).",
+          "source": "Foley & Lardner LLP legal analysis",
+          "url": "https://www.foley.com/insights/publications/2024/09/franchisee-claims-promissory-estoppel-violations-mfil/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Very wide unit performance variance",
+          "detail": "Per the FDD Item 19 reviewed by Franchise Chatter, the top 25% of territories averaged about $3.37M in revenue while the bottom 25% averaged about $178K, indicating outcomes depend heavily on market and operator.",
+          "source": "Franchise Chatter review of One Hour Heating & Air Conditioning FDD",
+          "url": "https://www.franchisechatter.com/2025/04/17/one-hour-heating-air-conditioning-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Minimum royalty regardless of revenue",
+          "detail": "Royalty is the greater of 6% of gross revenue or $1,500 per month, so fees are owed even during slow periods or ramp-up.",
+          "source": "Franchise Chatter review of One Hour FDD",
+          "url": "https://www.franchisechatter.com/2025/04/17/one-hour-heating-air-conditioning-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "One Hour franchise development site, Available Territories page; Entrepreneur directory (franchising opportunities available nationwide)",
+        "url": "https://onehourheatandairfranchise.com/available-territories/",
+        "year": 2026,
+        "note": "Franchisor lists open territories across states nationwide and invites inquiries for any US area; offers made only via FDD with registration-state compliance."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 75000,
+          "source": "Entrepreneur Franchise 500 directory (https://www.entrepreneur.com/franchises/directory/one-hour-heating-air-conditioning/315756)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "totalInvestmentMin": {
+          "value": 143273,
+          "source": "One Hour franchise site FAQ citing Item 7 of the April 26, 2026 FDD (https://onehourheatandairfranchise.com/faqs/)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "New startup; converting an existing HVAC company has run lower (approx. $84,570-$204,824 per earlier FDD years)."
+        },
+        "totalInvestmentMax": {
+          "value": 286702,
+          "source": "One Hour franchise site FAQ citing Item 7 of the April 26, 2026 FDD",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 43000,
+          "source": "Entrepreneur Franchise 500 directory; Franchise Chatter FDD review (fee covers a territory of up to ~100,000 population)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "30% discount on franchise/territory fees for honorably discharged veterans; reduced fee programs reported for minority- and women-owned businesses."
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "Franchise Chatter FDD review; Entrepreneur directory (6% of gross revenue or $1,500/month minimum, whichever is greater)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 1.5,
+          "source": "Franchise Chatter FDD review; Entrepreneur directory ('up to 1.5%' of gross revenue, tiered down at higher revenue levels)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "avgUnitRevenue": {
+          "value": 4082652,
+          "source": "One Hour franchise site FAQ citing Item 19, Table 2 of the April 26, 2026 FDD",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Average gross revenue PER FRANCHISEE (many franchisees operate multiple territories), not per territory; Franchise Chatter's review of the prior FDD reported ~$1.07M average revenue per territory (FY2023, 322 territories)."
+        },
+        "totalUnits": {
+          "value": 431,
+          "source": "Entrepreneur Franchise 500 directory (2026); sharpsheets.io reports 439 total units (411 franchised + 28 company-owned) per the 2025 FDD",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "yearFounded": {
+          "value": 1999,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2003,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "employeesRequired": {
+          "value": 4,
+          "source": "Entrepreneur Franchise 500 directory (4-12 employees required to run a unit)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "April 26, 2026 FDD cited by franchisor FAQ; historical FDDs available via FranChimp",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "One Hour franchise site FAQ citing Item 19 of the April 26, 2026 FDD",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory (30% off first-unit franchise and additional population fees); Franchise Chatter FDD review",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "One Hour franchise site FAQ ('you can license multiple territories')",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "One Hour franchise site FAQ (protected marketing territory of approximately 100,000 individuals); Entrepreneur directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchise Chatter FDD review (franchised units 341 in 2021 -> 352 in 2022 -> 385 in 2023); Entrepreneur reports +14.9% unit growth",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "marketingSupport": {
+          "value": ["national brand advertising fund", "customizable marketing toolbox (online and on-demand)", "on-call one-on-one marketing coach", "locally optimized website"],
+          "source": "One Hour franchise site FAQ (https://onehourheatandairfranchise.com/faqs/)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "ongoingSupport": {
+          "value": ["training and business coaching", "enhanced buying power and vendor partnerships", "business management technology", "collaborative neighboring-franchise network"],
+          "source": "One Hour franchise site FAQ",
+          "year": 2026,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "Benjamin Franklin Plumbing",
+      "slug": "benjamin-franklin-plumbing",
+      "category": "Home Services",
+      "website": "benjaminfranklinplumbing.com",
+      "notes": "Residential plumbing service franchise ('The Punctual Plumber') founded 2000, franchising since 2001, part of Authority Brands (sister to One Hour Heating & Air Conditioning and Mister Sparky), with protected territories and nationwide availability. Strong recent unit growth, but franchisees owe a minimum monthly royalty and the recommended local marketing spend (8-12% of revenue) is substantial.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Franchisor-franchisee litigation (David Michael Plumbing, 2024)",
+          "detail": "Benjamin Franklin Franchising SPE LLC and affiliates sued seven-agreement franchisee David Michael Plumbing, Inc. in the E.D. Michigan (Case 2:24-cv-10286) for underreporting sales and underpaying royalties and ad fees after termination; the franchisee's counterclaims for promissory estoppel and Michigan Franchise Investment Law violations failed.",
+          "source": "Foley & Lardner LLP legal analysis; PacerMonitor docket",
+          "url": "https://www.foley.com/insights/publications/2024/09/franchisee-claims-promissory-estoppel-violations-mfil/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "High recommended local marketing spend",
+          "detail": "Beyond the ~1.5% national ad fund contribution, the franchisor recommends franchisees spend 8-12% of gross revenue on local marketing, a significant ongoing cost burden relative to home-service norms.",
+          "source": "Franchise Chatter review of Benjamin Franklin Plumbing FDD",
+          "url": "https://www.franchisechatter.com/2025/05/22/benjamin-franklin-plumbing-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Minimum royalty regardless of revenue; some franchisee attrition",
+          "detail": "Royalty is the greater of 6% of gross revenue or $1,500/month. Per the FDD reviewed by Franchise Chatter, 5 franchisees ceased operations in 2023 even as 12 new franchisees opened and the system grew by 49 net franchised units.",
+          "source": "Franchise Chatter review of Benjamin Franklin Plumbing FDD",
+          "url": "https://www.franchisechatter.com/2025/05/22/benjamin-franklin-plumbing-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Benjamin Franklin Plumbing franchise development site, Available Territories page ('Available Markets Nationwide'; 'franchise territory availability across the country')",
+        "url": "https://benjaminfranklinplumbingfranchise.com/available-territories/",
+        "year": 2026,
+        "note": "Offers made only via FDD; franchisor complies with pre-sale registration in the 15 franchise-registration states."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 75000,
+          "source": "Entrepreneur Franchise 500 directory (https://www.entrepreneur.com/franchises/directory/benjamin-franklin-plumbing/305237)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "totalInvestmentMin": {
+          "value": 129100,
+          "source": "Benjamin Franklin Plumbing 2024 FDD Item 7 via Franchise Chatter",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "Entrepreneur's 2026 listing cites $143,273-$286,702; range varies by FDD year and startup vs. conversion of an existing plumbing business."
+        },
+        "totalInvestmentMax": {
+          "value": 270400,
+          "source": "Benjamin Franklin Plumbing 2024 FDD Item 7 via Franchise Chatter",
+          "year": 2024,
+          "confidence": "medium"
+        },
+        "franchiseFee": {
+          "value": 43000,
+          "source": "Franchise Chatter FDD review; Entrepreneur directory",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Plus $0.43 per person above 100,000 population in the franchise territory."
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "Franchise Chatter FDD review; Entrepreneur directory (6% of gross revenue or $1,500/month minimum, whichever is greater)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 1.5,
+          "source": "Franchise Chatter FDD review (1.5% of first $5M in gross revenue, tiered declining at higher revenue); Entrepreneur lists 'up to 1.5%'",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Franchisor additionally recommends 8-12% of gross revenue for local marketing."
+        },
+        "avgUnitRevenue": {
+          "value": 893678,
+          "source": "Benjamin Franklin Plumbing 2024 FDD Item 19 via Franchise Chatter",
+          "year": 2023,
+          "confidence": "high",
+          "note": "Average revenue per TERRITORY across 251 territories operated for the entire 2023 fiscal year; average revenue per franchisee (73 franchisees, often multi-territory) was $3,072,783. Systemwide sales grew 6.6% to $234.2M in 2023."
+        },
+        "totalUnits": {
+          "value": 410,
+          "source": "Entrepreneur Franchise 500 directory (2026); sharpsheets.io reports 363 total units (353 franchised + 10 company-owned) per the 2025 FDD",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "closureCount": {
+          "value": 5,
+          "source": "Benjamin Franklin Plumbing 2024 FDD via Franchise Chatter (5 franchisees ceased operations in 2023; 12 new franchisees opened)",
+          "year": 2023,
+          "confidence": "medium"
+        },
+        "yearFounded": {
+          "value": 2000,
+          "source": "Entrepreneur Franchise 500 directory; sharpsheets.io",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2001,
+          "source": "Entrepreneur Franchise 500 directory; benjaminfranklinplumbingfranchise.com ('helping plumbers build better companies since 2001')",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "employeesRequired": {
+          "value": 4,
+          "source": "Entrepreneur Franchise 500 directory (4-12 employees required)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "FDD reviewed annually by Franchise Chatter and Vetted Biz; historical FDDs available via FranChimp",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Benjamin Franklin Plumbing FDD Item 19 via Franchise Chatter",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory (30% off franchise and additional population fees)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "Benjamin Franklin Plumbing franchise site, Available Territories page (new owners 'are only required to license one territory', additional territories may be licensed); Item 19 shows franchisees average 3+ territories",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Benjamin Franklin Plumbing franchise site, Available Territories page ('Every Benjamin Franklin Plumbing franchise receives a protected territory'); Entrepreneur directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory (part-time operation listed as allowed)",
+          "year": 2026,
+          "confidence": "low",
+          "note": "Unusual for a service business; treat as directory-reported only."
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchise Chatter FDD review (franchised units 255 in 2021 -> 275 in 2022 -> 324 in 2023; 16 new owners added in 2024); Entrepreneur Franchise 500 rank improved to #194 in 2026",
+          "year": 2026,
+          "confidence": "high"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "brands": [
+    {
+      "name": "Homewatch CareGivers",
+      "slug": "homewatch-caregivers",
+      "category": "Health & Wellness",
+      "website": "homewatchcaregivers.com",
+      "notes": "In-home care franchisor founded 1980 in Denver, franchising since 1996, owned by Authority Brands since 2017; 224 franchised US territories at end of 2024 with no company-owned units. Royalty is 5% of gross revenue OR an escalating monthly minimum (up to $2,500/mo from month 61), whichever is greater, plus a local marketing requirement of $24,000/year or 3% of revenue (whichever is greater).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Fixed minimum fees apply regardless of revenue",
+          "detail": "Royalty is 5% of gross revenue or an escalating minimum royalty (rising to $2,500/month from month 61), whichever is greater, and local marketing is $24,000/year or 3% of revenue, whichever is greater, plus a $500/month additional requirement per the 2025 FDD — a meaningful fixed burden for slow-ramping territories.",
+          "source": "Franchise Chatter (2025 FDD review)",
+          "url": "https://www.franchisechatter.com/2026/02/26/homewatch-caregivers-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Unit count dipped in 2023 before rebounding",
+          "detail": "Franchised territories fell from 222 to 213 during 2023 (net -9) before recovering to 224 by end of 2024 (net +11); systemwide sales grew 16% from 2023 to 2024.",
+          "source": "Franchise Chatter (FDD Item 20 outlet tables)",
+          "url": "https://www.franchisechatter.com/2026/02/26/homewatch-caregivers-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {"state": "AL", "status": "open", "source": "Franchise.com Homewatch CareGivers listing (states accepting inquiries)", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "AR", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "AZ", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "CO", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "CT", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "DC", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "FL", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "GA", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "IA", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "IL", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "IN", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "KS", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "KY", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "MA", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "ME", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "MI", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "MO", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "MT", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "NC", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "NE", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "NH", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "NJ", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "NM", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "NV", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "OH", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "OK", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "OR", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "PA", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "SC", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "TN", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "TX", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "VT", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "WI", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "WV", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026},
+        {"state": "WY", "status": "open", "source": "Franchise.com Homewatch CareGivers listing", "url": "https://www.franchise.com/franchise/homewatch-caregivers", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 80000, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/homewatch-caregivers/282437", "year": 2026, "confidence": "high", "note": "Cash required $80,000; net worth $350,000."},
+        "totalInvestmentMin": {"value": 121640, "source": "Entrepreneur Franchise 500 directory (2025 FDD Item 7) — https://www.entrepreneur.com/franchises/directory/homewatch-caregivers/282437", "year": 2026, "confidence": "high", "note": "Franchise.com lists a slightly higher $142,890–$194,080 range, likely from a newer FDD."},
+        "totalInvestmentMax": {"value": 177830, "source": "Entrepreneur Franchise 500 directory (2025 FDD Item 7) — https://www.entrepreneur.com/franchises/directory/homewatch-caregivers/282437", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "Entrepreneur Franchise 500 directory; corroborated by Franchise Chatter 2025-FDD review — https://www.entrepreneur.com/franchises/directory/homewatch-caregivers/282437", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Franchise Chatter 2025-FDD review — https://www.franchisechatter.com/2026/02/26/homewatch-caregivers-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high", "note": "5% of gross revenue OR escalating monthly minimum (to $2,500/mo from month 61), whichever is greater."},
+        "adFundPercent": {"value": 2, "source": "Franchise Chatter 2025-FDD review (brand fund) — https://www.franchisechatter.com/2026/02/26/homewatch-caregivers-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "medium", "note": "Tiered brand fund: 2% on first $500K of revenue, scaling down to 0.5% above $2M. Separate local marketing requirement of $24,000/yr or 3%, whichever is greater."},
+        "avgUnitRevenue": {"value": 1367155, "source": "2025 FDD Item 19 via Franchise Chatter — https://www.franchisechatter.com/2026/02/26/homewatch-caregivers-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "high", "note": "Average 2024 gross revenue per territory across 196 territories in operation the entire 2024 fiscal year (105 franchisees averaged $2,552,023 each across multiple territories)."},
+        "totalUnits": {"value": 224, "source": "FDD Item 20 via Franchise Chatter (as of 12/31/2024) — https://www.franchisechatter.com/2026/02/26/homewatch-caregivers-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "high", "note": "All franchised US territories; zero company-owned. Entrepreneur lists 243 units for 2026."},
+        "yearFounded": {"value": 1980, "source": "PRNewswire — Homewatch CareGivers Celebrates 45 Years (founded 1980 by Paul Sauer in Denver) — https://www.prnewswire.com/news-releases/homewatch-caregivers-celebrates-45-years-of-compassionate-care-302422139.html", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1996, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/homewatch-caregivers/282437", "year": 2026, "confidence": "high"},
+        "employeesRequired": {"value": 3, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/homewatch-caregivers/282437", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 3–30 employees required to run."},
+        "fddAvailable": {"value": true, "source": "Franchise Direct FDD listing — https://www.franchisedirect.com/directory/homewatchcaregivers/ufoc/113/", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025-FDD Item 19 review — https://www.franchisechatter.com/2026/02/26/homewatch-caregivers-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory (30% off franchise fee) — https://www.entrepreneur.com/franchises/directory/homewatch-caregivers/282437", "year": 2026, "confidence": "high", "note": "30% off franchise fee for veterans."},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/homewatch-caregivers/282437", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/homewatch-caregivers/282437", "year": 2026, "confidence": "medium"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/homewatch-caregivers/282437", "year": 2026, "confidence": "medium"},
+        "exclusiveTerritories": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/homewatch-caregivers/282437", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Entrepreneur (+10.0% unit growth) and 1851 Franchise (32 deals signed, 42 territories executed in 2025) — https://1851franchise.com/homewatch-caregivers/homewatch-caregivers-franchise-eoy-2025-2731721", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "HOTWORX",
+      "slug": "hotworx",
+      "category": "Fitness",
+      "website": "hotworx.net",
+      "notes": "24-hour infrared sauna fitness studio franchise launched in 2017; 719 units per the 2025 FDD (712 franchised, 7 company-owned) and ranked #58 on the 2026 Franchise 500. Royalty is a FLAT $695/month (not a percentage) with a $0 ad-royalty per Entrepreneur, so royaltyPercent is intentionally omitted.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Franchisee lawsuit alleging earnings misrepresentation (Skistimas v. Hotworx Franchising)",
+          "detail": "Washington franchisees sued Hotworx Franchising LLC and its sales employees (W.D. Wash., No. 3:23-cv-05974, filed 2023) alleging misrepresented profit potential and violations of the FTC Franchise Rule and Washington franchise law. In late 2024 the court held it had personal jurisdiction over Hotworx employees and denied the franchisor's motion to compel arbitration.",
+          "source": "Foley & Lardner LLP analysis of Skistimas v. Hotworx Franchising LLC",
+          "url": "https://www.foley.com/insights/publications/2024/12/louisiana-franchisor-employees-personal-jurisdiction-washington/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Median studio revenue well below fitness-industry median",
+          "detail": "Frandera's FDD-based analysis pegs HOTWORX median unit revenue at $291,281/year, roughly 48% below its cited fitness-industry median of $556,754, against a total investment that can exceed $1M at the top of the Item 7 range; estimated payback ~13 years at a 15% net margin.",
+          "source": "Frandera HOTWORX franchise analysis",
+          "url": "https://frandera.com/franchise/hotworx/analysis",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Litigation history disclosed in FDD Item 3",
+          "detail": "HOTWORX disclosed litigation history in Item 3 of its FDD (no bankruptcy in Item 4), per Frandera's FDD review; prospective buyers should review the current Item 3 disclosures.",
+          "source": "Frandera HOTWORX franchise analysis",
+          "url": "https://frandera.com/franchise/hotworx/analysis",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory — seeking new franchisees throughout the United States",
+        "url": "https://www.entrepreneur.com/franchises/directory/hotworx/335226744",
+        "year": 2026,
+        "note": "Actively franchising US-wide; ranked #28 among Entrepreneur's Fastest-Growing Franchises (2026)."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 80000, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/hotworx/335226744", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists $80,000 cash / $400,000 net worth; Vetted Biz cites $115,000 liquid minimum."},
+        "totalInvestmentMin": {"value": 252200, "source": "Entrepreneur Franchise 500 directory (FDD Item 7) — https://www.entrepreneur.com/franchises/directory/hotworx/335226744", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1182389, "source": "Entrepreneur Franchise 500 directory (FDD Item 7) — https://www.entrepreneur.com/franchises/directory/hotworx/335226744", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 19950, "source": "Entrepreneur Franchise 500 directory; corroborated by FranchisePayback 2026 FDD summary — https://www.entrepreneur.com/franchises/directory/hotworx/335226744", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 0, "source": "Entrepreneur Franchise 500 directory (ad royalty: 0) — https://www.entrepreneur.com/franchises/directory/hotworx/335226744", "year": 2026, "confidence": "medium", "note": "No percentage-based ad royalty; royalty itself is a flat $695/month per Entrepreneur (The Franchise King cited $595/month in early 2025)."},
+        "avgUnitRevenue": {"value": 291281, "source": "Frandera FDD-derived analysis — https://frandera.com/franchise/hotworx/analysis", "year": 2026, "confidence": "low", "note": "MEDIAN annual studio revenue derived from FDD data, not a franchisor-published mean AUV; HOTWORX's Item 19 disclosure is limited and third-party estimates vary ($291K–$330K)."},
+        "totalUnits": {"value": 719, "source": "FranchisePayback 2025 FDD summary (712 franchised + 7 company-owned) — https://www.franchisepayback.com/franchise/hotworx", "year": 2025, "confidence": "medium", "note": "Entrepreneur lists 778 units for 2026 including international."},
+        "yearFounded": {"value": 2017, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/hotworx/335226744", "year": 2026, "confidence": "medium", "note": "Some sources cite 2016 (Baton Rouge, LA); franchising began 2017."},
+        "yearFranchising": {"value": 2017, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/hotworx/335226744", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz FDD listing — https://www.vettedbiz.com/franchises/hotworx", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter FDD Talk Item 19 review (2021 FDD) — https://www.franchisechatter.com/2021/07/04/fdd-talk-2021-hotworx-franchise-review-financial-performance-analysis-costs-fees-and-more/", "year": 2021, "confidence": "medium", "note": "Item 19 historically included revenue/expense data for franchised studios; recent FDDs' Item 19 scope is more limited per third-party analysts."},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory ($2,500 off franchise fee) — https://www.entrepreneur.com/franchises/directory/hotworx/335226744", "year": 2026, "confidence": "high", "note": "$2,500 off franchise fee."},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/hotworx/335226744", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/hotworx/335226744", "year": 2026, "confidence": "medium"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/hotworx/335226744", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Frandera (+23.5% YoY unit growth) and Entrepreneur Fastest-Growing Franchises #28 (2026) — https://frandera.com/franchise/hotworx/analysis", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "D1 Training",
+      "slug": "d1-training",
+      "category": "Fitness",
+      "website": "d1training.com",
+      "notes": "Athletic-training facility franchise (D1 Sports Franchise, LLC) founded 2001, franchising since 2015; growing unit count but facing active franchisee fraud litigation filed in 2025. Franchise development site is d1franchise.com.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Franchisee fraud lawsuits seeking to halt franchise sales (2025)",
+          "detail": "Multiple franchisees sued D1 Sports Franchise in Tennessee's Williamson County Circuit Court alleging the company knowingly sold an unviable model and misrepresented profitability (e.g., promised ~$235/month average client revenue franchisees say markets don't support); citing the Tennessee Consumer Protection Act, plaintiffs asked the court to prohibit D1 from selling franchises. One plaintiff reported no profitable month 2.5 years after opening; some funded units with 401(k) withdrawals up to $1.1M.",
+          "source": "Franchise Times; also reported by Nashville Banner (June 11, 2025)",
+          "url": "https://www.franchisetimes.com/franchise_legal/fitness-franchisor-d1-training-faces-fraud-allegations-as-franchisees-say-they-were-misled/article_b9d6ce66-94da-452c-836c-a760ac943e41.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Minimum royalty owed regardless of revenue",
+          "detail": "Royalty is the greater of 7% of gross sales or a minimum royalty starting at $1,950/month (year 1 after signing), rising to $2,950/month from year 3 onward — a fixed obligation even for under-performing locations.",
+          "source": "Franchise Chatter FDD review",
+          "url": "https://www.franchisechatter.com/2025/03/04/d1-training-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory — seeking new franchisees throughout the United States; d1franchise.com advertises available regions across the US",
+        "url": "https://www.entrepreneur.com/franchises/directory/d1-training/335542",
+        "year": 2026,
+        "note": "Note: 2025 franchisee litigation asked a Tennessee court to bar D1 from selling franchises; no injunction confirmed as of research date."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 250000, "source": "D1 Training official franchise FAQ — https://d1franchise.com/about-us/faq", "year": 2026, "confidence": "high", "note": "Net worth $500,000 also required."},
+        "totalInvestmentMin": {"value": 401776, "source": "D1 Training official franchise FAQ — https://d1franchise.com/about-us/faq", "year": 2026, "confidence": "medium", "note": "Official site lists $401,776–$837,381; Entrepreneur (2026) lists $474,843–$906,979."},
+        "totalInvestmentMax": {"value": 837381, "source": "D1 Training official franchise FAQ — https://d1franchise.com/about-us/faq", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 62500, "source": "D1 Training official franchise FAQ (current fee) — https://d1franchise.com/about-us/faq", "year": 2026, "confidence": "high", "note": "Standard first-unit fee; reduced for additional units ($43,000 2nd, $38,000 3rd, $33,000 4th). Entrepreneur still lists $59,500."},
+        "royaltyPercent": {"value": 7, "source": "D1 Training official franchise FAQ; corroborated by Entrepreneur — https://d1franchise.com/about-us/faq", "year": 2026, "confidence": "high", "note": "Greater of 7% of gross sales or minimum royalty ($1,950–$2,950/month)."},
+        "adFundPercent": {"value": 2, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/d1-training/335542", "year": 2026, "confidence": "medium", "note": "Earlier FDDs showed a $250/month brand fund plus local marketing requirement instead of a flat 2%."},
+        "avgUnitRevenue": {"value": 808219, "source": "FDD Item 19 (FY2023) via Franchise Chatter — https://www.franchisechatter.com/2025/03/04/d1-training-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2023, "confidence": "medium", "note": "Average gross revenue for the 16 franchised facilities open 2+ years during 2023 (small sample); facilities open 1–2 years averaged $569,401. Plaintiffs in 2025 litigation dispute real-world achievability."},
+        "totalUnits": {"value": 157, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/d1-training/335542", "year": 2026, "confidence": "medium", "note": "2025 FDD reported 129 units (127 franchised, 2 company-owned)."},
+        "yearFounded": {"value": 2001, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/d1-training/335542", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2015, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/d1-training/335542", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange — D1 Sports 2025 FDD — https://fddexchange.com/view-fdd-docs/d1-sports-2025-fdd-franchise-information-costs-and-fees/", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter Item 19 review — https://www.franchisechatter.com/2025/03/04/d1-training-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory (10% off franchise fee or area development fee) — https://www.entrepreneur.com/franchises/directory/d1-training/335542", "year": 2026, "confidence": "high", "note": "10% off franchise fee or area development fee."},
+        "multiUnitAvailable": {"value": true, "source": "D1 Training official franchise FAQ (discounted fees for 2nd–4th agreements) — https://d1franchise.com/about-us/faq", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/d1-training/335542", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/d1-training/335542", "year": 2026, "confidence": "medium"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/d1-training/335542", "year": 2026, "confidence": "medium"},
+        "exclusiveTerritories": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/d1-training/335542", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory (+103.9% unit growth noted) — https://www.entrepreneur.com/franchises/directory/d1-training/335542", "year": 2026, "confidence": "medium", "note": "Unit count growing, but see red flag: 2025 franchisee litigation alleges the model is not viable for some operators."}
+      }
+    },
+    {
+      "name": "9Round Kickbox Fitness",
+      "slug": "9round-kickbox-fitness",
+      "category": "Fitness",
+      "website": "9round.com",
+      "notes": "30-minute kickboxing-circuit gym franchise founded 2008 in Greenville, SC; still actively selling US franchises (9round.com/fitness-franchises) but the US system contracted severely from 584 units at the start of 2019 to 200 at the end of 2024. Founders (the Hudsons) regained 100% ownership in April 2025 by buying back Lift Brands' 40% stake.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Severe system contraction: 584 to 200 US units (2019-2024)",
+          "detail": "9Round started 2019 with 584 US units and finished 2024 with 200, per Franchise Times; third-party FDD analysis estimated roughly 19.7% of franchise units closing per year vs an industry norm of 2-3%. Leadership acknowledges rapid 2014-2018 growth (539 gym openings) strained infrastructure and franchisee training.",
+          "source": "Franchise Times — After Closures, Kickboxing Franchise 9Round Wants to Fight Its Way Back",
+          "url": "https://www.franchisetimes.com/franchise_mergers_and_acquisitions/after-closures-kickboxing-franchise-9round-wants-to-fight-its-way-back/article_5e10e1a2-4b3b-4e39-8842-3de90234226a.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High SBA loan default rate",
+          "detail": "SBA lending data compiled by PeerSense shows a 20.3% default rate across 118 SBA-financed 9Round loans (average loan ~$95,000), well above typical franchise-system default rates.",
+          "source": "PeerSense 9Round franchise report (SBA loan performance)",
+          "url": "https://peersense.com/franchise/9round",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "2025 financial restructuring events disclosed",
+          "detail": "FDD subsequent events for March-April 2025 include closing an office facility, repurchasing membership units (Hudsons' Striking Brands bought back Lift Brands' 40% stake), and entering a $1,440,000 note payable — signs of a leveraged turnaround in progress.",
+          "source": "Franchise Times / 9Round FDD subsequent-events disclosure",
+          "url": "https://www.franchisetimes.com/franchise_mergers_and_acquisitions/after-closures-kickboxing-franchise-9round-wants-to-fight-its-way-back/article_5e10e1a2-4b3b-4e39-8842-3de90234226a.html",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "9Round official franchise site — available territories page and inquiry form covering all US states",
+        "url": "https://www.9round.com/fitness-franchises/available-territories",
+        "year": 2026,
+        "note": "Actively recruiting US-wide with abundant open territory after closures; existing units operate in 42 states."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/9round-fitness/334179", "year": 2025, "confidence": "low", "note": "Entrepreneur lists $50,000 cash / $200,000 net worth; some portals cite $100,000 liquid. Confirm with current FDD."},
+        "totalInvestmentMin": {"value": 149449, "source": "PeerSense (2026 FDD Item 7) — https://peersense.com/franchise/9round", "year": 2026, "confidence": "medium", "note": "9round.com marketing materials cite lower build-out figures for the current smaller-footprint model; FDD Item 7 range used here."},
+        "totalInvestmentMax": {"value": 416300, "source": "PeerSense (2026 FDD Item 7) — https://peersense.com/franchise/9round", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 24900, "source": "PeerSense (2026 FDD); corroborated by 9round.com veteran offer ($21,165 = 15% off the standard fee) — https://peersense.com/franchise/9round", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "PeerSense (2026 FDD) — https://peersense.com/franchise/9round", "year": 2026, "confidence": "medium", "note": "6% of revenue; some disclosures also reference flat minimum royalty structures (~$550-$600/month)."},
+        "adFundPercent": {"value": 2, "source": "PeerSense (2026 FDD); corroborated by Entrepreneur — https://peersense.com/franchise/9round", "year": 2026, "confidence": "medium", "note": "2% of net sales or flat brand-fund minimum, whichever applies."},
+        "totalUnits": {"value": 200, "source": "Franchise Times (US units at end of 2024; 2025/2026 FDD reports 199 franchised US locations) — https://www.franchisetimes.com/franchise_mergers_and_acquisitions/after-closures-kickboxing-franchise-9round-wants-to-fight-its-way-back/article_5e10e1a2-4b3b-4e39-8842-3de90234226a.html", "year": 2024, "confidence": "high", "note": "US only; additional international clubs operate in 17 countries."},
+        "closureCount": {"value": 384, "source": "Franchise Times (584 US units start-2019 minus 200 end-2024) — https://www.franchisetimes.com/franchise_mergers_and_acquisitions/after-closures-kickboxing-franchise-9round-wants-to-fight-its-way-back/article_5e10e1a2-4b3b-4e39-8842-3de90234226a.html", "year": 2024, "confidence": "medium", "note": "Net US unit decline 2019-2024, not a single-year gross closure count."},
+        "yearFounded": {"value": 2008, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/9round-fitness/334179", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2009, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/9round-fitness/334179", "year": 2025, "confidence": "medium", "note": "PeerSense lists 2008 for both founding and franchising."},
+        "minFootprint": {"value": 1500, "source": "9Round official franchise site (1,500-2,500 sq ft) — https://www.9round.com/fitness-franchises", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranchiseComplaints.org 9Round FDD download — https://www.franchisecomplaints.org/reports/9round-fdd/", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "9Round official franchise site — https://www.9round.com/fitness-franchises", "year": 2026, "confidence": "high", "note": "Qualifying veterans pay a reduced initial franchise fee of $21,165 (15% off) for their first center, offer stated through April 15, 2026."},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/9round-fitness/334179", "year": 2025, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/9round-fitness/334179", "year": 2025, "confidence": "medium"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/9round-fitness/334179", "year": 2025, "confidence": "medium"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/9round-fitness/334179", "year": 2025, "confidence": "medium"},
+        "employeesRequired": {"value": 4, "source": "Entrepreneur Franchise 500 directory (4-6 employees) — https://www.entrepreneur.com/franchises/directory/9round-fitness/334179", "year": 2025, "confidence": "medium", "note": "Entrepreneur lists 4-6 employees required."},
+        "isGrowing": {"value": false, "source": "Franchise Times closure reporting; Entrepreneur shows -24% recent unit change — https://www.franchisetimes.com/franchise_mergers_and_acquisitions/after-closures-kickboxing-franchise-9round-wants-to-fight-its-way-back/article_5e10e1a2-4b3b-4e39-8842-3de90234226a.html", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Snap Fitness",
+      "slug": "snap-fitness",
+      "category": "Fitness",
+      "website": "snapfitness.com",
+      "notes": "24/7 gym franchise (Lift Brands) founded 2003, franchising since 2004; actively selling US franchises via its official investment page, but the US system has been shrinking (607 to 493 US clubs, 2022-2024). Royalty is a FLAT monthly fee ($725/month per the official site; $700/month per the 2025 FDD review) rather than a percentage, so royaltyPercent is intentionally omitted; national marketing is also flat ($518/month) plus a $400/month local spend requirement.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Sustained US unit decline",
+          "detail": "US clubs fell from 607 (585 franchised + 22 company) in 2022 to 493 (484 franchised + 9 company) at end of 2024 per FDD outlet tables, with third-party trackers estimating continued net closures into 2025-26 as the mid-market 24/7 segment is squeezed by Planet Fitness and boutique concepts.",
+          "source": "Franchise Chatter 2025-FDD review (Item 20 outlet tables)",
+          "url": "https://www.franchisechatter.com/2025/10/27/snap-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee association lawsuit over mandated software (settled 2021)",
+          "detail": "The SF Franchisee Association — representing 141 Snap Fitness franchisees operating 228 clubs — sued Snap Fitness in December 2019 for materially breaching franchise agreements by forcing purchase of proprietary Fitware club-management software; a November 2018 ransomware attack on Fitware left clubs unable to operate for 13 days. The suit settled in May 2021.",
+          "source": "PRNewswire — SF Franchisee Association Settles its Lawsuit with Snap Fitness",
+          "url": "https://www.prnewswire.com/news-releases/sf-franchisee-association-settles-its-lawsuit-with-snap-fitness-301306460.html",
+          "year": 2021
+        },
+        {
+          "severity": "info",
+          "title": "Consumer class actions over membership fees",
+          "detail": "Snap Fitness agreed to a $2.9 million settlement in 2019 to end a class action alleging unauthorized membership fees, and faced a separate class action challenging a so-called 'club enhancement fee.'",
+          "source": "Top Class Actions",
+          "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/snap-fitness-class-action-challenges-called-club-enhancement-fee/",
+          "year": 2019
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory — seeking new franchisees throughout the United States; official snapfitness.com investment page actively solicits US candidates",
+        "url": "https://www.entrepreneur.com/franchises/directory/snap-fitness/328995",
+        "year": 2026,
+        "note": "Official investment page (snapfitness.com/us/why-franchise-with-snap-fitness/investment) confirms active US franchise sales."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 250000, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/snap-fitness/328995", "year": 2026, "confidence": "medium", "note": "Net worth requirement $1,000,000 per Entrepreneur."},
+        "totalInvestmentMin": {"value": 430800, "source": "Entrepreneur Franchise 500 directory (FDD Item 7) — https://www.entrepreneur.com/franchises/directory/snap-fitness/328995", "year": 2026, "confidence": "medium", "note": "Official site quotes $555,000-$828,000 for a 4,000-6,000 sq ft club; 2025 FDD review cites $430,800-$889,900."},
+        "totalInvestmentMax": {"value": 1118100, "source": "Entrepreneur Franchise 500 directory (FDD Item 7) — https://www.entrepreneur.com/franchises/directory/snap-fitness/328995", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 39500, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/snap-fitness/328995", "year": 2026, "confidence": "high", "note": "2025 FDD review shows $34,500-$39,500 depending on package; $39,500 is the standard headline fee."},
+        "avgUnitRevenue": {"value": 250461, "source": "2025 FDD Item 19 (FY2024) via Franchise Chatter — https://www.franchisechatter.com/2025/10/27/snap-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "medium", "note": "Average annual revenue across 479 US franchised clubs in the 2025 FDD Item 19; median AUV cited elsewhere ~$239K. Corporate clubs report higher figures."},
+        "totalUnits": {"value": 493, "source": "FDD Item 20 via Franchise Chatter (US, end of 2024: 484 franchised + 9 company-owned) — https://www.franchisechatter.com/2025/10/27/snap-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "high", "note": "US only; Entrepreneur lists 994 units globally including 450+ international locations."},
+        "closureCount": {"value": 114, "source": "FDD Item 20 outlet tables via Franchise Chatter (net US decline from 607 in 2022 to 493 in 2024) — https://www.franchisechatter.com/2025/10/27/snap-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2024, "confidence": "medium", "note": "Net US unit decline 2022-2024, not a single-year gross closure count."},
+        "yearFounded": {"value": 2003, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/snap-fitness/328995", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2004, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/snap-fitness/328995", "year": 2026, "confidence": "high"},
+        "minFootprint": {"value": 4000, "source": "Snap Fitness official investment page (4,000-6,000 sq ft club) — https://www.snapfitness.com/us/why-franchise-with-snap-fitness/investment", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct FDD listing — https://www.franchisedirect.com/fitnessfranchises/snap-fitness-franchise-06321/ufoc/", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025-FDD Item 19 review — https://www.franchisechatter.com/2025/10/27/snap-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory ($5,000 off franchise fee) — https://www.entrepreneur.com/franchises/directory/snap-fitness/328995", "year": 2026, "confidence": "high", "note": "$5,000 off franchise fee."},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/snap-fitness/328995", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/snap-fitness/328995", "year": 2026, "confidence": "medium"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/snap-fitness/328995", "year": 2026, "confidence": "medium"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/snap-fitness/328995", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "FDD Item 20 outlet tables via Franchise Chatter; Entrepreneur shows -13% recent unit change — https://www.franchisechatter.com/2025/10/27/snap-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/", "year": 2025, "confidence": "high", "note": "US system contracting; international footprint remains large."}
+      }
+    },
+    {
+      "name": "Take 5 Oil Change",
+      "slug": "take-5-oil-change",
+      "category": "Automotive",
+      "website": "take5.com",
+      "notes": "Drive-thru, stay-in-your-car quick-lube brand owned by Driven Brands; founded 1984, franchising only since 2016, with 1,200+ US/Canada units (majority company-operated). Won the 2024 Franchise Times Zor Award as a top brand to buy; franchise development handled at take5franchise.com.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Consumer-service controversy: BBB 'F' rating and police-fleet complaints",
+          "detail": "A June 2024 WSOC-TV/Cox Media investigation reported Take 5 Oil Change held an 'F' rating with the Better Business Bureau with over 300 complaints in a single year (engine damage from overfilling, missing oil caps, undercarriage damage), and that 45 Jacksonville, FL law enforcement officers alleged substandard work on patrol vehicles requiring additional repairs. Brand-reputation risk for franchisees even where individual shops perform well.",
+          "source": "WSOC-TV (Cox Media Group) via Yahoo News, June 27, 2024",
+          "url": "https://www.yahoo.com/news/drivers-ended-car-trouble-5-205840443.html",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Majority company-operated system; franchising young relative to brand",
+          "detail": "Although founded in 1984, Take 5 only began franchising in 2016 and the majority of units are company-operated (e.g., 558 of 731 units company-owned in the 2023 FDD year), so franchisee-specific track record is shorter than overall brand history. Franchise growth has since been rapid under Driven Brands.",
+          "source": "FranchisePayback FDD summary (Item 20 data)",
+          "url": "https://www.franchisepayback.com/franchise/take-5-oil-change",
+          "year": 2023
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory — seeking new franchisees throughout the United States",
+        "url": "https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799",
+        "year": 2026,
+        "note": "Ranked #4 automotive franchise in the 2026 Franchise 500 and #62 on the Franchise Times Top 400 (2025); earlier development messaging emphasized the Southeast, but current directory listing shows US-wide recruitment."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 300000, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "medium", "note": "Net worth requirement $500,000 per Entrepreneur."},
+        "totalInvestmentMin": {"value": 912248, "source": "Entrepreneur Franchise 500 directory (FDD Item 7) — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "medium", "note": "Ground-up builds; older FDDs and conversion formats show lower entry points (some sources cite $223K minimum for conversions)."},
+        "totalInvestmentMax": {"value": 2053642, "source": "Entrepreneur Franchise 500 directory (FDD Item 7) — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 45000, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "medium", "note": "Current standard fee per Entrepreneur 2026; earlier FDDs listed $35,000."},
+        "royaltyPercent": {"value": 7, "source": "Entrepreneur Franchise 500 directory; corroborated by FranchisePayback FDD summary — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "medium", "note": "Standard ongoing royalty; some older sources report 5-6%, reflecting prior FDD terms."},
+        "adFundPercent": {"value": 5, "source": "Entrepreneur Franchise 500 directory; corroborated by FranchisePayback FDD summary — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "medium", "note": "Ad royalty per Entrepreneur 2026; older sources cite 1-2%, so verify current FDD Item 6."},
+        "avgUnitRevenue": {"value": 1360000, "source": "FDD Item 19 (FY2022) via Franchise Times Zor Awards profile — https://www.franchisetimes.com/franchise_times_cover_stories/take-5-oil-change-wins-2024-franchise-times-zor-award-as-top-brand-to-buy/article_98449a52-d02a-11ee-b80b-ab8872adfb88.html", "year": 2022, "confidence": "medium", "note": "Average gross sales among 215 franchised stores in 2022 (range $368,999-$3.3M); same Item 19 reported average four-wall EBITDA of $368,081. Take 5's Item 19 breaks out sales and EBITDA by top/bottom 50%."},
+        "totalUnits": {"value": 1263, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "medium", "note": "US and Canada combined; majority company-operated by Driven Brands."},
+        "yearFounded": {"value": 1984, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2016, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranchisePayback / Vetted Biz FDD summaries — https://www.franchisepayback.com/franchise/take-5-oil-change", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Times — notes a thorough Item 19 with gross sales, expenses and four-wall EBITDA by top/bottom 50% — https://www.franchisetimes.com/franchise_times_cover_stories/take-5-oil-change-wins-2024-franchise-times-zor-award-as-top-brand-to-buy/article_98449a52-d02a-11ee-b80b-ab8872adfb88.html", "year": 2024, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "medium"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "medium"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory — https://www.entrepreneur.com/franchises/directory/take-5-oil-change/335799", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Franchise Times Top 400 2025 (#62) and Driven Brands quarterly reporting of continued unit growth and same-store sales gains — https://www.franchisetimes.com/top-400-2025/62-take-5-oil-change/article_62e0aad7-f9aa-465d-9ae8-d385783d0ee9.html", "year": 2025, "confidence": "high"}
+      }
+    }
+  ]
+}

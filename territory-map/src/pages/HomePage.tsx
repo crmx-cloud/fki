@@ -144,7 +144,7 @@ export function HomePage() {
             </Reveal>
             <Reveal as="p" delay={240} className="flex items-center justify-center gap-2 text-sm font-medium text-emerald-400 mb-5">
               <ShieldCheck className="w-4 h-4 shrink-0" />
-              100% free for franchise buyers — matching, due diligence, comparisons, even working with a vetted broker. No cost. Ever.
+              100% free for franchise buyers — matching, due diligence, comparisons, even working with a vetted consultant. No cost. Ever.
             </Reveal>
             {/* Live credibility counter — real count of people who completed
                 their PerfectFit match. Convex reactivity makes it tick up in
@@ -354,8 +354,8 @@ export function HomePage() {
               },
               {
                 icon: <Handshake className="w-8 h-8" />,
-                title: "Work With a Vetted Broker",
-                desc: "Pressure-test your shortlist with a vetted broker from our network — decades of franchise experience, free to you, because brokers are paid by franchisors, not buyers.",
+                title: "Work With a Vetted Consultant",
+                desc: "Pressure-test your shortlist with a vetted consultant from our network — decades of franchise experience, free to you, because consultants are paid by franchisors, not buyers.",
                 color: "text-amber-400",
                 bg: "bg-amber-500/10",
               },
@@ -377,17 +377,17 @@ export function HomePage() {
         </div>
       </section>
 
-      {/* Vetted broker network */}
+      {/* Vetted consultant network */}
       <section className="py-20">
         <div className="max-w-5xl mx-auto px-6">
           <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-cyan-500/[0.07] to-blue-500/[0.04] p-8 md:p-12">
             <Reveal className="text-center mb-10">
               <Badge className="bg-amber-500/15 text-amber-300 border-amber-500/20 mb-4">
-                <Handshake className="w-3 h-3 mr-1" /> Free Broker Network
+                <Handshake className="w-3 h-3 mr-1" /> Free Consultant Network
               </Badge>
-              <h2 className="text-3xl font-bold mb-3">A Vetted Broker in Your Corner — at No Cost</h2>
+              <h2 className="text-3xl font-bold mb-3">A Vetted Consultant in Your Corner — at No Cost</h2>
               <p className="text-slate-400 max-w-2xl mx-auto">
-                The platform narrows it down. A vetted broker helps you get it right — double-checking
+                The platform narrows it down. A vetted consultant helps you get it right — double-checking
                 your shortlist, asking the questions you'd miss, and walking you through the deal.
               </p>
             </Reveal>
@@ -396,7 +396,7 @@ export function HomePage() {
                 <BadgeCheck className="w-7 h-7 text-cyan-400 mb-3" />
                 <h3 className="font-bold mb-1.5">Vetted, Not Random</h3>
                 <p className="text-sm text-slate-400">
-                  Every broker in our network is vetted, with decades of franchise experience guiding
+                  Every consultant in our network is vetted, with decades of franchise experience guiding
                   buyers through real deals.
                 </p>
               </div>
@@ -404,7 +404,7 @@ export function HomePage() {
                 <DollarSign className="w-7 h-7 text-emerald-400 mb-3" />
                 <h3 className="font-bold mb-1.5">Free — Here's Why</h3>
                 <p className="text-sm text-slate-400">
-                  Brokers are paid by franchisors when a deal closes, never by you. Your guidance costs
+                  Consultants are paid by franchisors when a deal closes, never by you. Your guidance costs
                   nothing at any point.
                 </p>
               </div>
@@ -412,7 +412,7 @@ export function HomePage() {
                 <ShieldCheck className="w-7 h-7 text-amber-400 mb-3" />
                 <h3 className="font-bold mb-1.5">On Your Side of the Table</h3>
                 <p className="text-sm text-slate-400">
-                  Our brokers aren't tied to any one brand — their job is making sure the franchise you
+                  Our consultants aren't tied to any one brand — their job is making sure the franchise you
                   pick is the right use of your investment.
                 </p>
               </div>
@@ -420,7 +420,7 @@ export function HomePage() {
             <Reveal className="text-center">
               <Link to="/get-started">
                 <Button size="lg" className="bg-cyan-600 hover:bg-cyan-500 text-white">
-                  Get Matched With a Broker <ArrowRight className="w-4 h-4 ml-1.5" />
+                  Get Matched With a Consultant <ArrowRight className="w-4 h-4 ml-1.5" />
                 </Button>
               </Link>
             </Reveal>

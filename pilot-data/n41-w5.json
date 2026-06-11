@@ -1,0 +1,1640 @@
+{
+  "brands": [
+    {
+      "name": "Maaco",
+      "slug": "maaco",
+      "category": "Automotive",
+      "website": "maaco.com",
+      "notes": "Auto painting and collision repair franchise founded in 1972, owned by Driven Brands; actively recruiting multi-unit franchisees across the US (minimum 3-unit commitment), but the franchised system has contracted in recent years. Ad fund is a flat fee (greater of $1,200/week or the local market budget) rather than a percentage of sales.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Sustained unit contraction",
+          "detail": "Per the 2025 FDD, US franchised units fell from 411 at the start of 2022 to 363 at the end of 2024 (net -13, -22 and -13 in successive years), with no company-owned units.",
+          "source": "Franchise Chatter \u2014 Maaco Franchise Review 2025",
+          "url": "https://www.franchisechatter.com/2025/12/26/maaco-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High historical franchisee turnover and complaints",
+          "detail": "Unhappy Franchisee documents franchisee complaints alleging heavy owner turnover; FDD-derived analysis cited there shows 136 of 587 franchise agreements (23%) ended in termination, non-renewal, transfer or ceased operations between 2013 and 2015, plus lawsuits between Maaco and former franchisees including franchisee counterclaims alleging misrepresentation.",
+          "source": "Unhappy Franchisee \u2014 MAACO Franchise Complaints",
+          "url": "https://unhappyfranchisee.com/maaco-franchise-complaints/",
+          "year": 2016
+        },
+        {
+          "severity": "info",
+          "title": "Litigation disclosed in FDD",
+          "detail": "Vetted Biz notes Maaco discloses lawsuits and/or bankruptcy information in its FDD, which prospective buyers should review.",
+          "source": "Vetted Biz \u2014 Maaco Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/maaco",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Unanswered BBB complaints",
+          "detail": "The Better Business Bureau profile for Maaco Franchising, Inc. (Charlotte, NC) notes the business failed to respond to 7 complaints filed against it.",
+          "source": "Better Business Bureau \u2014 Maaco Franchising, Incorporated",
+          "url": "https://www.bbb.org/us/nc/charlotte/profile/franchise/maaco-franchising-incorporated-0241-80000953",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Maaco franchise development site \u2014 Available Territories",
+        "url": "https://www.maacofranchise.com/available-territories/",
+        "year": 2026,
+        "note": "Franchisor states it is 'focusing on multi-unit growth opportunities across the country with a minimum of three units commitment to start' (398 locations US/Canada cited); no state exclusions published."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 420000,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Maaco (https://www.entrepreneur.com/franchises/directory/maaco/282545)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Listed as 'cash requirement'; net worth requirement is $1,000,000."
+        },
+        "totalInvestmentMin": {
+          "value": 196000,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Maaco (https://www.entrepreneur.com/franchises/directory/maaco/282545)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Low end reflects conversion/retrofit of an existing auto facility."
+        },
+        "totalInvestmentMax": {
+          "value": 3994000,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Maaco (https://www.entrepreneur.com/franchises/directory/maaco/282545)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "High end reflects ground-up build; 2025 FDD review shows $728,500\u2013$3,994,000 for ground-up/non-auto retrofit formats."
+        },
+        "franchiseFee": {
+          "value": 45000,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Maaco (https://www.entrepreneur.com/franchises/directory/maaco/282545)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Standard initial franchise fee; consistent with Vetted Biz FDD summary."
+        },
+        "royaltyPercent": {
+          "value": 8,
+          "source": "Franchise Chatter \u2014 Maaco Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/26/maaco-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "8% of gross receipts; reduced to 4% for the first 6 months of a newly developed center."
+        },
+        "avgUnitRevenue": {
+          "value": 1615904,
+          "source": "Franchise Chatter \u2014 Maaco Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/26/maaco-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD Item 19: average 2024 gross receipts of 317 established franchised centers open 2+ years; top half averaged $2,226,532 vs $1,001,411 for the bottom half. Revenue, not profit."
+        },
+        "totalUnits": {
+          "value": 363,
+          "source": "Franchise Chatter \u2014 Maaco Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/26/maaco-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "US franchised units at 2024 year-end per 2025 FDD (0 company-owned); Entrepreneur lists 379 and the franchisor cites 398 incl. Canada."
+        },
+        "closureCount": {
+          "value": 13,
+          "source": "Franchise Chatter \u2014 Maaco Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/26/maaco-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Net decline in franchised units during 2024 per 2025 FDD; system declined 411\u2192363 over 2022\u20132024."
+        },
+        "yearFounded": {
+          "value": 1972,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Maaco (https://www.entrepreneur.com/franchises/directory/maaco/282545)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1972,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Maaco (https://www.entrepreneur.com/franchises/directory/maaco/282545)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "employeesRequired": {
+          "value": 7,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Maaco (https://www.entrepreneur.com/franchises/directory/maaco/282545)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 7\u20138 employees required to run a location."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 Maaco Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/26/maaco-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 Maaco Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/26/maaco-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "Maaco franchise development site \u2014 Available Territories (https://www.maacofranchise.com/available-territories/)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor focuses on multi-unit deals with a minimum 3-unit commitment."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Maaco (https://www.entrepreneur.com/franchises/directory/maaco/282545)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Maaco (https://www.entrepreneur.com/franchises/directory/maaco/282545)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Maaco (https://www.entrepreneur.com/franchises/directory/maaco/282545)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Maaco (https://www.entrepreneur.com/franchises/directory/maaco/282545)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "isGrowing": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Maaco (https://www.entrepreneur.com/franchises/directory/maaco/282545)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur shows -10% unit growth; FDD shows net unit declines 2022\u20132024."
+        }
+      }
+    },
+    {
+      "name": "Big O Tires",
+      "slug": "big-o-tires",
+      "category": "Automotive",
+      "website": "bigotires.com",
+      "notes": "Tire and auto-service franchise (founded 1962, franchising since 1982), part of TBC Corp., with 460+ franchised stores in 24 states and active development in priority and available growth markets. Royalties are charged on a sliding matrix by product category rather than a single flat rate.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisee group lawsuit over royalty and program changes",
+          "detail": "About 20 current and former California franchisees sued Big O Tires and its parent companies in December 2009 alleging breach of franchise agreements, fraud in the inducement, restraint of trade and unfair competition after post-2005 ownership changes that franchisees said raised effective royalties from 2% to 6% and forced new system purchases.",
+          "source": "Tire Review \u2014 Big O Tire, Parent Firms Sued by Franchisees",
+          "url": "https://www.tirereview.com/big-o-tire-parent-firms-sued-by-franchisees/",
+          "year": 2009
+        },
+        {
+          "severity": "caution",
+          "title": "Historically high SBA loan default rate",
+          "detail": "A 2012 analysis reported a 23% SBA loan default rate among Big O Tires franchisees and a decline from ~523 stores (2008) to 'more than 480'; dated figures from the 2000s lending cohort, but relevant to downside risk.",
+          "source": "Unhappy Franchisee \u2014 BIG O TIRES Franchise Complaints",
+          "url": "https://www.unhappyfranchisee.com/big-o-tires-franchise-complaints/",
+          "year": 2012
+        },
+        {
+          "severity": "info",
+          "title": "Franchisee fraud-in-inducement suit decided for franchisor",
+          "detail": "A franchisee's 2009 California suit alleging exaggerated earnings claims and concealment of failures was rejected because the disclosure document contradicted each claim; illustrates litigation history and the importance of relying on the FDD rather than sales statements.",
+          "source": "ILN IP Insider \u2014 Franchisee Who Ignored His Disclosure Document Loses Lawsuit",
+          "url": "https://www.ilnipinsider.com/2015/04/franchisee-who-ignored-his-disclosure-document-loses-lawsuit/",
+          "year": 2015
+        }
+      ],
+      "statesOpen": [
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Listed as a 'Priority Growth Market' on the official Big O Tires franchise development site (2025 FDD referenced).",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Listed as a 'Priority Growth Market' on the official Big O Tires franchise development site (2025 FDD referenced).",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Listed as a 'Priority Growth Market' on the official Big O Tires franchise development site (2025 FDD referenced).",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Listed as a 'Priority Growth Market' on the official Big O Tires franchise development site (2025 FDD referenced).",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Listed as a 'Priority Growth Market' on the official Big O Tires franchise development site (2025 FDD referenced).",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Listed as a 'Priority Growth Market' on the official Big O Tires franchise development site (2025 FDD referenced).",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Listed as a 'Priority Growth Market' on the official Big O Tires franchise development site (2025 FDD referenced).",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Listed under 'Markets Available for Growth' on the official Big O Tires franchise development site.",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Listed under 'Markets Available for Growth' on the official Big O Tires franchise development site.",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Listed under 'Markets Available for Growth' on the official Big O Tires franchise development site.",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Listed under 'Markets Available for Growth' on the official Big O Tires franchise development site.",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Listed under 'Markets Available for Growth' on the official Big O Tires franchise development site.",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Listed under 'Markets Available for Growth' on the official Big O Tires franchise development site.",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Listed under 'Markets Available for Growth' on the official Big O Tires franchise development site.",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Listed under 'Markets Available for Growth' on the official Big O Tires franchise development site.",
+          "source": "Big O Tires franchise development site",
+          "url": "https://www.bigofranchise.com/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 100000,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net worth requirement is $300,000."
+        },
+        "totalInvestmentMin": {
+          "value": 511500,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur 2026 listing; FranchisePayback's 2025 FDD summary shows $376,000 low end \u2014 range depends on build type."
+        },
+        "totalInvestmentMax": {
+          "value": 1882500,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur 2026 listing; FranchisePayback's 2025 FDD summary shows $1,573,000 high end."
+        },
+        "franchiseFee": {
+          "value": 17500,
+          "source": "FranchisePayback \u2014 Big O Tires FDD, Costs & Fees (https://www.franchisepayback.com/franchise/big-o-tires)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Standard initial franchise fee for a new store; Entrepreneur shows $10,000\u2013$17,500 depending on circumstances, and the fee is waived for qualified veterans/first responders on a first unit."
+        },
+        "royaltyPercent": {
+          "value": 5,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Top standard rate; royalties are assessed on a sliding matrix by product/sales category, roughly 2%\u20135% of gross sales (Entrepreneur lists 3.5%\u20135%)."
+        },
+        "adFundPercent": {
+          "value": 4.5,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 4.5% ad royalty; other FDD summaries cite ~4.9% combined marketing obligations."
+        },
+        "avgUnitRevenue": {
+          "value": 2520258,
+          "source": "VetMyFranchise \u2014 Big O Tires financials (2025 FDD review) (https://vetmyfranchise.com/franchise/big-o-tires-llc/financials)",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Average unit gross revenue per Item 19 of the 2025 FDD as summarized by VetMyFranchise; top-third US stores averaged $2,961,487. Revenue, not profit."
+        },
+        "totalUnits": {
+          "value": 464,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor's development site cites 'more than 460 franchised locations in 24 states'."
+        },
+        "yearFounded": {
+          "value": 1962,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 1982,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "FranchisePayback \u2014 Big O Tires FDD, Costs & Fees (https://www.franchisepayback.com/franchise/big-o-tires)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD referenced on the franchisor's development site."
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "First-unit franchise fee waived for qualified US military veterans and first responders."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists exclusive territories as available; franchise agreement licenses a specific approved location."
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 Big O Tires (https://www.entrepreneur.com/franchises/directory/big-o-tires/282135)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Big O Tires franchise development site (https://www.bigofranchise.com/)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Franchisor states 'Big O Tires is Growing!'; FranchisePayback cites ~8% YoY unit growth."
+        }
+      }
+    },
+    {
+      "name": "The Learning Experience",
+      "slug": "the-learning-experience",
+      "category": "Education & Children",
+      "website": "thelearningexperience.com",
+      "notes": "Large early-education/childcare franchise (founded 2001, franchising since 2003) recruiting nationally via tle-franchising.com, with record 2024 openings and 386 franchised plus 31 company-owned centers at 2024 year-end. High-investment, real-estate-heavy model; the widest investment figures include ground-up development formats.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Allegations of misleading financial presentations in franchise sales",
+          "detail": "An employee review and complaint-site materials allege TLE's sales process used non-standard metrics (EBITAR rather than EBITDA) and 'Project Cost' documents that understated startup and operating expenses; these are unadjudicated allegations, but a franchisee due-diligence report on the brand's complaints and litigation history is separately marketed by FranchiseComplaints.org.",
+          "source": "Glassdoor employee review of The Learning Experience",
+          "url": "https://www.glassdoor.com/Reviews/Employee-Review-The-Learning-Experience-E335767-RVW100815758.htm",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Litigation disclosed in FDD",
+          "detail": "Vetted Biz notes The Learning Experience discloses lawsuits and/or bankruptcy information in its FDD; prospective franchisees should review Item 3.",
+          "source": "Vetted Biz \u2014 The Learning Experience Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/the-learning-experience",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Very high and wide total investment range",
+          "detail": "Initial investment runs from roughly $780,799 to $5,608,799 depending on real-estate approach \u2014 far above typical childcare franchise norms \u2014 so financing exposure is substantial.",
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience",
+          "url": "https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "The Learning Experience franchise development site",
+        "url": "https://tle-franchising.com/",
+        "year": 2026,
+        "note": "Franchisor actively recruits US-wide ('hundreds of TLE centers under development still in need of the right franchisee', researching 'high-growth areas around the country'); no published state exclusions or open-state list."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 150000,
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience (https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Cash requirement; net worth requirement is $350,000."
+        },
+        "totalInvestmentMin": {
+          "value": 780799,
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience (https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Matches 2025 FDD low end for the standard leased-center format."
+        },
+        "totalInvestmentMax": {
+          "value": 5608799,
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience (https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "High end includes ground-up/real-estate development formats; 2025 FDD standard leased format tops out at $1,477,299."
+        },
+        "franchiseFee": {
+          "value": 60000,
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience (https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 7,
+          "source": "Franchise Chatter \u2014 The Learning Experience Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/04/the-learning-experience-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "7% of gross revenue."
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "Franchise Chatter \u2014 The Learning Experience Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/04/the-learning-experience-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Brand Awareness Fund of 1% of gross revenue, which can rise to up to 2.5%."
+        },
+        "avgUnitRevenue": {
+          "value": 2163703,
+          "source": "Franchise Chatter \u2014 The Learning Experience Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/04/the-learning-experience-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD Item 19: average 2024 gross sales of 232 mature franchised centers (open 48+ months); median $2,160,607. Revenue, not profit."
+        },
+        "totalUnits": {
+          "value": 417,
+          "source": "Franchise Chatter \u2014 The Learning Experience Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/04/the-learning-experience-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2024 year-end per 2025 FDD: 386 franchised + 31 company-owned; Entrepreneur cites ~450 current locations."
+        },
+        "yearFounded": {
+          "value": 2001,
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience (https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2003,
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience (https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "employeesRequired": {
+          "value": 10,
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience (https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 10\u201325 employees to run a center."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 The Learning Experience Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/04/the-learning-experience-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 The Learning Experience Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/04/the-learning-experience-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience (https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "20% off the franchise fee for veterans."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience (https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience (https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience (https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 The Learning Experience (https://www.entrepreneur.com/franchises/directory/learning-experience-academy-of-early-education-the/309890)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 The Learning Experience Franchise Review 2025 (2025 FDD) (https://www.franchisechatter.com/2025/12/04/the-learning-experience-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "+60 net franchised centers in 2024 (record openings); Entrepreneur shows +42% three-year unit growth."
+        }
+      }
+    },
+    {
+      "name": "KidStrong",
+      "slug": "kidstrong",
+      "category": "Education & Children",
+      "website": "kidstrong.com",
+      "notes": "Fast-growing kids' physical/character development training franchise (founded 2015 in Texas, franchising since 2019) with 150+ centers and active recruiting; franchisor's site highlights CA, CO, UT and WI as featured open markets. Average unit revenue is omitted because third-party FDD summaries state the FDD does not disclose a system AUV, conflicting with the franchisor's marketing claim.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Conflicting AUV claims between franchisor marketing and FDD summaries",
+          "detail": "KidStrong's franchise site advertises an Average Unit Volume of $1,407,485 (footnoted), while FDD review services state the FDD 'does not disclose the average unit volume' and cite materially lower revenue figures (~$716K); prospects should verify Item 19 directly before relying on marketing figures.",
+          "source": "FranchisePayback \u2014 KidStrong FDD, Costs & Fees (vs. franchise.kidstrong.com)",
+          "url": "https://www.franchisepayback.com/franchise/kidstrong",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "BBB consumer complaints over memberships and refunds",
+          "detail": "BBB complaints against KidStrong Inc. describe membership cancellation friction and refusal of refunds (e.g., a denied summer-camp refund after a child's medical emergency); consumer-level rather than franchisee-level, but relevant to brand reputation.",
+          "source": "Better Business Bureau \u2014 KidStrong Inc. complaints",
+          "url": "https://www.bbb.org/us/tx/frisco/profile/fitness-center/kidstrong-inc-corporate-0875-91341178/complaints",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Young, rapidly scaling system",
+          "detail": "Franchising only since 2019 with ~273% three-year unit growth per Entrepreneur; rapid scaling of a young system carries execution and support risk.",
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong",
+          "url": "https://www.entrepreneur.com/franchises/directory/kidstrong/335226379",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Featured as a target/available market on the official KidStrong franchise development site; other markets may also be available on inquiry.",
+          "source": "KidStrong franchise development site \u2014 Markets",
+          "url": "https://franchise.kidstrong.com/markets",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Featured as a target/available market on the official KidStrong franchise development site; other markets may also be available on inquiry.",
+          "source": "KidStrong franchise development site \u2014 Markets",
+          "url": "https://franchise.kidstrong.com/markets",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Featured as a target/available market on the official KidStrong franchise development site; other markets may also be available on inquiry.",
+          "source": "KidStrong franchise development site \u2014 Markets",
+          "url": "https://franchise.kidstrong.com/markets",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Featured as a target/available market on the official KidStrong franchise development site; other markets may also be available on inquiry.",
+          "source": "KidStrong franchise development site \u2014 Markets",
+          "url": "https://franchise.kidstrong.com/markets",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 225000,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Cash requirement; net worth requirement is $500,000."
+        },
+        "totalInvestmentMin": {
+          "value": 448100,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMax": {
+          "value": 600000,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 45000,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 7,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Standard royalty 7%, rising to 8.5% in some tiers per Entrepreneur (7%\u20138.5%)."
+        },
+        "adFundPercent": {
+          "value": 1.65,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Ad royalty per Entrepreneur; a separate 1% technology fee also applies."
+        },
+        "totalUnits": {
+          "value": 153,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Per Entrepreneur 2026; FranchisePayback's 2025 FDD summary shows 121 franchised + 10 company-owned."
+        },
+        "yearFounded": {
+          "value": 2015,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2019,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "FranchisePayback \u2014 KidStrong FDD, Costs & Fees (https://www.franchisepayback.com/franchise/kidstrong)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD summarized by third-party FDD services."
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "15% off the franchise fee for veterans."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisees receive an exclusive territory where no other KidStrong centers can operate."
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 KidStrong (https://www.entrepreneur.com/franchises/directory/kidstrong/335226379)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "+273.2% three-year unit growth per Entrepreneur."
+        }
+      }
+    },
+    {
+      "name": "British Swim School",
+      "slug": "british-swim-school",
+      "category": "Education & Children",
+      "website": "britishswimschool.com",
+      "notes": "Low-investment swim-lesson franchise (founded 1981, franchising since 2011, owned by Buzz Franchise Brands) that rents existing pools instead of building facilities; actively selling territories with 19 US states explicitly listed and 'territories for sale in most states.' Royalty (10%) is high relative to franchise norms, offset by the low entry cost.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Above-norm 10% royalty",
+          "detail": "Franchisees pay 10% of gross sales in royalties plus a 2% marketing fund \u2014 well above the 4\u20137% royalty typical across franchising \u2014 which materially affects unit economics despite the low initial investment.",
+          "source": "Franchise Chatter \u2014 British Swim School Franchise Review 2025",
+          "url": "https://www.franchisechatter.com/2025/05/06/british-swim-school-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Wide revenue dispersion; new territories ramp slowly",
+          "detail": "Item 19 cohort data show 2023-opened outlets averaged $187,319 and 2022-opened outlets $244,042 versus $608,655 for pre-2019 outlets, with very wide ranges within cohorts \u2014 newer owners should expect materially lower early revenue.",
+          "source": "Franchise Chatter \u2014 British Swim School Franchise Review 2025",
+          "url": "https://www.franchisechatter.com/2025/05/06/british-swim-school-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Litigation disclosed in FDD",
+          "detail": "Vetted Biz notes British Swim School discloses lawsuits and/or bankruptcy information in its FDD; FranchiseComplaints.org maintains court-record documentation on British Swim Centers Franchising LLC.",
+          "source": "Vetted Biz \u2014 British Swim School Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/british-swim-school",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Listed with available markets on the official British Swim School franchise market-availability page; franchisor adds that 'territories for sale in most states... and major metro areas' exist beyond those listed.",
+          "source": "British Swim School franchise development site \u2014 Market Availability",
+          "url": "https://britishswimschoolfranchise.com/market-availability/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 75000,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Cash requirement; net worth requirement is $150,000."
+        },
+        "totalInvestmentMin": {
+          "value": 122700,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Low investment because lessons are run in rented existing pools (no build-out)."
+        },
+        "totalInvestmentMax": {
+          "value": 176050,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 59500,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Single-territory fee; veteran discount applies to the single territory fee."
+        },
+        "royaltyPercent": {
+          "value": 10,
+          "source": "Franchise Chatter \u2014 British Swim School Franchise Review 2025 (https://www.franchisechatter.com/2025/05/06/british-swim-school-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "10% of gross sales."
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "Franchise Chatter \u2014 British Swim School Franchise Review 2025 (https://www.franchisechatter.com/2025/05/06/british-swim-school-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2% of gross sales marketing fund."
+        },
+        "avgUnitRevenue": {
+          "value": 544754,
+          "source": "Franchise Chatter \u2014 British Swim School Franchise Review 2025 (https://www.franchisechatter.com/2025/05/06/british-swim-school-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Item 19 (per 2025 review of the FDD): average 2023 gross revenue of 102 US outlets open and operating 9+ months; cohort averages range from $187,319 (2023 openings) to $608,655 (pre-2019 outlets). Revenue, not profit."
+        },
+        "totalUnits": {
+          "value": 364,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Locations per Entrepreneur 2026; the FDD counted 189 franchised outlets at 2023 year-end (0 company-owned), so counts differ by location-vs-territory methodology."
+        },
+        "yearFounded": {
+          "value": 1981,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Started in Manchester, England; US-based franchising under Buzz Franchise Brands."
+        },
+        "yearFranchising": {
+          "value": 2011,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "employeesRequired": {
+          "value": 3,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 3\u20134 employees required."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 British Swim School Franchise Review 2025 (https://www.franchisechatter.com/2025/05/06/british-swim-school-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 British Swim School Franchise Review 2025 (https://www.franchisechatter.com/2025/05/06/british-swim-school-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "20% off the single-territory franchise fee."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Territories defined demographically (20,000+ children in medium-to-high income brackets) per franchisor site."
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Home-based administration; lessons delivered at rented pool facilities."
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 British Swim School (https://www.entrepreneur.com/franchises/directory/british-swim-school/334339)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 British Swim School Franchise Review 2025 (https://www.franchisechatter.com/2025/05/06/british-swim-school-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Franchised outlets grew 112\u2192136\u2192189 over 2021\u20132023 per FDD; Entrepreneur shows +104.5% three-year growth."
+        }
+      }
+    },
+    {
+      "name": "i9 Sports",
+      "slug": "i9-sports",
+      "category": "Education & Children",
+      "website": "i9sports.com",
+      "notes": "Home-based youth recreational sports league franchise (founded 2002, franchising since 2003, HQ Tampa/Riverview FL) with one of the lowest entry costs in the category; territories are ZIP-code-configured and protected, available throughout the US except ND, MT and WY per its Franchise Direct listing. Royalty is 7.5% of network revenues plus a 2% brand fund and a 3% local advertising minimum.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Weak consumer review ratings and refund complaints",
+          "detail": "i9 Sports averages 2.2/5 across 553 Yelp reviews, with recurring complaints about denied refunds, cancelled classes and poor communication at some franchise locations; BBB complaints echo similar themes. Customer-level rather than franchisee-level risk.",
+          "source": "Yelp brand reviews \u2014 i9 Sports",
+          "url": "https://www.yelp.com/brands/i9-sports",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Litigation disclosed in FDD",
+          "detail": "Vetted Biz notes i9 Sports discloses lawsuits and/or bankruptcy information in its FDD; past federal cases include Soundkids Productions, Inc. v. i9 Sports Corporation (contract dispute).",
+          "source": "Vetted Biz \u2014 i9 Sports Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/i9-sports",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Wide performance spread tied to venue count",
+          "detail": "2024 Item 19 registration revenue ranged from $39,030 to $1,745,661 across 224 full-year units (median $360,398); earlier FDD data show single-venue operators averaging ~$132K vs ~$946K for 6+ venue operators \u2014 scale matters greatly.",
+          "source": "Franchise Chatter \u2014 i9 Sports Franchise Review 2026",
+          "url": "https://www.franchisechatter.com/2026/03/18/i9-sports-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "CA",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "HI",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "IL",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "MD",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "MN",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "SD",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "VA",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "WA",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Single- and multi-unit opportunities 'available throughout the US, excluding ND, MT, WY' per the brand's Franchise Direct listing; some individual metro territories are sold out \u2014 confirm locally.",
+          "source": "Franchise Direct \u2014 i9 Sports listing",
+          "url": "https://www.franchisedirect.com/sports-franchises/i9-sports/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 50000,
+          "source": "Entrepreneur Franchise 500 directory \u2014 i9 Sports (https://www.entrepreneur.com/franchises/directory/i9-sports/306995)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Cash requirement; net worth requirement is $100,000."
+        },
+        "totalInvestmentMin": {
+          "value": 59900,
+          "source": "Entrepreneur Franchise 500 directory \u2014 i9 Sports (https://www.entrepreneur.com/franchises/directory/i9-sports/306995)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMax": {
+          "value": 69900,
+          "source": "Entrepreneur Franchise 500 directory \u2014 i9 Sports (https://www.entrepreneur.com/franchises/directory/i9-sports/306995)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 24900,
+          "source": "Entrepreneur Franchise 500 directory \u2014 i9 Sports (https://www.entrepreneur.com/franchises/directory/i9-sports/306995)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 7.5,
+          "source": "Franchise Chatter \u2014 i9 Sports Franchise Review 2026 (2025 FDD) (https://www.franchisechatter.com/2026/03/18/i9-sports-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "7.5% of Network Revenues, minimum $425\u2013$450/month; plus a required local advertising spend of at least 3% of Network Revenues."
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "Franchise Chatter \u2014 i9 Sports Franchise Review 2026 (2025 FDD) (https://www.franchisechatter.com/2026/03/18/i9-sports-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Brand Fund of 2% of Network Revenues (minimum $275/month) per the 2025 FDD; Entrepreneur lists 2%."
+        },
+        "avgUnitRevenue": {
+          "value": 461504,
+          "source": "Franchise Chatter \u2014 i9 Sports Franchise Review 2026 (2025 FDD) (https://www.franchisechatter.com/2026/03/18/i9-sports-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "2025 FDD Item 19: average 2024 registration revenue of 224 franchise units operated the full calendar year; median $360,398, range $39,030\u2013$1,745,661. Registration revenue, not profit."
+        },
+        "totalUnits": {
+          "value": 286,
+          "source": "Entrepreneur Franchise 500 directory \u2014 i9 Sports (https://www.entrepreneur.com/franchises/directory/i9-sports/306995)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Per Entrepreneur 2026; FDD shows 264 franchised units at 2024 year-end (0 company-owned)."
+        },
+        "yearFounded": {
+          "value": 2002,
+          "source": "Entrepreneur Franchise 500 directory \u2014 i9 Sports (https://www.entrepreneur.com/franchises/directory/i9-sports/306995)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2003,
+          "source": "Entrepreneur Franchise 500 directory \u2014 i9 Sports (https://www.entrepreneur.com/franchises/directory/i9-sports/306995)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "employeesRequired": {
+          "value": 1,
+          "source": "Entrepreneur Franchise 500 directory \u2014 i9 Sports (https://www.entrepreneur.com/franchises/directory/i9-sports/306995)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 1 employee minimum; seasonal coaches/officials engaged per program."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 i9 Sports Franchise Review 2026 (2025 FDD) (https://www.franchisechatter.com/2026/03/18/i9-sports-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 i9 Sports Franchise Review 2026 (2025 FDD) (https://www.franchisechatter.com/2026/03/18/i9-sports-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 i9 Sports (https://www.entrepreneur.com/franchises/directory/i9-sports/306995)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "10% off the franchise fee for veterans."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Franchise Direct \u2014 i9 Sports listing (https://www.franchisedirect.com/sports-franchises/i9-sports/)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Protected territories configured by ZIP code based on under-14 population density."
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 i9 Sports (https://www.entrepreneur.com/franchises/directory/i9-sports/306995)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "Entrepreneur Franchise 500 directory \u2014 i9 Sports (https://www.entrepreneur.com/franchises/directory/i9-sports/306995)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Home-based business; programs run at rented community venues."
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise 500 directory \u2014 i9 Sports (https://www.entrepreneur.com/franchises/directory/i9-sports/306995)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 i9 Sports Franchise Review 2026 (2025 FDD) (https://www.franchisechatter.com/2026/03/18/i9-sports-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net franchised unit additions of +26, +27 and +19 in 2022\u20132024 per FDD; Entrepreneur shows +41.6% growth."
+        }
+      }
+    }
+  ]
+}
