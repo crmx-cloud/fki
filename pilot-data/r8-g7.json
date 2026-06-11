@@ -1,0 +1,181 @@
+{
+  "brands": [
+    {
+      "name": "Movita Juice Bar",
+      "website": "https://movitajuicebar.com",
+      "notes": "Health-focused juice/smoothie/acai bowl chain (HQ Commerce, CA). Heavily company-owned and very new to franchising (began 2023); only 3 franchised units against 12 company units in the 2024 FDD, so the franchise system is unproven at scale.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, mostly company-owned system",
+          "detail": "As of the 2024 FDD only 3 of 15 units were franchised (12 company-owned); franchising began in 2023, so there is little franchisee track record.",
+          "source": "franchisepayback.com Movita FDD profile",
+          "url": "https://www.franchisepayback.com/franchise/movita-juice-bar",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "No Item 19 financial performance representation",
+          "detail": "Franchisor does not disclose franchisee revenue/AUV, so prospective buyers have no sourced earnings figure.",
+          "source": "franchisepayback.com Movita FDD profile",
+          "url": "https://www.franchisepayback.com/franchise/movita-juice-bar",
+          "year": 2024
+        }
+      ],
+      "statesOpen": [
+        {"state": "CA", "status": "open", "note": "All ~28 currently operating Movita locations are in California; AZ/FL/NV/TX listed as coming soon", "source": "Movita Juice Bar official locations page", "url": "https://movitajuicebar.com/locations/", "year": 2026}
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 421000, "source": "https://www.franchisepayback.com/franchise/movita-juice-bar", "year": 2024, "confidence": "high"},
+        "totalInvestmentMax": {"value": 538000, "source": "https://www.franchisepayback.com/franchise/movita-juice-bar", "year": 2024, "confidence": "high"},
+        "franchiseFee": {"value": 48000, "source": "https://www.franchisepayback.com/franchise/movita-juice-bar", "year": 2024, "confidence": "high", "note": "$40,000 for a second store in the same trade area; standard single-unit fee is $48,000"},
+        "royaltyPercent": {"value": 7, "source": "https://www.franchisepayback.com/franchise/movita-juice-bar", "year": 2024, "confidence": "high"},
+        "adFundPercent": {"value": 2, "source": "https://www.franchisepayback.com/franchise/movita-juice-bar", "year": 2024, "confidence": "high"},
+        "totalUnits": {"value": 15, "source": "https://www.franchisepayback.com/franchise/movita-juice-bar", "year": 2024, "confidence": "medium", "note": "Per 2024 FDD: 3 franchised + 12 company-owned. Official locations page shows ~28 operating company+franchise stores in 2026."},
+        "yearFounded": {"value": 2015, "source": "https://www.franchisepayback.com/franchise/movita-juice-bar", "year": 2024, "confidence": "medium"},
+        "yearFranchising": {"value": 2023, "source": "https://www.franchisepayback.com/franchise/movita-juice-bar", "year": 2024, "confidence": "high"},
+        "item19Available": {"value": false, "source": "https://www.franchisepayback.com/franchise/movita-juice-bar", "year": 2024, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/movita-2022-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high"},
+        "multiUnitAvailable": {"value": true, "source": "https://www.franchisepayback.com/franchise/movita-juice-bar", "year": 2024, "confidence": "medium", "note": "Multi-unit development agreements offered with a $15,000 per-store development fee"}
+      }
+    },
+    {
+      "name": "NEST Protection Plan",
+      "website": "https://nestpp.com",
+      "notes": "Mold inspection / lifetime mold-prevention home warranty service (parent NEST Environmental LLC; founders Tony Norvell & Arthur Yon). Home/mobile, low-cost, very new franchise (franchising since 2022) with only ~6 units.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, tiny system",
+          "detail": "Only ~6 units and franchising since 2022; emerging concept with limited franchisee track record.",
+          "source": "Entrepreneur franchise directory - NEST Protection Plan",
+          "url": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Absentee ownership permitted but no Item 19 found",
+          "detail": "No sourced franchisee revenue figure located; buyers lack earnings data for this niche service.",
+          "source": "Entrepreneur franchise directory - NEST Protection Plan",
+          "url": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 73200, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 93700, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 8, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 2, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 6, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "medium"},
+        "yearFounded": {"value": 2010, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "medium"},
+        "yearFranchising": {"value": 2022, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "high", "note": "10% off franchise fee for veterans"},
+        "absenteeOwnership": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "high"},
+        "exclusiveTerritories": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/nest-protection-plan/336733", "year": 2026, "confidence": "low", "note": "Listed at +200% unit growth off a tiny base; new franchise in Greenville SC announced 2025"}
+      }
+    },
+    {
+      "name": "National Academy of Athletics",
+      "website": "https://nationalacademyofathletics.com",
+      "notes": "Youth multi-sport camps/programs franchise (founded 2012, franchising since 2023). Low-cost, home-based, part-time-capable model; small but growing unit count (~20).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "New franchise system",
+          "detail": "Franchising only since 2023 with ~20 units; limited operating history as a franchise even though the brand dates to 2012.",
+          "source": "Entrepreneur franchise directory - National Academy of Athletics",
+          "url": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 44800, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 65250, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 34750, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 7.5, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "high", "note": "Royalty stated as a 7.5%-8.5% range; lower bound used as headline"},
+        "adFundPercent": {"value": 1.5, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 20, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "medium"},
+        "yearFounded": {"value": 2012, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "medium"},
+        "yearFranchising": {"value": 2023, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "high", "note": "$2,000 off franchise fee"},
+        "absenteeOwnership": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "high"},
+        "exclusiveTerritories": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/national-academy-of-athletics/335226405", "year": 2026, "confidence": "low", "note": "Listed at +53.8% unit growth off a small base"}
+      }
+    },
+    {
+      "name": "Nautical Bowls",
+      "website": "https://nauticalbowls.com",
+      "notes": "Fast-casual superfood/acai bowl chain (founded 2017, Edina MN; franchising since ~2021). The fastest-growing of this cohort, with a disclosed Item 19 and rapid unit expansion.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Rapid expansion of a young system",
+          "detail": "Franchised units jumped from 28 (2022) to 62 (2023); very fast scaling of a recent concept can strain support and unit-level economics. No litigation found.",
+          "source": "FranchiseChatter FDD Talk - Nautical Bowls 2024",
+          "url": "https://www.franchisechatter.com/2024/05/01/fdd-talk-nautical-bowls-franchise-costs-fees-average-revenues-and-or-profits-2024-review-2/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 222250, "source": "https://www.franchisechatter.com/2024/05/01/fdd-talk-nautical-bowls-franchise-costs-fees-average-revenues-and-or-profits-2024-review-2/", "year": 2024, "confidence": "high"},
+        "totalInvestmentMax": {"value": 409350, "source": "https://www.franchisechatter.com/2024/05/01/fdd-talk-nautical-bowls-franchise-costs-fees-average-revenues-and-or-profits-2024-review-2/", "year": 2024, "confidence": "high"},
+        "franchiseFee": {"value": 39500, "source": "https://www.franchisechatter.com/2024/05/01/fdd-talk-nautical-bowls-franchise-costs-fees-average-revenues-and-or-profits-2024-review-2/", "year": 2024, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "https://www.franchisechatter.com/2024/05/01/fdd-talk-nautical-bowls-franchise-costs-fees-average-revenues-and-or-profits-2024-review-2/", "year": 2024, "confidence": "high"},
+        "adFundPercent": {"value": 2, "source": "https://www.franchisechatter.com/2024/05/01/fdd-talk-nautical-bowls-franchise-costs-fees-average-revenues-and-or-profits-2024-review-2/", "year": 2024, "confidence": "high", "note": "2% national marketing fund; additional ~2% local advertising recommended (not required)"},
+        "avgUnitRevenue": {"value": 440000, "source": "https://www.franchisechatter.com/2024/05/01/fdd-talk-nautical-bowls-franchise-costs-fees-average-revenues-and-or-profits-2024-review-2/", "year": 2024, "confidence": "medium", "note": "2024 FDD Item 19 (FY2023, 23 restaurants open full 12 months): sales ranged $261,693 to $641,385; 13 of 23 exceeded $440,000. $440K used as a representative mid-range threshold, NOT a system-wide mean."},
+        "totalUnits": {"value": 63, "source": "https://www.franchisechatter.com/2024/05/01/fdd-talk-nautical-bowls-franchise-costs-fees-average-revenues-and-or-profits-2024-review-2/", "year": 2023, "confidence": "high", "note": "End of 2023: 62 franchised + 1 company-owned. Third-party trackers cite ~174 locations by 2025/2026 (unverified against FDD)."},
+        "yearFounded": {"value": 2017, "source": "https://www.franchisehelp.com/franchises/nautical-bowls/", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2021, "source": "https://www.franchisechatter.com/2024/05/01/fdd-talk-nautical-bowls-franchise-costs-fees-average-revenues-and-or-profits-2024-review-2/", "year": 2024, "confidence": "medium"},
+        "item19Available": {"value": true, "source": "https://www.franchisechatter.com/2024/05/01/fdd-talk-nautical-bowls-franchise-costs-fees-average-revenues-and-or-profits-2024-review-2/", "year": 2024, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "https://fddexchange.com/view-fdd-docs/nautical-bowls-2023-fdd-franchise-information-costs-and-fees/", "year": 2024, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "https://www.franchisechatter.com/2024/05/01/fdd-talk-nautical-bowls-franchise-costs-fees-average-revenues-and-or-profits-2024-review-2/", "year": 2024, "confidence": "high", "note": "Franchised units grew from 28 (2022) to 62 (2023)"}
+      }
+    },
+    {
+      "name": "Paint Corps",
+      "website": "https://www.paintcorps.com",
+      "notes": "Residential/commercial painting franchise (founded 2017, Independence OH; franchising since 2022; part of Veteran Service Brands). Originally a veterans-only franchise but has since opened to all qualified entrepreneurs per the official site. Small system (~11 units).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, small system with no exclusive territories",
+          "detail": "Franchising since 2022 with ~11 units; Entrepreneur lists exclusive territories as NOT available, which can mean overlapping market rights.",
+          "source": "Entrepreneur franchise directory - Paint Corps",
+          "url": "https://www.entrepreneur.com/franchises/directory/paint-corps/335226490",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Brand repositioning - no longer veterans-only",
+          "detail": "Paint Corps began as a veterans-exclusive franchise but states it has opened to all qualified entrepreneurs; some third-party directories still list it as veterans-only, creating data inconsistency.",
+          "source": "Paint Corps official franchise site",
+          "url": "https://www.paintcorps.com/franchise/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 17000, "source": "https://www.paintcorps.com/franchise/", "year": 2026, "confidence": "medium", "note": "Minimum liquid cash requirement per official franchise site"},
+        "totalInvestmentMin": {"value": 130950, "source": "https://www.paintcorps.com/franchise/", "year": 2026, "confidence": "medium", "note": "Official site cites $130,950-$182,400; Entrepreneur directory lists a lower $68,050-$154,000 range - figures vary by source/FDD year"},
+        "totalInvestmentMax": {"value": 182400, "source": "https://www.paintcorps.com/franchise/", "year": 2026, "confidence": "medium", "note": "Per official franchise site"},
+        "franchiseFee": {"value": 35000, "source": "https://www.entrepreneur.com/franchises/directory/paint-corps/335226490", "year": 2026, "confidence": "medium", "note": "Stated as a $35,000-$60,000 range; lower bound used as headline"},
+        "royaltyPercent": {"value": 7, "source": "https://www.entrepreneur.com/franchises/directory/paint-corps/335226490", "year": 2026, "confidence": "medium", "note": "Stated as a 5%-7% range (likely declining with volume); higher/standard 7% used as headline"},
+        "adFundPercent": {"value": 1, "source": "https://www.entrepreneur.com/franchises/directory/paint-corps/335226490", "year": 2026, "confidence": "medium"},
+        "totalUnits": {"value": 11, "source": "https://www.entrepreneur.com/franchises/directory/paint-corps/335226490", "year": 2026, "confidence": "medium"},
+        "yearFounded": {"value": 2017, "source": "https://www.entrepreneur.com/franchises/directory/paint-corps/335226490", "year": 2026, "confidence": "medium"},
+        "yearFranchising": {"value": 2022, "source": "https://www.entrepreneur.com/franchises/directory/paint-corps/335226490", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/paint-corps/335226490", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/paint-corps/335226490", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/paint-corps/335226490", "year": 2026, "confidence": "high"},
+        "exclusiveTerritories": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/paint-corps/335226490", "year": 2026, "confidence": "medium"},
+        "veteranDiscount": {"value": true, "source": "https://www.paintcorps.com/franchise/", "year": 2026, "confidence": "low", "note": "Veteran-founded (Veteran Service Brands); historically veterans-only. A specific fee discount was not confirmed in sources."}
+      }
+    }
+  ]
+}

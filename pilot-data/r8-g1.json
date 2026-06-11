@@ -1,0 +1,215 @@
+{
+  "brands": [
+    {
+      "name": "Angelina Italian Bakery",
+      "website": "https://angelinabakery.com",
+      "notes": "NYC-based quick-serve Italian bakery (Angelina Bakery) that began franchising in 2023; very new, small system (~9 units, +350% growth claim) with a high and wide investment range. Requires food & beverage experience.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, unproven franchise system",
+          "detail": "Founded 2019, only began offering franchises in 2023 with ~9 units; limited franchisee track record.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/angelina-italian-bakery/335226864",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "High and very wide investment band",
+          "detail": "Total investment ranges roughly $455K to $1.79M; high capital requirement and $350K liquid capital minimum for a young system.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/angelina-italian-bakery/335226864",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Angelina Bakery official franchising page",
+        "url": "https://angelinabakery.com/franchising/",
+        "year": 2026,
+        "note": "Brand markets nationwide/global expansion; no per-state registration list published. Treat as open generally where lead-gen accepted."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 350000, "source": "Entrepreneur Franchise Directory / Angelina official franchising page", "year": 2026, "confidence": "high", "note": "Confirmed on both Entrepreneur ($350,000) and angelinabakery.com/franchising ('350K+ to start')."},
+        "totalInvestmentMin": {"value": 454800, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Range $454,800-$1,790,000 per Entrepreneur; official site shows similar $439,800-$1,732,500."},
+        "totalInvestmentMax": {"value": 1790000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Top of range; varies by location/buildout."},
+        "franchiseFee": {"value": 50000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Note: some FDD-summary sources cite ~$40,000; Entrepreneur lists $50,000."},
+        "royaltyPercent": {"value": 5, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "adFundPercent": {"value": 2, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "totalUnits": {"value": 9, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "yearFounded": {"value": 2019, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2023, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "15% off franchise fee per Entrepreneur."},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "low", "note": "Entrepreneur shows +350% unit growth, but from a tiny base."}
+      }
+    },
+    {
+      "name": "Beef-a-Roo",
+      "website": "https://beefaroofranchise.com",
+      "notes": "58-year-old Rockford, IL-based burger/roast beef QSR (owned by Elysian Capital since 2019) that launched franchising in 2022. In April 2026 eight company/area Rockford locations abruptly closed amid an Illinois Dept. of Revenue registration lapse and unpaid-vendor/bounced-check claims; company said most would reopen. Financial-distress signals are material.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Sudden multi-location closure & state tax registration lapse (April 2026)",
+          "detail": "Eight Rockford-area Beef-A-Roo locations closed April 27, 2026 with Illinois Dept. of Revenue notices that the certificate of registration had expired; company attributed it to finance leadership changes and a banking transition, promising reopening ~April 28.",
+          "source": "WIFR News",
+          "url": "https://www.wifr.com/2026/04/28/missing-payment-claims-surround-sudden-closing-rockford-area-beef-a-roo-locations/",
+          "year": 2026
+        },
+        {
+          "severity": "red",
+          "title": "Unpaid vendor and bounced-check claims",
+          "detail": "Vendor owed $22,700 for snow removal (Dec 2025-Apr 2026) and multiple school PTOs reported bounced fundraising checks; signals cash-flow/financial-control problems.",
+          "source": "WIFR News",
+          "url": "https://www.wifr.com/2026/04/28/missing-payment-claims-surround-sudden-closing-rockford-area-beef-a-roo-locations/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Landlord eviction/unpaid-rent dispute (~$456K)",
+          "detail": "2024 Winnebago County eviction proceedings claimed Beef-a-Roo owed $455,823.59 in past-due rent across seven area locations.",
+          "source": "Rock River Current",
+          "url": "https://www.rockrivercurrent.com/2024/05/beef-a-roo-in-nearly-half-million-dollar-dispute-with-landlord-over-unpaid-rent/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Newer franchise program",
+          "detail": "Franchising only launched in 2022; small franchised footprint and 2025+ 'first nationwide' push.",
+          "source": "Beef-A-Roo official franchise site",
+          "url": "https://beefaroofranchise.com/",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {"state": "IL", "status": "open", "note": "Home market (Rockford-area, Freeport, Elgin) plus franchising.", "source": "Wikipedia / Beef-A-Roo coverage", "url": "https://en.wikipedia.org/wiki/Beef-A-Roo", "year": 2024},
+        {"state": "MI", "status": "open", "note": "First out-of-state franchise (Rose City, MI) opened 2023.", "source": "Beef-A-Roo official franchise site", "url": "https://beefaroofranchise.com/", "year": 2023},
+        {"state": "AR", "status": "open", "note": "Listed among out-of-Illinois locations (~April 2024).", "source": "Wikipedia / Beef-A-Roo coverage", "url": "https://en.wikipedia.org/wiki/Beef-A-Roo", "year": 2024},
+        {"state": "IN", "status": "open", "note": "Listed among out-of-Illinois locations (~April 2024).", "source": "Wikipedia / Beef-A-Roo coverage", "url": "https://en.wikipedia.org/wiki/Beef-A-Roo", "year": 2024},
+        {"state": "KS", "status": "open", "note": "Listed among out-of-Illinois locations (~April 2024).", "source": "Wikipedia / Beef-A-Roo coverage", "url": "https://en.wikipedia.org/wiki/Beef-A-Roo", "year": 2024},
+        {"state": "MO", "status": "open", "note": "Listed among out-of-Illinois locations (~April 2024).", "source": "Wikipedia / Beef-A-Roo coverage", "url": "https://en.wikipedia.org/wiki/Beef-A-Roo", "year": 2024},
+        {"state": "TX", "status": "open", "note": "Listed among out-of-Illinois locations (~April 2024).", "source": "Wikipedia / Beef-A-Roo coverage", "url": "https://en.wikipedia.org/wiki/Beef-A-Roo", "year": 2024}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "Beef-A-Roo official franchise site", "year": 2026, "confidence": "medium", "note": "$100K minimum liquid capital per beefaroofranchise.com."},
+        "totalInvestmentMin": {"value": 479200, "source": "FDD Exchange / SharpSheets (2024 FDD)", "year": 2024, "confidence": "medium", "note": "Lowest model (conversion) starts ~$479,200; drive-thru and traditional models run higher. Official site markets a narrower $795K-$1.5M band."},
+        "totalInvestmentMax": {"value": 1383500, "source": "FDD Exchange / SharpSheets (2024 FDD)", "year": 2024, "confidence": "medium", "note": "Top of traditional model range."},
+        "franchiseFee": {"value": 49500, "source": "Beef-A-Roo official franchise site / 2024 FDD", "year": 2024, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Beef-A-Roo official franchise site", "year": 2026, "confidence": "high", "note": "6% royalty, 1% marketing per official site."},
+        "adFundPercent": {"value": 1, "source": "Beef-A-Roo official franchise site", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 29, "source": "WIFR / company statements", "year": 2026, "confidence": "medium", "note": "Company states ~29 restaurants nationwide; mix of legacy company and franchised units. Note 8 Rockford-area units closed temporarily April 2026."},
+        "yearFounded": {"value": 1967, "source": "Beef-A-Roo official franchise site ('58 Years')", "year": 2026, "confidence": "medium", "note": "Implied from '58 Years of Flavor' marketing in 2025."},
+        "yearFranchising": {"value": 2022, "source": "Beef-A-Roo official franchise site", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "WIFR News", "year": 2026, "confidence": "medium", "note": "Recent closures and distress signals contradict a growth narrative; flagged rather than asserted as growing."}
+      }
+    },
+    {
+      "name": "Boss' Pizza and Chicken",
+      "website": "https://www.bosspizzaandchicken.com",
+      "notes": "Sioux Falls, SD-founded (2005) pizza, wings and broasted chicken concept operating in SD/ND/NE/IA; founder sold his Sioux Falls restaurants to focus on franchising, which began in 2021. Small but functioning system (~12 units).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Small, newer franchise system",
+          "detail": "Franchising only since 2021 with ~12 total locations concentrated in the Upper Midwest; limited geographic and franchisee track record.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/boss-pizza-and-chicken/336546",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Founder divested operating restaurants to focus on franchising",
+          "detail": "Founder sold his Sioux Falls company restaurants to concentrate on the franchising business; a strategic shift rather than a red flag, noted for transparency.",
+          "source": "SiouxFalls.Business",
+          "url": "https://siouxfalls.business/boss-founder-sells-sioux-falls-restaurants-to-focus-on-franchising/",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {"state": "SD", "status": "open", "note": "Home state; multiple locations (Sioux Falls, Rapid City, Keystone, Yankton).", "source": "Boss' Pizza & Chicken official site", "url": "https://www.bosspizzaandchicken.com/", "year": 2026},
+        {"state": "ND", "status": "open", "note": "Listed service area on franchise contact page.", "source": "Boss' Pizza & Chicken franchise site", "url": "https://franchise.bosspizzaandchicken.com/contact/", "year": 2026},
+        {"state": "NE", "status": "open", "note": "Listed service area on franchise contact page.", "source": "Boss' Pizza & Chicken franchise site", "url": "https://franchise.bosspizzaandchicken.com/contact/", "year": 2026}
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 137200, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Range $137,200-$538,500 per Entrepreneur (Item 7-derived)."},
+        "totalInvestmentMax": {"value": 538500, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 30000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 3, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "avgUnitRevenue": {"value": 745070, "source": "SharpSheets (Boss' Pizza & Chicken FDD analysis)", "year": 2025, "confidence": "low", "note": "Reported as average yearly gross sales per outlet from FDD-summary analysis; SharpSheets indicates this reflects system averages and may not be an explicit Item 19 disclosure. Treat as indicative only."},
+        "totalUnits": {"value": 12, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "yearFounded": {"value": 2005, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2021, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "$5,000 off franchise fee."}
+      }
+    },
+    {
+      "name": "Bowled Healthy Food Company",
+      "website": "https://www.bowledco.com",
+      "notes": "Healthy fast-casual bowls/no-cook fresh-ingredient concept (Bowled Co.) founded 2020, began franchising 2022. Small but active system (~8-9 locations, mostly upstate New York plus one South Carolina). Low buildout cost positioning.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, small franchise system",
+          "detail": "Founded 2020 and only began franchising in 2022; ~8-9 units concentrated in upstate NY with one SC location. Limited multi-market validation.",
+          "source": "Entrepreneur Franchise Directory / Bowled Co. franchise page",
+          "url": "https://www.entrepreneur.com/franchises/directory/bowled-healthy-food-company/336769",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {"state": "NY", "status": "open", "note": "Majority of locations in upstate NY (Albany/Delmar, Schenectady, Scotia, Malta, Troy, Latham, Amsterdam).", "source": "Bowled Co. official franchise page", "url": "https://www.bowledco.com/franchise/", "year": 2026},
+        {"state": "SC", "status": "open", "note": "One location in Conway, SC.", "source": "Bowled Co. official franchise page", "url": "https://www.bowledco.com/franchise/", "year": 2026}
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 116500, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Range $116,500-$273,000 per Entrepreneur; official brochure cites ~$123,250 minimum including fee."},
+        "totalInvestmentMax": {"value": 273000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 35000, "source": "Entrepreneur Franchise Directory / Bowled Co. official site", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "adFundPercent": {"value": 1, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "totalUnits": {"value": 9, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 9; official site enumerates ~8 current locations. Small system."},
+        "yearFounded": {"value": 2020, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2022, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "low"},
+        "canRunPartTime": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "low"},
+        "isGrowing": {"value": true, "source": "Bowled Co. official franchise page", "year": 2026, "confidence": "low", "note": "Brand markets 'expanding fast'; from a small base."}
+      }
+    },
+    {
+      "name": "Brooklyn Robot Foundry",
+      "website": "https://brooklynrobotfoundry.com",
+      "notes": "STEAM/robotics and engineering classes and workshops for kids (and adults) founded 2011; began franchising March 2022. Low-investment education concept (~$91K-$146K), ~16 units, current 2025 FDD on file.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Newer franchise system",
+          "detail": "Concept founded 2011 but only began franchising in March 2022; ~16 units and limited mature-franchisee history.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/brooklyn-robot-foundry/335226141",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Brooklyn Robot Foundry franchising page",
+        "url": "https://brooklynrobotfoundry.com/franchise/",
+        "year": 2026,
+        "note": "Brand markets franchise availability across multiple U.S. regions without a published per-state registration list; treat as broadly open subject to state registration."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 30000, "source": "FDD Exchange (2025 FDD summary)", "year": 2025, "confidence": "medium", "note": "Minimum liquid capital $30,000; minimum net worth $350,000 per FDD summary."},
+        "totalInvestmentMin": {"value": 90634, "source": "Entrepreneur Franchise Directory / 2025 FDD", "year": 2025, "confidence": "high", "note": "Range $90,634-$145,817."},
+        "totalInvestmentMax": {"value": 145817, "source": "Entrepreneur Franchise Directory / 2025 FDD", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 38500, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists $38,500; some FDD summaries reference a $40,000 figure."},
+        "royaltyPercent": {"value": 7, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 3, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 16, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "yearFounded": {"value": 2011, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2022, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "10% off franchise fee."},
+        "fddAvailable": {"value": true, "source": "FDD Exchange (2025 FDD)", "year": 2025, "confidence": "high", "note": "Current 2025 FDD is on file/publicly indexed."}
+      }
+    }
+  ]
+}

@@ -1,0 +1,1024 @@
+{
+ "brands": [
+  {
+   "name": "Groovy Hues",
+   "website": "https://www.groovyhues.com",
+   "notes": "Painting, power washing and exterior services franchise founded 2022 in Omaha, NE under the HorsePower Brands platform. Grew quickly but is a very young system whose parent faces multiple franchisee fraud lawsuits at sibling brands.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Parent HorsePower Brands faces multiple franchisee fraud lawsuits",
+     "detail": "Franchisees of HorsePower sibling brands (iFoam, Blingle, Mighty Dog Roofing) have sued the parent and its executives alleging inflated financial projections, misrepresented startup costs and inadequate training; the Schaefer iFoam suit (Nov 2024, E.D. Pa.) seeks $2.2M and rescission. Groovy Hues itself is not named as a defendant in the reported cases, but the same parent platform sells and supports this brand.",
+     "source": "Franchise Times",
+     "url": "https://www.franchisetimes.com/franchise_legal/for-locations-on-brink-of-closure-franchisees-say-horsepower-brands-falls-short/article_2b69411e-f61a-11ef-a150-5fe37bb32625.html",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Very new, unproven system",
+     "detail": "Founded and franchising only since 2022; all performance data comes from a system under four years old, and reported unit counts vary by source (46 franchised in the 2025 FDD vs. 53 in Entrepreneur's 2026 directory).",
+     "source": "Entrepreneur Franchise Directory",
+     "url": "https://www.entrepreneur.com/franchises/directory/groovy-hues/335226502",
+     "year": 2026
+    }
+   ],
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 75000,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists $75K liquid / $300K net worth; some broker sites cite $100K liquid / $500K net worth."
+    },
+    "totalInvestmentMin": {
+     "value": 157508,
+     "source": "Entrepreneur Franchise Directory (2025 FDD Item 7, one territory)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 204478,
+     "source": "Entrepreneur Franchise Directory (2025 FDD Item 7, one territory)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 59500,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Single-territory initial franchise fee."
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Listed as 4%-6% of gross revenues; standard rate starts at 6% and steps down to 4% as revenue scales. One-time $15.5K brand marketing launch fee also applies."
+    },
+    "avgUnitRevenue": {
+     "value": 1116373,
+     "source": "Vetted Biz (2025 FDD Item 19)",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Average gross sales per franchisee for 2024 as reported in the 2025 FDD Item 19; system was ~3 years old, so based on a small, early cohort."
+    },
+    "totalUnits": {
+     "value": 53,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur 2026 directory figure; the 2025 FDD reported 46 franchised outlets, 0 company-owned."
+    },
+    "yearFounded": {
+     "value": 2022,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2022,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 1,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "48 total hours (32 classroom + 16 on-the-job), roughly one week."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high",
+     "note": "10% off first-territory franchise fee for veterans."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunFromHome": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunPartTime": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "Groovy Hues official franchise page (offers FDD review step)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Vetted Biz (2025 FDD Item 19)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory (#74, 2026 Top New & Emerging Franchises)",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "0 to ~50 units since 2022, but growth claims vary by source and parent-platform litigation clouds the outlook."
+    }
+   }
+  },
+  {
+   "name": "Hangry Joe's Hot Chicken & Wings",
+   "website": "https://hangryjoes.com",
+   "notes": "Fast-casual Nashville hot chicken franchise headquartered in McLean, VA; founded and franchising since 2021 and expanded extremely fast to 100+ units. Sudden multi-unit market exits (Twin Cities, April 2026) warrant diligence on unit economics.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Sudden closure of all three Twin Cities locations",
+     "detail": "All three Minneapolis-St. Paul metro locations (Inver Grove Heights, Edina, Woodbury \u2014 all opened 2024-2025) closed abruptly with no explanation from corporate or the local franchisees as of late April 2026.",
+     "source": "Hoodline",
+     "url": "https://hoodline.com/2026/04/hangry-joe-s-vanishes-overnight-leaves-twin-cities-clucking-for-answers/",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "Hyper-fast growth in a very young system",
+     "detail": "Founded 2021 and franchising the same year, scaling to ~109 units in roughly five years (Entrepreneur lists +890.9% growth). Rapid emerging-brand expansion at this pace often outruns franchisee support and site-selection discipline.",
+     "source": "Entrepreneur Franchise Directory",
+     "url": "https://www.entrepreneur.com/franchises/directory/hangry-joes-hot-chicken-wings/335226437",
+     "year": 2026
+    }
+   ],
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 200000,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Net worth requirement $1,000,000."
+    },
+    "totalInvestmentMin": {
+     "value": 305500,
+     "source": "Entrepreneur Franchise Directory (FDD Item 7)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 518000,
+     "source": "Entrepreneur Franchise Directory (FDD Item 7)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 35000,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 6.5,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Vetted Biz also reports 6.5% of gross sales; one earlier secondary source cited 7%."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "totalUnits": {
+     "value": 109,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Directory figure; pre-dates the April 2026 Twin Cities closures."
+    },
+    "yearFounded": {
+     "value": 2021,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2021,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 2,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "80 total hours (62 on-the-job + 18 classroom)."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high",
+     "note": "10% off franchise fee."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "absenteeOwnership": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "Free FDD Library (Hangry Joe's FDD download)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory (+890.9% unit growth)",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Net system growth remains strongly positive despite the 2026 Twin Cities market exit."
+    }
+   }
+  },
+  {
+   "name": "Hawaiian Bros Island Grill",
+   "website": "https://www.hawaiianbros.com",
+   "notes": "Fast-casual Hawaiian plate-lunch concept founded 2018, HQ Kansas City, MO; franchising since 2022 and exclusively recruiting well-capitalized multi-unit restaurant operators. Strong sourced Item 19 economics ($2.48M AUV) but one of the highest entry bars in this group.",
+   "riskFlags": [
+    {
+     "severity": "info",
+     "title": "Very high capital and experience requirements",
+     "detail": "Requires $2.5M minimum liquid assets, $5M net worth, 10+ years of restaurant owner/operator experience, and a 5-15 location multi-unit development commitment \u2014 not accessible to first-time or single-unit buyers.",
+     "source": "Hawaiian Bros official franchise page",
+     "url": "https://www.hawaiianbros.com/franchise",
+     "year": 2026
+    },
+    {
+     "severity": "info",
+     "title": "Young franchise program within a larger company-run system",
+     "detail": "Franchising only since 2022; 26 of 61 units were still company-owned in the 2025 Franchise Times Top 400 data, so the franchised operating model has a short track record. No litigation or contraction signals found in searches.",
+     "source": "Franchise Times Top 400 (2025)",
+     "url": "https://www.franchisetimes.com/top-400-2025/282-hawaiian-bros-island-grill/article_66f26781-6396-414a-8536-330df230f78b.html",
+     "year": 2025
+    }
+   ],
+   "nationwide": {
+    "source": "Hawaiian Bros official franchise page",
+    "url": "https://www.hawaiianbros.com/franchise",
+    "year": 2026,
+    "note": "Recruiting multi-unit operators for open markets across the U.S.; existing footprint is concentrated in the Midwest and South (KC, TX, OK, AR, IA)."
+   },
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 2500000,
+     "source": "Hawaiian Bros official franchise page",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Net worth minimum $5M; multi-unit development commitment of 5-15 locations."
+    },
+    "totalInvestmentMin": {
+     "value": 1160660,
+     "source": "Franchise Times Top 400 (2025)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 4117147,
+     "source": "Franchise Times Top 400 (2025)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 50000,
+     "source": "Franchise Times Top 400 (2025)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Per-location fee within a multi-unit development agreement."
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "Franchise Times Top 400 (2025); Vetted Biz",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "Vetted Biz (FDD-derived)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Marketing/advertising fee of 2% of gross sales."
+    },
+    "avgUnitRevenue": {
+     "value": 2484936,
+     "source": "Hawaiian Bros official franchise page (2025 FDD Item 19)",
+     "year": 2024,
+     "confidence": "high",
+     "note": "Average gross sales across all 41 franchised and company-operated traditional restaurants open the full 12-month period ending Dec 29, 2024; top quartile of 21 franchised units averaged $3.5M (2025 FDD Item 19)."
+    },
+    "totalUnits": {
+     "value": 61,
+     "source": "Franchise Times Top 400 (2025)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "35 franchised, 26 company-owned; systemwide sales $135.7M, unit growth 27.1%."
+    },
+    "yearFounded": {
+     "value": 2018,
+     "source": "Franchise Times Top 400 (2025)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Founded by brothers Cameron and Tyler McNie; company HQ now Kansas City, MO."
+    },
+    "yearFranchising": {
+     "value": 2022,
+     "source": "Franchise Times Top 400 (2025)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "minFootprint": {
+     "value": 1600,
+     "source": "Hawaiian Bros official franchise page",
+     "year": 2026,
+     "confidence": "high",
+     "note": "1,600-2,500 sq ft; inline, endcap, drive-thru, or freestanding formats."
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "Hawaiian Bros official franchise page",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Multi-unit only: 5-15 location development commitments."
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Hawaiian Bros official franchise page (cites 2025 FDD Item 19)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "Franchise Times Top 400 (2025): 27.1% unit growth, 13.5% sales growth",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "ownerTypes": {
+     "value": [
+      "experienced multi-unit restaurant operators"
+     ],
+     "source": "Hawaiian Bros official franchise page",
+     "year": 2026,
+     "confidence": "high"
+    }
+   }
+  },
+  {
+   "name": "Heroes Lawn Care",
+   "website": "https://www.heroeslawncare.com",
+   "notes": "Omaha-based lawn fertilization, irrigation and pet-waste-removal franchise under HorsePower Brands. System contracted slightly in 2024 (65 to 63 franchised units) and the parent's 2025 FDD lists a material lawsuit against the Heroes Lawn Care affiliate amid broader HorsePower franchisee fraud litigation.",
+   "riskFlags": [
+    {
+     "severity": "red",
+     "title": "Material lawsuit listed against Heroes Lawn Care affiliate; parent faces franchisee fraud suits",
+     "detail": "HorsePower Brands' 2025 FDD lists two material lawsuits, one each against affiliates Heroes Lawn Care and iFoam. Franchisees across HorsePower brands (Mighty Dog Roofing, iFoam, Blingle) have filed fraud suits in Pennsylvania, Nebraska and New Jersey alleging inflated financial projections, misrepresented costs and inadequate training.",
+     "source": "Franchise Times",
+     "url": "https://www.franchisetimes.com/issue-archive/2026/april/franchisees-allege-fraud-at-mighty-dog-as-franchisor-files-its-own-lawsuits/article_314ff79b-0b5c-45bd-b3f7-c831de07e88e.html",
+     "year": 2026
+    },
+    {
+     "severity": "caution",
+     "title": "Net unit decline in 2024 after rapid expansion",
+     "detail": "Franchised units fell from 65 to 63 during 2024 (per the 2025 FDD) after jumping from 20 to 65 in 2023, and the brand did not rank on Entrepreneur's 2026 Franchise 500 \u2014 early contraction signals in a system franchising only since ~2022.",
+     "source": "Franchise Chatter (2025 FDD review)",
+     "url": "https://www.franchisechatter.com/2026/03/31/heroes-lawn-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2026
+    }
+   ],
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 60000,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists $60K liquid / $150K net worth; some broker directories cite $150K liquid / $1M net worth."
+    },
+    "totalInvestmentMin": {
+     "value": 159431,
+     "source": "Franchise Chatter (2025 FDD Item 7)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 215232,
+     "source": "Franchise Chatter (2025 FDD Item 7)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 59500,
+     "source": "Franchise Chatter (2025 FDD); Entrepreneur Franchise Directory",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Single-territory fee; one-time $15,500 brand marketing fee also applies."
+    },
+    "royaltyPercent": {
+     "value": 6.5,
+     "source": "Franchise Chatter (2025 FDD)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Flat-rate royalty in Years 1-2 (based on territory count); thereafter the greater of 6.5% of gross revenues collected or a minimum royalty."
+    },
+    "avgUnitRevenue": {
+     "value": 510603,
+     "source": "Franchise Chatter (2025 FDD Item 19)",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Average 2024 gross sales per location for the 12 reporting franchisees (total $6,127,243); a subset of the system, not all units. Mix: 56% landscaping, 22% irrigation, 15% fertilization."
+    },
+    "totalUnits": {
+     "value": 63,
+     "source": "Franchise Chatter (2025 FDD, year-end 2024)",
+     "year": 2024,
+     "confidence": "high",
+     "note": "All franchised, 0 company-owned; Entrepreneur's 2026 directory lists 72."
+    },
+    "closureCount": {
+     "value": 2,
+     "source": "Franchise Chatter (2025 FDD outlet table)",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Net decline of 2 franchised units during 2024 (65 to 63)."
+    },
+    "yearFounded": {
+     "value": 2015,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Entrepreneur lists 2015; Franchise Chatter cites a 2014 founder business. Acquired into HorsePower Brands before franchising."
+    },
+    "yearFranchising": {
+     "value": 2022,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Some FDD-based sources indicate first franchised outlets opened in 2021-2022."
+    },
+    "trainingWeeks": {
+     "value": 1,
+     "source": "Entrepreneur Franchise Directory; heroeslawncare.com (week-long boot camp)",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "48 total hours (32 classroom + 16 on-the-job) plus virtual modules."
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high",
+     "note": "10% off first-territory franchise fee."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high",
+     "note": "Protected Territories model per FDD."
+    },
+    "absenteeOwnership": {
+     "value": false,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "canRunPartTime": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Franchise Chatter (2025 FDD Item 19 review)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "FranchiseGenius FDD library",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "Franchise Chatter (2025 FDD outlet table: 65 to 63 franchised units in 2024)",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "Flat-to-declining in 2024 after explosive 2023 growth; Entrepreneur's higher 2026 count conflicts."
+    },
+    "ongoingSupport": {
+     "value": [
+      "nationwide call center",
+      "KPI dashboard",
+      "ZeeMarketing marketing program",
+      "week-long training boot camp"
+     ],
+     "source": "heroeslawncare.com own-a-franchise page",
+     "year": 2026,
+     "confidence": "high"
+    }
+   }
+  },
+  {
+   "name": "HomeCare Advocacy Network",
+   "website": "https://hcan.com",
+   "notes": "Small non-medical senior home care franchise founded 2020 in the Omaha, NE area (HQ Papillion), franchising since 2020 with about 12 locations. Honest data gaps: no Item 19 financial performance representation found, so no revenue figure is reported.",
+   "riskFlags": [
+    {
+     "severity": "info",
+     "title": "Very small, young system with no Item 19 disclosure",
+     "detail": "Roughly 12 total units as of the 2025 FDD year and franchising only since 2020; the FDD does not include an Item 19 financial performance representation, so franchisee revenue cannot be validated. No litigation or closure signals found in searches.",
+     "source": "FranchisePayback (2025 FDD summary)",
+     "url": "https://www.franchisepayback.com/franchise/homecare-advocacy-network",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 65000,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2022,
+     "confidence": "medium",
+     "note": "Entrepreneur lists $65K-$100K liquid; net worth requirement $250K."
+    },
+    "totalInvestmentMin": {
+     "value": 116650,
+     "source": "HCAN official franchise site (franchise.hcan.com)",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Franchisor's current stated range $116,650-$161,000; the 2025 FDD-derived range was $130,750-$212,600 (IFPG/FranchisePayback)."
+    },
+    "totalInvestmentMax": {
+     "value": 161000,
+     "source": "HCAN official franchise site (franchise.hcan.com)",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "2025 FDD-derived sources show a higher top end of ~$212,600."
+    },
+    "franchiseFee": {
+     "value": 49700,
+     "source": "IFPG franchise profile; FranchisePayback (2025 FDD)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Standard single-unit fee; reduced fee (~$24,850) for additional units. Older directory listings cited $55,000."
+    },
+    "royaltyPercent": {
+     "value": 7,
+     "source": "IFPG franchise profile; Entrepreneur Franchise Directory",
+     "year": 2025,
+     "confidence": "high",
+     "note": "7% of gross billings; separate flat monthly marketing/development ($750-$2,500/mo per Entrepreneur) and technology fees apply rather than a percentage ad fund."
+    },
+    "totalUnits": {
+     "value": 12,
+     "source": "FranchisePayback (2025 FDD outlet data)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "IFPG describes the same 12 units as 9 franchised + 3 company-owned; FranchisePayback lists all 12 as franchised."
+    },
+    "yearFounded": {
+     "value": 2020,
+     "source": "Entrepreneur Franchise Directory; IFPG",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2020,
+     "source": "Entrepreneur Franchise Directory; IFPG",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "trainingWeeks": {
+     "value": 2,
+     "source": "FranchisePayback (10-day HQ program plus 1-2 days on-site); Entrepreneur (80 total hours)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "IFPG franchise profile; Entrepreneur Franchise Directory",
+     "year": 2025,
+     "confidence": "high",
+     "note": "10% off franchise fee."
+    },
+    "exclusiveTerritories": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2022,
+     "confidence": "high",
+     "note": "Designated Area defined by zip codes, typically 15,000-30,000 residents aged 65+."
+    },
+    "absenteeOwnership": {
+     "value": true,
+     "source": "Entrepreneur Franchise Directory; IFPG (semi-absentee with proper staffing)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "canRunFromHome": {
+     "value": false,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2022,
+     "confidence": "medium"
+    },
+    "canRunPartTime": {
+     "value": false,
+     "source": "Entrepreneur Franchise Directory",
+     "year": 2022,
+     "confidence": "medium"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "FranchisePayback (multi-unit development option, $22,500 per additional location); IFPG",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": false,
+     "source": "FranchisePayback (2025 FDD summary: no Item 19 financial performance representation)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "FranchisePayback (12 units in 2025, ~50% year-over-year unit growth)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Growing, but from a very small base."
+    },
+    "ownerTypes": {
+     "value": [
+      "owner-operator",
+      "semi-absentee"
+     ],
+     "source": "IFPG franchise profile",
+     "year": 2025,
+     "confidence": "medium"
+    }
+   },
+   "statesOpen": [
+    {
+     "state": "AL",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "AK",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "AZ",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "AR",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "CO",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "CT",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "DE",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "FL",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "GA",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "ID",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "IL",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "IN",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "IA",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "KS",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "KY",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "LA",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "ME",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "MA",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "MS",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "MO",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "MT",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "NE",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "NV",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "NH",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "NJ",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "NM",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "NC",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "OH",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "OK",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "OR",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "PA",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "SC",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "TN",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "TX",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "UT",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "VT",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "VA",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "WV",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "WI",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    },
+    {
+     "state": "WY",
+     "status": "open",
+     "note": "Franchising in most U.S. states, but NOT available in CA, HI, MD, MI, MN, NY, ND, RI, SD, or WA.",
+     "source": "IFPG franchise profile",
+     "url": "https://www.ifpg.org/top-franchises/homecare-advocacy-network",
+     "year": 2025
+    }
+   ]
+  }
+ ]
+}

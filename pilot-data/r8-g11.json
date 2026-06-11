@@ -1,0 +1,709 @@
+{
+  "brands": [
+    {
+      "name": "Softroc",
+      "website": "https://www.softroc.com",
+      "notes": "Mobile decorative rubber-and-stone surfacing franchise (pool decks, patios, garage floors) founded 2019, franchising since 2021; now part of Stellar Service Brands. Small, fast-growing emerging system (~30 units) with a low-overhead, home-based model.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very young, small system",
+          "detail": "Franchising only since 2021 with roughly 30 units per Entrepreneur's 2026 directory listing; limited operating history and limited franchisee performance track record.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/softroc/335226216",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Parent company is Stellar Service Brands",
+          "detail": "Softroc is operated under multi-brand platform Stellar Service Brands (Restoration 1, bluefrog Plumbing + Drain, The Driveway Company); shared-services platform ownership can change support economics over time.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/softroc/335226216",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 50000,
+          "source": "Softroc franchise site FAQ",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Franchisor FAQ cites $50,000 liquid / $150,000 net worth; Entrepreneur directory lists $100,000 liquid / $250,000 net worth. Franchisor figure used as headline. https://softrocfranchise.com/faq/"
+        },
+        "totalInvestmentMin": {
+          "value": 94825,
+          "source": "Softroc franchise site (Item 7 summary)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor states initial investment range $94,825-$167,600. https://softrocfranchise.com/investment/"
+        },
+        "totalInvestmentMax": {
+          "value": 167600,
+          "source": "Softroc franchise site (Item 7 summary)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur lists a similar range of $85,072-$170,547. https://softrocfranchise.com/investment/"
+        },
+        "franchiseFee": {
+          "value": 59500,
+          "source": "Softroc franchise site",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Current franchisor-stated fee; older directory listings (Entrepreneur) cite $49,900. https://softrocfranchise.com/investment/"
+        },
+        "royaltyPercent": {
+          "value": 5.5,
+          "source": "Softroc franchise site FAQ (FDD Item 6 summary)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "5.5% of gross sales, collected monthly. https://softrocfranchise.com/faq/"
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "Softroc franchise site FAQ (FDD Item 6 summary)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "1% brand marketing fee; franchisees are additionally asked to spend 2% of gross sales on local advertising. https://softrocfranchise.com/faq/"
+        },
+        "totalUnits": {
+          "value": 30,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Directory (FDD-derived) figure. https://www.entrepreneur.com/franchises/directory/softroc/335226216"
+        },
+        "yearFounded": {
+          "value": 2019,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "https://www.entrepreneur.com/franchises/directory/softroc/335226216"
+        },
+        "yearFranchising": {
+          "value": 2021,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "A 2021 Softroc FDD is on file at The FDD Exchange. https://www.entrepreneur.com/franchises/directory/softroc/335226216"
+        },
+        "employeesRequired": {
+          "value": 0,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Listed as 0 required employees to run; owner-operator mobile model. https://www.entrepreneur.com/franchises/directory/softroc/335226216"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "The FDD Exchange (Softroc 2021 FDD)",
+          "year": 2021,
+          "confidence": "high",
+          "note": "https://fddexchange.com/view-fdd-docs/softroc-2021-fdd-franchise-information-costs-and-fees/"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory / Softroc franchise site",
+          "year": 2026,
+          "confidence": "high",
+          "note": "$7,000 off the first franchise fee for honorably discharged veterans. https://www.entrepreneur.com/franchises/directory/softroc/335226216"
+        },
+        "exclusiveTerritories": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists exclusive territories as not available. https://www.entrepreneur.com/franchises/directory/softroc/335226216"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "https://www.entrepreneur.com/franchises/directory/softroc/335226216"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Home/mobile operation permitted. https://www.entrepreneur.com/franchises/directory/softroc/335226216"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "https://www.entrepreneur.com/franchises/directory/softroc/335226216"
+        },
+        "marketingSupport": {
+          "value": ["Marketing materials", "Website development", "SEO assistance", "Initial marketing package included in startup capital"],
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "https://www.entrepreneur.com/franchises/directory/softroc/335226216"
+        },
+        "ongoingSupport": {
+          "value": ["Purchasing co-ops", "Newsletter", "Conventions", "Onboarding program"],
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "https://www.entrepreneur.com/franchises/directory/softroc/335226216"
+        }
+      }
+    },
+    {
+      "name": "Southern Steer Butcher",
+      "website": "https://southernsteer.com",
+      "notes": "Neighborhood butcher shop / fresh market concept founded 2013 in Clearwater, FL; franchising since 2020 with roughly 8 franchised + 1 company-owned stores, nearly all in Florida. Brick-and-mortar food retail with comparatively high build-out costs for an emerging brand.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very small, geographically concentrated system",
+          "detail": "Only about 8 franchised locations plus 1 company-owned as of 2025-2026, with the open units concentrated in Florida (Clearwater, Sarasota, Ocoee, St. Petersburg, Jacksonville). The model is largely unproven outside its home market.",
+          "source": "IFPG franchise listing",
+          "url": "https://www.ifpg.org/top-franchises/southern-steer-butcher",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "High build-out cost relative to system maturity",
+          "detail": "Total investment can reach roughly $797,000 per the franchisor's own Item 7 summary - a significant commitment for a system with under 10 open units. Reported investment ranges vary across sources ($376K-$797K franchisor; $429K-$723K and $487K-$628K in directories).",
+          "source": "Southern Steer franchise site",
+          "url": "https://southernsteerfranchise.com/research/how-much-does-it-cost/",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        {"state": "FL", "status": "open", "note": "Home market; all current operating locations are in Florida.", "source": "Southern Steer official site / IFPG", "url": "https://southernsteer.com", "year": 2026},
+        {"state": "IN", "status": "open", "note": "Franchise registration on file and accepting candidates per IFPG.", "source": "IFPG franchise listing", "url": "https://www.ifpg.org/top-franchises/southern-steer-butcher", "year": 2025},
+        {"state": "MI", "status": "open", "note": "Franchise registration on file and accepting candidates per IFPG.", "source": "IFPG franchise listing", "url": "https://www.ifpg.org/top-franchises/southern-steer-butcher", "year": 2025},
+        {"state": "RI", "status": "open", "note": "Franchise registration on file and accepting candidates per IFPG.", "source": "IFPG franchise listing", "url": "https://www.ifpg.org/top-franchises/southern-steer-butcher", "year": 2025},
+        {"state": "WI", "status": "open", "note": "Franchise registration on file and accepting candidates per IFPG.", "source": "IFPG franchise listing", "url": "https://www.ifpg.org/top-franchises/southern-steer-butcher", "year": 2025},
+        {"state": "AZ", "status": "open", "note": "Listed among open-availability states.", "source": "PeerSense FDD summary", "url": "https://peersense.com/franchise/southern-steer-butcher", "year": 2025},
+        {"state": "CO", "status": "open", "note": "Listed among open-availability states.", "source": "PeerSense FDD summary", "url": "https://peersense.com/franchise/southern-steer-butcher", "year": 2025},
+        {"state": "GA", "status": "open", "note": "Listed among open-availability states.", "source": "PeerSense FDD summary", "url": "https://peersense.com/franchise/southern-steer-butcher", "year": 2025},
+        {"state": "TX", "status": "open", "note": "Listed among open-availability states.", "source": "PeerSense FDD summary", "url": "https://peersense.com/franchise/southern-steer-butcher", "year": 2025}
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 150000,
+          "source": "IFPG franchise listing",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "IFPG and PeerSense both cite $150,000 liquid / $500,000 net worth; one directory (Vetted Biz) cites $200,000 liquid. https://www.ifpg.org/top-franchises/southern-steer-butcher"
+        },
+        "totalInvestmentMin": {
+          "value": 376223,
+          "source": "Southern Steer franchise site (FDD Item 7)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Franchisor-published Item 7 range $376,223-$797,343; directory summaries cite narrower ranges ($429K-$723K, $487K-$628K). https://southernsteerfranchise.com/research/how-much-does-it-cost/"
+        },
+        "totalInvestmentMax": {
+          "value": 797343,
+          "source": "Southern Steer franchise site (FDD Item 7)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "https://southernsteerfranchise.com/research/how-much-does-it-cost/"
+        },
+        "franchiseFee": {
+          "value": 59500,
+          "source": "Southern Steer franchise site",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Single-unit fee; multi-unit packages: 2 units $109,000, 3 units $151,000, 4 units $193,000 (IFPG). https://southernsteerfranchise.com/research/how-much-does-it-cost/"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "IFPG franchise listing",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Tiered/de-escalating 6%/5%/4% royalty structure per IFPG; some directory summaries cite up to 8%, so confirm in current FDD. https://www.ifpg.org/top-franchises/southern-steer-butcher"
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "IFPG franchise listing",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Brand fund of 1% of weekly gross revenues per IFPG; some summaries cite 2%. https://www.ifpg.org/top-franchises/southern-steer-butcher"
+        },
+        "totalUnits": {
+          "value": 9,
+          "source": "IFPG franchise listing",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "8 franchised + 1 company-owned per IFPG; 2025-FDD-based summaries (PeerSense) showed 6 franchised + 1 company-owned. https://www.ifpg.org/top-franchises/southern-steer-butcher"
+        },
+        "yearFounded": {
+          "value": 2013,
+          "source": "FranchisePayback FDD summary",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Launched in Clearwater, FL. https://www.franchisepayback.com/franchise/southern-steer-butcher"
+        },
+        "yearFranchising": {
+          "value": 2020,
+          "source": "FranchisePayback FDD summary",
+          "year": 2025,
+          "confidence": "high",
+          "note": "https://www.franchisepayback.com/franchise/southern-steer-butcher"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "Southern Steer franchise site",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Two-week initial training program (~97 hours: 10 classroom, 87 on-the-job per PeerSense); no prior butchery experience required. https://southernsteerfranchise.com/research/how-much-does-it-cost/"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "The FDD Exchange (Southern Steer 2024 FDD)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "https://fddexchange.com/southern-steer-2024-fdd-franchise-information-costs-and-fees/"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "IFPG franchise listing",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Item 19 discloses location-level results for select Florida franchise stores (e.g., Sarasota gross profit $882,616 / net income $314,391 at 15.5% margin; Ocoee net income $142,108 at 8%); no system-wide AUV is disclosed, so avgUnitRevenue is omitted. https://www.ifpg.org/top-franchises/southern-steer-butcher"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "IFPG franchise listing",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Published multi-unit fee schedule (2-4 units); multi-unit agreements already executed per PeerSense. https://www.ifpg.org/top-franchises/southern-steer-butcher"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "PeerSense FDD summary",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Franchisees receive a designated 'Protected Area'; franchisor retains rights for non-traditional locations. https://peersense.com/franchise/southern-steer-butcher"
+        }
+      }
+    },
+    {
+      "name": "Sparkle Squad",
+      "website": "https://sparklesquad.com",
+      "notes": "Home-based residential window cleaning / exterior services franchise launched in 2022 (franchising since 2023) under Happinest Brands (Lawn Doctor, Mosquito Hunters, ecomaids), built on Canadian operator Elite Window Cleaning (est. 2012). Rapid territory sales but very short US operating history.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new US system - most growth is sold territories, not mature units",
+          "detail": "Franchising only since 2023; Entrepreneur lists ~90 units while 1851 Franchise reported 56 owners after two years and ~17 territories signed in the first six months of 2024. Few locations have multi-year operating history in the US.",
+          "source": "1851 Franchise / Entrepreneur",
+          "url": "https://1851franchise.com/sparkle-squad/sparkle-squad-expands-rapidly-with-17-franchise-territories-signed-in-just-six-months-2726552",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Backed by established multi-brand parent Happinest Brands",
+          "detail": "Sparkle Squad is an emerging brand under Happinest Brands (850+ locations across Lawn Doctor, Mosquito Hunters, ecomaids), which mitigates some new-brand support risk; concept derives from Canadian brand Elite Window Cleaning operating since 2012.",
+          "source": "1851 Franchise",
+          "url": "https://1851franchise.com/sparkle-squad/info",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Above-average royalty rate",
+          "detail": "Entrepreneur lists a 10% royalty, at the high end for home-services franchises; weigh against the relatively low investment and included support.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/sparkle-squad/335226763",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/sparkle-squad/335226763",
+        "year": 2025,
+        "note": "Entrepreneur lists Sparkle Squad as seeking new franchisees throughout the United States."
+      },
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 60000,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Entrepreneur cites $60,000 liquid / $200,000 net worth; some directories cite $50,000 liquid / $150,000 net worth. https://www.entrepreneur.com/franchises/directory/sparkle-squad/335226763"
+        },
+        "totalInvestmentMin": {
+          "value": 161392,
+          "source": "Sparkle Squad franchise site / Entrepreneur",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Franchisor and Entrepreneur both cite $161,392-$185,167 all-in. https://sparklesquadfranchise.com/investment/"
+        },
+        "totalInvestmentMax": {
+          "value": 185167,
+          "source": "Sparkle Squad franchise site / Entrepreneur",
+          "year": 2025,
+          "confidence": "high",
+          "note": "https://sparklesquadfranchise.com/investment/"
+        },
+        "franchiseFee": {
+          "value": 50000,
+          "source": "Sparkle Squad franchise site / Entrepreneur",
+          "year": 2025,
+          "confidence": "high",
+          "note": "https://sparklesquadfranchise.com/investment/"
+        },
+        "royaltyPercent": {
+          "value": 10,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Ad contribution is a flat $96/week rather than a percentage, so adFundPercent is omitted. https://www.entrepreneur.com/franchises/directory/sparkle-squad/335226763"
+        },
+        "totalUnits": {
+          "value": 90,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Largely sold territories in a system franchising since 2023; 1851 Franchise reported 56 owners as of its two-year growth recap. https://www.entrepreneur.com/franchises/directory/sparkle-squad/335226763"
+        },
+        "yearFounded": {
+          "value": 2022,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "US brand founding; derived from Canadian Elite Window Cleaning, operating since 2012. https://www.entrepreneur.com/franchises/directory/sparkle-squad/335226763"
+        },
+        "yearFranchising": {
+          "value": 2023,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high",
+          "note": "A 2023 Sparkle Squad FDD is on file at The FDD Exchange; first US franchisees signed in 2024. https://www.entrepreneur.com/franchises/directory/sparkle-squad/335226763"
+        },
+        "employeesRequired": {
+          "value": 0,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "https://www.entrepreneur.com/franchises/directory/sparkle-squad/335226763"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "The FDD Exchange (Sparkle Squad 2023 FDD)",
+          "year": 2023,
+          "confidence": "high",
+          "note": "https://fddexchange.com/view-fdd-docs/sparkle-squad-2023-fdd-franchise-information-costs-and-fees/"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur / Sparkle Squad franchise site",
+          "year": 2025,
+          "confidence": "high",
+          "note": "10% off franchise fee for qualified veterans (franchisor also extends it to minorities and first responders). https://www.entrepreneur.com/franchises/directory/sparkle-squad/335226763"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "https://www.entrepreneur.com/franchises/directory/sparkle-squad/335226763"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "https://www.entrepreneur.com/franchises/directory/sparkle-squad/335226763"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "Entrepreneur / Sparkle Squad franchise site",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Mobile, home-based model with limited overhead. https://sparklesquadfranchise.com/"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "https://www.entrepreneur.com/franchises/directory/sparkle-squad/335226763"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "1851 Franchise",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "17 territories signed in first six months of 2024; ~50-90 territories sold within two years of launch. https://1851franchise.com/sparkle-squad/sparkle-squad-expands-rapidly-with-17-franchise-territories-signed-in-just-six-months-2726552"
+        }
+      }
+    },
+    {
+      "name": "Special Strong",
+      "website": "https://www.specialstrong.com",
+      "notes": "Adaptive/inclusive fitness training franchise for people with mental, physical and cognitive challenges; founded 2016 in the Dallas area by Daniel Stein, franchising since ~2020. Low-cost, service-based model but a very small system with no Item 19 earnings disclosure.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very small system with conflicting unit counts",
+          "detail": "Entrepreneur's 2026 listing shows 18 units while a 2025 FDD-based summary (PeerSense) shows 10 total (9 franchised, 1 company-owned). Either way the system remains small and concentrated (primarily Texas and Arizona), with limited validation data.",
+          "source": "Entrepreneur / PeerSense",
+          "url": "https://peersense.com/franchise/special-strong",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "No Item 19 financial performance representation",
+          "detail": "The current FDD does not include an Item 19 earnings claim; the ~$133,000 average-revenue figure circulating in franchisor marketing is not FDD-validated, so prospective buyers cannot rely on disclosed unit economics.",
+          "source": "PeerSense FDD summary",
+          "url": "https://peersense.com/franchise/special-strong",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {
+          "value": 85000,
+          "source": "PeerSense FDD summary (2025 FDD)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Range $85,000-$102,750 including franchise fee, grand opening and operating capital; matches franchisor site. https://peersense.com/franchise/special-strong"
+        },
+        "totalInvestmentMax": {
+          "value": 102750,
+          "source": "PeerSense FDD summary (2025 FDD)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "https://peersense.com/franchise/special-strong"
+        },
+        "franchiseFee": {
+          "value": 47250,
+          "source": "PeerSense FDD summary (2025 FDD)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Up from $42,500 cited in 2023 reporting. https://peersense.com/franchise/special-strong"
+        },
+        "royaltyPercent": {
+          "value": 7,
+          "source": "PeerSense FDD summary (2025 FDD)",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Royalty ranges 7-8% of monthly gross revenue with a $450/month minimum; 7% is the lower bound. https://peersense.com/franchise/special-strong"
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "SharpSheets / PeerSense FDD summaries",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "2% of gross sales to the marketing fund (PeerSense cites a 2-8% possible range; 2% is the standard lower bound). https://peersense.com/franchise/special-strong"
+        },
+        "totalUnits": {
+          "value": 18,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "low",
+          "note": "Entrepreneur 2026 lists 18 units (+157% growth); 2025 FDD-based PeerSense summary shows 10 total (9 franchised, 1 company-owned). Treat as 10-18. https://www.entrepreneur.com/franchises/directory/special-strong/336247"
+        },
+        "yearFounded": {
+          "value": 2016,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Founded by Daniel Stein in the Dallas-Fort Worth area. https://www.entrepreneur.com/franchises/directory/special-strong/336247"
+        },
+        "yearFranchising": {
+          "value": 2020,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "PeerSense cites 2019-2020. https://www.entrepreneur.com/franchises/directory/special-strong/336247"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "PeerSense FDD summary",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Two-week in-person program (100+ hours) in the Dallas-Fort Worth area, including accredited personal-training and proprietary adaptive-trainer certification. https://peersense.com/franchise/special-strong"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "PeerSense (2025 FDD reviewed)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "https://peersense.com/franchise/special-strong"
+        },
+        "item19Available": {
+          "value": false,
+          "source": "PeerSense FDD summary",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "No Item 19 financial performance representation in the current FDD; avgUnitRevenue therefore omitted. https://peersense.com/franchise/special-strong"
+        }
+      }
+    },
+    {
+      "name": "Spray Foam Genie",
+      "website": "https://www.sprayfoamgenie.com",
+      "notes": "Spray-foam insulation franchise launched in 2022 by Phoenix Franchise Brands from a 2007-founded Birmingham, AL predecessor (APC Spray Foam). Sold ~38 franchises quickly, but the brand and its parent face serious, well-documented franchisee complaints and alleged failures.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Parent Phoenix Franchise Brands faces mounting fraud allegations",
+          "detail": "Franchise Times reported franchisees across Phoenix Franchise Brands concepts (Fetch Pet Care, Furry Land, Spray Foam Genie, etc.) allege the franchisor misrepresented model viability and uses a predatory fee structure; a Fetch franchisee association complaint to the Michigan attorney general alleges a 'scheme to defraud franchisees' under the Michigan Franchise Investment Law.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_news/fetch-pet-care-franchisees-allege-they-were-defrauded-as-complaints-mount-for-phoenix-franchise-brands/article_4eb98682-7fa1-11ef-b8e1-cba27eaefb4b.html",
+          "year": 2024
+        },
+        {
+          "severity": "red",
+          "title": "Franchisee complaints allege deceptive earnings claims and heavy losses",
+          "detail": "Unhappy Franchisee (Nov 2024) published Spray Foam Genie franchisee allegations of false/deceptive earnings claims, understated capital needs, inflated equipment costs, and targeting of E-2 visa investors; franchisees report individual losses of $500K-$1M+ and claim roughly half of the ~60 area developers who signed in 2022-23 have closed or transferred under duress. Dozens of complaints have been submitted to the FTC. These are allegations, not adjudicated findings.",
+          "source": "UnhappyFranchisee.com",
+          "url": "https://unhappyfranchisee.com/spray-foam-genie-franchise-complaints/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Item 19 based on a single affiliate location; almost no franchisee track record",
+          "detail": "The 2024 FDD's Item 19 reflects only the company's original Birmingham, AL affiliate operation; only one franchisee had operated for a full year as of Dec 31, 2023. The brand also did not rank on Entrepreneur's 2025 Franchise 500.",
+          "source": "Franchise Chatter (2025 review of 2024 FDD)",
+          "url": "https://www.franchisechatter.com/2025/05/29/spray-foam-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Franchise fee scales steeply with territory population",
+          "detail": "Initial franchise fee runs $65,000-$190,000 depending on market size, plus $20,000 per additional 500,000 population above 2.5M; local digital advertising minimums of $2,500/month per vehicle add to ongoing costs.",
+          "source": "Franchise Chatter (FDD summary)",
+          "url": "https://www.franchisechatter.com/2025/05/29/spray-foam-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {
+          "value": 323540,
+          "source": "Franchise Chatter / Entrepreneur (2024 FDD Item 7)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Range $323,540-$545,240; franchisee complaints allege real capital needs are understated. https://www.franchisechatter.com/2025/05/29/spray-foam-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "totalInvestmentMax": {
+          "value": 545240,
+          "source": "Franchise Chatter / Entrepreneur (2024 FDD Item 7)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "https://www.franchisechatter.com/2025/05/29/spray-foam-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "franchiseFee": {
+          "value": 65000,
+          "source": "Franchise Chatter (2024 FDD)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Base/minimum fee; scales to $190,000 by territory population, plus $20,000 per additional 500,000 population above 2.5M. https://www.franchisechatter.com/2025/05/29/spray-foam-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "Franchise Chatter (2024 FDD)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "6% of weekly gross revenue with escalating weekly minimums ($175 Yr1, $249 Yr2, $415 Yr3, $524 Yr4+). https://www.franchisechatter.com/2025/05/29/spray-foam-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "Franchise Chatter (2024 FDD)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "1% brand development fund (weekly minimums $50 Yr1, $100 Yr2+); separate local digital ad minimum of $2,500/month per vehicle. https://www.franchisechatter.com/2025/05/29/spray-foam-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "avgUnitRevenue": {
+          "value": 2088354,
+          "source": "Franchise Chatter (2024 FDD Item 19)",
+          "year": 2023,
+          "confidence": "medium",
+          "note": "2023 gross revenue of the single affiliate-owned Birmingham, AL location (2 trucks + 2 single rigs) disclosed in Item 19 of the 2024 FDD - NOT a franchisee average; only one franchisee had operated a full year as of Dec 2023. https://www.franchisechatter.com/2025/05/29/spray-foam-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "totalUnits": {
+          "value": 38,
+          "source": "Franchise Chatter / FranchisePayback (2024 FDD)",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "38 franchised, 0 company-owned as of the 2024 FDD (year-end 2023). Franchisee complaints (Unhappy Franchisee, Nov 2024) allege roughly half of 2022-23 signees have since closed or transferred. https://www.franchisepayback.com/franchise/spray-foam-genie"
+        },
+        "yearFounded": {
+          "value": 2022,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Franchise brand created 2022; predecessor company APC Spray Foam founded 2007 in Birmingham, AL and rebranded Spray Foam Genie in Feb 2022. https://www.entrepreneur.com/franchises/directory/spray-foam-genie/335226539"
+        },
+        "yearFranchising": {
+          "value": 2022,
+          "source": "Entrepreneur / Vetted Biz",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Began franchising late 2022 under Phoenix Franchise Brands. https://www.entrepreneur.com/franchises/directory/spray-foam-genie/335226539"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "Vetted Biz FDD summary",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "Two-week intensive program at headquarters (~70 hours per Entrepreneur: 51 on-the-job, 19 classroom). https://www.vettedbiz.com/franchises/spray-foam-genie"
+        },
+        "employeesRequired": {
+          "value": 0,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Listed as 0 required; complainants allege the real labor requirement is materially understated. https://www.entrepreneur.com/franchises/directory/spray-foam-genie/335226539"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Franchise Chatter (2024 FDD reviewed)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "https://www.franchisechatter.com/2025/05/29/spray-foam-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Franchise Chatter (2024 FDD)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Item 19 present but covers only the single affiliate-owned Birmingham location. https://www.franchisechatter.com/2025/05/29/spray-foam-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "$500 off franchise fee. https://www.entrepreneur.com/franchises/directory/spray-foam-genie/335226539"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "https://www.entrepreneur.com/franchises/directory/spray-foam-genie/335226539"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "low",
+          "note": "Entrepreneur lists absentee ownership as allowed, but franchisee complaints specifically allege the semi-absentee/passive pitch misrepresents the hours actually required. https://www.entrepreneur.com/franchises/directory/spray-foam-genie/335226539"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "https://www.entrepreneur.com/franchises/directory/spray-foam-genie/335226539"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "low",
+          "note": "Directory listing; contradicted by franchisee complaints about understated labor/hours. https://www.entrepreneur.com/franchises/directory/spray-foam-genie/335226539"
+        }
+      }
+    }
+  ]
+}

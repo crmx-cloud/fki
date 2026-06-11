@@ -1,0 +1,752 @@
+{
+  "brands": [
+    {
+      "name": "SkyRun Vacation Rentals",
+      "website": "https://skyrun.com",
+      "notes": "Vacation rental property management franchise that started as a single Keystone, CO operation (brand operating since early 2000s) and now has ~50 locally owned locations managing 1,300+ homes across the US and Canada. Low-overhead, home-based model; franchisor publishes no earnings claims.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Emerging franchise system with short franchising track record",
+          "detail": "Although the brand dates to 2004, Entrepreneur lists SkyRun as franchising only since 2022, with ~50 units; limited history operating as a franchisor.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/skyrun-vacation-rentals/333731",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "No published earnings claims; results depend heavily on local market",
+          "detail": "SkyRun's own franchising page states 'We cannot put an exact number on how much you will make' — profitability depends on market size, property mix, staffing and pricing decisions of each owner.",
+          "source": "SkyRun official franchising page",
+          "url": "https://skyrun.com/franchising/",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        { "state": "AZ", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "CA", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "CO", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site; original Keystone, CO market", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "FL", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "HI", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "MA", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "MN", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "MT", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "NM", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "OK", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "SC", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "TN", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "TX", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "UT", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "VT", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 },
+        { "state": "WI", "status": "open", "note": "Existing SkyRun franchise location(s) operating in this state per franchisor site", "source": "SkyRun official franchising page", "url": "https://skyrun.com/franchising/", "year": 2026 }
+      ],
+      "fields": {
+        "franchiseFee": {
+          "value": 55000,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Initial franchise fee range $55,000-$75,000 depending on territory; lower bound shown."
+        },
+        "totalInvestmentMin": {
+          "value": 105080,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMax": {
+          "value": 153980,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 5,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "liquidCapitalMin": {
+          "value": 100000,
+          "source": "Entrepreneur Franchise Directory (corroborated by skyrun.com/franchising)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net worth requirement $300,000."
+        },
+        "totalUnits": {
+          "value": 50,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Franchisor markets '40+ independently owned locations' managing 1,300+ homes (US and Canada)."
+        },
+        "yearFounded": {
+          "value": 2004,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Company PR also describes a 100-property start at Keystone Resort, CO around 2002."
+        },
+        "yearFranchising": {
+          "value": 2022,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "$5,000 off franchise fee for veterans."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory (FDD-derived listing)",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "item19Available": {
+          "value": false,
+          "source": "SkyRun official franchising page",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Franchisor publishes no earnings claims ('We cannot put an exact number on how much you will make')."
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur shows strong recent unit growth and Top New & Emerging Franchises recognition (2024, 2025)."
+        },
+        "ongoingSupport": {
+          "value": ["Three-part training (business, rental, portfolio operations)", "400+ webinar library", "Operations manual", "Onboarding checklist"],
+          "source": "SkyRun official franchising page",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "ownerTypes": {
+          "value": ["owner-operator", "semi-absentee"],
+          "source": "Entrepreneur Franchise Directory (absentee ownership and part-time operation allowed)",
+          "year": 2026,
+          "confidence": "medium"
+        }
+      }
+    },
+    {
+      "name": "Slice House by Tony Gemignani",
+      "website": "https://slicehouse.com",
+      "notes": "Fast-casual NY/Sicilian-style pizza franchise from 13-time World Pizza Champion Tony Gemignani; ~23-30 restaurants and stadium kiosks open (concentrated in CA/NV/ID plus arena kiosks) with a large sold-but-unopened pipeline. Note: slicehousepizza.com is an unrelated restaurant; the brand site is slicehouse.com.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Large sold pipeline vs. few open units",
+          "detail": "Roughly 45 franchise units plus ~24 stadium/arena licensed locations reported open or in development, while only ~23-30 locations are actually open — execution risk typical of fast-selling emerging brands.",
+          "source": "FoodFranchise.com buyer's guide / Slice House franchise site",
+          "url": "https://www.foodfranchise.com/franchise/slice-house-by-tony-gemignani",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "No exclusive territory protection per FDD-derived summary",
+          "detail": "FDD-derived analysis notes franchisees receive only a site-selection territory and 'may face direct competition from other franchisees, company outlets' (Entrepreneur's listing conflicts, showing exclusive territory available — verify in current FDD).",
+          "source": "FranchisePayback FDD summary",
+          "url": "https://www.franchisepayback.com/franchise/slice-house-by-tony-gemignani",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "Young franchise system tied to a celebrity chef brand",
+          "detail": "Franchising only since ~2021-2022; system value is closely tied to Tony Gemignani's personal brand and ongoing involvement.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/slice-house-by-tony-gemignani/336512",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        { "state": "CA", "status": "open", "note": "Restaurants operating; brand home market (San Francisco)", "source": "Slice House official franchise site", "url": "https://slicehousefranchise.com/", "year": 2026 },
+        { "state": "NV", "status": "open", "note": "Restaurants operating per franchisor site", "source": "Slice House official franchise site", "url": "https://slicehousefranchise.com/", "year": 2026 },
+        { "state": "ID", "status": "open", "note": "Restaurants operating per franchisor site; brand states readiness to expand across the country (plus stadium kiosks nationwide)", "source": "Slice House official franchise site", "url": "https://slicehousefranchise.com/", "year": 2026 }
+      ],
+      "fields": {
+        "franchiseFee": {
+          "value": 35000,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Earlier FDD summaries (2023) listed $30,000."
+        },
+        "totalInvestmentMin": {
+          "value": 455300,
+          "source": "Entrepreneur Franchise Directory (corroborated by slicehousefranchise.com)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMax": {
+          "value": 1197600,
+          "source": "Entrepreneur Franchise Directory (corroborated by slicehousefranchise.com)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 5,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Some third-party FDD summaries list 6%; Entrepreneur's current listing shows 5%."
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Ad royalty listed as 1%-3% range; lower bound shown. Plus $50/week technology fee."
+        },
+        "liquidCapitalMin": {
+          "value": 250000,
+          "source": "Slice House official franchise site",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Franchisor site states minimum liquid capital $250,000; Entrepreneur lists $150,000."
+        },
+        "totalUnits": {
+          "value": 23,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Franchisor site claims ~30 including stadium/arena kiosks."
+        },
+        "yearFounded": {
+          "value": 2010,
+          "source": "Entrepreneur Franchise Directory (corroborated by franchising.com)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Original Slice House opened 2010; the franchise concept was packaged ~2022."
+        },
+        "yearFranchising": {
+          "value": 2022,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "franchising.com lists 2021."
+        },
+        "trainingWeeks": {
+          "value": 6,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "low",
+          "note": "Approximation from 250 hours of on-the-job training plus classroom training listed by Entrepreneur."
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "10% off franchise fee."
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "FranchisePayback FDD summary (2023 FDD)",
+          "year": 2023,
+          "confidence": "medium"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory (ranked #44 Top New & Emerging Franchises 2026)",
+          "year": 2026,
+          "confidence": "medium"
+        }
+      }
+    },
+    {
+      "name": "Smalls Sliders",
+      "website": "https://smallssliders.com",
+      "notes": "Drive-thru/walk-up cheeseburger-slider QSR built from shipping-container-style modular 'Cans'; founded in Baton Rouge by Walk-On's founder Brandon Landry and backed by 10 Point Capital and Drew Brees. One of the fastest-selling emerging QSR franchises with 350+ units open or under development but only a few dozen actually open.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "CEO turnover during hypergrowth",
+          "detail": "CEO Maria Rivera exited in early 2025 after about two years; former Tropical Smoothie Cafe CEO Charles Watson took over in April 2025, followed by a broader executive team rebuild.",
+          "source": "Restaurant Business Online",
+          "url": "https://www.restaurantbusinessonline.com/leadership/smalls-sliders-confirms-exit-ceo-maria-rivera",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Very large sold pipeline vs. small open base, with high unit investment",
+          "detail": "350+ Cans open or under development across ~30 states versus only ~21 open units at year-end 2024 (Franchise Times) / ~32 per Entrepreneur 2026; franchisees commit $1.3M-$2.0M per unit into a system with a short operating track record.",
+          "source": "Franchise Times Top 400 (2025) / franchising.com listing",
+          "url": "https://www.franchisetimes.com/top-400-2025/472-smalls-sliders/article_05570542-6751-497f-a477-ec997616a8f4.html",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Institutional backing and rapid systemwide sales growth",
+          "detail": "Backed by 10 Point Capital with Drew Brees as investor; systemwide sales $32.8M in 2024, up 102.5% year over year; named fastest-growing brand in the 2026 Datassential 500.",
+          "source": "Franchise Times Top 400 (2025)",
+          "url": "https://www.franchisetimes.com/top-400-2025/472-smalls-sliders/article_05570542-6751-497f-a477-ec997616a8f4.html",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "franchising.com Smalls Sliders listing (all 50 states shown as available markets)",
+        "url": "https://www.franchising.com/smalls_sliders/",
+        "year": 2026,
+        "note": "All 50 U.S. states listed as available franchise markets; ~30 states already have units open or in development and some initial development phases reported sold out."
+      },
+      "fields": {
+        "franchiseFee": {
+          "value": 35000,
+          "source": "Entrepreneur Franchise Directory (corroborated by Franchise Times)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "$35,000 first unit; some sources list $30,000 for additional units under development agreements."
+        },
+        "totalInvestmentMin": {
+          "value": 1297825,
+          "source": "Entrepreneur Franchise Directory (corroborated by Franchise Times Top 400)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMax": {
+          "value": 1993734,
+          "source": "Entrepreneur Franchise Directory (corroborated by Franchise Times Top 400)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 3,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Plus a minimum grand-opening marketing spend reported around $15,000."
+        },
+        "liquidCapitalMin": {
+          "value": 1500000,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net worth requirement $4,000,000 — brand targets well-capitalized multi-unit developers."
+        },
+        "totalUnits": {
+          "value": 32,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Franchise Times Top 400 reported 21 units (19 franchised, 2 company-owned) at year-end 2024; 350+ open or under development per franchisor."
+        },
+        "yearFounded": {
+          "value": 2019,
+          "source": "franchising.com Smalls Sliders listing",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "First Baton Rouge location; Entrepreneur lists founding 2018."
+        },
+        "yearFranchising": {
+          "value": 2021,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "franchising.com lists franchising since 2023; first franchised Cans opened 2023."
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "Smalls Sliders press release (200 franchise units sold via multi-unit development agreements)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "https://smallssliders.com/smalls-sliders-hits-200-franchise-units-sold/"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Smalls Sliders FDD issued 5/8/2025 (restfinance.com public copy)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "https://www.restfinance.com/app/pdf/fdd/Smalls-Sliders-2024.pdf"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchise Times Top 400 (2025): sales +102.5%, units +50% YoY; 2026 Datassential 500 fastest-growing brand",
+          "year": 2025,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "SnapHouss",
+      "website": "https://snaphouss.com",
+      "notes": "Home-based real estate photography/videography franchise founded in Canada in 2020, franchising since 2021, now marketing across North America. Low entry cost but a very young system; FDD-derived unit and revenue figures are far smaller than the brand's marketing claims.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Marketing claims diverge sharply from FDD-derived unit count",
+          "detail": "Brand markets '78+ locations serving 200+ towns and cities across North America' while its 2024 FDD-derived data showed only 11 franchised US units (0 company-owned); Entrepreneur 2026 lists 80 units. Verify what counts as a 'location' before relying on growth claims.",
+          "source": "FranchisePayback FDD summary vs. SnapHouss franchise page",
+          "url": "https://www.franchisepayback.com/franchise/snaphouss",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "No Item 19 earnings claim; third-party revenue estimates are very low",
+          "detail": "SnapHouss does not disclose average unit revenue in its FDD; third-party estimates of average gross revenue per unit run roughly $83K-$102K, modest against a 7% royalty plus 4% ad fee.",
+          "source": "FranchisePayback / Vetted Biz FDD summaries",
+          "url": "https://www.franchisepayback.com/franchise/snaphouss",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Very new system with wide, tier-based franchise fee",
+          "detail": "Founded 2020, franchising since 2021; the initial franchise fee spans $9,900 to $99,000 depending on territory size, so per-deal economics vary widely.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/snaphouss/335226242",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "franchiseFee": {
+          "value": 9900,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Tiered by territory size: $9,900-$99,000; lower bound (smallest territory) shown."
+        },
+        "totalInvestmentMin": {
+          "value": 31300,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMax": {
+          "value": 129650,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Other FDD summaries list up to ~$130,550."
+        },
+        "royaltyPercent": {
+          "value": 7,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 4,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalUnits": {
+          "value": 80,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "2024 FDD-derived data showed 11 franchised US units; brand counts North America-wide 'locations' — see riskFlags."
+        },
+        "yearFounded": {
+          "value": 2020,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Founded in Canada; US franchising entity HQ reported in Las Vegas, NV."
+        },
+        "yearFranchising": {
+          "value": 2021,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "employeesRequired": {
+          "value": 1,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists part-time operation 'No' although brand marketing mentions part-time options."
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "FDD summary describes protected territory of minimum 50,000 dwellings per zip-code group."
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Grand-opening advertising fee ($5,500) waived for veterans purchasing large territories."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "FranchisePayback FDD summary (2024 FDD)",
+          "year": 2024,
+          "confidence": "medium"
+        },
+        "item19Available": {
+          "value": false,
+          "source": "FranchisePayback FDD summary",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "'Snaphouss does not disclose the average unit volume (average revenue) in its FDD.'"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory (+515% unit growth shown)",
+          "year": 2026,
+          "confidence": "medium"
+        }
+      }
+    },
+    {
+      "name": "Snapchef",
+      "website": "https://snapchef.com",
+      "notes": "On-demand culinary staffing and training company founded 2002 in Massachusetts (nearly 1 million shifts filled for 700+ organizations) that began franchising in 2022; the franchise system itself is tiny (~4-6 units), concentrated in New England.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very small, very new franchise system",
+          "detail": "Although the parent staffing business dates to 2002, franchising began only in 2022 and the system has roughly 4-6 units, giving prospective franchisees a minimal validation pool.",
+          "source": "Entrepreneur Franchise Directory / Vetted Biz",
+          "url": "https://www.entrepreneur.com/franchises/directory/snapchef/335226243",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Geographic concentration in Massachusetts/New England",
+          "detail": "Headquartered in Holden/Boston, MA with existing operations concentrated in New England; performance of the model outside its home region is unproven.",
+          "source": "Vetted Biz Snapchef FDD summary",
+          "url": "https://www.vettedbiz.com/franchises/snapchef",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        { "state": "AL", "status": "open", "note": "Brand offers franchises nationwide except 13 registration states it lists as unavailable (CA, HI, IL, IN, MD, MN, NY, ND, RI, SD, VA, WA, WI)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "AK", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "AZ", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "AR", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "CO", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "CT", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "DE", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "FL", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "GA", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "ID", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "IA", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "KS", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "KY", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "LA", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "ME", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "MA", "status": "open", "note": "Home state; existing operations concentrated here", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "MI", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "MS", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "MO", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "MT", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "NE", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "NV", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "NH", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "NJ", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "NM", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "NC", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "OH", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "OK", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "OR", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "PA", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "SC", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "TN", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "TX", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "UT", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "VT", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "WV", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 },
+        { "state": "WY", "status": "open", "note": "Open per franchisor disclaimer (not among the 13 excluded registration states)", "source": "Snapchef official franchise site disclaimer", "url": "https://snapcheffranchise.com/", "year": 2026 }
+      ],
+      "fields": {
+        "franchiseFee": {
+          "value": 39500,
+          "source": "Snapchef official franchise site (corroborated by Entrepreneur)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMin": {
+          "value": 135254,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor site lists $134,332-$193,652 (slightly older FDD figures)."
+        },
+        "totalInvestmentMax": {
+          "value": 194949,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Listed as 6% declining to 4% (sliding scale); standard headline rate 6%. Plus $450/month technology fee."
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Vetted Biz also lists 1% marketing fee; some directories show 2%."
+        },
+        "liquidCapitalMin": {
+          "value": 75000,
+          "source": "Snapchef official franchise site (corroborated by Entrepreneur)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Net worth requirement $250,000."
+        },
+        "totalUnits": {
+          "value": 6,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Vetted Biz listed 4 US locations in its FDD summary."
+        },
+        "yearFounded": {
+          "value": 2002,
+          "source": "Snapchef official franchise site (corroborated by Entrepreneur)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2022,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "Snapchef official franchise site ('initial 2-week training program')",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur details 68 hours on-the-job plus 40 hours classroom."
+        },
+        "employeesRequired": {
+          "value": 3,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Snapchef official franchise site (corroborated by Entrepreneur)",
+          "year": 2026,
+          "confidence": "high",
+          "note": "20% off franchise fee for military veterans."
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Snapchef official franchise site (directs prospects to review its FDD); Vetted Biz summarizes 2023 FDD",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "marketingSupport": {
+          "value": ["Sales materials", "Marketing playbook", "Protected marketing territory"],
+          "source": "Snapchef official franchise site",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "ongoingSupport": {
+          "value": ["Initial 2-week training program", "Ongoing partnership support", "Proprietary staffing/training software (developed over 20 years)"],
+          "source": "Snapchef official franchise site",
+          "year": 2026,
+          "confidence": "high"
+        }
+      }
+    }
+  ]
+}

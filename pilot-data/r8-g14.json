@@ -1,0 +1,192 @@
+{
+  "brands": [
+    {
+      "name": "Vara Juice",
+      "website": "https://varajuice.com",
+      "notes": "Emerging Dearborn, MI juice/smoothie QSR franchise; founded 2019, began franchising 2023 with roughly 13-19 units (mix of corporate and franchised). Young, fast-growing but unproven system.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new franchise system",
+          "detail": "Began franchising only in 2023 with a small unit count (~13-19), so franchisee track record is limited and reported growth rates (cited as +325%) reflect a tiny base.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "No verified Item 19 earnings disclosure",
+          "detail": "AUV figures (~$427K) circulate via third-party aggregators but the FDD is reported to not fully disclose Item 19 financial performance; treat revenue claims with caution.",
+          "source": "PeerSense FDD summary",
+          "url": "https://peersense.com/franchise/vara-juice-restaurant",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896",
+        "year": 2026,
+        "note": "Franchising opportunities available across the United States; no state-specific exclusions disclosed."
+      },
+      "fields": {
+        "totalInvestmentMin": {"value": 236065, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists $236,065-$634,516; third-party aggregators cite a similar $252K-$648K range."},
+        "totalInvestmentMax": {"value": 634516, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 25000, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "medium", "note": "Some aggregators list $35,000; Entrepreneur directory shows $25,000."},
+        "royaltyPercent": {"value": 5, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "medium"},
+        "adFundPercent": {"value": 2, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "low", "note": "Entrepreneur lists 2% ad royalty; other sources cite 4%."},
+        "liquidCapitalMin": {"value": 150000, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "medium", "note": "Listed as cash requirement $150,000."},
+        "yearFounded": {"value": 2019, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2023, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 17, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "low", "note": "Counts vary by source (13-19); Entrepreneur shows 17 units."},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "medium", "note": "10% off franchise fee."},
+        "absenteeOwnership": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "low", "note": "Listed as home/mobile unit eligible."},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/vara-juice/335226896", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "https://varajuice.com/franchise/", "year": 2026, "confidence": "medium", "note": "Actively recruiting franchisees off a small base."}
+      }
+    },
+    {
+      "name": "Vignette Collection",
+      "website": "https://development.ihg.com/hotel-brands/vignette-collection",
+      "notes": "IHG Hotels & Resorts luxury/lifestyle conversion brand launched in 2021 for high-quality independent hotels. Hotel-scale capital (a full hotel asset), NOT a typical small-unit franchise; IHG does not publicly disclose conventional FDD-style fees here. 34 open hotels (8,708 rooms) plus 45 pipeline hotels as of March 31, 2026.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Hotel-scale capital, not a standard franchise",
+          "detail": "This is a luxury hotel conversion brand under IHG; entry requires owning/operating a full hotel property. Standard franchise metrics (franchise fee, liquid capital, total investment) do not apply in the small-business sense and are not publicly disclosed.",
+          "source": "IHG Development",
+          "url": "https://development.ihg.com/hotel-brands/vignette-collection",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "yearFounded": {"value": 2021, "source": "https://development.ihg.com/hotel-brands/vignette-collection", "year": 2026, "confidence": "high", "note": "Brand launched by IHG in 2021 as a conversion brand."},
+        "totalUnits": {"value": 34, "source": "https://development.ihg.com/hotel-brands/vignette-collection", "year": 2026, "confidence": "high", "note": "34 open hotels (8,708 rooms) globally as of March 31, 2026; plus 45 pipeline hotels (6,319 rooms). Global, not US-only."},
+        "isGrowing": {"value": true, "source": "https://development.ihg.com/hotel-brands/vignette-collection", "year": 2026, "confidence": "high", "note": "Large pipeline (45 hotels) relative to open count indicates active expansion."},
+        "multiUnitAvailable": {"value": true, "source": "https://development.ihg.com/hotel-brands/vignette-collection", "year": 2026, "confidence": "medium", "note": "Owners with multiple independent properties can convert."}
+      }
+    },
+    {
+      "name": "VooDoo Wing Company",
+      "website": "https://www.voodoowingco.com",
+      "notes": "Emerging chicken-wing QSR concept founded 2014 (Mobile, AL), franchising since 2021 with fewer than 20 units concentrated in AL plus a Las Vegas location. Small, early-stage system; at least one location (Chapel Hill, NC) is now closed.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Closed location",
+          "detail": "The Chapel Hill, NC VooDoo Wing Company location is listed as permanently closed (Yelp, updated May 2026), a contraction signal for a system with fewer than 20 units.",
+          "source": "Yelp",
+          "url": "https://www.yelp.com/biz/voodoo-wing-company-chapel-hill",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Very small, early-stage system",
+          "detail": "Approximately 9 units (less than 20) and franchising only since 2021, with units concentrated in Alabama; limited franchisee track record.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470",
+        "year": 2026,
+        "note": "Franchising opportunities listed as available across the United States; existing units are concentrated in Alabama with one in Las Vegas, NV."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 207800, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists $207,800-$475,950; IFPG cites $205,500-$471,950."},
+        "totalInvestmentMax": {"value": 475950, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 25000, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "medium"},
+        "royaltyPercent": {"value": 5, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "medium"},
+        "adFundPercent": {"value": 2, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "low"},
+        "yearFounded": {"value": 2014, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2021, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 9, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "low", "note": "Entrepreneur shows 9 units; IFPG states 'less than 20 units.'"},
+        "veteranDiscount": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "medium", "note": "10% off franchise fee."},
+        "absenteeOwnership": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "medium"},
+        "exclusiveTerritories": {"value": true, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "medium"},
+        "canRunPartTime": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/voodoo-wing-company/336470", "year": 2026, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "W.O.L.F. Fitness Gyms",
+      "website": "https://www.wolfgyms.com",
+      "notes": "Large-format fitness gym franchise (founders took over Brigantine, NJ location 2018; franchising since 2023) with ~6 units. High-capital concept (15,000-30,000 sq ft). Note: Entrepreneur directory shows materially lower investment/fee figures than the franchisor's own site; the official site figures are used as primary.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, capital-intensive system",
+          "detail": "Only ~6 units and franchising since 2023, paired with a high total investment ($834K-$2.19M) and $500K liquid-capital requirement; limited franchisee operating history at significant capital risk.",
+          "source": "W.O.L.F. Gyms franchise site",
+          "url": "https://offer.wolffitnessgyms.com/value",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting published cost figures",
+          "detail": "Entrepreneur lists franchise fee $35K-$50K and total investment $406K-$1.17M, while the franchisor's own site states a $75K fee and $834K-$2.19M total. Verify directly against the current FDD before relying on either.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/wolf-fitness-gyms/335226621",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/wolf-fitness-gyms/335226621",
+        "year": 2026,
+        "note": "Franchising opportunities listed as available across the United States."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 500000, "source": "https://offer.wolffitnessgyms.com/value", "year": 2026, "confidence": "medium", "note": "Franchisor site states $500,000 minimum liquid capital."},
+        "totalInvestmentMin": {"value": 834150, "source": "https://offer.wolffitnessgyms.com/value", "year": 2026, "confidence": "medium", "note": "Franchisor site; Entrepreneur lists a lower $406,150 min."},
+        "totalInvestmentMax": {"value": 2191500, "source": "https://offer.wolffitnessgyms.com/value", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 75000, "source": "https://offer.wolffitnessgyms.com/value", "year": 2026, "confidence": "medium", "note": "$75,000 standard; $65,000 for qualified military. Entrepreneur lists $35K-$50K."},
+        "royaltyPercent": {"value": 7, "source": "https://offer.wolffitnessgyms.com/value", "year": 2026, "confidence": "medium"},
+        "adFundPercent": {"value": 1, "source": "https://offer.wolffitnessgyms.com/value", "year": 2026, "confidence": "medium", "note": "1% brand marketing fund plus required 3% local marketing spend."},
+        "minFootprint": {"value": 15000, "source": "https://offer.wolffitnessgyms.com/value", "year": 2026, "confidence": "medium", "note": "Primary footprint 15,000-30,000 sq ft; smaller 8,000-12,000 sq ft option for second locations."},
+        "yearFounded": {"value": 2018, "source": "https://www.entrepreneur.com/franchises/directory/wolf-fitness-gyms/335226621", "year": 2026, "confidence": "medium"},
+        "yearFranchising": {"value": 2023, "source": "https://www.entrepreneur.com/franchises/directory/wolf-fitness-gyms/335226621", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 6, "source": "https://www.entrepreneur.com/franchises/directory/wolf-fitness-gyms/335226621", "year": 2026, "confidence": "medium"},
+        "sbaApproved": {"value": true, "source": "https://offer.wolffitnessgyms.com/value", "year": 2026, "confidence": "medium", "note": "Stated as an SBA-approved franchise for qualified applicants."},
+        "veteranDiscount": {"value": true, "source": "https://offer.wolffitnessgyms.com/value", "year": 2026, "confidence": "medium", "note": "$10,000 off franchise fee for qualified military ($65K vs $75K)."},
+        "absenteeOwnership": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/wolf-fitness-gyms/335226621", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "https://www.entrepreneur.com/franchises/directory/wolf-fitness-gyms/335226621", "year": 2026, "confidence": "medium"},
+        "multiUnitAvailable": {"value": true, "source": "https://www.wolfgyms.com/franchise", "year": 2026, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Wed Society",
+      "website": "https://franchise.wedsociety.com",
+      "notes": "Wedding-media/advertising and bridal-events franchise; parent founded 2007, began franchising October 2023. Home-based, low-overhead model with one franchisee per metro market; ~5 markets sold out. Item 19 figures published by franchisor.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Newly franchising",
+          "detail": "Although the parent business dates to 2007, franchising only began in October 2023, so the franchised-unit track record is short.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_news/new-franchise-wed-society-taps-into-big-business-of-weddings/article_19aa0f5a-7a8a-11ef-bb27-c32d8c3afd3e.html",
+          "year": 2024
+        }
+      ],
+      "statesOpen": [],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "https://www.smallbusinessstartup.com/how-much/wed-society_17295.html", "year": 2025, "confidence": "low", "note": "Third-party listing cites $100,000 liquid capital and $200,000 net worth; not confirmed on franchisor site."},
+        "totalInvestmentMin": {"value": 102200, "source": "https://franchise.wedsociety.com/", "year": 2026, "confidence": "medium", "note": "Franchisor site lists $102,200-$155,800 total investment."},
+        "totalInvestmentMax": {"value": 155800, "source": "https://franchise.wedsociety.com/", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 45000, "source": "https://franchise.wedsociety.com/", "year": 2026, "confidence": "high"},
+        "avgUnitRevenue": {"value": 789000, "source": "https://franchise.wedsociety.com/", "year": 2026, "confidence": "low", "note": "Item 19 figure: franchisor states 'average mature market revenue $789,000+ annually'; Entrepreneur separately cites ~$681,156 AUV from four company-owned territories (2023). Represents mature-market gross revenue, not profit."},
+        "yearFounded": {"value": 2007, "source": "https://www.franchisetimes.com/franchise_news/new-franchise-wed-society-taps-into-big-business-of-weddings/article_19aa0f5a-7a8a-11ef-bb27-c32d8c3afd3e.html", "year": 2024, "confidence": "high"},
+        "yearFranchising": {"value": 2023, "source": "https://www.franchisetimes.com/franchise_news/new-franchise-wed-society-taps-into-big-business-of-weddings/article_19aa0f5a-7a8a-11ef-bb27-c32d8c3afd3e.html", "year": 2024, "confidence": "high", "note": "Began franchising October 2023."},
+        "canRunFromHome": {"value": true, "source": "https://franchise.wedsociety.com/", "year": 2026, "confidence": "high", "note": "Home-based; ~85% of meetings held virtually."},
+        "canRunPartTime": {"value": false, "source": "https://franchise.wedsociety.com/", "year": 2026, "confidence": "medium", "note": "Full-time owner-operator; minimum team owner + 1 community manager."},
+        "employeesRequired": {"value": 2, "source": "https://www.entrepreneur.com/franchises/earn-680k-a-year-with-this-wedding-industry-franchise/477360", "year": 2024, "confidence": "medium", "note": "Two employees including the franchisee to start."},
+        "veteranDiscount": {"value": true, "source": "https://www.smallbusinessstartup.com/how-much/wed-society_17295.html", "year": 2025, "confidence": "low", "note": "Third-party listing cites $10,000 off franchise fee for veterans; franchisor site instead highlights a $5,000 'Industry Pro' reduction. Treat as unconfirmed."},
+        "exclusiveTerritories": {"value": true, "source": "https://franchise.wedsociety.com/", "year": 2026, "confidence": "high", "note": "One franchisee per metro area."},
+        "isGrowing": {"value": true, "source": "https://franchise.wedsociety.com/in-the-press/new-franchise-wed-society-big-business-of-weddings/", "year": 2025, "confidence": "medium", "note": "Entered four new markets; some markets sold out (DE, IA, MT, NE, OK)."}
+      }
+    }
+  ]
+}

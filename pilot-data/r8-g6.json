@@ -1,0 +1,221 @@
+{
+  "brands": [
+    {
+      "name": "King of Pops",
+      "website": "https://www.kingofpops.com",
+      "notes": "Atlanta-based popsicle cart brand (founded 2010) that began franchising its 'Cartrepreneur' mobile cart model in 2022; low-cost, mobile/home-based, no Item 19 financial performance representation located in public sources.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new franchise system",
+          "detail": "King of Pops only began franchising in 2022, so the franchised network has a short track record despite the brand existing since 2010.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/king-of-pops/335226843",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "No public Item 19 / financial performance representation found",
+          "detail": "No FDD Item 19 average revenue figure was located in public sources; prospective franchisees cannot rely on a disclosed earnings claim.",
+          "source": "King of Pops Help Center / franchise page",
+          "url": "https://help.kingofpops.com/knowledge/franchise",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Franchisees located from Miami to D.C. and Charleston to Denver; brand recruits in select US states. GA/FL/SC/CO/DC corridor named.",
+          "source": "Franchise.com / King of Pops",
+          "url": "https://www.franchise.com/franchise/king-of-pops",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "franchiseFee": {"value": 9000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high", "note": "Grants right to sell pops in a territory for five years; renewals $1,000, additional territory $6,000."},
+        "totalInvestmentMin": {"value": 20210, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high", "note": "Range $20,210-$68,510 per Entrepreneur."},
+        "totalInvestmentMax": {"value": 68510, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Listed as '5%+'; plus $12/week technology fee."},
+        "adFundPercent": {"value": 1, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "yearFounded": {"value": 2010, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2022, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 56, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Total units per Entrepreneur directory."},
+        "canRunFromHome": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high", "note": "Mobile/home-based operation."},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "marketingSupport": {"value": ["Ad templates", "Social media", "Website development", "Email marketing", "Loyalty program/app"], "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "ongoingSupport": {"value": ["Newsletter", "Meetings/conventions", "Grand opening assistance", "Online support", "Field operations", "Proprietary software", "Franchisee intranet"], "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Legato Living",
+      "website": "https://legatoliving.com",
+      "notes": "Omaha, NE residential assisted-living franchise (founded/franchising 2021) focused exclusively on memory/dementia care, combining the care business with a real-estate ownership model. Small system (about 5 units).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, small franchise system",
+          "detail": "Founded and began franchising in 2021 with only about 5 total units; limited operating history as a franchisor.",
+          "source": "Vetted Biz (2025 FDD)",
+          "url": "https://www.vettedbiz.com/franchises/legato-living",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Item 19 reflects a small/single-unit sample",
+          "detail": "Disclosed yearly gross sales of $1,092,214 is drawn from a very small unit base and is tied to a real-estate-plus-care model; not a broad multi-unit average.",
+          "source": "Vetted Biz (2025 FDD)",
+          "url": "https://www.vettedbiz.com/franchises/legato-living",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Real-estate-heavy investment",
+          "detail": "Top of total-investment range exceeds $1M in some sources due to residential real estate; capital-intensive relative to most emerging franchises.",
+          "source": "Franchise Gator",
+          "url": "https://www.franchisegator.com/franchises/legato-living/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "franchiseFee": {"value": 50000, "source": "Franchise Gator", "year": 2026, "confidence": "medium", "note": "Franchise Gator and FranchiseSidekick cite $50,000; Vetted Biz lists a $12,500-$50,000 range. Used the headline $50,000 figure."},
+        "totalInvestmentMin": {"value": 125350, "source": "Vetted Biz (2025 FDD)", "year": 2025, "confidence": "high", "note": "Range $125,350 to ~$406,895 (Vetted Biz); some sources show a higher max near $1.35M including real estate."},
+        "totalInvestmentMax": {"value": 406895, "source": "Vetted Biz (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Franchise Gator reports a max up to $1,346,395 including real estate."},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz (2025 FDD)", "year": 2025, "confidence": "high"},
+        "adFundPercent": {"value": 1, "source": "Vetted Biz (2025 FDD)", "year": 2025, "confidence": "medium"},
+        "liquidCapitalMin": {"value": 100000, "source": "Franchise Gator", "year": 2026, "confidence": "medium", "note": "Franchise Gator cites $100,000 liquid / $250,000 net worth; Vetted Biz lists $40,000 min liquid."},
+        "avgUnitRevenue": {"value": 1092214, "source": "Vetted Biz (2025 FDD Item 19)", "year": 2025, "confidence": "low", "note": "FDD-derived yearly gross sales example; drawn from a very small unit base. Estimated earnings $196,599-$273,054 cited. Treat as illustrative, not a network-wide average."},
+        "totalUnits": {"value": 5, "source": "Vetted Biz (2025 FDD)", "year": 2025, "confidence": "medium"},
+        "yearFounded": {"value": 2021, "source": "Vetted Biz (2025 FDD)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2021, "source": "Vetted Biz (2025 FDD)", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz (2025 FDD)", "year": 2025, "confidence": "high", "note": "Two weeks initial training at headquarters."},
+        "multiUnitAvailable": {"value": true, "source": "Legato Living franchise site", "year": 2026, "confidence": "high", "note": "Model encourages investing in multiple residential locations."}
+      }
+    },
+    {
+      "name": "Meals of Hope",
+      "website": "https://mealsofhopefranchise.com",
+      "notes": "Naples, FL nonprofit-rooted (501(c)(3) founded 2007) meal-packing fundraising franchise; began franchising 2022 with ~8 'Packing Partner' franchisees. Uses a reverse-royalty model (no royalty charged; franchisees earn from sponsor-funded packing events).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, tiny franchise system",
+          "detail": "Began franchising in 2022; only about 8 franchisees as of early 2024 across 64 large territories. Short franchising track record.",
+          "source": "FranchiseWire",
+          "url": "https://www.franchisewire.com/meals-of-hope-franchise-tackles-hunger-nationwide/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Atypical reverse-royalty / fundraising model",
+          "detail": "No royalty charged; revenue depends on franchisee securing sponsor organizations to fund and staff meal-packing events. First event is a ~$11,500 tax-deductible donation. Earnings depend heavily on local fundraising ability.",
+          "source": "Meals of Hope Franchise / FranchiseWire",
+          "url": "https://www.franchisewire.com/meals-of-hope-franchise-tackles-hunger-nationwide/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "franchiseFee": {"value": 40000, "source": "Meals of Hope Franchise site", "year": 2025, "confidence": "high"},
+        "totalInvestmentMin": {"value": 61050, "source": "Meals of Hope Franchise site / Vetted Biz", "year": 2025, "confidence": "high", "note": "Range $61,050-$71,925; brand's own site cites ~$51,050 in one current page. Includes ~$11,500 first-event donation."},
+        "totalInvestmentMax": {"value": 71925, "source": "Vetted Biz / Entrepreneur", "year": 2025, "confidence": "medium"},
+        "adFundPercent": {"value": 5, "source": "Vetted Biz", "year": 2024, "confidence": "medium", "note": "5% marketing/brand fund; the model charges no traditional royalty."},
+        "royaltyPercent": {"value": 0, "source": "FranchiseWire", "year": 2024, "confidence": "high", "note": "No royalty charged ('reverse-royalty' model); franchisees earn from sponsor-funded events."},
+        "yearFounded": {"value": 2007, "source": "FranchiseWire / Meals of Hope", "year": 2024, "confidence": "high", "note": "Founded 2007 as a nonprofit by Steve Popper."},
+        "yearFranchising": {"value": 2022, "source": "FranchiseWire", "year": 2024, "confidence": "high"},
+        "totalUnits": {"value": 8, "source": "FranchiseWire", "year": 2024, "confidence": "medium", "note": "~8 franchisees as of Jan 2024; 64 total territories available nationwide."},
+        "canRunFromHome": {"value": true, "source": "Meals of Hope Franchise site", "year": 2025, "confidence": "high", "note": "No office, no employees, no inventory required."},
+        "employeesRequired": {"value": 0, "source": "Meals of Hope Franchise site", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "MilkShake Factory",
+      "website": "https://www.milkshakefactory.com",
+      "notes": "Pittsburgh premium milkshake and handmade chocolate brand with a 110-year family legacy (chocolate business since 1914; first MilkShake Factory shop 2003). Began franchising in 2023; partnered with franchise platform Franworth. Rapid franchise-agreement sales but franchised units still very young.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "New franchise system; Item 19 based only on company/affiliate units",
+          "detail": "Franchising began 2023. The 2024 FDD Item 19 ($740,045 AUV) reflects 9 affiliate/company-owned shops with effectively zero franchised units operating a full year, so the figure does not represent franchisee performance.",
+          "source": "Franchise Chatter (2024 FDD review)",
+          "url": "https://www.franchisechatter.com/2024/10/15/fdd-talk-milkshake-factory-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Aggressive sold-but-not-open franchise pipeline",
+          "detail": "Reports of 100-119 franchise locations sold within ~1-2 years of launch versus a handful actually open; gap between agreements signed and units operating is a development-risk signal common to new systems.",
+          "source": "WPXI / QSR Magazine",
+          "url": "https://www.wpxi.com/news/business/one-year-after-franchising-milkshake-factory-has-100-franchisees/5ZBDABT4NBGNVDHPAUNLIILJNI/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "franchiseFee": {"value": 60000, "source": "Franchise Chatter (2024 FDD)", "year": 2024, "confidence": "high"},
+        "totalInvestmentMin": {"value": 476705, "source": "Franchise Chatter (2024 FDD)", "year": 2024, "confidence": "high", "note": "Range $476,705-$739,508 per 2024 FDD."},
+        "totalInvestmentMax": {"value": 739508, "source": "Franchise Chatter (2024 FDD)", "year": 2024, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Franchise Chatter (2024 FDD)", "year": 2024, "confidence": "high", "note": "6% of Adjusted Gross Sales (Year 1); greater of 6% or $1,200/mo (Yr 2), $1,500/mo (Yr 3+)."},
+        "adFundPercent": {"value": 2, "source": "Franchise Chatter (2024 FDD)", "year": 2024, "confidence": "high", "note": "2% Brand Development Fund plus local advertising (2% up to $500K sales, 1% above)."},
+        "liquidCapitalMin": {"value": 200000, "source": "Vetted Biz / Sharpsheets", "year": 2025, "confidence": "medium", "note": "~$200,000 liquid; net worth $700,000-$750,000."},
+        "avgUnitRevenue": {"value": 740045, "source": "Franchise Chatter (2024 FDD Item 19)", "year": 2024, "confidence": "medium", "note": "FDD Item 19 average Adjusted Gross Sales across 9 AFFILIATE/company-owned shops operating the full 2023 calendar year. Does NOT reflect franchised-unit results (essentially none open a full year). Earlier 2023 FDD cited ~$732K."},
+        "totalUnits": {"value": 11, "source": "QSR Magazine / ICSC", "year": 2024, "confidence": "medium", "note": "11 corporate locations in Pittsburgh; 100+ franchise agreements sold but few open."},
+        "yearFounded": {"value": 2003, "source": "QSR Magazine / ICSC", "year": 2024, "confidence": "high", "note": "First MilkShake Factory shop 2003; family chocolate business dates to 1914."},
+        "yearFranchising": {"value": 2023, "source": "QSR Magazine / ICSC", "year": 2024, "confidence": "high", "note": "First franchise store opened spring 2023 in Salt Lake City."},
+        "trainingWeeks": {"value": 0, "source": "Franchise Chatter (2024 FDD)", "year": 2024, "confidence": "low", "note": "Training disclosed as an $8,500 fee plus $6,345-$9,220 costs; duration in weeks not specified."}
+      }
+    },
+    {
+      "name": "Modern Market Eatery",
+      "website": "https://modernmarket.com",
+      "notes": "Boulder, CO fast-casual 'food made from scratch' chain (founded 2009), ~29 units. Began franchising ~2022; in 2024 its first franchisee, Thrive Restaurant Group, acquired the entire brand. Future third-party franchise sales were undetermined post-acquisition.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Brand acquired by its first franchisee; franchising future unclear",
+          "detail": "In 2024 Thrive Restaurant Group, Modern Market's first and only signed franchisee, bought the entire concept. Reporting noted it was unclear whether Thrive would continue selling franchises to third parties, mixing company-owned and franchise growth.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_mergers_and_acquisitions/modern-markets-first-franchisee-buys-the-concept/article_d942e3fc-7457-11ef-bf00-affcf73dca68.html",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Ownership churn / corporate reshuffling history",
+          "detail": "Previously part of Modern Restaurant Concepts (with Lemonade and Qdoba under Butterfly, 2019); Lemonade later sold off in 2023, then Modern Market itself sold to Thrive in 2024.",
+          "source": "Nation's Restaurant News",
+          "url": "https://www.nrn.com/fast-casual/lemonade-and-modern-market-eatery-merge-to-form-fast-casual-company",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Item 19 reflects only 3 franchised units",
+          "detail": "FDD Item 19 sales of $2.63M-$3.07M (2023) covered just three franchised units; small sample.",
+          "source": "Restaurant Business Online",
+          "url": "https://www.restaurantbusinessonline.com/financing/modern-market-eatery-acquired-its-first-franchisee",
+          "year": 2024
+        }
+      ],
+      "statesOpen": [
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Existing locations are in CO, KS, TX, IN, MO, GA and MA; Boulder, CO is the brand home. Listed states reflect where units operate, not necessarily active new-franchise availability post-acquisition.",
+          "source": "Restaurant Business Online",
+          "url": "https://www.restaurantbusinessonline.com/financing/modern-market-eatery-acquired-its-first-franchisee",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "franchiseFee": {"value": 40000, "source": "Entrepreneur / FranchisePayback", "year": 2025, "confidence": "high"},
+        "totalInvestmentMin": {"value": 729000, "source": "FranchisePayback", "year": 2025, "confidence": "medium", "note": "Range ~$729,000-$1,469,000 per FranchisePayback."},
+        "totalInvestmentMax": {"value": 1469000, "source": "FranchisePayback", "year": 2025, "confidence": "medium"},
+        "royaltyPercent": {"value": 5, "source": "FranchisePayback", "year": 2025, "confidence": "high"},
+        "adFundPercent": {"value": 1, "source": "FranchisePayback", "year": 2025, "confidence": "medium"},
+        "avgUnitRevenue": {"value": 2630000, "source": "Restaurant Business Online (FDD Item 19)", "year": 2024, "confidence": "low", "note": "FDD Item 19: 2023 sales of three franchised units ranged $2.63M-$3.07M. Lower bound used as headline; very small 3-unit sample."},
+        "totalUnits": {"value": 29, "source": "Franchise Times / Restaurant Business Online", "year": 2024, "confidence": "high", "note": "~29-unit chain at time of 2024 Thrive acquisition."},
+        "yearFounded": {"value": 2009, "source": "Restaurant Dive / Franchising.com", "year": 2024, "confidence": "high", "note": "Founded in Boulder, CO in 2009."},
+        "yearFranchising": {"value": 2022, "source": "PR Newswire (first franchise agreement)", "year": 2022, "confidence": "medium", "note": "First franchise agreement inked Sept 2022."},
+        "exclusiveTerritories": {"value": false, "source": "FranchisePayback", "year": 2025, "confidence": "high", "note": "No exclusive territories under the franchise/development agreement."}
+      }
+    }
+  ]
+}

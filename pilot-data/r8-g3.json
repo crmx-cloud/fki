@@ -1,0 +1,201 @@
+{
+  "brands": [
+    {
+      "name": "Fresh Monkee",
+      "website": "https://freshmonkee.com",
+      "notes": "Connecticut-based made-to-order protein shake, smoothie and bowl franchise (DBA 'The Fresh Monkee'). Emerging but actively growing system; began franchising 2022 with ~39 stores across 17 states as of early 2026.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Young franchise system",
+          "detail": "Founded 2014 but only began franchising in 2022, so the franchised track record is short (~4 years).",
+          "source": "Franchising.com / Sharpsheets",
+          "url": "https://sharpsheets.io/blog/the-fresh-monkee-franchise-fdd-profits-costs/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Fresh Monkee official franchise site",
+        "url": "https://freshmonkee.com/franchise-opportunities/",
+        "year": 2025,
+        "note": "Single and multi-unit franchises offered nationally in key US markets; registration states listed include AL, AZ, AR, CO, CT, DE, FL, GA, IA, ID, IN, KS, KY, LA, MA, ME, MI, MO, MS, MT, NC, ND, NE, NH, NJ, NM, NV, NY, OH, OK, OR, PA and others."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 75000, "source": "Fresh Monkee official franchise site", "year": 2025, "confidence": "high", "note": "At least $75,000 in liquid assets for a single unit."},
+        "totalInvestmentMin": {"value": 181200, "source": "Fresh Monkee official franchise site / Sharpsheets", "year": 2025, "confidence": "high", "note": "Single-unit range $181,200-$380,300 incl. construction, equipment, 3 months working capital and franchise fee."},
+        "totalInvestmentMax": {"value": 380300, "source": "Fresh Monkee official franchise site / Sharpsheets", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "FranchisePayback / Sharpsheets", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "FranchisePayback / Sharpsheets", "year": 2025, "confidence": "high", "note": "6% of gross sales."},
+        "avgUnitRevenue": {"value": 595000, "source": "Sharpsheets (FDD Item 19 derived)", "year": 2025, "confidence": "medium", "note": "Reported AUV of ~$595,000 per Item 19; represents average annual revenue of franchised units, not profit."},
+        "totalUnits": {"value": 39, "source": "FDD Exchange / company reporting", "year": 2026, "confidence": "medium", "note": "~39 stores in 17 states as of Jan 2026 (31 reported Dec 2025)."},
+        "yearFounded": {"value": 2014, "source": "Franchising.com / Sharpsheets", "year": 2025, "confidence": "high", "note": "Founded by Judy Flynn in Wethersfield, CT."},
+        "yearFranchising": {"value": 2022, "source": "Sharpsheets", "year": 2025, "confidence": "high"},
+        "minFootprint": {"value": 1000, "source": "Fresh Monkee official franchise site", "year": 2025, "confidence": "high", "note": "Typical location 1,000-1,500 sq ft."},
+        "multiUnitAvailable": {"value": true, "source": "Fresh Monkee official franchise site", "year": 2025, "confidence": "high", "note": "Multi-unit development (2-10 restaurants) offered."},
+        "item19Available": {"value": true, "source": "Sharpsheets", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "FDD Exchange", "year": 2025, "confidence": "high"},
+        "ownerTypes": {"value": ["owner-operator", "semi-passive"], "source": "Fresh Monkee official franchise site", "year": 2025, "confidence": "medium", "note": "Owner-operator or semi-passive model available."}
+      }
+    },
+    {
+      "name": "FunBox",
+      "website": "https://funbox.com",
+      "notes": "Large traveling/pop-up inflatable amusement park franchise (giant bounce attractions). Emerging high-investment recreation concept that began franchising around 2021-2022; unit counts reported inconsistently across sources (~30-40).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High capital requirement for an emerging brand",
+          "detail": "Total investment is very high ($665K-$1.5M+) for a young recreation franchise with limited operating history and a seasonal/event-driven revenue model.",
+          "source": "Sharpsheets / FranchisePayback",
+          "url": "https://sharpsheets.io/blog/funbox-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Inconsistent / sparse public data",
+          "detail": "Reported founding year (2019 vs 2022) and unit counts (30-40) vary across directories; Entrepreneur directory shows 'No data available'. Franchise details gated behind direct contact on official site.",
+          "source": "Entrepreneur / FunBox official site",
+          "url": "https://www.entrepreneur.com/franchises/directory/funbox/335226231",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 665000, "source": "Sharpsheets / FranchisePayback", "year": 2025, "confidence": "medium", "note": "Reported range $665,000-$1,505,000; some sources cite up to ~$1.63M. Varies by indoor/outdoor and lease vs purchase."},
+        "totalInvestmentMax": {"value": 1505000, "source": "Sharpsheets / FranchisePayback", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 75000, "source": "Sharpsheets", "year": 2025, "confidence": "medium"},
+        "royaltyPercent": {"value": 7, "source": "Sharpsheets", "year": 2025, "confidence": "medium", "note": "7% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "Sharpsheets", "year": 2025, "confidence": "medium", "note": "2% marketing/advertising fee on gross sales."},
+        "totalUnits": {"value": 37, "source": "Sharpsheets", "year": 2025, "confidence": "low", "note": "Reported ~37 units; other sources cite 30-40. Treat as approximate."},
+        "trainingWeeks": {"value": 1, "source": "Sharpsheets", "year": 2025, "confidence": "low", "note": "Approx. 34 total training hours (27 on-the-job + 7 classroom), i.e. roughly one week."},
+        "fddAvailable": {"value": true, "source": "Franchimp / Sharpsheets", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Fuse Service",
+      "website": "https://fuse.center",
+      "notes": "Home-services franchise (HVAC, plumbing, electrical and appliance repair), also marketed as Fuse Service HVAC & Appliance Repair. Began franchising in 2021 and reports 30-54 locations across the US; emerging low-to-mid investment system with a tiered royalty.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Young franchise system with varying unit reporting",
+          "detail": "Franchising only since 2021; official site cites '30+ franchisees' while directory data cites up to ~54 locations, indicating fast but recently-established growth and limited long-term track record.",
+          "source": "Fuse Center official site / Entrepreneur directory",
+          "url": "https://fuse.center/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Fuse Service / Fuse Center official site",
+        "url": "https://fuse.center/",
+        "year": 2025,
+        "note": "Markets itself as operating franchise locations nationwide across the USA ('30+ successful franchisees across the USA')."
+      },
+      "fields": {
+        "totalInvestmentMin": {"value": 91701, "source": "Entrepreneur directory / businessesforsale", "year": 2025, "confidence": "medium", "note": "Reported range $91,701-$247,800."},
+        "totalInvestmentMax": {"value": 247800, "source": "Entrepreneur directory / businessesforsale", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 24000, "source": "Fuse Center franchise investment page", "year": 2025, "confidence": "medium"},
+        "royaltyPercent": {"value": 3, "source": "Fuse Center franchise royalty fees page", "year": 2025, "confidence": "medium", "note": "Tiered/declining royalty: 3% of gross sales up to $499,999.99; 2.5% $500K-$999,999.99; 2% $1M-$1,999,999.99; 1.5% at $2M+. Headline is the entry (lowest-tier sales band) rate."},
+        "totalUnits": {"value": 54, "source": "Entrepreneur directory", "year": 2025, "confidence": "low", "note": "Reported 'more than 54' locations; official site cites 30+. Treat as approximate."},
+        "yearFranchising": {"value": 2021, "source": "Entrepreneur directory / Fuse Center site", "year": 2025, "confidence": "medium"},
+        "canRunFromHome": {"value": true, "source": "Fuse Center site (mobile home-services model)", "year": 2025, "confidence": "low", "note": "Mobile/dispatch home-services model; low buildout footprint implied. Confidence low pending FDD confirmation."},
+        "ownerTypes": {"value": ["owner-operator", "executive-model"], "source": "Fuse Center site", "year": 2025, "confidence": "low"}
+      }
+    },
+    {
+      "name": "Garage Kings",
+      "website": "https://garagekings.com",
+      "notes": "Garage floor coating and storage/organization franchise. Emerging system (~32 locations incl. company-owned at end of 2023) with a published Item 19 showing a notable gap between affiliate-owned and franchised unit revenue.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Affiliate vs franchised revenue gap in Item 19",
+          "detail": "2023 FDD Item 19 shows affiliate-owned locations averaging ~$1.04M while franchised locations averaged ~$628,601 - a material gap prospective franchisees should weigh.",
+          "source": "Franchise Chatter (FDD Talk 2025)",
+          "url": "https://www.franchisechatter.com/2025/05/01/garage-kings-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Non-exclusive territories",
+          "detail": "Territory is defined by zip codes (~100,000 single-family homes) but is NOT exclusive; franchisees may face competition from other franchisees or company-owned outlets.",
+          "source": "Franchise Chatter / IFPG",
+          "url": "https://www.franchisechatter.com/2024/04/19/fdd-talk-garage-kings-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Not ranked on Entrepreneur Franchise 500",
+          "detail": "Garage Kings did not rank on Entrepreneur's 2025 Franchise 500 list, reflecting limited mainstream scale/recognition.",
+          "source": "Franchise Chatter (FDD Talk 2025)",
+          "url": "https://www.franchisechatter.com/2025/05/01/garage-kings-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "Franchise search directories / IFPG", "year": 2025, "confidence": "medium", "note": "Minimum ~$150,000 liquid capital; net worth ~$300,000."},
+        "totalInvestmentMin": {"value": 189493, "source": "Franchise Chatter (FDD Talk)", "year": 2025, "confidence": "high", "note": "Range $189,493-$238,253, including the $60,000 franchise fee."},
+        "totalInvestmentMax": {"value": 238253, "source": "Franchise Chatter (FDD Talk)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 60000, "source": "Franchise Chatter (FDD Talk)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Franchise Chatter (FDD Talk)", "year": 2025, "confidence": "high", "note": "6% of weekly gross revenue."},
+        "adFundPercent": {"value": 2, "source": "Franchise Chatter (FDD Talk)", "year": 2025, "confidence": "high", "note": "2% of weekly revenue Brand Development Fund (after initial $1,000); separate local marketing min of greater of $48K/yr or 5%."},
+        "avgUnitRevenue": {"value": 628601, "source": "Franchise Chatter (2023 FDD Item 19)", "year": 2023, "confidence": "medium", "note": "Item 19 average annual revenue for FRANCHISED locations was $628,601 in 2023 (affiliate-owned averaged $1,042,489). Represents revenue, not profit."},
+        "totalUnits": {"value": 32, "source": "Franchise Chatter (FDD Talk)", "year": 2023, "confidence": "medium", "note": "End of 2023: 27 franchised + 5 company-owned = 32 total."},
+        "trainingWeeks": {"value": 1, "source": "Franchise Chatter (FDD Talk)", "year": 2025, "confidence": "low", "note": "$7,500 training fee plus $5,300-$10,000 additional training expenses; duration approximate."},
+        "exclusiveTerritories": {"value": false, "source": "Franchise Chatter (FDD Talk 2024)", "year": 2024, "confidence": "high", "note": "Territories are zip-code defined but non-exclusive."},
+        "item19Available": {"value": true, "source": "Franchise Chatter (FDD Talk)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FDD Exchange / Franchise Chatter", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Graze Craze",
+      "website": "https://grazecraze.com",
+      "notes": "Charcuterie board and grazing-table food franchise owned by United Franchise Group (UFG) since 2021. Despite early-FDD-era controversy, the brand is currently growing - it opened its 100th location in Oct 2025 and reported 33% same-store sales growth in 2024.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Franchisor operated at a loss with negative equity (FY2024)",
+          "detail": "Graze Craze Franchising, LLC reported a net loss of $1,473,563 for FY ended 6/30/2024 (and $1,305,551 the prior year) with negative member's equity (deficit) of $2,777,067 as of 6/30/2024 - a financial-health red flag for the franchisor entity.",
+          "source": "Unhappy Franchisee (citing Graze Craze FDD audited financials)",
+          "url": "https://www.unhappyfranchisee.com/graze-craze-franchise/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Disclosure / management-history concerns raised in early FDDs",
+          "detail": "Critics flagged the 2021-2022 FDDs for a non-disclosed affiliate operator's background and an early-stage concept with limited track record. UFG-related entities have also been subject to a California DFPI consent order (UFG family). Weigh against the brand's subsequent growth.",
+          "source": "Unhappy Franchisee / CA DFPI",
+          "url": "https://www.unhappyfranchisee.com/graze-craze-franchise/",
+          "year": 2022
+        },
+        {
+          "severity": "info",
+          "title": "United Franchise Group portfolio brand",
+          "detail": "Graze Craze is one of many UFG concepts (food division). Parent UFG entities have faced franchisee criticism across brands; evaluate the parent's support model and the 35-year franchise term.",
+          "source": "United Franchise Group press / Franchise Direct",
+          "url": "https://unitedfranchisegroup.com/news/united-franchise-group-expands-food-division-with-graze-craze-franchise-concept/",
+          "year": 2021
+        }
+      ],
+      "nationwide": {
+        "source": "Graze Craze / IFA press releases",
+        "url": "https://www.franchise.org/2025/10/graze-craze-celebrates-significant-milestone-with-opening-of-its-100th-location/",
+        "year": 2025,
+        "note": "Operates ~100 locations across multiple US states plus first Canadian location (Brossard, Quebec, 2024); actively expanding into new states."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Sharpsheets / Franchise Direct", "year": 2025, "confidence": "high", "note": "Minimum ~$50,000 liquid capital; net worth ~$100,000."},
+        "totalInvestmentMin": {"value": 162000, "source": "Sharpsheets / Franchise Direct", "year": 2025, "confidence": "medium", "note": "Reported total investment range $162,000-$294,000 (earlier UFG figures cited $124,884-$212,234)."},
+        "totalInvestmentMax": {"value": 294000, "source": "Sharpsheets / Franchise Direct", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 39500, "source": "Sharpsheets / Franchise Direct", "year": 2025, "confidence": "medium", "note": "Franchise fee reported as $39,500-$49,500; lower bound used as standard new-franchisee figure."},
+        "royaltyPercent": {"value": 6, "source": "Sharpsheets / Franchise Direct", "year": 2025, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "Sharpsheets / Franchise Direct", "year": 2025, "confidence": "high", "note": "2% marketing fee on gross sales."},
+        "totalUnits": {"value": 100, "source": "IFA / QSR Magazine", "year": 2025, "confidence": "high", "note": "Opened 100th location Oct 2, 2025; 32 new locations opened in 2024."},
+        "yearFranchising": {"value": 2021, "source": "United Franchise Group press", "year": 2021, "confidence": "high", "note": "Joined UFG family of brands in 2021."},
+        "veteranDiscount": {"value": true, "source": "Sharpsheets / Franchise Direct", "year": 2025, "confidence": "high", "note": "US military veterans receive 20% off the initial franchise fee for their first location."},
+        "isGrowing": {"value": true, "source": "IFA press / QSR Magazine", "year": 2025, "confidence": "high", "note": "100th location, 33% same-store sales growth in 2024, 16 consecutive positive quarters reported."},
+        "item19Available": {"value": true, "source": "Sharpsheets / unhappyfranchisee", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Minnesota CARDS / Franchise Direct", "year": 2025, "confidence": "high"}
+      }
+    }
+  ]
+}

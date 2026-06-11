@@ -1,0 +1,794 @@
+{
+  "brands": [
+    {
+      "name": "Stand Strong Fencing",
+      "website": "https://www.standstrongfencing.com",
+      "notes": "Fence installation franchise launched in 2023 under HorsePower Brands (Omaha, NE) — note: brief said HomeFront Brands, but the verified parent is HorsePower Brands. Founder Tom Eckerle's predecessor fencing business operated since 2017; the franchise system itself is very young with rapid territory sales.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Parent HorsePower Brands faces multiple franchisee lawsuits at sister brands",
+          "detail": "Franchisees of HorsePower Brands sister concepts (Blingle, iFoam, Mighty Dog Roofing) have filed suits in PA, NE and NJ alleging inflated/unachievable financial projections, misleading sales practices and inadequate support; Franchise Times also reported franchisees at locations on the brink of closure saying support fell short. No Stand Strong-specific suit was found, but the parent-level pattern is a material diligence item.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_insights/franchisees-allege-horsepower-brands-provided-inflated-annual-projections/article_120dda2f-e3de-4a9c-8960-cadec719b4db.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Item 19 average based on only 3 franchised businesses",
+          "detail": "The 2025 FDD Item 19 (Part 2) average total sales figure of $965,538 covers just 3 franchised businesses open during the 4/1/24-3/31/25 measurement period — a very thin sample for a system with 126 outlets sold.",
+          "source": "Franchise Chatter (2025 FDD review)",
+          "url": "https://www.franchisechatter.com/2026/01/11/stand-strong-fencing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Very new, fast-sold system — most outlets not yet mature",
+          "detail": "First franchise outlets opened in 2023 (10 by year-end); 126 franchised outlets by end of 2024 per the 2025 FDD. Franchise sales materials claim 235 open units / 268 awarded all-time as of 2026. Rapid territory sales far outpace operating history, and key terms (royalty schedule) differ across published sources/FDD years.",
+          "source": "Franchise Chatter / Franchise Sidekick",
+          "url": "https://www.franchisechatter.com/2026/01/11/stand-strong-fencing-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "FDD discloses lawsuits and/or bankruptcy information",
+          "detail": "Vetted Biz notes this franchise discloses lawsuit and/or bankruptcy information in its FDD (Items 3/4); review the current FDD for specifics.",
+          "source": "Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/stand-strong-fencing/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 75000,
+          "source": "Franchise Chatter FDD review",
+          "year": 2023,
+          "confidence": "medium",
+          "note": "Minimum $75,000 liquid capital with $300,000 net worth; Franchise Sidekick (2026) also lists $300,000 financial requirement."
+        },
+        "totalInvestmentMin": {
+          "value": 160181,
+          "source": "Franchise Chatter (2025 FDD Item 7)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD Item 7 range $160,181-$241,071."
+        },
+        "totalInvestmentMax": {
+          "value": 241071,
+          "source": "Franchise Chatter (2025 FDD Item 7)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 59500,
+          "source": "Franchise Chatter (2025 FDD)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Confirmed across Franchise Chatter, Vetted Biz and Peersense."
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "Franchise Sidekick / Franchise Chatter",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Tiered royalty; sources conflict by FDD year: 2023 FDD listed 8% up to $1M revenue declining to 6% above $2M; Franchise Chatter's 2025 FDD review lists greater of 2-6% of gross revenues (by YTD revenue) or $500/month; Franchise Sidekick lists 6%."
+        },
+        "avgUnitRevenue": {
+          "value": 965538,
+          "source": "Franchise Chatter (2025 FDD Item 19, Part 2)",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Average total sales of the 3 franchised businesses open during the 4/1/24-3/31/25 measurement period (avg 202 jobs sold, $4,788 average ticket, 36.7% close ratio). Very small sample."
+        },
+        "totalUnits": {
+          "value": 126,
+          "source": "Franchise Chatter (2025 FDD Item 20)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "126 franchised outlets at year-end 2024 (up from 10 at year-end 2023); 0 company-owned. Franchise Sidekick (2026) claims 235 open / 268 awarded all-time."
+        },
+        "yearFounded": {
+          "value": 2023,
+          "source": "Vetted Biz / Franchise Chatter",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Brand launched 2023 under HorsePower Brands; founder's predecessor fencing business (converted to the Stand Strong trademark in 2023) operated since 2017."
+        },
+        "yearFranchising": {
+          "value": 2023,
+          "source": "Vetted Biz / Franchise Sidekick",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Franchise Sidekick",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "10% veteran discount on first territory."
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchise Chatter (2025 FDD Item 20)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Franchised outlets grew 10 to 126 during 2024; growth is in outlets sold, not yet proven mature operations."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Franchise Chatter (2025 FDD review)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Franchise Chatter (2025 FDD Item 19)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "marketingSupport": {
+          "value": ["Dedicated digital marketing agency", "Call center lead acceleration", "Marketing asset portal and media creation"],
+          "source": "standstrongfencing.com/franchising",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "ongoingSupport": {
+          "value": ["KPI dashboard and CRM platform", "Video training, web call sessions and week-long in-person course", "Franchisee support network"],
+          "source": "standstrongfencing.com/franchising",
+          "year": 2026,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "Statemint",
+      "website": "https://statemint.com",
+      "notes": "Pop-up apparel consignment event franchise founded by Sarah McAffry in Knoxville, TN (2014), franchising since 2022. Low-cost, home-based, seasonal model — events run roughly twice per year per market; ~32-36 markets, mostly Southeast plus IA, KY, NE.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, very small franchise system",
+          "detail": "Franchising only since 2022 with 32 units listed and a 3-person headquarters staff per Entrepreneur; published fee/royalty figures differ between sources (IFPG lists $20K fee/3% royalty from an earlier FDD vs Entrepreneur's $25K/5%), indicating recent FDD changes. Limited operating history as a franchisor.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/statemint/336809",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Seasonal pop-up model concentrates revenue in a few events per year",
+          "detail": "The business runs as pop-up consignment events (typically twice per year per market in rented banquet/convention space) rather than a permanent retail location, so annual revenue depends heavily on the success of each individual event.",
+          "source": "IFPG franchise listing",
+          "url": "https://www.ifpg.org/top-franchises/statemint",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 25000,
+          "source": "IFPG franchise listing",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "IFPG lists liquid capital required of $25,000-$50,000."
+        },
+        "totalInvestmentMin": {
+          "value": 39400,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Entrepreneur lists $39,400-$59,050; IFPG lists $34,400-$54,050 (likely an earlier FDD year)."
+        },
+        "totalInvestmentMax": {
+          "value": 59050,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "franchiseFee": {
+          "value": 25000,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "IFPG lists $20,000 (likely earlier FDD)."
+        },
+        "royaltyPercent": {
+          "value": 5,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "IFPG lists 3% (likely earlier FDD)."
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "Entrepreneur Franchise Directory / IFPG",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Both sources agree on 1%."
+        },
+        "totalUnits": {
+          "value": 32,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "statemint.com lists ~36 event markets across TN, NC, GA, AL, SC, IA, KY, NE."
+        },
+        "yearFounded": {
+          "value": 2014,
+          "source": "Entrepreneur Franchise Directory / IFPG",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2022,
+          "source": "Entrepreneur Franchise Directory / IFPG",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 1,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "37 hours classroom training plus on-the-job training; IFPG describes a dual-phase initial training program."
+        },
+        "employeesRequired": {
+          "value": 0,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 0 employees required; events staffed seasonally."
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory / IFPG",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Entrepreneur shows +1,500% unit growth (from a tiny base, 2022-2025)."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "IFPG franchise listing",
+          "year": 2026,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "Sticky Fingers Cooking",
+      "website": "https://www.stickyfingerscooking.com",
+      "notes": "Denver-based mobile kids' cooking-class franchise (school enrichment, camps, events) founded 2011, franchising since 2022. Home-based, no commercial kitchen required; tuition-based revenue. Small emerging system with only a handful of franchised units.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Emerging system — only 3 franchised units in the 2024 FDD",
+          "detail": "Per Vetted Biz analysis of the 2024 FDD, the system had 8 total locations (5 company-owned in CO, TX, IL and 3 franchised); Entrepreneur lists 11 current units. Franchised-unit economics have very limited validation to date.",
+          "source": "Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/sticky-fingers-cooking",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting published franchise-fee figures",
+          "detail": "The franchisor's own FAQ states a $48,000 franchise fee (included in startup costs), while Entrepreneur and Vetted Biz list $35,000 from earlier FDD data — indicating a recent fee increase; verify against the current FDD.",
+          "source": "Sticky Fingers Cooking franchise FAQ",
+          "url": "https://www.stickyfingerscookingfranchise.com/faqs",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 50000,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high",
+          "note": "With $100,000 minimum net worth (also per Vetted Biz)."
+        },
+        "totalInvestmentMin": {
+          "value": 77528,
+          "source": "Sticky Fingers Cooking franchise FAQ / Entrepreneur",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor FAQ and Entrepreneur both list $77,528-$125,379; Vetted Biz lists $94,917-$193,942 from a different FDD year."
+        },
+        "totalInvestmentMax": {
+          "value": 125379,
+          "source": "Sticky Fingers Cooking franchise FAQ / Entrepreneur",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 48000,
+          "source": "Sticky Fingers Cooking franchise FAQ",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Per franchisor's own FAQ; Entrepreneur and Vetted Biz list $35,000 from earlier FDD data."
+        },
+        "royaltyPercent": {
+          "value": 8,
+          "source": "Entrepreneur Franchise Directory / Vetted Biz",
+          "year": 2025,
+          "confidence": "high",
+          "note": "8% of gross sales, collected weekly per Vetted Biz."
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "Entrepreneur Franchise Directory / Vetted Biz",
+          "year": 2025,
+          "confidence": "high",
+          "note": "1% brand development fund."
+        },
+        "avgUnitRevenue": {
+          "value": 382735,
+          "source": "Vetted Biz FDD analysis",
+          "year": 2025,
+          "confidence": "low",
+          "note": "Vetted Biz FDD-derived yearly gross sales figure; unit basis (company-owned vs franchised, sample size) not specified and the system is mostly company-owned units — treat as indicative only."
+        },
+        "totalUnits": {
+          "value": 11,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "2024 FDD showed 8 locations (5 company-owned, 3 franchised) per Vetted Biz."
+        },
+        "yearFounded": {
+          "value": 2011,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2022,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "81 hours classroom + 9 hours on-the-job (~90 hours total)."
+        },
+        "employeesRequired": {
+          "value": 4,
+          "source": "Sticky Fingers Cooking franchise FAQ",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Starting staff: 1 part-time office manager plus 3-5 part-time chef instructors per franchisor FAQ; Entrepreneur lists 10-30 employees as the system scales."
+        },
+        "minFootprint": {
+          "value": 100,
+          "source": "Sticky Fingers Cooking franchise FAQ",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Home-based: 100-200 sq ft of storage space; no commercial kitchen required."
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "Sticky Fingers Cooking franchise FAQ / Entrepreneur",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Sticky Fingers Cooking franchise FAQ / Entrepreneur",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Owners must be actively involved per franchisor FAQ."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "Sticky Fingers Cooking franchise FAQ",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Discounts for committing to multiple territories."
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high",
+          "note": "10% off franchise fee."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Sticky Fingers Cooking franchise FAQ",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Sticky Fingers Cooking franchise FAQ",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor confirms a Financial Performance Representation is provided in the FDD."
+        }
+      }
+    },
+    {
+      "name": "Sully's Steamers",
+      "website": "https://www.sullyssteamers.com",
+      "notes": "Greenville, SC-based steamed bagel sandwich shop founded by Robert Sullivan in 2012, franchising since 2020. Small but growing system (~12 units, mostly Southeast). High build-out investment relative to system size; no published Item 19 figures found.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Small, young franchise system",
+          "detail": "Only ~12 units and franchising since 2020; a 7-person headquarters staff supports the system. Limited multi-market validation outside the Carolinas/Southeast.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/sullys-steamers/335226564",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "High investment ceiling with no published Item 19 found",
+          "detail": "Initial investment runs up to ~$809K for a 12-unit emerging sandwich brand, and no FDD Item 19 average-revenue figures were found in public sources — franchisees should request the FDD to evaluate unit economics.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/sullys-steamers/335226564",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 100000,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "With $500,000 minimum net worth (also stated on sullyssteamers.com qualifications page)."
+        },
+        "totalInvestmentMin": {
+          "value": 500036,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Range $500,036-$809,496."
+        },
+        "totalInvestmentMax": {
+          "value": 809496,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "franchiseFee": {
+          "value": 35000,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Plus $195/month technology fee."
+        },
+        "totalUnits": {
+          "value": 12,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFounded": {
+          "value": 2012,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2020,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 3,
+          "source": "sullyssteamers.com (Why Invest page)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Up to 21 days pre-opening training for owners/managers plus 10 days for staff; Entrepreneur lists 146 hours on-the-job + 54 hours classroom."
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "10% off franchise fee."
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur shows +500% unit growth since franchising began (small base)."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "ongoingSupport": {
+          "value": ["Site selection and trade-area analytics", "Lease negotiation guidance", "Store design and buildout oversight", "Operator Portal", "Pre-opening training team"],
+          "source": "sullyssteamers.com (Why Invest page)",
+          "year": 2026,
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "name": "Sunmed - Your CBD Store",
+      "website": "https://getsunmed.com",
+      "notes": "Largest US CBD retail franchise (SunFlora/Your CBD Stores Franchising, Palmetto, FL), founded 2018 by Rachael Quinn, franchising since 2020. System is contracting (~195 units, down from ~291 in the 2023 FDD and 550+ at peak marketing claims) and the category faces an existential federal regulatory deadline in November 2026. Franchisor does not publish an Item 19 AUV.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Federal hemp redefinition could outlaw most products by Nov 2026",
+          "detail": "The FY2026 Agriculture appropriations act (P.L. 119-37, signed Nov 12, 2025) redefines hemp to total THC (incl. THCA/delta-8) <=0.3% and caps finished hemp-derived cannabinoid products at 0.4mg total THC per container, effective Nov 12, 2026. Legal analyses estimate ~95% of existing hemp-derived cannabinoid products — including many non-intoxicating CBD wellness SKUs — would become federally unlawful absent new legislation. Direct existential risk to CBD retail franchises.",
+          "source": "Vicente LLP",
+          "url": "https://vicentellp.com/insights/2026-federal-hemp-ban-what-it-means-for-the-future-of-consumable-hemp-products/",
+          "year": 2025
+        },
+        {
+          "severity": "red",
+          "title": "System contraction: unit count down ~29%",
+          "detail": "Entrepreneur's directory shows 195 current units with a -29% growth rate, versus 291 franchised units in the 2023 FDD (per FranchisePayback) and franchisor marketing claims of 550+ stores in 41 states at peak. Net closures indicate sustained franchisee attrition in this category.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/your-cbd-store/336092",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "State-level hemp restrictions; franchisor itself warns of forced closures",
+          "detail": "Sunmed/Your CBD Store has publicly warned that South Carolina's H.3924 would force statewide store closures, and previously protested California's 2024 emergency hemp regulations under Gov. Newsom as 'industry-killing.' State-by-state hemp/CBD rules create uneven, shifting operating conditions for franchisees.",
+          "source": "PR Newswire (Sunmed corporate releases)",
+          "url": "https://www.prnewswire.com/news-releases/sunmed--your-cbd-store-responds-to-governor-newsoms-industry-killing-hemp-regulation-302245671.html",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "FDD discloses lawsuits and/or bankruptcy information",
+          "detail": "Vetted Biz notes this franchise discloses lawsuit and/or bankruptcy information in its FDD (Items 3/4); review the current FDD for specifics.",
+          "source": "Vetted Biz",
+          "url": "https://www.vettedbiz.com/your-cbd-store-franchise/",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        {"state": "AK", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026, "note": "Franchise Gator lists 48 states + DC as available; California and Washington are not listed."},
+        {"state": "AL", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "AR", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "AZ", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "CO", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "CT", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "DC", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "DE", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "FL", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "GA", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "HI", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "IA", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "ID", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "IL", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "IN", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "KS", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "KY", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "LA", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "MA", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "MD", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "ME", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "MI", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "MN", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "MO", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "MS", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "MT", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "NC", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "ND", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "NE", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "NH", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "NJ", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "NM", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "NV", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "NY", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "OH", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "OK", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "OR", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "PA", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "RI", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "SC", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026, "note": "Listed as available, but pending SC H.3924 legislation could force statewide hemp store closures per the franchisor's own 2026 statement."},
+        {"state": "SD", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "TN", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "TX", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "UT", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "VA", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "VT", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "WI", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "WV", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026},
+        {"state": "WY", "status": "open", "source": "Franchise Gator listing", "url": "https://www.franchisegator.com/franchises/sunmed-your-cbd-store/", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 70000,
+          "source": "Franchise Gator listing",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists $80,000 liquid; net worth requirement listed as $250,000 (Gator) vs $100,000 (Entrepreneur)."
+        },
+        "totalInvestmentMin": {
+          "value": 95800,
+          "source": "Vetted Biz (2024 FDD)",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "Vetted Biz/Entrepreneur list $95,800-$151,050; Franchise Gator lists $93,300-$148,550 (different FDD year)."
+        },
+        "totalInvestmentMax": {
+          "value": 151050,
+          "source": "Vetted Biz (2024 FDD)",
+          "year": 2024,
+          "confidence": "medium"
+        },
+        "franchiseFee": {
+          "value": 20000,
+          "source": "Vetted Biz / Entrepreneur / Franchise Gator",
+          "year": 2024,
+          "confidence": "high",
+          "note": "Consistent across all sources."
+        },
+        "royaltyPercent": {
+          "value": 2,
+          "source": "Vetted Biz / Entrepreneur / FranchisePayback",
+          "year": 2024,
+          "confidence": "high",
+          "note": "2% of monthly gross sales. Ad/brand fund figures conflict across sources (0%-9%) and are omitted."
+        },
+        "totalUnits": {
+          "value": 195,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Down from 291 franchised units in the 2023 FDD (FranchisePayback) and 550+ stores claimed at peak; Entrepreneur shows -29% growth."
+        },
+        "yearFounded": {
+          "value": 2018,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "First store opened 2018 by founder Rachael Quinn; some directories list 2019."
+        },
+        "yearFranchising": {
+          "value": 2020,
+          "source": "Entrepreneur / Vetted Biz / Franchise Gator",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 1,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "16-24 hours on-the-job plus 16-24 hours classroom (~one week total)."
+        },
+        "employeesRequired": {
+          "value": 2,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Entrepreneur: franchise fee waived plus $5,000 product credit for veterans; Franchise Gator lists 50% off franchise fee."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "-29% unit growth; net contraction since 2023."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Vetted Biz (2024 FDD)",
+          "year": 2024,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": false,
+          "source": "FranchisePayback",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "FranchisePayback states Your CBD Store does not disclose average unit volume in its FDD; avgUnitRevenue omitted accordingly."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "brands": [
+    {
+      "name": "Sea Love",
+      "website": "https://www.sealovefranchise.com",
+      "notes": "Coastal-inspired candle-bar / boutique offering candle-making experiences and retail home-fragrance products. Founded 2018 in Maine, began franchising in 2022; small emerging system (~14 units) still proving scalability.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Young, small franchise system",
+          "detail": "Began franchising in 2022 with roughly 14 locations; limited multi-year franchisee track record makes performance unproven.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/sea-love/335226321",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Wide investment band",
+          "detail": "Total investment ranges roughly $109K to $292K depending on build-out and location, a broad spread for a single retail unit.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/sea-love/335226321",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/sea-love/335226321",
+        "year": 2026,
+        "note": "Listed as offering franchises across the United States; no published per-state registration exclusion list. Treat as generally open where lead-gen accepted."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists $150,000 liquid capital; some FDD-summary sites cite $80,000 — figure varies by source."},
+        "totalInvestmentMin": {"value": 109000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high", "note": "Range $109,000-$292,250 incl. franchise fee."},
+        "totalInvestmentMax": {"value": 292250, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 49500, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 2, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 14, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 14 locations; other directories cite ~7 (reporting-date variance)."},
+        "yearFounded": {"value": 2018, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2022, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "$2,500 off first-unit franchise fee."},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Multi-unit development offered."},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Season 2 Consign",
+      "website": "https://season2franchising.com",
+      "notes": "Retail consignment franchise specializing in authenticated pre-owned luxury handbags, accessories and shoes. Founded 2020, began franchising 2022; very small system (~9 units) but expanding.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very small, early-stage system",
+          "detail": "Only ~9 units and franchising since 2022; high reported growth percentage is off a tiny base, so the model is still unproven at scale.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/season-2-consign/335226546",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Significant capital required for niche retail",
+          "detail": "Total investment of roughly $189K-$276K plus a recurring $1,000/month technology fee for a single luxury-consignment showroom.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/season-2-consign/335226546",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/season-2-consign/335226546",
+        "year": 2026,
+        "note": "Listed as offering franchises across the United States (and international); no published per-state exclusion list."
+      },
+      "fields": {
+        "totalInvestmentMin": {"value": 188559, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high", "note": "Range $188,559-$276,059."},
+        "totalInvestmentMax": {"value": 276059, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 2, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 9, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "yearFounded": {"value": 2020, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2022, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "10% off franchise fee."},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "low", "note": "Entrepreneur shows large % unit growth, but off a very small base."}
+      }
+    },
+    {
+      "name": "Serotonin Anti-Aging Centers",
+      "website": "https://www.serotonincenters.com",
+      "notes": "Longevity / health-optimization medspa franchise (hormone optimization, IV therapy, aesthetics) founded and franchised in 2021 by Retro Fitness founder Eric Casaburi. Aggressive multi-unit signings (100+ open or under development) but few units actually open (~8); very high capital requirement.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Few open units vs. large committed pipeline",
+          "detail": "Only ~8 units reported open while the brand markets 100+ locations 'open or under development'; heavy reliance on signed-but-unopened multi-unit deals is a common emerging-brand risk.",
+          "source": "Entrepreneur Franchise Directory / VettedBiz",
+          "url": "https://www.entrepreneur.com/franchises/directory/serotonin-anti-aging-centers/335226526",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Very high, wide capital requirement for a young system",
+          "detail": "Total investment roughly $666K-$1.36M, $300K liquid capital, $1.4M net worth, plus $1,900/month technology fee — substantial exposure in a regulated medical-services category franchised only since 2021.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/serotonin-anti-aging-centers/335226526",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/serotonin-anti-aging-centers/335226526",
+        "year": 2026,
+        "note": "Listed as offering franchises across the United States; no published per-state exclusion list. Medical-services regulation varies by state, so local licensing applies."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 300000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 665634, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high", "note": "Range $665,634-$1,363,229."},
+        "totalInvestmentMax": {"value": 1363229, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 59000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high", "note": "Some older summaries cite $44,500; Entrepreneur current listing shows $59,000."},
+        "royaltyPercent": {"value": 6, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 2, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 8, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Open units; brand separately claims 100+ open-or-in-development."},
+        "yearFounded": {"value": 2021, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2021, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "canRunPartTime": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "low"},
+        "multiUnitAvailable": {"value": true, "source": "Franchise Times / company press releases", "year": 2024, "confidence": "high", "note": "Brand growth driven by multi-unit area-development agreements."}
+      }
+    },
+    {
+      "name": "Shrunk 3D",
+      "website": "https://shrunk3d.com",
+      "notes": "Mobile 3D scanning-and-printing studio franchise creating personalized figurines of people, pets and events. Founded 2019, began franchising 2021; emerging low-overhead/mobile concept (~55 units) with relatively high royalty.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Young system in a novelty/discretionary category",
+          "detail": "Franchising only since 2021 with ~55 units; demand for novelty 3D-printed figurines is discretionary and unproven across economic cycles.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/shrunk-3d/335226506",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Above-average royalty load",
+          "detail": "8% royalty plus 2% ad fund (10% combined) is higher than many emerging brands, compressing margins on each sale.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/shrunk-3d/335226506",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/shrunk-3d/335226506",
+        "year": 2026,
+        "note": "Listed as offering franchises across the United States (and international); no published per-state exclusion list."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 70000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 187485, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high", "note": "Range $187,485-$267,235."},
+        "totalInvestmentMax": {"value": 267235, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 49900, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 8, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 2, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 55, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 55; a Nov-2024 source cited 12 (4 corporate + 8 franchised) — reporting-date variance."},
+        "yearFounded": {"value": 2019, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2021, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high", "note": "Some sources cite 2018; Entrepreneur current listing shows 2021."},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "$2,500 off franchise fee."},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high", "note": "Mobile / home-based operation permitted."},
+        "canRunPartTime": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Sign Gypsies",
+      "website": "https://signgypsies.com",
+      "notes": "Low-cost, home-based special-occasion yard-sign / yard-greeting rental franchise. Founded 2014, began franchising 2020; large mature system (~660 units, 800+ claimed locations) with no royalty or ad-fund fee.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Hobby/side-business economics",
+          "detail": "Investment is tiny ($4K-$10K) with no royalties, but it is a part-time, home-based, low-revenue yard-sign rental model with 1-year (renewable) agreements — not a full-time income vehicle for most owners.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/sign-gypsies/336221",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory / Sign Gypsies official site",
+        "url": "https://signgypsies.com/franchise-opportunities/",
+        "year": 2026,
+        "note": "Listed as offering franchises across the United States; official site states 800+ locations. No published per-state exclusion list."
+      },
+      "fields": {
+        "totalInvestmentMin": {"value": 4150, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high", "note": "Range $4,150-$9,900."},
+        "totalInvestmentMax": {"value": 9900, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 1000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 0, "source": "Entrepreneur Franchise Directory / Sign Gypsies official site", "year": 2026, "confidence": "high", "note": "No royalty; owners keep 100% of sales per franchisor."},
+        "adFundPercent": {"value": 0, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 661, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 661; 2024 FDD cited 666 franchised; official site claims 800+. Large established system."},
+        "yearFounded": {"value": 2014, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2020, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "employeesRequired": {"value": 1, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "1-2 to operate."}
+      }
+    }
+  ]
+}

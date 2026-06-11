@@ -134,6 +134,21 @@ export function GetStartedPage() {
   const [otpCode, setOtpCode] = useState("");
 
   // Pending save ref (for auth race condition — same pattern as ClaimPage)
+  // Prefill from PerfectFit quiz answers — quiz takers never re-type them.
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem("fki-quiz-prefill");
+      if (!raw) return;
+      const q = JSON.parse(raw);
+      if (q.liquidCapital) setLiquidCapital((v) => v || q.liquidCapital);
+      if (q.ownerType) setOwnerType((v) => v || q.ownerType);
+      if (q.preferredCategories?.length) setCategories((v) => (v.length ? v : q.preferredCategories));
+      if (q.timeline) setTimeline((v) => v || q.timeline);
+      if (q.primaryCity) setPrimaryCity((v) => v || q.primaryCity);
+      if (q.primaryState) setPrimaryState((v) => v || q.primaryState);
+    } catch { /* ignore bad localStorage */ }
+  }, []);
+
   const pendingRef = useRef(false);
 
   const toggleCategory = (v: string) =>

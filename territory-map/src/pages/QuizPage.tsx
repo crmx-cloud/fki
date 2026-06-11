@@ -1,7 +1,7 @@
-import { useConvexAuth, useQuery } from "convex/react";
+import { useConvexAuth, useQuery, useMutation } from "convex/react";
 import { formatMoney, formatMoneyRange } from "@/lib/format";
 import { api } from "../../convex/_generated/api";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { PublicNav } from "@/components/PublicNav";
 import { PublicFooter } from "@/components/PublicFooter";
@@ -58,6 +58,29 @@ const TIMELINE_OPTIONS = [
   { value: "just-looking", label: "Just Looking", desc: "Curious about what's out there" },
 ];
 
+
+/* ── Quiz answers feed the SAME profile the rest of the app uses ──
+ * Reaching results persists answers: straight into the prospect profile when
+ * logged in, into localStorage (read by GetStarted signup) when anonymous.
+ * Nobody re-types what they already told the quiz. */
+const QUIZ_PREFILL_KEY = "fki-quiz-prefill";
+const BUDGET_TO_CAPITAL: Record<string, string> = {
+  "under-50k": "under_50k", "50k-100k": "50k_100k", "100k-250k": "150k_250k",
+  "250k-500k": "250k_500k", "500k-plus": "500k_1m",
+};
+const INVOLVEMENT_TO_OWNER: Record<string, string> = {
+  "owner-operator": "owner_operator", "semi-absentee": "semi_absentee", investor: "investor",
+};
+const CATEGORY_TO_ENUM: Record<string, string> = {
+  "Food & Beverage": "food_bev", "Health & Wellness": "health_fitness",
+  "Services": "services", "Home Services": "home_services",
+  "Education & Children": "education", "Beauty & Self Care": "beauty_selfcare",
+  "Fitness": "health_fitness",
+};
+const QUIZ_TIMELINE_TO_PROFILE: Record<string, string> = {
+  asap: "asap", "6months": "6_months", "1year": "12_months", "just-looking": "exploring",
+};
+
 export function QuizPage() {
   const { isAuthenticated } = useConvexAuth();
   const [step, setStep] = useState<QuizStep>("location");
@@ -78,6 +101,39 @@ export function QuizPage() {
   const [showAll, setShowAll] = useState(false);
 
   const currentBudget = BUDGET_STOPS[budgetIndex];
+  const saveProfile = useMutation(api.prospect.saveProfile);
+  const persistedRef = useRef(false);
+
+  useEffect(() => {
+    if (step !== "results" || persistedRef.current) return;
+    persistedRef.current = true;
+    const mapped: Record<string, any> = {};
+    const cap = BUDGET_TO_CAPITAL[currentBudget.value];
+    if (cap) mapped.liquidCapital = cap;
+    const owner = INVOLVEMENT_TO_OWNER[involvement];
+    if (owner) mapped.ownerType = owner;
+    if (!allCategories && categories.length > 0) {
+      mapped.preferredCategories = categories.map((c) => CATEGORY_TO_ENUM[c] || c);
+    }
+    const tl = QUIZ_TIMELINE_TO_PROFILE[timeline];
+    if (tl) mapped.timeline = tl;
+    if (primaryLocation) {
+      if (primaryLocation.city) mapped.primaryCity = primaryLocation.city;
+      if (primaryLocation.state) mapped.primaryState = primaryLocation.state;
+      mapped.primaryRadius = primaryRadius;
+    }
+    if (secondaryLocation) {
+      if (secondaryLocation.city) mapped.secondaryCity = secondaryLocation.city;
+      if (secondaryLocation.state) mapped.secondaryState = secondaryLocation.state;
+      mapped.secondaryRadius = secondaryRadius;
+    }
+    try {
+      localStorage.setItem(QUIZ_PREFILL_KEY, JSON.stringify(mapped));
+    } catch { /* private mode etc. */ }
+    if (isAuthenticated && Object.keys(mapped).length > 0) {
+      saveProfile(mapped).catch(() => {});
+    }
+  }, [step, isAuthenticated]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const results = useQuery(
     api.discovery.getQuizResults,

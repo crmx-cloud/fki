@@ -78,6 +78,7 @@ export function HomePage() {
         latitude: selectedLocation.latitude,
         longitude: selectedLocation.longitude,
         radiusMiles: selectedRadius,
+        state: selectedLocation.state,
         ...(selectedBudget ? {
           budgetMin: ({ "under-50k": 0, "50k-100k": 50000, "100k-250k": 100000, "250k-500k": 250000, "500k-plus": 500000 } as any)[selectedBudget] ?? 0,
           budgetMax: ({ "under-50k": 50000, "50k-100k": 100000, "100k-250k": 250000, "250k-500k": 500000, "500k-plus": 10000000 } as any)[selectedBudget] ?? 10000000,

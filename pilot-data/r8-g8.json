@@ -1,0 +1,775 @@
+{
+  "brands": [
+    {
+      "name": "Pampered Peach Wax Bar, The",
+      "website": "https://www.pamperyourpeach.com",
+      "notes": "Tampa-based luxury waxing-salon franchise founded by aesthetician Jessica Kustron; franchising since 2022 with a low-cost 'Suite To Salon' entry model and a membership (VI-Peach Club) recurring-revenue component. Unit counts reported by the franchisor (70+ locations) far exceed directory FDD-derived counts (~14), so verify the current FDD Item 20 before relying on system size.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Large unit-count discrepancy between franchisor marketing and directory data",
+          "detail": "The franchisor's site claims '70+ locations' while Entrepreneur's FDD-derived directory lists 14 total units (2026 edition). The marketing figure may count sold/suite-stage territories rather than open salons.",
+          "source": "Entrepreneur Franchise Directory vs. franchisor site",
+          "url": "https://www.entrepreneur.com/franchises/directory/pampered-peach-wax-bar-the/336576",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Very new, small franchise system",
+          "detail": "Founded 2019, franchising only since 2022; even by the franchisor's own claims the system is young, and FDD-derived counts show ~14 units. Limited multi-year franchisee track record.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/pampered-peach-wax-bar-the/336576",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "AUV figure is a marketing claim, not verified Item 19 data",
+          "detail": "The franchisor advertises an average unit volume of $359K-$1M on its franchise page; no publicly verifiable Item 19 disclosure was found to substantiate it, so it is excluded from revenue fields here.",
+          "source": "The Pampered Peach franchise page",
+          "url": "https://www.pamperyourpeach.com/franchise/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting franchise-fee figures across sources",
+          "detail": "America's Best Franchises and SharpSheets list a $15,000 franchise fee, while Entrepreneur shows no/zero initial fee and Franchise Gator has shown $45,000 with a different (likely stale) investment range. Confirm against the current FDD.",
+          "source": "America's Best Franchises vs. Entrepreneur vs. Franchise Gator",
+          "url": "https://americasbestfranchises.com/franchises/pampered-peach/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "America's Best Franchises listing",
+        "url": "https://americasbestfranchises.com/franchises/pampered-peach/",
+        "year": 2025,
+        "note": "Broker listing states franchises are available throughout the United States; franchisor's page markets nationwide expansion with a regulated-states legal disclaimer but publishes no per-state open/closed list."
+      },
+      "fields": {
+        "franchiseFee": {
+          "value": 15000,
+          "source": "https://americasbestfranchises.com/franchises/pampered-peach/",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Corroborated by SharpSheets FDD summary; Entrepreneur shows no initial fee and Franchise Gator shows $45,000 — verify against current FDD"
+        },
+        "totalInvestmentMin": {
+          "value": 67663,
+          "source": "https://www.pamperyourpeach.com/franchise/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor-stated range $67,663-$195,863; matches Entrepreneur directory"
+        },
+        "totalInvestmentMax": {
+          "value": 195863,
+          "source": "https://www.pamperyourpeach.com/franchise/",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "https://www.pamperyourpeach.com/franchise/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "6% of gross sales, plus ~$595-$735/month technology fee per directory listings"
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "https://www.pamperyourpeach.com/franchise/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "1% marketing fee on gross sales"
+        },
+        "liquidCapitalMin": {
+          "value": 100000,
+          "source": "https://www.entrepreneur.com/franchises/directory/pampered-peach-wax-bar-the/336576",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists $100K liquid cash; America's Best Franchises lists $50K minimum cash"
+        },
+        "totalUnits": {
+          "value": 14,
+          "source": "https://www.entrepreneur.com/franchises/directory/pampered-peach-wax-bar-the/336576",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "FDD-derived directory count; franchisor markets '70+ locations' (likely includes sold territories/suites)"
+        },
+        "yearFounded": {
+          "value": 2019,
+          "source": "https://www.entrepreneur.com/franchises/directory/pampered-peach-wax-bar-the/336576",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2022,
+          "source": "https://www.entrepreneur.com/franchises/directory/pampered-peach-wax-bar-the/336576",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/pampered-peach-wax-bar-the/336576",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists veterans receive 5% off training fees"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/pampered-peach-wax-bar-the/336576",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/pampered-peach-wax-bar-the/336576",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/pampered-peach-wax-bar-the/336576",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/pampered-peach-wax-bar-the/336576",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/pampered-peach-wax-bar-the/336576",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur shows +180% unit growth from a very small base"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.pamperyourpeach.com/franchise/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor references FDD review and Discovery Day in its process"
+        }
+      }
+    },
+    {
+      "name": "Pink Zebra Moving",
+      "website": "https://www.pinkzebramoving.com",
+      "notes": "Birmingham, AL local-moving franchise founded in 2020 by Ron Holt (founder/former CEO of Two Maids), franchising since April 2022 with a customer-experience-led positioning. Fast territory sales but a young open-unit base; reported unit counts vary widely by source and the initial franchise fee rose materially in the 2026 FDD.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new system with widely divergent unit counts",
+          "detail": "Founded 2020, franchising since 2022. Reported counts range from 8 (2025 FDD per FDD Exchange) and 14 (Vetted Biz, 2025 FDD) to 19 (Entrepreneur 2026) and 62 'open units' claimed by broker site Franchise Sidekick — suggesting many sold-but-not-yet-open territories. Verify current Item 20.",
+          "source": "Vetted Biz / Entrepreneur / Franchise Sidekick",
+          "url": "https://www.vettedbiz.com/franchises/pink-zebra-moving",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Franchise fee increased sharply in 2026 FDD",
+          "detail": "The franchisor's own investment page (citing the 2026 FDD) lists initial franchise fees of $52,500-$75,000, versus the $30,000 fee shown in earlier FDD-derived directory data.",
+          "source": "Pink Zebra Moving Franchising — Expected Investment",
+          "url": "https://www.pinkzebramovingfranchise.com/expected-investment",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "No lawsuits or bankruptcy disclosed in FDD",
+          "detail": "Vetted Biz notes the FDD does not disclose litigation or bankruptcy; standard operating risks for moving businesses (labor management, local competition) apply.",
+          "source": "Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/pink-zebra-moving",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "franchiseFee": {
+          "value": 52500,
+          "source": "https://www.pinkzebramovingfranchise.com/expected-investment",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor's 2026 FDD-cited range is $52,500-$75,000 for a standard territory; earlier 2025 FDD data showed $30,000"
+        },
+        "totalInvestmentMin": {
+          "value": 128368,
+          "source": "https://www.pinkzebramovingfranchise.com/expected-investment",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor-stated 2026 range $128,368-$260,679 incl. first 90 days; 2025 FDD range was $131,032-$249,398"
+        },
+        "totalInvestmentMax": {
+          "value": 260679,
+          "source": "https://www.pinkzebramovingfranchise.com/expected-investment",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 7,
+          "source": "https://www.entrepreneur.com/franchises/directory/pink-zebra-moving/336628",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "7% on booked revenue, reported as scaling down to 5% at higher volume; Vetted Biz lists 6% — confirm tier structure in current FDD"
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "https://www.entrepreneur.com/franchises/directory/pink-zebra-moving/336628",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "liquidCapitalMin": {
+          "value": 65000,
+          "source": "https://www.entrepreneur.com/franchises/directory/pink-zebra-moving/336628",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Net worth requirement $175,000 per same source"
+        },
+        "avgUnitRevenue": {
+          "value": 940624,
+          "source": "https://www.vettedbiz.com/franchises/pink-zebra-moving",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Item 19-derived average yearly gross sales per location, 2025 FDD (Vetted Biz); broker site Franchise Sidekick cites $1,072,327 average booked revenues — small, young unit base, treat with caution"
+        },
+        "totalUnits": {
+          "value": 19,
+          "source": "https://www.entrepreneur.com/franchises/directory/pink-zebra-moving/336628",
+          "year": 2026,
+          "confidence": "low",
+          "note": "Counts vary: 14 per 2025 FDD (Vetted Biz), 19 per Entrepreneur 2026, 62 open / 82 awarded per Franchise Sidekick broker listing"
+        },
+        "yearFounded": {
+          "value": 2020,
+          "source": "https://fddexchange.com/view-fdd-docs/pink-zebra-moving-2025-fdd-franchise-information-costs-and-fees/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Pink Zebra Moving, LLC formed August 14, 2020 (Alabama) per FDD"
+        },
+        "yearFranchising": {
+          "value": 2022,
+          "source": "https://fddexchange.com/view-fdd-docs/pink-zebra-moving-2025-fdd-franchise-information-costs-and-fees/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Began offering franchises April 15, 2022 per FDD"
+        },
+        "employeesRequired": {
+          "value": 6,
+          "source": "https://www.entrepreneur.com/franchises/directory/pink-zebra-moving/336628",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/pink-zebra-moving/336628",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/pink-zebra-moving/336628",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/pink-zebra-moving/336628",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/pink-zebra-moving/336628",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://www.pinkzebramovingfranchise.com/multi-unit-ownership",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor offers multiple agreements for adjoining territories"
+        },
+        "veteranDiscount": {
+          "value": false,
+          "source": "https://www.franchisesidekick.com/brands/pink-zebra-moving",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Broker listing states no veteran discount; Entrepreneur lists veteran incentive as N/A"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.franchisesidekick.com/brands/pink-zebra-moving",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "30 territories awarded in last 12 months per broker listing; Entrepreneur shows +111% unit growth"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://fddexchange.com/view-fdd-docs/pink-zebra-moving-2025-fdd-franchise-information-costs-and-fees/",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "https://www.vettedbiz.com/franchises/pink-zebra-moving",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Item 19 includes data from locations open at least one year"
+        }
+      }
+    },
+    {
+      "name": "Pvolve",
+      "website": "https://www.pvolve.com",
+      "notes": "Boutique functional-fitness studio brand founded 2017 (NYC), franchising since 2020 and in an aggressive expansion phase: ~25-30 studios open across the U.S. and Canada with 80+ licenses awarded by early 2026. Capital-intensive build-out with a young franchised-unit track record; no formal AUV disclosure found in the FDD.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Young franchised system; large gap between licenses awarded and studios open",
+          "detail": "Only 13 franchised locations per 2025 FDD data while the franchisor announced 80+ licenses awarded nationwide by January 2026 and 50+ studios 'in development' — most of the system is unopened and unproven.",
+          "source": "Franzy (2025 FDD data) / PRNewswire franchise announcements",
+          "url": "https://www.prnewswire.com/news-releases/pvolve-celebrates-two-years-of-accelerated-franchise-growth-awarding-nearly-50-studio-licenses-nationwide-302662074.html",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "High, wide investment band for boutique fitness",
+          "detail": "Total investment reported at $454K-$800K (Entrepreneur) to as wide as $393K-$893K (Franchise Payback), driven by leasehold improvements of $128K-$490K — significant capital at risk in a competitive category.",
+          "source": "Entrepreneur / Franchise Payback",
+          "url": "https://www.franchisepayback.com/franchise/pvolve",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No formal AUV disclosed in FDD",
+          "detail": "Franchise Payback notes the FDD does not formally disclose average unit revenue (third-party estimate ~$882K is unverified), so revenue expectations rest on limited data.",
+          "source": "Franchise Payback",
+          "url": "https://www.franchisepayback.com/franchise/pvolve",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise Directory",
+        "url": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+        "year": 2025,
+        "note": "Listed as offering franchises throughout the United States; 2025-26 announcements include new agreements/leases in NV, CA, AZ, TX, KY, NY and Canada."
+      },
+      "fields": {
+        "franchiseFee": {
+          "value": 50000,
+          "source": "https://www.franchisepayback.com/franchise/pvolve",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Single-unit fee; Entrepreneur (2025 FDD data) lists $52,500; discounted fees for multi-unit developers"
+        },
+        "totalInvestmentMin": {
+          "value": 454250,
+          "source": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur range $454,250-$799,600; Franchise Payback cites a wider $393K-$893K"
+        },
+        "totalInvestmentMax": {
+          "value": 799600,
+          "source": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Up to $893K per Franchise Payback"
+        },
+        "royaltyPercent": {
+          "value": 7,
+          "source": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Plus a fixed monthly marketing/brand spend reported by Franchise Payback (~$3,000/month)"
+        },
+        "liquidCapitalMin": {
+          "value": 200000,
+          "source": "https://pvolvefranchise.com/franchise-details/cost-and-revenue/",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Franchisor's current site: $200K liquid / $500K net worth; Entrepreneur lists $250K liquid / $750K net worth from earlier FDD data"
+        },
+        "totalUnits": {
+          "value": 25,
+          "source": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Athletech News reported ~30 studios open across U.S./Canada by mid-2025; 80+ licenses awarded per franchisor PR (Jan 2026)"
+        },
+        "yearFounded": {
+          "value": 2017,
+          "source": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2020,
+          "source": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Some trackers (Franchise Payback) date active franchising to 2021; first franchised studios opened later"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Franchise Payback describes protected territories of ~50,000 population including digital-membership exclusivity"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/pvolve/336555",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "20% off first-unit franchise fee for veterans"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://www.franchisepayback.com/franchise/pvolve",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Discounted franchise fee for multi-unit developers"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.franchise.org/2025/06/pvolve-secures-five-new-leases-exceeding-50-studios-in-development/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "50+ studios in development per IFA-published announcement; multiple new leases/agreements through 2025-26"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://franzy.com/franchises/pvolve",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD on file with franchise trackers"
+        }
+      }
+    },
+    {
+      "name": "Renovation Sells",
+      "website": "https://renovationsells.com",
+      "notes": "Chicago-based, home-based presale home-renovation franchise (design + light remodel to prep listings for sale), founded by Michael Valente and franchising since 2020 with roughly 40 units. Low entry cost for the category; owner-operator model with no absentee or part-time operation and no exclusive territories per directory data.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Young, fast-scaling system",
+          "detail": "Franchising only since 2020 and scaled to ~39-43 units within a few years (Entrepreneur shows +3,800% growth from a tiny base); long-term unit economics and resale market are unproven, and performance is tied to housing-market transaction volume.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "No exclusive territories",
+          "detail": "Entrepreneur's FDD-derived listing shows exclusive territories are NOT available, unusual for a home-services brand — verify territory terms in the current FDD.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "No public Item 19 figures verified",
+          "detail": "Vetted Biz indicates yearly gross sales data exists behind its paywall (2024 FDD) but no verifiable Item 19 average revenue figure is publicly available; system-aggregate numbers circulating on lead-gen sites are unreliable and were excluded.",
+          "source": "Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/renovation-sells",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "franchiseFee": {
+          "value": 50000,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Matches Vetted Biz (2024 FDD)"
+        },
+        "totalInvestmentMin": {
+          "value": 79005,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Range $79,005-$171,484; matches Vetted Biz"
+        },
+        "totalInvestmentMax": {
+          "value": 171484,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "royaltyPercent": {
+          "value": 7,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur and Vetted Biz list 7%; SharpSheets has cited 8% — confirm in current FDD"
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "liquidCapitalMin": {
+          "value": 50000,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Net worth requirement $350,000 per same source; Vetted Biz shows $20K minimum cash"
+        },
+        "totalUnits": {
+          "value": 39,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Other trackers report 41 (Vetted Biz) to 43 (SharpSheets) franchised locations"
+        },
+        "yearFounded": {
+          "value": 2018,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Vetted Biz lists 2020; company founded in Chicago by Michael Valente"
+        },
+        "yearFranchising": {
+          "value": 2020,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "high",
+          "note": "1851 Franchise article describes offering franchises 'since 2021'; Entrepreneur and Vetted Biz both show 2020"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "exclusiveTerritories": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "10% off franchise fee"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "https://www.entrepreneur.com/franchises/directory/renovation-sells/336712",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Rapid unit growth since 2020 from a small base"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.vettedbiz.com/franchises/renovation-sells",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2024 FDD on file with franchise trackers"
+        }
+      }
+    },
+    {
+      "name": "Roof Resource, The",
+      "website": "https://theroofresource.com",
+      "notes": "Michigan-founded (2020) home-based residential roofing concept that franchised in 2023, but has since rebranded as 'SkyeVantage powered by The Roof Resource' and pivoted from franchising to a lower-cost licensing model (October 2025), expanding into windows, gutters and siding across a ~13-state footprint. Legacy franchise-economics data below reflects the 2023-25 franchise offering and is largely superseded by the license program.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Brand rebranded to SkyeVantage and pivoted from franchising to licensing",
+          "detail": "The company now operates as 'SkyeVantage powered by The Roof Resource' (site notes a move to SkyeVantage.com) and, per IFPG, switched to a licensing model in October 2025 ($14,500 per-territory license, ~$26,440 total investment, $995/month flat fee). The traditional 'The Roof Resource' franchise offering documented in 2023-25 FDD data appears no longer to be what is sold.",
+          "source": "IFPG listing / theroofresource.com / ClickOnDetroit",
+          "url": "https://www.ifpg.org/top-franchises/the-roof-resource",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Very small, very new system",
+          "detail": "Founded 2020, first franchise sold 2023; only ~9-12 units (7 franchised + 2 company-owned per 2025 FDD data, 'fewer than 20' per IFPG in 2026). No Item 19 financial performance representation is made.",
+          "source": "Franchise Payback / IFPG",
+          "url": "https://www.franchisepayback.com/franchise/the-roof-resource",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Broad franchisor reserved rights; territory protection limited under franchise model",
+          "detail": "Franchise Payback notes the franchisor retained rights to operate similar businesses and sell via alternative channels even within a franchisee's ~175,000-household marketing territory, making protection effectively non-exclusive under the legacy franchise agreement. (The 2026 SkyeVantage license program markets 'exclusive territory rights.')",
+          "source": "Franchise Payback",
+          "url": "https://www.franchisepayback.com/franchise/the-roof-resource",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting fee/investment figures across sources",
+          "detail": "Entrepreneur (FDD-derived) lists a $45,000 fee, 10% royalty, 1% ad fee and $89K-$116K investment; Vetted Biz/Franchise Payback pages have shown a $75,000 fee, 7% royalty and other ranges; IFPG's 2026 license listing shows $14,500. Figures depend heavily on which offering (franchise vs. license) and which year.",
+          "source": "Entrepreneur vs. Vetted Biz vs. IFPG",
+          "url": "https://www.entrepreneur.com/franchises/directory/roof-resource-the/335226337",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "IFPG listing (SkyeVantage/The Roof Resource license program)",
+        "url": "https://www.ifpg.org/top-franchises/the-roof-resource",
+        "year": 2026,
+        "note": "License program marketed as 'available in all 50 states'; actual operating footprint is ~13 states (per ClickOnDetroit, Mar 2026) with locations listed in MI, OH, IN, TX, FL and others."
+      },
+      "fields": {
+        "franchiseFee": {
+          "value": 45000,
+          "source": "https://www.entrepreneur.com/franchises/directory/roof-resource-the/335226337",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Legacy franchise offering (2025 FDD-derived). Successor SkyeVantage license program is $14,500 per territory (IFPG, 2026)"
+        },
+        "totalInvestmentMin": {
+          "value": 89067,
+          "source": "https://www.entrepreneur.com/franchises/directory/roof-resource-the/335226337",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Legacy franchise range $89,067-$115,683 (Entrepreneur); Franchise Payback cited $120K-$146K; 2026 license model ~$26,440 all-in per IFPG"
+        },
+        "totalInvestmentMax": {
+          "value": 115683,
+          "source": "https://www.entrepreneur.com/franchises/directory/roof-resource-the/335226337",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "royaltyPercent": {
+          "value": 10,
+          "source": "https://www.entrepreneur.com/franchises/directory/roof-resource-the/335226337",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Legacy franchise: 10% of gross sales plus 1% marketing; 2026 license model instead charges a $995/month flat fee per IFPG"
+        },
+        "adFundPercent": {
+          "value": 1,
+          "source": "https://www.entrepreneur.com/franchises/directory/roof-resource-the/335226337",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "liquidCapitalMin": {
+          "value": 150000,
+          "source": "https://theroofresourcefranchise.com/",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Franchisor franchise site: $150K liquidity / $350K net worth / 700 credit score for the franchise offering; IFPG 2026 license listing shows only $25K-$50K cash required"
+        },
+        "totalUnits": {
+          "value": 9,
+          "source": "https://www.franchisepayback.com/franchise/the-roof-resource",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "7 franchised + 2 company-owned (2025 FDD data); Entrepreneur lists 12; IFPG (2026) says fewer than 20 open"
+        },
+        "yearFounded": {
+          "value": 2020,
+          "source": "https://www.entrepreneur.com/franchises/directory/roof-resource-the/335226337",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Founded in Macomb Township, MI; HQ Sterling Heights, MI"
+        },
+        "yearFranchising": {
+          "value": 2023,
+          "source": "https://www.entrepreneur.com/franchises/directory/roof-resource-the/335226337",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "employeesRequired": {
+          "value": 2,
+          "source": "https://www.entrepreneur.com/franchises/directory/roof-resource-the/335226337",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Legacy franchise listing; license model leaves staffing to the licensee"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "https://theroofresourcefranchise.com/",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Marketed as the first home-based roofing franchise; no office, warehouse, crews or trucks"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "https://www.ifpg.org/top-franchises/the-roof-resource",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Semi-absentee/passive ownership permitted per IFPG; Entrepreneur also lists absentee ownership as allowed"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "https://www.entrepreneur.com/franchises/directory/roof-resource-the/335226337",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "https://www.ifpg.org/top-franchises/the-roof-resource",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "10% discount on franchise/license fee"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "https://www.ifpg.org/top-franchises/the-roof-resource",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Master/multi-territory opportunities offered under the license program"
+        },
+        "item19Available": {
+          "value": false,
+          "source": "https://www.franchisepayback.com/franchise/the-roof-resource",
+          "year": 2025,
+          "confidence": "high",
+          "note": "FDD does not disclose average unit revenue; IFPG confirms no Item 19 offered"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "https://www.franchisepayback.com/franchise/the-roof-resource",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "FDD existed for the 2023-25 franchise offering; the 2026 SkyeVantage license program may not be FDD-governed"
+        }
+      }
+    }
+  ]
+}

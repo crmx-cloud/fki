@@ -1,0 +1,249 @@
+{
+  "brands": [
+    {
+      "name": "Hudson Valley Swim",
+      "website": "hvswim.com",
+      "notes": "Swim-lesson brand founded 2003 in New York's Hudson Valley; franchising since 2022 using a low-overhead pool-rental model (franchisees rent existing pool space rather than build facilities). Note: the official consumer site is hvswim.com (hudsonvalleyswim.com appears parked); franchise recruiting site is hudsonvalleyswimfranchise.com.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Very new franchise system, small base",
+          "detail": "Began franchising in 2022; the 2024 FDD showed only 10 total units (4 franchised, 6 company-owned). The brand has since grown to ~27 listed locations, but most franchise units are under two years old, so long-term unit economics are unproven.",
+          "source": "FranchisePayback (2024 FDD data) / hvswim.com location directory",
+          "url": "https://www.franchisepayback.com/franchise/hudson-valley-swim",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "AUV figure circulating is not FDD-verified",
+          "detail": "A ~$264,000 average-revenue figure appears on aggregator sites, but FranchisePayback states Hudson Valley Swim does not disclose average unit volume in its FDD, so no Item 19-verified revenue figure is available.",
+          "source": "FranchisePayback",
+          "url": "https://www.franchisepayback.com/franchise/hudson-valley-swim",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {"state": "NY", "status": "open", "note": "5 locations incl. original Hopewell Jct.", "source": "hvswim.com location directory", "url": "https://hvswim.com/find-a-location", "year": 2026},
+        {"state": "FL", "status": "open", "note": "8 locations", "source": "hvswim.com location directory", "url": "https://hvswim.com/find-a-location", "year": 2026},
+        {"state": "MD", "status": "open", "note": "3 locations", "source": "hvswim.com location directory", "url": "https://hvswim.com/find-a-location", "year": 2026},
+        {"state": "NH", "status": "open", "note": "2 locations", "source": "hvswim.com location directory", "url": "https://hvswim.com/find-a-location", "year": 2026},
+        {"state": "TX", "status": "open", "note": "2 locations", "source": "hvswim.com location directory", "url": "https://hvswim.com/find-a-location", "year": 2026},
+        {"state": "VA", "status": "open", "note": "2 locations", "source": "hvswim.com location directory", "url": "https://hvswim.com/find-a-location", "year": 2026},
+        {"state": "CT", "status": "open", "note": "1 location (Stamford)", "source": "hvswim.com location directory", "url": "https://hvswim.com/find-a-location", "year": 2026},
+        {"state": "KS", "status": "open", "note": "1 location (Wichita)", "source": "hvswim.com location directory", "url": "https://hvswim.com/find-a-location", "year": 2026},
+        {"state": "MN", "status": "open", "note": "1 location (St. Louis Park)", "source": "hvswim.com location directory", "url": "https://hvswim.com/find-a-location", "year": 2026},
+        {"state": "NJ", "status": "open", "note": "1 location (Piscataway)", "source": "hvswim.com location directory", "url": "https://hvswim.com/find-a-location", "year": 2026},
+        {"state": "PA", "status": "open", "note": "1 location (West Chester)", "source": "hvswim.com location directory", "url": "https://hvswim.com/find-a-location", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 60000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 93745, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists $93,745-$121,995; FranchisePayback (2024 FDD) lists $98,345-$131,495 including the franchise fee"},
+        "totalInvestmentMax": {"value": 121995, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "See totalInvestmentMin note re: FDD-source variance up to $131,495"},
+        "franchiseFee": {"value": 59500, "source": "Entrepreneur Franchise Directory / FranchisePayback", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 8, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "FranchisePayback shows a 6%-8% range; 8% of gross sales is the commonly cited headline rate"},
+        "adFundPercent": {"value": 2, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "2% national brand fund; franchisees also commit ~$3,000/month minimum local marketing per aggregator summaries"},
+        "totalUnits": {"value": 27, "source": "hvswim.com official location directory", "year": 2026, "confidence": "high", "note": "27 listed locations (franchised + company-owned) across 11 states; Entrepreneur listed 20 units, 2024 FDD showed 10"},
+        "yearFounded": {"value": 2003, "source": "Entrepreneur Franchise Directory / hvswim.com", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2022, "source": "Entrepreneur Franchise Directory / FranchisePayback", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high", "note": "20% off first-unit franchise fee"},
+        "canRunFromHome": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Home-based/mobile operation permitted; lessons are held in rented pool space"},
+        "canRunPartTime": {"value": true, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise Directory (unit growth) / hvswim.com directory", "year": 2026, "confidence": "high", "note": "Grew from 10 units (2024 FDD) to ~27 listed locations by 2026"}
+      }
+    },
+    {
+      "name": "Jars by Fabio Viviani",
+      "website": "jarsbyfabioviviani.com",
+      "notes": "Celebrity-chef dessert-jar concept launched via Fransmart; franchisor FVH Jars Franchise LLC formed Aug 2021, offering franchises since Jan 2022. The system has contracted sharply: at least five locations closed in 2025-2026 and the official site now lists only four locations, at least one of which (Saint Louis/Ladue) is independently reported closed.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "Multiple unit closures in 2025-2026 (system contraction)",
+          "detail": "Reported closures: Fort Worth, TX and Dallas, TX (Jan 2025, leaving 5 open per CultureMap); Overland Park, KS (Mar 2025, open less than a year); Ladue/St. Louis, MO (Apr 2026, after 19 months); Laguna Niguel, CA shown as closed on Yelp. The brand's own site still lists Saint Louis and Laguna Niguel, suggesting the location page is stale and true open count may be 2-3.",
+          "source": "CultureMap Fort Worth; Johnson County Post; Hoodline / St. Louis Magazine",
+          "url": "https://fortworth.culturemap.com/news/restaurants-bars/jars-fabio-viviani-hulen-closed/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Very young celebrity-brand system with unproven economics",
+          "detail": "Franchisor entity formed August 2021 and began offering franchises January 2022 through development agent Fransmart; the system never scaled past roughly 7-9 units before contracting, so there is no track record of sustained franchisee success.",
+          "source": "Jars by Fabio Viviani 2022 FDD summary, The FDD Exchange",
+          "url": "https://fddexchange.com/view-fdd-docs/jars-by-fabio-viviani-2022-fdd-franchise-information-costs-and-fees/",
+          "year": 2022
+        }
+      ],
+      "statesOpen": [
+        {"state": "IL", "status": "open", "note": "Chicago (flagship) listed on official site", "source": "jarsbyfabioviviani.com", "url": "https://www.jarsbyfabioviviani.com/", "year": 2026},
+        {"state": "CA", "status": "open", "note": "Emeryville listed on official site; the other CA listing (Laguna Niguel) is marked closed on Yelp", "source": "jarsbyfabioviviani.com", "url": "https://www.jarsbyfabioviviani.com/", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 250000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 208950, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Single-unit range $208,950-$644,950; FDD also offered a 5-unit multi-unit program at $349,000-$785,500 incl. $140,000 development fee"},
+        "totalInvestmentMax": {"value": 644950, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 35000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Single-unit fee; multi-unit development fee was $140,000 for 5 units per FDD"},
+        "royaltyPercent": {"value": 6, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "adFundPercent": {"value": 2, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "totalUnits": {"value": 4, "source": "jarsbyfabioviviani.com official location list", "year": 2026, "confidence": "low", "note": "Site lists Chicago, Emeryville, Laguna Niguel, Saint Louis, but Saint Louis closed Apr 2026 and Laguna Niguel is marked closed on Yelp, so true open count may be 2-3; Entrepreneur listed 7 units"},
+        "closureCount": {"value": 5, "source": "CultureMap Fort Worth/Dallas, Johnson County Post, Hoodline, Yelp", "year": 2026, "confidence": "medium", "note": "At least 5 reported closures 2025-2026: Fort Worth TX, Dallas TX, Overland Park KS, Ladue/St. Louis MO, Laguna Niguel CA"},
+        "yearFounded": {"value": 2022, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Franchisor entity FVH Jars Franchise LLC formed Aug 2021; Entrepreneur lists 2022 as founding year"},
+        "yearFranchising": {"value": 2022, "source": "Jars by Fabio Viviani 2022 FDD (The FDD Exchange)", "year": 2022, "confidence": "high", "note": "Began offering franchises January 2022"},
+        "multiUnitAvailable": {"value": true, "source": "Jars by Fabio Viviani FDD summary (The FDD Exchange)", "year": 2022, "confidence": "high", "note": "Multi-Unit Operator Agreement with 5-unit minimum was offered"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "CultureMap / Johnson County Post / Hoodline closure reporting", "year": 2026, "confidence": "high", "note": "System contracted from ~9 to roughly 2-4 open locations across 2025-2026"}
+      }
+    },
+    {
+      "name": "Jeff's Bagel Run",
+      "website": "jeffsbagelrun.com",
+      "notes": "Orlando-born scratch-made bagel concept (started as a home bagel-delivery operation in 2019, first shop 2021) franchising since 2023. One of the fastest-growing emerging food brands: ~35 shops open by early 2026 with 120+ locations in development, including a 15-unit Utah deal.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Development pipeline far exceeds open-unit track record",
+          "detail": "Only began franchising in 2023 (2025 FDD showed 11 units, 9 of them company-owned); by 2026 about 35 are open with 120+ in development. Most franchise units have under a year of operating history, so franchisee-level economics are largely unproven despite strong corporate-store sales.",
+          "source": "FranchisePayback (2025 FDD) / Fast Casual",
+          "url": "https://www.fastcasual.com/news/jeffs-bagel-run-sprinting-past-30-units/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "High financial qualification bar",
+          "detail": "Entrepreneur lists a $500,000 liquid-capital and $1,000,000 net-worth requirement, well above typical emerging fast-casual brands, reflecting the ~$538K-$814K build-out cost.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/jeffs-bagel-run/335226690",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {"state": "FL", "status": "open", "note": "Home market; 9+ locations incl. Orlando and Tampa", "source": "Franchise Times", "url": "https://www.franchisetimes.com/franchise_news/multi-unit-deals-fuel-franchise-growth-for-jeff-s-bagel-run/article_c51003ce-651d-44b2-9877-ea1f01dee0ad.html", "year": 2025},
+        {"state": "NC", "status": "open", "note": "Incl. Rolesville opening", "source": "Franchise Times / QSR Magazine", "url": "https://www.qsrmagazine.com/news/jeffs-bagel-run-announces-openings-across-four-states/", "year": 2026},
+        {"state": "SC", "status": "open", "source": "Franchise Times", "url": "https://www.franchisetimes.com/franchise_news/multi-unit-deals-fuel-franchise-growth-for-jeff-s-bagel-run/article_c51003ce-651d-44b2-9877-ea1f01dee0ad.html", "year": 2025},
+        {"state": "GA", "status": "open", "source": "Franchise Times", "url": "https://www.franchisetimes.com/franchise_news/multi-unit-deals-fuel-franchise-growth-for-jeff-s-bagel-run/article_c51003ce-651d-44b2-9877-ea1f01dee0ad.html", "year": 2025},
+        {"state": "TX", "status": "open", "source": "Franchise Times", "url": "https://www.franchisetimes.com/franchise_news/multi-unit-deals-fuel-franchise-growth-for-jeff-s-bagel-run/article_c51003ce-651d-44b2-9877-ea1f01dee0ad.html", "year": 2025},
+        {"state": "AL", "status": "open", "note": "Madison (Huntsville market) opened 2026", "source": "QSR Magazine", "url": "https://www.qsrmagazine.com/news/jeffs-bagel-run-announces-openings-across-four-states/", "year": 2026},
+        {"state": "CO", "status": "open", "note": "Colorado Springs, first CO location, Feb 2026", "source": "Colorado Springs Gazette", "url": "https://gazette.com/2026/02/24/scratch-made-bagel-shop-jeffs-bagel-run-making-its-centennial-state-debut-in-colorado-springs/", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 500000, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Net worth requirement $1,000,000"},
+        "totalInvestmentMin": {"value": 537558, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists $537,558-$813,790; FranchisePayback (2025 FDD) lists $497,558-$813,790"},
+        "totalInvestmentMax": {"value": 813790, "source": "Entrepreneur Franchise Directory / FranchisePayback (2025 FDD)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 30000, "source": "Entrepreneur Franchise Directory / FranchisePayback (2025 FDD)", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Entrepreneur Franchise Directory / FranchisePayback (2025 FDD)", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 2, "source": "Entrepreneur Franchise Directory / FranchisePayback (2025 FDD)", "year": 2026, "confidence": "high", "note": "National ad fund"},
+        "avgUnitRevenue": {"value": 1047190, "source": "Franchise Times reporting on 2025 FDD Item 19", "year": 2025, "confidence": "medium", "note": "Mean of the only two company-owned stores open all of 2024 ($1,252,496 and $841,884) per 2025 FDD Item 19; franchise units were too new for full-year figures (Item 19 also reports first-12-week avg weekly sales of $17,221-$19,369). Brand separately claims ~$1.2M AUV in trade press."},
+        "totalUnits": {"value": 35, "source": "Fast Casual / QSR Magazine", "year": 2026, "confidence": "high", "note": "~35 open with 120+ in development as of early 2026; 2025 FDD showed 11 units (9 company-owned, 2 franchised)"},
+        "yearFounded": {"value": 2019, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium", "note": "Began as a home bagel-delivery operation in 2019; first brick-and-mortar shop 2021 (FranchisePayback lists 2021)"},
+        "yearFranchising": {"value": 2023, "source": "Entrepreneur Franchise Directory / FranchisePayback", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Times reporting on 2025 FDD Item 19", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (2024 FDD on file)", "year": 2024, "confidence": "high"},
+        "multiUnitAvailable": {"value": true, "source": "QSR Magazine (15-unit Utah development deal; 20-unit South/Mid-Atlantic awards)", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise Directory", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Fast Casual / QSR Magazine / Franchise Times", "year": 2026, "confidence": "high", "note": "10 openings YTD 2026; ranked #124 on Entrepreneur's 2026 emerging-franchise list"}
+      }
+    },
+    {
+      "name": "Joshua Tree Experts",
+      "website": "joshuatreeexperts.com",
+      "notes": "Pennsylvania-based tree care, plant health care, lawn care and pest control franchise (franchising since 2021; franchise recruiting at jtefranchising.com / treecarefranchising.com). Recurring services make up over 60% of revenue; system grew from 1 franchised unit in 2022 to 36 open territories by mid-2025.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Item 19 relies heavily on company-owned operations",
+          "detail": "The 2025 FDD Item 19 features the mature company-owned Stockertown, PA operation ($6.66M gross sales across 3 territories in 2024) and Souderton ($782,548 across 2 territories); the 2024 FDD's only full-year franchisee figure was $171,215 in first-full-year sales (2022). Franchisee results may differ substantially from corporate flagship results, especially given the ~$460K-$597K investment.",
+          "source": "PeerSense (2025 FDD) / Franchise Chatter FDD Talk (2024 FDD)",
+          "url": "https://peersense.com/franchise/joshua-tree-experts",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Young franchise system with awarded-vs-open gap",
+          "detail": "Franchising only since 2021; as of June 2025, 47 territories were awarded but 36 open across 16 franchisees plus 5 company-owned units. Royalty structure also changed between FDDs (2024 FDD: greater of 7% or monthly minimums; 2025 FDD: performance-tiered 6% down to 3.5%).",
+          "source": "PeerSense (2025 FDD)",
+          "url": "https://peersense.com/franchise/joshua-tree-experts",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        {"state": "PA", "status": "open", "note": "Home state: Allentown/Stockertown HQ plus multiple service areas", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026},
+        {"state": "NC", "status": "open", "note": "Charlotte, Raleigh-Cary", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026},
+        {"state": "TX", "status": "open", "note": "Dallas, Houston, Austin areas", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026},
+        {"state": "CO", "status": "open", "note": "Denver area", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026},
+        {"state": "FL", "status": "open", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026},
+        {"state": "GA", "status": "open", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026},
+        {"state": "AL", "status": "open", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026},
+        {"state": "AR", "status": "open", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026},
+        {"state": "UT", "status": "open", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026},
+        {"state": "IN", "status": "open", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026},
+        {"state": "CT", "status": "open", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026},
+        {"state": "VA", "status": "open", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026},
+        {"state": "NJ", "status": "open", "source": "joshuatreeexperts.com locations", "url": "https://joshuatreeexperts.com/", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "PeerSense (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Minimum net worth $500,000"},
+        "totalInvestmentMin": {"value": 460669, "source": "PeerSense (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Range $460,669-$597,460 with equipment purchased outright; vehicles/machinery are $324K-$382K of that, and prior FDD language showed a much lower upfront range (~$196,760-$303,091) when equipment is financed"},
+        "totalInvestmentMax": {"value": 597460, "source": "PeerSense (2025 FDD)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 49500, "source": "PeerSense (2025 FDD)", "year": 2025, "confidence": "high", "note": "First territory; $42,000 second, $38,000 third (2024 FDD listed $49,900)"},
+        "royaltyPercent": {"value": 6, "source": "PeerSense (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Performance-tiered from 6% down to 3.5% of gross sales per 2025 FDD; the 2024 FDD used greater of 7% or monthly minimums ($500-$1,500/mo)"},
+        "adFundPercent": {"value": 1, "source": "PeerSense (2025 FDD)", "year": 2025, "confidence": "medium", "note": "1% brand development fund; plus local marketing minimum of $4,000/month initially and 6.5% of gross revenue from month 12"},
+        "totalUnits": {"value": 36, "source": "PeerSense (2025 FDD / June 2025)", "year": 2025, "confidence": "medium", "note": "36 territories open (47 awarded) across 16 franchisees, plus 5 company-owned units"},
+        "yearFranchising": {"value": 2021, "source": "PeerSense / Franchise Chatter FDD Talk", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "PeerSense (2025 FDD)", "year": 2025, "confidence": "medium", "note": "10% off standard franchise fee for military veterans"},
+        "item19Available": {"value": true, "source": "Franchise Chatter FDD Talk / PeerSense", "year": 2025, "confidence": "high", "note": "Item 19 discloses revenue by service line; figures are dominated by company-owned operations"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (2023 FDD on file)", "year": 2023, "confidence": "high"},
+        "multiUnitAvailable": {"value": true, "source": "PeerSense (2025 FDD: discounted second/third territory fees)", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "PeerSense (2025 FDD) vs Franchise Chatter (2024 FDD: 1 franchised unit in 2022)", "year": 2025, "confidence": "high", "note": "From 1 franchised territory in 2022 to 36 open / 47 awarded by June 2025"}
+      }
+    },
+    {
+      "name": "Junbi",
+      "website": "junbishop.com",
+      "notes": "California-based Japanese matcha and tea cafe chain (formerly Sip Matcha), in business since 2017 and franchising since 2020. Small but expanding system: 2024 FDD showed 7 units (5 franchised, 2 company-owned), with 2025-2026 openings in the Bay Area, Seattle, and a Hawaii franchise group, plus stated interest in Canada/Asia development.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Small system with slow early growth",
+          "detail": "Franchising since 2020 but only 7 total units in the 2024 FDD (5 franchised, 2 company-owned). Growth has picked up in 2025-2026 (Livermore, Mountain View, San Francisco, Seattle, Hawaii), but the system remains very small and matcha is a trend-exposed category.",
+          "source": "FranchisePayback (2024 FDD) / ABC7 San Francisco / Wikipedia",
+          "url": "https://www.franchisepayback.com/franchise/junbi",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "No Item 19 revenue disclosure",
+          "detail": "FranchisePayback notes Junbi does not disclose average unit volume (average revenue) in its FDD, so prospective franchisees cannot validate unit economics from the disclosure document.",
+          "source": "FranchisePayback (2024 FDD)",
+          "url": "https://www.franchisepayback.com/franchise/junbi",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {"state": "CA", "status": "open", "note": "Home market: Livermore, Mountain View, San Francisco and SoCal origins", "source": "Wikipedia / ABC7 San Francisco", "url": "https://en.wikipedia.org/wiki/Junbi", "year": 2026},
+        {"state": "WA", "status": "open", "note": "Seattle Melrose Market, opened 2025", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Junbi", "year": 2025},
+        {"state": "OR", "status": "open", "note": "Portland", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Junbi", "year": 2025},
+        {"state": "NJ", "status": "open", "note": "Princeton", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Junbi", "year": 2025},
+        {"state": "TX", "status": "open", "note": "Richardson", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Junbi", "year": 2025},
+        {"state": "HI", "status": "open", "note": "Franchise group led by David So, Joe Jitsukawa and Greg Kobashigawa", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Junbi", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "junbishop.com Franchising FAQ", "year": 2026, "confidence": "high", "note": "Minimum liquid cash funds to be considered; can include financing, securities, 401k/IRA rollovers"},
+        "totalInvestmentMin": {"value": 273750, "source": "junbishop.com Franchising FAQ (2025 FDD estimates)", "year": 2025, "confidence": "high", "note": "Varies by geography and real-estate type; 2024 FDD range was $268,750-$576,250"},
+        "totalInvestmentMax": {"value": 581250, "source": "junbishop.com Franchising FAQ (2025 FDD estimates)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 35000, "source": "junbishop.com Franchising FAQ / Vetted Biz", "year": 2025, "confidence": "high", "note": "Raised from $30,000 (2024 FDD) to $35,000 in 2025"},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz / FranchisePayback (FDD)", "year": 2025, "confidence": "high", "note": "6% of gross revenue"},
+        "adFundPercent": {"value": 1, "source": "Vetted Biz (FDD summary)", "year": 2025, "confidence": "medium", "note": "Brand fund currently 1% (cap up to 2%), plus 2% local marketing requirement"},
+        "totalUnits": {"value": 7, "source": "FranchisePayback (2024 FDD)", "year": 2024, "confidence": "medium", "note": "5 franchised + 2 company-owned per 2024 FDD; additional locations opened 2025-2026 (Seattle, Bay Area, Hawaii) so current count is higher"},
+        "yearFounded": {"value": 2017, "source": "junbishop.com Franchising FAQ", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2020, "source": "junbishop.com Franchising FAQ / FranchisePayback", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 1, "source": "Vetted Biz (FDD summary)", "year": 2025, "confidence": "medium", "note": "Approximately one week for Managing Owner plus one manager, in Los Angeles or virtual, completed within 45 days before opening"},
+        "exclusiveTerritories": {"value": true, "source": "junbishop.com Franchising FAQ / Vetted Biz", "year": 2026, "confidence": "high", "note": "Protected territory, typically a two-mile radius around the shop, adjusted for density"},
+        "isGrowing": {"value": true, "source": "ABC7 San Francisco / Wikipedia (2025-2026 openings)", "year": 2026, "confidence": "high", "note": "New units in Livermore, Mountain View, San Francisco, Seattle, Hawaii; exploring Canada and Asia"}
+      }
+    }
+  ]
+}

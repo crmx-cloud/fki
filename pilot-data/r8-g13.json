@@ -1,0 +1,1988 @@
+{
+  "brands": [
+    {
+      "name": "Team Up Athletics",
+      "website": "https://teamupathletics.com",
+      "notes": "Utah-based mobile/home-based franchise selling custom team sports uniforms, apparel, and equipment to schools, leagues, and businesses. Founded 2017, franchising since 2022 \u2014 a small, fast-growing emerging system with a low capital bar and no national ad fund.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Very new, small franchise system",
+          "detail": "Franchising only since 2022 with roughly 39 units as of Entrepreneur's 2025 directory data; limited operating history as a franchisor and no published Item 19 earnings data found.",
+          "source": "Entrepreneur Franchise Directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting unit counts across directories",
+          "detail": "Entrepreneur lists 39 units (2025) while the IFPG broker listing shows 12 units (11 franchised, 1 company-owned), suggesting directory data lags or counts differ; verify current Item 20 in the FDD before relying on system size.",
+          "source": "IFPG listing vs. Entrepreneur directory",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "One of 29 states where franchise is registered/offered per IFPG listing",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "franchiseFee": {
+          "value": 35000,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Standard fee $35,000; disclosed range $35,000\u2013$65,000 depending on territory/package",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "totalInvestmentMin": {
+          "value": 51500,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Low end = home-based model; older FDD summaries show up to ~$239K for a commercial showroom buildout",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "totalInvestmentMax": {
+          "value": 129500,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Per Entrepreneur's current directory data; 2024 FDD summaries showed $100K\u2013$239K for commercial-location format",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "royaltyPercent": {
+          "value": 5,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high",
+          "note": "5% of gross sales",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "adFundPercent": {
+          "value": 0,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "No national ad fund / ad royalty disclosed",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "liquidCapitalMin": {
+          "value": 45000,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Entrepreneur lists $45K liquid / $55K net worth; other directories cite $40K\u2013$70K",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "totalUnits": {
+          "value": 39,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Per Entrepreneur 2025 directory; IFPG listing shows 12 (11 franchised + 1 company-owned)",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "yearFounded": {
+          "value": 2017,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "yearFranchising": {
+          "value": 2022,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "The FDD Exchange (2023 FDD on file)",
+          "year": 2023,
+          "confidence": "high",
+          "url": "https://fddexchange.com/view-fdd-docs/team-up-athletics-2023-fdd-franchise-information-costs-and-fees/"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high",
+          "note": "10% off franchise fee for veterans",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory; IFPG listing",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Home/vehicle-based model",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "canRunPartTime": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Entrepreneur shows strong unit growth (+550% trend) from a very small base",
+          "url": "https://www.entrepreneur.com/franchises/directory/team-up-athletics/335226253"
+        },
+        "ongoingSupport": {
+          "value": [
+            "Initial HQ training with corporate sales ride-alongs",
+            "In-territory ride-along with seasoned sales professional",
+            "Ongoing streamed meetings, training modules, and direct corporate support"
+          ],
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "year": 2026,
+          "confidence": "medium",
+          "url": "https://www.ifpg.org/top-franchises/team-up-athletics"
+        }
+      }
+    },
+    {
+      "name": "Tempo by Hilton",
+      "website": "https://www.hilton.com/en/brands/tempo-by-hilton/",
+      "notes": "Hilton's lifestyle-hotel franchise brand; franchisor is Hilton Franchise Holding LLC (franchising Tempo in the US since December 17, 2019). Hotel-scale capital requirement \u2014 total investment for a prototype 143-room hotel is in the tens of millions, excluding land. Only 4 franchised US hotels were open at end of 2024 but 48 agreements were signed and 70+ properties are in the global pipeline.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Hotel-scale capital bar",
+          "detail": "2025 FDD Item 7 estimates $23.18M\u2013$57.81M total investment for a typical 143-room hotel, excluding real property. This is institutional/developer-scale capital, not a typical franchisee investment.",
+          "source": "Hilton 2025 US Tempo Franchise Disclosure Document, Item 7",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Very young system \u2014 few open hotels",
+          "detail": "Per 2025 FDD Item 20, only 4 franchised US hotels were open at end of 2024 (KY, NY, NC, TN); 48 franchise agreements were signed but unopened. Operating track record under the brand is thin, though backed by Hilton's systems.",
+          "source": "Hilton 2025 US Tempo FDD, Item 20",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No Item 19 and franchisee confidentiality provisions",
+          "detail": "Hilton makes no financial performance representations for Tempo (no Item 19 data), and the FDD discloses that some current/former franchisees signed provisions restricting their ability to speak about their experience.",
+          "source": "Hilton 2025 US Tempo FDD, Items 19\u201320",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Hilton 2025 US Tempo FDD (franchisor for the entire US incl. DC and territories; Exhibit L state effective dates; signed agreements across 21 states + DC as of Dec 31, 2024)",
+        "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf",
+        "year": 2025,
+        "note": "Hilton franchises Tempo nationwide to qualified hotel developers/owners; development is deal-by-deal rather than territory-based"
+      },
+      "fields": {
+        "franchiseFee": {
+          "value": 100000,
+          "source": "Hilton 2025 US Tempo FDD, Item 5",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Franchise Application Fee for new development/conversion: $100,000 plus $400 per guest room over 250. Change-of-ownership applications are $150,000 (not the standard new-development figure)",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        },
+        "totalInvestmentMin": {
+          "value": 23180398,
+          "source": "Hilton 2025 US Tempo FDD, Item 7",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Estimate for a typical 143-room Tempo hotel, EXCLUDING real property/land",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        },
+        "totalInvestmentMax": {
+          "value": 57806098,
+          "source": "Hilton 2025 US Tempo FDD, Item 7",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Estimate for a typical 143-room Tempo hotel, EXCLUDING real property/land; includes up to $419,447 payable to Hilton or affiliates",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        },
+        "royaltyPercent": {
+          "value": 5,
+          "source": "Hilton 2025 US Tempo FDD, Item 6",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Monthly Royalty Fee: 5% of Gross Rooms Revenue",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        },
+        "adFundPercent": {
+          "value": 4,
+          "source": "Hilton 2025 US Tempo FDD, Item 6",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Monthly Program Fee: 4% of Gross Rooms Revenue (funds marketing, reservations, and system programs; rate can be changed by Hilton)",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        },
+        "totalUnits": {
+          "value": 4,
+          "source": "Hilton 2025 US Tempo FDD, Item 20",
+          "year": 2024,
+          "confidence": "high",
+          "note": "4 franchised US hotels open at Dec 31, 2024 (0 company-owned); 48 signed-but-unopened agreements. Hilton reported a global portfolio of 56 hotels trading + pipeline as of March 2025 and 70+ properties under development",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        },
+        "closureCount": {
+          "value": 0,
+          "source": "Hilton 2025 US Tempo FDD, Item 20 (2022\u20132024: no terminations, non-renewals, reacquisitions, or closures)",
+          "year": 2024,
+          "confidence": "high",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        },
+        "yearFounded": {
+          "value": 2019,
+          "source": "Hilton 2025 US Tempo FDD, Item 1 (brand trademarks filed Dec 16, 2019; brand publicly launched Jan 2020)",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        },
+        "yearFranchising": {
+          "value": 2019,
+          "source": "Hilton 2025 US Tempo FDD, Item 1 ('We became the franchisor of Tempo Brand hotels for the US on December 17, 2019')",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Hilton 2025 US Tempo FDD (public PDF)",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        },
+        "item19Available": {
+          "value": false,
+          "source": "Hilton 2025 US Tempo FDD, Item 19 ('We do not make any representations about a franchisee's future financial performance')",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Hilton 2025 US Tempo FDD Item 20 (48 signed agreements) and Hilton newsroom (70+ properties under development; 2025 openings in Raleigh, Pigeon Forge, Manassas, Savannah)",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://stories.hilton.com/brands/tempo-by-hilton"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "Hilton 2025 US Tempo FDD, Item 6 (royalty modifications negotiated for multi-unit/experienced franchisees in 8 instances)",
+          "year": 2025,
+          "confidence": "medium",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        },
+        "ownerTypes": {
+          "value": [
+            "Hotel developers",
+            "Institutional/experienced hotel owners and operators"
+          ],
+          "source": "Hilton 2025 US Tempo FDD (hotel franchise structure, Item 7 scale)",
+          "year": 2025,
+          "confidence": "medium",
+          "url": "https://hmd-wp.go-vip.net/wp-content/uploads/2025/08/2025-US-FDD-Tempo-v.3.pdf"
+        }
+      }
+    },
+    {
+      "name": "Temporary Wall Systems",
+      "website": "https://tempwallsystems.com",
+      "notes": "B2B rentable containment-wall (temporary wall rental) franchise for commercial construction and facilities; founded 2017, franchising since 2022, and owned by platform franchisor HomeFront Brands. Home-based, low-staff model with multi-territory packs; system grew quickly but parent-company turmoil surfaced in late 2025.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Parent company HomeFront Brands turmoil",
+          "detail": "A December 2025 report documents rising franchisee dissatisfaction across HomeFront Brands systems including Temporary Wall Systems: ~4 TWS territories listed for resale, complaints of evasive corporate communication, pressure to sign updated agreements, and notable non-attendance at the November 2025 convention (mandatory $2,000 fee).",
+          "source": "UnhappyFranchisee.com (guest post)",
+          "url": "https://unhappyfranchisee.com/homefront-brands-franchise-turmoil/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Item 19 historically based on a single affiliate operation",
+          "detail": "The 2023 FDD's financial performance representation was based on one affiliate-owned location (operating since April 2017) spanning 5 territories \u2014 not independent franchisee results. Newer franchisee-level data should be checked in the current FDD.",
+          "source": "Franchise Chatter FDD Talk (2023 FDD review)",
+          "url": "https://www.franchisechatter.com/2023/09/28/fdd-talk-temporary-wall-systems-franchise-costs-fees-average-revenues-and-or-profits-2023-review/",
+          "year": 2023
+        }
+      ],
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "franchiseFee": {
+          "value": 59900,
+          "source": "Franchise Chatter FDD Talk (2023 FDD); FranchisePayback",
+          "year": 2023,
+          "confidence": "medium",
+          "note": "Single-territory fee commonly cited at $59,900\u2013$69,900; IFPG's current listing shows $54,900 single and multi-packs from $99,900 (2-pack) to $189,900 (5-pack)",
+          "url": "https://www.franchisechatter.com/2023/09/28/fdd-talk-temporary-wall-systems-franchise-costs-fees-average-revenues-and-or-profits-2023-review/"
+        },
+        "totalInvestmentMin": {
+          "value": 153000,
+          "source": "FranchisePayback FDD summary",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Range $153K\u2013$366K; IFPG lists $155,444\u2013$366,444 and the 2023 FDD showed $145,447\u2013$352,497",
+          "url": "https://www.franchisepayback.com/franchise/temporary-wall-systems"
+        },
+        "totalInvestmentMax": {
+          "value": 366000,
+          "source": "FranchisePayback FDD summary",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "See min note for cross-source range",
+          "url": "https://www.franchisepayback.com/franchise/temporary-wall-systems"
+        },
+        "royaltyPercent": {
+          "value": 8,
+          "source": "Franchise Chatter FDD Talk (2023 FDD); IFPG listing",
+          "year": 2023,
+          "confidence": "high",
+          "note": "Greater of 8% of gross revenue or a minimum royalty",
+          "url": "https://www.franchisechatter.com/2023/09/28/fdd-talk-temporary-wall-systems-franchise-costs-fees-average-revenues-and-or-profits-2023-review/"
+        },
+        "adFundPercent": {
+          "value": 3,
+          "source": "IFPG listing; FranchisePayback",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "Brand fund 3% currently per IFPG/FranchisePayback; 2023 FDD set it at 1% with a 3% cap. Separate local advertising minimum (~$3,000/month) also applies",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems"
+        },
+        "liquidCapitalMin": {
+          "value": 150000,
+          "source": "IFPG listing",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "IFPG lists $150K liquid / $500K net worth; Vetted Biz cites $200K liquid / $400K net worth",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems"
+        },
+        "totalUnits": {
+          "value": 110,
+          "source": "FranchisePayback FDD summary",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "110 franchised, 0 company-owned (2024). IFPG separately reports 78 owners operating 310 territories (territory counting differs from outlet counting)",
+          "url": "https://www.franchisepayback.com/franchise/temporary-wall-systems"
+        },
+        "yearFounded": {
+          "value": 2017,
+          "source": "Entrepreneur Franchise Directory; IFPG listing",
+          "year": 2026,
+          "confidence": "high",
+          "url": "https://www.entrepreneur.com/franchises/directory/temporary-wall-systems/336863"
+        },
+        "yearFranchising": {
+          "value": 2022,
+          "source": "Entrepreneur Franchise Directory; IFPG listing (first franchised units appear in 2022 per FDD Item 20)",
+          "year": 2026,
+          "confidence": "high",
+          "url": "https://www.entrepreneur.com/franchises/directory/temporary-wall-systems/336863"
+        },
+        "avgUnitRevenue": {
+          "value": 527018,
+          "source": "Franchise Chatter FDD Talk \u2014 2023 FDD Item 19",
+          "year": 2022,
+          "confidence": "medium",
+          "note": "Represents 2022 gross sales of $2,635,092 from a SINGLE affiliate-owned operation (open since April 2017) divided across its 5 territories (~$527K per territory). Not independent franchisee results",
+          "url": "https://www.franchisechatter.com/2023/09/28/fdd-talk-temporary-wall-systems-franchise-costs-fees-average-revenues-and-or-profits-2023-review/"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Franchise Chatter FDD Talk (2023 FDD Item 19); IFPG listing",
+          "year": 2023,
+          "confidence": "high",
+          "url": "https://www.franchisechatter.com/2023/09/28/fdd-talk-temporary-wall-systems-franchise-costs-fees-average-revenues-and-or-profits-2023-review/"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "Free FDD Library / FDD review sites carry the FDD",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://www.freefddlibrary.com/franchises/temporary-wall"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "IFPG listing",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "$5,000 off initial franchise fee",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "IFPG listing (2- to 5-territory pack pricing)",
+          "year": 2024,
+          "confidence": "high",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems"
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Franchise Chatter FDD Talk (Designated Territory of ~4,000 target buildings)",
+          "year": 2023,
+          "confidence": "medium",
+          "url": "https://www.franchisechatter.com/2023/09/28/fdd-talk-temporary-wall-systems-franchise-costs-fees-average-revenues-and-or-profits-2023-review/"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "IFPG listing (home-based, B2B model)",
+          "year": 2024,
+          "confidence": "medium",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "IFPG listing (initial training program of approximately 14 days at corporate HQ)",
+          "year": 2024,
+          "confidence": "medium",
+          "url": "https://www.ifpg.org/top-franchises/temporary-wall-systems"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "FranchisePayback (8 franchised units in 2022 to 110 in 2024); company PR on nationwide expansion",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "Rapid growth through 2024; see riskFlags for late-2025 parent-company turbulence and territory resales",
+          "url": "https://tempwallsystems.com/blog/temporary-wall-systems-experiences-rapid-growth-with-nationwide-expansion/"
+        }
+      }
+    },
+    {
+      "name": "Top Rail Fence",
+      "website": "https://toprailfences.com",
+      "notes": "Residential/commercial fence installation franchise founded 2014, franchising since 2022 as part of platform franchisor HomeFront Brands. Grew fast (167 franchised territories by end of 2024) with a strong published Item 19, but December 2025 reporting documents significant franchisee dissatisfaction across the HomeFront system.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "HomeFront Brands system turmoil and franchisee complaints",
+          "detail": "December 2025 report: some Top Rail Fence franchisees grossing $1M+ say they are only breaking even (rising marketing costs, labor, mandatory warehouse overhead); 5+ territories listed for resale; owners report pressure to sign updated agreements that independent attorneys flagged as disadvantageous; notable non-attendance at the November 2025 convention. Parent also launched-and-shuttered several concepts (Yard Pros/Mozzie Dome, an electrician brand).",
+          "source": "UnhappyFranchisee.com (guest post)",
+          "url": "https://unhappyfranchisee.com/homefront-brands-franchise-turmoil/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Wide performance dispersion in Item 19",
+          "detail": "2024 Item 19 (20 franchisees open 12+ months): top-third average gross revenue $2.23M vs bottom-third $497K \u2014 a 4.5x spread; gross margins ranged from 42.8% (top third) to 20.7% (bottom third). Median results may not reflect typical outcomes for new owners.",
+          "source": "Franchise Chatter \u2014 Top Rail Fence 2025 FDD review",
+          "url": "https://www.franchisechatter.com/2025/08/23/top-rail-fence-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Offering in all FTC non-registration states plus IN, MI, WI per IFPG; registration pending in CA, IL, MD, MN, ND, NY, RI, SD, VA, WA; not available in HI",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "franchiseFee": {
+          "value": 59900,
+          "source": "Franchise Chatter \u2014 2025 FDD review",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Standard single-territory fee; disclosed range $59,900\u2013$73,900 (IFPG shows multi-territory packages up to $189,900)",
+          "url": "https://www.franchisechatter.com/2025/08/23/top-rail-fence-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "totalInvestmentMin": {
+          "value": 161444,
+          "source": "Franchise Chatter \u2014 2025 FDD review",
+          "year": 2025,
+          "confidence": "high",
+          "note": "2025 FDD Item 7; IFPG currently lists $177,444\u2013$333,944",
+          "url": "https://www.franchisechatter.com/2025/08/23/top-rail-fence-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "totalInvestmentMax": {
+          "value": 297444,
+          "source": "Franchise Chatter \u2014 2025 FDD review",
+          "year": 2025,
+          "confidence": "high",
+          "note": "See min note for cross-source range",
+          "url": "https://www.franchisechatter.com/2025/08/23/top-rail-fence-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "royaltyPercent": {
+          "value": 5,
+          "source": "Franchise Chatter \u2014 2025 FDD review",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Greater of a blended 5\u20137% of gross revenue or a minimum royalty of $300\u2013$2,000/month depending on years in operation; 5% is the lower bound of the standard blended rate",
+          "url": "https://www.franchisechatter.com/2025/08/23/top-rail-fence-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "Franchise Chatter \u2014 2025 FDD review",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Brand Fund 2% of gross revenue; ALSO required: local advertising of the greater of 3% of gross revenue or $36,000/year, plus a $500/month marketing management fee",
+          "url": "https://www.franchisechatter.com/2025/08/23/top-rail-fence-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "liquidCapitalMin": {
+          "value": 100000,
+          "source": "IFPG listing",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "$100K liquid / $400K minimum net worth",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence"
+        },
+        "totalUnits": {
+          "value": 167,
+          "source": "Franchise Chatter \u2014 2025 FDD review (Item 20)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "167 franchised units at end of 2024 (0 company-owned); grew 21 \u2192 93 \u2192 167 over 2022\u20132024. IFPG currently reports 197 operating territories across 71 owners",
+          "url": "https://www.franchisechatter.com/2025/08/23/top-rail-fence-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "yearFounded": {
+          "value": 2014,
+          "source": "IFPG listing",
+          "year": 2026,
+          "confidence": "medium",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence"
+        },
+        "yearFranchising": {
+          "value": 2022,
+          "source": "IFPG listing; Top Rail Fence joined HomeFront Brands in 2022 with launch of the franchise program (first 21 units in 2022 per FDD Item 20)",
+          "year": 2026,
+          "confidence": "high",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence"
+        },
+        "avgUnitRevenue": {
+          "value": 1054051,
+          "source": "Franchise Chatter \u2014 2025 FDD review (2024 Item 19)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "MEDIAN 2024 gross revenue of the 20 franchisees open 12+ full months. Thirds averages: top $2,228,190 / middle $921,141 / bottom $496,677. Gross revenue, not profit",
+          "url": "https://www.franchisechatter.com/2025/08/23/top-rail-fence-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 2025 FDD review; IFPG listing",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://www.franchisechatter.com/2025/08/23/top-rail-fence-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "FDD review sites (Franchise Chatter, Sharpsheets) summarize the 2025 FDD",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://www.franchisechatter.com/2025/08/23/top-rail-fence-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "IFPG listing",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "$5,000 off initial franchise fee",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "IFPG listing (multi-territory fee tiers up to $189,900)",
+          "year": 2026,
+          "confidence": "high",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence"
+        },
+        "canRunFromHome": {
+          "value": false,
+          "source": "IFPG listing (requires physical location/warehouse); UnhappyFranchisee notes mandatory warehouse overhead",
+          "year": 2026,
+          "confidence": "medium",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence"
+        },
+        "trainingWeeks": {
+          "value": 1,
+          "source": "IFPG listing (5-day initial training: LMS, hands-on, technical, sales, leadership)",
+          "year": 2026,
+          "confidence": "medium",
+          "url": "https://www.ifpg.org/top-franchises/top-rail-fence"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 2025 FDD review (21 to 167 franchised units 2022\u20132024)",
+          "year": 2024,
+          "confidence": "medium",
+          "note": "Strong unit growth through 2024; see riskFlags for late-2025 franchisee turmoil and resale listings",
+          "url": "https://www.franchisechatter.com/2025/08/23/top-rail-fence-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "ongoingSupport": {
+          "value": [
+            "Initial training program covering operations, sales, marketing, and systems",
+            "Centralized call center for appointment setting",
+            "National marketing programs"
+          ],
+          "source": "Top Rail Fence official franchising page",
+          "year": 2026,
+          "confidence": "high",
+          "url": "https://toprailfences.com/franchising/"
+        }
+      }
+    },
+    {
+      "name": "Tox, The",
+      "website": "https://thetoxtechnique.com",
+      "notes": "The Tox is a lymphatic-drainage body-sculpting studio franchise (founded 2019, franchising since 2021) with company-owned studios in NYC, LA, and Boston plus a growing franchise base; franchise development runs through The Tox Franchising Group. Strong Item 19 AUV but it is derived from company/affiliate-owned studios, and 2024 saw two company-owned closures.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Company-owned studio closures in 2024",
+          "detail": "Per FDD Item 20 data, company-owned outlets fell from 10 to 8 during 2024 (2 closures) even as franchised units grew from 1 to 6 \u2014 early signal worth monitoring in a very young system.",
+          "source": "Franchise Chatter \u2014 The Tox 2026 franchise review (2025 FDD data)",
+          "url": "https://www.franchisechatter.com/2026/03/01/the-tox-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Large gap between units awarded and units open",
+          "detail": "IFPG reports 93 units awarded all-time but only 33 currently open (10 company-owned) \u2014 a substantial sold-but-not-open backlog typical of aggressive multi-unit sales in emerging brands; opening pace and franchisee capitalization should be verified in the current FDD.",
+          "source": "IFPG listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Item 19 based on company/affiliate-owned studios",
+          "detail": "The ~$1.12M AUV in Item 19 comes from 5 affiliate/company-owned locations operating without royalty obligations and without territorial restrictions; franchisee economics (8% royalty, 2% brand fund, heavy required digital-marketing spend) will differ.",
+          "source": "Franchise Chatter \u2014 The Tox 2026 franchise review",
+          "url": "https://www.franchisechatter.com/2026/03/01/the-tox-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        {
+          "state": "AL",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "AK",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "AZ",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "AR",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "CO",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "CT",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "DE",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "FL",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "GA",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "ID",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "IN",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "IA",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "KS",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "KY",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "LA",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "ME",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "MA",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "MI",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "MS",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "MO",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "MT",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "NE",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "NV",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "NH",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "NJ",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "NM",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "NY",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "NC",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "OH",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "OK",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "OR",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "PA",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "RI",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "SC",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "TN",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "TX",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "UT",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "VT",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "WV",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "WI",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        },
+        {
+          "state": "WY",
+          "status": "open",
+          "note": "Registered in non-registration states plus IN, MI, NY, RI, WI per IFPG; registration pending in CA, HI, MD, MN, ND, SD, WA; not available in IL and VA",
+          "source": "International Franchise Professionals Group (IFPG) listing",
+          "url": "https://www.ifpg.org/top-franchises/the-tox",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "franchiseFee": {
+          "value": 49500,
+          "source": "Franchise Chatter \u2014 The Tox 2026 review; IFPG listing",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Single unit $49,500; multi-unit: 2 units $91,500, 3 units $129,500, 4 units $165,500",
+          "url": "https://www.franchisechatter.com/2026/03/01/the-tox-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "totalInvestmentMin": {
+          "value": 258250,
+          "source": "Franchise Chatter \u2014 The Tox 2026 review (2025 FDD Item 7)",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://www.franchisechatter.com/2026/03/01/the-tox-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "totalInvestmentMax": {
+          "value": 448800,
+          "source": "Franchise Chatter \u2014 The Tox 2026 review (2025 FDD Item 7)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "IFPG lists $448,000 as the top end",
+          "url": "https://www.franchisechatter.com/2026/03/01/the-tox-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "royaltyPercent": {
+          "value": 8,
+          "source": "Franchise Chatter \u2014 The Tox 2026 review (2025 FDD)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "8% of gross revenue, subject to a $1,000/month minimum",
+          "url": "https://www.franchisechatter.com/2026/03/01/the-tox-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "Franchise Chatter \u2014 The Tox 2026 review (2025 FDD)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Brand Fund 2% of gross revenue; ALSO required: minimum $1,500/month per digital channel for digital marketing and $2,750/month social media management per outlet ($3,500 setup)",
+          "url": "https://www.franchisechatter.com/2026/03/01/the-tox-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "liquidCapitalMin": {
+          "value": 200000,
+          "source": "IFPG listing",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "$200K liquid / $450K minimum net worth",
+          "url": "https://www.ifpg.org/top-franchises/the-tox"
+        },
+        "totalUnits": {
+          "value": 14,
+          "source": "Franchise Chatter \u2014 The Tox 2026 review (FDD Item 20: 6 franchised + 8 company-owned at end of 2024)",
+          "year": 2024,
+          "confidence": "high",
+          "note": "FDD-verified count at Dec 31, 2024. IFPG's 2026 listing reports 33 units currently open (10 company-owned) and 93 awarded all-time",
+          "url": "https://www.franchisechatter.com/2026/03/01/the-tox-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "closureCount": {
+          "value": 2,
+          "source": "Franchise Chatter \u2014 The Tox 2026 review (company-owned outlets 10 to 8 during 2024)",
+          "year": 2024,
+          "confidence": "medium",
+          "url": "https://www.franchisechatter.com/2026/03/01/the-tox-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "yearFounded": {
+          "value": 2019,
+          "source": "IFPG listing",
+          "year": 2026,
+          "confidence": "medium",
+          "url": "https://www.ifpg.org/top-franchises/the-tox"
+        },
+        "yearFranchising": {
+          "value": 2021,
+          "source": "IFPG listing (first franchised outlet opened during 2022 per FDD Item 20)",
+          "year": 2026,
+          "confidence": "medium",
+          "url": "https://www.ifpg.org/top-franchises/the-tox"
+        },
+        "avgUnitRevenue": {
+          "value": 1120458,
+          "source": "Franchise Chatter \u2014 The Tox 2026 review (2025 FDD Item 19)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Average total revenue (AUV) of 5 company/affiliate-owned studios that operate WITHOUT royalty obligations; average adjusted net income $326,128 (29.1%); avg service ticket $251.80; ~4.2 treatment rooms per studio. Not franchisee results",
+          "url": "https://www.franchisechatter.com/2026/03/01/the-tox-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Franchise Chatter \u2014 The Tox 2026 review (Item 19 with AUV and net income)",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://www.franchisechatter.com/2026/03/01/the-tox-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "The FDD Exchange (2024 FDD on file); Franchise Chatter reviews 2025 FDD",
+          "year": 2025,
+          "confidence": "high",
+          "url": "https://fddexchange.com/view-fdd-docs/the-tox-2024-fdd-franchise-information-costs-and-fees/"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "IFPG listing",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "$5,000 off the first unit's franchise fee",
+          "url": "https://www.ifpg.org/top-franchises/the-tox"
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "IFPG listing (2-, 3-, and 4-unit fee packages)",
+          "year": 2026,
+          "confidence": "high",
+          "url": "https://www.ifpg.org/top-franchises/the-tox"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "IFPG listing (2 days of 4-hour virtual ownership training plus 6-9 days in-person technique training)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Approximately 8-11 total training days",
+          "url": "https://www.ifpg.org/top-franchises/the-tox"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchise Chatter (franchised units 1 to 6 during 2024); IFPG (93 units awarded)",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Franchise side expanding rapidly; company-owned side contracted slightly in 2024 (see riskFlags)",
+          "url": "https://www.franchisechatter.com/2026/03/01/the-tox-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/"
+        }
+      }
+    }
+  ]
+}

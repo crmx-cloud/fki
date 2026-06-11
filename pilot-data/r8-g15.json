@@ -1,0 +1,473 @@
+{
+  "brands": [
+    {
+      "name": "Wonderly Lights",
+      "website": "https://www.wonderlylights.com",
+      "notes": "Outdoor, holiday, and permanent-roofline lighting franchise founded in 2022 by Buzz Franchise Brands (Virginia Beach, VA); shifted from a seasonal-only to a year-round model in 2024 and reported 30% year-over-year systemwide sales growth in 2025. NOTE: legacy DB data attributing this brand to HorsePower Brands is incorrect — Wonderly Lights is a Buzz Franchise Brands company (HorsePower's lighting brand is Blingle), so HorsePower's franchisee-fraud litigation does not attach to this brand.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, small system",
+          "detail": "Founded and franchising only since 2022, with roughly 40 units (39 franchised, 1 company-owned) per the 2025 FDD — limited operating track record for validation.",
+          "source": "FranchisePayback / Entrepreneur Franchise 500 directory",
+          "url": "https://www.franchisepayback.com/franchise/wonderly-lights",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Wide franchisee performance dispersion and seasonality transition",
+          "detail": "Franchise Times reports 2024 franchisee sales ranged from $15,554 to $417,502 — an extremely wide spread for a young system. The brand only moved from seasonal holiday lighting to a year-round model in 2024, so the year-round economics are largely unproven.",
+          "source": "Franchise Times",
+          "url": "https://www.franchisetimes.com/franchise_news/move-to-year-round-business-model-propels-growth-at-wonderly-lights/article_9694b4ef-26a7-4a79-9757-5cab7dc93c39.html",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Parent company is Buzz Franchise Brands, not HorsePower Brands",
+          "detail": "Wonderly Lights is owned by Buzz Franchise Brands (portfolio: British Swim School, Pool Scouts, Home Clean Heroes). It has no connection to HorsePower Brands or its franchisee fraud litigation; HorsePower's competing lighting brand is Blingle. Any legacy data linking Wonderly Lights to HorsePower is a misattribution.",
+          "source": "Buzz Franchise Brands official site",
+          "url": "https://buzzfranchisebrands.com/brands",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 75000,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMin": {
+          "value": 123603,
+          "source": "Entrepreneur Franchise Directory / 1851 Franchise deep dive",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Year-round model. Franchise Times reports a seasonal-only option at $91,007-$109,832."
+        },
+        "totalInvestmentMax": {
+          "value": 142428,
+          "source": "Entrepreneur Franchise Directory / 1851 Franchise deep dive",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 29500,
+          "source": "Entrepreneur Franchise Directory; range per 1851 Franchise",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Standard single-territory fee; ranges up to $69,500 for larger multi-territory packages per 1851 Franchise deep dive."
+        },
+        "royaltyPercent": {
+          "value": 7,
+          "source": "Entrepreneur Franchise Directory / FranchisePayback (2025 FDD)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "7% of gross revenue, plus $200/month technology fee and $30,000 minimum annual local ad spend per 1851 Franchise."
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "Entrepreneur Franchise Directory / FranchisePayback (2025 FDD)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "totalUnits": {
+          "value": 40,
+          "source": "FranchisePayback (2025 FDD: 39 franchised + 1 company-owned)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Franchise Times (Jan 2026) reports 24 franchise owners operating 42 territories across 15 states."
+        },
+        "yearFounded": {
+          "value": 2022,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2022,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 42.5 classroom hours plus 38 on-the-job hours (~2 weeks total)."
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "FranchisePayback (2025 FDD on file)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "Franchise Times (cites 2024 franchisee sales range from disclosure data)",
+          "year": 2026,
+          "confidence": "medium",
+          "note": "Disclosure reports a 2024 franchisee sales RANGE ($15,554-$417,502) rather than a system AUV; no reliable average figure published, so avgUnitRevenue is omitted."
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high",
+          "note": "20% off first-unit franchise fee."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchise Times",
+          "year": 2026,
+          "confidence": "high",
+          "note": "30% YoY systemwide sales growth in 2025; signed 3 new franchisees in 2025 and projects 6-10 more in 2026."
+        }
+      }
+    },
+    {
+      "name": "i4 Search Group",
+      "website": "https://i4searchgroup.com",
+      "notes": "Home-based permanent-placement healthcare recruiting franchise (nursing, advanced practice, allied health, physicians) headquartered in Tampa, FL; founded 2019, franchising since 2021 with roughly 32-39 units. Low investment but an unusually high 14% royalty and no Item 19 financial performance representation in its FDD.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High royalty burden (14% plus 3% brand fund)",
+          "detail": "Royalty is 14% of gross sales plus a 3% advertising royalty and ~$234/month technology fee — well above typical franchise royalty levels, materially affecting net margins even in a low-overhead recruiting model.",
+          "source": "Entrepreneur Franchise Directory (corroborated by Vetted Biz and FranchisePayback FDD analyses)",
+          "url": "https://www.entrepreneur.com/franchises/directory/i4-search-group/336591",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Young system with no Item 19 disclosure",
+          "detail": "Franchising only since 2021 (~32 units per Entrepreneur, 2025) and the FDD does not disclose average unit revenue or any financial performance representation, making earnings validation dependent on direct franchisee calls.",
+          "source": "FranchisePayback FDD analysis",
+          "url": "https://www.franchisepayback.com/franchise/i4-search-group",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "No litigation disclosed in FDD Item 3",
+          "detail": "Third-party FDD analyses report no lawsuits or bankruptcy disclosures in i4 Search Group's FDD Item 3 as of the most recent reviewed filing.",
+          "source": "Franzy FDD analysis",
+          "url": "https://franzy.com/franchises/i4-search-group",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 65000,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "totalInvestmentMin": {
+          "value": 65300,
+          "source": "Entrepreneur Franchise Directory / Vetted Biz (2025 FDD)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Single territory and single specialty line."
+        },
+        "totalInvestmentMax": {
+          "value": 111100,
+          "source": "Entrepreneur Franchise Directory / Vetted Biz (2025 FDD)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 50000,
+          "source": "Vetted Biz / FranchisePayback (FDD)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Standard single-territory/single-specialty fee; ranges up to $80,000 for additional territories/specialty lines."
+        },
+        "royaltyPercent": {
+          "value": 14,
+          "source": "Entrepreneur Franchise Directory / Vetted Biz / FranchisePayback",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "adFundPercent": {
+          "value": 3,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Entrepreneur lists 3% advertising royalty; FranchisePayback's FDD summary describes it as $750/month + up to 4%."
+        },
+        "totalUnits": {
+          "value": 32,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "31 franchised + 1 company-owned per FranchisePayback (2024 FDD); Vetted Biz lists 39 current U.S. locations in its 2025 update."
+        },
+        "yearFounded": {
+          "value": 2019,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2021,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "trainingWeeks": {
+          "value": 2,
+          "source": "i4 Search Group official franchise page / Entrepreneur",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "~90-97 hours of combined virtual and in-person training (Entrepreneur: 53 classroom + 44 on-the-job hours)."
+        },
+        "employeesRequired": {
+          "value": 1,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "FDD Exchange (2025 FDD on file)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": false,
+          "source": "FranchisePayback FDD analysis (no AUV/financial performance representation disclosed)",
+          "year": 2024,
+          "confidence": "medium"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "10% off franchise fee."
+        },
+        "exclusiveTerritories": {
+          "value": true,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "absenteeOwnership": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium"
+        },
+        "canRunFromHome": {
+          "value": true,
+          "source": "i4 Search Group official franchise page ('work from home, 100% portable business')",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "canRunPartTime": {
+          "value": false,
+          "source": "Entrepreneur Franchise Directory",
+          "year": 2025,
+          "confidence": "medium"
+        }
+      }
+    },
+    {
+      "name": "iSmash",
+      "website": "https://ismashusa.com",
+      "notes": "Rage-room/experiential entertainment franchise (rage rooms, blacklight splatter painting, axe throwing) founded 2018 in Rochester, NY by Steven Shortino; franchising since late 2021. Has sold 100+ franchise locations but only ~9 were open (8 under construction) as of December 2025 — aggressive territory sales far ahead of operating proof. Franchise development site: ismashfranchise.com.",
+      "riskFlags": [
+        {
+          "severity": "red",
+          "title": "100+ franchises sold vs. only 9 open locations",
+          "detail": "The brand's own December 2025 announcement states 100+ franchise locations sold (nearly 90 territories in 18 months) while only 9 locations are open and 8 under construction, with 40 openings projected for 2026. Selling territories far faster than units open is a classic emerging-brand risk: most buyers cannot validate against operating franchisees, and the franchisor's revenue is currently driven heavily by franchise fees rather than royalties.",
+          "source": "Franchising.com press release (iSmash)",
+          "url": "https://www.franchising.com/news/20251208_ismash_surpasses_100_franchise_locations_after_only_3_years_of_franchising.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Item 19 based on a tiny, top-weighted sample",
+          "detail": "The advertised average net profit of $232,285 (27.6% margin, 2026 FDD issued May 8, 2026) is based on the top-performing affiliate-owned location plus franchise locations open longer than one year — a very small sample (the 2025 FDD showed only ~7 total units, 5 franchised and 2 company-owned). Headline profit claims are not representative of a typical new unit.",
+          "source": "iSmash official franchise investment page; unit counts per FranchisePayback (2025 FDD)",
+          "url": "https://ismashfranchise.com/investment-information/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Very new franchise system in an unproven niche",
+          "detail": "Franchising only since late 2021 with the first franchise location opened June 2022 (Tampa, FL); the rage-room/experiential entertainment category has little long-term consumer-demand track record. No franchisee litigation or closures found in public sources as of June 2026.",
+          "source": "FranchisePayback / Franchising.com",
+          "url": "https://www.franchisepayback.com/franchise/ismash",
+          "year": 2025
+        }
+      ],
+      "statesOpen": [
+        {"state": "AL", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "AZ", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "AR", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "CA", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "CO", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "CT", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "DE", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "FL", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "GA", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "ID", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "IL", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "IN", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "IA", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "KS", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "KY", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "LA", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "ME", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "MD", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "MA", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "MI", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "MN", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "MS", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "MO", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "MT", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "NE", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "NV", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "NH", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "NJ", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "NM", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "NY", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "NC", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "ND", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "OH", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "OK", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "OR", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "PA", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "SC", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "SD", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "TN", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "TX", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "UT", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "VT", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "VA", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "WA", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "WV", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "WI", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026},
+        {"state": "WY", "status": "open", "note": "Accepting franchise inquiries per Franchise Gator listing (excludes AK, HI, RI)", "source": "Franchise Gator", "url": "https://www.franchisegator.com/franchises/ismash/", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {
+          "value": 100000,
+          "source": "iSmash official franchise investment page",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMin": {
+          "value": 349743,
+          "source": "iSmash official franchise investment page",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "totalInvestmentMax": {
+          "value": 779511,
+          "source": "iSmash official franchise investment page",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "franchiseFee": {
+          "value": 59950,
+          "source": "iSmash official franchise investment page",
+          "year": 2026,
+          "confidence": "high",
+          "note": "Current fee; the 2025 FDD listed $54,950 per FranchisePayback. Veterans pay $53,955."
+        },
+        "royaltyPercent": {
+          "value": 6,
+          "source": "iSmash official franchise investment page",
+          "year": 2026,
+          "confidence": "high",
+          "note": "6% of gross sales, no minimums per Franchise Gator listing."
+        },
+        "adFundPercent": {
+          "value": 2,
+          "source": "FranchisePayback (2025 FDD)",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "2% brand fund plus up to an additional 2% per the FDD summary."
+        },
+        "avgUnitRevenue": {
+          "value": 769112,
+          "source": "Vetted Biz analysis of 2025 FDD Item 19",
+          "year": 2025,
+          "confidence": "medium",
+          "note": "Average yearly gross sales per the 2025 FDD Item 19 as analyzed by Vetted Biz. CAUTION: derived from a very small sample (system had ~7 units, including company-owned/affiliate locations). The 2026 FDD Item 19 (issued 2026-05-08) separately reports average net profit of $232,285 (~27.6% of gross sales) for the top-performing affiliate location and franchises open >1 year."
+        },
+        "totalUnits": {
+          "value": 9,
+          "source": "Franchising.com press release (Dec 2025)",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Open operating locations as of Dec 2025; additionally 8 under construction and 100+ franchise territories sold. Directory listings citing '105 units' count sold territories, not open units."
+        },
+        "yearFounded": {
+          "value": 2018,
+          "source": "Franchising.com press release (first location opened Oct 2018, Rochester, NY; founder Steven Shortino)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "yearFranchising": {
+          "value": 2021,
+          "source": "FranchisePayback / Franchise Gator (franchising late 2021; first franchised unit opened June 2022 in Tampa, FL)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "fddAvailable": {
+          "value": true,
+          "source": "iSmash official franchise investment page (2026 FDD issued May 8, 2026); 2025 FDD available via Vetted Biz",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "item19Available": {
+          "value": true,
+          "source": "iSmash official franchise investment page (cites Item 19 of 2026 FDD)",
+          "year": 2026,
+          "confidence": "high"
+        },
+        "veteranDiscount": {
+          "value": true,
+          "source": "iSmash official franchise investment page",
+          "year": 2026,
+          "confidence": "high",
+          "note": "$5,995 off the initial franchise fee (10%)."
+        },
+        "multiUnitAvailable": {
+          "value": true,
+          "source": "iSmash news (7-location multi-unit franchise deal in Greater Philadelphia)",
+          "year": 2025,
+          "confidence": "high"
+        },
+        "isGrowing": {
+          "value": true,
+          "source": "Franchising.com press release",
+          "year": 2025,
+          "confidence": "high",
+          "note": "Nearly 90 territories sold in 18 months; 40 openings projected for 2026. Note: growth is in territory sales, not yet open units — see riskFlags."
+        }
+      }
+    }
+  ]
+}

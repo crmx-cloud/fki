@@ -1,0 +1,300 @@
+{
+  "brands": [
+    {
+      "name": "Bunny Hive, The",
+      "website": "https://www.thebunnyhive.com",
+      "notes": "Social studio ('social club') franchise for babies/young children and their caregivers, founded 2019 and franchising since 2023. Very young but fast-growing emerging system; brand locations page lists studios (open and coming soon) in 13 states.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, unproven franchise system",
+          "detail": "Began franchising in 2023; only 17 units reported by Entrepreneur in 2026. Limited operating history as a franchisor despite rapid percentage growth (+1,600% off a tiny base).",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/bunny-hive-the/335226444",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "No exclusive territories",
+          "detail": "Entrepreneur's directory listing reports exclusive territories are not available to franchisees.",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/bunny-hive-the/335226444",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Investment range differs between sources",
+          "detail": "Franchisor's own franchise page states $143,410-$398,050 total investment, while Entrepreneur lists $126,610-$330,850; figures here headline the franchisor's current numbers.",
+          "source": "The Bunny Hive franchise page / Entrepreneur",
+          "url": "https://www.thebunnyhive.com/franchise",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {"state": "AL", "status": "open", "note": "Huntsville; per brand locations page, may include coming-soon studios", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026},
+        {"state": "CA", "status": "open", "note": "La Jolla, Mountain View; per brand locations page, may include coming-soon studios", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026},
+        {"state": "FL", "status": "open", "note": "Delray Beach, Jacksonville, Odessa, Tampa; per brand locations page", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026},
+        {"state": "GA", "status": "open", "note": "Athens, Atlanta, Peachtree City, Roswell, Savannah, Smyrna; per brand locations page", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026},
+        {"state": "IN", "status": "open", "note": "Zionsville; per brand locations page", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026},
+        {"state": "MD", "status": "open", "note": "Baltimore, Bethesda; per brand locations page", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026},
+        {"state": "NJ", "status": "open", "note": "Bergen County, Haddonfield, Hoboken, Fort Monmouth; per brand locations page", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026},
+        {"state": "NY", "status": "open", "note": "Scarsdale; per brand locations page", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026},
+        {"state": "NC", "status": "open", "note": "Charlotte, Raleigh; per brand locations page", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026},
+        {"state": "SC", "status": "open", "note": "Charleston, Greenville; per brand locations page", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026},
+        {"state": "TN", "status": "open", "note": "Chattanooga, Knoxville, Nashville; per brand locations page", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026},
+        {"state": "TX", "status": "open", "note": "Austin, Houston; per brand locations page", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026},
+        {"state": "VA", "status": "open", "note": "Richmond; per brand locations page", "source": "The Bunny Hive locations page", "url": "https://www.thebunnyhive.com/locations", "year": 2026}
+      ],
+      "fields": {
+        "franchiseFee": {"value": 42000, "source": "The Bunny Hive franchise page (confirmed by Entrepreneur)", "year": 2026, "confidence": "high", "note": "One-time fee due at signing"},
+        "totalInvestmentMin": {"value": 143410, "source": "The Bunny Hive franchise page", "year": 2026, "confidence": "high", "note": "Franchisor's current stated range $143,410-$398,050; Entrepreneur lists $126,610-$330,850"},
+        "totalInvestmentMax": {"value": 398050, "source": "The Bunny Hive franchise page", "year": 2026, "confidence": "high", "note": "Varies by market, studio size, lease vs. buy"},
+        "royaltyPercent": {"value": 7, "source": "The Bunny Hive franchise page (confirmed by Entrepreneur)", "year": 2026, "confidence": "high", "note": "7% of studio gross revenue, monthly; ad/marketing fee charged as flat $115+/week per Entrepreneur, not a percentage"},
+        "totalUnits": {"value": 17, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur 2026 count; brand locations page lists 31 studios including coming-soon"},
+        "yearFounded": {"value": 2019, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2023, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 1, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "31 hours classroom + 8 hours on-the-job"},
+        "fddAvailable": {"value": true, "source": "The Bunny Hive franchise page", "year": 2026, "confidence": "high", "note": "FDD provided electronically; brand discloses franchise-registration-state compliance"},
+        "exclusiveTerritories": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Brick-and-mortar studio concept"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "veteranDiscount": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Listed as N/A"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "+1,600% unit growth off a small base; ranked #97 in Entrepreneur's 2026 Top New & Emerging Franchises"},
+        "marketingSupport": {"value": ["co-op advertising", "ad templates", "social media", "SEO", "website development", "email marketing"], "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "ongoingSupport": {"value": ["grand opening assistance", "online support", "field operations", "site selection", "lease negotiation", "meetings/conventions", "newsletter"], "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Children's Art Classes",
+      "website": "https://childrensartclasses.com",
+      "notes": "Fine-art education studios for kids (CAC Franchising LLC, Jacksonville FL); curriculum dates to 1997 founder Barbara Gay, franchising since 2020. Source data conflicts on founding year and unit count (Entrepreneur: 36 units; vettedbiz FDD summary: 14; brand site lists locations in 20+ states).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Modest per-unit revenue vs. investment (long payback)",
+          "detail": "FDD-derived average yearly gross sales of ~$118,240 against a $134,268-$264,110 investment; FranchisePayback estimates an 11-13 year payback period for an owner-operator.",
+          "source": "FranchisePayback / Vetted Biz FDD summaries",
+          "url": "https://www.franchisepayback.com/franchise/childrens-art-classes",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting founding-year and unit-count data across sources",
+          "detail": "Brand site says established 1997; Entrepreneur lists founded 2009 with 36 units (2026); Vetted Biz FDD summary lists 14 U.S. locations. Likely reflects pre-franchise corporate history vs. franchised-entity data.",
+          "source": "childrensartclasses.com / Entrepreneur / Vetted Biz",
+          "url": "https://www.entrepreneur.com/franchises/directory/childrens-art-classes/336250",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {"state": "AZ", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "CA", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "CO", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "CT", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "FL", "status": "open", "note": "HQ state (Jacksonville); per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "GA", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "ID", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "IL", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "IN", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "LA", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "MD", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "MA", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "MN", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "MS", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "MT", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "NJ", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "NY", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "NC", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "OH", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "PA", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "SC", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "TN", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "TX", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "UT", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "VA", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026},
+        {"state": "WI", "status": "open", "note": "Per brand locations listing", "source": "Children's Art Classes website", "url": "https://childrensartclasses.com", "year": 2026}
+      ],
+      "fields": {
+        "franchiseFee": {"value": 59950, "source": "Entrepreneur Franchise 500 directory (matches Vetted Biz FDD summary)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 134268, "source": "Entrepreneur Franchise 500 directory (matches Vetted Biz FDD summary)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 264110, "source": "Entrepreneur Franchise 500 directory (matches Vetted Biz FDD summary)", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 8, "source": "Vetted Biz FDD summary", "year": 2025, "confidence": "medium", "note": "Vetted Biz lists 8% of gross; Entrepreneur lists 8.25%"},
+        "liquidCapitalMin": {"value": 50000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Vetted Biz lists $35,000 minimum cash; net worth requirement $250,000 per Entrepreneur"},
+        "avgUnitRevenue": {"value": 118240, "source": "Vetted Biz FDD summary (Item 19-derived)", "year": 2025, "confidence": "low", "note": "Average yearly gross sales per unit from FDD Item 19 performance representations across a small system; not a profit figure"},
+        "totalUnits": {"value": 36, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur 2026; Vetted Biz FDD summary lists 14 U.S. locations and brand site claims 50+ class locations"},
+        "yearFounded": {"value": 1997, "source": "Children's Art Classes website (brand history)", "year": 2026, "confidence": "medium", "note": "Brand states established 1997 by founder Barbara Gay; Entrepreneur lists 2009 for the company entity"},
+        "yearFranchising": {"value": 2020, "source": "Entrepreneur Franchise 500 directory (matches Vetted Biz)", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "54 hours classroom + 42 hours on-the-job, held at Jacksonville FL headquarters"},
+        "fddAvailable": {"value": true, "source": "FranchiseIndex public FDD archive (2024 FDD)", "year": 2024, "confidence": "high", "note": "2024 FDD publicly accessible"},
+        "item19Available": {"value": true, "source": "Vetted Biz FDD summary", "year": 2025, "confidence": "medium", "note": "Item 19 gross-sales representation summarized by Vetted Biz"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Territory protection tied to development/sales quotas"},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Studio-based concept"},
+        "canRunPartTime": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "5% off franchise fee"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "+350% unit growth reported since franchising began in 2020; ranked in Entrepreneur Franchise 500 for 2026"}
+      }
+    },
+    {
+      "name": "Cleanest Restaurant Group",
+      "website": "https://crgfranchise.com",
+      "notes": "Home-based, B2B restaurant-cleaning franchise (NYC-based; family cleaning operation roots to 1974), founded 2017 and franchising since 2022 with national restaurant-chain account relationships. Small, young system with an Item 19 in its FDD.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very new, small franchise system",
+          "detail": "Franchising only since 2022 with ~15 units (Entrepreneur 2026; Vetted Biz lists 11). Headline growth percentages are off a tiny base and the franchised model has a short track record.",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/cleanest-restaurant-group/336715",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Website sales figure far exceeds FDD-derived franchisee average",
+          "detail": "Franchise website promotes 'Average Annual Sales: $6.5M', which reflects the founder's corporate operation, while Vetted Biz's Item 19-derived average yearly gross sales for units is ~$161,568. Prospects should rely on the FDD Item 19, not the headline number.",
+          "source": "crgfranchise.com vs. Vetted Biz FDD summary",
+          "url": "https://www.vettedbiz.com/franchises/cleanest-restaurant-group",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Investment range differs between sources",
+          "detail": "Entrepreneur lists $102,686-$144,174 total investment; Vetted Biz's FDD summary lists $115,950-$242,000.",
+          "source": "Entrepreneur / Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/cleanest-restaurant-group",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "franchiseFee": {"value": 60000, "source": "Entrepreneur Franchise 500 directory (matches Vetted Biz FDD summary)", "year": 2026, "confidence": "high", "note": "Standard territory fee; 10% veteran discount available"},
+        "totalInvestmentMin": {"value": 102686, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur range $102,686-$144,174; Vetted Biz FDD summary shows $115,950-$242,000"},
+        "totalInvestmentMax": {"value": 144174, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Vetted Biz FDD summary shows a higher max of $242,000"},
+        "royaltyPercent": {"value": 8, "source": "Entrepreneur Franchise 500 directory (matches Vetted Biz)", "year": 2026, "confidence": "high"},
+        "adFundPercent": {"value": 1, "source": "Entrepreneur Franchise 500 directory (matches Vetted Biz)", "year": 2026, "confidence": "high"},
+        "liquidCapitalMin": {"value": 60000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Net worth requirement $100,000"},
+        "avgUnitRevenue": {"value": 161568, "source": "Vetted Biz FDD summary (Item 19-derived)", "year": 2025, "confidence": "low", "note": "Average yearly gross sales per franchise unit derived from FDD disclosures across a very small system; not profit. Website's $6.5M figure is the corporate operation, not franchisee performance"},
+        "totalUnits": {"value": 15, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Vetted Biz lists 11 U.S. locations"},
+        "yearFounded": {"value": 2017, "source": "Entrepreneur Franchise 500 directory (matches Vetted Biz)", "year": 2026, "confidence": "high", "note": "Built on a family cleaning business dating to 1974"},
+        "yearFranchising": {"value": 2022, "source": "Entrepreneur Franchise 500 directory (matches Vetted Biz)", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Franchising.com / Entrepreneur directory", "year": 2026, "confidence": "medium", "note": "Two-week program at corporate HQ; Entrepreneur details 32 hours on-the-job + 13 hours classroom"},
+        "employeesRequired": {"value": 2, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "2-3 employees to run"},
+        "fddAvailable": {"value": true, "source": "crgfranchise.com", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "crgfranchise.com (references Item 19 financial performance history in FDD)", "year": 2026, "confidence": "high"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Large metro/suburban protected territories per franchisor"},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Marketed as executive owner model"},
+        "canRunFromHome": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Home-based, no brick-and-mortar"},
+        "canRunPartTime": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "10% off standard territory franchise fee"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "+1,400% growth reported off a very small base since 2022"},
+        "ownerTypes": {"value": ["owner-operator", "executive/semi-absentee"], "source": "crgfranchise.com / Entrepreneur directory", "year": 2026, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Combo Brands",
+      "website": "https://combobrands.com",
+      "notes": "Multi-brand 'combo' franchise platform (Miami-based, founded 2020) letting franchisees run up to three complementary service or food businesses in one location to share rent and payroll; related to the Combo Kitchen restaurant system. Not currently offered in 14 franchise-registration states per its own website.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchised from day one; unproven multi-brand model",
+          "detail": "Founded and began franchising in the same year (2020), so there was no corporate-unit track record before selling franchises, and the shared-roof multi-brand model is novel.",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/combo-brands/336081",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Sister system shows large sold-vs-open gap",
+          "detail": "Related Combo Kitchen system was publicized as selling 200+ franchises in under two years, but Vetted Biz's FDD summary shows only ~12 operating U.S. locations — a pattern worth scrutinizing in Combo Brands' own FDD Item 20.",
+          "source": "Vetted Biz (Combo Kitchen FDD summary)",
+          "url": "https://www.vettedbiz.com/franchises/combo-kitchen",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Not offered in franchise-registration states",
+          "detail": "Combo Brands' website states franchises are not available in CA, HI, IL, IN, MD, MI, MN, NY, ND, RI, SD, VA, WA, or WI — indicating it has not registered its FDD in those states.",
+          "source": "combobrands.com franchise page",
+          "url": "https://combobrands.com/franchise/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "franchiseFee": {"value": 25000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Range $25,000-$35,000 depending on brands/configuration; one fee covers multi-brand location"},
+        "totalInvestmentMin": {"value": 27750, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur range $27,750-$353,000; other FDD summaries cite $49,000 low end. Varies widely by brand mix and real estate"},
+        "totalInvestmentMax": {"value": 353000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "royaltyPercent": {"value": 7, "source": "Entrepreneur Franchise 500 directory / FDD summaries", "year": 2026, "confidence": "medium", "note": "Sliding scale: 7% on annual sales to $500K, 7.5% to $1M, 8% above $1M — 7% is the standard starting tier"},
+        "adFundPercent": {"value": 1, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "liquidCapitalMin": {"value": 32000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Net worth requirement also listed at $32,000"},
+        "totalUnits": {"value": 127, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur 2026 count; +130.9% growth rate listed"},
+        "yearFounded": {"value": 2020, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2020, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 1, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "28 hours on-the-job + 16 hours classroom"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Brick-and-mortar multi-brand location"},
+        "canRunPartTime": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "veteranDiscount": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Listed as N/A"},
+        "multiUnitAvailable": {"value": true, "source": "combobrands.com (model is inherently multi-brand/multi-business per location)", "year": 2026, "confidence": "medium", "note": "Up to three businesses under one roof per franchise"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "+130.9% unit growth reported; verify open-vs-sold in FDD Item 20"}
+      }
+    },
+    {
+      "name": "DryerVentz - DuctVentz - WindowZ",
+      "website": "https://dryerventzusa.com",
+      "notes": "Home-based, van-based vent/duct/window cleaning franchise ('3 businesses in 1': DryerVentz, DuctVentz, WindowZ + SolarClear), founded 2018 and franchising since 2020. Tiny system (~11 territories) with flat recent unit growth and aggressive non-Item-19 earnings claims on its website.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Flat unit growth in a tiny system",
+          "detail": "Entrepreneur's 2026 listing shows 11 units with a 0.0% growth rate, and Vetted Biz's FDD summary lists only 6 U.S. locations — signs the system has stalled at a very small size.",
+          "source": "Entrepreneur Franchise 500 directory / Vetted Biz",
+          "url": "https://www.entrepreneur.com/franchises/directory/dryerventz-ductventz-windowz/336429",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Earnings claims on franchisor website are not FDD Item 19 figures",
+          "detail": "Franchise site advertises 'Avg. Monthly Revenue: $30,000 Per Van' and 'Avg. Net Profit: 55% Per Van' without published Item 19 substantiation; no independent FDD-derived revenue figure was found. Treat these as marketing claims.",
+          "source": "dryerventzusa.com franchise opportunities page",
+          "url": "https://dryerventzusa.com/franchise-opportunities/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting basic data across sources",
+          "detail": "Founded year (2018 per Entrepreneur vs. 2020 per Vetted Biz), franchise fee ($25,000 vs. $24,000), liquid capital ($100,000 per Entrepreneur vs. $50,000 per franchisor) and investment ranges vary by source.",
+          "source": "Entrepreneur / Vetted Biz / franchisor site",
+          "url": "https://www.vettedbiz.com/franchises/dryerventz",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "dryerventzusa.com franchise opportunities page",
+        "url": "https://dryerventzusa.com/franchise-opportunities/",
+        "year": 2026,
+        "note": "Franchisor states it is 'currently offering franchises in 48 states' — availability claim only; actual operating territories reported in roughly 6 states"
+      },
+      "fields": {
+        "franchiseFee": {"value": 25000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Vetted Biz FDD summary lists $24,000"},
+        "totalInvestmentMin": {"value": 40000, "source": "dryerventzusa.com (matches Entrepreneur)", "year": 2026, "confidence": "medium", "note": "Franchisor and Entrepreneur list $40,000-$75,000; Vetted Biz FDD summary $37,300-$80,750"},
+        "totalInvestmentMax": {"value": 75000, "source": "dryerventzusa.com (matches Entrepreneur)", "year": 2026, "confidence": "medium"},
+        "royaltyPercent": {"value": 8, "source": "dryerventzusa.com / Entrepreneur directory", "year": 2026, "confidence": "medium", "note": "Sliding scale from 8% down to 5% of gross revenue as volume grows; 8% is the standard starting rate"},
+        "liquidCapitalMin": {"value": 50000, "source": "dryerventzusa.com franchise opportunities page", "year": 2026, "confidence": "medium", "note": "Franchisor lists $50K liquid / $100K net worth; Entrepreneur lists $100K liquid"},
+        "totalUnits": {"value": 11, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Franchise territories; Vetted Biz lists 6 U.S. locations"},
+        "yearFounded": {"value": 2018, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Vetted Biz lists 2020"},
+        "yearFranchising": {"value": 2020, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Vetted Biz lists 2021"},
+        "trainingWeeks": {"value": 1.5, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "30 hours classroom + 30 hours on-the-job"},
+        "employeesRequired": {"value": 1, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz FDD summary", "year": 2025, "confidence": "medium"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "canRunFromHome": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Home/van-based service model, no brick-and-mortar"},
+        "canRunPartTime": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "10% off franchise fee"},
+        "isGrowing": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "0.0% unit growth rate reported in 2026 listing"}
+      }
+    }
+  ]
+}
