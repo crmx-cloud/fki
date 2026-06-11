@@ -32,6 +32,11 @@ export function RoleDashboard() {
     return <FranchiseDashboardPage />;
   }
 
+  // Brokers have no dashboard — their workspace is their assigned leads.
+  if (role === "broker") {
+    return <Navigate to="/crm" replace />;
+  }
+
   return <DashboardPage />;
 }
 
