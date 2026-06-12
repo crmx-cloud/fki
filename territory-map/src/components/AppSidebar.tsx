@@ -76,17 +76,40 @@ function SidebarNav() {
     <SidebarContent>
       {/* ── Prospect navigation ── */}
       {isProspect && (
-        <SidebarGroup>
-          <SidebarGroupContent>
-            <SidebarMenu>
-              <NavLink href="/dashboard" label="My Matches" icon={Sparkles} isActive={location.pathname === "/dashboard"} />
-              <NavLink href="/saved" label="Saved Brands" icon={Heart} isActive={location.pathname === "/saved"} />
-              <NavLink href="/dossier" label="Due Diligence Report" icon={FileSearch} isActive={location.pathname === "/dossier"} />
-              <NavLink href="/my-profile" label="My Profile" icon={User} isActive={location.pathname === "/my-profile"} />
-              <NavLink href="/messages" label="Messages" icon={MessageCircle} isActive={location.pathname === "/messages"} badge={unreadMessages} />
-            </SidebarMenu>
-          </SidebarGroupContent>
-        </SidebarGroup>
+        <>
+          {/* The engine: output + the profile that powers it */}
+          <SidebarGroup>
+            <SidebarGroupContent>
+              <SidebarMenu>
+                <NavLink href="/dashboard" label="My Matches" icon={Sparkles} isActive={location.pathname === "/dashboard"} />
+                <NavLink href="/my-profile" label="My Profile" icon={User} isActive={location.pathname === "/my-profile"} />
+              </SidebarMenu>
+            </SidebarGroupContent>
+          </SidebarGroup>
+
+          <div className="mx-3 border-t border-sidebar-border" />
+
+          {/* Research: working the shortlist */}
+          <SidebarGroup>
+            <SidebarGroupContent>
+              <SidebarMenu>
+                <NavLink href="/saved" label="Saved Brands" icon={Heart} isActive={location.pathname === "/saved"} />
+                <NavLink href="/dossier" label="Due Diligence Report" icon={FileSearch} isActive={location.pathname === "/dossier"} />
+              </SidebarMenu>
+            </SidebarGroupContent>
+          </SidebarGroup>
+
+          <div className="mx-3 border-t border-sidebar-border" />
+
+          {/* Human connection */}
+          <SidebarGroup>
+            <SidebarGroupContent>
+              <SidebarMenu>
+                <NavLink href="/messages" label="Messages" icon={MessageCircle} isActive={location.pathname === "/messages"} badge={unreadMessages} />
+              </SidebarMenu>
+            </SidebarGroupContent>
+          </SidebarGroup>
+        </>
       )}
 
       {/* ── Franchisor navigation ── */}
