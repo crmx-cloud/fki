@@ -1,0 +1,771 @@
+{
+  "brands": [
+    {
+      "name": "Signal",
+      "slug": "signal",
+      "category": "Services",
+      "website": "teamsignal.com",
+      "notes": "Omaha-based security patrol and dedicated-guard franchise, formerly Signal 88 Security (founded 2003, franchising since 2008), rebranded to Signal in 2021. Franchisees buy large population-based regional territories, which is why the investment range runs from ~$158K to over $5M. The franchisor does not publish a state-by-state availability list, so state availability is omitted; territories are sold by metro/region subject to existing franchisees.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisee complaints that effective fees far exceed the marketed 4% royalty",
+          "detail": "FDD-tracking and review sites report franchisee complaints that all-in payments to the franchisor run roughly 9-11% of revenue versus the marketed 4% royalty, along with complaints about mandatory equipment purchases. Verify the full fee stack in Items 5-7 of the current FDD before buying.",
+          "source": "Franchise Investor Data - Signal 88 Security franchise analysis",
+          "url": "https://franchiseinvestordata.com/franchise/signal-88-security",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Active franchisor-franchisee litigation (Guardian Angel Private Security v. Signal 88 Franchise Group, 2025)",
+          "detail": "A franchisee-side suit against Signal 88 Franchise Group was filed in the U.S. District Court for the Central District of California in 2025 (case 2:25-cv-04952), adding to a multi-case litigation history disclosed in the FDD.",
+          "source": "Justia Dockets - Guardian Angel Private Security, Inc. v. Signal 88 Franchise Group, Inc.",
+          "url": "https://dockets.justia.com/docket/california/cacdce/2:2025cv04952/972796",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "History of terminated-franchisee disputes (Masterson; Colorado Security Consultants)",
+          "detail": "Signal has repeatedly litigated against former franchisees, including Signal 88 LLC v. Masterson (franchisee allegedly diverted 60+ customers and trade secrets to a competing company before becoming judgment-proof) and Colorado Security Consultants v. Signal 88 (D. Neb. 2017, post-termination competition). Indicates both enforcement activity and franchisee exits ending in conflict.",
+          "source": "Buchalter litigation commentary; vLex case report",
+          "url": "https://www.buchalter.com/insights/signal-88-llc-v-masterson-franchisee-engages-in-shell-game-asset-pledging-and-customer-poaching-before-becoming-judgment-proof/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 285000, "source": "Vetted Biz - Signal Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 157700, "source": "Vetted Biz - Signal Franchise Insights (2025 FDD-derived)", "year": 2025, "confidence": "high", "note": "Range scales with territory size; other FDD-derived directories cite $127,000 low end."},
+        "totalInvestmentMax": {"value": 5182150, "source": "Vetted Biz - Signal Franchise Insights (2025 FDD-derived)", "year": 2025, "confidence": "high", "note": "High end reflects large multi-region territory purchases."},
+        "franchiseFee": {"value": 150000, "source": "Vetted Biz - Signal Franchise Insights", "year": 2025, "confidence": "medium", "note": "Territory-based: FDD-derived fee range runs $150,000 up to $5,000,000 for the largest regional territories."},
+        "royaltyPercent": {"value": 4, "source": "Vetted Biz - Signal Franchise Insights", "year": 2025, "confidence": "medium", "note": "Marketed 4% royalty; franchisee complaints allege all-in payments of 9-11% including other fees - verify fee stack in the FDD."},
+        "avgUnitRevenue": {"value": 1533692, "source": "Vetted Biz - Signal Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per Vetted Biz analysis; estimated payback 11.4-13.4 years."},
+        "totalUnits": {"value": 1650, "source": "Vetted Biz - Signal Franchise Insights", "year": 2025, "confidence": "medium", "note": "US locations/territories per Vetted Biz; Franchise Investor Data cites ~1,465 units."},
+        "yearFounded": {"value": 2003, "source": "Vetted Biz - Signal Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2008, "source": "Vetted Biz - Signal Franchise Insights; Franchise Investor Data", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Signal Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two weeks at Omaha headquarters."},
+        "mobileBased": {"value": true, "source": "1851 Franchise - Signal Security deep dive (mobile patrol and monitoring model)", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2b", "source": "1851 Franchise - Signal Security deep dive (residential, commercial and industrial clients)", "year": 2026, "confidence": "medium", "note": "Primarily recurring-contract B2B security services (HOAs, commercial, industrial)."},
+        "customerAcquisitionModel": {"value": "Recurring B2B service contracts with commercial, residential-community, and industrial clients", "source": "1851 Franchise - Signal Security deep dive", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct Signal FDD listing; Franchise Investor Data (2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Signal Franchise Insights (Item 19-derived gross sales published)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "McAlister's Deli",
+      "slug": "mcalisters-deli",
+      "category": "Food & Beverage",
+      "website": "mcalistersdeli.com",
+      "notes": "Fast-casual deli (sandwiches, spuds, sweet tea) founded 1989 in Oxford, MS, now part of GoTo Foods (formerly Focus Brands) alongside Auntie Anne's, Cinnabon, Carvel, Jamba, Moe's, and Schlotzsky's. First GoTo Foods brand to pass $1B in systemwide sales; steadily growing and entering new states (NJ, MN, WI). Franchise development runs through GoTo Foods, which does not publish a public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Operated by multi-brand platform GoTo Foods",
+          "detail": "McAlister's is one of seven brands under GoTo Foods, which steers development priorities and shared services across the portfolio; franchisees are one brand among many in the platform's capital-allocation decisions.",
+          "source": "GoTo Foods - McAlister's Deli opens 500th restaurant",
+          "url": "https://www.gotofoods.com/mcalisters-deli-opens-500th-restaurant-nationwide/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Wide quartile dispersion in unit sales ($1.15M bottom quartile vs $2.80M top)",
+          "detail": "FY2024 Item 19: across 464 reporting traditional franchises, the top quartile averaged $2,798,639 in net sales while the bottom quartile averaged $1,145,777 - bottom-quartile volumes are thin against a $1.0M-$1.6M build cost.",
+          "source": "Franchise Chatter 2026 FDD review",
+          "url": "https://www.franchisechatter.com/2026/02/12/mcalisters-deli-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 1044975, "source": "McAlister's Deli 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1610700, "source": "McAlister's Deli 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Earlier FDD-derived sources cite up to $2,442,000 including real-estate-heavy builds."},
+        "franchiseFee": {"value": 35500, "source": "McAlister's Deli 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "McAlister's Deli 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "5% of net sales; some older directory sources cite 6%."},
+        "adFundPercent": {"value": 2, "source": "McAlister's Deli 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2% advertising contribution plus a minimum 0.75% of net sales local marketing spend per quarter."},
+        "avgUnitRevenue": {"value": 1891092, "source": "McAlister's Deli 2026 FDD Item 19, FY2024 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Average net sales across 464 traditional franchised restaurants (93.9% of locations), fiscal year ended 12/29/2024; median $1,792,471."},
+        "totalUnits": {"value": 560, "source": "McAlister's Deli 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "End of 2024: 524 franchised + 36 company-owned."},
+        "yearFounded": {"value": 1989, "source": "Wikipedia - McAlister's Deli; franchising.com brand overview", "year": 2025, "confidence": "high", "note": "Founded in Oxford, MS by Don Newcomb."},
+        "yearFranchising": {"value": 1994, "source": "franchising.com - McAlister's Deli brand overview", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "McAlister's Deli 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Franchised units +20 (2022), +14 (2023), +18 (2024); systemwide sales passed $1B in 2024."},
+        "businessModelType": {"value": "b2c", "source": "McAlister's Deli brand site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "The Maids",
+      "slug": "the-maids",
+      "category": "Home Services",
+      "website": "themaids.com",
+      "notes": "Omaha-based residential cleaning franchise (founded 1979 by Daniel J. Bishop; franchising since 1980), distinct from competitors Merry Maids and Molly Maid. Team-based four-person cleaning model; franchisees typically own multiple ~24,000-household territories (90 franchisees operate 1,298 territories). Franchisor sells territories across the US and Canada but publishes no state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Wide performance dispersion across franchisees",
+          "detail": "FY2024 Item 19 (Oct 2023-Sept 2024): average revenue per franchisee was $1,200,647 but the median was just $857,290, with a range from $48,339 to $7,271,112 - results skew heavily toward large multi-territory operators.",
+          "source": "The Maids 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/07/06/the-maids-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Per-household territory pricing and sliding royalty scale",
+          "detail": "The initial fee is priced at $0.50 per household in the territory plus a $19,900 SMART Start package, and the royalty slides from 6.9% down to 3.9% of gross revenues as volume grows - economics depend heavily on territory composition and scale.",
+          "source": "The Maids 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/07/06/the-maids-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Franchise.com - The Maids franchise listing", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 250000, "source": "Franchise.com - The Maids franchise listing", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 81720, "source": "The Maids 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Franchise.com lists $64,100-$154,300 from an earlier disclosure."},
+        "totalInvestmentMax": {"value": 159700, "source": "The Maids 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 19900, "source": "The Maids 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "$19,900 SMART Start package plus a territory fee of $0.50 per household (a standard ~24,000-household territory adds ~$12,000)."},
+        "royaltyPercent": {"value": 6.9, "source": "The Maids 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Sliding scale from 6.9% down to 3.9% of gross revenues as revenue increases."},
+        "adFundPercent": {"value": 2, "source": "The Maids 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2% of gross revenues."},
+        "avgUnitRevenue": {"value": 1200647, "source": "The Maids 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Average revenue PER FRANCHISEE (90 franchisees operating 1,298 territories), FY ended 9/30/2024; median $857,290; average per territory $83,250."},
+        "totalUnits": {"value": 1665, "source": "The Maids 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Territories: 1,517 franchised + 148 company-owned as of 9/30/2024."},
+        "yearFounded": {"value": 1979, "source": "PR Newswire - The Maids International 40 years release; franchising.com", "year": 2019, "confidence": "high", "note": "Founded in Omaha, NE by Daniel J. Bishop."},
+        "yearFranchising": {"value": 1980, "source": "PR Newswire - The Maids International 40 years release", "year": 2019, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Franchise.com - The Maids franchise listing", "year": 2025, "confidence": "medium", "note": "20% off the territory fee for honorably discharged veterans."},
+        "financingOffered": {"value": true, "source": "Franchise.com - The Maids franchise listing", "year": 2025, "confidence": "medium", "note": "Franchisor advertises financing assistance alongside the veteran discount."},
+        "isGrowing": {"value": true, "source": "The Maids 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "Franchised territories 1,454 -> 1,493 -> 1,517 across 2022-2024."},
+        "businessModelType": {"value": "b2c", "source": "The Maids brand site (residential cleaning)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "The Maids brand site (team-based in-home cleaning; no retail storefront required)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Tapestry Collection by Hilton",
+      "slug": "tapestry-collection-by-hilton",
+      "category": "Travel & Lodging",
+      "website": "hilton.com",
+      "notes": "Hilton's upscale 'soft brand' collection (launched 2016): independent hotels keep their own name and character while plugging into Hilton's reservation system and Honors program. This is an institutional-scale hotel investment, not a small-business franchise - most deals are conversions of existing independent hotels. Hilton negotiates development market by market and publishes no state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Texas AG consumer-protection lawsuit against parent Hilton (pricing transparency)",
+          "detail": "In 2023 the Texas Attorney General sued Hilton for violations of Texas consumer protection laws over hotel fee/price transparency (drip pricing of mandatory fees), part of a multi-state push affecting major hotel franchisors whose brand-level pricing practices flow down to franchised hotels.",
+          "source": "Texas Attorney General press release",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/paxton-announces-lawsuit-against-hilton-violations-texas-consumer-protection-laws-and-lack-price",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "Extremely wide investment range ($3.9M-$129M) typical of conversion soft brands",
+          "detail": "FDD Item 7-derived figures run $3,898,359-$129,454,079 for a typical 250-room hotel excluding real property - actual cost depends almost entirely on the condition and scale of the hotel being converted, making headline ranges nearly meaningless without a specific property.",
+          "source": "Entrepreneur Franchise 500 directory; Vetted Biz FDD analysis",
+          "url": "https://www.entrepreneur.com/franchises/directory/tapestry-collection-by-hilton/335418",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Young, fast-scaling system (franchising since 2016; +102% unit trend)",
+          "detail": "Entrepreneur shows 176 units with a +102.3% growth trend on a small base - rapid soft-brand conversion growth means much of the system has a short operating track record under the flag, and there are no exclusive territories.",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/tapestry-collection-by-hilton/335418",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 7055000, "source": "Vetted Biz - Tapestry Collection by Hilton Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash per Vetted Biz FDD analysis; actual requirement scales with the project."},
+        "totalInvestmentMin": {"value": 3898359, "source": "Entrepreneur Franchise 500 directory; Vetted Biz FDD analysis", "year": 2025, "confidence": "high", "note": "Typical 250-room hotel, excluding real property; mostly conversions of existing hotels."},
+        "totalInvestmentMax": {"value": 129454079, "source": "Entrepreneur Franchise 500 directory; Vetted Biz FDD analysis", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 100000, "source": "Vetted Biz; The Franchise Mall FDD summaries", "year": 2025, "confidence": "high", "note": "Minimum initial fee for a typical hotel."},
+        "royaltyPercent": {"value": 5, "source": "Vetted Biz; The Franchise Mall FDD summaries", "year": 2025, "confidence": "high", "note": "5% of gross rooms revenue."},
+        "adFundPercent": {"value": 4, "source": "Vetted Biz; The Franchise Mall FDD summaries", "year": 2025, "confidence": "high", "note": "4% of gross rooms revenue monthly program fee."},
+        "totalUnits": {"value": 176, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Earlier FDD-derived sources cite 117 US hotels; Entrepreneur shows 176 units, +102.3% trend."},
+        "yearFounded": {"value": 2016, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Vetted Biz lists 2007, but the brand launched in 2016."},
+        "yearFranchising": {"value": 2016, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 6, "source": "Vetted Biz - Tapestry Collection by Hilton Franchise Insights", "year": 2025, "confidence": "medium", "note": "Initial training conducted over ~six weeks including on-site instruction; Entrepreneur lists 103-140 classroom hours."},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "exclusiveTerritories": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "renewalTermYears": {"value": 23, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "23-year initial agreement term, renewable."},
+        "thirdPartyFinancing": {"value": "Hilton has relationships with third-party sources covering franchise fee, startup costs, equipment, inventory, accounts receivable, and payroll", "source": "The Franchise Mall - Tapestry Collection FDD summary; Entrepreneur directory", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "+102.3% unit trend on a young base."},
+        "businessModelType": {"value": "b2c", "source": "Hilton brand site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Tapestry Collection FDD); Vetted Biz 2025 FDD reference", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "American Family Care",
+      "slug": "american-family-care",
+      "category": "Health & Wellness",
+      "website": "afcurgentcare.com",
+      "notes": "One of the largest urgent-care franchises in the US (clinic brand founded 1982 in Birmingham, AL by Dr. Bruce Irwin; franchising since 2013 after AFC acquired Doctors Express). Franchisees operate walk-in urgent care/family medicine clinics; medical-director and state healthcare regulatory requirements apply. Franchisor recruits via afcfranchising.com but publishes no state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Multi-year master-developer litigation (AFC Franchising v. Purugganan)",
+          "detail": "A dispute with the legacy Doctors Express master developer for New York/Connecticut spawned parallel federal suits in Alabama and Connecticut (2020-2024), including an Eleventh Circuit decision on the agreement's floating forum-selection clause - a long, expensive fight with a senior network operator inherited from the Doctors Express acquisition.",
+          "source": "Justia - AFC Franchising, LLC v. Purugganan, No. 20-13849 (11th Cir. 2022); D. Conn. 3:20-cv-00360",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca11/20-13849/20-13849-2022-08-11.html",
+          "year": 2022
+        },
+        {
+          "severity": "info",
+          "title": "Healthcare operating model: clinical staffing and regulatory overhead",
+          "detail": "Franchisees must staff providers (physicians/NPs/PAs) and comply with state healthcare regulations and payer reimbursement dynamics; AFC's FDD discloses lawsuits and/or bankruptcy information per FDD-tracking services - review Items 3-4 with counsel.",
+          "source": "Vetted Biz - American Family Care Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/american-family-care",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 220000, "source": "Vetted Biz - American Family Care Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 1228000, "source": "SHARPSHEETS AFC FDD analysis (2025)", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites $1,228,000-$1,779,000; Vetted Biz 2024 FDD-derived range is $955,500-$1,519,500."},
+        "totalInvestmentMax": {"value": 1779000, "source": "SHARPSHEETS AFC FDD analysis (2025)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 60000, "source": "Vetted Biz; SHARPSHEETS AFC FDD analyses", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz - American Family Care Franchise Insights", "year": 2025, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 1, "source": "Vetted Biz - American Family Care Franchise Insights", "year": 2025, "confidence": "medium", "note": "1% brand fund contribution; some FDD summaries cite an additional ~2% local marketing obligation."},
+        "avgUnitRevenue": {"value": 1774747, "source": "American Family Care 2025 FDD Item 19 (via FranchisePayback)", "year": 2025, "confidence": "medium", "note": "Average unit volume across 270 centers for 2024; Vetted Biz's earlier analysis cites $1,638,106."},
+        "totalUnits": {"value": 304, "source": "Vetted Biz - American Family Care Franchise Insights", "year": 2025, "confidence": "medium", "note": "US locations per Vetted Biz; 2024 FDD counted ~280 franchised locations. AFC also operates a large company-owned clinic network outside the franchise counts."},
+        "yearFounded": {"value": 1982, "source": "AFC Franchising; 11th Circuit case background (founded by Dr. Bruce Irwin)", "year": 2022, "confidence": "high"},
+        "yearFranchising": {"value": 2013, "source": "Vetted Biz - American Family Care Franchise Insights", "year": 2025, "confidence": "medium", "note": "AFC Franchising formed after AFC acquired the Doctors Express urgent-care franchise system in 2013."},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - American Family Care Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two weeks at corporate headquarters covering operational, clinical, and marketing guidance."},
+        "businessModelType": {"value": "b2c", "source": "AFC brand site (walk-in urgent care clinics)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz (2024 FDD); FranchisePayback (2025 FDD data)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "FranchisePayback AFC Item 19 data (2025 FDD)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Tru by Hilton",
+      "slug": "tru-by-hilton",
+      "category": "Travel & Lodging",
+      "website": "hilton.com",
+      "notes": "Hilton's new-construction premium-economy/midscale hotel brand, launched January 2016 with 102 signed deals on day one - one of the fastest-scaling brands in Hilton history. Entirely franchised (zero company-owned hotels). Institutional-scale investment: a prototypical ~98-room new build runs eight figures. Hilton negotiates development market by market and publishes no state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Texas AG consumer-protection lawsuit against parent Hilton (pricing transparency)",
+          "detail": "In 2023 the Texas Attorney General sued Hilton for violations of Texas consumer protection laws over hotel fee/price transparency (drip pricing of mandatory fees), part of a multi-state push affecting major hotel franchisors whose brand-level pricing practices flow down to franchised hotels.",
+          "source": "Texas Attorney General press release",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/paxton-announces-lawsuit-against-hilton-violations-texas-consumer-protection-laws-and-lack-price",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "New-construction-only brand at institutional scale",
+          "detail": "Unlike conversion-friendly flags, Tru is a ground-up new-build prototype: FDD-derived total investment runs $12.8M-$18.6M (earlier 98-room prototype figures were $7.7M-$12.1M excluding land), exposing developers to construction cost inflation and financing-rate risk before a single room-night is sold.",
+          "source": "Vetted Biz - Tru by Hilton Franchise Insights; WhyFranchise FDD summary",
+          "url": "https://www.vettedbiz.com/franchises/tru-by-hilton/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "9% combined ongoing fees on gross rooms revenue under a 22-year term",
+          "detail": "Royalty of 5% plus a 4% program/marketing fee on gross rooms revenue, committed for a renewable 22-year agreement term - long-horizon fixed obligations typical of Hilton flags but material to underwriting.",
+          "source": "Vetted Biz; WhyFranchise FDD summaries",
+          "url": "https://www.whyfranchise.com/franchises/tru-by-hilton/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 2845000, "source": "Vetted Biz - Tru by Hilton Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash per Vetted Biz FDD analysis; actual requirement scales with the project."},
+        "totalInvestmentMin": {"value": 12767064, "source": "Vetted Biz - Tru by Hilton Franchise Insights (2025 FDD-derived)", "year": 2025, "confidence": "medium", "note": "Earlier FDD figure for a newly constructed 98-room hotel excluding real property: $7,719,242-$12,144,387."},
+        "totalInvestmentMax": {"value": 18572795, "source": "Vetted Biz - Tru by Hilton Franchise Insights (2025 FDD-derived)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 100000, "source": "Vetted Biz - Tru by Hilton Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum initial fee; hotel application fees scale with room count."},
+        "royaltyPercent": {"value": 5, "source": "Vetted Biz; WhyFranchise FDD summaries", "year": 2025, "confidence": "high", "note": "5% of gross rooms revenue."},
+        "adFundPercent": {"value": 4, "source": "Vetted Biz; WhyFranchise FDD summaries", "year": 2025, "confidence": "high", "note": "4% of gross rooms revenue monthly program fee."},
+        "totalUnits": {"value": 276, "source": "Vetted Biz - Tru by Hilton Franchise Insights", "year": 2025, "confidence": "high", "note": "All 276 US hotels franchised; 0 company-owned."},
+        "yearFounded": {"value": 2016, "source": "Hilton newsroom - Tru by Hilton launch; Wikipedia", "year": 2016, "confidence": "high", "note": "Launched January 2016 at the Americas Lodging Investment Summit with 102 signed deals."},
+        "yearFranchising": {"value": 2016, "source": "Hilton newsroom - Tru by Hilton launch", "year": 2016, "confidence": "high"},
+        "trainingWeeks": {"value": 3, "source": "Vetted Biz - Tru by Hilton Franchise Insights", "year": 2025, "confidence": "medium", "note": "Approximately three weeks, primarily at Hilton headquarters in McLean, VA."},
+        "renewalTermYears": {"value": 22, "source": "WhyFranchise / TopFranchise FDD summaries", "year": 2025, "confidence": "medium", "note": "22-year initial agreement term, renewable."},
+        "thirdPartyFinancing": {"value": "Hilton has relationships with third-party financiers covering startup costs, franchise fee, payroll, equipment, and accounts receivable", "source": "TopFranchise - Tru by Hilton franchise summary", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Wikipedia / Vetted Biz unit history (228 locations in 2022 to 276 in 2025)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Hilton brand site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz (2025 FDD referenced)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Corvus Janitorial Systems",
+      "slug": "corvus-janitorial-systems",
+      "category": "Services",
+      "website": "corvusjanitorial.com",
+      "notes": "Commercial cleaning unit franchise: for a low entry cost the regional Corvus office provides training and an initial book of cleaning accounts, and the franchisee services them (home-based, can start with zero employees, part-time allowed). Unit franchises are only available in metros where Corvus operates a regional office, so state availability is omitted - check the franchisor's locations page for active markets.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Account-provision model: revenue depends on accounts the regional office supplies",
+          "detail": "Like other janitorial unit franchises, the franchisee's income stream is built from customer accounts sourced and priced by the franchisor's regional office, with a 10% royalty on gross revenue - franchisees control service quality but not account flow, pricing, or contract churn.",
+          "source": "SHARPSHEETS - Corvus Janitorial Systems FDD analysis",
+          "url": "https://sharpsheets.io/blog/corvus-janitorial-systems-franchise-fdd-profits-costs-fees/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "FDD disclosures include litigation history",
+          "detail": "FDD-tracking services note Corvus discloses lawsuits and/or bankruptcy information in its FDD; review Items 3-4 with counsel before purchasing a unit franchise.",
+          "source": "Vetted Biz - Corvus Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/corvus",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Directory data on system size and founding dates conflicts",
+          "detail": "Entrepreneur lists 2,538 units (+47% trend) and founding/franchising in 2004, while Vetted Biz lists 241 US 'locations' and founding in 2008 - the gap reflects unit-franchisee counting versus regional-office counting. No Item 19 unit-revenue disclosure was found in public summaries.",
+          "source": "Entrepreneur Franchise 500 directory; Vetted Biz",
+          "url": "https://www.entrepreneur.com/franchises/directory/corvus-janitorial-systems/335486",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 5000, "source": "Vetted Biz - Corvus Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 7575, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Vetted Biz cites a similar FDD-derived range of $6,330-$38,071."},
+        "totalInvestmentMax": {"value": 32500, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 6500, "source": "Entrepreneur Franchise 500 directory; SHARPSHEETS", "year": 2026, "confidence": "high", "note": "Base fee; ranges up to $16,500 depending on the size of the initial account package."},
+        "royaltyPercent": {"value": 10, "source": "Entrepreneur Franchise 500 directory; SHARPSHEETS", "year": 2026, "confidence": "high", "note": "10% of gross revenue."},
+        "adFundPercent": {"value": 0, "source": "Entrepreneur Franchise 500 directory; SHARPSHEETS", "year": 2026, "confidence": "medium", "note": "No separate advertising/marketing royalty."},
+        "totalUnits": {"value": 2538, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Unit franchisees; Vetted Biz counts 241 US 'locations' (regional-office basis)."},
+        "yearFounded": {"value": 2004, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Vetted Biz lists 2008."},
+        "yearFranchising": {"value": 2004, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Vetted Biz lists 2010."},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "20% off the $6,500 base franchise fee."},
+        "canRunFromHome": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "financingOffered": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "In-house financing available."},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "+47.0% unit trend."},
+        "mobileBased": {"value": true, "source": "Entrepreneur Franchise 500 directory (home-based, travel-to-client commercial cleaning)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2b", "source": "SHARPSHEETS - Corvus FDD analysis (commercial, office, and institutional cleaning)", "year": 2025, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Regional Corvus office sources and assigns commercial cleaning contracts to unit franchisees", "source": "SHARPSHEETS - Corvus FDD analysis", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz (2025 FDD referenced)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Matco Tools",
+      "slug": "matco-tools",
+      "category": "Automotive",
+      "website": "matcotools.com",
+      "notes": "Mobile tool-distribution franchise (parent: Vontier Corp.): franchisees drive a Matco-branded tool truck on a defined route selling professional tools to mechanics and shops, typically on weekly payment plans. No percentage royalty - the franchisor earns margin on required tool purchases (franchisees must maintain a 60% purchase-to-sales ratio). Route territories are sold across the US via the franchisor's availability tools.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "$15.8M independent-contractor misclassification settlement (Fleming v. Matco, 2022)",
+          "detail": "273 California distributors alleged Matco's control (branded uniforms, branded truck, exclusive product distribution, mandatory training) made them employees, not contractors. A $15.8M settlement ($13.5M cash + $2.3M debt forgiveness) won final approval in 2022 in the N.D. Cal. (case 3:19-cv-00463).",
+          "source": "Top Class Actions; classaction.org - Fleming v. Matco Tools Corp.",
+          "url": "https://topclassactions.com/lawsuit-settlements/employment-labor/tool-company-matco-inks-15-8m-settlement-to-end-claims-franchisees-stiffed-out-of-overtime-breaks/",
+          "year": 2022
+        },
+        {
+          "severity": "caution",
+          "title": "265 distributors ceased operations in 2024; net franchised count shrank",
+          "detail": "Per the 2025 FDD outlet tables, 265 distributorships ceased operating during 2024 and the franchised count fell by a net 30 units (1,841 to 1,811), while company-owned stores grew from 11 to 18 - meaningful churn in a ~1,800-truck system.",
+          "source": "Matco Tools 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/07/28/matco-tools-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Franchisor margin embedded in mandatory inventory purchases",
+          "detail": "Distributors must buy $55,500-$92,000 of initial inventory and maintain a 60% purchase-to-sales ratio thereafter - the franchisor's compensation comes through product pricing rather than a transparent royalty, and a ~$22,000 Time Payment Reserve is required if not using Matco's financing program.",
+          "source": "Matco Tools 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/07/28/matco-tools-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Matco Tools franchise site (route/territory availability across the US)",
+        "url": "https://franchise.matcotools.com/",
+        "year": 2026,
+        "note": "Route-based mobile territories marketed across the US; specific routes subject to existing distributor coverage - check the franchisor's territory tool."
+      },
+      "fields": {
+        "totalInvestmentMin": {"value": 108080, "source": "Matco Tools 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Includes $55,500-$92,000 initial inventory and mobile-store (truck) costs."},
+        "totalInvestmentMax": {"value": 382766, "source": "Matco Tools 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 10000, "source": "Matco Tools 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 0, "source": "Matco Tools 2025 FDD (via Franchise Chatter review; franchisor earns margin on required tool purchases)", "year": 2025, "confidence": "medium", "note": "No percentage royalty on sales; distributors must maintain a 60% purchase-to-sales ratio on inventory bought from Matco."},
+        "avgUnitRevenue": {"value": 519449, "source": "Matco Tools 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Average Total Completed Business across 1,502 distributorships in 2024; top third averaged $766,817, middle third $489,391, bottom third $302,140."},
+        "totalUnits": {"value": 1829, "source": "Matco Tools 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "End of 2024: 1,811 franchised + 18 company-owned."},
+        "financingOffered": {"value": true, "source": "Matco Tools 2025 FDD (via Franchise Chatter; Matco financing program for distributor inventory/receivables)", "year": 2025, "confidence": "medium", "note": "Matco operates an in-house financing program; the $22,000 Time Payment Reserve applies only to distributors who opt out of it."},
+        "isGrowing": {"value": false, "source": "Matco Tools 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "Net -30 franchised units in 2024 with 265 distributorships ceasing operations; -45 in 2022, +32 in 2023."},
+        "mobileBased": {"value": true, "source": "Franchise Chatter 2025 FDD review (mobile tool-truck model)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2b", "source": "Franchise Chatter 2025 FDD review (sales to professional mechanics and shops)", "year": 2025, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Defined weekly route calling on professional auto technicians and repair shops; sales largely on distributor-financed weekly payment plans", "source": "Franchise Chatter 2025 FDD review; classaction.org case description", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Matco Tools 2025 FDD); Franchise Chatter review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Jan-Pro Cleaning & Disinfecting",
+      "slug": "jan-pro-cleaning-and-disinfecting",
+      "category": "Services",
+      "website": "jan-pro.com",
+      "notes": "One of the largest commercial-cleaning unit-franchise systems (founded 1991 in Providence, RI by Jacques Lapointe; franchising since 1992), with roughly 8,500 US unit franchisees and 11,000+ worldwide across 41 countries. Three-tier structure: Jan-Pro Franchising sells regional master franchises, and local masters sell low-cost unit franchises and supply them with cleaning accounts. Unit franchises are only sold in metros with an active regional developer, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Decade-long worker-misclassification litigation (Vazquez v. Jan-Pro)",
+          "detail": "Unit franchisees alleged Jan-Pro's three-tier model misclassified janitors as independent contractors to avoid minimum wage and overtime. The Ninth Circuit held California's Dynamex ABC test applies retroactively to the case (2021), a landmark ruling with industry-wide implications for janitorial unit franchising.",
+          "source": "Justia - Vazquez v. Jan-Pro Franchising International, No. 17-16096 (9th Cir. 2021)",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/17-16096/17-16096-2021-02-02.html",
+          "year": 2021
+        },
+        {
+          "severity": "caution",
+          "title": "High combined ongoing fees on small-unit revenue",
+          "detail": "FDD-derived summaries cite ongoing fees around 13% of gross revenue for unit franchisees (royalty plus management/support fees; some sources break this out as a 10% royalty plus separate management fees) - a heavy load on what are typically small part-time books of business.",
+          "source": "FranchisePayback - Jan-Pro Cleaning and Disinfecting FDD data",
+          "url": "https://www.franchisepayback.com/franchise/jan-pro-cleaning-and-disinfecting",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Unit franchisees buy from regional masters, not the brand parent",
+          "detail": "Unit franchise agreements, account provision, and support all run through the local master franchisee/regional developer - the unit franchisee's experience depends heavily on the quality and solvency of their specific regional office, and account churn/replacement terms vary.",
+          "source": "franchising.com - Jan-Pro brand profile (master/unit structure); Vazquez case description",
+          "url": "https://www.franchising.com/articles/janpro_founder_jacques_lapointe_keeps_his_hand_in.html",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 4170, "source": "FranchisePayback - Jan-Pro Cleaning and Disinfecting FDD data", "year": 2026, "confidence": "medium", "note": "Unit franchise; investment scales with the size of the initial account package purchased."},
+        "totalInvestmentMax": {"value": 56020, "source": "FranchisePayback - Jan-Pro Cleaning and Disinfecting FDD data", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 2520, "source": "FranchisePayback - Jan-Pro Cleaning and Disinfecting FDD data", "year": 2026, "confidence": "medium", "note": "Ranges $2,520-$44,000 depending on the guaranteed monthly account volume purchased."},
+        "royaltyPercent": {"value": 13, "source": "FranchisePayback - Jan-Pro Cleaning and Disinfecting FDD data", "year": 2026, "confidence": "medium", "note": "Combined ongoing fees ~13% of gross revenue; some FDD summaries break this out as a 10% royalty plus management/support fees."},
+        "totalUnits": {"value": 8500, "source": "Jan-Pro company claims (via Franchise Chatter / franchising.com)", "year": 2025, "confidence": "medium", "note": "~8,500 US unit franchisees; 11,000+ worldwide across 41 countries. Regional developer (master) entities number ~107 in the US."},
+        "yearFounded": {"value": 1991, "source": "franchising.com - Jan-Pro founder profile (Jacques Lapointe, Providence, RI)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1992, "source": "franchising.com - Jan-Pro brand profile (began franchising the year after founding)", "year": 2025, "confidence": "medium"},
+        "canRunFromHome": {"value": true, "source": "TopFranchise - Jan-Pro franchise summary (home-based unit franchise)", "year": 2025, "confidence": "medium"},
+        "canRunPartTime": {"value": true, "source": "TopFranchise - Jan-Pro franchise summary (unit franchises commonly operated part-time at entry sizes)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Jan-Pro brand site (travel-to-client commercial cleaning)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2b", "source": "Jan-Pro brand site (commercial, industrial, and institutional cleaning)", "year": 2026, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Regional master franchisee sources commercial cleaning accounts and assigns them to unit franchisees per purchased account-volume plans", "source": "franchising.com Jan-Pro brand profile; Vazquez v. Jan-Pro case description", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Jan-Pro company claims (41 countries)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranchisePayback; Franchise Direct Jan-Pro FDD listings", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Real Property Management",
+      "slug": "real-property-management",
+      "category": "Real Estate",
+      "website": "realpropertymgt.com",
+      "notes": "Largest residential property-management franchise in North America (founded 1986 in Salt Lake City by Kirk McGary; franchised since 2005; acquired by Dwyer Group/Neighborly in 2018). Franchisees manage single-family and small multifamily rentals for owners and investors, earning recurring management fees plus maintenance revenue. All 447 offices are franchised.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Heavy fixed marketing obligation regardless of revenue",
+          "detail": "Per the 2025 FDD, franchisees owe 2% of non-maintenance gross sales to the marketing fund PLUS a minimum individual marketing spend of $32,000/year (or 5% of prior-year sales), and the royalty carries monthly minimums of up to $1,000 - significant fixed costs for a business that ramps slowly door by door.",
+          "source": "Real Property Management 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/08/28/real-property-management-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Most owners run portfolios well below the headline average",
+          "detail": "2024 Item 19: across 385 reporting franchises the average portfolio was 270 managed units but the median was just 131, and only 37% of owners achieved the average revenue per managed unit ($4,743/door/year; median $4,392) - the average is pulled up by a minority of large operators.",
+          "source": "Real Property Management 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/08/28/real-property-management-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "One brand inside the Neighborly multi-brand platform",
+          "detail": "Acquired by Dwyer Group (now Neighborly) in 2018; Neighborly operates 30+ home-service brands and steers cross-brand development, shared services, and capital allocation - franchisees are one brand among many in the platform's priorities.",
+          "source": "Neighborly press release - Neighborly Acquires Real Property Management",
+          "url": "https://www.neighborlybrands.com/press-center/news/2018/neighborly-sup-sup-acquires-real-property-manage/",
+          "year": 2018
+        }
+      ],
+      "nationwide": {
+        "source": "Neighborly - Real Property Management investment page (available territories)",
+        "url": "https://franchise.neighborly.com/real-property-management/the-investment/",
+        "year": 2026,
+        "note": "Franchisor markets territories nationwide via Neighborly's availability map, with standard franchise-registration-state disclaimers. Confirm specific territory availability with Neighborly."
+      },
+      "fields": {
+        "totalInvestmentMin": {"value": 91796, "source": "Real Property Management 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Neighborly's site cites $99,341-$244,302 (2026 figures)."},
+        "totalInvestmentMax": {"value": 234150, "source": "Real Property Management 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 59900, "source": "Real Property Management 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 7, "source": "Real Property Management 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "7% of non-maintenance gross sales plus 3% of maintenance gross sales, subject to minimum license fees up to $1,000/month."},
+        "adFundPercent": {"value": 2, "source": "Real Property Management 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2% of non-maintenance gross sales, plus a $32,000/year (or 5% of prior-year sales) minimum individual marketing spend."},
+        "avgUnitRevenue": {"value": 1240000, "source": "Real Property Management 2023 FDD Item 19 (via Franchise Chatter FDD Talk title figure)", "year": 2023, "confidence": "medium", "note": "~$1.24M average sales per office per the 2023 FDD-derived review. The 2025 FDD instead discloses per-managed-unit revenue: average $4,743/door/year across 385 owners, average portfolio 270 doors (median 131)."},
+        "totalUnits": {"value": 447, "source": "Real Property Management 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "All franchised; 0 company-owned."},
+        "yearFounded": {"value": 1986, "source": "Real Property Management corporate history (realpropertymgt.com); Franchise Chatter", "year": 2025, "confidence": "high", "note": "Founded by Kirk McGary in Salt Lake City, UT."},
+        "yearFranchising": {"value": 2005, "source": "Real Property Management corporate history (McGary partnered with Doug Oler to franchise the concept in 2005)", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Real Property Management 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Franchised offices +29 (2022), +33 (2023), +25 (2024) to 447."},
+        "canRunFromHome": {"value": false, "source": "Franchise Chatter 2025 FDD review (office-based professional services model)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2b", "source": "Neighborly RPM brand page (services for property owners, investors, and institutions)", "year": 2026, "confidence": "medium", "note": "Clients are rental-property owners/investors; recurring management-fee revenue."},
+        "customerAcquisitionModel": {"value": "Recurring monthly management fees from property owners and investors, plus maintenance and leasing fees", "source": "Franchise Chatter 2025 FDD review (royalty split across non-maintenance and maintenance gross sales)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review; Franchise Direct RPM FDD listing", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Mountain Mike's Pizza",
+      "slug": "mountain-mikes-pizza",
+      "category": "Food & Beverage",
+      "website": "mountainmikespizza.com",
+      "notes": "Family pizza chain founded 1978 in Palo Alto, CA, now ~300 locations across 10 western states (CA, AZ, NV, OR, UT, ID, TX, CO, WA, WI) - 100% franchised, 0 company-owned. Current franchisor entity (HQ Irvine, CA) dates to a 2017 ownership change. Franchisor actively recruits across multiple states via mountainmikesfranchise.com but publishes no formal state-availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Heavy California/western-states concentration",
+          "detail": "The ~300-unit system sits almost entirely in California and nine other western states, exposing franchisees to California's $20+ fast-food minimum wage, regulatory regime, and real-estate costs - similar concentration risk to other CA-centric pizza brands.",
+          "source": "Mountain Mike's Pizza - Our Story / locations (10 western states); Wikipedia",
+          "url": "https://www.mountainmikespizza.com/about/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting AUV figures across FDD-derived sources",
+          "detail": "SHARPSHEETS' 2025 FDD analysis cites a $1,608,631 AUV while Vetted Biz lists $1,014,883 average yearly gross sales - the spread likely reflects different cohorts/measures (e.g., top-performing vs all units). Pin down the actual Item 19 tables before underwriting.",
+          "source": "SHARPSHEETS Mountain Mike's FDD analysis; Vetted Biz",
+          "url": "https://sharpsheets.io/blog/mountain-mikes-franchise-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "FDD disclosures include litigation history; franchisor entity dates to 2017",
+          "detail": "FDD-tracking services note Mountain Mike's discloses lawsuits and/or bankruptcy information in its FDD, and directory data keyed to the current franchisor entity begins in 2017 (post-acquisition) even though the brand is 45+ years old - review Items 1-4 for the ownership chain.",
+          "source": "Vetted Biz - Mountain Mike's Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/mountain-mikes",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "Mountain Mike's franchise FAQ (franchisor site)", "year": 2026, "confidence": "high", "note": "Vetted Biz cites $120,000."},
+        "netWorthMin": {"value": 450000, "source": "Mountain Mike's franchise FAQ (franchisor site)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 476500, "source": "Vetted Biz - Mountain Mike's Franchise Insights (FDD-derived)", "year": 2025, "confidence": "high", "note": "Franchisor FAQ cites $356,000-$994,000 including lower-cost conversions."},
+        "totalInvestmentMax": {"value": 982611, "source": "Vetted Biz - Mountain Mike's Franchise Insights (FDD-derived)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 30000, "source": "Mountain Mike's franchise FAQ (franchisor site); SHARPSHEETS", "year": 2026, "confidence": "high", "note": "Per unit; multi-unit development discounts bring it to $15,000-$30,000."},
+        "royaltyPercent": {"value": 5, "source": "Mountain Mike's franchise FAQ (franchisor site)", "year": 2026, "confidence": "high", "note": "5% of adjusted gross sales."},
+        "adFundPercent": {"value": 1, "source": "Mountain Mike's franchise FAQ (franchisor site)", "year": 2026, "confidence": "high", "note": "1% national fund plus 2% regional marketing (3% combined advertising obligation)."},
+        "avgUnitRevenue": {"value": 1608631, "source": "SHARPSHEETS Mountain Mike's 2025 FDD analysis (AUV)", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites $1,014,883 yearly gross sales - figures likely reflect different cohorts; see risk flag."},
+        "totalUnits": {"value": 299, "source": "FranchisePayback / SHARPSHEETS 2025 FDD data", "year": 2025, "confidence": "high", "note": "All franchised; 0 company-owned. Brand site cites 300 locations across 10 western states."},
+        "yearFounded": {"value": 1978, "source": "Mountain Mike's Pizza - Our Story; Wikipedia", "year": 2026, "confidence": "high", "note": "First restaurant in Palo Alto, CA. Current franchisor entity dates to a 2017 ownership change (Vetted Biz lists 2017)."},
+        "veteranDiscount": {"value": true, "source": "Mountain Mike's franchise FAQ (franchisor site)", "year": 2026, "confidence": "high", "note": "50% off the initial franchise fee for qualified US veterans."},
+        "multiUnitAvailable": {"value": true, "source": "Mountain Mike's franchise FAQ (franchisor site)", "year": 2026, "confidence": "high", "note": "Multi-unit development encouraged with franchise-fee discounts."},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Mountain Mike's Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two-week immersive program at a designated training facility."},
+        "renewalTermYears": {"value": 10, "source": "FranchisePayback - Mountain Mike's FDD data", "year": 2026, "confidence": "medium", "note": "15-year initial term; successor franchise of 10 years available in good standing."},
+        "siteSelectionSupport": {"value": true, "source": "Mountain Mike's franchise FAQ (real estate team site-selection guidance)", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Mountain Mike's brand site (300 locations, new-state openings incl. Colorado)", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Mountain Mike's brand site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct / FranchisePayback Mountain Mike's FDD listings", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS / Vetted Biz (Item 19-derived AUV published)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Anago Cleaning Systems",
+      "slug": "anago-cleaning-systems",
+      "category": "Services",
+      "website": "anagocleaning.com",
+      "notes": "Commercial cleaning franchise (founded 1989, franchising since 1991, HQ Pompano Beach, FL) using a master/unit structure: regional master franchisees sell unit franchises and secure cleaning contracts; unit franchisees service the accounts. Figures below are for the UNIT franchise (the Franchise 500-listed offering); the separate master franchise runs $219K-$339K with a ~$98K fee. Unit franchises are sold only in metros with an active master, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Master/unit account-provision model",
+          "detail": "Unit franchisees depend on their regional master franchisee for customer accounts, billing, and support, paying a 10% royalty plus 2% ad fee on revenue from accounts they largely do not source - income depends on the master's sales pipeline and account-churn replacement terms.",
+          "source": "SHARPSHEETS - Anago Cleaning Systems FDD analysis",
+          "url": "https://sharpsheets.io/blog/anago-cleaning-systems-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No guaranteed exclusive territories for unit franchisees",
+          "detail": "Entrepreneur's directory shows exclusive territories are not guaranteed at the unit level - multiple unit franchisees can operate in overlapping areas under the same master.",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/anago-cleaning-systems/282095",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "FDD disclosures include litigation history",
+          "detail": "FDD-tracking services note Anago discloses lawsuits and/or bankruptcy information in its FDD; the janitorial unit-franchise category also carries sector-wide worker-classification litigation risk (see Vazquez v. Jan-Pro). Review Items 3-4 with counsel.",
+          "source": "Vetted Biz - Anago Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/anago/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 1000, "source": "Entrepreneur Franchise 500 directory (unit franchise cash requirement)", "year": 2026, "confidence": "medium", "note": "Master franchise requires $50,000+ liquid per Vetted Biz."},
+        "totalInvestmentMin": {"value": 12150, "source": "Entrepreneur Franchise 500 directory (unit franchise)", "year": 2026, "confidence": "high", "note": "Master franchise investment is $219,000-$339,000 (Vetted Biz/SHARPSHEETS)."},
+        "totalInvestmentMax": {"value": 68250, "source": "Entrepreneur Franchise 500 directory (unit franchise)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 5015, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Unit franchise fee ranges $5,015-$31,000 by account-package size; master franchise fee ~$98,000."},
+        "royaltyPercent": {"value": 10, "source": "Entrepreneur Franchise 500 directory; SHARPSHEETS", "year": 2026, "confidence": "high", "note": "Unit franchisees; masters pay 5% plus a 1% administrative fee to the franchisor."},
+        "adFundPercent": {"value": 2, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "totalUnits": {"value": 1823, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Unit franchisees, +1.8% trend; ~48 US master/regional offices per Vetted Biz."},
+        "yearFounded": {"value": 1989, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1991, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "10% off the franchise fee."},
+        "canRunFromHome": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "exclusiveTerritories": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Not guaranteed for unit franchisees."},
+        "financingOffered": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "In-house financing available, plus third-party lender relationships."},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "+1.8% unit trend."},
+        "mobileBased": {"value": true, "source": "Anago brand site (travel-to-client commercial cleaning)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2b", "source": "Anago brand site (janitorial and facilities services for commercial clients)", "year": 2026, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Regional master franchisee sells cleaning contracts and assigns accounts to unit franchisees", "source": "SHARPSHEETS - Anago FDD analysis", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz / FranchisePayback (2025 FDD)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Golden Chick",
+      "slug": "golden-chick",
+      "category": "Food & Beverage",
+      "website": "goldenchick.com",
+      "notes": "Texas-born fast-casual chicken chain (opened 1967 in San Marcos, TX as Golden Fried Chicken by Howard and Jacque Walker; franchising since 1972; renamed Golden Chick in 1996; HQ Richardson, TX). Roughly 230 restaurants across Texas, Oklahoma, Florida, Louisiana, and Mississippi, with announced expansion into Nevada and Alabama.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Deep Texas concentration",
+          "detail": "The overwhelming majority of Golden Chick's ~230 restaurants are in Texas, with the rest spread across just four other states - a single-region brand whose consumer awareness, supply chain, and unit economics are untested in most of the country.",
+          "source": "Franchise Times Top 400 (2025); Wikipedia - Golden Chick",
+          "url": "https://www.franchisetimes.com/top-400-2025/187-golden-chick/article_bf56fe66-8f0d-4746-997d-0b2db2c1e70d.html",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "AUV of ~$1.36M against build costs up to $1.9M",
+          "detail": "FDD-derived analysis shows average unit revenue of about $1.36M while new freestanding builds run $821K-$1.91M - at the high end of the investment range, payback depends on beating the system average.",
+          "source": "SHARPSHEETS Golden Chick FDD analysis",
+          "url": "https://sharpsheets.io/blog/golden-chick-franchises-costs-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Growth leans on a small number of large multi-unit developers",
+          "detail": "Recent expansion is driven by large development deals (e.g., franchisee SXThree fueling multi-unit growth), so pipeline delivery depends on a few developers executing their commitments.",
+          "source": "Franchise Times - Franchisee SXThree Fuels Golden Chick Expansion",
+          "url": "https://www.franchisetimes.com/franchise_news/franchisee-sxthree-fuels-golden-chick-expansion/article_861590b2-5ffd-11ef-a288-0f805483834d.html",
+          "year": 2024
+        }
+      ],
+      "statesOpen": [
+        {"state": "TX", "status": "open", "note": "Home market - majority of the ~230-unit system; HQ in Richardson, TX.", "source": "Franchise Times Top 400 (2025); Wikipedia", "url": "https://www.franchisetimes.com/top-400-2025/187-golden-chick/article_bf56fe66-8f0d-4746-997d-0b2db2c1e70d.html", "year": 2025},
+        {"state": "OK", "status": "open", "note": "Established operating market.", "source": "Franchise Times Top 400 (2025); Wikipedia", "url": "https://www.franchisetimes.com/top-400-2025/187-golden-chick/article_bf56fe66-8f0d-4746-997d-0b2db2c1e70d.html", "year": 2025},
+        {"state": "FL", "status": "open", "note": "Established operating market.", "source": "Franchise Times Top 400 (2025); Wikipedia", "url": "https://www.franchisetimes.com/top-400-2025/187-golden-chick/article_bf56fe66-8f0d-4746-997d-0b2db2c1e70d.html", "year": 2025},
+        {"state": "LA", "status": "open", "note": "Established operating market.", "source": "Franchise Times Top 400 (2025); Wikipedia", "url": "https://www.franchisetimes.com/top-400-2025/187-golden-chick/article_bf56fe66-8f0d-4746-997d-0b2db2c1e70d.html", "year": 2025},
+        {"state": "MS", "status": "open", "note": "Established operating market.", "source": "Franchise Times Top 400 (2025); Wikipedia", "url": "https://www.franchisetimes.com/top-400-2025/187-golden-chick/article_bf56fe66-8f0d-4746-997d-0b2db2c1e70d.html", "year": 2025},
+        {"state": "NV", "status": "open", "note": "Announced expansion market.", "source": "Wikipedia - Golden Chick (expansion into Nevada and Alabama)", "url": "https://en.wikipedia.org/wiki/Golden_Chick", "year": 2025},
+        {"state": "AL", "status": "open", "note": "Announced expansion market.", "source": "Wikipedia - Golden Chick (expansion into Nevada and Alabama)", "url": "https://en.wikipedia.org/wiki/Golden_Chick", "year": 2025}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 350000, "source": "Franchise Clique / IFPG Golden Chick requirement summaries", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 1500000, "source": "Franchise Clique / IFPG Golden Chick requirement summaries", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 821000, "source": "SHARPSHEETS Golden Chick 2025 FDD analysis", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1913000, "source": "SHARPSHEETS Golden Chick 2025 FDD analysis", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 30000, "source": "SHARPSHEETS / Franchise Clique Golden Chick summaries", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 4, "source": "SHARPSHEETS Golden Chick FDD analysis", "year": 2025, "confidence": "high", "note": "4% of gross revenues."},
+        "adFundPercent": {"value": 1, "source": "SHARPSHEETS Golden Chick FDD analysis", "year": 2025, "confidence": "high", "note": "1% advertising fund contribution, may be increased up to 2%."},
+        "avgUnitRevenue": {"value": 1360000, "source": "SHARPSHEETS / 1851 Franchise Golden Chick deep dive (FDD-derived AUV)", "year": 2025, "confidence": "medium"},
+        "totalUnits": {"value": 230, "source": "Franchise Times Top 400 (2025); 1851 Franchise deep dive", "year": 2025, "confidence": "medium", "note": "230+ locations across five states."},
+        "yearFounded": {"value": 1967, "source": "Wikipedia - Golden Chick; goldenchick.com brand history", "year": 2025, "confidence": "high", "note": "Opened in San Marcos, TX as Golden Fried Chicken; renamed Golden Chick in 1996."},
+        "yearFranchising": {"value": 1972, "source": "Wikipedia - Golden Chick; Golden Chick franchising blog", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Franchise Times expansion coverage (SXThree multi-unit deals; NV/AL entry)", "year": 2024, "confidence": "medium"},
+        "multiUnitAvailable": {"value": true, "source": "Franchise Times - SXThree multi-unit development coverage", "year": 2024, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Golden Chick brand site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / FranchisePayback (2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS (FDD-derived AUV published)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Mac Tools",
+      "slug": "mac-tools",
+      "category": "Automotive",
+      "website": "mactools.com",
+      "notes": "Mobile tool-truck franchise owned by Stanley Black & Decker (brand dates to 1938 as Mechanics Tool and Forge Co., Sabina, OH; renamed Mac Tools 1963; converted distributors to a franchise model in the late 2000s). Franchisees sell professional automotive tools from a route truck to an assigned list of 325+ potential customers. Distinct from competitor Matco Tools. Route territories are sold where customer lists are available; no published state list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "No exclusive territory protection",
+          "detail": "Mac Tools does not grant exclusive territories - the franchisor retains rights to sell through other channels within a franchisee's route area, creating potential internal competition with the franchisee's own customer list.",
+          "source": "FranchisePayback - Mac Tools FDD data",
+          "url": "https://www.franchisepayback.com/franchise/mac-tools",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "No official Item 19 revenue disclosure; thin third-party earnings estimates",
+          "detail": "The franchisor does not officially disclose average distributor revenue; third-party estimates put yearly gross sales around $426K-$449K with estimated owner earnings of roughly $40K-$54K - modest returns on a $123K-$347K investment, and revenue depends on extending weekly credit to technician customers.",
+          "source": "FranchisePayback; Vetted Biz Mac Tools analyses",
+          "url": "https://www.franchisepayback.com/franchise/mac-tools",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Category-wide independent-contractor classification risk (mobile tool routes)",
+          "detail": "The mobile tool-distribution category carries worker-classification litigation risk: direct competitor Matco paid a $15.8M settlement to California distributors in 2022 over the same truck-route franchise structure Mac Tools uses. No equivalent Mac Tools settlement was found, but the structural exposure is the same in ABC-test states.",
+          "source": "Top Class Actions - Matco $15.8M settlement (category context)",
+          "url": "https://topclassactions.com/lawsuit-settlements/employment-labor/tool-company-matco-inks-15-8m-settlement-to-end-claims-franchisees-stiffed-out-of-overtime-breaks/",
+          "year": 2022
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 35000, "source": "Vetted Biz - Mac Tools Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 122870, "source": "Vetted Biz - Mac Tools Franchise Insights (2025 FDD-derived)", "year": 2025, "confidence": "high", "note": "Includes $84,095-$91,550 paid to the franchisor or affiliates (largely initial tool inventory)."},
+        "totalInvestmentMax": {"value": 346725, "source": "Vetted Biz - Mac Tools Franchise Insights (2025 FDD-derived)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 8000, "source": "Vetted Biz; FranchisePayback Mac Tools FDD data", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 0, "source": "FranchisePayback - Mac Tools FDD data", "year": 2026, "confidence": "medium", "note": "No percentage royalty; a flat fee of ~$1,200/year applies, and the franchisor (Stanley Black & Decker) earns margin on required tool purchases."},
+        "avgUnitRevenue": {"value": 448801, "source": "Vetted Biz - Mac Tools Franchise Insights (FDD-derived estimate)", "year": 2025, "confidence": "medium", "note": "Third-party estimate; FranchisePayback estimates $426,000 and notes the franchisor does not officially disclose AUV."},
+        "totalUnits": {"value": 820, "source": "Vetted Biz; FranchisePayback (2025 FDD data)", "year": 2025, "confidence": "high", "note": "All franchised; 0 company-owned. FranchisePayback shows ~+6% growth."},
+        "yearFounded": {"value": 1938, "source": "FranchisePayback - Mac Tools FDD data", "year": 2026, "confidence": "high", "note": "Founded as Mechanics Tool and Forge Company; rebranded Mac Tools in 1963. Parent: Stanley Black & Decker (HQ Dublin, OH)."},
+        "yearFranchising": {"value": 2007, "source": "Vetted Biz - Mac Tools Franchise Insights", "year": 2025, "confidence": "medium", "note": "Distributor network predates the franchise conversion."},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Mac Tools Franchise Insights", "year": 2025, "confidence": "medium", "note": "Approximately two weeks at the corporate training facility."},
+        "exclusiveTerritories": {"value": false, "source": "FranchisePayback - Mac Tools FDD data", "year": 2026, "confidence": "high", "note": "Route assigned with a minimum of 325 potential customers, but no exclusivity."},
+        "isGrowing": {"value": true, "source": "FranchisePayback - Mac Tools FDD data (+6% unit growth)", "year": 2026, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Franchise Direct - Mac Tools FDD summary (business operated from franchisee's truck)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2b", "source": "Franchise Direct - Mac Tools FDD summary (sales to professional automotive technicians and shops)", "year": 2025, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Assigned route list of 325+ professional technician/shop customers serviced weekly from the tool truck, with distributor-extended credit", "source": "Franchise Direct - Mac Tools FDD summary", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Mac Tools 2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "FranchisePayback (franchisor does not officially disclose AUV)", "year": 2026, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Aqua-Tots Swim Schools",
+      "slug": "aqua-tots-swim-schools",
+      "category": "Education & Children",
+      "website": "aqua-tots.com",
+      "notes": "Children's swim-lesson franchise (founded 1991 in Mesa, AZ; franchising since 2007) with 172 schools and locations in several countries. Franchisees build dedicated indoor swim facilities with custom pools - a capital-intensive, real-estate-heavy build. Franchisor recruits US and international franchisees via aquatotsfranchise.com but publishes no state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "No Item 19 financial performance representation in the FDD",
+          "detail": "The franchisor does not publish average revenue, median revenue, or profit data in its FDD - buyers must underwrite a $1.6M-$2.9M investment without franchisor-disclosed unit economics (sector benchmarks put swim-school AUVs around $936K, but that is not Aqua-Tots data).",
+          "source": "SHARPSHEETS / PeerSense Aqua-Tots FDD analyses",
+          "url": "https://sharpsheets.io/blog/aqua-tots-swim-school-franchise-costs-fees-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Pool-construction build-out: $1.6M-$2.9M before first lesson",
+          "detail": "Building a dedicated indoor swim facility with custom pools pushes total investment to $1,619,820-$2,939,590 with long construction timelines - among the heaviest builds in children's education franchising, magnifying interest-rate and lease risk during ramp-up.",
+          "source": "Entrepreneur Franchise 500 directory (FDD Item 7-derived)",
+          "url": "https://www.entrepreneur.com/franchises/directory/aqua-tots-swim-schools/335128",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No exclusive territories, no veteran discount, absentee ownership not allowed",
+          "detail": "Entrepreneur's directory shows exclusive territories are not available, no veteran incentive is offered, and absentee ownership is not permitted - owner-involved operation is expected, plus a $170/month technology fee under a 10-year renewable agreement.",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/aqua-tots-swim-schools/335128",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 200000, "source": "Entrepreneur Franchise 500 directory", "year": 2025, "confidence": "high"},
+        "netWorthMin": {"value": 1500000, "source": "Entrepreneur Franchise 500 directory", "year": 2025, "confidence": "high"},
+        "totalInvestmentMin": {"value": 1619820, "source": "Entrepreneur Franchise 500 directory (FDD Item 7-derived)", "year": 2025, "confidence": "high", "note": "PeerSense 2026 FDD-derived figures cite up to $3,015,000 for the holding entity."},
+        "totalInvestmentMax": {"value": 2939590, "source": "Entrepreneur Franchise 500 directory (FDD Item 7-derived)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "Entrepreneur Franchise 500 directory; PeerSense FDD data", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Entrepreneur Franchise 500 directory; SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "adFundPercent": {"value": 2, "source": "Entrepreneur Franchise 500 directory; SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "totalUnits": {"value": 172, "source": "Entrepreneur Franchise 500 directory", "year": 2025, "confidence": "high", "note": "+36.5% trend; nearly all franchised (PeerSense counts 131-132 franchised under the holding entity plus international locations)."},
+        "yearFounded": {"value": 1991, "source": "Entrepreneur Franchise 500 directory", "year": 2025, "confidence": "high", "note": "HQ Mesa, AZ."},
+        "yearFranchising": {"value": 2007, "source": "Entrepreneur Franchise 500 directory", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2025, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2025, "confidence": "high"},
+        "exclusiveTerritories": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2025, "confidence": "high"},
+        "renewalTermYears": {"value": 10, "source": "Entrepreneur Franchise 500 directory", "year": 2025, "confidence": "medium", "note": "10-year agreement term, renewable."},
+        "thirdPartyFinancing": {"value": "Third-party financing options available", "source": "Entrepreneur Franchise 500 directory", "year": 2025, "confidence": "medium"},
+        "internationalAvailability": {"value": true, "source": "Entrepreneur Franchise 500 directory (several dozen locations outside the US)", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2025, "confidence": "high", "note": "+36.5% unit trend."},
+        "businessModelType": {"value": "b2c", "source": "Aqua-Tots brand site (children's swim lessons)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / PeerSense (2025-2026 FDD data)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "SHARPSHEETS / PeerSense (no Item 19 disclosed in FDD)", "year": 2025, "confidence": "high"}
+      }
+    }
+  ]
+}
