@@ -1,5 +1,6 @@
 import { getAuthUserId } from "@convex-dev/auth/server";
 import { mutation, query } from "./_generated/server";
+import { internal } from "./_generated/api";
 import { v } from "convex/values";
 
 /**
@@ -66,6 +67,19 @@ export const send = mutation({
       readByProspect: senderRole === "prospect",
       readByTeam: senderRole !== "prospect",
     });
+
+    // Mirror into the CRMX universal inbox (fail-soft, never blocks chat)
+    const prospectUser = await ctx.db.get(prospectUserId);
+    const prospectEmail = (prospectUser as any)?.email;
+    if (prospectEmail) {
+      await ctx.scheduler.runAfter(0, internal.chatMirror.pushToGHL, {
+        prospectEmail,
+        prospectName: (prospectUser as any)?.name,
+        senderRole,
+        senderName,
+        body,
+      });
+    }
   },
 });
 
