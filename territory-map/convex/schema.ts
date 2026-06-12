@@ -357,6 +357,47 @@ const schema = defineSchema({
 
     // ── FDD Metadata ──
     fddYear: v.optional(v.number()),                    // Year of FDD data
+
+    // ══ EXPANDED BRAND DATA (2026-06 acquisition-readiness audit) ════════
+    // All optional + additive — see docs/KPI-DASHBOARD.md for the full
+    // 80-point target model and which fields map to FDD items.
+    // ── Business model ──
+    subcategory: v.optional(v.string()),                // finer than brands.category
+    businessModelType: v.optional(v.string()),          // "b2b" | "b2c" | "both"
+    mobileBased: v.optional(v.boolean()),               // mobile/van-based vs fixed location
+    internationalAvailability: v.optional(v.boolean()),
+    franchiseDevContact: v.optional(v.string()),        // name/email of franchise development contact
+    // ── Financial requirements ──
+    netWorthMin: v.optional(v.number()),                // FDD Item 5/7 net-worth requirement
+    financingOffered: v.optional(v.boolean()),          // franchisor offers direct financing
+    thirdPartyFinancing: v.optional(v.string()),        // described 3rd-party financing relationships
+    // ── Agreement terms (FDD Item 17) ──
+    renewalTermYears: v.optional(v.number()),
+    renewalFee: v.optional(v.number()),
+    transferFee: v.optional(v.number()),
+    exitRestrictions: v.optional(v.string()),
+    nonCompeteTerms: v.optional(v.string()),
+    // ── Obligations (FDD Item 8) ──
+    supplierRestrictions: v.optional(v.string()),
+    requiredPurchases: v.optional(v.string()),
+    nationalAccounts: v.optional(v.boolean()),
+    // ── Support detail ──
+    grandOpeningSupport: v.optional(v.boolean()),
+    callCenterSupport: v.optional(v.boolean()),
+    siteSelectionSupport: v.optional(v.boolean()),
+    realEstateSupport: v.optional(v.boolean()),
+    rampUpNotes: v.optional(v.string()),                // typical ramp-up expectations (sourced)
+    // ── Franchisor health (FDD Item 21 / Item 1) ──
+    bankruptcyDisclosed: v.optional(v.boolean()),       // FDD Item 4
+    franchisorFinancialsAvailable: v.optional(v.boolean()), // audited statements in FDD Item 21
+    franchisorRevenue: v.optional(v.number()),
+    franchisorNetIncome: v.optional(v.number()),
+    // ── Market positioning ──
+    customerAcquisitionModel: v.optional(v.string()),   // how units get customers
+    primaryMarketingChannels: v.optional(v.array(v.string())),
+    seasonalityNotes: v.optional(v.string()),
+    regulatoryNotes: v.optional(v.string()),
+    riskLevel: v.optional(v.string()),                  // "low" | "moderate" | "elevated" — derived from flags
   }).index("by_brand", ["brandId"]),
 
   prospectProfiles: defineTable({
@@ -432,6 +473,17 @@ const schema = defineSchema({
     // ── Profile Status ──
     profileComplete: v.optional(v.boolean()),
     enhancedProfileComplete: v.optional(v.boolean()),
+
+    // ── Source Attribution (first/last touch, captured client-side) ──
+    utmSource: v.optional(v.string()),
+    utmMedium: v.optional(v.string()),
+    utmCampaign: v.optional(v.string()),
+    utmContent: v.optional(v.string()),
+    utmTerm: v.optional(v.string()),
+    referrer: v.optional(v.string()),
+    landingPage: v.optional(v.string()),
+    firstTouchAt: v.optional(v.number()),
+    lastTouchAt: v.optional(v.number()),
   })
     .index("by_email", ["email"])
     .index("by_user", ["userId"]),
@@ -727,6 +779,58 @@ const schema = defineSchema({
     .index("by_user", ["userId"])
     .index("by_type", ["type"])
     .index("by_status", ["status"]),
+
+  // ── KPI / Acquisition-readiness dashboard (2026-06) ──────────────────
+  // Manual marketing spend entries (admin-managed; ads-platform sync later)
+  marketingSpend: defineTable({
+    date: v.string(),                    // "YYYY-MM-DD" (day the spend applies to)
+    source: v.string(),                  // matches attribution sources: "paid_ads", "social", ...
+    campaign: v.optional(v.string()),
+    amount: v.number(),                  // USD
+    notes: v.optional(v.string()),
+    createdAt: v.number(),
+    updatedAt: v.number(),
+  }).index("by_date", ["date"]),
+
+  // Revenue attributed back to a FranchiseKI profile (manually entered or
+  // synced from GHL contacts later — triggerTag/pipelineStage configurable,
+  // NOT hard-coded to one tag).
+  revenueAttribution: defineTable({
+    profileEmail: v.optional(v.string()),         // join key to prospectProfiles
+    prospectProfileId: v.optional(v.id("prospectProfiles")),
+    ghlContactId: v.optional(v.string()),
+    amount: v.number(),                           // USD
+    revenueDate: v.string(),                      // "YYYY-MM-DD"
+    source: v.optional(v.string()),
+    campaign: v.optional(v.string()),
+    pipelineStage: v.optional(v.string()),
+    triggerTag: v.optional(v.string()),           // GHL tag/custom field that triggered attribution
+    brandId: v.optional(v.id("brands")),
+    consultantId: v.optional(v.id("users")),
+    notes: v.optional(v.string()),
+    createdAt: v.number(),
+    updatedAt: v.number(),
+  })
+    .index("by_date", ["revenueDate"])
+    .index("by_email", ["profileEmail"]),
+
+  // Intent/activity event stream — feeds "active profile" calculations and
+  // future intent scoring. Server-side events logged via activity.logInternal,
+  // client events via activity.track.
+  activityEvents: defineTable({
+    userId: v.optional(v.id("users")),
+    email: v.optional(v.string()),
+    eventType: v.string(),               // see EVENT_TYPES in convex/metricsDefs.ts
+    ts: v.number(),
+    brandId: v.optional(v.id("brands")),
+    source: v.optional(v.string()),
+    campaign: v.optional(v.string()),
+    metadata: v.optional(v.string()),    // JSON blob
+  })
+    .index("by_user", ["userId"])
+    .index("by_type", ["eventType"])
+    .index("by_ts", ["ts"])
+    .index("by_user_ts", ["userId", "ts"]),
 });
 
 export default schema;

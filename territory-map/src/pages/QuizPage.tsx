@@ -12,6 +12,7 @@ import { LocationAutocomplete, type LocationResult } from "@/components/Location
 import { ArrowRight, ArrowLeft, Trophy, RotateCcw, Sparkles, MapPin, Plus, X, ChevronDown, Star, Crown, FileText } from "lucide-react";
 import { DueDiligenceDisclaimer } from "@/components/DueDiligenceDisclaimer";
 import { QuizAvailabilityMap } from "@/components/QuizAvailabilityMap";
+import { getAttribution } from "@/lib/attribution";
 
 type QuizStep = "location" | "budget" | "involvement" | "categories" | "timeline" | "results";
 
@@ -131,7 +132,7 @@ export function QuizPage() {
       localStorage.setItem(QUIZ_PREFILL_KEY, JSON.stringify(mapped));
     } catch { /* private mode etc. */ }
     if (isAuthenticated && Object.keys(mapped).length > 0) {
-      saveProfile(mapped).catch(() => {});
+      saveProfile({ ...mapped, attribution: getAttribution() }).catch(() => {});
     }
   }, [step, isAuthenticated]); // eslint-disable-line react-hooks/exhaustive-deps
 

@@ -1,6 +1,6 @@
 import { useAuthActions } from "@convex-dev/auth/react";
 import { useQuery } from "convex/react";
-import { LayoutDashboard, LogOut, Moon, Settings, Sun, MapPin, Building2, Shield, UserCircle, Sparkles, User, ClipboardList, Heart, Tag, Bell, Contact, Scale, FileSearch } from "lucide-react";
+import { LayoutDashboard, LogOut, Moon, Settings, Sun, MapPin, Building2, Shield, UserCircle, Sparkles, User, ClipboardList, Heart, Tag, Bell, Contact, Scale, FileSearch, BarChart3 } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { useTheme } from "@/contexts/ThemeContext";
 import { APP_NAME } from "@/lib/constants";
@@ -140,6 +140,7 @@ function SidebarNav() {
               <SidebarGroup>
                 <SidebarGroupContent>
                   <SidebarMenu>
+                    <NavLink href="/kpis" label="Company KPIs" icon={BarChart3} isActive={location.pathname === "/kpis"} />
                     <NavLink href="/tags" label="Tags" icon={Tag} isActive={location.pathname === "/tags"} />
                     {myProfile?.isSuperAdmin && (
                       <NavLink href="/users" label="Users" icon={User} isActive={location.pathname === "/users"} />

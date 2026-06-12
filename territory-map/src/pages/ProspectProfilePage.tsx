@@ -11,6 +11,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Input } from "@/components/ui/input";
+import { getAttribution } from "@/lib/attribution";
 import { toast } from "sonner";
 import {
   Sparkles,
@@ -210,6 +211,7 @@ export function ProspectProfilePage() {
     setSaving(true);
     try {
       await saveProfile({
+        attribution: getAttribution(),
         // Contact
         firstName: firstName || undefined,
         lastName: lastName || undefined,

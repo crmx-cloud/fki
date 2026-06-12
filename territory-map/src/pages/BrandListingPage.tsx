@@ -185,6 +185,13 @@ export function BrandListingPage() {
   const [showAllTerritories, setShowAllTerritories] = useState(false);
   const [territorySearch, setTerritorySearch] = useState("");
 
+  // KPI intent event: brand viewed (authed users only; deduped server-side)
+  const trackEvent = useMutation(api.activity.track);
+  useEffect(() => {
+    if (detail?.brand?._id && isAuthenticated)
+      trackEvent({ eventType: "brand_viewed", brandId: detail.brand._id }).catch(() => {});
+  }, [detail?.brand?._id, isAuthenticated]); // eslint-disable-line react-hooks/exhaustive-deps
+
   // SEO: keep document title/meta in sync on client-side navigation (the
   // prerendered static HTML sets these for crawlers; this covers SPA routing)
   useEffect(() => {

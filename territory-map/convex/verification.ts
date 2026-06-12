@@ -116,6 +116,12 @@ export const checkAndMark = internalMutation({
         profile._id,
         args.kind === "email" ? { emailVerifiedAt: Date.now() } : { phoneVerifiedAt: Date.now() }
       );
+      // KPI activity stream (see convex/metricsDefs.ts)
+      await ctx.db.insert("activityEvents", {
+        userId: args.userId,
+        eventType: args.kind === "email" ? "email_verified" : "phone_verified",
+        ts: Date.now(),
+      });
     }
     return { ok: true };
   },

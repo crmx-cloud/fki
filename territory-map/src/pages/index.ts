@@ -27,3 +27,4 @@ export { ContactsAdminPage } from "./ContactsAdminPage";
 export { ClaimsAdminPage } from "./ClaimsAdminPage";
 
 export { VerifyPage } from "./VerifyPage";
+export { AdminKpiPage } from "./AdminKpiPage";

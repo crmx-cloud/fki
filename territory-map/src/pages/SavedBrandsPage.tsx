@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { formatMoney } from "@/lib/format";
 import { useQuery, useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
@@ -83,6 +83,13 @@ export function SavedBrandsPage() {
     () => (savedBrands || []).filter((b: any) => compareIds.has(b?.brand?._id)),
     [savedBrands, compareIds]
   );
+
+  // KPI intent event: comparing 2+ brands = brand_compared (deduped server-side)
+  const trackEvent = useMutation(api.activity.track);
+  useEffect(() => {
+    if (compareBrands.length >= 2)
+      trackEvent({ eventType: "brand_compared", brandId: compareBrands[0]?.brand?._id }).catch(() => {});
+  }, [compareBrands.length]); // eslint-disable-line react-hooks/exhaustive-deps
 
   /* ── Loading ── */
   if (savedBrands === undefined) {

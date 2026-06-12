@@ -1,5 +1,6 @@
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
+import { captureAttribution } from "./lib/attribution";
 import { AppLayout } from "./components/AppLayout";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ProtectedRoute } from "./components/ProtectedRoute";
@@ -33,11 +34,14 @@ import {
   ContactsAdminPage,
   ClaimsAdminPage,
   VerifyPage,
+  AdminKpiPage,
 } from "./pages";
 
 const DossierPage = lazy(() => import("./pages/DossierPage"));
 
 function App() {
+  // First-touch UTM/referrer capture (feeds Source Performance KPIs)
+  useEffect(() => captureAttribution(), []);
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="dark" switchable={false}>
@@ -109,6 +113,7 @@ function App() {
               <Route path="/prospect-profiles" element={<AdminRoute><ProspectProfilesAdminPage /></AdminRoute>} />
               <Route path="/contacts" element={<AdminRoute><ContactsAdminPage /></AdminRoute>} />
               <Route path="/claims-admin" element={<AdminRoute><ClaimsAdminPage /></AdminRoute>} />
+              <Route path="/kpis" element={<AdminRoute><AdminKpiPage /></AdminRoute>} />
 
               {/* Settings — everyone can access */}
               <Route path="/settings" element={<SettingsPage />} />

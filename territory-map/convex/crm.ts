@@ -596,6 +596,15 @@ export const createLeadFromProspect = mutation({
       updatedAt: now,
     });
 
+    // KPI activity stream: a prospect-initiated lead = consultant request
+    await ctx.db.insert("activityEvents", {
+      userId: (await getAuthUserId(ctx)) ?? undefined,
+      email: args.email?.toLowerCase(),
+      eventType: "consultant_requested",
+      ts: now,
+      brandId: args.brandId,
+    });
+
     // Sync to CRMX (GoHighLevel FKI sub-account) — fail-soft, never blocks the lead
     const inquiryBrand = await ctx.db.get(args.brandId);
     // Generate the consultant AI brief now that a lead exists for this prospect

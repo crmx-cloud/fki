@@ -1,6 +1,6 @@
-import { useMemo } from "react";
+import { useMemo, useEffect } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { useConvexAuth, useQuery } from "convex/react";
+import { useConvexAuth, useQuery, useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import type { Id } from "../../convex/_generated/dataModel";
 import { PublicNav } from "@/components/PublicNav";
@@ -686,6 +686,12 @@ function NeedsMatchesPanel({ hasProfile }: { hasProfile: boolean }) {
 export function DossierPage() {
   const { isAuthenticated, isLoading } = useConvexAuth();
   const [searchParams] = useSearchParams();
+
+  // KPI intent event: opening the dossier = dossier_requested (deduped server-side)
+  const trackEvent = useMutation(api.activity.track);
+  useEffect(() => {
+    if (isAuthenticated) trackEvent({ eventType: "dossier_requested" }).catch(() => {});
+  }, [isAuthenticated]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Optional explicit selection: /dossier?brandIds=a,b,c (used by saved-brands links)
   const paramIds = useMemo(() => {

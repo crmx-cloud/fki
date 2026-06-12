@@ -121,6 +121,19 @@ export const saveProfile = mutation({
     professionalBackground: v.optional(v.array(v.string())),
     lifestylePriorities: v.optional(v.array(v.string())),
     avoidList: v.optional(v.array(v.string())),
+    // ── Source attribution (captured client-side, see src/lib/attribution.ts) ──
+    attribution: v.optional(
+      v.object({
+        utmSource: v.optional(v.string()),
+        utmMedium: v.optional(v.string()),
+        utmCampaign: v.optional(v.string()),
+        utmContent: v.optional(v.string()),
+        utmTerm: v.optional(v.string()),
+        referrer: v.optional(v.string()),
+        landingPage: v.optional(v.string()),
+        firstTouchAt: v.optional(v.number()),
+      })
+    ),
   },
   handler: async (ctx, args) => {
     const userId = await getAuthUserId(ctx);
@@ -135,7 +148,22 @@ export const saveProfile = mutation({
       .first();
 
     // Separate contact fields → store as schema fields (not nested under "args" prefix)
-    const { contactCity, contactState, ...restArgs } = args;
+    const { contactCity, contactState, attribution, ...restArgs } = args;
+
+    // First-touch attribution is write-once; last touch always updates
+    const attributionFields: Record<string, any> = {};
+    if (attribution) {
+      attributionFields.lastTouchAt = Date.now();
+      if (!existing?.firstTouchAt) {
+        for (const k of [
+          "utmSource", "utmMedium", "utmCampaign", "utmContent", "utmTerm",
+          "referrer", "landingPage",
+        ] as const) {
+          if (attribution[k] !== undefined) attributionFields[k] = attribution[k];
+        }
+        attributionFields.firstTouchAt = attribution.firstTouchAt ?? Date.now();
+      }
+    }
     const contactFields: Record<string, any> = {};
     if (args.firstName !== undefined) contactFields.firstName = args.firstName;
     if (args.lastName !== undefined) contactFields.lastName = args.lastName;
@@ -193,6 +221,7 @@ export const saveProfile = mutation({
       ...matchingArgs,
       ...contactFields,
       ...auditFields,
+      ...attributionFields,
       email,
       profileComplete,
       enhancedProfileComplete,
@@ -200,6 +229,9 @@ export const saveProfile = mutation({
 
     if (existing) {
       await ctx.db.patch(existing._id, data);
+      await ctx.db.insert("activityEvents", {
+        userId, email: email?.toLowerCase(), eventType: "profile_updated", ts: Date.now(),
+      });
       // Keep the consultant's AI brief in sync with the latest profile
       await ctx.scheduler.runAfter(0, internal.prospectBrief.generateForUser, { userId });
       return existing._id;
@@ -207,6 +239,10 @@ export const saveProfile = mutation({
       const profileId = await ctx.db.insert("prospectProfiles", {
         userId,
         ...data,
+      });
+      await ctx.db.insert("activityEvents", {
+        userId, email: email?.toLowerCase(), eventType: "profile_created", ts: Date.now(),
+        source: attributionFields.utmSource, campaign: attributionFields.utmCampaign,
       });
 
       // New prospect signup = new lead → sync to CRMX (fail-soft)
