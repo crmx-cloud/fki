@@ -1,0 +1,748 @@
+{
+  "brands": [
+    {
+      "name": "Stratus Building Solutions",
+      "slug": "stratus-building-solutions",
+      "category": "Services",
+      "website": "stratusclean.com",
+      "notes": "Green commercial-cleaning franchise operating a two-tier model: regional master franchises and low-cost unit (janitorial) franchises sold through the masters. Figures below are for the UNIT franchise per Vetted Biz FDD analysis; master/regional franchises run far higher (directory sources cite roughly $110K-$355K all-in). The franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "RICO class-action complaint by unit franchisees",
+          "detail": "Unit franchisees filed a class action alleging an illegal business scheme by Stratus Building Solutions and its web of affiliated entities and individuals controlling the franchise system, including RICO violations. The complaints date to the brand's earlier St. Louis-based ownership era.",
+          "source": "Unhappy Franchisee - Stratus Building Solutions RICO complaint coverage",
+          "url": "https://unhappyfranchisee.com/stratus-building-solutions-rico-complaint/",
+          "year": 2011
+        },
+        {
+          "severity": "caution",
+          "title": "Missouri class actions alleging fraud, breach of contract, and employee misclassification",
+          "detail": "A Missouri lawsuit on behalf of Stratus franchisees sought class certification for fraud, breach of contract, and misclassification claims, alleging false and misleading pre-sale information, failure to provide contracted services, and improper franchise terminations. Reports cite two Missouri class actions plus a California group action.",
+          "source": "Unhappy Franchisee - Stratus Building Solutions franchise class action lawsuit",
+          "url": "https://unhappyfranchisee.com/stratus-building-solutions-franchise-class-action-lawsuit/",
+          "year": 2011
+        },
+        {
+          "severity": "info",
+          "title": "Two-tier master/unit structure with very small unit franchises",
+          "detail": "Unit franchises start under $5,000 and revenue accrues account-by-account; the janitorial master-franchise category as a whole has a long history of franchisee disputes over account allocation. Buyers should be clear whether they are buying a unit franchise or a master region, as economics differ by an order of magnitude.",
+          "source": "Vetted Biz - Stratus Building Solutions Franchise Insights (unit-franchise FDD analysis)",
+          "url": "https://www.vettedbiz.com/franchises/stratus-building-solutions",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 5000, "source": "Vetted Biz - Stratus Building Solutions Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash for a unit franchise; master/regional franchises require substantially more."},
+        "totalInvestmentMin": {"value": 4725, "source": "Vetted Biz - Stratus Building Solutions FDD analysis (unit franchise)", "year": 2025, "confidence": "high", "note": "Unit-franchise range $4,725-$79,750 depending on plan size. Master/regional franchise investment is far higher (roughly $110K-$355K per SHARPSHEETS 2025 FDD analysis)."},
+        "totalInvestmentMax": {"value": 79750, "source": "Vetted Biz - Stratus Building Solutions FDD analysis (unit franchise)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 3600, "source": "Vetted Biz - Stratus Building Solutions FDD analysis (unit franchise)", "year": 2025, "confidence": "medium", "note": "Unit-franchise fee scales $3,600-$69,000 by plan/account package size."},
+        "royaltyPercent": {"value": 5, "source": "Vetted Biz - Stratus Building Solutions FDD analysis", "year": 2025, "confidence": "medium", "note": "5% of monthly sales (unit franchise); some directory sources cite higher combined fees including management/admin charges."},
+        "adFundPercent": {"value": 1, "source": "Vetted Biz - Stratus Building Solutions FDD analysis", "year": 2025, "confidence": "medium", "note": "1% of monthly sales."},
+        "totalUnits": {"value": 3786, "source": "Vetted Biz - Stratus Building Solutions Franchise Insights", "year": 2025, "confidence": "medium", "note": "US unit-franchise locations; other FDD-derived sources cite ~4,700+ including master regions."},
+        "yearFounded": {"value": 2006, "source": "Vetted Biz - Stratus Building Solutions Franchise Insights", "year": 2025, "confidence": "medium", "note": "Brand history began in St. Louis; relaunched under current Los Angeles-based ownership."},
+        "yearFranchising": {"value": 2015, "source": "Vetted Biz - Stratus Building Solutions Franchise Insights", "year": 2025, "confidence": "medium", "note": "Per Vetted Biz; earlier franchising activity occurred under prior ownership (subject of the 2009-2011 litigation)."},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Stratus Building Solutions Franchise Insights", "year": 2025, "confidence": "medium"},
+        "veteranDiscount": {"value": true, "source": "SHARPSHEETS 2025 FDD analysis", "year": 2025, "confidence": "medium", "note": "10% discount via VetFran program."},
+        "financingOffered": {"value": true, "source": "SHARPSHEETS 2025 FDD analysis", "year": 2025, "confidence": "medium", "note": "Franchisor may finance up to 20% of the initial franchise fee depending on credit profile and region."},
+        "businessModelType": {"value": "b2b", "source": "Vetted Biz - Stratus Building Solutions Franchise Insights (commercial janitorial services)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS 2025 FDD analyses", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Cinnabon",
+      "slug": "cinnabon",
+      "category": "Food & Beverage",
+      "website": "cinnabon.com",
+      "notes": "Iconic cinnamon-roll bakery franchise under GoTo Foods (formerly Focus Brands), recruiting via development.gotofoods.com/cinnabon. Strong recent unit growth driven by co-branding (Auntie Anne's) and convenience formats, but unit economics vary enormously by venue. No published state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Venue-driven AUV variance (mall dependence)",
+          "detail": "FY2024 Item 19 shows enclosed-mall franchise sales ranging from $86,827 to $2,883,961 around a $681,687 average - unit economics hinge on landlord-controlled foot traffic. Convenience-format franchises averaged only $177,494.",
+          "source": "Cinnabon 2025 FDD Item 19 (via Franchise Chatter 2025 review)",
+          "url": "https://www.franchisechatter.com/2025/11/17/cinnabon-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Low-revenue convenience format sold alongside full bakeries",
+          "detail": "The 202-unit convenience cohort averaged $177,494 in FY2024 sales (range $11,011-$717,485) - a fraction of full-bakery volumes. Buyers must match format expectations to the right Item 19 cohort, not headline averages.",
+          "source": "Cinnabon 2025 FDD Item 19 (via Franchise Chatter 2025 review)",
+          "url": "https://www.franchisechatter.com/2025/11/17/cinnabon-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Operated by multi-brand platform GoTo Foods",
+          "detail": "Cinnabon is one of seven brands (with Auntie Anne's, Carvel, Jamba, McAlister's Deli, Moe's, Schlotzsky's) under GoTo Foods, which steers development priorities and shared services across the portfolio; franchisees are one brand among many in the platform's capital-allocation decisions.",
+          "source": "GoTo Foods 2025 expansion press release",
+          "url": "https://www.gotofoods.com/goto-foods-ignites-2025-expansion-with-record-growth-and-bold-innovation/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 70000, "source": "Vetted Biz - Cinnabon Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 246950, "source": "Cinnabon 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Full-bakery range; smaller co-branded/convenience formats can start lower (directory sources cite from ~$29,000 for non-traditional formats)."},
+        "totalInvestmentMax": {"value": 675000, "source": "Cinnabon 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 30500, "source": "Cinnabon 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "FDD discloses $5,500-$30,500 depending on format; $30,500 is the standard full-bakery fee."},
+        "royaltyPercent": {"value": 6, "source": "Cinnabon 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "6% of Net Sales (varies slightly by location type)."},
+        "adFundPercent": {"value": 3, "source": "Cinnabon 2025 FDD (via Franchise Chatter review); Vetted Biz", "year": 2025, "confidence": "high", "note": "2.5%-3% of Net Sales depending on format."},
+        "avgUnitRevenue": {"value": 681687, "source": "Cinnabon 2025 FDD Item 19, FY2024 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Average for 189 enclosed-mall franchises (largest traditional cohort). Convenience format: $177,494 avg; Auntie Anne's co-branded: $1,200,635 avg."},
+        "totalUnits": {"value": 1030, "source": "Cinnabon 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "1,002 franchised + 28 company-owned at end of 2024 (US)."},
+        "yearFounded": {"value": 1985, "source": "Vetted Biz - Cinnabon Franchise Insights", "year": 2025, "confidence": "high", "note": "First bakery in Seattle; headquarters now Atlanta, GA."},
+        "yearFranchising": {"value": 2017, "source": "Vetted Biz - Cinnabon Franchise Insights", "year": 2025, "confidence": "low", "note": "Vetted Biz lists 2017, which reflects the current franchisor entity (Cinnabon Franchisor SPV LLC); the brand's franchising history dates to the late 1980s."},
+        "trainingWeeks": {"value": 4, "source": "Vetted Biz - Cinnabon Franchise Insights", "year": 2025, "confidence": "medium", "note": "Approximately four weeks at Cinnabon's corporate training facility."},
+        "isGrowing": {"value": true, "source": "Cinnabon 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Franchised units +19 (2022), +23 (2023), +50 (2024)."},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "DoubleTree by Hilton",
+      "slug": "doubletree-by-hilton",
+      "category": "Travel & Lodging",
+      "website": "hilton.com",
+      "notes": "Hilton's upscale full-service hotel brand (famous for the warm chocolate-chip cookie), franchised through Hilton Franchise Holding LLC. This is an institutional-scale hotel investment, not a small-business franchise: 2025 FDD new-build figures for a 250-room hotel run $30.5M-$105.6M excluding real property. Hilton does not publish a state-by-state availability list - development is negotiated market by market - so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Texas AG consumer-protection lawsuit against parent Hilton (pricing transparency)",
+          "detail": "In 2023 the Texas Attorney General sued Hilton for violations of Texas consumer protection laws over hotel fee/price transparency (drip pricing of mandatory fees), part of a multi-state push affecting major hotel franchisors whose brand-level pricing practices flow down to franchised hotels.",
+          "source": "Texas Attorney General press release",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/paxton-announces-lawsuit-against-hilton-violations-texas-consumer-protection-laws-and-lack-price",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "DOJ ADA consent decree covering Hilton-branded chains including DoubleTree",
+          "detail": "The U.S. Justice Department reached a settlement/consent decree with Hilton Worldwide over ADA violations at Hilton-owned and franchised hotel chains, imposing accessibility obligations across branded properties - compliance costs land on hotel owners.",
+          "source": "U.S. Department of Justice, Office of Public Affairs",
+          "url": "https://www.justice.gov/archives/opa/pr/justice-department-reaches-agreement-hilton-worldwide-inc-over-ada-violations-hilton-hotels",
+          "year": 2010
+        },
+        {
+          "severity": "info",
+          "title": "Very long capital-recovery horizon at headline figures",
+          "detail": "Vetted Biz FDD-derived analysis estimates a payback period of 82.5-84.5 years against the new-build investment range - hotel franchise returns depend on real-estate appreciation and financing structure, not just operating cash flow.",
+          "source": "Vetted Biz - DoubleTree by Hilton Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/doubletree-by-hilton",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 9865000, "source": "Vetted Biz - DoubleTree by Hilton Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash per Vetted Biz FDD analysis; actual requirement scales with the project."},
+        "totalInvestmentMin": {"value": 30550859, "source": "DoubleTree by Hilton 2025 FDD Item 7 (via Vetted Biz and The FDD Exchange)", "year": 2025, "confidence": "high", "note": "Newly constructed 250-room hotel, excluding real property; includes up to $506,375 paid to the franchisor or affiliates. Conversions cost less."},
+        "totalInvestmentMax": {"value": 105638829, "source": "DoubleTree by Hilton 2025 FDD Item 7 (via Vetted Biz)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 85000, "source": "Vetted Biz - DoubleTree by Hilton Franchise Insights (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Application fee structure: $75,000 base plus $400 per guest room over 250; $150,000 for change-of-ownership applications; $7,500 PIP fee for conversions."},
+        "royaltyPercent": {"value": 5, "source": "DoubleTree by Hilton 2025 FDD (via Vetted Biz and Top Franchise summaries)", "year": 2025, "confidence": "high", "note": "Monthly 5% of gross room sales for both DoubleTree Hotel and DoubleTree Suites formats."},
+        "adFundPercent": {"value": 4, "source": "Top Franchise / Franchise Help FDD summaries", "year": 2025, "confidence": "medium", "note": "Monthly program fee of 4% of gross room sales funding brand marketing, PR, websites, and reservation systems."},
+        "avgUnitRevenue": {"value": 4803150, "source": "Vetted Biz - DoubleTree by Hilton Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per hotel per Vetted Biz FDD analysis."},
+        "totalUnits": {"value": 358, "source": "Vetted Biz - DoubleTree by Hilton Franchise Insights", "year": 2025, "confidence": "medium", "note": "US locations; DoubleTree has 600+ hotels globally per Hilton corporate materials."},
+        "yearFranchising": {"value": 1989, "source": "Vetted Biz - DoubleTree by Hilton Franchise Insights", "year": 2025, "confidence": "medium"},
+        "trainingWeeks": {"value": 4, "source": "Vetted Biz - DoubleTree by Hilton Franchise Insights", "year": 2025, "confidence": "medium", "note": "Four weeks at Hilton's Global Training facility in Memphis, TN."},
+        "businessModelType": {"value": "b2c", "source": "Hilton brand site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (DoubleTree by Hilton 2025 FDD on file)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Snap-on Tools",
+      "slug": "snap-on-tools",
+      "category": "Automotive",
+      "website": "snapon.com",
+      "notes": "Mobile professional-tool franchise: franchisees sell Snap-on tools from a walk-in van to technicians and shops on an assigned route. Unusual economics: instead of a percentage royalty, franchisees pay a flat monthly license fee ($152 per the 2025 FDD) but buy all inventory from Snap-on, which is where the franchisor makes its money. The franchised system has been shrinking modestly for three straight years. No published state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Long franchisee-litigation history including a $38M class-action settlement",
+          "detail": "The 2011 Snap-on Tools FDD listed nearly 40 franchisee lawsuits over the prior decade, including a class action settled in 2006 that cost Snap-on roughly $38 million in settlement and fees. Recurring themes: income representations, route viability, and dealer churn.",
+          "source": "Unhappy Franchisee - Mobile Tool Franchise Guide",
+          "url": "https://www.unhappyfranchisee.com/mobile-tool-franchise/",
+          "year": 2011
+        },
+        {
+          "severity": "caution",
+          "title": "Suits over income claims and franchisee credit exposure",
+          "detail": "In 2005 Snap-on was sued by spouses of franchisees claiming the company falsely advertised income potential and customer bases and extended precarious lines of credit to franchisees; a court ruling favored the plaintiffs' right to proceed. Franchisee credit exposure to the franchisor remains a structural feature of the model.",
+          "source": "Marks & Klein LLP - Ruling Favors Wives of Ex-Snap-on Tools Dealers",
+          "url": "https://marksklein.com/ruling-favors-wives-of-ex-snap-on-tools-dealers/",
+          "year": 2005
+        },
+        {
+          "severity": "info",
+          "title": "Franchised unit count declining three consecutive years",
+          "detail": "Per the 2025 FDD outlet tables, US franchised units fell 3,287 -> 3,270 -> 3,238 -> 3,201 across 2022-2024 (net -86 over three years), while company-owned units held near 140.",
+          "source": "Snap-on 2025 FDD outlet tables (via Franchise Chatter 2025 review)",
+          "url": "https://www.franchisechatter.com/2025/07/19/snap-on-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 60000, "source": "Vetted Biz - Snap-on Tools Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 221751, "source": "Snap-on 2025 FDD Item 7 (via Franchise Chatter and Vetted Biz)", "year": 2025, "confidence": "high", "note": "Includes $139,000-$149,000 initial inventory and the tool van ($65,000-$195,000)."},
+        "totalInvestmentMax": {"value": 500098, "source": "Snap-on 2025 FDD Item 7 (via Franchise Chatter and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 16000, "source": "Snap-on 2025 FDD (via Franchise Chatter and Vetted Biz)", "year": 2025, "confidence": "high", "note": "FDD discloses $8,000-$16,000."},
+        "avgUnitRevenue": {"value": 772856, "source": "Snap-on 2025 FDD Item 19 (via Vetted Biz; Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Average yearly paid sales across franchisees; 2024 middle-third average $774,695, top third $1,159,064, bottom third $509,572 (2,731 franchisees). No percentage royalty - flat $152/month license fee; Snap-on profits on wholesale tool sales."},
+        "totalUnits": {"value": 3344, "source": "Snap-on 2025 FDD outlet tables (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "3,201 franchised + 143 company-owned (US) at end of 2024."},
+        "yearFounded": {"value": 1920, "source": "Vetted Biz - Snap-on Tools Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1990, "source": "Vetted Biz - Snap-on Tools Franchise Insights", "year": 2025, "confidence": "high", "note": "Dealer network converted to a franchise model in 1990."},
+        "trainingWeeks": {"value": 6, "source": "Vetted Biz - Snap-on Tools Franchise Insights", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "Snap-on 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Net -17, -32, -37 franchised units in 2022, 2023, 2024."},
+        "mobileBased": {"value": true, "source": "Snap-on 2025 FDD summaries (mobile route-sales model from a tool van)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2b", "source": "Snap-on franchise model (sells to professional technicians and shops)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Snap-on Tools 2025 FDD); Franchise Chatter review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Paris Baguette",
+      "slug": "paris-baguette",
+      "category": "Food & Beverage",
+      "website": "parisbaguette.com",
+      "notes": "Premium bakery-cafe franchise of South Korea's SPC Group, expanding aggressively in the US (parent targets large-scale global growth; brand passed 700 stores in markets outside Korea in Dec 2025). High-volume cafes with strong AUVs but a premium build-out cost. No published state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Parent SPC Group labor scandal and consumer boycott (2022)",
+          "detail": "A 23-year-old worker died in a sauce-mixing machine at an SPC subsidiary factory in Pyeongtaek, South Korea in October 2022; the factory resumed operating adjacent machines the next day. The death triggered nationwide protests and a consumer boycott of Paris Baguette and other SPC brands, and ongoing scrutiny of SPC's labor practices.",
+          "source": "The Korea Times",
+          "url": "https://www.koreatimes.co.kr/southkorea/society/20221020/protests-boycott-against-paris-baguette-spc-spread-following-factory-workers-death",
+          "year": 2022
+        },
+        {
+          "severity": "info",
+          "title": "Supply-chain dependence on Korean parent SPC",
+          "detail": "Franchisees operate within SPC Group's vertically integrated supply system (proprietary doughs, ingredients, and products), so unit economics and product availability depend on the parent's manufacturing and import logistics; SPC's Korean labor/regulatory issues are therefore not fully insulated from the US system.",
+          "source": "The Korea Times (SPC Group structure and brand portfolio coverage)",
+          "url": "https://www.koreatimes.co.kr/southkorea/society/20221020/protests-boycott-against-paris-baguette-spc-spread-following-factory-workers-death",
+          "year": 2022
+        },
+        {
+          "severity": "info",
+          "title": "Premium investment with Item 19 averages drawn partly from affiliate-run cafes",
+          "detail": "Total investment runs to $1.8M+, and 2024 FDD average sales of $2,861,550 cover 130 affiliate-owned AND franchised cafes combined - new franchisees in secondary markets may not match averages set partly by corporate-affiliated flagship locations.",
+          "source": "Paris Baguette 2024 FDD Item 19 (via Franchise Chatter FDD Talk review)",
+          "url": "https://www.franchisechatter.com/2024/10/17/fdd-talk-paris-baguette-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 200000, "source": "Vetted Biz - Paris Baguette Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 727440, "source": "Paris Baguette 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1825100, "source": "Paris Baguette 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "Paris Baguette 2025 FDD (via Vetted Biz and Franchise Chatter)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Paris Baguette 2025 FDD (via Vetted Biz and Franchise Chatter)", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "Paris Baguette 2025 FDD (via Vetted Biz and Franchise Chatter)", "year": 2025, "confidence": "high", "note": "2% of gross sales toward national marketing."},
+        "avgUnitRevenue": {"value": 2720458, "source": "Paris Baguette 2025 FDD Item 19 (via Vetted Biz)", "year": 2025, "confidence": "high", "note": "Average yearly gross sales; 2024 FDD cited $2,861,550 average for 130 affiliate-owned and franchised cafes."},
+        "totalUnits": {"value": 197, "source": "Paris Baguette 2025 FDD outlet data (via SHARPSHEETS and PeerSense)", "year": 2025, "confidence": "medium", "note": "US: 186 franchised + 11 company-owned."},
+        "yearFounded": {"value": 1988, "source": "The Korea Times (brand history)", "year": 2022, "confidence": "medium", "note": "Founded in South Korea by Hur Young-in under SPC; Vetted Biz lists 1991 for the US entity lineage."},
+        "yearFranchising": {"value": 2015, "source": "Vetted Biz - Paris Baguette Franchise Insights", "year": 2025, "confidence": "medium", "note": "US franchising; first US cafes opened earlier as company-owned."},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Paris Baguette Franchise Insights", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "SPC Group / PR Newswire (700th global store outside Korea, Dec 2025); Vetted Biz unit data", "year": 2025, "confidence": "medium", "note": "Brand in rapid global and US expansion; US system grew to ~197 units by the 2025 FDD."},
+        "businessModelType": {"value": "b2c", "source": "Paris Baguette brand site (retail bakery cafe)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct; Vetted Biz (2025 FDD on file)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter FDD Talk review (2024 FDD Item 19)", "year": 2024, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Kona Ice",
+      "slug": "kona-ice",
+      "category": "Food & Beverage",
+      "website": "kona-ice.com",
+      "notes": "Mobile shaved-ice truck franchise (the 'KEV' - Kona Entertainment Vehicle) built around events, schools, and fundraising. Unusual economics: flat annual royalty ($3,000-$5,000 by year, not a percentage of sales) and a low-overhead, home-based mobile model. Franchisor accepts inquiries nationally and assigns territories of 80,000-100,000 population; no published state-by-state list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Modest per-truck revenue - a supplemental-income scale business",
+          "detail": "Vetted Biz FDD-derived analysis shows average yearly gross sales of about $142,959 per franchise with estimated owner earnings of $17,156-$21,444 - meaningful as a side or family business, but far below storefront food-franchise volumes. Multi-truck operation is the path to full-time income.",
+          "source": "Vetted Biz - Kona Ice Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/kona-ice",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Copycat-competitor litigation (Kona prevailed)",
+          "detail": "Kona Ice waged a multi-year patent campaign against lookalike competitor Tikiz Franchising (16 infringement actions since 2017); in 2024 a Miami jury found willful infringement and Kona was awarded $532,905. Demonstrates both active IP defense and a competitive landscape of imitator truck brands.",
+          "source": "LINK nky - Judge awards Kona Ice $532k in patent infringement lawsuit",
+          "url": "https://linknky.com/business/2024/09/11/kona-ice-wins-532955-from-tikiz/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Truck cost dominates the investment and franchisor-quoted minimums understate all-in cost",
+          "detail": "The KEV truck alone is $151,950 of the investment, and the franchisor's quoted $102,365 low-end applies to limited configurations - most buyers should plan toward the $226,841 high end per the FDD; financing is arranged through third-party 'strategic lenders' subject to credit approval.",
+          "source": "Kona Ice franchisor site (ownakona.com/numbers)",
+          "url": "https://www.ownakona.com/numbers/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 25000, "source": "Kona Ice franchisor site (ownakona.com/numbers)", "year": 2026, "confidence": "medium", "note": "Franchisor's 'recommended liquidity'; Vetted Biz FDD analysis lists $40,000 minimum cash. Initial cash deposit of $20,000 covers the franchise fee plus $5,000 truck deposit."},
+        "totalInvestmentMin": {"value": 102365, "source": "Kona Ice franchisor site (ownakona.com/numbers, per FDD)", "year": 2026, "confidence": "high", "note": "Vetted Biz cites $178,856 as the practical low end including the standard KEV truck ($151,950)."},
+        "totalInvestmentMax": {"value": 226841, "source": "Kona Ice franchisor site (ownakona.com/numbers, per FDD); Vetted Biz", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 15000, "source": "Kona Ice franchisor site (ownakona.com/numbers)", "year": 2026, "confidence": "high"},
+        "avgUnitRevenue": {"value": 142959, "source": "Vetted Biz - Kona Ice Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per franchise. Royalty is flat, not percentage: $3,000/yr (years 1-2), $4,000/yr (years 3-6), $5,000/yr (years 7-10), plus a brand-fund contribution of $500 per KEV per year per FDD-derived directories."},
+        "totalUnits": {"value": 1820, "source": "Kona Ice 2025 FDD outlet data (via SHARPSHEETS)", "year": 2025, "confidence": "medium", "note": "1,816 franchised + 4 company-owned (US)."},
+        "yearFounded": {"value": 2008, "source": "Vetted Biz - Kona Ice Franchise Insights", "year": 2025, "confidence": "medium", "note": "Founder Tony Lamb launched the first truck in 2007-2008 in Florence, KY."},
+        "yearFranchising": {"value": 2008, "source": "Vetted Biz - Kona Ice Franchise Insights", "year": 2025, "confidence": "medium"},
+        "exclusiveTerritories": {"value": true, "source": "Kona Ice franchisor site (ownakona.com - territory assignment of 80,000-100,000 population)", "year": 2026, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Kona Ice franchisor site; Vetted Biz (mobile truck model)", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": true, "source": "Kona Ice franchisor site (no storefront; truck-based business run from home base)", "year": 2026, "confidence": "medium"},
+        "thirdPartyFinancing": {"value": "Franchisor assists with financing through strategic third-party lenders after deposit and credit approval", "source": "Kona Ice franchisor site (ownakona.com/numbers)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Kona Ice franchisor site (events, schools, consumer sales)", "year": 2026, "confidence": "high"},
+        "seasonalityNotes": {"value": "Warm-weather-driven event/route business; sales concentrate in spring-fall in northern climates", "source": "Vetted Biz - Kona Ice Franchise Insights (mobile shaved-ice model)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct; Vetted Biz (FDD on file)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Home2 Suites by Hilton",
+      "slug": "home2-suites-by-hilton",
+      "category": "Travel & Lodging",
+      "website": "hilton.com",
+      "notes": "Hilton's mid-tier extended-stay/all-suite brand and one of the fastest-growing brands in Hilton's history (500 hotels within 10 years of the first opening; 748 locations by mid-2025). Institutional-scale hotel development franchised through Hilton Franchise Holding LLC. Hilton does not publish a state-by-state availability list - development is negotiated market by market - so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Texas AG consumer-protection lawsuit against parent Hilton (pricing transparency)",
+          "detail": "In 2023 the Texas Attorney General sued Hilton for violations of Texas consumer protection laws over hotel fee/price transparency (drip pricing of mandatory fees), part of a multi-state push affecting major hotel franchisors whose brand-level pricing practices flow down to franchised hotels.",
+          "source": "Texas Attorney General press release",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/paxton-announces-lawsuit-against-hilton-violations-texas-consumer-protection-laws-and-lack-price",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "DOJ ADA consent decree covering Hilton-branded chains",
+          "detail": "The U.S. Justice Department reached a settlement/consent decree with Hilton Worldwide over ADA violations at Hilton-owned and franchised hotel chains, imposing accessibility obligations across branded properties - compliance costs land on hotel owners.",
+          "source": "U.S. Department of Justice, Office of Public Affairs",
+          "url": "https://www.justice.gov/archives/opa/pr/justice-department-reaches-agreement-hilton-worldwide-inc-over-ada-violations-hilton-hotels",
+          "year": 2010
+        },
+        {
+          "severity": "info",
+          "title": "Hyper-growth brand - intra-brand and segment saturation risk",
+          "detail": "Home2 reached its 500th hotel within 10 years of the first 2011 opening and stood at 748 locations by July 2025, one of the fastest expansions in Hilton history. Rapid same-brand growth in the midscale extended-stay segment means new builds increasingly compete with nearby Home2s and sister Hilton brands for the same guests.",
+          "source": "Stories From Hilton - Home2 Suites by Hilton Hits 500 Hotels Milestone",
+          "url": "https://stories.hilton.com/releases/home2-suites-by-hilton-hits-500-hotels-milestone",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 15700000, "source": "Home2 Suites by Hilton 2025 FDD summaries (via PeerSense and FranchiseDiff)", "year": 2025, "confidence": "medium", "note": "Approximately $15.7M-$24.4M for a new-build, varying with market, site conditions, and development specifications; excludes underlying real estate in most FDD-derived presentations."},
+        "totalInvestmentMax": {"value": 24400000, "source": "Home2 Suites by Hilton 2025 FDD summaries (via PeerSense and FranchiseDiff)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 100000, "source": "Home2 Suites by Hilton 2025 FDD summaries (via PeerSense)", "year": 2025, "confidence": "medium", "note": "Initial application/franchise fee; Hilton brands also scale fees by room count above format baselines."},
+        "royaltyPercent": {"value": 6, "source": "Home2 Suites by Hilton FDD summaries (via FranchiseDiff and PeerSense)", "year": 2025, "confidence": "medium", "note": "6% of Gross Rooms Revenue."},
+        "adFundPercent": {"value": 3.5, "source": "Home2 Suites by Hilton FDD summaries (via FranchiseDiff)", "year": 2025, "confidence": "medium", "note": "Marketing/program contribution of 3.5% of Gross Rooms Revenue per FDD-derived directories; some Hilton focused-service brands charge a 4% program fee."},
+        "totalUnits": {"value": 748, "source": "Stories From Hilton (brand milestone release)", "year": 2025, "confidence": "high", "note": "Locations as of July 2025; effectively all franchised (FDD-derived directories list 0 company-owned)."},
+        "yearFounded": {"value": 2009, "source": "Stories From Hilton; Travel Weekly (brand launched January 2009; first hotel opened Fayetteville, NC in February 2011)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2009, "source": "Stories From Hilton; Travel Weekly (brand launched as a franchise development brand in 2009)", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Stories From Hilton (500 hotels in 10 years; 748 locations by July 2025)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Hilton brand site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Home2 Suites by Hilton FDD on file); PeerSense 2025 FDD summary", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Tommy's Express Car Wash",
+      "slug": "tommys-express-car-wash",
+      "category": "Automotive",
+      "website": "tommys-express.com",
+      "notes": "Express-tunnel car wash franchise from the Tommy Car Wash Systems family (Holland, MI), franchising since 2016 and adding roughly 40 net units per year. Strong, fast-ramping unit economics but one of the most capital-intensive franchises in its sector ($5.2M-$8.5M per site) in an industry currently working through overbuilding and PE-fueled competition. No published state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Capital intensity roughly 3x the car-wash sector average",
+          "detail": "At $5.2M-$8.5M total investment (plus a $1.2M+ liquidity requirement), Tommy's Express sits significantly above the car-wash sub-sector average of roughly $1.76M-$3.27M - magnifying leverage and interest-rate risk for single-site operators.",
+          "source": "Vetted Biz - Tommy's Express Car Wash Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/tommys-express-car-wash",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Express car-wash industry overbuilding and price competition",
+          "detail": "Industry coverage documents saturation concerns after years of frantic expansion: sites that are the third-or-later tunnel within a mile carry materially elevated risk, $3-$7 'destructive pricing' signals capacity outrunning demand in some markets, and municipal moratorium waves have spread across several states. ZIPS Car Wash (a large non-franchise chain) filed Chapter 11 in February 2025 with $654M of debt.",
+          "source": "Professional Carwashing & Detailing - 2025 State of the Carwash Market",
+          "url": "https://www.carwash.com/2025-state-of-the-carwash-market/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Young system - most franchised sites still in ramp-up years",
+          "detail": "Per 2026-FDD-derived cohort tables, 86 of the 164 mature reporting sites were in their first or second full year of operation in 2024; first-year sites averaged $1.09M vs $2.20M for fifth-year-plus sites, so systemwide averages will shift as the young base matures. Franchised units grew 79 -> 123 -> 166 -> 206 across 2022-2024.",
+          "source": "Tommy's Express 2026 FDD Item 19 and outlet tables (via Franchise Chatter 2026 review)",
+          "url": "https://www.franchisechatter.com/2026/04/15/tommys-express-car-wash-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 1205000, "source": "Vetted Biz - Tommy's Express Car Wash Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 5205184, "source": "Tommy's Express 2025 FDD Item 7 (via Vetted Biz and Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Varies by tunnel length (90ft, 110ft, 130ft formats); excludes land in most presentations."},
+        "totalInvestmentMax": {"value": 8522378, "source": "Tommy's Express 2025 FDD Item 7 (via Vetted Biz and Franchise Chatter)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "Tommy's Express 2025 FDD (via Vetted Biz and Franchise Chatter)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 4, "source": "Tommy's Express FDD (via Franchise Chatter 2026 review)", "year": 2026, "confidence": "high", "note": "4% of gross sales."},
+        "adFundPercent": {"value": 1, "source": "Tommy's Express FDD (via Franchise Chatter 2026 review)", "year": 2026, "confidence": "high", "note": "1% brand development fund plus a required 2% local marketing spend."},
+        "avgUnitRevenue": {"value": 1647523, "source": "Tommy's Express 2026 FDD Item 19, FY2024 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Average across all 164 sites with full-year operations; ramp matters: 1st year $1,093,264 -> 5th+ year $2,204,358."},
+        "totalUnits": {"value": 216, "source": "Tommy's Express FDD outlet tables (via Franchise Chatter 2026 review)", "year": 2025, "confidence": "high", "note": "206 franchised + 10 company-owned at end of 2024."},
+        "yearFounded": {"value": 2015, "source": "Vetted Biz - Tommy's Express Car Wash Franchise Insights", "year": 2025, "confidence": "medium", "note": "Tommy's Express brand; the family's Tommy Car Wash Systems heritage in Holland, MI dates back decades."},
+        "yearFranchising": {"value": 2016, "source": "Vetted Biz - Tommy's Express Car Wash Franchise Insights", "year": 2025, "confidence": "medium"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Tommy's Express Car Wash Franchise Insights", "year": 2025, "confidence": "medium", "note": "Approximately two weeks at the West Michigan training facility."},
+        "isGrowing": {"value": true, "source": "Tommy's Express FDD outlet tables (via Franchise Chatter 2026 review)", "year": 2026, "confidence": "high", "note": "+44, +43, +40 net franchised units in 2022, 2023, 2024; #35 on Entrepreneur's 2026 Franchise 500."},
+        "businessModelType": {"value": "b2c", "source": "Tommy's Express franchisor site (consumer wash memberships)", "year": 2026, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Unlimited-wash subscription membership plus retail drive-up traffic", "source": "Professional Carwashing & Detailing - 2025 State of the Carwash Market (subscription adoption trend); Tommy's Express site", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Dream Vacations",
+      "slug": "dream-vacations",
+      "category": "Travel & Lodging",
+      "website": "dreamvacationsfranchise.com",
+      "notes": "Home-based travel-agency franchise of World Travel Holdings (sister brand to CruiseOne - same franchise system in two flavors), selling cruises, tours, resorts, and travel protection on commission. One of the lowest-cost franchises in the Franchise 500 (#36 overall, #1 travel agency, 2026) and growing fast, but earnings are commission-based and the model is exposed to travel-industry shocks. Franchisees operate from home in all states; no formal state-availability list is published, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Travel-shock exposure: growth stalled to +3 net units in 2020",
+          "detail": "The system historically opens roughly 97 franchises a year, but COVID-19 reduced 2020 to a net increase of just 3 units - commission-based travel income can approach zero during industry disruptions even though franchise overhead is low.",
+          "source": "Travel Weekly - Travel agency franchisors are bullish on their business model",
+          "url": "https://www.travelweekly.com/Travel-News/Travel-Agent-Issues/Success-in-a-box-brick-and-mortar-leisure-advisors",
+          "year": 2021
+        },
+        {
+          "severity": "info",
+          "title": "Cruise-concentrated parent and commission dependence",
+          "detail": "Parent World Travel Holdings is the world's largest cruise agency; franchisee revenue is commissions on supplier bookings (cruise lines, tour operators, resorts), so earnings depend on supplier commission policies and cruise-industry health rather than franchisee-set pricing. WTH shuttered its separate host-agency brand Cruises Inc. and consolidated around the franchise model.",
+          "source": "World Travel Holdings 2025 CruiseOne/Dream Vacations Fact Sheet",
+          "url": "https://worldtravelholdings.com/wp-content/uploads/2025/07/2025-CruiseOne-Dream-Vacations-Fact-Sheet-July-2025-FINAL.pdf",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Short 5-year franchise term",
+          "detail": "The franchise agreement runs 5 years (renewable) - much shorter than typical 10-20 year franchise terms, giving the franchisor frequent repricing/renegotiation points.",
+          "source": "Entrepreneur Franchise 500 directory - Dream Vacations",
+          "url": "https://www.entrepreneur.com/franchises/directory/dream-vacations/282261",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 2590, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 20970, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 9800, "source": "Dream Vacations franchisor materials; Entrepreneur directory", "year": 2026, "confidence": "high", "note": "Standard fee $9,800 with financing from $3,500 down; Entrepreneur lists a $495-$10,500 range (discounts for experienced agents and special programs)."},
+        "royaltyPercent": {"value": 3, "source": "Entrepreneur Franchise 500 directory; directory FDD summaries", "year": 2026, "confidence": "high", "note": "1.5%-3% of commissionable gross sales (rate varies by program/volume); no ad royalty per Entrepreneur."},
+        "adFundPercent": {"value": 0, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 0% ad royalty; some directories cite a ~1% marketing fee under certain plans."},
+        "totalUnits": {"value": 2363, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "+46.0% unit trend; all franchised, no company-owned locations. Sister brand CruiseOne shares the same system."},
+        "yearFounded": {"value": 1991, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "CruiseOne lineage (founded 1992 per the WTH fact sheet); the Dream Vacations brand name launched in 2016."},
+        "yearFranchising": {"value": 1992, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "renewalTermYears": {"value": 5, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "5-year agreement term, renewable."},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "30% off the franchise fee; training fee waived for a business partner."},
+        "canRunFromHome": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "canRunPartTime": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory (+46% trend; #4 Fastest-Growing Franchises 2026)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Entrepreneur Franchise 500 directory (home-based, not vehicle-based)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Dream Vacations franchisor site (consumer leisure travel)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct (Dream Vacations FDD on file)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Homewood Suites by Hilton",
+      "slug": "homewood-suites-by-hilton",
+      "category": "Travel & Lodging",
+      "website": "hilton.com",
+      "notes": "Hilton's upscale all-suite extended-stay brand (full kitchens, residential-style suites), franchised through Hilton Franchise Holding LLC since 1988. An institutional-scale hotel investment. Hilton does not publish a state-by-state availability list - development is negotiated market by market - so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Texas AG consumer-protection lawsuit against parent Hilton (pricing transparency)",
+          "detail": "In 2023 the Texas Attorney General sued Hilton for violations of Texas consumer protection laws over hotel fee/price transparency (drip pricing of mandatory fees), part of a multi-state push affecting major hotel franchisors whose brand-level pricing practices flow down to franchised hotels.",
+          "source": "Texas Attorney General press release",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/paxton-announces-lawsuit-against-hilton-violations-texas-consumer-protection-laws-and-lack-price",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "DOJ ADA consent decree covering Hilton-branded chains including Homewood Suites",
+          "detail": "The U.S. Justice Department reached a settlement/consent decree with Hilton Worldwide over ADA violations at Hilton-owned and franchised hotel chains, imposing accessibility obligations across branded properties - compliance costs land on hotel owners.",
+          "source": "U.S. Department of Justice, Office of Public Affairs",
+          "url": "https://www.justice.gov/archives/opa/pr/justice-department-reaches-agreement-hilton-worldwide-inc-over-ada-violations-hilton-hotels",
+          "year": 2010
+        },
+        {
+          "severity": "info",
+          "title": "Sister brand Home2 Suites is out-developing Homewood in the same extended-stay segment",
+          "detail": "Hilton's newer, cheaper-to-build Home2 Suites reached 748 locations by July 2025 versus roughly 518 US Homewood Suites - new Hilton extended-stay development capital is flowing primarily to the sister brand, which competes for similar guests at a lower price point.",
+          "source": "Stories From Hilton (Home2 milestone release); Vetted Biz Homewood Suites unit data",
+          "url": "https://stories.hilton.com/releases/home2-suites-by-hilton-hits-500-hotels-milestone",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 4750000, "source": "Vetted Biz - Homewood Suites Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash per Vetted Biz FDD analysis; actual requirement scales with the project."},
+        "totalInvestmentMin": {"value": 20824955, "source": "Homewood Suites 2025 FDD Item 7 (via Vetted Biz)", "year": 2025, "confidence": "high", "note": "New-build range; older directory summaries cite $12.3M-$26.0M for smaller prototypes."},
+        "totalInvestmentMax": {"value": 32522797, "source": "Homewood Suites 2025 FDD Item 7 (via Vetted Biz)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 100000, "source": "Vetted Biz - Homewood Suites Franchise Insights (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Older directory summaries cite a $75,000 base application fee; Hilton fees scale with room count."},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz - Homewood Suites Franchise Insights (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Percent of Gross Rooms Revenue; a separate monthly program/marketing fee also applies (percentage not published by this source)."},
+        "totalUnits": {"value": 518, "source": "Vetted Biz - Homewood Suites Franchise Insights", "year": 2025, "confidence": "medium", "note": "US locations."},
+        "yearFounded": {"value": 1988, "source": "Vetted Biz - Homewood Suites Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1988, "source": "Vetted Biz - Homewood Suites Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 5, "source": "Vetted Biz - Homewood Suites Franchise Insights", "year": 2025, "confidence": "medium", "note": "Five weeks at Homewood Suites corporate headquarters."},
+        "businessModelType": {"value": "b2c", "source": "Hilton brand site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz (Homewood Suites FDD analysis on file)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "IHOP",
+      "slug": "ihop",
+      "category": "Food & Beverage",
+      "website": "ihop.com",
+      "notes": "Breakfast/family-dining icon owned by Dine Brands Global (with Applebee's), ~100% franchised. Actively selling franchises and pushing dual-brand IHOP/Applebee's locations, but the US system is in net contraction: roughly 100 closures between 2023 and 2025 with more announced. Figures below are the traditional-restaurant program; a separate non-traditional program (travel centers, etc.) costs much less. No published state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Net closures: ~100 restaurants closed 2023-2025 with more announced",
+          "detail": "IHOP closed nearly 100 restaurants between 2023 and 2025, and parent Dine Brands said IHOP and Applebee's will permanently close additional underperforming locations; Q2 2025 development resulted in 7 openings against 46 closures across the two brands, with IHOP 2025 guidance between +10 and -10 net units.",
+          "source": "Restaurant Business - IHOP and Applebee's will permanently close more restaurants",
+          "url": "https://www.restaurantbusinessonline.com/financing/ihop-applebees-will-permanently-close-more-restaurants",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Breakfast-category sales decline",
+          "detail": "Franchise Times Top 400 data showed IHOP (and rival Perkins) systemwide sales falling as the family-dining/breakfast category posted a slight decline - traffic pressure from fast-casual breakfast concepts and value-sensitive consumers weighs on AUVs.",
+          "source": "Franchise Times - Perkins, IHOP Sales Fall as Breakfast Category Sees Slight Decline",
+          "url": "https://www.franchisetimes.com/franchise_news/perkins-ihop-sales-fall-as-breakfast-category-sees-slight-decline-top-400-data-shows/article_1cd3f002-cc1d-4a44-bd14-735177dff337.html",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Turnaround strategy hinges on remodels and dual-branding with Applebee's",
+          "detail": "Dine Brands is leaning on renovations and co-located IHOP/Applebee's dual-brand restaurants to stem closures - a strategy still being proven in the US market; franchisees face remodel capital calls as part of the program.",
+          "source": "Restaurant Dive - Applebee's hopes renovations, dual-branding will prevent more closures",
+          "url": "https://www.restaurantdive.com/news/Applebees-closures-renovations-ihop-dual-brand/741643/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 590000, "source": "Vetted Biz - IHOP (Traditional) Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 2441798, "source": "IHOP (Traditional) 2025 FDD (via Vetted Biz)", "year": 2025, "confidence": "high", "note": "Traditional restaurant program. Including the non-traditional program, FDD-derived sources cite an overall range of roughly $1.15M-$6.09M."},
+        "totalInvestmentMax": {"value": 4506865, "source": "IHOP (Traditional) 2025 FDD (via Vetted Biz)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "IHOP 2025 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high", "note": "Single-restaurant domestic development; $40,000 per restaurant under multi-restaurant development agreements."},
+        "royaltyPercent": {"value": 4.5, "source": "IHOP 2025 FDD summaries (via SHARPSHEETS and PeerSense)", "year": 2025, "confidence": "medium", "note": "4.5% of gross sales; Vetted Biz lists 5%. 20-year initial agreement term per FDD summaries."},
+        "adFundPercent": {"value": 3.5, "source": "IHOP 2025 FDD summaries (via SHARPSHEETS)", "year": 2025, "confidence": "medium", "note": "3.5% of gross sales national marketing; Vetted Biz lists 4% combined."},
+        "avgUnitRevenue": {"value": 1970976, "source": "Vetted Biz - IHOP (Traditional) Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per traditional restaurant."},
+        "totalUnits": {"value": 1655, "source": "Vetted Biz - IHOP Franchise Insights; SHARPSHEETS 2025 FDD analysis", "year": 2025, "confidence": "medium", "note": "US locations; effectively 100% franchised (Dine Brands operates an asset-light model)."},
+        "yearFounded": {"value": 1958, "source": "Vetted Biz - IHOP Franchise Insights", "year": 2025, "confidence": "high", "note": "First International House of Pancakes opened in Toluca Lake, CA."},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - IHOP Franchise Insights", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "Restaurant Business; Dine Brands Q2 2025 results (closures outpacing openings)", "year": 2025, "confidence": "high", "note": "~100 closures 2023-2025; 2025 guidance between +10 and -10 net IHOP units."},
+        "businessModelType": {"value": "b2c", "source": "IHOP brand site (family dining)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (IHOP 2025 FDDs on file); Vetted Biz", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz IHOP FDD analysis (Item 19-derived revenue published)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Hilton Garden Inn",
+      "slug": "hilton-garden-inn",
+      "category": "Travel & Lodging",
+      "website": "hilton.com",
+      "notes": "Hilton's upscale select-service hotel brand and one of the largest franchised hotel systems in the US (~750-800 domestic hotels). Institutional-scale development franchised through Hilton Franchise Holding LLC. Hilton does not publish a state-by-state availability list - development is negotiated market by market - so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Texas AG consumer-protection lawsuit against parent Hilton (pricing transparency)",
+          "detail": "In 2023 the Texas Attorney General sued Hilton for violations of Texas consumer protection laws over hotel fee/price transparency (drip pricing of mandatory fees), part of a multi-state push affecting major hotel franchisors whose brand-level pricing practices flow down to franchised hotels.",
+          "source": "Texas Attorney General press release",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/paxton-announces-lawsuit-against-hilton-violations-texas-consumer-protection-laws-and-lack-price",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "DOJ ADA consent decree covering Hilton-branded chains including Hilton Garden Inn",
+          "detail": "The U.S. Justice Department reached a settlement/consent decree with Hilton Worldwide over ADA violations at Hilton-owned and franchised hotel chains, imposing accessibility obligations across branded properties - compliance costs land on hotel owners.",
+          "source": "U.S. Department of Justice, Office of Public Affairs",
+          "url": "https://www.justice.gov/archives/opa/pr/justice-department-reaches-agreement-hilton-worldwide-inc-over-ada-violations-hilton-hotels",
+          "year": 2010
+        },
+        {
+          "severity": "info",
+          "title": "Combined brand fees approach 10% of gross rooms revenue",
+          "detail": "The 5.5% royalty plus 4.0% program fee take roughly 9.5% of gross rooms revenue before any other Hilton system charges (reservations, loyalty, PIP/renovation requirements), and the headline investment range excludes the underlying real estate.",
+          "source": "Franchise Help - Hilton Garden Inn franchise profile (FDD-derived)",
+          "url": "https://www.franchisehelp.com/franchises/hilton-garden-inn/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 4910000, "source": "Vetted Biz - Hilton Garden Inn Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash per Vetted Biz FDD analysis; actual requirement scales with the project."},
+        "totalInvestmentMin": {"value": 12058450, "source": "Hilton Garden Inn FDD Item 7 (via Franchise Help)", "year": 2025, "confidence": "medium", "note": "Excludes underlying real estate. Vetted Biz 2025 FDD-derived range is higher ($21.9M-$32.4M) for larger new-build prototypes."},
+        "totalInvestmentMax": {"value": 23182650, "source": "Hilton Garden Inn FDD Item 7 (via Franchise Help)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 75000, "source": "Hilton Garden Inn FDD summaries (via Franchise Help)", "year": 2025, "confidence": "medium", "note": "Standard application fee $75,000 plus $400 per room beyond 150; $175,000 for change-of-ownership applications. Vetted Biz lists $100,000."},
+        "royaltyPercent": {"value": 5.5, "source": "Hilton Garden Inn FDD summaries (via Franchise Help)", "year": 2025, "confidence": "medium", "note": "5.5% of gross rooms revenue; Vetted Biz lists 6%."},
+        "adFundPercent": {"value": 4, "source": "Hilton Garden Inn FDD summaries (via Franchise Help)", "year": 2025, "confidence": "medium", "note": "4.0% of gross rooms revenue monthly program fee."},
+        "totalUnits": {"value": 750, "source": "Vetted Biz - Hilton Garden Inn Franchise Insights", "year": 2025, "confidence": "medium", "note": "US locations per Vetted Biz; Franchise Help lists 805 units in operation."},
+        "yearFounded": {"value": 1990, "source": "Vetted Biz - Hilton Garden Inn Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1990, "source": "Vetted Biz - Hilton Garden Inn Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Hilton Garden Inn Franchise Insights", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Hilton brand site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Help and Vetted Biz FDD-derived profiles", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Cruise Planners",
+      "slug": "cruise-planners",
+      "category": "Travel & Lodging",
+      "website": "cruiseplanners.com",
+      "notes": "Largest home-based travel-advisor franchise network in the US (3,000+ franchisees in all 50 states plus DC), headquartered in Fort Lauderdale, FL. Among the cheapest franchises sold anywhere ($1,945-$20,505 all-in) with a declining-scale royalty on commissionable travel sales. Operates in all 50 states plus DC per the 2025 FDD, but franchises are not geographically exclusive, so no statesOpen list is meaningful; availability is effectively nationwide by inquiry.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "No exclusive territories - 3,000+ franchisees can compete head-to-head",
+          "detail": "The franchise agreement explicitly grants no exclusive territory; franchisees may operate in close proximity to one another (and online competition is location-agnostic). With over 3,000 US franchises, new owners compete with the existing network for the same travelers.",
+          "source": "Cruise Planners 2025 FDD (via SHARPSHEETS FDD analysis)",
+          "url": "https://sharpsheets.io/blog/cruise-planners-franchise-fdd-profits-costs-fees/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Commission-based, cruise-weighted earnings",
+          "detail": "Royalties apply only to commissionable sales (cruises, tours, resorts), underscoring that franchisee income is supplier commissions - dependent on cruise-line and tour-operator commission policies and on travel-industry health, not franchisee-set pricing.",
+          "source": "Cruise Planners franchisor site - franchise royalty fees page",
+          "url": "https://www.cruiseplannersfranchise.com/franchise-royalty-fees",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Near-zero entry cost cuts both ways",
+          "detail": "Five days of initial training and an investment that can be under $2,000 mean a very low barrier to entry; the franchisor also discloses lawsuit and/or bankruptcy history in its FDD per Vetted Biz - buyers should review Items 3-4 and expect wide variance in franchisee outcomes.",
+          "source": "Vetted Biz - Cruise Planners Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/cruise-planners",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Cruise Planners 2025 FDD (via SHARPSHEETS FDD analysis)",
+        "url": "https://sharpsheets.io/blog/cruise-planners-franchise-fdd-profits-costs-fees/",
+        "year": 2025,
+        "note": "3,008 franchised locations operating in all 50 states plus DC per the 2025 FDD; home-based model with no exclusive territories."
+      },
+      "fields": {
+        "totalInvestmentMin": {"value": 1945, "source": "Cruise Planners 2025 FDD Item 7 (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 20505, "source": "Cruise Planners 2025 FDD Item 7 (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 10995, "source": "Cruise Planners franchisor site; 2025 FDD (fee range $695-$10,995)", "year": 2025, "confidence": "high", "note": "Standard fee $10,995; discounted tiers for experienced travel agents and special programs."},
+        "royaltyPercent": {"value": 3, "source": "Cruise Planners franchisor site - franchise royalty fees page", "year": 2026, "confidence": "high", "note": "Declining scale on commissionable revenue: 3% to $500K, 2% to $750K, 1% to $1M, 0% above $1M. Applies only to commissionable sales. Vetted Biz lists a 2% blended figure."},
+        "totalUnits": {"value": 3008, "source": "Cruise Planners 2025 FDD (via SHARPSHEETS FDD analysis)", "year": 2025, "confidence": "high", "note": "All franchised; locations in 50 states plus DC."},
+        "yearFounded": {"value": 1994, "source": "Vetted Biz - Cruise Planners Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2005, "source": "Vetted Biz - Cruise Planners Franchise Insights", "year": 2025, "confidence": "low", "note": "Per Vetted Biz; other directories cite franchising since 1999."},
+        "trainingWeeks": {"value": 1, "source": "Vetted Biz - Cruise Planners Franchise Insights", "year": 2025, "confidence": "medium", "note": "Five-day initial training at Fort Lauderdale headquarters plus ongoing online resources."},
+        "exclusiveTerritories": {"value": false, "source": "Cruise Planners 2025 FDD (via SHARPSHEETS FDD analysis)", "year": 2025, "confidence": "high"},
+        "canRunFromHome": {"value": true, "source": "Cruise Planners franchisor site (home-based travel advisor network)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Cruise Planners franchisor site (consumer leisure travel)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS 2025 FDD analysis; Vetted Biz", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Transworld Business Advisors",
+      "slug": "transworld-business-advisors",
+      "category": "Services",
+      "website": "tworld.com",
+      "notes": "Business-brokerage franchise (selling businesses, franchise consulting, and franchise development services) operated by United Franchise Group's Starpoint Brands division; Transworld Business Brokers (founded 1979) became a franchisor via a UFG joint venture in 2010. Low overhead, commission-driven model with 450+ US offices in 46 states plus DC. No published state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "14% of franchise agreements ended in a recent three-year period",
+          "detail": "Per FDD-derived due-diligence analysis, 14% of Transworld Business Advisors franchise agreements ended in ceased operations, termination, or transfer over a recent three-year window - meaningful churn for a professional-services franchise.",
+          "source": "FranchiseComplaints.org - Transworld Franchise Due Diligence Report",
+          "url": "https://www.franchisecomplaints.org/reports/transworld-franchise-due-diligence/",
+          "year": 2023
+        },
+        {
+          "severity": "caution",
+          "title": "Parent United Franchise Group's sales-practice history",
+          "detail": "Former employees of parent UFG have described a high-pressure sales culture across its brands, and UFG founder Roy Titus's organization earned an FTC injunction and a Maryland Securities Commissioner consent order over deceptive hard-sell tactics in the 1990s. Buyers should validate income expectations independently of the sales process.",
+          "source": "Unhappy Franchisee - United Franchise Group (UFG) franchise complaints",
+          "url": "https://unhappyfranchisee.com/united-franchise-group-franchise-complaints/",
+          "year": 2019
+        },
+        {
+          "severity": "info",
+          "title": "Modest average office revenue against a $100K+ all-in cost",
+          "detail": "Vetted Biz FDD-derived analysis shows average yearly gross sales of about $230,332 per office (estimated owner earnings $39,157-$50,674) - viable as an owner-operated professional practice, but commission timing is lumpy and revenue depends on deal closings.",
+          "source": "Vetted Biz - Transworld Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/transworld",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 20000, "source": "Vetted Biz - Transworld Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 104105, "source": "Transworld Business Advisors 2025 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 131055, "source": "Transworld Business Advisors 2025 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 67500, "source": "Transworld Business Advisors 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 8, "source": "Transworld Business Advisors FDD summaries (via SHARPSHEETS and Top Franchise)", "year": 2025, "confidence": "medium", "note": "8% of gross revenues; Vetted Biz lists 9%, and the FDD includes minimum monthly royalty obligations."},
+        "avgUnitRevenue": {"value": 230332, "source": "Vetted Biz - Transworld Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per office."},
+        "totalUnits": {"value": 453, "source": "Transworld Business Advisors 2025 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high", "note": "US franchised offices in 46 states plus DC."},
+        "yearFounded": {"value": 1979, "source": "Vetted Biz - Transworld Franchise Insights", "year": 2025, "confidence": "high", "note": "Transworld Business Brokers founded in Fort Lauderdale, FL."},
+        "yearFranchising": {"value": 2010, "source": "Vetted Biz; NBC News (joint venture with United Franchise Group created the franchisor in 2010)", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Transworld Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two weeks at West Palm Beach, FL headquarters."},
+        "renewalTermYears": {"value": 35, "source": "Top Franchise - Transworld Business Advisors profile", "year": 2025, "confidence": "medium", "note": "35-year initial term with renewal for another 35-year term if requirements are met."},
+        "businessModelType": {"value": "b2b", "source": "Transworld franchisor site (business brokerage and franchise consulting)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS 2025 FDD analysis; Franchise Direct", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Pearle Vision",
+      "slug": "pearle-vision",
+      "category": "Health & Wellness",
+      "website": "pearlevision.com",
+      "notes": "Eye-care center franchise (eye exams plus eyewear retail) owned by EssilorLuxottica, the world's largest eyewear company. Solid franchise economics with published EBITDA margins by operating model, but the franchised system is slowly contracting and the franchisor's parent is simultaneously supplier and competitor (LensCrafters, Target Optical, and other EssilorLuxottica banners). No published state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisor parent is also the dominant supplier and a retail competitor",
+          "detail": "Pearle Vision is owned by EssilorLuxottica (formed in the 2018 Essilor-Luxottica merger), which manufactures the lenses/frames franchisees sell and operates competing optical retail chains - a structural channel conflict on pricing, supply terms, and market allocation.",
+          "source": "SHARPSHEETS - Pearle Vision Franchise FDD analysis (ownership background)",
+          "url": "https://sharpsheets.io/blog/pearle-vision-franchise-costs-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Slow franchised-system contraction",
+          "detail": "Per 2025 FDD outlet tables, US franchised centers slipped 447 -> 445 -> 441 across 2022-2024 (company-owned 62 -> 59), continuing a long decline from the brand's 800+ unit peak decades ago even as headline rankings remain strong.",
+          "source": "Pearle Vision 2025 FDD outlet tables (via Franchise Chatter 2025 review)",
+          "url": "https://www.franchisechatter.com/2025/12/22/pearle-vision-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Combined royalty plus advertising of 15% of gross revenues",
+          "detail": "The 7% royalty plus 8% advertising obligation (6% national + 2% local) is among the heaviest combined fee loads in franchising; margins depend on the high-gross-margin optical retail model absorbing it.",
+          "source": "Pearle Vision 2025 FDD (via Franchise Chatter 2025 review)",
+          "url": "https://www.franchisechatter.com/2025/12/22/pearle-vision-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Economics differ sharply by operating model",
+          "detail": "FY2024 Item 19 shows optometrist-owned centers averaging $1,429,000 revenue (18.0% EBITDA), owner-employing-OD centers $1,299,000 (21.2% EBITDA), but optician/investor-with-sublease centers only $971,000 (10.7% EBITDA) - the passive-investor configuration materially underperforms.",
+          "source": "Pearle Vision 2025 FDD Item 19 (via Franchise Chatter 2025 review)",
+          "url": "https://www.franchisechatter.com/2025/12/22/pearle-vision-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 170000, "source": "Vetted Biz - Pearle Vision Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 699464, "source": "Pearle Vision 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "New licensed operator; $689,464-$1,326,854 for existing licensed operators."},
+        "totalInvestmentMax": {"value": 1336854, "source": "Pearle Vision 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 30000, "source": "Pearle Vision 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "$30,000 new licensed operator; $20,000 for existing licensed operators."},
+        "royaltyPercent": {"value": 7, "source": "Pearle Vision 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "7% of gross revenues."},
+        "adFundPercent": {"value": 8, "source": "Pearle Vision 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "8% of gross revenues total: 6% national advertising + 2% local marketing."},
+        "avgUnitRevenue": {"value": 1429000, "source": "Pearle Vision 2025 FDD Item 19, FY2024 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Average net total revenue for 161 optometrist/ophthalmologist-owned centers (largest cohort); median systemwide ~$1,213,000 per Vetted Biz. Other cohorts: owner-employing-OD $1,299,000; optician/investor sublease $971,000."},
+        "totalUnits": {"value": 500, "source": "Pearle Vision 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "441 franchised + 59 company-owned (US) at end of 2024."},
+        "yearFounded": {"value": 1960, "source": "Vetted Biz - Pearle Vision Franchise Insights", "year": 2025, "confidence": "high", "note": "Founded by Dr. Stanley Pearle in Savannah, GA; headquarters now Mason, OH."},
+        "yearFranchising": {"value": 1981, "source": "Vetted Biz - Pearle Vision Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Pearle Vision Franchise Insights", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "Pearle Vision 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Franchised centers 447 -> 445 -> 441 across 2022-2024."},
+        "businessModelType": {"value": "b2c", "source": "Pearle Vision brand site (consumer eye care and eyewear retail)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Pearle Vision 2025 FDD); Franchise Chatter review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    }
+  ]
+}
