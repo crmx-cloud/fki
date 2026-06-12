@@ -1,5 +1,5 @@
 import { v } from "convex/values";
-import { httpAction, internalMutation } from "./_generated/server";
+import { httpAction, internalMutation, internalQuery } from "./_generated/server";
 import { internal } from "./_generated/api";
 
 /**
@@ -162,6 +162,191 @@ export const recordInquiry = internalMutation({
 
     return inquiryId;
   },
+});
+
+// ───────────────────────── Contact verification (onboarding) ─────────────────────────
+// After submitting, the franchisor lands on the showcase /welcome onboarding
+// and verifies email + phone with 6-digit codes. Same semantics as the
+// platform's verification.ts (hashed code, 10-min TTL, 5 attempts), but keyed
+// to the inquiry row since the submitter has no platform account yet.
+
+const KIND = v.union(v.literal("email"), v.literal("phone"));
+const CODE_TTL_MS = 10 * 60 * 1000;
+const MAX_ATTEMPTS = 5;
+const RESEND_COOLDOWN_MS = 60 * 1000;
+
+export const getInquiry = internalQuery({
+  args: { inquiryId: v.id("brandShowcaseInquiries") },
+  handler: async (ctx, args) => ctx.db.get(args.inquiryId),
+});
+
+export const storeVerifyCode = internalMutation({
+  args: { inquiryId: v.id("brandShowcaseInquiries"), kind: KIND, codeHash: v.string() },
+  handler: async (ctx, args) => {
+    const now = Date.now();
+    await ctx.db.patch(
+      args.inquiryId,
+      args.kind === "email"
+        ? {
+            emailCodeHash: args.codeHash,
+            emailCodeExpiresAt: now + CODE_TTL_MS,
+            emailCodeAttempts: 0,
+            emailCodeSentAt: now,
+          }
+        : {
+            phoneCodeHash: args.codeHash,
+            phoneCodeExpiresAt: now + CODE_TTL_MS,
+            phoneCodeAttempts: 0,
+            phoneCodeSentAt: now,
+          }
+    );
+    return { ok: true };
+  },
+});
+
+export const checkVerifyCode = internalMutation({
+  args: { inquiryId: v.id("brandShowcaseInquiries"), kind: KIND, codeHash: v.string() },
+  handler: async (ctx, args) => {
+    const row = await ctx.db.get(args.inquiryId);
+    if (!row) return { ok: false, error: "Inquiry not found" };
+    const isEmail = args.kind === "email";
+    const hash = isEmail ? row.emailCodeHash : row.phoneCodeHash;
+    const expiresAt = isEmail ? row.emailCodeExpiresAt : row.phoneCodeExpiresAt;
+    const attempts = (isEmail ? row.emailCodeAttempts : row.phoneCodeAttempts) ?? 0;
+
+    const clearCode = isEmail
+      ? { emailCodeHash: undefined, emailCodeExpiresAt: undefined, emailCodeAttempts: undefined }
+      : { phoneCodeHash: undefined, phoneCodeExpiresAt: undefined, phoneCodeAttempts: undefined };
+
+    if (!hash) return { ok: false, error: "No code pending — request a new one" };
+    if (!expiresAt || Date.now() > expiresAt) {
+      await ctx.db.patch(args.inquiryId, clearCode);
+      return { ok: false, error: "Code expired — request a new one" };
+    }
+    if (attempts >= MAX_ATTEMPTS) {
+      await ctx.db.patch(args.inquiryId, clearCode);
+      return { ok: false, error: "Too many attempts — request a new one" };
+    }
+    if (hash !== args.codeHash) {
+      await ctx.db.patch(
+        args.inquiryId,
+        isEmail ? { emailCodeAttempts: attempts + 1 } : { phoneCodeAttempts: attempts + 1 }
+      );
+      return { ok: false, error: "Incorrect code" };
+    }
+
+    await ctx.db.patch(args.inquiryId, {
+      ...clearCode,
+      ...(isEmail ? { emailVerifiedAt: Date.now() } : { phoneVerifiedAt: Date.now() }),
+    });
+
+    const updated = await ctx.db.get(args.inquiryId);
+    const bothVerified = Boolean(updated?.emailVerifiedAt && updated?.phoneVerifiedAt);
+    if (bothVerified) {
+      // Segmentation tag in CRMX — fail-soft, fire and forget
+      await ctx.scheduler.runAfter(0, internal.brandShowcaseVerify.tagVerified, {
+        inquiryId: args.inquiryId,
+      });
+    }
+    return { ok: true, bothVerified };
+  },
+});
+
+async function sha256Hex(input: string): Promise<string> {
+  const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(input));
+  return Array.from(new Uint8Array(digest))
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+function checkSecret(request: Request): Response | null {
+  const expectedSecret = process.env.BRAND_SHOWCASE_SECRET;
+  if (!expectedSecret) {
+    console.error("[brandShowcase] BRAND_SHOWCASE_SECRET not set — rejecting request");
+    return json({ error: "not_configured" }, 503);
+  }
+  if (request.headers.get("X-Showcase-Secret") !== expectedSecret) {
+    return json({ error: "unauthorized" }, 401);
+  }
+  return null;
+}
+
+/** POST /api/brand-showcase-verify/send — { inquiryId, kind } */
+export const verifySendHandler = httpAction(async (ctx, request) => {
+  const denied = checkSecret(request);
+  if (denied) return denied;
+
+  let body: { inquiryId?: string; kind?: string };
+  try {
+    body = await request.json();
+  } catch {
+    return json({ error: "invalid_json" }, 400);
+  }
+  if (!body.inquiryId || (body.kind !== "email" && body.kind !== "phone")) {
+    return json({ error: "bad_request" }, 400);
+  }
+
+  let inquiry;
+  try {
+    inquiry = await ctx.runQuery(internal.brandShowcase.getInquiry, {
+      inquiryId: body.inquiryId as any,
+    });
+  } catch {
+    return json({ error: "invalid_inquiry_id" }, 400);
+  }
+  if (!inquiry) return json({ error: "inquiry_not_found" }, 404);
+
+  const isEmail = body.kind === "email";
+  if (isEmail ? inquiry.emailVerifiedAt : inquiry.phoneVerifiedAt) {
+    return json({ ok: true, alreadyVerified: true });
+  }
+  const sentAt = isEmail ? inquiry.emailCodeSentAt : inquiry.phoneCodeSentAt;
+  if (sentAt && Date.now() - sentAt < RESEND_COOLDOWN_MS) {
+    return json({
+      ok: false,
+      error: "cooldown",
+      retryInSeconds: Math.ceil((RESEND_COOLDOWN_MS - (Date.now() - sentAt)) / 1000),
+    });
+  }
+
+  const result = await ctx.runAction(internal.brandShowcaseVerify.sendCode, {
+    inquiryId: body.inquiryId as any,
+    kind: body.kind,
+  });
+  return json(result.sent ? { ok: true } : { ok: false, error: result.reason });
+});
+
+/** POST /api/brand-showcase-verify/confirm — { inquiryId, kind, code } */
+export const verifyConfirmHandler = httpAction(async (ctx, request) => {
+  const denied = checkSecret(request);
+  if (denied) return denied;
+
+  let body: { inquiryId?: string; kind?: string; code?: string };
+  try {
+    body = await request.json();
+  } catch {
+    return json({ error: "invalid_json" }, 400);
+  }
+  if (
+    !body.inquiryId ||
+    (body.kind !== "email" && body.kind !== "phone") ||
+    typeof body.code !== "string" ||
+    !/^\d{6}$/.test(body.code.trim())
+  ) {
+    return json({ error: "bad_request" }, 400);
+  }
+
+  const codeHash = await sha256Hex(body.code.trim());
+  try {
+    const result = await ctx.runMutation(internal.brandShowcase.checkVerifyCode, {
+      inquiryId: body.inquiryId as any,
+      kind: body.kind,
+      codeHash,
+    });
+    return json(result);
+  } catch {
+    return json({ error: "invalid_inquiry_id" }, 400);
+  }
 });
 
 /** QA helper: remove test inquiries by email (cleanup of test submissions only). */

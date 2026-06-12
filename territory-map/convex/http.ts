@@ -2,7 +2,7 @@ import { httpRouter } from "convex/server";
 import { auth } from "./auth";
 import { syncHttpHandler } from "./crmSync";
 import { testEmailSend } from "./debugEmail";
-import { inquiryHttpHandler } from "./brandShowcase";
+import { inquiryHttpHandler, verifySendHandler, verifyConfirmHandler } from "./brandShowcase";
 const http = httpRouter();
 auth.addHttpRoutes(http);
 
@@ -26,6 +26,19 @@ http.route({
   path: "/api/brand-showcase-inquiry",
   method: "POST",
   handler: inquiryHttpHandler,
+});
+
+// Brand Showcase onboarding: contact verification (email + SMS codes),
+// called by the showcase site's /api/verify relay (same secret header)
+http.route({
+  path: "/api/brand-showcase-verify/send",
+  method: "POST",
+  handler: verifySendHandler,
+});
+http.route({
+  path: "/api/brand-showcase-verify/confirm",
+  method: "POST",
+  handler: verifyConfirmHandler,
 });
 
 export default http;
