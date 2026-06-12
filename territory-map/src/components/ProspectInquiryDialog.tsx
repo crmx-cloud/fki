@@ -153,13 +153,13 @@ export function ProspectInquiryDialog({
         <div className="space-y-4 mt-2">
           {/* Explanation */}
           <p className="text-sm text-slate-400">
-            We'll share your profile with the {brandName} team so they can reach out. A Franchise KI consultant will also connect with you to make sure this is a great fit.
+            A Franchise KI approved franchise consultant will connect with you to make sure {brandName} is a great fit — and walk you through next steps if it is. 100% free for you, always.
           </p>
 
           {/* Profile summary card */}
           <div className="bg-white/5 border border-white/10 rounded-xl p-4 space-y-2.5">
             <div className="text-xs text-slate-500 uppercase tracking-wider font-medium mb-2">
-              Info we'll share
+              Info we'll share with your consultant
             </div>
             {(firstName || lastName) && (
               <div className="flex items-center gap-2 text-sm">
@@ -191,7 +191,7 @@ export function ProspectInquiryDialog({
           <div className="flex items-start gap-2.5 bg-cyan-500/5 border border-cyan-500/15 rounded-lg p-3">
             <ShieldCheck className="w-4 h-4 text-cyan-400 mt-0.5 shrink-0" />
             <p className="text-xs text-cyan-300/80">
-              By clicking below, you agree to be contacted by the Franchise KI team and {brandName} to discuss franchise opportunities. No spam, no pressure — just a friendly conversation.
+              By clicking below, you agree to be contacted by your Franchise KI consultant about {brandName}. Consultants are paid by franchisors — never by you. No cost, no spam, no pressure.
             </p>
           </div>
 
@@ -217,7 +217,7 @@ export function ProspectInquiryDialog({
               ) : (
                 <>
                   <MessageCircle className="w-4 h-4 mr-1.5" />
-                  Yes, Have Them Reach Out
+                  Yes, Connect Me — Free
                 </>
               )}
             </Button>

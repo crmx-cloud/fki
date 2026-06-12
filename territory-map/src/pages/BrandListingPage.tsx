@@ -2229,7 +2229,7 @@ function InterestFormDialog({
             <span className="text-cyan-400">{brandName}</span>
           </DialogTitle>
           <p className="text-sm text-slate-500 mt-1">
-            Tell us a little about yourself and the {brandName} team will follow up.
+            Tell us a little about yourself and a Franchise KI approved consultant will follow up to see if {brandName} is a great fit — free for you, always.
           </p>
         </DialogHeader>
 
