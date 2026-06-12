@@ -1,5 +1,5 @@
 import { getAuthUserId } from "@convex-dev/auth/server";
-import { mutation, query } from "./_generated/server";
+import { mutation, query, internalMutation } from "./_generated/server";
 import { internal } from "./_generated/api";
 import { v } from "convex/values";
 import { ADMIN_EMAIL_DOMAIN } from "./constants";
@@ -686,7 +686,55 @@ export const updateMyProfile = mutation({
       }
     }
 
+    // ONE identity: keep the PerfectFit (prospect) profile in sync so
+    // Settings and /my-profile never show two different names.
+    const prospect = await ctx.db
+      .query("prospectProfiles")
+      .withIndex("by_user", (q) => q.eq("userId", userId))
+      .first();
+    if (prospect) {
+      const pPatch: Record<string, string | number | undefined> = {};
+      if (args.firstName !== undefined) pPatch.firstName = args.firstName.trim();
+      if (args.lastName !== undefined) pPatch.lastName = args.lastName.trim();
+      if (args.phone !== undefined) pPatch.phone = args.phone.trim() || undefined;
+      if (Object.keys(pPatch).length > 0) {
+        pPatch.contactLastEditedAt = Date.now();
+        await ctx.db.patch(prospect._id, pPatch);
+      }
+    }
+
     return { success: true };
+  },
+});
+
+/**
+ * One-time backfill (and re-runnable repair): for every prospect with a
+ * PerfectFit profile, mirror its name/phone up to userProfiles + users.name
+ * so Settings shows the same identity. PerfectFit profile wins — it's where
+ * prospects actually maintain their contact info.
+ */
+export const syncIdentityBackfill = internalMutation({
+  args: {},
+  handler: async (ctx) => {
+    let synced = 0;
+    for (const p of await ctx.db.query("prospectProfiles").collect()) {
+      if (!p.userId || (!p.firstName && !p.lastName && !p.phone)) continue;
+      const up = await ctx.db
+        .query("userProfiles")
+        .withIndex("by_user", (q) => q.eq("userId", p.userId!))
+        .first();
+      if (!up) continue;
+      const patch: Record<string, string | undefined> = {};
+      if (p.firstName && up.firstName !== p.firstName) patch.firstName = p.firstName;
+      if (p.lastName && up.lastName !== p.lastName) patch.lastName = p.lastName;
+      if (p.phone && up.phone !== p.phone) patch.phone = p.phone;
+      if (Object.keys(patch).length === 0) continue;
+      await ctx.db.patch(up._id, patch);
+      const fullName = [p.firstName ?? up.firstName, p.lastName ?? up.lastName].filter(Boolean).join(" ");
+      if (fullName) await ctx.db.patch(p.userId, { name: fullName });
+      synced++;
+    }
+    return { synced };
   },
 });
 

@@ -11,7 +11,7 @@ import {
   User,
 } from "lucide-react";
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -47,6 +47,7 @@ export function SettingsPage() {
   const updateMyProfile = useMutation(api.users.updateMyProfile);
   const deleteAccount = useMutation(api.users.deleteAccount);
   const navigate = useNavigate();
+  const isProspect = myProfile?.profile?.role === "prospect";
 
   /* ── Profile editing state ── */
   const [editing, setEditing] = useState(false);
@@ -74,7 +75,8 @@ export function SettingsPage() {
       await updateMyProfile({
         firstName: firstName.trim(),
         lastName: lastName.trim(),
-        phone: phone.replace(/\D/g, ""),
+        // Prospect phone lives on the PerfectFit profile (field is read-only here)
+        ...(isProspect ? {} : { phone: phone.replace(/\D/g, "") }),
       });
       toast.success("Profile updated");
       setEditing(false);
@@ -256,13 +258,26 @@ export function SettingsPage() {
 
               <div className="space-y-2">
                 <Label htmlFor="phone">Phone</Label>
-                <Input
-                  id="phone"
-                  type="tel"
-                  value={phone}
-                  onChange={(e) => setPhone(formatPhone(e.target.value))}
-                  placeholder="(555) 123-4567"
-                />
+                {isProspect ? (
+                  <>
+                    <Input id="phone" type="tel" value={phone} disabled className="opacity-60" />
+                    <p className="text-xs text-muted-foreground">
+                      Phone is managed in{" "}
+                      <Link to="/my-profile" className="text-primary underline underline-offset-2">
+                        your PerfectFit profile
+                      </Link>{" "}
+                      so your matches and consultant always have the right number.
+                    </p>
+                  </>
+                ) : (
+                  <Input
+                    id="phone"
+                    type="tel"
+                    value={phone}
+                    onChange={(e) => setPhone(formatPhone(e.target.value))}
+                    placeholder="(555) 123-4567"
+                  />
+                )}
               </div>
 
               <div className="flex items-center gap-2 pt-1">

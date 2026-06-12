@@ -188,6 +188,24 @@ export const saveProfile = mutation({
     if (contactState !== undefined) contactFields.state = contactState;
     if (args.zipCode !== undefined) contactFields.zipCode = args.zipCode;
 
+    // ONE identity: mirror name/phone up to the account (userProfiles +
+    // users.name) so Settings always shows the same person as /my-profile.
+    if (args.firstName !== undefined || args.lastName !== undefined || args.phone !== undefined) {
+      const up = await ctx.db
+        .query("userProfiles")
+        .withIndex("by_user", (q) => q.eq("userId", userId))
+        .first();
+      if (up) {
+        const upPatch: Record<string, string | undefined> = {};
+        if (args.firstName !== undefined) upPatch.firstName = args.firstName;
+        if (args.lastName !== undefined) upPatch.lastName = args.lastName;
+        if (args.phone !== undefined) upPatch.phone = args.phone;
+        await ctx.db.patch(up._id, upPatch);
+      }
+      const fullName = [args.firstName, args.lastName].filter(Boolean).join(" ");
+      if (fullName) await ctx.db.patch(userId, { name: fullName });
+    }
+
     // Check if prospect is editing contact info that was admin-verified
     const contactChanged = Object.keys(contactFields).length > 0;
     const auditFields: Record<string, any> = {};
