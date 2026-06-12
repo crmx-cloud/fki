@@ -1,0 +1,787 @@
+{
+  "brands": [
+    {
+      "name": "AmericInn by Wyndham",
+      "slug": "americinn-by-wyndham",
+      "category": "Travel & Lodging",
+      "website": "wyndhamhotels.com",
+      "notes": "Midscale hotel brand franchised by Wyndham Hotels & Resorts (acquired from Northcott Hospitality in 2017), with 230 hotels in 20 states as of 12/31/2025 and a stated push to grow 'from a Midwest player to a national name.' This is an institutional-scale hotel investment, not a small-business franchise. Wyndham does not publish a state-by-state availability list - development is negotiated market by market via development.wyndhamhotels.com - so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Heavy geographic concentration: 230 hotels in only 20 states",
+          "detail": "The brand remains concentrated in Midwest suburban and interstate markets (230 hotels across 20 states as of year-end 2025), so brand awareness - and the reservation-system lift a franchisee is paying for - is unproven in most of the country Wyndham is now targeting for expansion.",
+          "source": "Wyndham Hotels & Resorts development site - AmericInn by Wyndham",
+          "url": "https://development.wyndhamhotels.com/brand/americinn-by-wyndham/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Land excluded from headline investment figures",
+          "detail": "FDD-derived estimates put a typical 3-story, 75-room new build at $5,996,272-$8,576,730 excluding land acquisition costs; Vetted Biz's 2024 FDD-derived range runs $7.7M-$11M. Conversions of existing hotels can enter far lower (from ~$272,564), making the true all-in cost highly project-dependent.",
+          "source": "The FDD Exchange (AmericInn FDD summary); Vetted Biz FDD analysis",
+          "url": "https://fddexchange.com/view-fdd-docs/americinn-2021-fdd-franchise-information-costs-and-fees/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Ownership change: brand acquired by Wyndham in 2017",
+          "detail": "Wyndham Hotel Group completed its acquisition of AmericInn and its hotel management company from Northcott Hospitality in October 2017 (~200 hotels at the time), folding the brand into the world's largest hotel franchisor's 20+ brand portfolio, where it competes for development resources against sister midscale brands like Baymont and Wingate.",
+          "source": "PR Newswire - Wyndham Hotel Group Completes Acquisition of AmericInn",
+          "url": "https://www.prnewswire.com/news-releases/wyndham-hotel-group-completes-acquisition-of-americinn-300530061.html",
+          "year": 2017
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 1710000, "source": "Vetted Biz - AmericInn Franchise Insights (FDD-derived)", "year": 2024, "confidence": "medium", "note": "Minimum cash per Vetted Biz FDD analysis; actual requirement scales with the hotel project."},
+        "totalInvestmentMin": {"value": 272564, "source": "The FDD Exchange / Franchise Direct AmericInn FDD summary", "year": 2024, "confidence": "medium", "note": "Low end is a 100-room conversion of an existing hotel ($272,564-$3,705,733). New construction of a typical 3-story, 75-room AmericInn runs $5,996,272-$8,576,730 (excl. land); Vetted Biz's 2024 figures run $7,738,476-$10,960,034."},
+        "totalInvestmentMax": {"value": 10960034, "source": "Vetted Biz - AmericInn Franchise Insights (FDD-derived)", "year": 2024, "confidence": "medium", "note": "New-construction high end; excludes land acquisition."},
+        "franchiseFee": {"value": 35000, "source": "The FDD Exchange / Vetted Biz AmericInn FDD summaries", "year": 2024, "confidence": "medium", "note": "Initial fee commonly quoted at $35,000 (hotel application fees typically scale with room count)."},
+        "royaltyPercent": {"value": 5, "source": "Vetted Biz - AmericInn Franchise Insights; Franchise Direct", "year": 2024, "confidence": "high", "note": "5% of gross room revenue."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz - AmericInn Franchise Insights; Franchise Direct", "year": 2024, "confidence": "high", "note": "2% marketing/program fee on gross room revenue."},
+        "totalUnits": {"value": 230, "source": "Wyndham Hotels & Resorts development site - AmericInn by Wyndham", "year": 2026, "confidence": "high", "note": "230 hotels in 20 states as of 12/31/2025; ScrapeHero independently counts 230 US locations as of March 2026."},
+        "yearFounded": {"value": 1984, "source": "Wyndham Hotels & Resorts development site (brand inception)", "year": 2026, "confidence": "high", "note": "Brand inception 1984; acquired by Wyndham in 2017."},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - AmericInn Franchise Insights", "year": 2024, "confidence": "medium", "note": "Two weeks at corporate headquarters (Parsippany, NJ)."},
+        "isGrowing": {"value": true, "source": "Hotel Management (HM Exclusive); Wyndham development site", "year": 2024, "confidence": "medium", "note": "Opened more hotels in H1 2024 than in any year since the 2017 acquisition (228 hotels mid-2024, 230 by end of 2025) - modest net growth on a small base."},
+        "businessModelType": {"value": "b2c", "source": "Wyndham Hotels & Resorts development site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (AmericInn FDD on file)", "year": 2024, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Rita's Italian Ice & Frozen Custard",
+      "slug": "ritas-italian-ice-and-frozen-custard",
+      "category": "Food & Beverage",
+      "website": "ritasice.com",
+      "notes": "Seasonal Italian-ice and frozen-custard chain (founded outside Philadelphia) with ~569 US shops, under new private-equity majority ownership (Maple Park Capital Partners, Jan 2025). Item 19 results are highly dispersed and the business is seasonal in most markets. The franchisor does not publish a public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Wide Item 19 performance dispersion: bottom-tier shops average $212K",
+          "detail": "2024 Item 19 splits 520 reporting shops into thirds: top tier averaged $544,799 gross sales, middle tier $338,628, bottom tier just $212,106 (range floor $14,620) - on an investment that can exceed $770K, low-tier results imply very long or no payback.",
+          "source": "Rita's 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/12/ritas-italian-ice-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee Chapter 11 bankruptcy filing (June 2025)",
+          "detail": "Greene Family Enterprises LLC, a St. Johns, FL Rita's franchisee, filed for Chapter 11 protection in June 2025 listing $500K-$1M in liabilities against $100K-$500K in assets - a recent, concrete example of unit-level distress.",
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/restaurants/popular-dairy-queen-rival-franchisee-files-chapter-11-bankruptcy",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Private-equity majority stake acquired January 2025",
+          "detail": "Maple Park Capital Partners acquired a majority stake in Rita's in January 2025. New ownership is investing in growth infrastructure, but PE ownership changes can shift fee enforcement, vendor programs, and development priorities mid-agreement.",
+          "source": "Franchise Chatter 2025 FDD review (news section)",
+          "url": "https://www.franchisechatter.com/2025/10/12/ritas-italian-ice-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Longstanding franchisee complaints documented",
+          "detail": "Franchisee-complaint forums document recurring allegations from former Rita's operators about training quality, unreliable ROI expectations, and franchisor responsiveness; the franchisor has also litigated against franchisees (e.g., 2013 E.D. Pa. suit over unauthorized products).",
+          "source": "Unhappy Franchisee - Rita's Italian Ice Franchise Complaints; Pennsylvania Record",
+          "url": "https://unhappyfranchisee.com/ritas-italian-ice-franchise-complaints/",
+          "year": 2021
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 315233, "source": "Rita's 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Standard shop Item 7 range $315,233-$770,542; directory sources citing from $22,000 reflect non-standard/satellite formats."},
+        "totalInvestmentMax": {"value": 770542, "source": "Rita's 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 35000, "source": "Rita's 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "FDD discloses $10,000-$35,000 depending on format; $35,000 is the standard shop fee."},
+        "royaltyPercent": {"value": 6.5, "source": "Rita's 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "6.5% of estimated sales (mix items) or gross sales (non-mix items)."},
+        "adFundPercent": {"value": 3, "source": "Rita's 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "3% advertising contribution plus a 2% minimum local advertising requirement (3% ceiling)."},
+        "avgUnitRevenue": {"value": 365178, "source": "Rita's 2025 FDD Item 19 (via Franchise Chatter review) - derived", "year": 2025, "confidence": "medium", "note": "Weighted average derived from the FDD's tiered 2024 disclosure (top/middle/bottom thirds of 520 shops averaged $544,799 / $338,628 / $212,106). The FDD presents tiers, not a single systemwide AUV."},
+        "totalUnits": {"value": 569, "source": "Rita's 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "564 franchised + 5 company-owned at end of 2024."},
+        "yearFounded": {"value": 1984, "source": "Vetted Biz - Rita's Italian Ice franchise analysis", "year": 2025, "confidence": "medium", "note": "Founded in Bensalem, PA by Bob Tumolo."},
+        "yearFranchising": {"value": 1989, "source": "Vetted Biz - Rita's Italian Ice franchise analysis", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Rita's 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "Franchised units -9 (2022), +18 (2023), +18 (2024); company also began operating a handful of corporate shops (5 by end of 2024). Texas expansion ongoing."},
+        "seasonalityNotes": {"value": "Highly seasonal: most shops operate a spring-summer 'season' (the FDD's Item 19 measures the 2024 operating season), with many East Coast locations closed in winter.", "source": "Rita's 2025 FDD Item 19 framing (via Franchise Chatter review)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Rita's franchisor site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Pro Image Sports",
+      "slug": "pro-image-sports",
+      "category": "Retail",
+      "website": "proimagesports.com",
+      "notes": "The largest franchised licensed-sports-apparel retailer in the US (~150 stores, all franchised, HQ Centerville, UT), selling pro and collegiate team merchandise primarily from mall and outlet locations. Ranked #168 on Entrepreneur's 2025 Franchise 500. The franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Inventory-heavy, license-dependent retail model",
+          "detail": "Stores sell licensed professional and collegiate apparel and headwear; franchisee economics depend on league/vendor licensing programs and merchandise costs the franchisee does not control, and the Item 7 range spans $109,750-$605,500 largely because of inventory and build-out variability by venue.",
+          "source": "Pro Image Sports franchisor site; Vetted Biz FDD analysis",
+          "url": "https://franchise.proimagesports.com/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Mall/foot-traffic venue dependence",
+          "detail": "The chain's store base is concentrated in enclosed malls and similar retail venues, exposing franchisees to landlord leverage and secular mall-traffic decline - the same structural risk documented for other venue-dependent retail franchises.",
+          "source": "Pro Image Sports franchise opportunity site (store format descriptions)",
+          "url": "https://franchise.proimagesports.com/overview/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Clean FDD: no litigation or bankruptcy disclosed",
+          "detail": "FDD-tracking services report Pro Image Sports does not disclose lawsuits or bankruptcy information in its FDD - a comparatively clean Item 3/Item 4 record.",
+          "source": "Vetted Biz - Pro Image Sports Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/pro-image-sports/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 45000, "source": "Vetted Biz - Pro Image Sports Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash required per Vetted Biz FDD analysis."},
+        "totalInvestmentMin": {"value": 109750, "source": "Pro Image Sports 2024 FDD (via Vetted Biz; SHARPSHEETS cites $110,000-$615,000)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 605500, "source": "Pro Image Sports 2024 FDD (via Vetted Biz)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 30000, "source": "Pro Image Sports 2024 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Pro Image Sports 2024 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "5% of gross sales, remitted monthly."},
+        "avgUnitRevenue": {"value": 635598, "source": "Vetted Biz - Pro Image Sports Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Yearly gross sales per Vetted Biz analysis; estimated payback 5.6-7.6 years."},
+        "totalUnits": {"value": 154, "source": "Vetted Biz (149-155 range across sources); SHARPSHEETS 2024 FDD data", "year": 2025, "confidence": "medium", "note": "All franchised; zero company-owned stores."},
+        "yearFounded": {"value": 1996, "source": "Vetted Biz - Pro Image Sports Franchise Insights", "year": 2025, "confidence": "medium", "note": "Vetted Biz lists 1996 for both founding and franchising of the current franchisor entity (Pro Image Franchise L.C.); the original Pro Image brand dates to the mid-1980s."},
+        "yearFranchising": {"value": 1996, "source": "Vetted Biz - Pro Image Sports Franchise Insights", "year": 2025, "confidence": "medium"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Pro Image Sports Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two weeks at franchisor headquarters."},
+        "renewalTermYears": {"value": 10, "source": "SHARPSHEETS / FDD Exchange Pro Image Sports 2024 FDD summaries", "year": 2024, "confidence": "medium", "note": "10-year initial term; successor terms of up to 5 years available if in good standing."},
+        "businessModelType": {"value": "b2c", "source": "Pro Image Sports franchisor site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Pro Image Sports franchisor site (retail storefront model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Pro Image Sports 2024 FDD)", "year": 2024, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz (publishes FDD-derived yearly gross sales)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Biggby Coffee",
+      "slug": "biggby-coffee",
+      "category": "Food & Beverage",
+      "website": "biggby.com",
+      "notes": "Michigan-born drive-thru/cafe coffee franchise (B Cubed Inc., East Lansing) with 420 franchised stores and zero company-owned units, targeting 1,000 stores by 2028. Currently operating in roughly 13 states with named emerging markets (Boise, Memphis, Nashville, Atlanta, Charlotte, Winston-Salem, Raleigh, Chicago, Virginia Beach); no full state-by-state availability list is published, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Heavy regional concentration in Michigan and the Midwest",
+          "detail": "The system operates in only about 13 states with its core in Michigan and adjacent Midwest markets; expansion states (ID, GA, VA, TN, NC, FL) are recent and thin, so brand pull outside the home region is unproven for new franchisees - and the FDD even carves out a reduced 5% royalty for certain legacy Michigan operators.",
+          "source": "Biggby Coffee press (2022 year-end expansion release); Franchise Chatter 2025 FDD review",
+          "url": "https://biggby.com/biggby-coffee-finishes-2022-on-a-high-note-sees-expansion-into-new-territories-in-2023/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Consumer class action over non-dairy milk surcharges",
+          "detail": "Bower v. Biggby Coffee is a class action over surcharges for non-dairy milk alternatives - part of a wave of similar suits against coffee chains. Brand-level consumer litigation can force systemwide pricing/menu changes that land on franchisees.",
+          "source": "Keith Gibson Law, P.C. (class action counsel page)",
+          "url": "https://classadvocates.com/bower-v-biggby-coffee/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Aggressive growth target: 1,000 stores by 2028",
+          "detail": "Management targets 1,000 stores and $1B in system sales by 2028 - more than doubling the 420-store base in about three years. Hyper-growth pushes can strain site selection, training, and support quality for incoming franchisees.",
+          "source": "Fast Casual - Biggby Coffee on track to have 1K locations by 2028",
+          "url": "https://www.fastcasual.com/news/biggby-coffee-on-track-to-have-1k-locations-by-2028/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Non-drive-thru stores earn materially less",
+          "detail": "2024 Item 19: drive-thru stores averaged $747,227 gross sales with 13.1% EBITDA margin vs $582,042 and 8.8% for non-drive-thru stores - format choice materially changes the return profile, and the bottom store reported just $262,729.",
+          "source": "Biggby Coffee 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/08/19/biggby-coffee-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 296250, "source": "Biggby Coffee 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Whitebox leasehold format low end; modular locations run $533,500-$949,000 and site-built drive-thru up to $1,011,500."},
+        "totalInvestmentMax": {"value": 1011500, "source": "Biggby Coffee 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Site-built drive-thru high end."},
+        "franchiseFee": {"value": 20000, "source": "Biggby Coffee 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Biggby Coffee 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "6% of gross sales (5% for certain legacy Michigan operators)."},
+        "adFundPercent": {"value": 3, "source": "Biggby Coffee 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Brand fund: greater of $100/week or 3% of gross sales, plus minimum local advertising of up to 3%."},
+        "avgUnitRevenue": {"value": 720465, "source": "Biggby Coffee 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross sales across all 358 reporting stores; median $702,752; average EBITDA $91,984 (12.5%) across 253 profitability-reporting units."},
+        "totalUnits": {"value": 420, "source": "Biggby Coffee 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "All franchised; 0 company-owned. Franchisor press cites 430 stores in 13 states with 120 signed agreements for future locations."},
+        "yearFounded": {"value": 1995, "source": "Biggby Coffee corporate site (brand history; 2025 brand refresh billed as first in 30 years)", "year": 2025, "confidence": "medium", "note": "First store opened in East Lansing, MI in March 1995."},
+        "isGrowing": {"value": true, "source": "Biggby Coffee 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Franchised units +54 (2022), +49 (2023), +37 (2024)."},
+        "multiUnitAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "medium", "note": "Over half of Biggby franchisees own more than one location; Area Representative program active in 7 states."},
+        "businessModelType": {"value": "b2c", "source": "Biggby Coffee franchisor site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Biggby Coffee franchisor site (cafe/drive-thru building model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Biggby Coffee 2025 FDD); Franchise Chatter review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "X-Golf",
+      "slug": "x-golf",
+      "category": "Fitness",
+      "website": "playxgolf.com",
+      "notes": "Indoor golf-simulator lounge franchise (X-Golf America, ~126-138 US locations) combining simulator bays with a bar/restaurant component. Capital-intensive build (~$1M-$1.9M) against modest FDD-derived average revenue, and the franchisor is currently embroiled in insider/franchise-act litigation in Michigan. No published state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Active Michigan litigation including franchise act violation allegations",
+          "detail": "X-Golf Michigan, LLC sued X-Golf Franchise Corporation and an executive in January 2025 for tortious interference with its Michigan franchisee relationships; an April 2026 Oakland County Business Court opinion in the case references alleged violations of the Michigan Franchise Investment Law. Litigation between the franchisor and its largest regional developer is a material governance red flag.",
+          "source": "Michigan Courts - Oakland County Business Court opinion, X-Golf Michigan, LLC (C06-2025-212754-CB)",
+          "url": "https://www.courts.michigan.gov/495f63/siteassets/business-court-opinions/c06-2025-212754-cb(april2,2026).pdf",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Shareholder derivative suit alleged revenue siphoning by insiders",
+          "detail": "A California shareholder derivative action alleged certain X-Golf directors/officers siphoned revenues to X-Golf Michigan, LLC, an entity they controlled, by usurping corporate opportunities; it was voluntarily dismissed in February 2025 with claims expected to re-surface as counterclaims in the ongoing Michigan suit.",
+          "source": "Vetted Biz / FranPass litigation summaries of X-Golf FDD Item 3",
+          "url": "https://www.vettedbiz.com/franchises/x-golf",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "FDD-derived revenue implies a very long payback",
+          "detail": "Vetted Biz's FDD-derived average yearly gross sales of $582,000 against a $1.13M-$1.76M investment yields an estimated payback period of 18.9-20.9 years; another FDD-derived source (SHARPSHEETS) cites average unit revenue as low as $413,821. Verify current Item 19 cohorts carefully before investing.",
+          "source": "Vetted Biz - X Golf Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/x-golf",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 260000, "source": "Vetted Biz - X Golf Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 1132630, "source": "X-Golf FDD (via Vetted Biz)", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS' FDD-derived range is $994,000-$1,940,000; figures vary by FDD year and venue size."},
+        "totalInvestmentMax": {"value": 1757800, "source": "X-Golf FDD (via Vetted Biz)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 40000, "source": "X-Golf FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 7, "source": "X-Golf FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "7% of monthly gross sales."},
+        "adFundPercent": {"value": 1, "source": "X-Golf FDD (via Vetted Biz)", "year": 2025, "confidence": "medium", "note": "1% marketing/ad fund."},
+        "avgUnitRevenue": {"value": 582000, "source": "Vetted Biz - X Golf Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per Vetted Biz; SHARPSHEETS cites $413,821. Both imply long payback vs the $1M+ build cost."},
+        "totalUnits": {"value": 126, "source": "Vetted Biz - X Golf Franchise Insights", "year": 2025, "confidence": "medium", "note": "US locations; SHARPSHEETS counts 138."},
+        "yearFounded": {"value": 2015, "source": "Vetted Biz - X Golf Franchise Insights", "year": 2025, "confidence": "medium", "note": "US franchisor (X-Golf America); the simulator technology originated in South Korea in the 2000s."},
+        "yearFranchising": {"value": 2015, "source": "Vetted Biz - X Golf Franchise Insights", "year": 2025, "confidence": "medium"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - X Golf Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two weeks at corporate headquarters."},
+        "businessModelType": {"value": "b2c", "source": "X-Golf franchisor site (consumer entertainment venue)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "X-Golf franchisor site (fixed venue model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (X-Golf FDD on file); Vetted Biz", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz (publishes FDD-derived revenue figures)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Re-Bath",
+      "slug": "re-bath",
+      "category": "Home Services",
+      "website": "rebath.com",
+      "notes": "America's largest complete bathroom remodeling franchise (HQ Tempe, AZ; founded 1979 as a bathtub-liner business), with close to 100 franchisees operating across 43 states. Converted from a dealer network to a franchise model starting in 2010. Franchisor markets new and resale territories; no public state-by-state availability list, so the nationwide convention below reflects the franchisor's own territory marketing.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisor litigation against terminated franchisee (Foothills Service Solutions)",
+          "detail": "In ReBath LLC v. Foothills Service Solutions Co. (D. Ariz. 2021), Re-Bath obtained injunctive relief against a defaulted/terminated franchisee that kept operating - evidence both of franchisee failure within the system and of an enforcement-minded franchisor.",
+          "source": "Lewitt Hackman franchise law alert",
+          "url": "https://www.lewitthackman.com/franchise-101-defaults-sink-bathroom-remodel-franchisee-and-real-estate-amendment-not-up-to-interpretation/",
+          "year": 2021
+        },
+        {
+          "severity": "info",
+          "title": "Business model converted from dealer network to franchise in 2010",
+          "detail": "Re-Bath operated for ~30 years as a bathtub-liner dealer network before converting to a franchise model in 2010 and expanding into full bathroom remodels and accessibility work - the franchise system as currently structured is younger than the 1979 founding date suggests.",
+          "source": "Re-Bath corporate site - Our Story; Franchising.com Re-Bath business overview",
+          "url": "https://www.rebath.com/about/our-story/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Minimum royalties apply regardless of sales",
+          "detail": "Royalty is 5-6% of installed sales with a minimum of $575 per month in year one (minimums escalate thereafter per FDD summaries) - a fixed obligation while a new territory ramps, on top of a 2% advertising contribution.",
+          "source": "SHARPSHEETS Re-Bath FDD analysis; Franchise Payback",
+          "url": "https://sharpsheets.io/blog/re-bath-franchise-costs-fees-profits/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Franchising.com - Re-Bath franchise listing (franchisor-sponsored)",
+        "url": "https://www.franchising.com/rebath/",
+        "year": 2026,
+        "note": "Franchisor markets new and resale territories across the US (franchisees currently in 43 states). Confirm specific territory availability with the franchisor."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Re-Bath franchise FAQ / Franchising.com listing", "year": 2025, "confidence": "medium", "note": "$50,000 cash investment; $300,000 minimum net worth."},
+        "netWorthMin": {"value": 300000, "source": "Re-Bath franchise FAQ / Franchising.com listing", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 276000, "source": "Re-Bath FDD Item 7 (via SHARPSHEETS analysis)", "year": 2025, "confidence": "high", "note": "Includes showroom/warehouse/office, vehicles, equipment, and 3 months of additional funds."},
+        "totalInvestmentMax": {"value": 610000, "source": "Re-Bath FDD Item 7 (via SHARPSHEETS analysis)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Re-Bath FDD (via SHARPSHEETS and Franchise Payback)", "year": 2025, "confidence": "medium", "note": "5-6% of installed sales, with a $575/month minimum in year one."},
+        "adFundPercent": {"value": 2, "source": "Re-Bath FDD (via SHARPSHEETS analysis)", "year": 2025, "confidence": "medium", "note": "2% of the previous month's gross revenues."},
+        "avgUnitRevenue": {"value": 2548254, "source": "Vetted Biz - Re-Bath Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Yearly gross sales per Vetted Biz analysis; 2021 FDD data showed a 47.1% average gross profit margin for 500K-1.25M population territories."},
+        "totalUnits": {"value": 150, "source": "Vetted Biz / Franchising.com (150+ locations, ~100 franchisees in 43 states)", "year": 2025, "confidence": "medium"},
+        "yearFounded": {"value": 1979, "source": "Re-Bath corporate site - Our Story", "year": 2024, "confidence": "high"},
+        "yearFranchising": {"value": 2010, "source": "Re-Bath corporate site - Our Story (dealer-to-franchise conversion)", "year": 2024, "confidence": "medium", "note": "Predecessor dealer network dates to 1979; franchise model adopted beginning 2010."},
+        "businessModelType": {"value": "b2c", "source": "Re-Bath franchisor site (residential bathroom remodeling)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct / SHARPSHEETS Re-Bath FDD summaries", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz (publishes FDD-derived gross sales)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Petland",
+      "slug": "petland",
+      "category": "Pets",
+      "website": "petland.com",
+      "notes": "One of the only remaining franchises selling puppies and kittens at retail (founded 1967, Chillicothe, OH; franchising since 1972), with ~92 US stores (67 franchised + 25 company-owned) plus international licensees. CRITICAL diligence area: the live-animal retail model faces CDC-documented zoonotic outbreaks, sustained animal-welfare litigation/campaigns, and a growing list of states and 340+ cities that ban retail dog/cat sales outright - shrinking the brand's legally addressable map. No published state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "CDC-linked multistate Campylobacter outbreaks tied to Petland puppies",
+          "detail": "CDC and state health departments linked multistate outbreaks of multi-drug-resistant Campylobacter infections to contact with pet-store puppies, with 100+ cases tied to Petland stores across investigations (13+ states, multiple hospitalizations), spawning personal-injury suits including hospitalized customers in Michigan and Ohio.",
+          "source": "AboutLawsuits.com (CDC outbreak coverage); Fox 47 News (Petland Novi lawsuit)",
+          "url": "https://www.aboutlawsuits.com/puppy-campylobacter-outbreak-165721/",
+          "year": 2021
+        },
+        {
+          "severity": "caution",
+          "title": "Retail pet-sale bans are closing markets to the core business model",
+          "detail": "Multiple states (including California, New York, Illinois and Maryland) and 340+ US cities have banned or restricted retail sales of dogs and cats, directly outlawing Petland's signature live-animal model in those jurisdictions and forcing store-level model changes or exits.",
+          "source": "Animal Defense Coalition - Petland; municipal ordinance tracking (Naperville, IL cited as 341st city)",
+          "url": "https://www.animaldefensecoalition.org/petland/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Sustained animal-welfare investigations and deceptive-practices lawsuits",
+          "detail": "Humane World for Animals (formerly HSUS) has run a years-long investigation campaign alleging Petland stores source from puppy mills, and consumer lawsuits allege deceptive sales and predatory financing (e.g., a financed puppy whose total cost would reach $26,000 with interest). Reputational pressure is persistent and organized, including in-store protests.",
+          "source": "Humane World for Animals - Exposing Petland's Puppy Mill Practices",
+          "url": "https://www.humaneworld.org/en/petland",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "High company-owned share for a franchise system",
+          "detail": "25 of 92 US stores (~27%) are company-owned per 2024 FDD-derived data - the franchisor competes operationally alongside its franchisees and has direct exposure to the same regulatory headwinds.",
+          "source": "Franchise Payback - Petland FDD data",
+          "url": "https://www.franchisepayback.com/franchise/petland",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 313000, "source": "Petland 2025 FDD (via SHARPSHEETS analysis)", "year": 2025, "confidence": "high", "note": "Franchise Direct's summary cites $280,000-$1,034,000; range depends heavily on store size and live-animal habitat build-out."},
+        "totalInvestmentMax": {"value": 1078000, "source": "Petland 2025 FDD (via SHARPSHEETS analysis)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "Franchise Direct Petland FDD summary", "year": 2025, "confidence": "medium", "note": "Up to $40,000; some 2025 FDD-derived sources cite $50,000."},
+        "royaltyPercent": {"value": 4.5, "source": "Petland FDD (via Franchise Direct summary)", "year": 2025, "confidence": "high", "note": "4.5% of gross revenues for the first two stores; drops to 2.25% for third and subsequent stores after 3 years' compliant multi-store operation."},
+        "adFundPercent": {"value": 0.5, "source": "Petland FDD (via Franchise Direct summary)", "year": 2025, "confidence": "medium", "note": "Up to 0.5% national ad fund; franchisees must additionally spend 5% of gross revenues on local advertising."},
+        "avgUnitRevenue": {"value": 2684184, "source": "Vetted Biz - Petland Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Yearly gross sales per Vetted Biz analysis."},
+        "totalUnits": {"value": 92, "source": "Petland 2025 FDD outlet data (via Franchise Payback)", "year": 2025, "confidence": "medium", "note": "US only: 67 franchised + 25 company-owned (2024). International licensees (e.g., Japan, Canada, Brazil) push brand-wide counts higher (~320 per some directories)."},
+        "yearFounded": {"value": 1967, "source": "Petland corporate site / Franchise Direct", "year": 2025, "confidence": "high", "note": "Founded by Ed Kunzelman in Chillicothe, OH."},
+        "yearFranchising": {"value": 1972, "source": "Petland corporate site (first franchised store, Portsmouth, OH)", "year": 2025, "confidence": "high", "note": "Some sources cite 1971."},
+        "multiUnitAvailable": {"value": true, "source": "Petland FDD royalty structure (reduced 2.25% royalty for 3rd+ stores, via Franchise Direct)", "year": 2025, "confidence": "medium"},
+        "internationalAvailability": {"value": true, "source": "Petland corporate site (international licensees)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Petland corporate site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "2025 Petland FDD on file with Minnesota Department of Commerce (public registration)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz (publishes FDD-derived gross sales)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Tint World",
+      "slug": "tint-world",
+      "category": "Automotive",
+      "website": "tintworld.com",
+      "notes": "Automotive styling franchise (window tint, paint protection film, wraps, audio/electronics, ceramic coatings; HQ Boca Raton, FL) with 151 locations across 35 US states plus Canada and the Middle East and a stated goal of 300 locations by end of 2026. Founded 1982, franchising since 2007. Franchisor markets territories across the US and internationally.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Development pipeline (82 stores) is more than half the open base (151)",
+          "detail": "The franchisor touts 82 locations in development against 151 open and a 300-store goal by end of 2026 - an aggressive doubling that depends on new franchisees opening on schedule; buyers should pressure-test support capacity and whether advertised momentum reflects signed agreements rather than open stores.",
+          "source": "International Franchise Association - Tint World expansion release",
+          "url": "https://www.franchise.org/2025/05/tint-world-automotive-styling-centers-accelerates-expansion-with-compelling-franchise-opportunities/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Marketed revenue claims exceed FDD-derived averages",
+          "detail": "FDD-derived analysis puts average unit revenue around $743,270, while some directory/lead-gen sources promote a ~$1.35M median AUV and 15-25% margins - verify the actual Item 19 cohort definitions in the current FDD before relying on marketed figures.",
+          "source": "SHARPSHEETS Tint World FDD analysis (vs. franchiseinvestordata marketing figures)",
+          "url": "https://sharpsheets.io/blog/tint-world-franchise-costs-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Transfer fee equals 50% of the initial franchise fee",
+          "detail": "FDD summaries disclose a transfer fee of 50% of the initial franchise fee (~$25,000) plus a $250/month technology fee and $500-$1,000/month ad-fund minimums on top of the 6% royalty and 2% marketing contribution - exit and fixed costs worth modeling.",
+          "source": "PeerSense Tint World FDD summary",
+          "url": "https://peersense.com/franchise/tint-world",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Tint World franchise site (franchisor); IFA expansion release",
+        "url": "https://www.tintworld.com/franchise-opportunities/",
+        "year": 2025,
+        "note": "Franchisor markets territories across the US (presence in 35 states) and internationally (Canada, Saudi Arabia, UAE). Confirm specific territory availability with the franchisor."
+      },
+      "fields": {
+        "totalInvestmentMin": {"value": 239950, "source": "Tint World 2025 FDD (via SHARPSHEETS analysis)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 449950, "source": "Tint World 2025 FDD (via SHARPSHEETS analysis)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49950, "source": "Tint World 2025 FDD (via SHARPSHEETS and PeerSense)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Tint World 2025 FDD (via SHARPSHEETS analysis)", "year": 2025, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "Tint World 2025 FDD (via SHARPSHEETS analysis)", "year": 2025, "confidence": "medium", "note": "2% of sales plus $500-$1,000/month ad-fund minimums and a $250/month technology fee."},
+        "avgUnitRevenue": {"value": 743270, "source": "Tint World FDD performance data (via SHARPSHEETS analysis)", "year": 2025, "confidence": "medium", "note": "Some directory sources promote a ~$1.35M median AUV; rely on the current FDD Item 19."},
+        "totalUnits": {"value": 151, "source": "International Franchise Association - Tint World expansion release", "year": 2025, "confidence": "high", "note": "151 locations across 35 US states and 4 countries, with 82 more in development."},
+        "yearFounded": {"value": 1982, "source": "Tint World corporate site - Our History", "year": 2025, "confidence": "high", "note": "Grew to six company locations in South Florida before franchising."},
+        "yearFranchising": {"value": 2007, "source": "Tint World corporate site - Our History", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "International Franchise Association - Tint World expansion release", "year": 2025, "confidence": "high", "note": "151 open with 82 in development; goal of 300 locations by end of 2026."},
+        "internationalAvailability": {"value": true, "source": "Tint World franchise site (Canada, Saudi Arabia, UAE; worldwide opportunities)", "year": 2025, "confidence": "high"},
+        "transferFee": {"value": 24975, "source": "PeerSense Tint World FDD summary (50% of initial franchise fee)", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Tint World franchisor site (retail automotive styling centers)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Tint World franchisor site (fixed styling-center model; some mobile services offered from centers)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / PeerSense Tint World 2025 FDD summaries", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS (publishes FDD performance data)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Stanley Steemer",
+      "slug": "stanley-steemer",
+      "category": "Home Services",
+      "website": "stanleysteemer.com",
+      "notes": "Iconic carpet/upholstery cleaning, air-duct, and water-restoration franchise (family-owned since 1947, Columbus/Dublin, OH; franchising since 1972) with 267 US outlets - 210 franchised and 57 company-owned - covering 49 states. The system is mature and essentially built out: franchised unit count has drifted slightly down for years, so most entry is via resale of existing territories. No published open-territory list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Slow franchised-unit attrition in a mature system",
+          "detail": "Franchised outlets declined from 217 to 210 across 2022-2024 (-7, about -3.2%) while company-owned units held at 57 - the system is not expanding, and new buyers are mostly acquiring existing territories rather than opening fresh ones.",
+          "source": "Stanley Steemer 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/26/stanley-steemer-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Extreme territory-driven performance dispersion",
+          "detail": "2024 Item 19: nationwide average gross sales were $1,744,505 across 208 reporting units, but the median was just $1,196,358 and the range ran $33,616-$13,445,081; regional averages span $739,678 (Great Plains) to $3,520,891 (Southeast). Only 65 of 208 units met or exceeded the average.",
+          "source": "Stanley Steemer 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/26/stanley-steemer-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Population-priced fee and heavy advertising obligations",
+          "detail": "The initial franchise fee is ~$20,000 per 100,000 territory population ($20,000-$100,000 typical), and ongoing obligations include a 7% royalty on core-business sales plus advertising obligations of up to 10% of gross sales (including a national ad fee of up to 4%) - consistent with the brand's famously heavy media spend, but a large fixed burden.",
+          "source": "Stanley Steemer 2025 FDD fee tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/26/stanley-steemer-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 158210, "source": "Stanley Steemer 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Equipped truck alone runs $85,000-$155,000."},
+        "totalInvestmentMax": {"value": 522195, "source": "Stanley Steemer 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 20000, "source": "Stanley Steemer 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Approximately $20,000 per 100,000 population in the territory; typical total $20,000-$100,000."},
+        "royaltyPercent": {"value": 7, "source": "Stanley Steemer 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "7% of core-business sales; 3% on related-business sales; negotiated annual minimums apply."},
+        "adFundPercent": {"value": 4, "source": "Stanley Steemer 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "National advertising fee up to 4% of monthly core/related sales; total advertising obligations can reach 10% of gross sales."},
+        "avgUnitRevenue": {"value": 1744505, "source": "Stanley Steemer 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross sales across 208 reporting units; median $1,196,358; heavy regional dispersion."},
+        "totalUnits": {"value": 267, "source": "Stanley Steemer 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "210 franchised + 57 company-owned at end of 2024; brand claims 280+ locations in 49 states."},
+        "yearFounded": {"value": 1947, "source": "Stanley Steemer corporate history (Jack Bates Carpet Cleaning Company, Columbus, OH)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1972, "source": "Stanley Steemer corporate history (incorporated Stanley Steemer International and began franchising 1972)", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Stanley Steemer 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Franchised units -2 (2022), -3 (2023), -2 (2024)."},
+        "businessModelType": {"value": "both", "source": "Stanley Steemer service lines (residential and commercial cleaning/restoration)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Stanley Steemer 2025 FDD Item 7 (truck-based service model; via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Truck-mounted service business operating from a warehouse/office, not a retail storefront."},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "HomeWell Care Services",
+      "slug": "homewell-care-services",
+      "category": "Health & Wellness",
+      "website": "homewellcares.com",
+      "notes": "Non-medical in-home senior care franchise (founded 1996 as Hoffman's Home Helpers in Seattle; rebranded HomeWell Care Services after a 2018 ownership change; HQ Burkburnett/Fort Worth, TX) with 179 franchised territories operated by 93 businesses, zero company-owned, and strong recent unit growth. Sold to PE firm Main Post Partners with existing management in January 2026. Notable zero-initial-fee entry option in exchange for a doubled (10%) royalty. No published state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Right-skewed Item 19: roughly 7 in 10 territories fall below the published averages",
+          "detail": "2024 Item 19: single-territory businesses open 1+ years averaged $1,312,104 gross revenues but the median was $860,612 (range $94,472-$8,644,318) with only 32% meeting the average; multi-territory businesses averaged $3,200,790 (median $2,202,966) with only 30% meeting the average. Revenue figures say nothing about profit.",
+          "source": "HomeWell Care Services 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/02/03/homewell-care-services-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Two ownership changes since 2018, now private-equity controlled",
+          "detail": "Founder Joshua Hoffman sold HomeWell in 2018 to former Extended Stay America CEO Bruce Haase (who rebranded the system); in January 2026 the company was sold again to Main Post Partners alongside existing management. Successive ownership changes can shift fee enforcement and support priorities mid-agreement.",
+          "source": "HomeWell corporate site - Our Story; franchise trade press on the Main Post Partners transaction",
+          "url": "https://homewellcares.com/franchise/our-story/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Zero-fee entry option carries a doubled 10% royalty",
+          "detail": "HomeWell offers a $0 initial franchise fee option ($5,000 training fee at signing) in exchange for a 10% ongoing royalty versus 5% under the traditional $49,500-fee structure - cheaper to enter, materially more expensive at scale - and minimum royalty amounts apply based on territory count and tenure regardless of revenue.",
+          "source": "HomeWell Care Services 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/02/03/homewell-care-services-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 54401, "source": "HomeWell Care Services 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "$54,401-$233,912; low end reflects the zero-initial-fee option and home-office start."},
+        "totalInvestmentMax": {"value": 233912, "source": "HomeWell Care Services 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49500, "source": "HomeWell Care Services 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Traditional option; a $0-fee option (with $5,000 training fee and 10% royalty) is also offered."},
+        "royaltyPercent": {"value": 5, "source": "HomeWell Care Services 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "5% of monthly gross revenues under the traditional fee option (10% under the zero-fee option); minimums based on territory count and tenure."},
+        "adFundPercent": {"value": 2, "source": "HomeWell Care Services 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Brand development fund: greater of 2% or $1,000/month on the first $1M of revenues (1% above $1M), plus local marketing of the greater of 2% or $1,000/month."},
+        "avgUnitRevenue": {"value": 1312104, "source": "HomeWell Care Services 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross revenues for 34 single-territory businesses open 1+ years; median $860,612. Multi-territory businesses averaged $3,200,790."},
+        "totalUnits": {"value": 179, "source": "HomeWell Care Services 2025 FDD Item 20 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "179 franchised territories (93 operating businesses) at end of 2024; zero company-owned."},
+        "yearFounded": {"value": 1996, "source": "HomeWell corporate site - Our Story", "year": 2025, "confidence": "high", "note": "Founded by caregiver Joshua Hoffman in Seattle as Hoffman's Home Helpers; became HomeWell Senior Care in 2002."},
+        "yearFranchising": {"value": 2013, "source": "HomeWell corporate site - Our Story / franchise trade press", "year": 2025, "confidence": "medium", "note": "Some directories cite 2003-2004 for the predecessor HomeWell Senior Care system; corporate history describes franchising expansion from 2013."},
+        "isGrowing": {"value": true, "source": "HomeWell Care Services 2025 FDD Item 20 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Territories +22 (2022), +22 (2023), +34 (2024)."},
+        "canRunFromHome": {"value": false, "source": "HomeWell 2025 FDD Item 7 (real estate line item $3,600-$9,000 for office space; via Franchise Chatter)", "year": 2025, "confidence": "medium", "note": "A small office is typically required for home-care licensure in most states."},
+        "businessModelType": {"value": "b2c", "source": "HomeWell franchisor site (private-pay in-home care)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "HomeWell franchisor site (caregivers serve clients in their homes from a small admin office)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review (2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "American Poolplayers Association",
+      "slug": "american-poolplayers-association",
+      "category": "Services",
+      "website": "poolplayers.com",
+      "notes": "The world's largest amateur pool league franchise (HQ Lake Saint Louis, MO; founded 1981, franchising since 1982): franchisees operate recreational 8-ball/9-ball leagues in bars and pool halls across a designated territory rather than a physical location. One of the lowest-cost franchises in the Franchise 500 (~$22K-$31K all-in), with leagues running in 13,000+ host venues across North America. No published open-territory list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "20% royalty - among the highest rates in franchising",
+          "detail": "Franchisees pay a royalty of 20% of the basic weekly fees charged to each league team (some directories describe it as 20% of monthly sales), plus advertising contributions of up to 5% depending on the approved market plan - an unusually high take relative to the small revenue base of a league operation.",
+          "source": "Franchise Direct APA FDD summary; Vetted Biz",
+          "url": "https://www.franchisedirect.com/entertainmentfranchises/american-poolplayers-association-franchise-07254/ufoc/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Revenue ceiling tied to territory population and venue saturation",
+          "detail": "Income scales with the number of teams a territory's bars and pool halls can support; Vetted Biz flags local market saturation and the administrative load of running weekly league nights and tournaments as the model's core challenges - this is typically a part-time-to-modest-income business, not a high-AUV opportunity.",
+          "source": "Vetted Biz - American Poolplayers Association Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/american-poolplayers-association/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Litigation/bankruptcy disclosures present in FDD",
+          "detail": "FDD-tracking services note that APA discloses lawsuits and/or bankruptcy information in its FDD Items 3/4; review the current document for specifics before signing.",
+          "source": "Vetted Biz - American Poolplayers Association Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/american-poolplayers-association/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 5000, "source": "Vetted Biz - APA Franchise Insights", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites $5,000 minimum cash; Franchise Help cites $12,000 minimum liquid capital."},
+        "totalInvestmentMin": {"value": 22210, "source": "APA 2025 FDD Item 7 (via The FDD Exchange and Vetted Biz)", "year": 2025, "confidence": "high", "note": "$22,210.46-$30,749.46 per the 2025 FDD."},
+        "totalInvestmentMax": {"value": 30749, "source": "APA 2025 FDD Item 7 (via The FDD Exchange and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 10000, "source": "APA 2025 FDD (via Franchise Direct summary)", "year": 2025, "confidence": "high", "note": "Population-based: $10,000-$12,000 per Franchise Direct ($10,000-$14,000 per Vetted Biz)."},
+        "royaltyPercent": {"value": 20, "source": "APA 2025 FDD (via Franchise Direct summary)", "year": 2025, "confidence": "high", "note": "20% of the basic weekly fee charged to each team."},
+        "adFundPercent": {"value": 5, "source": "APA 2025 FDD (via Franchise Direct summary)", "year": 2025, "confidence": "medium", "note": "Up to 5% of gross revenue depending on the approved marketing plan for the area."},
+        "totalUnits": {"value": 339, "source": "Vetted Biz - APA Franchise Insights", "year": 2025, "confidence": "medium", "note": "US franchise territories; directories estimate ~360. Leagues operate in 13,000+ host venues across North America."},
+        "yearFounded": {"value": 1981, "source": "Vetted Biz - APA Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1982, "source": "Vetted Biz - APA Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - APA Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two weeks at franchisor headquarters."},
+        "businessModelType": {"value": "b2c", "source": "APA franchisor site (consumer recreation leagues)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Franchise Direct APA FDD summary (territory-based league operation in third-party venues, no premises required)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange / Free FDD Library (APA 2025 FDD)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "A&W Restaurants",
+      "slug": "a-and-w-restaurants",
+      "category": "Food & Beverage",
+      "website": "awrestaurants.com",
+      "notes": "America's oldest restaurant franchise (root beer stand founded 1919 in Lodi, CA; franchising since the 1920s), known for root beer floats and burgers. Unusual governance: since the 2011 divestiture by Yum! Brands, the franchisor (A Great American Brand, LLC) has been owned by a partnership of its own franchisees. Recruiting in the US and Canada via awfranchising.com with freestanding and convenience-store ('C&G') formats; no public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Convenience-store format units earn ~38% less than freestanding",
+          "detail": "2024 Item 19 data: 59 freestanding restaurants averaged $1,326,392 gross revenue while 53 co-located C&G (convenience & gas) restaurants averaged just $815,962 - format choice materially changes unit economics, and much of the system's footprint is non-traditional.",
+          "source": "A&W 2025 FDD Item 19 (via SHARPSHEETS analysis)",
+          "url": "https://sharpsheets.io/blog/aw-restaurants-franchises-costs-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Franchisee-owned franchisor since 2011",
+          "detail": "Yum! Brands sold A&W in December 2011 to A Great American Brand, LLC, a partnership of A&W franchisees. Franchisee ownership aligns incentives but means the franchisor has thinner capital backing than corporate- or PE-owned peers, and most operators are single-unit owners.",
+          "source": "A&W Franchising (franchisor site); A&W corporate history",
+          "url": "https://awfranchising.com/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Heavy recruitment incentives (0% royalty intro, stacked fee discounts)",
+          "detail": "The franchisor offers a scaled royalty starting at 0% for the first three months (rising to the standard 5%), a 30% veteran discount, and multi-unit fee discounts totaling $37,500 over three units - generous terms that also signal how hard the brand is working to attract new operators after decades of US unit contraction from its 1970s peak of ~2,400 restaurants.",
+          "source": "A&W Franchising - How Much Does an A&W Franchise Cost",
+          "url": "https://awfranchising.com/research/how-much-does-an-aw-franchise-cost/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 250000, "source": "Franchise Help A&W franchise summary", "year": 2025, "confidence": "medium", "note": "Minimum liquid assets $250,000; minimum net worth $500,000."},
+        "netWorthMin": {"value": 500000, "source": "Franchise Help A&W franchise summary", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 301095, "source": "A&W Franchising (franchisor site)", "year": 2026, "confidence": "high", "note": "Franchisor cites $301,095-$1,640,034 excluding real estate (low end is captive/C&G formats); SHARPSHEETS' 2025 FDD-derived freestanding range is $894,434-$1,639,906."},
+        "totalInvestmentMax": {"value": 1640034, "source": "A&W Franchising (franchisor site)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 30000, "source": "A&W Franchising (franchisor site)", "year": 2026, "confidence": "high", "note": "30% veteran discount ($21,000) and multi-unit discounts ($25,000/$15,000/$12,500) available."},
+        "royaltyPercent": {"value": 5, "source": "A&W Franchising (franchisor site); SHARPSHEETS 2025 FDD analysis", "year": 2026, "confidence": "high", "note": "Standard 5% of gross sales; scaled intro program starts at 0% for the first three months."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS A&W 2025 FDD analysis", "year": 2025, "confidence": "medium", "note": "2% marketing fee per SHARPSHEETS; Vetted Biz cites combined marketing obligations of 4%."},
+        "avgUnitRevenue": {"value": 1326392, "source": "A&W 2025 FDD Item 19 (via SHARPSHEETS analysis)", "year": 2025, "confidence": "high", "note": "2024 average for 59 freestanding restaurants open the full year; C&G (convenience-store) restaurants averaged $815,962 across 53 units."},
+        "totalUnits": {"value": 865, "source": "Franchise Payback A&W FDD data (estimate)", "year": 2025, "confidence": "medium", "note": "Systemwide including international (notably ~390 in Southeast Asia under a separate master); US-only directory counts vary widely (Vetted Biz lists 215 reporting US locations; brand markets ~500 US restaurants)."},
+        "yearFounded": {"value": 1919, "source": "A&W corporate history (centennial brand, Lodi, CA root beer stand)", "year": 2024, "confidence": "high"},
+        "yearFranchising": {"value": 1925, "source": "A&W corporate history (pioneer of US restaurant franchising in the 1920s)", "year": 2024, "confidence": "medium", "note": "Commonly cited as the first franchised restaurant chain in the US; Vetted Biz lists 1950 for the current franchisor entity."},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - A&W All American Food Franchise Insights", "year": 2025, "confidence": "medium", "note": "Approximately two weeks at the corporate training facility (Lexington, KY)."},
+        "veteranDiscount": {"value": true, "source": "A&W Franchising (franchisor site)", "year": 2026, "confidence": "high", "note": "30% off the franchise fee ($30,000 reduced to $21,000)."},
+        "multiUnitAvailable": {"value": true, "source": "A&W Franchising (franchisor site, multi-unit fee discount schedule)", "year": 2026, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "A&W Franchising (US and Canada opportunities; large international footprint)", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "A&W franchisor site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / Franchise Direct A&W 2025 FDD summaries", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS A&W 2025 FDD analysis (publishes Item 19 cohorts)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Jeremiah's Italian Ice",
+      "slug": "jeremiahs-italian-ice",
+      "category": "Food & Beverage",
+      "website": "jeremiahsice.com",
+      "notes": "Fast-growing Orlando-based frozen dessert brand (Italian ice, soft-serve, 'gelati' layered treats) founded 1996 by Jeremy Litwack; franchising only since 2019. Celebrated its 150th open location in May 2024, with 260+ franchise units awarded across 115+ franchise groups - so a large share of the system is pipeline, not open stores. Footprint concentrated across 11 Sun Belt states (FL, AZ, GA, NC, SC, LA, CO, NV, AL, TN, TX); no published state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very young franchise system - franchising only since 2019",
+          "detail": "Nearly the entire franchised base opened after 2020, so long-run unit economics, renewal behavior, and failure rates are unproven; Item 19 averages rest on a small cohort of mature stores.",
+          "source": "Jeremiah's franchise site - Our Story; Vetted Biz",
+          "url": "https://jeremiahsfranchise.com/why-jeremiahs/our-story/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Awarded pipeline (260+) far exceeds open locations (~150)",
+          "detail": "As of May 2024 the brand had awarded over 260 franchise units against ~150 open locations - growth depends on franchisees actually building out commitments, and stacked sold-but-unopened territories can crowd future availability.",
+          "source": "PR Newswire - Jeremiah's Italian Ice Celebrates 150th Location",
+          "url": "https://www.prnewswire.com/news-releases/jeremiahs-italian-ice-celebrates-150th-location-302148152.html",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Seasonal dessert category with Sun Belt concentration",
+          "detail": "The system is concentrated in 11 southern states led by home-market Florida; frozen-dessert demand is weather-sensitive, and the franchisor also operates ~20% of units company-owned (19 of 97 at end of 2023), competing alongside franchisees in core markets.",
+          "source": "Franchising.com Jeremiah's overview; Franchise Payback outlet data",
+          "url": "https://www.franchising.com/jeremiahsitalianice/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Vetted Biz - Jeremiah's Italian Ice Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 102800, "source": "Jeremiah's FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "Low end covers kiosk/non-traditional formats; standard stores run roughly $325,000-$696,000 per Franchise Chatter's FDD review."},
+        "totalInvestmentMax": {"value": 696000, "source": "Jeremiah's FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 30000, "source": "Jeremiah's FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "FDD discloses $12,000-$30,000 by unit type; $30,000 is the standard store fee."},
+        "royaltyPercent": {"value": 6, "source": "Jeremiah's FDD (via Vetted Biz and Franchise Chatter)", "year": 2025, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "Franchise Chatter FDD Talk review (2023 FDD)", "year": 2023, "confidence": "medium", "note": "2% marketing fund; Vetted Biz cites combined marketing obligations of 5% including local requirements."},
+        "avgUnitRevenue": {"value": 549659, "source": "Jeremiah's FDD Item 19 (via Vetted Biz)", "year": 2025, "confidence": "medium", "note": "Franchise Chatter's 2023 FDD review cited ~$576K average sales; estimated payback 5.9-7.9 years per Vetted Biz."},
+        "totalUnits": {"value": 150, "source": "PR Newswire - Jeremiah's 150th location announcement", "year": 2024, "confidence": "high", "note": "150 open locations as of May 2024 (97 at end of 2023: 78 franchised + 19 company-owned); 60+ more openings planned within 18 months."},
+        "yearFounded": {"value": 1996, "source": "Jeremiah's corporate site - About/History", "year": 2025, "confidence": "high", "note": "Founded by Jeremy Litwack in the Orlando, FL area."},
+        "yearFranchising": {"value": 2019, "source": "Jeremiah's franchise site - Our Story; franchise press", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "PR Newswire - 150th location announcement; Franchise Payback outlet data", "year": 2024, "confidence": "high", "note": "From 97 units (end 2023) to 150 by May 2024, with 260+ units awarded."},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Jeremiah's Italian Ice Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two weeks at the corporate location (Orlando, FL)."},
+        "seasonalityNotes": {"value": "Frozen-dessert demand is weather-sensitive; the system mitigates this by concentrating in warm-weather Sun Belt states (FL, AZ, TX, etc.) where year-round operation is feasible.", "source": "Franchising.com Jeremiah's overview (state footprint)", "year": 2024, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Jeremiah's franchisor site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz / SHARPSHEETS / Franchise Chatter Jeremiah's FDD reviews", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter FDD Talk review (publishes Item 19 average sales)", "year": 2023, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Pop-A-Lock",
+      "slug": "pop-a-lock",
+      "category": "Services",
+      "website": "popalock.com",
+      "notes": "America's largest mobile locksmith and roadside-assistance franchise (founded 1991 in Lafayette, LA by off-duty law enforcement officers; franchising since 1994), providing car unlocks, residential/commercial locksmithing, and security services from service vehicles across ~450 franchised territories. No company-owned units. No published open-territory list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchised unit count declining (~-7% over three years)",
+          "detail": "Third-party FDD-tracking analysis counts 452 franchised US locations, a roughly 7% decrease over the past three years - a shrinking system in a category being squeezed by smart locks, connected-car remote unlock, and automaker roadside programs.",
+          "source": "FranchiseLens Pop-A-Lock franchise analysis",
+          "url": "https://franchiselens.ai/franchise/pop-a-lock",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Extreme franchisee performance dispersion",
+          "detail": "FDD-derived performance analysis shows top multi-unit operators averaging $5M+ in revenue while bottom single-unit performers average around $55K - outcomes depend heavily on territory size, commercial contracts, and fleet scale.",
+          "source": "FranchiseLens / Franchise Signal Pop-A-Lock FDD analyses",
+          "url": "https://www.franchisesignal.com/franchises/pop-a-lock",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Litigation/bankruptcy disclosures present in FDD",
+          "detail": "FDD-tracking services note Pop-A-Lock (System Forward America, Inc.) discloses lawsuits and/or bankruptcy information in its FDD Items 3/4; review the current document for specifics.",
+          "source": "Vetted Biz - Pop-A-Lock Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/popalock",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 35000, "source": "Vetted Biz - Pop-A-Lock Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 117566, "source": "Pop-A-Lock 2025 FDD Item 7 (via The FDD Exchange)", "year": 2025, "confidence": "high", "note": "$117,565.95-$190,610.95 per the 2025 FDD; Vetted Biz cites $169,565-$227,610 for larger territories."},
+        "totalInvestmentMax": {"value": 190611, "source": "Pop-A-Lock 2025 FDD Item 7 (via The FDD Exchange)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 23000, "source": "Pop-A-Lock 2025 FDD (via The FDD Exchange)", "year": 2025, "confidence": "high", "note": "Population/territory-based: $23,000-$63,000 paid to the franchisor per the 2025 FDD."},
+        "royaltyPercent": {"value": 7, "source": "Pop-A-Lock FDD (via Vetted Biz and FranchiseLens)", "year": 2025, "confidence": "high", "note": "7% of monthly gross sales."},
+        "adFundPercent": {"value": 1, "source": "Pop-A-Lock FDD (via Vetted Biz and FranchiseLens)", "year": 2025, "confidence": "high", "note": "1% ad fund."},
+        "totalUnits": {"value": 452, "source": "FranchiseLens Pop-A-Lock franchise analysis (FDD-derived)", "year": 2025, "confidence": "medium", "note": "All franchised; Vetted Biz counts 404 US locations. Declining ~7% over three years."},
+        "yearFounded": {"value": 1991, "source": "Vetted Biz - Pop-A-Lock Franchise Insights", "year": 2025, "confidence": "high", "note": "Founded in Lafayette, LA by law-enforcement officers."},
+        "yearFranchising": {"value": 1994, "source": "Vetted Biz - Pop-A-Lock Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Pop-A-Lock Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two weeks at headquarters."},
+        "isGrowing": {"value": false, "source": "FranchiseLens Pop-A-Lock franchise analysis", "year": 2025, "confidence": "medium", "note": "~-7% franchised unit change over the past three years."},
+        "mobileBased": {"value": true, "source": "Pop-A-Lock franchisor site (mobile service-vehicle model, no storefront required)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "both", "source": "Pop-A-Lock franchisor site (consumer roadside/residential plus commercial locksmith and fleet contracts)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Pop-A-Lock 2025 FDD)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Precision Tune Auto Care",
+      "slug": "precision-tune-auto-care",
+      "category": "Automotive",
+      "website": "precisiontune.com",
+      "notes": "Legacy auto repair and maintenance franchise (founded 1976 in Beaumont, TX; franchising since 1977; franchisor Precision Franchising LLC, Leesburg, VA) offering tune-ups, brakes, oil changes, and general repair. Roughly 294 centers worldwide - 232 US plus 62 international - well below the brand's historical scale. No published open-territory list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "System far below its historical peak",
+          "detail": "Precision Tune had 100 shops by the end of the 1970s and several hundred US centers during its 1990s public-company era (Precision Auto Care, Inc.); today the US count is roughly 232. Directory counts have drifted down across recent years (Vetted Biz 236; franchisor materials cite 260+ US at earlier dates), indicating long-run contraction in a category contested by dealerships and national quick-lube chains.",
+          "source": "Precision Tune corporate history; SEC EDGAR (Precision Auto Care, Inc. Form 10-K); Vetted Biz",
+          "url": "https://www.precisiontune.com/about-us/our-history/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Stacked ongoing fees: up to 7.5% royalty plus up to 7.5% local marketing",
+          "detail": "Royalty runs 6%-7.5% of gross sales with a $300/week minimum regardless of revenue, plus a 1.5% national marketing fund contribution and potential local/co-op advertising obligations of up to 7.5% - combined ongoing fees can exceed 15% on some revenue.",
+          "source": "Franchise Gator Precision Tune listing; Franchise Chatter fee analysis",
+          "url": "https://www.franchisegator.com/franchises/precision-tune-auto-care/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Litigation/bankruptcy disclosures present in FDD",
+          "detail": "FDD-tracking services note Precision Tune Auto Care discloses lawsuits and/or bankruptcy information in its FDD Items 3/4; the predecessor public parent also went through well-documented financial distress in the early 2000s. Review the current FDD for specifics.",
+          "source": "Vetted Biz - Precision Tune Auto Care Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/precision-tune-auto-care/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "Franchise Gator Precision Tune listing", "year": 2025, "confidence": "medium", "note": "$100,000 liquid; $350,000 minimum net worth. Vetted Biz cites $35,000 minimum cash."},
+        "netWorthMin": {"value": 350000, "source": "Franchise Gator Precision Tune listing", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 127000, "source": "Precision Tune FDD (via Vetted Biz)", "year": 2024, "confidence": "medium", "note": "SHARPSHEETS' 2025 FDD-derived range is $134,000-$310,000; assumes leased facility."},
+        "totalInvestmentMax": {"value": 310000, "source": "Precision Tune 2025 FDD (via SHARPSHEETS analysis)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 25000, "source": "Precision Tune FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high", "note": "FDD discloses $2,000-$25,000 depending on circumstances; $25,000 standard."},
+        "royaltyPercent": {"value": 7.5, "source": "Precision Tune FDD (via Franchise Gator and Franchise Chatter fee analysis)", "year": 2025, "confidence": "medium", "note": "Scaled 6%-7.5% of gross sales, minimum $300/week."},
+        "adFundPercent": {"value": 1.5, "source": "Precision Tune FDD (via Franchise Gator)", "year": 2025, "confidence": "medium", "note": "1.5% national marketing fund plus local/co-op marketing obligations of up to 7.5%."},
+        "avgUnitRevenue": {"value": 687876, "source": "Vetted Biz - Precision Tune Auto Care Franchise Insights (FDD-derived)", "year": 2024, "confidence": "medium", "note": "Yearly gross sales per Vetted Biz analysis; estimated payback 3.3-5.3 years."},
+        "totalUnits": {"value": 232, "source": "Franchise Gator / franchisor materials (232 US centers, 62 international, ~294 worldwide)", "year": 2025, "confidence": "medium", "note": "Vetted Biz counts 236 US locations."},
+        "yearFounded": {"value": 1976, "source": "Precision Tune corporate site - Our History", "year": 2025, "confidence": "high", "note": "Founded by Bill Childs in Beaumont, TX."},
+        "yearFranchising": {"value": 1977, "source": "Precision Tune corporate site - Our History (franchising began the year after founding)", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Precision Tune Auto Care Franchise Insights", "year": 2024, "confidence": "medium", "note": "Two weeks at corporate headquarters."},
+        "veteranDiscount": {"value": true, "source": "SHARPSHEETS Precision Tune FDD analysis", "year": 2025, "confidence": "medium", "note": "35% off the franchise fee for veterans."},
+        "financingOffered": {"value": true, "source": "SHARPSHEETS Precision Tune FDD analysis (franchisor offers financing)", "year": 2025, "confidence": "medium"},
+        "internationalAvailability": {"value": true, "source": "Precision Tune corporate site (centers in six countries)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Precision Tune franchisor site (consumer auto repair)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Precision Tune franchisor site (fixed service-center model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct / SHARPSHEETS Precision Tune FDD summaries", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter FDD Talk review (publishes average sales for franchised centers); Vetted Biz", "year": 2024, "confidence": "medium"}
+      }
+    }
+  ]
+}

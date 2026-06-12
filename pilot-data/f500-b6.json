@@ -1,0 +1,267 @@
+{
+  "brands": [
+    {
+      "name": "Applebee's Neighborhood Grill & Bar",
+      "slug": "applebees-neighborhood-grill-and-bar",
+      "category": "Food & Beverage",
+      "website": "applebees.com",
+      "notes": "America's largest casual-dining chain (parent: Dine Brands Global), ~94% franchised, recruiting experienced multi-unit operators via franchise.applebees.com. The system is mature and contracting modestly: a combined 110 Applebee's and IHOP locations closed in 2025 and a major Southeast franchisee filed Chapter 11 in March 2026. The franchisor negotiates development market-by-market and does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "53-unit franchisee Chapter 11 bankruptcy (Neighborhood Restaurant Partners Florida)",
+          "detail": "NRPF, a large Applebee's franchisee across Florida, Georgia and Alabama, filed Chapter 11 in March 2026 after closing nine restaurants in 2025 and five more in Q1 2026; parent Dine Brands is the stalking-horse bidder to absorb its remaining 53 units.",
+          "source": "Restaurant Dive",
+          "url": "https://www.restaurantdive.com/news/applebees-franchisee-neighborhood-restaurant-partners-florida-chapter-11-bankruptcy/815721/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "System contraction: 110 Applebee's/IHOP closures in 2025",
+          "detail": "Dine Brands reported a combined 110 Applebee's and IHOP closures in 2025 (including 13 franchised Applebee's units in Q4) and guided to roughly 5-15 further Applebee's closures in 2026; same-store sales recovered +1.3% in 2025 after a -4.2% decline the prior year.",
+          "source": "Yahoo Finance / Dine Brands reporting",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applebee-restaurant-closures-see-list-124100117.html",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Franchisor buying back restaurants from franchisees",
+          "detail": "In SEC filings Dine Brands disclosed acquiring 47 restaurants from franchisees in 2024 and another 12 in 2025 - a re-corporatization of select markets that signals stress among some operators and shrinks the resale pool.",
+          "source": "Yahoo Finance summary of Dine Brands SEC reporting",
+          "url": "https://finance.yahoo.com/economy/policy/articles/applebee-store-closures-major-franchisee-142957267.html",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 500000, "source": "Applebee's Domestic Franchising FAQ (franchisor site)", "year": 2026, "confidence": "high", "note": "$500,000 liquid assets per location to be developed."},
+        "netWorthMin": {"value": 2500000, "source": "Applebee's Domestic Franchising FAQ (franchisor site)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 1766798, "source": "Applebee's 2025 FDD (via The FDD Exchange)", "year": 2025, "confidence": "high", "note": "Vetted Biz cites $3,870,004-$5,822,933 for new ground-up builds; low end reflects conversion/lower-cost formats."},
+        "totalInvestmentMax": {"value": 5822933, "source": "Applebee's 2025 FDD (via The FDD Exchange)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 35000, "source": "Applebee's 2025 FDD (via The FDD Exchange; Vetted Biz)", "year": 2025, "confidence": "high", "note": "FDD discloses $35,000-$50,000 depending on the agreement."},
+        "royaltyPercent": {"value": 4, "source": "Applebee's 2025 FDD (via The FDD Exchange)", "year": 2025, "confidence": "high", "note": "4% of weekly gross sales."},
+        "adFundPercent": {"value": 4.25, "source": "Applebee's 2025 FDD (via The FDD Exchange)", "year": 2025, "confidence": "high", "note": "4.25% of weekly gross sales to the national Ad Fund."},
+        "avgUnitRevenue": {"value": 2640000, "source": "Vetted Biz - Applebee's Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per restaurant."},
+        "totalUnits": {"value": 1520, "source": "Restaurant Dive / Dine Brands reporting", "year": 2025, "confidence": "medium", "note": "Roughly 1,520 franchised US restaurants as of late 2025; Vetted Biz lists 1,507 US units. System ~94% franchised."},
+        "yearFounded": {"value": 1980, "source": "Applebee's corporate history (applebees.com/our-history)", "year": 2026, "confidence": "high", "note": "First restaurant opened by Bill and T.J. Palmer in Atlanta, GA."},
+        "yearFranchising": {"value": 1983, "source": "Applebee's company histories (company-histories.com; The Franchise Talk)", "year": 2025, "confidence": "medium"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Applebee's Franchise Insights", "year": 2025, "confidence": "medium", "note": "Initial immersive training at a designated corporate location; full operator certification requirements are broader."},
+        "renewalTermYears": {"value": 5, "source": "Applebee's 2025 FDD (via The FDD Exchange)", "year": 2025, "confidence": "medium", "note": "20-year initial term with four 5-year renewal options."},
+        "multiUnitAvailable": {"value": true, "source": "Applebee's Domestic Franchising FAQ (franchisor site)", "year": 2026, "confidence": "high", "note": "Development is sold to experienced multi-unit operators; financial requirements are quoted per location developed."},
+        "isGrowing": {"value": false, "source": "Dine Brands 2025 closure reporting (Restaurant Dive; Yahoo Finance)", "year": 2025, "confidence": "high", "note": "Net US closures in 2024-2025 with 5-15 more closures guided for 2026."},
+        "businessModelType": {"value": "b2c", "source": "Applebee's franchisor site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Applebee's franchisor site (full-service restaurant model)", "year": 2026, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - Applebee's Franchise Insights (notes lawsuits and/or bankruptcy disclosed in FDD)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Applebee's 2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Applebee's Franchise Insights (AUV disclosed)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "The Entrepreneur's Source",
+      "slug": "the-entrepreneurs-source",
+      "category": "Services",
+      "website": "entrepreneurssource.com",
+      "notes": "Home-based career-ownership coaching franchise (founded 1984, Connecticut): franchisees coach career changers into business/franchise ownership and earn placement/referral fees from franchisors. Low overhead but revenue is commission-driven and the franchisor takes a 25% royalty on placement fees. Franchisor markets coaching territories across the US but publishes no state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "FTC complaint disclosed in FDD legal actions",
+          "detail": "The Entrepreneur's Source has disclosed two legal actions in its FDD, including an FTC complaint filed April 7, 2015 alleging false and misleading representations regarding participation in certain dispute resolution programs.",
+          "source": "FranchiseComplaints.org - Entrepreneur's Source Franchise Due Diligence Report",
+          "url": "https://www.franchisecomplaints.org/reports/entrepreneurs-source-franchise-due-diligence/",
+          "year": 2015
+        },
+        {
+          "severity": "caution",
+          "title": "Low average revenue versus investment (8-10 year estimated payback)",
+          "detail": "Vetted Biz FDD-derived analysis pegs average yearly gross sales at about $103,000 against a $114,350-$133,450 total investment, with estimated owner earnings of $14,421-$18,540 and an 8-10 year payback period - thin economics for a full-time owner-operator.",
+          "source": "Vetted Biz - The Entrepreneur's Source Franchise Insights",
+          "url": "https://www.vettedbiz.com/the-entrepreneurs-source/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Franchisee complaints alleging termination practices",
+          "detail": "Multiple complaints on consumer-complaint forums (9+ reports on Ripoff Report) allege franchisees were set up to fail and terminated unjustly. Unverified individual accounts, but a recurring theme prospective buyers should validate with current and former franchisees.",
+          "source": "Ripoff Report - The Entrepreneur's Source complaint listings",
+          "url": "https://www.ripoffreport.com/reports/specific_search/The+Entrepreneur's+Source/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Franchise Gator directory listing", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites a $25,000 minimum cash figure; Gator lists $50,000 liquid / $150,000 net worth."},
+        "netWorthMin": {"value": 150000, "source": "Franchise Gator directory listing", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 114350, "source": "Vetted Biz - The Entrepreneur's Source FDD analysis", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 133450, "source": "Vetted Biz - The Entrepreneur's Source FDD analysis", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 75000, "source": "Vetted Biz - The Entrepreneur's Source FDD analysis", "year": 2025, "confidence": "medium", "note": "Per current FDD-derived data; older directory sources cite $55,000."},
+        "royaltyPercent": {"value": 25, "source": "Franchise Gator / FranchiseComplaints.org FDD summaries", "year": 2025, "confidence": "medium", "note": "25% royalty on placement fees and other revenue - charged on commission income, not conventional gross sales."},
+        "avgUnitRevenue": {"value": 103000, "source": "Vetted Biz - The Entrepreneur's Source FDD analysis (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per franchisee."},
+        "totalUnits": {"value": 236, "source": "Vetted Biz - The Entrepreneur's Source Franchise Insights", "year": 2025, "confidence": "medium", "note": "US locations per Vetted Biz; other FDD-tracking sources (Franchimp/FranchiseComplaints) cite ~148 units."},
+        "yearFounded": {"value": 1984, "source": "Vetted Biz - The Entrepreneur's Source Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1997, "source": "Vetted Biz - The Entrepreneur's Source Franchise Insights", "year": 2025, "confidence": "medium"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - The Entrepreneur's Source Franchise Insights", "year": 2025, "confidence": "medium", "note": "Approximately two weeks, delivered remotely."},
+        "veteranDiscount": {"value": true, "source": "Franchise Gator directory listing (VetFran)", "year": 2025, "confidence": "medium", "note": "15% off the initial franchise fee for VetFran-qualified veterans."},
+        "canRunFromHome": {"value": true, "source": "Franchise Gator directory listing; franchisor marketing (home-based coaching model)", "year": 2025, "confidence": "high"},
+        "thirdPartyFinancing": {"value": "Third-party financing available per directory listings", "source": "Franchise Gator directory listing", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "The Entrepreneur's Source franchisor site (coaching individual career changers)", "year": 2026, "confidence": "medium"},
+        "mobileBased": {"value": false, "source": "Vetted Biz (home-based coaching, not vehicle-based)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; FranchiseComplaints.org FDD analyses", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Aussie Pet Mobile",
+      "slug": "aussie-pet-mobile",
+      "category": "Pets",
+      "website": "aussiepetmobile.com",
+      "notes": "Mobile pet-grooming franchise (Mercedes Sprinter-based grooming vans) headquartered in California, franchising since 1999. Owner economics hinge on scaling to multiple vans: single-vehicle operations have historically averaged sales near or below the initial investment. Franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Maryland Securities Commissioner order over earnings claims (2005)",
+          "detail": "The Maryland Attorney General's Securities Division issued an order to show cause against Aussie Pet Mobile, Inc. and its principal regarding information given to a franchisee about potential annual net income - an unregistered earnings-claim issue under state franchise law.",
+          "source": "Maryland Office of the Attorney General, Securities Division (Order to Show Cause)",
+          "url": "https://oag.maryland.gov/i-need-to/Documents/pdfs/Securities/2005/AussiePetOSC.pdf",
+          "year": 2005
+        },
+        {
+          "severity": "caution",
+          "title": "Single-van revenue runs below the initial investment",
+          "detail": "Per the 2023 FDD Item 19 (2021 data), single-vehicle operations averaged $122,806 in sales (median $134,990) against a total initial investment of roughly $180,000-$209,000; multi-vehicle operators averaged $593,218, so returns depend on fleet expansion and added capital.",
+          "source": "Franchise Chatter FDD Talk review (Aussie Pet Mobile 2023)",
+          "url": "https://www.franchisechatter.com/2023/05/14/fdd-talk-aussie-pet-mobile-franchise-costs-fees-average-revenues-and-or-profits-2023-review/",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "Royalty and marketing minimums apply regardless of revenue",
+          "detail": "Royalty is the greater of 4-7% of gross revenue or $750-$1,500 per month, and the marketing fund is the greater of 2% or $500 per month - fixed minimums that bite hardest during ramp-up of a new van.",
+          "source": "Franchise Chatter FDD Talk review (Aussie Pet Mobile 2023)",
+          "url": "https://www.franchisechatter.com/2023/05/14/fdd-talk-aussie-pet-mobile-franchise-costs-fees-average-revenues-and-or-profits-2023-review/",
+          "year": 2023
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 35000, "source": "Vetted Biz - Aussie Pet Mobile Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 167325, "source": "Aussie Pet Mobile 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "Includes $40,000 territory fee and ~$59,200 equipment package; grooming van typically financed separately."},
+        "totalInvestmentMax": {"value": 208650, "source": "Aussie Pet Mobile 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 19950, "source": "Aussie Pet Mobile 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz - Aussie Pet Mobile Franchise Insights (2025 FDD)", "year": 2025, "confidence": "medium", "note": "2023 FDD disclosed greater of 4-7% of gross revenue or $750-$1,500/month minimums."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz; Franchise Chatter FDD reviews", "year": 2025, "confidence": "high", "note": "Greater of 2% of gross revenue or $500/month."},
+        "avgUnitRevenue": {"value": 122806, "source": "Aussie Pet Mobile FDD Item 19, 2021 data (via Franchise Chatter)", "year": 2023, "confidence": "medium", "note": "Average sales for SINGLE-vehicle operations; multi-vehicle (2+) operations averaged $593,218. Vetted Biz cites $721,254 average yearly gross sales for its analyzed cohort (fleet-weighted)."},
+        "totalUnits": {"value": 105, "source": "Aussie Pet Mobile 2025 FDD (via Vetted Biz)", "year": 2025, "confidence": "medium", "note": "US franchised locations; system grew modestly from 73 (2019) to 82 (2021) per earlier FDD outlet tables."},
+        "yearFounded": {"value": 1999, "source": "Vetted Biz - Aussie Pet Mobile Franchise Insights", "year": 2025, "confidence": "high", "note": "Concept originated in Australia 1996; US company founded/franchising 1999."},
+        "yearFranchising": {"value": 1999, "source": "Vetted Biz - Aussie Pet Mobile Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Aussie Pet Mobile Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two weeks at headquarters."},
+        "renewalTermYears": {"value": 5, "source": "SHARPSHEETS / FDD term summaries", "year": 2025, "confidence": "medium", "note": "10-year initial term with two consecutive 5-year renewal terms."},
+        "mobileBased": {"value": true, "source": "Aussie Pet Mobile franchisor site (mobile grooming van model)", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": true, "source": "Vetted Biz (no storefront; van-based service business)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Aussie Pet Mobile franchisor site", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "FDD outlet tables 2019-2021 (via Franchise Chatter); Vetted Biz 2025 count", "year": 2025, "confidence": "low", "note": "Modest net unit growth (+8 in 2020, +3 in 2021); current trend unclear from public data."},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS; Franchise Chatter FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter FDD Talk review (Item 19 sales data disclosed)", "year": 2023, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Randy's Donuts",
+      "slug": "randys-donuts",
+      "category": "Food & Beverage",
+      "website": "randysdonuts.com",
+      "notes": "Iconic Los Angeles donut brand (the giant rooftop donut, founded 1952) that only began franchising in 2019. Young domestic system (~40+ units open) with an outsized international development pipeline (Philippines, South Korea, Saudi Arabia, Egypt, France and more). Franchisor markets nationwide expansion via randysdonutsfranchising.com but publishes no state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very young franchise system relative to brand age",
+          "detail": "Despite the 1952 founding, Randy's only began franchising in summer 2019, so most franchised units have short operating histories and long-run unit economics are unproven outside the legacy Southern California shops.",
+          "source": "Bake Magazine - Randy's Donuts opens up franchising beyond California",
+          "url": "https://www.bakemag.com/articles/11890-randys-donuts-opens-up-franchising-beyond-california",
+          "year": 2019
+        },
+        {
+          "severity": "caution",
+          "title": "Item 19 based on a small, affiliate-weighted sample",
+          "detail": "The disclosed ~$1.03M average gross sales covers only 19 affiliate-owned and franchised shops for the 2025 measured period - a small sample that includes legacy company/affiliate locations with landmark status and decades of brand equity new franchisees won't replicate.",
+          "source": "IFPG - Randy's Donuts franchise cost and requirements (2025 FDD summary)",
+          "url": "https://www.ifpg.org/top-franchises/randys-donuts",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Large signed pipeline versus small open base",
+          "detail": "Randy's has announced 78 stores signed for California since 2021 plus 60+ international stores open or in development - a pipeline several times the open store count (~43 units per 2025 directory data), dependent on developers actually building out commitments.",
+          "source": "Franchise Times - Randy's Donuts Embarks on Major Franchise Expansion",
+          "url": "https://www.franchisetimes.com/franchise_news/randy-s-donuts-embarks-on-major-franchise-expansion/article_0c935230-ac49-11eb-bbf4-5f631d40d10b.html",
+          "year": 2021
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 300000, "source": "IFPG - Randy's Donuts franchise requirements", "year": 2025, "confidence": "high"},
+        "netWorthMin": {"value": 1000000, "source": "IFPG - Randy's Donuts franchise requirements", "year": 2025, "confidence": "high"},
+        "totalInvestmentMin": {"value": 257000, "source": "Randy's Donuts FDD (via Vetted Biz)", "year": 2025, "confidence": "medium", "note": "FDD-derived range $257,000-$1,176,000 across formats; franchisor/1851 cite $240,500-$788,500 and ~$360,000-$526,000 for in-line locations."},
+        "totalInvestmentMax": {"value": 1176000, "source": "Randy's Donuts FDD (via Vetted Biz)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 35000, "source": "Randy's Donuts FDD summaries (FranchisePayback; IFPG)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Randy's Donuts FDD summaries (FranchisePayback; IFPG)", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "Randy's Donuts FDD summaries (FranchisePayback; IFPG)", "year": 2025, "confidence": "medium", "note": "Brand fund of 2%, may range up to 4% of gross sales."},
+        "avgUnitRevenue": {"value": 1026789, "source": "Randy's Donuts 2025 FDD Item 19 (via IFPG summary)", "year": 2025, "confidence": "medium", "note": "Average gross sales of all 19 affiliate-owned and franchised shops in the 2025 measured period; small, affiliate-weighted sample."},
+        "totalUnits": {"value": 43, "source": "Franchise Times Top 400 (2025); franchise directory data", "year": 2025, "confidence": "medium", "note": "Open units; signed pipeline (domestic + international) is far larger."},
+        "yearFounded": {"value": 1952, "source": "Randy's Donuts franchising site; Bake Magazine", "year": 2025, "confidence": "high", "note": "Founded in Inglewood, CA."},
+        "yearFranchising": {"value": 2019, "source": "Bake Magazine; PRNewswire franchise launch announcement", "year": 2019, "confidence": "high"},
+        "multiUnitAvailable": {"value": true, "source": "QSR Magazine / Bake Magazine franchise launch coverage", "year": 2019, "confidence": "high", "note": "Franchisor targets operators with foodservice experience seeking multi-unit deals."},
+        "internationalAvailability": {"value": true, "source": "Franchise Times expansion coverage (Philippines, South Korea, Saudi Arabia, Egypt, France, Morocco, Kuwait, Bahrain)", "year": 2021, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Franchise Times; franchisor expansion announcements", "year": 2025, "confidence": "medium", "note": "Young system in active domestic and international expansion."},
+        "businessModelType": {"value": "b2c", "source": "Randy's Donuts franchising site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Randy's Donuts franchising site (retail shop model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranchisePayback; Vetted Biz FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "IFPG 2025 FDD summary (average gross sales disclosed)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "ERA Group",
+      "slug": "era-group",
+      "category": "Services",
+      "website": "eragroup.com",
+      "notes": "Global cost-optimization consulting franchise (founded 1984 in the UK as Expense Reduction Analysts; rebranded ERA Group in 2024). Home-based B2B consulting: franchisees win client engagements and share in documented savings. Results are heavily effort-dependent - part-time franchisees earn a fraction of full-timers. No published state-by-state availability list (home-based territories sold across the US), so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Most franchisees earn below the advertised average",
+          "detail": "2023 Item 19: 58 full-time franchisees averaged $327,252 in net receipts (median $268,982) but only 33% met or exceeded the average; 62 part-time franchisees averaged just $41,642 with a median of $14,642 and only 27% reaching the average.",
+          "source": "ERA Group 2024 FDD Item 19 (via Franchise Chatter 2025 review)",
+          "url": "https://www.franchisechatter.com/2025/02/25/expense-reduction-analysts-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "15% royalty with minimum fees on consulting receipts",
+          "detail": "Royalty is the greater of 15% of net cumulative receipts or an applicable minimum royalty, plus a 3% marketing fund contribution - a high ongoing take for a personal-services consulting model where the franchisee is the revenue engine.",
+          "source": "ERA Group 2025 FDD (via The FDD Exchange and Franchise Chatter)",
+          "url": "https://fddexchange.com/view-fdd-docs/era-group-2025-fdd-franchise-information-costs-and-fees/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Flat-to-choppy unit count in the US",
+          "detail": "US franchised outlets went 145 (end 2021) to 136 (end 2022, -9) to 144 (end 2023, +8) - a mature, essentially flat system rather than a growth story, with 144 franchised + 2 company-owned reported for 2024.",
+          "source": "ERA Group FDD outlet tables (via Franchise Chatter 2025 review)",
+          "url": "https://www.franchisechatter.com/2025/02/25/expense-reduction-analysts-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 76000, "source": "ERA Group 2025 FDD (via The FDD Exchange)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 105900, "source": "ERA Group 2025 FDD (via The FDD Exchange)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 69900, "source": "ERA Group 2025 FDD (via The FDD Exchange; Franchise Chatter)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 15, "source": "ERA Group 2025 FDD (via The FDD Exchange)", "year": 2025, "confidence": "high", "note": "Greater of 15% of net cumulative receipts or the applicable minimum royalty fee."},
+        "adFundPercent": {"value": 3, "source": "ERA Group FDD (via Franchise Chatter 2025 review)", "year": 2025, "confidence": "high", "note": "3% of net cumulative receipts marketing fund."},
+        "avgUnitRevenue": {"value": 327252, "source": "ERA Group FDD Item 19, 2023 data (via Franchise Chatter 2025 review)", "year": 2025, "confidence": "high", "note": "Average net receipts for 58 FULL-TIME franchisees; part-time franchisees averaged $41,642. Excludes startups under 18 months."},
+        "totalUnits": {"value": 146, "source": "ERA Group FDD outlet tables (via FDD Exchange / Franchise Chatter)", "year": 2024, "confidence": "high", "note": "144 franchised + 2 company-owned US outlets in 2024; global network is larger (700+ consultants worldwide per franchisor)."},
+        "yearFounded": {"value": 1984, "source": "The FDD Exchange ERA Group profile", "year": 2025, "confidence": "high", "note": "Founded in the United Kingdom; rebranded from Expense Reduction Analysts to ERA Group in 2024."},
+        "canRunFromHome": {"value": true, "source": "Franchise Chatter 2025 review; FranNet directory (home-based consulting model)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2b", "source": "ERA Group franchisor materials (cost-management consulting for businesses)", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "ERA Group (home-office consulting, not vehicle-based)", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "ERA Group FDD outlet tables (via Franchise Chatter 2025 review)", "year": 2025, "confidence": "medium", "note": "US system flat: 145 -> 136 -> 144 franchised units across 2021-2023."},
+        "internationalAvailability": {"value": true, "source": "ERA Group global network (operates across 35+ countries per franchisor)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (ERA Group 2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 review (Item 19 net receipts disclosed)", "year": 2025, "confidence": "high"}
+      }
+    }
+  ]
+}
