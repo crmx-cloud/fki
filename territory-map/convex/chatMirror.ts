@@ -242,3 +242,15 @@ export const ingestReplies = internalMutation({
     return n;
   },
 });
+
+/** Ops cleanup: remove a previously ingested CRMX reply from site chat. */
+export const qaDeleteIngested = internalMutation({
+  args: { ghlMessageId: v.string() },
+  handler: async (ctx, { ghlMessageId }) => {
+    const rows = (await ctx.db.query("chatMessages").collect()).filter(
+      (m: any) => m.ghlMessageId === ghlMessageId
+    );
+    for (const r of rows) await ctx.db.delete(r._id);
+    return { deleted: rows.length };
+  },
+});

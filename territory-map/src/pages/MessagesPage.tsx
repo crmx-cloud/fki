@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { Id as ConvexId } from "../../convex/_generated/dataModel";
-import { useQuery, useMutation, useAction } from "convex/react";
+import { useQuery, useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import type { Id } from "../../convex/_generated/dataModel";
 import { Button } from "@/components/ui/button";
@@ -39,21 +39,6 @@ function TypingDots({ label }: { label: string }) {
       </div>
     </div>
   );
-}
-
-/** Pull CRMX-inbox replies into the thread: on open + every 45s while visible. */
-function useGhlReplySync(prospectUserId?: ConvexId<"users">) {
-  const pull = useAction(api.chatMirror.pullFromGHL);
-  useEffect(() => {
-    let stop = false;
-    const run = () => {
-      if (!stop && document.visibilityState === "visible")
-        pull(prospectUserId === undefined ? {} : { prospectUserId }).catch(() => {});
-    };
-    run();
-    const t = setInterval(run, 45_000);
-    return () => { stop = true; clearInterval(t); };
-  }, [prospectUserId]); // eslint-disable-line react-hooks/exhaustive-deps
 }
 
 /** Other side typing? Polls the reactive deadline against a ticking clock. */
@@ -210,7 +195,6 @@ function ProspectMessages() {
   const markRead = useMutation(api.chat.markRead);
   const setTyping = useMutation(api.chat.setTyping);
   const otherTyping = useOtherTyping(undefined);
-  useGhlReplySync(undefined);
   useEffect(() => {
     if (messages.some((m: any) => !m.readByProspect)) markRead({}).catch(() => {});
   }, [messages.length]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -239,7 +223,6 @@ function TeamMessages() {
   const markRead = useMutation(api.chat.markRead);
   const setTyping = useMutation(api.chat.setTyping);
   const otherTyping = useOtherTyping(selected ?? undefined);
-  useGhlReplySync(selected ?? undefined);
   useEffect(() => {
     if (selected && messages.some((m: any) => !m.readByTeam)) markRead({ prospectUserId: selected }).catch(() => {});
   }, [selected, messages.length]); // eslint-disable-line react-hooks/exhaustive-deps
