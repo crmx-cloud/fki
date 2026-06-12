@@ -501,11 +501,11 @@ export function HomePage() {
             Map your territories for free, embed interactive maps on your website, and attract qualified prospects — no monthly fees.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link to="/for-franchisors">
+            <a href="https://brandshowcase.franchiseki.com/">
               <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 px-8">
                 Learn More
               </Button>
-            </Link>
+            </a>
             <Link to="/claim">
               <Button className="bg-cyan-600 hover:bg-cyan-500 text-white px-8">
                 Build My Map <ArrowRight className="w-4 h-4 ml-1" />

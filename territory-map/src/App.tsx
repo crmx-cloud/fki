@@ -21,7 +21,6 @@ import {
   UsersPage,
   ExplorePage,
   BrandListingPage,
-  ForFranchisorsPage,
   ClaimPage,
   GetStartedPage,
   CRMPage,
@@ -41,6 +40,13 @@ import {
 
 const DossierPage = lazy(() => import("./pages/DossierPage"));
 
+function ExternalRedirect({ to }: { to: string }) {
+  useEffect(() => {
+    window.location.replace(to);
+  }, [to]);
+  return null;
+}
+
 function App() {
   // First-touch UTM/referrer capture (feeds Source Performance KPIs)
   useEffect(() => captureAttribution(), []);
@@ -56,7 +62,8 @@ function App() {
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/explore" element={<ExplorePage />} />
           <Route path="/brand/:slug" element={<BrandListingPage />} />
-          <Route path="/for-franchisors" element={<ForFranchisorsPage />} />
+          {/* Retired in favor of the Brand Showcase subdomain */}
+          <Route path="/for-franchisors" element={<ExternalRedirect to="https://brandshowcase.franchiseki.com/" />} />
           <Route path="/claim" element={<ClaimPage />} />
           <Route path="/get-started" element={<GetStartedPage />} />
           <Route

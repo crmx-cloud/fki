@@ -17,7 +17,7 @@ export function PublicFooter() {
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-500">
             <Link to="/quiz" className="hover:text-white transition-colors">PerfectFit</Link>
             <Link to="/explore" className="hover:text-white transition-colors">Explore</Link>
-            <Link to="/for-franchisors" className="hover:text-white transition-colors">For Franchisors</Link>
+            <a href="https://brandshowcase.franchiseki.com/" className="hover:text-white transition-colors">For Franchisors</a>
             <Link to="/privacy" className="hover:text-white transition-colors">Privacy</Link>
             <Link to="/terms" className="hover:text-white transition-colors">Terms</Link>
             <span className="hidden md:inline text-white/10">|</span>
