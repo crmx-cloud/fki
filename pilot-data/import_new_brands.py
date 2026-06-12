@@ -30,8 +30,10 @@ ALL_STATES = ["AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","
 "OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY"]
 
 def convex(fn, args):
-    r = subprocess.run(["npx", "convex", "run", fn, json.dumps(args)],
-                       capture_output=True, text=True, cwd=APP)
+    cmd = ["npx", "convex", "run", fn, json.dumps(args)]
+    if os.environ.get("FKI_PROD") == "1":
+        cmd.append("--prod")  # live database — set FKI_PROD=1 deliberately
+    r = subprocess.run(cmd, capture_output=True, text=True, cwd=APP)
     ok = r.returncode == 0
     return ok, (r.stdout + r.stderr).strip()
 
