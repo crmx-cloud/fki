@@ -1,0 +1,664 @@
+{
+  "brands": [
+    {
+      "name": "Denny's",
+      "slug": "dennys",
+      "category": "Food & Beverage",
+      "website": "dennys.com",
+      "notes": "America's Diner: 70-year-old full-service family-dining chain (Denny's Corp., Spartanburg, SC), roughly 1,400+ restaurants worldwide and ~87% franchised. The system is in a managed contraction: corporate announced closure of ~150 underperforming restaurants across 2024-2025 while opening only 25-40 new units a year (split with sister brand Keke's Breakfast Cafe). Buyers should treat this as a turnaround/remodel story, not a growth brand. Denny's does not publish a state-by-state availability list (development is negotiated by market, much of it via existing multi-unit operators), so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "System shrinking: ~150 closures announced for 2024-2025",
+          "detail": "Denny's said it would close roughly 150 restaurants by end of 2025 (88 closed in 2024, up to ~90 in 2025 - about 30 more than originally planned). Closed units averaged under $1.1M AUV and ~30 years old. Entrepreneur's directory shows a -9% unit trend on ~1,474 units.",
+          "source": "Restaurant Business; Newsweek; Entrepreneur Franchise 500 directory",
+          "url": "https://www.restaurantbusinessonline.com/financing/dennys-plans-close-more-restaurants-previously-expected",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Multi-unit franchisee Chapter 11 bankruptcies and weak resale demand",
+          "detail": "Denn-Ohio LLC (Denny's franchisee in Ohio, Michigan, Kentucky) filed Chapter 11 in 2023 and disclosed that demand to buy or refinance its Denny's restaurants was 'extremely limited'; a Miami Beach franchisee filed Chapter 11 in 2025. Weak resale demand is a direct exit-risk signal for buyers.",
+          "source": "Franchise Times; Restaurant Dive; TheStreet",
+          "url": "https://www.franchisetimes.com/franchise_finance/more-closures-planned-as-multi-unit-denny-s-franchisee-files-bankruptcy/article_52b716f8-7e82-11ee-bb67-f35de66cc663.html",
+          "year": 2023
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee litigation against the franchisor",
+          "detail": "A former NFL player and multi-unit franchisee sued Denny's alleging franchise-agreement breaches; his attorney publicly claimed 'Denny's has a long history of misconduct and countless corporate lawsuits.' Denny's also faced 2024-2025 shareholder suits over its proposed take-private sale.",
+          "source": "Nation's Restaurant News; Restaurant Business",
+          "url": "https://www.nrn.com/franchising/ex-nfl-pro-sues-denny-s-over-alleged-franchise-breach",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Long payback on a ~$1.6M-$3.1M build",
+          "detail": "Vetted Biz's FDD-derived analysis estimates a 15.7-17.7 year payback on the midpoint investment against ~$1.8M average yearly gross sales - among the longest paybacks in family dining.",
+          "source": "Vetted Biz - Denny's Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/dennys",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 500000, "source": "Entrepreneur Franchise 500 directory; IFPG", "year": 2026, "confidence": "high"},
+        "netWorthMin": {"value": 1000000, "source": "Entrepreneur Franchise 500 directory; IFPG", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 1618375, "source": "Denny's 2025 FDD Item 7 (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high", "note": "New-build range $1,618,375-$3,056,875. Entrepreneur lists a wider $953,414 floor that includes lower-cost conversion scenarios."},
+        "totalInvestmentMax": {"value": 3056875, "source": "Denny's 2025 FDD Item 7 (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 30000, "source": "Denny's 2025 FDD (via SHARPSHEETS, Vetted Biz, Entrepreneur)", "year": 2025, "confidence": "high", "note": "Tiered for multi-unit deals per directory summaries: $35,000 first restaurant, stepping down to $20,000 each at 4+ units in some programs."},
+        "royaltyPercent": {"value": 4.5, "source": "Denny's 2025 FDD (via SHARPSHEETS); Entrepreneur lists 4.5%-7%", "year": 2025, "confidence": "high", "note": "Standard 4.5% of gross sales; Entrepreneur's range runs to 7% and Vetted Biz cites 6% for some agreements."},
+        "adFundPercent": {"value": 3, "source": "Denny's 2025 FDD (via SHARPSHEETS); Entrepreneur lists 3%-3.25%", "year": 2025, "confidence": "high"},
+        "avgUnitRevenue": {"value": 1805776, "source": "Denny's FDD Item 19 (via Vetted Biz); SHARPSHEETS cites $1.8M median", "year": 2025, "confidence": "high", "note": "Average yearly gross sales for franchised units; company-owned AUV ~$2.1M. Closed units averaged under $1.1M."},
+        "totalUnits": {"value": 1474, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "-9% trend; Vetted Biz counts 1,334 US locations. ~87% of the worldwide system is franchised."},
+        "yearFounded": {"value": 1953, "source": "Entrepreneur Franchise 500 directory; Denny's company history", "year": 2026, "confidence": "high", "note": "Opened as Danny's Donuts in Lakewood, CA."},
+        "yearFranchising": {"value": 1963, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Denny's Franchise Insights", "year": 2025, "confidence": "medium", "note": "Initial program at a Denny's training facility; manager training requirements are longer."},
+        "renewalTermYears": {"value": 20, "source": "Entrepreneur Franchise 500 directory (term of agreement)", "year": 2026, "confidence": "high", "note": "20-year initial term; Entrepreneur lists the agreement as non-renewable."},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "financingOffered": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "No direct franchisor financing."},
+        "thirdPartyFinancing": {"value": "Third-party financing available per Entrepreneur directory", "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Entrepreneur Franchise 500 directory (-9% trend); announced 150 closures 2024-2025", "year": 2026, "confidence": "high"},
+        "multiUnitAvailable": {"value": true, "source": "Denny's franchise fee tiering for 2-4+ restaurants (IFPG/directory summaries)", "year": 2025, "confidence": "medium"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz (FDD discloses lawsuits and/or bankruptcy information)", "year": 2025, "confidence": "medium", "note": "Franchisee-level Chapter 11s (Denn-Ohio 2023, Miami Beach operator 2025) are public; FDD Item 3/4 disclosures exist per Vetted Biz."},
+        "internationalAvailability": {"value": true, "source": "Denny's company overview (restaurants worldwide)", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Denny's brand site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Full-service restaurant model (Denny's brand site)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / Vetted Biz / FranchisePayback FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS Denny's FDD analysis (Item 19 median revenue disclosed)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "ServiceMaster Restore",
+      "slug": "servicemaster-restore",
+      "category": "Home Services",
+      "website": "servicemasterrestore.com",
+      "notes": "Disaster-restoration arm (water/fire/mold, residential and commercial) of ServiceMaster Brands, one of the oldest franchise systems in America (founded 1929, franchising since 1952), owned by PE firm Roark Capital since its $1.55B 2020 acquisition. ~2,000 franchised units with zero company-owned. Insurance-carrier program work drives revenue; the franchisor announced 52 planned new locations for 2026.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "10% royalty - top of the restoration category",
+          "detail": "Franchisees pay the greater of $250/month or 10% of monthly gross service sales, plus a national ad fund contribution - roughly double the royalty of competing restoration systems (Rainbow Restoration 3-8%, Paul Davis 4%).",
+          "source": "ServiceMaster Restore FDD fee disclosures (via Franchise Chatter and FranchisePayback)",
+          "url": "https://www.franchisechatter.com/2022/12/29/fdd-talk-servicemaster-restore-franchise-costs-fees-average-revenues-and-or-profits-2022-review/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "No exclusive territorial protection",
+          "detail": "The FDD does not grant fully exclusive territories; the franchisor encourages cooperation between franchisees and mobile units in overlapping coverage areas, meaning another ServiceMaster Restore operator can work your market.",
+          "source": "FranchisePayback FDD analysis; Franchise Gator profile",
+          "url": "https://www.franchisepayback.com/franchise/servicemaster-restore",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Franchised unit count declining (-9% year-over-year per 2024 FDD data)",
+          "detail": "FDD-derived data shows 2,046 franchised units in 2024 with a roughly -9% year-over-year decline, even as the franchisor publicizes 2026 expansion plans of 52 new locations.",
+          "source": "FranchisePayback ServiceMaster Restore FDD data",
+          "url": "https://www.franchisepayback.com/franchise/servicemaster-restore",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Private-equity multi-brand owner (Roark Capital)",
+          "detail": "Roark Capital acquired ServiceMaster Brands (ServiceMaster Restore, ServiceMaster Clean, Merry Maids, AmeriSpec, Furniture Medic) for $1.553B in 2020; franchisees compete for capital and attention inside a large PE-owned platform.",
+          "source": "Franchise Times; Business Wire",
+          "url": "https://www.franchisetimes.com/franchise_news/roark-capital-acquires-servicemaster-for-1-5-billion/article_de68c50a-5760-5b31-9d64-3e3b704a93bc.html",
+          "year": 2020
+        }
+      ],
+      "nationwide": {
+        "source": "ServiceMaster Restore franchise site; Franchise Gator profile (opportunities available nationwide)",
+        "url": "https://franchise.servicemasterrestore.com/servicemaster-restore-opportunity",
+        "year": 2026,
+        "note": "Franchisor markets opportunities nationwide with 52 planned 2026 openings; territories are not fully exclusive, so confirm local coverage overlap with the franchisor."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 60000, "source": "Vetted Biz - ServiceMaster Restore Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 266600, "source": "Vetted Biz FDD analysis ($266,600-$442,890); FranchisePayback cites $255,000-$365,000", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 442890, "source": "Vetted Biz - ServiceMaster Restore Franchise Insights", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 72500, "source": "ServiceMaster Restore FDD (via Vetted Biz, FranchisePayback, Franchise Chatter)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 10, "source": "ServiceMaster Restore FDD (via Vetted Biz and FranchisePayback)", "year": 2025, "confidence": "high", "note": "Greater of $250/month or 10% of monthly gross service sales."},
+        "adFundPercent": {"value": 1, "source": "ServiceMaster Restore FDD (via Franchise Chatter; FranchisePayback cites 0.5%-1%)", "year": 2025, "confidence": "medium", "note": "1% of monthly gross sales (minimum $20) to the national ad fund; Vetted Biz cites 2%."},
+        "avgUnitRevenue": {"value": 1261049, "source": "Vetted Biz - ServiceMaster Restore Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Yearly gross sales per Vetted Biz analysis. Franchise Chatter's 2022 Item 19 review cited ~$777K average; FranchisePayback estimates $494K AUV - wide dispersion across the large network."},
+        "totalUnits": {"value": 2046, "source": "FranchisePayback (2024 FDD outlet data); Vetted Biz cites 1,939 US", "year": 2024, "confidence": "medium", "note": "All franchised; 0 company-owned."},
+        "yearFounded": {"value": 1929, "source": "Vetted Biz; FranchisePayback (founded by Marion E. Wade, Chicago)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1952, "source": "Vetted Biz; FranchisePayback", "year": 2025, "confidence": "high", "note": "One of the first franchisors in the US."},
+        "trainingWeeks": {"value": 6, "source": "Vetted Biz - ServiceMaster Restore Franchise Insights", "year": 2025, "confidence": "medium", "note": "Approximately six weeks including the mandatory Academy of Service program in Memphis, TN."},
+        "veteranDiscount": {"value": true, "source": "Franchise Gator profile; ServiceMaster veteran program announcement", "year": 2026, "confidence": "high", "note": "20% off the initial franchise fee for honorably discharged veterans."},
+        "financingOffered": {"value": true, "source": "Franchise Gator profile (ServiceMaster Acceptance Company)", "year": 2026, "confidence": "high", "note": "In-house financing through ServiceMaster Acceptance Company for credit-qualified buyers, plus third-party lender relationships."},
+        "exclusiveTerritories": {"value": false, "source": "FranchisePayback FDD analysis; Franchise Gator", "year": 2024, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "FranchisePayback (2024 FDD, -9% YoY franchised units)", "year": 2024, "confidence": "medium", "note": "Declining unit base despite franchisor's announced 52 planned openings for 2026."},
+        "businessModelType": {"value": "both", "source": "ServiceMaster Restore franchisor site (residential and commercial restoration)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter / Vetted Biz / FranchisePayback FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2022 Item 19 review; FranchisePayback says the 2024 FDD does not disclose AUV", "year": 2024, "confidence": "low", "note": "Conflicting reports - earlier FDDs included Item 19 revenue figures; the 2024 FDD may have dropped them."}
+      }
+    },
+    {
+      "name": "Signarama",
+      "slug": "signarama",
+      "category": "Services",
+      "website": "signarama.com",
+      "notes": "World's largest sign and graphics franchise (founded 1986, West Palm Beach, FL), flagship brand of United Franchise Group (UFG) with locations across the US and 30+ countries. B2B model: Item 19 shows hiring a full-time outside salesperson nearly triples revenue ($1.31M avg with vs $446K without). Equipment can be leased to cut entry cost roughly in half.",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "Historically high SBA loan default rate and franchise turnover",
+          "detail": "Unhappy Franchisee reporting cites an SBA default rate of ~40% on Signarama franchise loans and an FDD period in which nearly one-third of franchise agreements ended in closure, termination, or transfer within three years. Verify current Item 20 turnover with the latest FDD.",
+          "source": "Unhappy Franchisee - SIGNARAMA Franchise Complaints",
+          "url": "https://unhappyfranchisee.com/signarama-franchise-complaints/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Parent United Franchise Group's regulatory and complaint history",
+          "detail": "UFG and founder Roy Titus received an FTC injunction and a Maryland Securities Commissioner consent order in the 1990s over deceptive sales tactics; franchisee complaint sites document ongoing allegations of high-pressure sales and unmet support promises across UFG brands.",
+          "source": "Unhappy Franchisee - United Franchise Group complaints",
+          "url": "https://unhappyfranchisee.com/united-franchise-group-franchise-complaints/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Revenue heavily dependent on hiring outside sales staff",
+          "detail": "2025 FDD Item 19: centers with a full-time outside salesperson averaged $1,309,879 (median $1,034,404) vs $445,662 (median $377,682) without - the business plan effectively requires a sales-employee payroll commitment to reach upper-half economics.",
+          "source": "Signarama 2025/2026 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/03/20/signarama-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Essentially flat unit growth for a 39-year-old system",
+          "detail": "Franchised outlets moved from 673 to 680 over 2022-2024 (-2, +5, +4) per FDD outlet tables - net +7 units in three years, with zero company-owned locations.",
+          "source": "Signarama FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/03/20/signarama-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Signarama franchise site / Franchise Gator (locations across the US and 30+ countries)",
+        "url": "https://signaramafranchise.com/",
+        "year": 2026,
+        "note": "Franchisor markets US territories broadly (380+ US locations) plus international master franchising; no published unavailable-states list found."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 60000, "source": "Franchise Gator / franchise directory summaries", "year": 2025, "confidence": "medium", "note": "Commonly cited at $60,000 with some directories citing $150,000."},
+        "netWorthMin": {"value": 120000, "source": "Franchise Gator / franchise directory summaries", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 109182, "source": "Signarama 2025 FDD Item 7 (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "$109,182-$188,540 with leased equipment; $259,595-$355,709 purchasing equipment outright."},
+        "totalInvestmentMax": {"value": 355709, "source": "Signarama 2025 FDD Item 7 (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49500, "source": "Signarama 2025 FDD (via Franchise Chatter and PeerSense)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Signarama 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Greater of $500/month or 6% of gross sales up to $1M; drops to 4% on sales over $1M."},
+        "adFundPercent": {"value": 1, "source": "Signarama 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Greater of $840/month or 1% of gross sales."},
+        "avgUnitRevenue": {"value": 846534, "source": "Signarama 2025/2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2024 combined average across 332 US centers open 2+ years; median $519,170. With full-time outside salesperson: $1,309,879 avg; without: $445,662."},
+        "totalUnits": {"value": 680, "source": "Signarama FDD outlet tables (via Franchise Chatter review)", "year": 2024, "confidence": "high", "note": "Franchised units at end of 2024; 0 company-owned. Directory sources cite ~380 US + ~270 international within the global count."},
+        "yearFounded": {"value": 1986, "source": "Signarama company history (Wikipedia; Franchise Direct)", "year": 2025, "confidence": "high", "note": "First store Farmingdale, NY by Roy and Ray Titus."},
+        "yearFranchising": {"value": 1987, "source": "Franchise Direct / Franchise Gator summaries", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Franchise directory summaries (HQ training in West Palm Beach plus 80 hours on-site setup training)", "year": 2025, "confidence": "low", "note": "HQ classroom training followed by 80 hours of on-site setup support; exact classroom duration varies by source."},
+        "isGrowing": {"value": false, "source": "Signarama FDD outlet tables (via Franchise Chatter)", "year": 2026, "confidence": "medium", "note": "Net +7 franchised units across 2022-2024 - flat, not contracting."},
+        "businessModelType": {"value": "b2b", "source": "Signarama franchisor materials (business sign and graphics services)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Retail/production storefront model (Signarama franchise site)", "year": 2026, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Signarama operates in 30+ countries (Wikipedia; franchisor site)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Public Signarama 2025 multistate FDD (franchiseindx mirror); Franchise Chatter reviews", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review (Item 19 segmented averages)", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "ASP-America's Swimming Pool Company",
+      "slug": "asp-americas-swimming-pool-company",
+      "category": "Home Services",
+      "website": "asppoolco.com",
+      "notes": "Largest US swimming pool maintenance, repair, and renovation franchise (founded 2001 in Macon, GA; Authority Brands portfolio). Home/mobile-based, recurring-revenue route model with ~390 franchised territories across 20+ states and zero company-owned units. Item 19 includes actual franchisee P&L data - average net profit $146K on $852K average revenue.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Seasonality: revenue concentrated in pool season",
+          "detail": "Pool service demand drops sharply in winter in most markets; franchisees must manage cash flow from peak season to carry the off-season and schedule renovation work to fill winter months. The FDD also mandates local marketing of the greater of 3% of revenue or $30,000/year regardless of season.",
+          "source": "SHARPSHEETS / LeadTruffle franchise analyses; ASP 2025 FDD local marketing requirement (via Franchise Chatter)",
+          "url": "https://sharpsheets.io/blog/americas-swimming-pool-company-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Median franchisee earns roughly a third less than the average",
+          "detail": "2024 Item 19: median gross revenue $572,551 vs $851,824 average across 124 full-year territories; median net profit $87,154 vs $146,355 average - typical right-skew meaning half of operators earn below the advertised averages.",
+          "source": "ASP 2025/2026 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/05/30/americas-swimming-pool-company-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Private-equity multi-brand platform owner (Authority Brands)",
+          "detail": "ASP is one of 15+ home-service brands under Authority Brands (The Cleaning Authority, Mister Sparky, Benjamin Franklin Plumbing, etc.), itself PE-owned - franchisees are one brand in a large portfolio's capital and lead-generation allocation.",
+          "source": "Authority Brands / 1851 Franchise coverage",
+          "url": "https://1851franchise.com/america-swimming-pool/info",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Mandatory $30,000+/year local marketing floor",
+          "detail": "Beyond the 1% brand fund and tiered royalty, franchisees must spend the greater of 3% of gross revenue or $30,000 per calendar year on local/cooperative marketing - a fixed obligation that weighs heaviest on new, low-revenue territories.",
+          "source": "ASP FDD fee disclosures (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/05/27/americas-swimming-pool-company-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "ASP franchise marketing (257 locations across 22 states; Authority Brands expansion)",
+        "url": "https://www.asppoolco.com/franchise/",
+        "year": 2025,
+        "note": "Franchisor recruits broadly in pool-density markets; system operates in roughly 22 states (Sun Belt concentrated). No published unavailable-states list found - confirm territory availability with the franchisor."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "netWorthMin": {"value": 250000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 84395, "source": "ASP 2026 FDD Item 7 (via Franchise Chatter review and Entrepreneur)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 210121, "source": "ASP 2026 FDD Item 7 (via Franchise Chatter review and Entrepreneur)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "ASP FDD (via Franchise Chatter review); Entrepreneur lists $40,000-$90,000 by territory size", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 7, "source": "ASP FDD (via Franchise Chatter and Franchise Direct)", "year": 2025, "confidence": "high", "note": "Tiered: 7% on first $100K of annual gross revenue, 6% on $100,001-$250,000, 5% above $250K."},
+        "adFundPercent": {"value": 1, "source": "ASP FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "1% brand fund plus local marketing of the greater of 3% of gross revenue or $30,000/year."},
+        "avgUnitRevenue": {"value": 851824, "source": "ASP 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2024 average gross revenue across 124 full-year territories; median $572,551. Average net profit $146,355 (median $87,154) across 114 P&L-reporting territories."},
+        "totalUnits": {"value": 391, "source": "ASP FDD outlet tables (via Franchise Chatter review); Entrepreneur lists 395", "year": 2024, "confidence": "high", "note": "Franchised territories at end of 2024; 0 company-owned. Physical locations ~257 across 22 states per directory sources."},
+        "yearFounded": {"value": 2001, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Founded by Stewart Vernon in Macon, GA; some sources cite 2002."},
+        "yearFranchising": {"value": 2005, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "renewalTermYears": {"value": 10, "source": "Entrepreneur Franchise 500 directory (term of agreement, renewable)", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "30% off the franchise fee."},
+        "financingOffered": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "No direct franchisor financing."},
+        "thirdPartyFinancing": {"value": "Third-party financing available per Entrepreneur directory", "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Entrepreneur Franchise 500 directory (can be run from home/mobile unit)", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "ASP FDD outlet tables (via Franchise Chatter): +16 (2022), +11 (2023), +16 (2024); Entrepreneur +14.5% trend", "year": 2026, "confidence": "high"},
+        "seasonalityNotes": {"value": "Strongly seasonal in most markets - pool service peaks spring-summer; franchisees fill winter with renovation/repair work and must budget cash flow across the off-season.", "source": "SHARPSHEETS / LeadTruffle franchise analyses", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "ASP franchisor materials (residential pool owners; some commercial accounts)", "year": 2026, "confidence": "medium"},
+        "customerAcquisitionModel": {"value": "Recurring route-based service contracts (weekly pool maintenance) supplemented by repair and renovation jobs; mandated local marketing spend drives lead flow.", "source": "ASP franchisor materials; SHARPSHEETS analysis", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter / SHARPSHEETS FDD reviews", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review (Item 19 with franchisee P&L data)", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "TownePlace Suites by Marriott",
+      "slug": "towneplace-suites-by-marriott",
+      "category": "Travel & Lodging",
+      "website": "marriott.com",
+      "notes": "Marriott's midscale extended-stay hotel brand (launched 1996), ~500 US hotels and nearly all franchised. This is an institutional-scale hotel development investment ($12M-$36M new build excluding land), not a small-business franchise. Marriott does not publish a state-by-state availability list - development is negotiated market by market via hotel-development.marriott.com - so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "FTC consent order and $52M multistate settlement against parent Marriott (data breaches)",
+          "detail": "In October 2024 the FTC imposed a 20-year consent order on Marriott/Starwood over breaches affecting 339M+ guests (2014-2020), and Marriott paid $52M to 49 states and DC. The orders require increased franchisee oversight and security controls - compliance obligations that flow down to franchised hotels.",
+          "source": "Federal Trade Commission press release; NJ Attorney General",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/10/ftc-takes-action-against-marriott-starwood-over-multiple-data-breaches",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Mandatory Maryland arbitration/litigation venue",
+          "detail": "The TownePlace Suites FDD requires disputes with Marriott to be arbitrated or litigated only in Maryland - the FDD's own risk factors note this may force franchisees into less favorable settlements and higher dispute costs than litigating in their home state.",
+          "source": "TownePlace Suites 2024 Domestic FDD (Marriott hotel-development site), cover risk factors",
+          "url": "https://www.hotel-development.marriott.com/resourcefiles/fdd-document/2024-tps-fdd-3-31-2024.pdf",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "No Item 19 earnings claim; returns depend on local hotel market",
+          "detail": "FDD-tracking services note the disclosure provides no revenue or earnings representations for franchised hotels; profitability depends on RevPAR cycles, local supply growth, and debt terms on a $12M-$36M project.",
+          "source": "Vetted Biz - TownePlace Suites by Marriott analysis",
+          "url": "https://www.vettedbiz.com/franchises/towneplace-suites-by-marriott/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 3390000, "source": "Vetted Biz - TownePlace Suites by Marriott analysis (minimum cash required)", "year": 2025, "confidence": "medium", "note": "Scales with project size; equity requirements set by lenders and Marriott approval."},
+        "totalInvestmentMin": {"value": 12418800, "source": "TownePlace Suites FDD Item 7 (via The FDD Exchange; Vetted Biz cites $12.8M-$29.3M)", "year": 2024, "confidence": "high", "note": "New-build 80-110 suite prototype, excluding real estate, permits, insurance, contingencies. 120-150 suite hotels run $17.8M-$36.6M."},
+        "totalInvestmentMax": {"value": 36562900, "source": "TownePlace Suites FDD Item 7 (via The FDD Exchange)", "year": 2024, "confidence": "high"},
+        "franchiseFee": {"value": 75000, "source": "TownePlace Suites FDD (via Vetted Biz; The FDD Exchange cites $75,000-$85,000 by suite count)", "year": 2024, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "TownePlace Suites FDD (via Vetted Biz and The FDD Exchange)", "year": 2024, "confidence": "high", "note": "6% of gross room sales."},
+        "adFundPercent": {"value": 2, "source": "TownePlace Suites FDD (via Vetted Biz and The FDD Exchange)", "year": 2024, "confidence": "high", "note": "2% marketing/program fee on gross room sales."},
+        "totalUnits": {"value": 503, "source": "The FDD Exchange (2024 FDD): 497 franchised + 6 corporate; Vetted Biz cites 504 US", "year": 2024, "confidence": "high"},
+        "yearFounded": {"value": 1996, "source": "Vetted Biz - TownePlace Suites by Marriott analysis", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1996, "source": "Vetted Biz - TownePlace Suites by Marriott analysis", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - TownePlace Suites by Marriott analysis", "year": 2025, "confidence": "medium", "note": "Full-time two-week initial training at a Marriott corporate facility."},
+        "renewalTermYears": {"value": 10, "source": "The FDD Exchange (2024 FDD summary)", "year": 2024, "confidence": "medium", "note": "10-year initial term; renewals generally 10 years. Some Marriott agreements run 20+ years - confirm in current FDD."},
+        "businessModelType": {"value": "b2c", "source": "Marriott brand site (extended-stay hotel)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Hotel real-estate model (Marriott hotel development site)", "year": 2026, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Marriott hotel development site (TownePlace Suites developed in Canada and select international markets)", "year": 2026, "confidence": "medium"},
+        "franchisorFinancialsAvailable": {"value": true, "source": "Marriott publicly posts full TownePlace Suites FDDs (with franchisor financials) on hotel-development.marriott.com", "year": 2024, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Public 2024 TownePlace Suites Domestic FDD (Marriott hotel-development site)", "year": 2024, "confidence": "high"},
+        "item19Available": {"value": false, "source": "Vetted Biz (no earnings claims or revenue guarantees disclosed)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Realty One Group",
+      "slug": "realty-one-group",
+      "category": "Real Estate",
+      "website": "realtyonegroup.com",
+      "notes": "Fast-growing 100%-commission real estate brokerage franchise (the 'UNBrokerage,' founded 2005 in Las Vegas), ranked Entrepreneur's #1 real estate franchise five straight years through 2026. No percentage royalty: the franchisor charges flat per-agent monthly fees and per-transaction fees, so franchisee economics ride on agent headcount, not commission splits. 20,000+ agents across 49 states and 20+ countries.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Recurring buyer-commission antitrust litigation despite settlements",
+          "detail": "Realty ONE Group paid $5M to settle the Gibson commission case in 2024 (covering franchisees and affiliated agents), opted into the Tuccori settlement, settled another homebuyer commission case in April 2026, and has been pulled into new commission suits (Masiello; a 2025 case also naming a Realty ONE franchisee) - ongoing legal overhang for the whole brokerage model.",
+          "source": "HousingWire; Real Estate News",
+          "url": "https://www.housingwire.com/articles/realty-one-group-joins-growing-list-of-firms-to-settle-commission-lawsuits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Industry-wide NAR settlement rule changes hit the revenue model",
+          "detail": "Post-2024 NAR settlement practice changes (no offers of buyer-broker compensation on MLS, mandatory buyer agreements) pressure agent commission economics; Realty ONE responded by letting Phoenix-area agents drop NAR membership. Franchisee revenue depends on agent counts and transaction volume, both sensitive to these shifts and to housing cycles.",
+          "source": "Real Estate News - Realty ONE gives agents the option to leave NAR",
+          "url": "https://www.realestatenews.com/2024/12/10/realty-one-gives-agents-the-option-to-leave-nar",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "No Item 19 financial performance representation",
+          "detail": "The FDD does not disclose average office revenue or profitability; prospects must build their own model from per-agent fee economics and local agent-recruiting assumptions.",
+          "source": "FranchisePayback Realty One Group FDD analysis",
+          "url": "https://www.franchisepayback.com/franchise/realty-one-group",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Minimum monthly fees owed regardless of agent count",
+          "detail": "Franchisees owe the greater of $503/agent or $1,225/month ($600 in low-density areas) plus $125+ transaction fees - a fixed floor that must be covered even before an office recruits a productive agent roster.",
+          "source": "Realty ONE Group FDD fee disclosures (via The FDD Exchange and SHARPSHEETS)",
+          "url": "https://fddexchange.com/realty-one-group-2024-fdd-franchise-information-costs-and-fees/",
+          "year": 2024
+        }
+      ],
+      "nationwide": {
+        "source": "Realty ONE Group franchise site / press (offices in 49 US states and 20+ countries)",
+        "url": "https://www.realtyonegroup.com/franchise",
+        "year": 2026,
+        "note": "Franchisor sells territories across the US; existing-office density varies by metro. Confirm open territory with the franchisor."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 75000, "source": "Franchise directory summaries (Franzy/SHARPSHEETS-derived)", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 250000, "source": "Franchise directory summaries (Franzy/SHARPSHEETS-derived)", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 47000, "source": "Realty ONE Group FDD Item 7 (via The FDD Exchange and FranchisePayback)", "year": 2024, "confidence": "high", "note": "$47,000-$228,000 depending on office size and market."},
+        "totalInvestmentMax": {"value": 228000, "source": "Realty ONE Group FDD Item 7 (via The FDD Exchange and FranchisePayback)", "year": 2024, "confidence": "high"},
+        "franchiseFee": {"value": 22000, "source": "Realty ONE Group FDD (via The FDD Exchange): $19,000-$25,000", "year": 2024, "confidence": "high", "note": "Range $19,000-$25,000 by market; midpoint shown."},
+        "royaltyPercent": {"value": 0, "source": "Realty ONE Group FDD (via The FDD Exchange and SHARPSHEETS)", "year": 2024, "confidence": "high", "note": "No percentage royalty. Monthly Agent Fee: greater of $503/agent or $1,225 minimum ($600 low-density), plus $125 transaction fee on first $200K of sale price ($50 each additional $200K) when GCI is $2,000+."},
+        "adFundPercent": {"value": 2, "source": "Realty ONE Group FDD (via FranchisePayback and directory summaries)", "year": 2024, "confidence": "medium", "note": "2% of Monthly Agent Fees and Transaction Fees (not of gross commission income)."},
+        "totalUnits": {"value": 392, "source": "FranchisePayback (2024 FDD outlet data): 380 franchised + 12 company-owned", "year": 2024, "confidence": "high", "note": "+27% growth rate; franchisor cites 400+ offices, 20,000+ agents, 49 states and 20+ countries."},
+        "yearFounded": {"value": 2005, "source": "FranchisePayback; Realty ONE Group corporate history", "year": 2024, "confidence": "high"},
+        "yearFranchising": {"value": 2012, "source": "FranchisePayback Realty One Group FDD data", "year": 2024, "confidence": "high"},
+        "renewalTermYears": {"value": 10, "source": "Franchise directory summaries (10-year initial term, renewable)", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "FranchisePayback (+27% unit growth); Entrepreneur #1 real estate franchise 2022-2026", "year": 2026, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Realty ONE Group press (20+ countries)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Residential real estate brokerage model (Realty ONE Group site)", "year": 2026, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Franchisee revenue comes from recruiting and retaining commissioned agents (flat per-agent and per-transaction fees), not from direct consumer marketing; agent recruiting is the core growth activity.", "source": "Realty ONE Group FDD fee structure (via The FDD Exchange)", "year": 2024, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (2024 FDD); Vetted Biz sells the 2025 FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "FranchisePayback (franchisor does not disclose AUV in FDD)", "year": 2024, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Postal Annex",
+      "slug": "postal-annex",
+      "category": "Services",
+      "website": "postalannex.com",
+      "notes": "PostalAnnex+ is the flagship pack-ship-print-mailbox retail brand of San Diego-based Annex Brands (which also owns Pak Mail, AIM Mail Centers, Navis Pack & Ship, and others). Steady but modest economics: ~$378K average store revenue against a ~$250K-$350K build cost, with the lower 50% of stores averaging just $223K. The shipping-store category itself faces secular pressure from declining mail volume.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Former franchisee FTC complaint and misrepresentation allegations",
+          "detail": "A former franchisee filed an FTC complaint against Annex Brands in 2022 asking the agency to investigate its sales practices, alleging misleading break-even projections and that reference locations were company-affiliated stores on reduced fees; Unhappy Franchisee documents additional complaints including a cluster of East Coast franchisee bankruptcies.",
+          "source": "Franchise Times; Unhappy Franchisee - PostalAnnex+ complaints",
+          "url": "https://www.franchisetimes.com/franchise_news/complaint-to-ftc-hits-annex-brands-will-test-new-fraud-reporting-tool/article_3ed98854-b03f-11ec-b84d-b764b48167c4.html",
+          "year": 2022
+        },
+        {
+          "severity": "caution",
+          "title": "Bottom half of stores average $223K gross sales - thin owner earnings",
+          "detail": "FY2024 Item 19: lower-50% centers averaged $223,000 gross sales (median $239,000) vs $533,000 for the upper half; only 42% of the 528 reporting centers met or exceeded the $378,000 system average. Vetted Biz estimates owner earnings of ~$33K-$40K on median volume and an 8.7-10.7 year payback.",
+          "source": "Annex Brands 2025 FDD Item 19 (via Franchise Chatter review); Vetted Biz",
+          "url": "https://www.franchisechatter.com/2025/08/03/annex-brands-postalannex-pak-mail-aim-mail-etc-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Secular decline in core mail/parcel-store demand",
+          "detail": "The mailing-center industry has contracted as email displaced physical mail, forcing stores to diversify into printing, notary, and business services; carrier-rate and USPS policy changes are outside franchisee control.",
+          "source": "Unhappy Franchisee / industry coverage in PostalAnnex complaint reporting",
+          "url": "https://unhappyfranchisee.com/postalannex-franchise-complaints/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Stacked marketing fees beyond the headline 2%",
+          "detail": "In addition to the 5% royalty and 2% marketing fee, franchisees owe an Advertising Association Fee of the greater of $150/month or 1% of gross receipts - total ongoing fees approach 8% on gross.",
+          "source": "Annex Brands 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/08/03/annex-brands-postalannex-pak-mail-aim-mail-etc-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Annex Brands franchise marketing (multi-brand network of 500+ locations across the US)",
+        "url": "https://www.annexbrands.com/",
+        "year": 2025,
+        "note": "Annex Brands recruits across the US for PostalAnnex+ and sister brands; PostalAnnex+ stores are concentrated in California/the West. No published unavailable-states list found - confirm territory availability with the franchisor."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 55000, "source": "Vetted Biz - Postal Annex Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 249130, "source": "Annex Brands 2025 FDD Item 7 (via Franchise Chatter and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 349830, "source": "Annex Brands 2025 FDD Item 7 (via Franchise Chatter and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 35000, "source": "Annex Brands 2025 FDD (via Franchise Chatter and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Annex Brands 2025 FDD (via Franchise Chatter and Vetted Biz)", "year": 2025, "confidence": "high", "note": "5% of gross receipts."},
+        "adFundPercent": {"value": 2, "source": "Annex Brands 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2% marketing fee plus Advertising Association Fee of the greater of $150/month or 1% of gross receipts."},
+        "avgUnitRevenue": {"value": 378000, "source": "Annex Brands 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "FY2024 average gross sales across 528 centers open 12+ months; median $331,000; range $33K-$1.57M. Upper 50% averaged $533K, lower 50% $223K."},
+        "totalUnits": {"value": 322, "source": "Annex Brands FDD outlet tables (via Franchise Chatter); Vetted Biz", "year": 2024, "confidence": "high", "note": "PostalAnnex+ franchised units at end of 2024; 0 company-owned. Item 19 covers 528 centers across all Annex Brands marks."},
+        "yearFounded": {"value": 1985, "source": "Vetted Biz (cites 1986); PostalAnnex corporate history cites 1985 first store in San Diego", "year": 2025, "confidence": "medium"},
+        "yearFranchising": {"value": 1986, "source": "Vetted Biz - Postal Annex Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Postal Annex Franchise Insights", "year": 2025, "confidence": "medium", "note": "Conducted at franchisor headquarters in San Diego."},
+        "isGrowing": {"value": true, "source": "Annex Brands FDD outlet tables (via Franchise Chatter): +4 (2022), +10 (2023), +7 (2024)", "year": 2025, "confidence": "medium", "note": "Modest single-digit net growth."},
+        "businessModelType": {"value": "both", "source": "PostalAnnex+ store model (consumer shipping plus small-business services)", "year": 2026, "confidence": "medium"},
+        "mobileBased": {"value": false, "source": "Retail storefront model (PostalAnnex+ site)", "year": 2026, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz (FDD discloses lawsuits and/or bankruptcy information)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review; Vetted Biz", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review (Item 19 with upper/lower 50% segments)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "D-BAT Academies",
+      "slug": "d-bat-academies",
+      "category": "Fitness",
+      "website": "dbat.com",
+      "notes": "Indoor baseball/softball training academy plus retail pro shop franchise (founded 1998, Carrollton, TX; franchising since 2007). Facilities sell memberships, private lessons, cage rentals, camps, and equipment. One of the fastest-growing sports franchises - Entrepreneur shows +53.7% unit growth - but the build is warehouse-scale ($536K-$1M) and the royalty structure (8% of gross or 40% of membership fees) is unusually heavy.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Heavy royalty structure: 8% of gross revenue or 40% of membership fees",
+          "detail": "FDD fee disclosures show royalties of 40% of Membership Fees or 8% of Gross Revenue, plus a 2.5% marketing contribution and a $354/month technology fee - membership revenue, the stickiest income stream, carries a 40% franchisor take.",
+          "source": "D-BAT FDD fee disclosures (via Vetted Biz and Entrepreneur directory)",
+          "url": "https://www.vettedbiz.com/franchises/d-bat/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Hyper-growth on a young base - most units have short operating history",
+          "detail": "Entrepreneur's 2026 directory shows 189 units growing +53.7% year-over-year (Vetted Biz counted 113 franchised units in its 2025 analysis, all franchised, 0 company-owned). Rapid scaling means system averages are dominated by immature locations and support resources can lag.",
+          "source": "Entrepreneur Franchise 500 directory; Vetted Biz",
+          "url": "https://www.entrepreneur.com/franchises/directory/d-bat-academies/334031",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Large-footprint real estate commitment",
+          "detail": "D-BAT facilities are warehouse-format training centers (batting cages, turf, pro shop), driving the $536,450-$1,031,100 Item 7 range and a 6.1-8.1 year estimated payback per Vetted Biz - lease obligations are the dominant fixed cost if membership targets are missed.",
+          "source": "D-BAT 2025 FDD Item 7 (via SHARPSHEETS and Vetted Biz)",
+          "url": "https://sharpsheets.io/blog/d-bat-franchise-costs-fees-profits/",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Entrepreneur Franchise 500 directory (exclusive territories available in the United States); D-BAT expansion coverage",
+        "url": "https://www.entrepreneur.com/franchises/directory/d-bat-academies/334031",
+        "year": 2026,
+        "note": "Franchisor offers exclusive territories across the US (130+ locations across ~30 states plus international); no published unavailable-states list found."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 75000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "netWorthMin": {"value": 300000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 536450, "source": "D-BAT 2025 FDD Item 7 (via SHARPSHEETS, PeerSense, Entrepreneur)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1031100, "source": "D-BAT 2025 FDD Item 7 (via SHARPSHEETS, PeerSense, Entrepreneur)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 45000, "source": "D-BAT 2025 FDD (via SHARPSHEETS and Entrepreneur)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 8, "source": "D-BAT FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high", "note": "8% of gross sales; membership fees alternatively royaltied at 40% of Membership Fees per FDD structure."},
+        "adFundPercent": {"value": 2.5, "source": "D-BAT FDD (via SHARPSHEETS and Entrepreneur)", "year": 2025, "confidence": "high", "note": "2.5% advertising/marketing fund; plus $354/month technology fee."},
+        "avgUnitRevenue": {"value": 1037123, "source": "D-BAT FDD-derived yearly gross sales (via Vetted Biz / SHARPSHEETS analyses)", "year": 2025, "confidence": "medium", "note": "Vetted Biz estimates owner earnings of $124,455-$155,569 and a 6.1-8.1 year payback on this volume."},
+        "totalUnits": {"value": 189, "source": "Entrepreneur Franchise 500 directory; Vetted Biz counted 113 franchised in 2025", "year": 2026, "confidence": "medium", "note": "All franchised; 0 company-owned. Counts vary with how signed-but-unopened territories are treated."},
+        "yearFounded": {"value": 1998, "source": "Vetted Biz; Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2007, "source": "Vetted Biz; Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "renewalTermYears": {"value": 10, "source": "Entrepreneur Franchise 500 directory (10-year term, renewable)", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "$2,500 off the franchise fee."},
+        "financingOffered": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "No direct franchisor financing."},
+        "thirdPartyFinancing": {"value": "Third-party financing available per Entrepreneur directory", "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "exclusiveTerritories": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory (+53.7% trend)", "year": 2026, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "D-BAT expansion coverage (international locations including China announced via franchisor news)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Membership/lesson model for youth athletes and families (D-BAT site)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Entrepreneur directory (home-based operation not permitted; fixed facility)", "year": 2026, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Recurring memberships plus per-session lessons, cage rentals, camps, parties, and pro-shop retail; local youth-sports community marketing drives leads.", "source": "D-BAT franchisor materials (via SHARPSHEETS review)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Free FDD Library hosts the D-BAT FDD; SHARPSHEETS/Vetted Biz analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz / SHARPSHEETS publish FDD-derived gross sales figures", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Amada Senior Care",
+      "slug": "amada-senior-care",
+      "category": "Health & Wellness",
+      "website": "amadaseniorcare.com",
+      "notes": "Non-medical in-home senior care franchise (founded 2007 in San Clemente, CA; franchising since 2012) with four revenue streams: home care, senior placement, skilled care, and staffing. Differentiators: larger protected territories (300K-500K population, ~32K-42K seniors 65+) and a strong Item 19 ($1.6M average gross billings). The system is growing and the franchisor began adding company-owned units in 2024.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisee-level employment-law liability is real in this system",
+          "detail": "A federal court ordered the Amada Senior Care Twin Cities franchisee to pay $121,000 in back overtime wages and damages (DOL suit, 2023, live-in caregiver flat day rates), and the Colorado Springs/Denver/Pueblo franchisee paid $250,000 to settle an EEOC sexual-harassment and retaliation case. Caregiver wage-hour and HR compliance is the operator's burden.",
+          "source": "U.S. Department of Labor; U.S. EEOC",
+          "url": "https://www.dol.gov/newsroom/releases/whd/whd20230531",
+          "year": 2023
+        },
+        {
+          "severity": "caution",
+          "title": "Wide performance dispersion: bottom quartile bills ~$348K vs $3.5M top quartile",
+          "detail": "2024 Item 19 across 142 full-year outlets: average gross billings $1,607,831 (median $1,194,785), but the bottom 25% averaged $347,943 while the top 25% averaged $3,543,407 - a 10x spread, and these are billings (revenue), not profit, in a labor-cost-heavy business.",
+          "source": "Amada Senior Care 2025/2026 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/02/14/amada-senior-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Escalating minimum royalty reaches $4,000/month by month 61",
+          "detail": "Royalty is the greater of 5% of gross billings (6% on national accounts) or a minimum royalty that starts at $500/month and steps up to $4,000/month from month 61 - a fixed $48K/year floor for mature territories regardless of revenue.",
+          "source": "Amada Senior Care FDD fee schedule (via Franchise Chatter fee analysis)",
+          "url": "https://www.franchisechatter.com/2022/02/25/amada-senior-cares-initial-franchise-fee-royalty-fee-19-other-fees/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Franchisor began acquiring company-owned units in 2024",
+          "detail": "Company-owned outlets jumped from 1 to 6 during 2024 per the FDD outlet tables - worth watching whether the franchisor competes with franchisees for prime territories, a pattern seen in other home-care systems.",
+          "source": "Amada Senior Care FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/02/14/amada-senior-care-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Amada Senior Care franchise site (territories across the US; 200+ locations)",
+        "url": "https://www.amadaseniorcare.com/franchise/",
+        "year": 2026,
+        "note": "Franchisor recruits nationwide with protected territories of 300K-500K population; home-care licensure requirements vary by state. Confirm open territories with the franchisor."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 200000, "source": "Amada franchise FAQ / directory summaries (Franchise Gator, IFPG)", "year": 2026, "confidence": "medium"},
+        "netWorthMin": {"value": 250000, "source": "Amada franchise FAQ / directory summaries (Franchise Gator, IFPG)", "year": 2026, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 118190, "source": "Amada Senior Care 2025 FDD Item 7 (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 430050, "source": "Amada Senior Care 2025 FDD Item 7 (via Franchise Chatter; PeerSense cites up to $465K for 2026)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 57500, "source": "Amada Senior Care FDD (via Franchise Chatter 2026 review; SHARPSHEETS cites $57,000)", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Amada Senior Care FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Greater of 5% of monthly gross billings or minimum royalty ($500/month escalating to $4,000/month from month 61); 6% on National Accounts."},
+        "adFundPercent": {"value": 1, "source": "Amada Senior Care FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "1% of gross billings (0.25% on skilled care billings)."},
+        "avgUnitRevenue": {"value": 1607831, "source": "Amada Senior Care 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2024 average gross billings across 142 full-year outlets; median $1,194,785. Top quartile avg $3,543,407; bottom quartile avg $347,943."},
+        "totalUnits": {"value": 202, "source": "Amada FDD outlet tables (via Franchise Chatter review)", "year": 2024, "confidence": "high", "note": "196 franchised + 6 company-owned at end of 2024."},
+        "yearFounded": {"value": 2007, "source": "Amada Senior Care company history (founders Tafa Jefferson and Chad Fotheringham)", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2012, "source": "Amada Senior Care company history / directory summaries", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Amada FDD (via SyncRevenue veteran summary)", "year": 2026, "confidence": "medium", "note": "10% franchise-fee discount at franchisor's discretion, first agreement only."},
+        "exclusiveTerritories": {"value": true, "source": "Amada franchise site (protected territories of 300,000-500,000 population)", "year": 2026, "confidence": "high"},
+        "nationalAccounts": {"value": true, "source": "Amada FDD royalty schedule (separate 6% National Accounts rate)", "year": 2026, "confidence": "medium", "note": "Franchisor maintains national account relationships billed at a higher royalty rate."},
+        "isGrowing": {"value": true, "source": "Amada FDD outlet tables (via Franchise Chatter): franchised units 160 -> 176 -> 196 across 2022-2024", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "In-home senior care model (Amada franchise site); staffing/skilled-care lines add B2B revenue", "year": 2026, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Home-care service model operated from a small office, care delivered in clients' homes (Amada franchise FAQ)", "year": 2026, "confidence": "medium"},
+        "customerAcquisitionModel": {"value": "Referral-driven: hospital discharge planners, senior placement, long-term-care insurance relationships, and veteran benefits programs feed the home-care book of business.", "source": "Amada franchise site (four revenue streams; LTCi specialization)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter / SHARPSHEETS / Vetted Biz FDD analyses", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review (Item 19 with quartile breakdowns)", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Spring-Green Lawn Care",
+      "slug": "spring-green-lawn-care",
+      "category": "Home Services",
+      "website": "springgreen.com",
+      "notes": "Lawn fertilization, weed control, and pest control franchise founded 1977 (Plainfield, IL) with ~126 franchised plus ~30 company-owned/affiliate territories. Strong unit economics for multi-territory operators ($1.45M average vs $774K single-territory) and a 68% average gross margin, but the system has been flat for years and the franchisor's affiliate has been buying back franchised territories.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisor affiliate reacquiring franchised territories",
+          "detail": "Affiliate Superior Lawns reacquired 4 franchised territories during 2023-2024 while company-owned units grew to 30 (~19% of the system) - the franchisor competes directly with franchisees and is consolidating territories company-side.",
+          "source": "Franchise Decision Radar FDD review (Item 20 analysis)",
+          "url": "https://franchisedecisionradar.com/spring-green.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "$51,500 of mandatory upfront costs beyond the franchise fee",
+          "detail": "The FDD requires a $35,000 Initial Marketing Campaign Fee plus a $16,500 Property Data Fee on top of the $45,000 franchise fee, and a fee-adjustment clause permits up to 100% annual increases on technology, education, meeting, and reporting fees.",
+          "source": "Franchise Decision Radar FDD review",
+          "url": "https://franchisedecisionradar.com/spring-green.html",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Flat system growth for an established brand",
+          "detail": "Net unit change was roughly +2/-2/+4 over the last three reported years (126 franchised at end of 2025, unchanged from 2024) - a mature, stable but non-growing system after nearly 50 years.",
+          "source": "Spring-Green FDD outlet tables (via FranchiseDepth 2026 FDD analysis)",
+          "url": "https://franchisedepth.com/franchise/springgreen/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Seasonal business with consumer-complaint exposure",
+          "detail": "Lawn treatment revenue is concentrated in the growing season (roughly March-November in most markets), and consumer review aggregators show recurring complaints about treatment results and cancellation handling at local franchises - retention marketing is an ongoing cost.",
+          "source": "Today's Homeowner Spring Green review; ComplaintsBoard/BBB complaint records",
+          "url": "https://todayshomeowner.com/lawn-garden/reviews/spring-green-lawn-care/",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "SpringGreen franchise site (territories marketed across the US)",
+        "url": "https://springgreenfranchise.com/",
+        "year": 2026,
+        "note": "Franchisor recruits broadly with territories defined by up to 60,000 single-family dwelling units; system footprint is concentrated in the Midwest/Southeast. Confirm open territories with the franchisor."
+      },
+      "fields": {
+        "totalInvestmentMin": {"value": 118898, "source": "Spring-Green 2026 FDD Item 7 (via FranchiseDepth)", "year": 2026, "confidence": "high", "note": "SHARPSHEETS' 2025 analysis cited $118,000-$134,000; PeerSense lists wider ranges for multi-territory deals."},
+        "totalInvestmentMax": {"value": 135176, "source": "Spring-Green 2026 FDD Item 7 (via FranchiseDepth)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 45000, "source": "Spring-Green FDD (via FranchiseDepth and SHARPSHEETS)", "year": 2026, "confidence": "high", "note": "Standard fee for a territory of up to 60,000 single-family dwelling units; $27,000 reduced fee for Industry Associate Program participants."},
+        "royaltyPercent": {"value": 10, "source": "SHARPSHEETS Spring-Green FDD analysis", "year": 2025, "confidence": "medium", "note": "Starts at 10% of gross sales, stepping down to 8% as volume grows."},
+        "adFundPercent": {"value": 2, "source": "Spring-Green FDD (via FranchiseDepth and SHARPSHEETS)", "year": 2026, "confidence": "high", "note": "Plus a $35,000 mandatory initial marketing campaign and a $260/month technology fee."},
+        "avgUnitRevenue": {"value": 1120124, "source": "Spring-Green 2026 FDD Item 19 (via FranchiseDepth)", "year": 2026, "confidence": "high", "note": "2025 average gross sales across 72 reporting franchisees; median $929,227. Single-territory avg $773,988 (35 units) vs multi-territory $1,447,549 (37 units); avg gross margin 68.4%."},
+        "totalUnits": {"value": 156, "source": "Spring-Green FDD outlet tables (via FranchiseDepth)", "year": 2025, "confidence": "high", "note": "126 franchised + 30 company-owned/affiliate at end of 2025."},
+        "yearFounded": {"value": 1977, "source": "Spring-Green company history (via Franchise Decision Radar and franchisor site)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1977, "source": "Franchise Direct / SHARPSHEETS summaries", "year": 2025, "confidence": "medium"},
+        "renewalTermYears": {"value": 10, "source": "Spring-Green 2026 FDD (via FranchiseDepth)", "year": 2026, "confidence": "high", "note": "10-year term with one 10-year renewal option."},
+        "renewalFee": {"value": 0, "source": "Spring-Green 2026 FDD (via FranchiseDepth - no renewal fee)", "year": 2026, "confidence": "medium"},
+        "financingOffered": {"value": true, "source": "Spring-Green 2026 FDD (via FranchiseDepth)", "year": 2026, "confidence": "high", "note": "Franchisor finances $15,000 of the franchise fee over 5 years ($30,000 due at signing)."},
+        "veteranDiscount": {"value": true, "source": "Spring-Green 2026 FDD VetFran program (via FranchiseDepth)", "year": 2026, "confidence": "high", "note": "VetFran participants receive up to $5,000 off."},
+        "isGrowing": {"value": false, "source": "Spring-Green FDD outlet tables (via FranchiseDepth and Franchise Decision Radar)", "year": 2026, "confidence": "high", "note": "Flat: +2/-2/+4 net units over three years; 1.3% closure rate (5 of 378 outlet-years 2023-2025)."},
+        "seasonalityNotes": {"value": "Treatment revenue concentrated in the growing season (spring-fall); winter months require pre-sold programs and cash-flow management in northern markets.", "source": "Spring-Green franchise FAQ / Today's Homeowner review", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Residential lawn-care service model (SpringGreen franchise site)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Route-based home service operated from home/small shop (SpringGreen franchise FAQ)", "year": 2026, "confidence": "medium"},
+        "customerAcquisitionModel": {"value": "Recurring annual treatment programs sold via direct mail/digital campaigns (mandatory $35,000 initial marketing campaign) with renewals driving lifetime value.", "source": "Spring-Green FDD marketing requirements (via Franchise Decision Radar)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "FranchiseDepth 2026 FDD analysis; SHARPSHEETS", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "FranchiseDepth 2026 FDD analysis (Item 19 with gross-margin data)", "year": 2026, "confidence": "high"}
+      }
+    }
+  ]
+}
