@@ -1,0 +1,770 @@
+{
+  "brands": [
+    {
+      "name": "Kilwins",
+      "slug": "kilwins",
+      "category": "Food & Beverage",
+      "website": "kilwins.com",
+      "notes": "Michigan-born chocolates, fudge, and ice cream franchise (founded 1947) with ~170 stores concentrated in tourist towns and Sun Belt markets. Acquired by private equity (Levine Leichtman Capital Partners); unit growth has accelerated modestly post-acquisition. Franchisor does not publish a public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Private-equity ownership transition and longtime-franchisee exits",
+          "detail": "After Kilwins' third owner sold the company to private equity firm Levine Leichtman Capital Partners, franchisees described the company as becoming 'increasingly corporate'; the brand's first-ever franchised location (a 42-year-old store) closed, with the departing owner publicly critical of the direction.",
+          "source": "TheStreet retail closure coverage",
+          "url": "https://www.thestreet.com/retail/famous-42-year-old-ice-cream-shop-shuts-with-blunt-5-word-warning",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Heavy geographic/seasonal revenue variance",
+          "detail": "2024 Item 19 shows system average gross sales of $933,138 but wide geographic dispersion: Florida stores averaged $1,158,363 and Tennessee stores $1,589,820, while the system median was $802,132 - tourist-market foot traffic drives results, and many stores are seasonal.",
+          "source": "Kilwins 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/08/05/kilwins-chocolates-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Marketing fund can be raised to 5% at franchisor discretion",
+          "detail": "The 3%-of-gross-sales marketing fee carries a franchisor right to increase it up to 5% of gross sales, on top of the 5% royalty - a potential 10% combined ongoing fee load.",
+          "source": "Kilwins 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/08/05/kilwins-chocolates-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 513485, "source": "Kilwins 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Some FDD-derived directories cite $392,500-$659,500 from earlier disclosure years."},
+        "totalInvestmentMax": {"value": 880344, "source": "Kilwins 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "Kilwins 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "$40,000 for a Store; $20,000-$30,000 for smaller Shop formats."},
+        "royaltyPercent": {"value": 5, "source": "Kilwins 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 3, "source": "Kilwins 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "3% of gross sales; franchisor may increase up to 5%."},
+        "avgUnitRevenue": {"value": 933138, "source": "Kilwins 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross sales across 128 franchised stores; median $802,132."},
+        "totalUnits": {"value": 172, "source": "Kilwins 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "168 franchised + 4 company-owned at end of 2024."},
+        "yearFounded": {"value": 1947, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high", "note": "Founded in Petoskey, Michigan."},
+        "yearFranchising": {"value": 1981, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Kilwins 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "+23 net franchised units across 2022-2024 (146 -> 168), accelerating after the private-equity acquisition."},
+        "businessModelType": {"value": "b2c", "source": "Kilwins franchisor site (retail confectionery stores)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Kilwins franchisor site (retail storefront model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review; The FDD Exchange", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Hilton Hotels and Resorts",
+      "slug": "hilton-hotels-and-resorts",
+      "category": "Travel & Lodging",
+      "website": "hilton.com",
+      "notes": "Hilton's flagship full-service upper-upscale hotel brand, franchised through Hilton Franchise Holding LLC. This is an institutional-scale hotel investment ($29M-$112M+), not a small-business franchise. Hilton does not publish a state-by-state availability list - development is negotiated market by market - so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Texas AG consumer-protection lawsuit over pricing transparency",
+          "detail": "In 2023 the Texas Attorney General sued Hilton for violating Texas consumer protection laws via drip pricing of mandatory fees, including allegedly changing room rates at checkout and charging fees twice (as a 'fee' then a 'tax'). Brand-level pricing practices and any remedies flow down to franchised hotels.",
+          "source": "Texas Attorney General press release",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/paxton-announces-lawsuit-against-hilton-violations-texas-consumer-protection-laws-and-lack-price",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "Nebraska AG drip-pricing suit after 50-state investigation",
+          "detail": "Nebraska's Attorney General sued Hilton for deceptive 'drip pricing' of resort fees following a nationwide investigation involving attorneys general of all 50 states and DC - part of an industry-wide pattern of regulatory pressure on hotel fee disclosure.",
+          "source": "Fox News coverage of Nebraska AG lawsuit",
+          "url": "https://www.foxnews.com/travel/nebraska-ag-sues-hilton-for-deceptive-hidden-resort-fees.amp",
+          "year": 2019
+        },
+        {
+          "severity": "info",
+          "title": "Institutional-scale capital commitment under a 23-year term",
+          "detail": "Entrepreneur-listed investment runs $29M-$112M (FDD Item 7-derived sources cite up to ~$204M for the largest builds) under a 23-year franchise agreement, with 5% royalty plus 4% program/advertising fee on gross rooms revenue - suitable only for institutional hotel developers.",
+          "source": "Entrepreneur Franchise 500 directory; Vetted Biz FDD analysis",
+          "url": "https://www.entrepreneur.com/franchises/directory/hilton-hotels-and-resorts/284278",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 29000000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "New-build full-service hotel; Vetted Biz FDD Item 7-derived range cites $49.7M-$204.3M for the largest projects."},
+        "totalInvestmentMax": {"value": 112000000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 85000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Initial/application fee; other FDD-derived sources cite $75,000-$105,000 depending on hotel size (per-room formulas apply above base room counts)."},
+        "royaltyPercent": {"value": 5, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "5% of Gross Rooms Revenue."},
+        "adFundPercent": {"value": 4, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "4% of Gross Rooms Revenue monthly program fee."},
+        "totalUnits": {"value": 557, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "Flagship Hilton Hotels and Resorts brand units; +3.1% trend. Parent Hilton Worldwide has 7,000+ hotels across all brands."},
+        "yearFounded": {"value": 1919, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1965, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "renewalTermYears": {"value": 23, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "23-year initial agreement, renewable."},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Listed as 'varies.'"},
+        "isGrowing": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "+3.1% unit trend."},
+        "businessModelType": {"value": "b2c", "source": "Hilton brand site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz - Hilton Hotels & Resorts Franchise Insights (FDD analysis)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Mr. Rooter Plumbing",
+      "slug": "mr-rooter-plumbing",
+      "category": "Home Services",
+      "website": "mrrooter.com",
+      "notes": "Full-service plumbing and drain-cleaning franchise in the Neighborly portfolio, 250+ locations across the US and Canada with steady recent unit growth (+14 net US franchised units in 2024). Item 19 results are heavily operator-dependent, with a top-10%/bottom-10% spread of more than 50x.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Extreme performance dispersion across franchisees",
+          "detail": "2024 Item 19 (188 reporting locations): overall median annual sales of $1,270,728, but the top 10% averaged $7,764,118 while the bottom 10% averaged just $148,446 - results depend heavily on territory and operator capability.",
+          "source": "Mr. Rooter 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Stacked marketing obligations on top of 6% royalty",
+          "detail": "Franchisees pay a 2% advertising/marketing fund contribution plus possible Local Marketing Group contributions of up to 3% of gross sales, on top of the 6% royalty (with minimums) - combined ongoing fees can reach 11% of revenue.",
+          "source": "Mr. Rooter 2025 FDD (via Franchise Chatter and SHARPSHEETS summaries)",
+          "url": "https://www.franchisechatter.com/2025/06/19/mr-rooter-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "One brand inside the large Neighborly multi-brand platform",
+          "detail": "Mr. Rooter is one of dozens of home-service brands under Neighborly (Dwyer Group), which allocates development attention and shared services across the portfolio; the franchisor discloses litigation history in its FDD Item 3.",
+          "source": "Neighborly Brands - Mr. Rooter brand page; Vetted Biz FDD analysis",
+          "url": "https://www.neighborlybrands.com/our-brands/mr-rooter/",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Neighborly - Mr. Rooter franchise page (available territories)",
+        "url": "https://franchise.neighborly.com/mr-rooter/",
+        "year": 2026,
+        "note": "Neighborly markets Mr. Rooter territories across the US via its availability map, with standard franchise-registration-state disclaimers. Confirm specific territory availability with the franchisor."
+      },
+      "fields": {
+        "totalInvestmentMin": {"value": 122303, "source": "Mr. Rooter 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "Excludes real estate; includes vehicles, equipment, initial marketing, and three months of operating expenses."},
+        "totalInvestmentMax": {"value": 263800, "source": "Mr. Rooter 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 42500, "source": "Mr. Rooter 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "Standard territory; additional population priced at $425 per 1,000 people."},
+        "royaltyPercent": {"value": 6, "source": "Mr. Rooter 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "6% of gross sales with minimum fees."},
+        "adFundPercent": {"value": 2, "source": "Mr. Rooter 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "2% marketing fund; Local Marketing Group contributions up to an additional 3%."},
+        "avgUnitRevenue": {"value": 1270728, "source": "Mr. Rooter 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "MEDIAN annual sales across 188 reporting US locations for 2024 (not a mean AUV); top 10% averaged $7.76M, bottom 10% $148K."},
+        "totalUnits": {"value": 232, "source": "Mr. Rooter 2025 FDD outlet tables (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "US: 229 franchised + 3 company-owned at end of 2024; 250+ locations including Canada."},
+        "yearFounded": {"value": 1970, "source": "Neighborly Brands - Mr. Rooter brand page", "year": 2026, "confidence": "high", "note": "Established 1970 in Oklahoma City; acquired by Dwyer Group (now Neighborly) in 1989."},
+        "isGrowing": {"value": true, "source": "Mr. Rooter 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "US franchised units +4 (2022), +6 (2023), +14 (2024)."},
+        "businessModelType": {"value": "both", "source": "Neighborly Brands - Mr. Rooter brand page (residential and commercial plumbing)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Mr. Rooter franchise model (van-based service business; office optional)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review; Vetted Biz", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Candlewood Suites",
+      "slug": "candlewood-suites",
+      "category": "Travel & Lodging",
+      "website": "ihg.com",
+      "notes": "IHG's midscale extended-stay hotel brand (acquired by IHG in January 2004), with roughly 380+ US properties and a large development pipeline. This is an institutional-scale hotel investment. IHG negotiates development market by market and publishes no state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisee class action against IHG includes a Candlewood Suites owner",
+          "detail": "A class action filed by Louisiana hotelier Vimal Patel (whose portfolio includes a Candlewood Suites in Houma, LA) - later joined by franchisees from Connecticut and Texas - alleges IHG runs a vendor kickback scheme (1%-5% rebates on mandated purchases), charges duplicate fees, kept collecting marketing fees during COVID, and applies overly harsh brand standards to Indian American and South Asian American owners.",
+          "source": "NOLA.com / Asian Hospitality coverage of IHG franchisee class action",
+          "url": "https://www.nola.com/news/business/article_afd96c76-c540-11eb-a308-cfc3beb857f8.html",
+          "year": 2021
+        },
+        {
+          "severity": "info",
+          "title": "Mandatory vendor lists and fee stacking are central franchisee complaints",
+          "detail": "The IHG litigation focuses on the requirement that franchisees buy property maintenance items from IHG's preselected vendor list at allegedly inflated prices - a structural cost risk that applies across IHG brands including Candlewood Suites.",
+          "source": "Asian Hospitality - Louisiana hotelier sues IHG over franchise practices",
+          "url": "https://www.asianhospitality.com/louisiana-hotelier-sues-ihg-over-franchise-practices/",
+          "year": 2021
+        },
+        {
+          "severity": "info",
+          "title": "Widely divergent published investment figures - verify against current FDD",
+          "detail": "Directory sources differ sharply on Candlewood Suites build costs: Vetted Biz lists $14.2M-$21.4M for new builds while 2025 FDD-derived summaries cite $1.2M-$4.7M (conversion/low-end scenarios). Any underwriting should start from the current FDD Item 7, not directory figures.",
+          "source": "Vetted Biz - Candlewood Suites Franchise Insights; PeerSense 2025 FDD summary",
+          "url": "https://www.vettedbiz.com/franchises/candlewood-suites/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 3195000, "source": "Vetted Biz - Candlewood Suites Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash per Vetted Biz FDD analysis; actual requirement scales with project size."},
+        "totalInvestmentMin": {"value": 14169501, "source": "Vetted Biz - Candlewood Suites Franchise Insights", "year": 2025, "confidence": "medium", "note": "New-build hotel range; 2025 FDD-derived summaries cite conversion/low-end scenarios from ~$1.2M. Verify against current FDD Item 7."},
+        "totalInvestmentMax": {"value": 21400950, "source": "Vetted Biz - Candlewood Suites Franchise Insights", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 60000, "source": "Vetted Biz - Candlewood Suites Franchise Insights", "year": 2025, "confidence": "medium", "note": "Per-room formulas apply above base room counts; other sources cite $50,000-$100,000 depending on hotel size."},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz - Candlewood Suites Franchise Insights", "year": 2025, "confidence": "medium", "note": "Of gross rooms revenue; some FDD-derived summaries cite 5.5%."},
+        "adFundPercent": {"value": 3, "source": "Vetted Biz - Candlewood Suites Franchise Insights", "year": 2025, "confidence": "medium", "note": "Marketing/services contribution of monthly gross rooms revenue."},
+        "totalUnits": {"value": 384, "source": "Vetted Biz - Candlewood Suites Franchise Insights", "year": 2025, "confidence": "medium", "note": "US locations; IHG reported 410+ open properties worldwide plus 192 hotels in the development pipeline as of mid-2025."},
+        "yearFranchising": {"value": 2003, "source": "Vetted Biz - Candlewood Suites Franchise Insights", "year": 2025, "confidence": "medium", "note": "IHG acquired the brand in January 2004 and franchises it through IHG Franchising LLC."},
+        "isGrowing": {"value": true, "source": "IHG development disclosures (410+ open, 192-hotel pipeline)", "year": 2025, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Vetted Biz - Candlewood Suites Franchise Insights", "year": 2025, "confidence": "medium", "note": "Hotels operated by approved management companies or owner-operators."},
+        "businessModelType": {"value": "b2c", "source": "IHG brand site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz - Candlewood Suites Franchise Insights (FDD analysis)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Cornwell Quality Tools",
+      "slug": "cornwell-quality-tools",
+      "category": "Automotive",
+      "website": "cornwelltools.com",
+      "notes": "America's oldest mobile tool franchise (founded 1919, Wadsworth, OH): dealers sell professional tools to mechanics from a truck on a weekly route. No initial franchise fee, no royalty, and no ad fund - the franchisor earns its margin on required tool/inventory purchases. Buyers should weigh the serious dealer-failure allegations in the 2020 class action. No published state availability list, so availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Former-franchisee class action alleging the business plan was known to fail ($96M sought)",
+          "detail": "Former dealers filed a class action in the US District Court for the Northern District of Ohio claiming Cornwell knew its Franchise Business Plan wouldn't work, alleging roughly 20-25% of dealerships fail in year one, nearly half within two years, and almost all within four years under the plan. Plaintiffs sought over $96 million in damages.",
+          "source": "Washington Examiner coverage of Cornwell class action",
+          "url": "https://www.washingtonexaminer.com/news/business/497125/franchisees-of-cornwell-quality-tools-file-lawsuit-say-company-knew-business-plan-wouldnt-work/",
+          "year": 2020
+        },
+        {
+          "severity": "caution",
+          "title": "Dealer complaints: back orders, customer credit denials, dated systems",
+          "detail": "Dealer complaints documented on franchisee forums include flyer products stuck on back order for months (causing customers to cancel), low credit-approval rates for dealers' mechanic customers, outdated point-of-sale software, and late product introductions versus Snap-on/Matco/Mac competitors.",
+          "source": "Unhappy Franchisee - Cornwell Tools franchise complaints",
+          "url": "https://www.unhappyfranchisee.com/cornwell-tools-franchise-scam-or-no-scam/",
+          "year": 2014
+        },
+        {
+          "severity": "info",
+          "title": "No-royalty model embeds franchisor margin in required inventory purchases",
+          "detail": "There is no franchise fee, royalty, or ad fund, but new dealers must buy roughly $60,000 of initial inventory from Cornwell or affiliates, and ongoing income depends on reselling franchisor-supplied product - the effective franchisor take is in the cost of goods, and weekly route collections carry personal credit risk on customer accounts.",
+          "source": "Cornwell Quality Tools 2025 FDD (via The FDD Exchange and SHARPSHEETS summaries)",
+          "url": "https://fddexchange.com/view-fdd-docs/cornwell-quality-tools-2025-fdd-franchise-information-costs-and-fees/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 40000, "source": "Vetted Biz - Cornwell Quality Tools Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 174525, "source": "Cornwell Quality Tools 2025 FDD (via The FDD Exchange and Vetted Biz)", "year": 2025, "confidence": "high", "note": "New dealers; converting dealers from other tool brands can start from $79,525. Includes ~$60,000 initial inventory paid to Cornwell or an affiliate."},
+        "totalInvestmentMax": {"value": 318825, "source": "Cornwell Quality Tools 2025 FDD (via The FDD Exchange and Vetted Biz)", "year": 2025, "confidence": "high", "note": "Convertee high end is $323,825."},
+        "franchiseFee": {"value": 0, "source": "Cornwell Quality Tools 2025 FDD (via The FDD Exchange)", "year": 2025, "confidence": "high", "note": "No initial franchise fee."},
+        "royaltyPercent": {"value": 0, "source": "Cornwell Quality Tools 2025 FDD (via The FDD Exchange and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "No ongoing royalty or marketing fee; franchisor earns margin on required tool purchases."},
+        "avgUnitRevenue": {"value": 598836, "source": "Vetted Biz - Cornwell Quality Tools Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per dealer; Vetted Biz estimates owner-operator earnings of ~$59,884-$71,861."},
+        "totalUnits": {"value": 793, "source": "Vetted Biz - Cornwell Quality Tools Franchise Insights", "year": 2025, "confidence": "medium", "note": "US dealer count per Vetted Biz; all franchised mobile dealerships."},
+        "yearFounded": {"value": 1919, "source": "Vetted Biz - Cornwell Quality Tools Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1996, "source": "Vetted Biz - Cornwell Quality Tools Franchise Insights", "year": 2025, "confidence": "medium", "note": "Dealer network operated for decades before the modern franchise structure."},
+        "mobileBased": {"value": true, "source": "Cornwell Tools franchise site (mobile tool-truck dealership model)", "year": 2026, "confidence": "high"},
+        "canRunFromHome": {"value": true, "source": "Cornwell Tools franchise model (route-based, no storefront required)", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2b", "source": "Cornwell Tools franchise site (sells to professional mechanics and shops)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Cornwell Quality Tools 2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz FDD analysis (Item 19-derived dealer sales)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Weed Man",
+      "slug": "weed-man",
+      "category": "Home Services",
+      "website": "weedman.com",
+      "notes": "Canada-born lawn-care franchise (founded 1970, franchising since 1976; in the US since 1996) with roughly 355 territories across North America, sold and supported through regional sub-franchisors. Low entry cost (~$81K-$109K) for a seasonal, route-based fertilization/weed-control business; US territories are marketed via the franchisor's availability map.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Sub-franchisor structure between franchisee and brand owner",
+          "detail": "Weed Man grants exclusive regional rights to sub-franchisors who recruit and administer unit franchisees in their territories - unit owners' support quality and economics partly depend on their regional sub-franchisor, an extra layer most franchises don't have.",
+          "source": "Franchise Direct - Weed Man Lawn Care FDD summary",
+          "url": "https://www.franchisedirect.com/homeservicesfranchises/weed-man-lawn-care-franchise-13443/ufoc/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Minimum annual royalty regardless of revenue; seasonal business",
+          "detail": "The 2025 FDD sets a minimum annual royalty (~$7,192) on top of the 6.5%/5.5% net-sales royalty, and lawn care is inherently seasonal in northern markets - fixed obligations continue through the off-season.",
+          "source": "Weed Man 2025 FDD (via Franchise Direct summary)",
+          "url": "https://www.franchisedirect.com/homeservicesfranchises/weed-man-lawn-care-franchise-13443/ufoc/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Recurring customer billing complaints (auto-renewal model)",
+          "detail": "Consumer reviews and BBB complaints describe billing for unwanted or cancelled services under the brand's auto-renewing service agreements; Weed Man holds an A BBB rating but ~3.5-star customer scores. Customer-service handling is a reputational input franchisees inherit.",
+          "source": "ConsumersAdvocate 2026 Weed Man review; BBB profiles",
+          "url": "https://www.consumersadvocate.org/lawn-care-services/c/weed-man-usa-lawn-care-service-review",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Weed Man franchise site (available territories)",
+        "url": "https://weedmanfranchise.com/",
+        "year": 2026,
+        "note": "Franchisor markets territories across the US via its territory-availability tools; specific territories subject to existing sub-franchisor and unit agreements. Confirm availability with the franchisor."
+      },
+      "fields": {
+        "totalInvestmentMin": {"value": 81150, "source": "Weed Man 2025 FDD (via Franchise Direct summary)", "year": 2025, "confidence": "high", "note": "Includes franchise fee, training, equipment, software, insurance, truck lease, and three months operating capital."},
+        "totalInvestmentMax": {"value": 109400, "source": "Weed Man 2025 FDD (via Franchise Direct summary)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 30000, "source": "Weed Man 2025 FDD (via Franchise Direct summary)", "year": 2025, "confidence": "high", "note": "$30,000-$50,000 depending on territory size (target ~150,000 population)."},
+        "royaltyPercent": {"value": 6.5, "source": "Weed Man 2025 FDD (via Franchise Direct summary)", "year": 2025, "confidence": "high", "note": "6.5% of net sales up to $1M annually, then 5.5%; minimum annual royalty ~$7,192."},
+        "adFundPercent": {"value": 1.2, "source": "Weed Man 2025 FDD (via Franchise Direct summary)", "year": 2025, "confidence": "high", "note": "1.2% of monthly net sales, capped at 3%."},
+        "avgUnitRevenue": {"value": 1147397, "source": "Vetted Biz - Weed Man Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Third-party estimate of yearly gross sales; other FDD-derived analyses cite ~$1.3M AUV."},
+        "totalUnits": {"value": 355, "source": "Weed Man 2025 FDD (via Franchise Direct summary)", "year": 2025, "confidence": "medium", "note": "Approximate North American territories; all franchised (regional sub-franchisor model)."},
+        "yearFounded": {"value": 1970, "source": "Franchise Direct - Weed Man FDD summary", "year": 2025, "confidence": "high", "note": "Founded in Ontario, Canada; US franchising since 1996."},
+        "yearFranchising": {"value": 1976, "source": "Franchise Direct - Weed Man FDD summary", "year": 2025, "confidence": "high"},
+        "renewalTermYears": {"value": 10, "source": "Weed Man 2025 FDD (via Franchise Direct summary)", "year": 2025, "confidence": "high", "note": "10-year initial term with one 10-year renewal option."},
+        "canRunFromHome": {"value": true, "source": "Weed Man franchise model (route-based; low fixed-premises investment per FDD Item 7)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Weed Man franchise model (truck-based lawn care routes)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Weed Man franchisor site (residential lawn care)", "year": 2026, "confidence": "high"},
+        "seasonalityNotes": {"value": "Lawn fertilization/weed control is seasonal in northern markets; revenue concentrates in spring-fall application windows", "source": "Weed Man service model (franchisor site)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct (2025 FDD summary)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "My Salon Suite",
+      "slug": "my-salon-suite",
+      "category": "Beauty & Self Care",
+      "website": "mysalonsuite.com",
+      "notes": "Salon-suite real estate franchise (Suite Management Franchising, acquired by Propelled Brands in 2021): franchisees build out and lease private studio suites to independent beauty professionals. Semi-absentee landlord economics with strong EBITDA margins (~43% average) but a high build cost relative to revenue. No public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High build cost relative to unit revenue",
+          "detail": "2025 FDD Item 7 runs $675,106-$1,682,095 against 2024 average gross revenue of $455,642 - payback depends on sustained ~87% suite occupancy and favorable lease terms; the franchisee carries a long-term commercial lease regardless of occupancy.",
+          "source": "My Salon Suite 2025 FDD Items 7 and 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/12/21/my-salon-suite-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Wide EBITDA spread between top and bottom quartiles",
+          "detail": "2024 Item 19 (244 reporting locations): average EBITDA $194,813 (42.8% margin), but bottom-quartile locations averaged $77,554 (22.6%) versus $302,095 (56.4%) for the top quartile - location quality and occupancy drive a 4x earnings spread.",
+          "source": "My Salon Suite 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/12/21/my-salon-suite-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Crowded salon-suite category with growing company-owned footprint",
+          "detail": "The salon-suite segment is contested by Sola Salon Studios, Phenix Salon Suites, IMAGE Studios and others competing for the same stylists and retail real estate; My Salon Suite's own company-owned count also grew from 31 to 51 units across 2022-2024 alongside franchising.",
+          "source": "My Salon Suite 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/12/21/my-salon-suite-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 675106, "source": "My Salon Suite 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1682095, "source": "My Salon Suite 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "My Salon Suite 2025 FDD (via Franchise Chatter and Franchise Direct summaries)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5.5, "source": "My Salon Suite 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2.75% of gross revenues for the first 6 months, then 5.5% (minimum $1,000/month thereafter)."},
+        "adFundPercent": {"value": 2, "source": "My Salon Suite 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Up to 2% of gross revenues; minimum $200/month."},
+        "avgUnitRevenue": {"value": 455642, "source": "My Salon Suite 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross revenue across 244 reporting franchised locations; average EBITDA $194,813 (42.8% margin); average occupancy 86.8%."},
+        "totalUnits": {"value": 355, "source": "My Salon Suite 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "304 franchised + 51 company-owned at end of 2024."},
+        "veteranDiscount": {"value": true, "source": "My Salon Suite FDD (via Franchise Chatter fee summary)", "year": 2025, "confidence": "high", "note": "50% off the initial franchise fee ($25,000) for US Armed Forces veterans."},
+        "isGrowing": {"value": true, "source": "My Salon Suite 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Franchised units +39 (2022), +43 (2023), +29 (2024)."},
+        "absenteeOwnership": {"value": true, "source": "Franchise Chatter 2025 FDD review (semi-absentee landlord model with small on-site staffing)", "year": 2025, "confidence": "medium", "note": "Marketed as semi-absentee; suites leased to independent beauty professionals."},
+        "businessModelType": {"value": "b2b", "source": "My Salon Suite franchisor site (leases suites to independent salon professionals)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "My Salon Suite franchisor site (fixed retail real estate model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Spherion Staffing & Recruiting",
+      "slug": "spherion-staffing-and-recruiting",
+      "category": "Services",
+      "website": "spherion.com",
+      "notes": "Staffing and recruiting franchise owned by global staffing giant Randstad, with ~210 US offices. Unusual economics: instead of a classic royalty, the franchisor splits gross profit with the franchisee (franchisee keeps 60-75% on temp staffing, 88% on permanent placement) and funds temporary-worker payroll. High revenue per office (~$6M average) but cyclical exposure to the employment market.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Staffing category in cyclical downturn",
+          "detail": "Franchise Times reported the employment/staffing franchise category brought in $5.2 billion, a 10% year-over-year decrease, with every company in the category posting negative sales growth in 2023; Spherion cut franchisee quotas by 25% in response to franchisee stress.",
+          "source": "Franchise Times - Spherion listens to franchisees to mitigate sales decreases",
+          "url": "https://www.franchisetimes.com/franchise_news/spherion-listens-to-franchisees-to-mitigate-sales-decreases-stressors/article_fe83bfd2-7f4d-11ef-892a-2b5256dc8b53.html",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Franchisor retains 25-40% of temp gross profit",
+          "detail": "Per the 2025 FDD, franchisees keep 75% of temporary-staffing gross profit in new areas (60% on acquired/existing business) and 88% of permanent-placement commissions - the franchisor's share substitutes for a royalty and is far larger than a typical percentage-of-sales fee, though the franchisor also carries temp payroll funding.",
+          "source": "Spherion 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/06/04/spherion-staffing-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Net franchised unit count slipped in 2023",
+          "detail": "Franchised offices fell from 215 to 209 during 2023 (after +8 in 2021 and +7 in 2022), and the franchisor added its first 2 company-owned units - consistent with the category-wide downturn rather than brand-specific distress.",
+          "source": "Spherion 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/06/04/spherion-staffing-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 214325, "source": "Spherion 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Franchise Gator cites $211,725-$423,925 from an adjacent disclosure year."},
+        "totalInvestmentMax": {"value": 342575, "source": "Spherion 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "Spherion 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Undeveloped market; $30,000-$60,000 range depending on market size."},
+        "adFundPercent": {"value": 0.25, "source": "Spherion 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "0.25% of sales advertising contribution; no classic royalty - franchisor instead retains 25-40% of temp gross profit and 12% of perm-placement commissions."},
+        "avgUnitRevenue": {"value": 6004383, "source": "Spherion 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2023 average sales for 67 franchisees operating 1+ years; average gross profit $1,303,941 (23.7% margin). Top-line includes temp-worker payroll billings."},
+        "totalUnits": {"value": 211, "source": "Spherion 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "209 franchised + 2 company-owned at end of 2023."},
+        "yearFounded": {"value": 1946, "source": "Spherion corporate history (franchisor site; operating as Spherion since 2000)", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "Spherion 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "medium", "note": "Net -6 franchised units in 2023 after growth in 2021-2022; category-wide staffing downturn."},
+        "businessModelType": {"value": "b2b", "source": "Spherion franchisor site (staffing services sold to employers)", "year": 2026, "confidence": "high"},
+        "financingOffered": {"value": true, "source": "Spherion franchising FAQ (franchisor funds temporary payroll and accounts receivable)", "year": 2026, "confidence": "medium", "note": "Franchisor carries temp payroll/working-capital burden; not a loan for the initial investment."},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review (April 18, 2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Five Star Bath Solutions",
+      "slug": "five-star-bath-solutions",
+      "category": "Home Services",
+      "website": "fivestarbathsolutions.com",
+      "notes": "Bathroom-remodeling (tub/shower conversion) franchise on the Five Star Franchising platform, one of the fastest-growing home-services systems in the US (+71 net franchised units in 2023 alone). Low six-figure entry with strong mature-unit revenue, but most of the system is very young. No public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Hyper-growth system - most units are very young",
+          "detail": "Franchised units grew 54 -> 71 -> 91 -> 162 across 2021-2023 (tripling in three years), so published mature-franchisee revenue figures ($1.8M-$2.1M for 37+ month operators) reflect a small cohort; most current owners are still ramping.",
+          "source": "Five Star Bath Solutions 2025 FDD outlet tables and Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/03/30/five-star-bath-solutions-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Escalating minimum royalties plus a 10% local marketing requirement",
+          "detail": "Royalty is 6% of gross revenue (5% above $1M) with monthly minimums rising from $1,000 to $2,500 by month 36, and franchisees must spend at least 10% of annual gross revenue on local advertising (inclusive of the up-to-2.5% national fee) - heavy fixed obligations for a ramping unit.",
+          "source": "Five Star Bath Solutions 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/03/30/five-star-bath-solutions-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "PE-backed multi-brand platform franchisor",
+          "detail": "Five Star Bath Solutions is one of several home-service brands (Bio-One, Gotcha Covered, ProLift Garage Doors, 1-800-Packouts, etc.) under Five Star Franchising, a private-equity-backed platform with 1,600+ total locations that allocates capital and attention across the portfolio.",
+          "source": "Five Star Franchising corporate site",
+          "url": "https://fivestarfranchising.com/five-star-bath-solutions/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 125500, "source": "Five Star Bath Solutions 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 266000, "source": "Five Star Bath Solutions 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 59500, "source": "Five Star Bath Solutions 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Territory of up to ~150,000 households; additional territory at $0.40 per household."},
+        "royaltyPercent": {"value": 6, "source": "Five Star Bath Solutions 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "6% of gross revenue (5% above $1M/year); monthly minimums $1,000 rising to $2,500 from month 36."},
+        "adFundPercent": {"value": 2.5, "source": "Five Star Bath Solutions 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Up to 2.5% national marketing fee ($200/month minimum); franchisees must also spend at least 10% of annual gross revenue on local advertising (inclusive of the national fee)."},
+        "avgUnitRevenue": {"value": 1800000, "source": "Five Star Bath Solutions 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "Mature franchisees (37+ months in operation) generated $1.8M-$2.1M average annual revenue in 2023; system-wide average job price $12,782. Younger cohorts earn substantially less."},
+        "totalUnits": {"value": 165, "source": "Five Star Bath Solutions 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "162 franchised + 3 company-owned at end of 2023; franchisor cites 70+ metro markets across US and Canada."},
+        "isGrowing": {"value": true, "source": "Five Star Bath Solutions 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "+17 (2021), +20 (2022), +71 (2023) net franchised units; system revenue grew from $5.5M (2016) to $73.7M (2023)."},
+        "canRunFromHome": {"value": true, "source": "Five Star Bath Solutions FDD Item 7 (low-overhead, office optional per Franchise Chatter cost breakdown)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Five Star Bath Solutions model (in-home sales and installation)", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Five Star Franchising brand page (residential bath remodeling)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Bin There Dump That",
+      "slug": "bin-there-dump-that",
+      "category": "Home Services",
+      "website": "bintheredumpthat.com",
+      "notes": "Residential-friendly dumpster rental franchise (founded 2001 in Canada, franchising since 2003) with 200+ franchised operating territories. Economics scale with truck/bin count: royalties and ad-fund contributions are flat per-truck fees rather than a percentage of sales, and 2023 Item 19 discloses average revenue of $294,055 per truck. Franchisor screens territory availability by market, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Per-truck royalty more than doubles from year 1 to year 4",
+          "detail": "Royalty is a flat fee per production vehicle: $600/truck/month in year 1, $900 in year 2, $1,200 in year 3, and $1,300+ (indexed annually) from year 4 - plus a per-truck marketing fund rising from $1,440 to $3,123+/truck/year. Fixed obligations grow regardless of utilization.",
+          "source": "Bin There Dump That 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/03/20/bin-there-dump-that-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Young trucks earn ~35% less - multi-year ramp to system averages",
+          "detail": "2023 Item 19: locations open 0-2 years averaged $188,846 revenue per truck versus $289,407 for locations open 5+ years; only 50% of franchisees met or exceeded the system average of $294,055 per truck.",
+          "source": "Bin There Dump That 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/03/20/bin-there-dump-that-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Competitive waste/junk category; mixed franchisee reviews on closures and overhead",
+          "detail": "Franchisees compete against national waste majors, junk-removal brands, and local independents with low switching costs; franchisee review feedback includes complaints of locations closing, heavy competition, and high overhead, alongside positive support reviews. Supplier reliance for bin manufacturing and disposal adds operational dependency.",
+          "source": "Vetted Biz - Bin There Dump That Franchise Insights (risk summary and franchisee feedback)",
+          "url": "https://www.vettedbiz.com/franchises/bin-there-dump-that",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 116200, "source": "Bin There Dump That 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Plus real estate if an office/yard is established."},
+        "totalInvestmentMax": {"value": 235400, "source": "Bin There Dump That 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 29000, "source": "Bin There Dump That 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Base territory of 125,000 population; +$1,000 per additional 25,000 population."},
+        "totalUnits": {"value": 206, "source": "Bin There Dump That 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Franchised territories at end of 2023 (198 -> 206 during 2023); brand operates additional Canadian locations. Royalty/ad fund are flat per-truck fees, not percentages."},
+        "yearFounded": {"value": 2001, "source": "Vetted Biz - Bin There Dump That Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2003, "source": "Vetted Biz - Bin There Dump That Franchise Insights", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Bin There Dump That 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "+15 (2021), +22 (2022), +8 (2023) net franchised units."},
+        "canRunFromHome": {"value": true, "source": "Bin There Dump That franchise investment page (office/real estate optional)", "year": 2026, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Bin There Dump That model (truck-and-bin delivery routes)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "both", "source": "Bin There Dump That franchise site (residential focus plus contractor/commercial jobs)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review (per-truck revenue disclosures)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "The Little Gym",
+      "slug": "the-little-gym",
+      "category": "Education & Children",
+      "website": "thelittlegym.com",
+      "notes": "Children's motor-skill development and gymnastics franchise (400+ locations in 30+ countries) owned by PE-backed Unleashed Brands since 2021. Buyers should weigh the now-resolved mass franchisee arbitration against Unleashed Brands and the multi-year US unit decline. No public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Mass franchisee arbitration against parent Unleashed Brands (2023, resolved Jan 2026)",
+          "detail": "35 franchisees owning 50+ Little Gyms filed American Arbitration Association claims accusing Unleashed Brands of imposing damaging changes in violation of franchise agreements - including a forced migration to a centralized banking platform that allegedly held franchisee revenue up to 15 days, and scaled-down curriculum, operations, technology, and marketing support. The parties announced a resolution in January 2026.",
+          "source": "Franchise Times - 35 Little Gym franchisees file arbitration claims; PR Newswire resolution announcement",
+          "url": "https://www.franchisetimes.com/franchise_news/35-little-gym-franchisees-file-arbitration-claims/article_5e22ad68-62df-11ee-bb40-7f9dcb133414.html",
+          "year": 2023
+        },
+        {
+          "severity": "caution",
+          "title": "US franchised unit count declined 205 -> 173 across 2020-2022",
+          "detail": "Per FDD outlet tables, US franchised locations fell from 205 (start of 2020) to 173 (end of 2022), including a net -27 in 2021 - a contraction that predates but overlaps the Unleashed Brands ownership transition and COVID disruption to kids' enrichment businesses.",
+          "source": "The Little Gym 2023 FDD outlet tables (via Franchise Chatter FDD Talk review)",
+          "url": "https://www.franchisechatter.com/2024/03/01/fdd-talk-the-little-gym-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Stacked fees: 8% royalty plus ad fund plus up-to-6% local marketing",
+          "detail": "Franchisees pay the greater of 8% of gross sales or $2,500/month, plus an ad fund of up to 2.5% (currently 1%), plus a local marketing requirement of up to 6% of gross sales (currently 5%) - a potential combined burden above 16% of revenue at the contractual maximums.",
+          "source": "The Little Gym FDD fee disclosures (via Franchise Chatter FDD Talk review)",
+          "url": "https://www.franchisechatter.com/2024/03/01/fdd-talk-the-little-gym-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 465250, "source": "The Little Gym FDD Item 7 (via Franchise Chatter FDD Talk review)", "year": 2024, "confidence": "high", "note": "Newer FDD-derived summaries cite $506,000-$757,000 with a $60,000 fee."},
+        "totalInvestmentMax": {"value": 637000, "source": "The Little Gym FDD Item 7 (via Franchise Chatter FDD Talk review)", "year": 2024, "confidence": "high"},
+        "franchiseFee": {"value": 59500, "source": "The Little Gym FDD (via Franchise Chatter FDD Talk review)", "year": 2024, "confidence": "high"},
+        "royaltyPercent": {"value": 8, "source": "The Little Gym FDD (via Franchise Chatter FDD Talk review)", "year": 2024, "confidence": "high", "note": "Greater of 8% of gross sales or $2,500/month."},
+        "adFundPercent": {"value": 1, "source": "The Little Gym FDD (via Franchise Chatter FDD Talk review)", "year": 2024, "confidence": "high", "note": "Currently 1%, contractually up to 2.5%; plus local marketing requirement of up to 6% (currently 5%)."},
+        "avgUnitRevenue": {"value": 626731, "source": "The Little Gym FDD Item 19 (via Franchise Chatter FDD Talk review)", "year": 2024, "confidence": "high", "note": "2022 average gross revenue across 163 US locations open the full year; 2021 average was $446,918."},
+        "totalUnits": {"value": 174, "source": "The Little Gym FDD outlet tables (via Franchise Chatter FDD Talk review)", "year": 2024, "confidence": "medium", "note": "US: 173 franchised + 1 company-owned at end of 2022; 400+ locations globally in 30+ countries per Franchise Times."},
+        "liquidCapitalMin": {"value": 100000, "source": "Franchise directory listings (via Vetted Biz / peersense summaries)", "year": 2025, "confidence": "medium", "note": "$100,000 liquid; $300,000 minimum net worth."},
+        "netWorthMin": {"value": 300000, "source": "Franchise directory listings (via Vetted Biz / peersense summaries)", "year": 2025, "confidence": "medium"},
+        "yearFounded": {"value": 1976, "source": "The Little Gym corporate history (franchisor site)", "year": 2026, "confidence": "medium", "note": "Founded by Robin Wes in Bellevue, WA."},
+        "isGrowing": {"value": false, "source": "The Little Gym FDD outlet tables (via Franchise Chatter)", "year": 2024, "confidence": "medium", "note": "US franchised units declined 205 -> 173 across 2020-2022."},
+        "internationalAvailability": {"value": true, "source": "Franchise Times (400+ locations in 30+ countries)", "year": 2023, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "The Little Gym franchisor site (children's enrichment classes)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "The Little Gym franchisor site (fixed studio locations)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter FDD Talk review", "year": 2024, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter FDD Talk review", "year": 2024, "confidence": "high"}
+      }
+    },
+    {
+      "name": "City Wide Facility Solutions",
+      "slug": "city-wide-facility-solutions",
+      "category": "Services",
+      "website": "gocitywide.com",
+      "notes": "B2B facility-management franchise: franchisees sell and manage 20+ building services (janitorial, maintenance, etc.) for commercial clients and subcontract the labor to independent contractors. Among the highest revenue-per-unit models in franchising ($8.94M average in 2024) with large exclusive metro territories - and correspondingly wide performance dispersion. Territories are large metro markets awarded individually, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "Extreme revenue dispersion across franchisees",
+          "detail": "2024 Item 19 (93 reporting locations): average revenue $8.94M but median $4.80M; the top quartile averaged $22.7M while the bottom quartile averaged $1.5M - a 15x spread driven by market size, tenure, and sales execution.",
+          "source": "City Wide 2026 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/05/23/city-wide-facility-solutions-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Subcontractor-management model draws complaints",
+          "detail": "City Wide franchisees manage work performed by independent contractors rather than their own crews; documented complaints from contractors and customers allege franchisees lack control over or experience managing subcontractors, and that contract amounts are misrepresented to subcontractors. The middleman structure is the core operating risk.",
+          "source": "Unhappy Franchisee - City Wide Maintenance franchise complaints",
+          "url": "https://unhappyfranchisee.com/city-wide-maintenance-franchise-complaints/",
+          "year": 2015
+        },
+        {
+          "severity": "info",
+          "title": "Royalty minimums up to $5,000/month and slowing unit growth",
+          "detail": "Royalty is the greater of 5% of gross sales or a minimum that scales to $5,000/month, a meaningful fixed cost during the multi-year B2B sales ramp; net franchised unit growth slowed from +17 (2022) to +9 (2023) to +4 (2024) as large-metro territories sell out.",
+          "source": "City Wide 2026 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/05/23/city-wide-facility-solutions-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 226784, "source": "City Wide 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 393084, "source": "City Wide 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 70000, "source": "City Wide 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "City Wide 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Greater of 5% of gross sales or monthly minimums scaling from $0 to $5,000."},
+        "adFundPercent": {"value": 1, "source": "City Wide 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Up to 1% national marketing fund plus $1,200/year local advertising requirement."},
+        "avgUnitRevenue": {"value": 8940000, "source": "City Wide 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2024 average across 93 reporting locations; median $4.80M. Revenue is gross contract billings; franchisee margin sits between client billings and subcontractor costs."},
+        "totalUnits": {"value": 98, "source": "City Wide 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "All franchised; 0 company-owned (the founding Kansas City operation is run by the franchisor family separately)."},
+        "yearFounded": {"value": 1961, "source": "1851 Franchise - City Wide franchise deep dive", "year": 2024, "confidence": "medium", "note": "Founded in Kansas City; franchising since 2001."},
+        "yearFranchising": {"value": 2001, "source": "1851 Franchise - City Wide franchise deep dive", "year": 2024, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "City Wide 2026 FDD outlet tables (via Franchise Chatter)", "year": 2026, "confidence": "medium", "note": "+4 net units in 2024; growth slowing as major metros sell out."},
+        "exclusiveTerritories": {"value": true, "source": "City Wide franchising site (exclusive large metro territories)", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2b", "source": "City Wide franchising site (commercial facility services)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "City Wide model (office-based sales/management operation)", "year": 2026, "confidence": "medium"},
+        "nationalAccounts": {"value": true, "source": "City Wide corporate site (national/multi-market client partnerships, e.g. exclusive athletics facility partnerships)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review; Free FDD Library", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Wyndham",
+      "slug": "wyndham",
+      "category": "Travel & Lodging",
+      "website": "wyndhamhotels.com",
+      "notes": "Flagship upscale brand of Wyndham Hotels & Resorts, the world's largest hotel franchisor (25 brands including Days Inn, Super 8, and Ramada). Figures below are for the flagship Wyndham brand, an institutional-scale full-service hotel investment; sister economy brands start far lower (e.g., Days Inn from ~$193K as a conversion). Development is negotiated market by market, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisee class action over loyalty-program auto-enrollment fees",
+          "detail": "Franchisees filed a class action alleging Wyndham's practice of auto-enrolling guests into its loyalty program inflated program fees charged back to hotel owners, in some cases reaching up to 5% of gross room sales - fees layered on top of contractual royalty and marketing charges.",
+          "source": "LegalClarity - Wyndham hotel lawsuit overview (franchisee fee litigation)",
+          "url": "https://legalclarity.org/wyndham-hotel-lawsuit-data-breaches-and-hidden-fees/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "FTC data-security enforcement and 20-year compliance order",
+          "detail": "After hackers compromised payment-card data of hundreds of thousands of guests in repeated breaches, the FTC's enforcement action against Wyndham ended in a settlement requiring a comprehensive information-security program and annual third-party audits for 20 years - brand-level compliance whose costs and standards flow to franchised properties.",
+          "source": "IAPP analysis of FTC v. Wyndham",
+          "url": "https://iapp.org/news/a/what-you-didnt-read-about-the-wyndham-case",
+          "year": 2015
+        },
+        {
+          "severity": "info",
+          "title": "Affiliated timeshare litigation creates brand-reputation exposure",
+          "detail": "Wyndham-affiliated timeshare entities face recurring class actions (e.g., Bedgood v. Wyndham Vacation Resorts) alleging material omissions in sales presentations, with plaintiffs seeking classes of up to 200,000 owners - separate companies, but shared brand reputation that hotel franchisees ride on.",
+          "source": "FindLaw - Bedgood v. Wyndham Vacation Resorts (11th Cir. 2023)",
+          "url": "https://caselaw.findlaw.com/court/us-11th-circuit/115623790.html",
+          "year": 2023
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 40004225, "source": "Franchise Help - Wyndham Hotels and Resorts directory (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Flagship full-service Wyndham new-build; conversions and economy sister brands (Days Inn, Super 8) start far lower."},
+        "totalInvestmentMax": {"value": 64842350, "source": "Franchise Help - Wyndham Hotels and Resorts directory (FDD-derived)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 150500, "source": "Franchise Help - Wyndham Hotels and Resorts directory (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Flagship brand initial fee; per-room formulas apply above base room counts."},
+        "royaltyPercent": {"value": 5, "source": "Franchise Help - Wyndham Hotels and Resorts directory (FDD-derived); HVS Hotel Franchise Fee Guide", "year": 2025, "confidence": "medium", "note": "5% of gross rooms revenue, plus separate marketing/reservation program fees per the brand FDD."},
+        "yearFounded": {"value": 1981, "source": "Wyndham Hotels & Resorts corporate history (first Wyndham hotel, Dallas TX)", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Franchise Direct - Wyndham Hotels and Resorts FDD summary (approved management required)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Wyndham Hotels & Resorts brand site", "year": 2026, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Wyndham Hotels & Resorts corporate site (9,000+ hotels in 95+ countries across 25 brands)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct / Franchise Help FDD-derived summaries (2025 FDD)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Buffalo Wild Wings",
+      "slug": "buffalo-wild-wings",
+      "category": "Food & Beverage",
+      "website": "buffalowildwings.com",
+      "notes": "Sports-bar wing chain (Inspire Brands since 2018) with 1,100+ US restaurants in all 50 states. Franchising continues - 11 franchised openings in 2025 and an expanding small-format BWW GO counter-service concept - but the core full-size system has not posted positive net unit growth since 2018. Inspire markets development by target market rather than a published state list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "No positive net unit growth since 2018",
+          "detail": "Buffalo Wild Wings ended 2025 with 1,178 US restaurants, a net -5 for the year (16 company closures vs 11 franchised openings), following net losses of 2 units in 2024 and 4 in 2023; the brand last grew its US footprint in 2018. Growth is being redirected into the smaller BWW GO format.",
+          "source": "FSR Magazine - Buffalo Wild Wings shrinks again in 2025 while BWW GO surges",
+          "url": "https://www.fsrmagazine.com/feature/buffalo-wild-wings-shrinks-again-in-2025-while-bww-go-surges/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee complaints and litigation over leases and thin margins",
+          "detail": "Franchise owners have publicly criticized the brand's economics - one large franchisee told Restaurant Business the chain was 'still wheezing' - and some have filed lawsuits alleging they were forced into unfavorable lease deals or that margins are too thin to continue, contributing to closures and tense franchisor-franchisee negotiations.",
+          "source": "Restaurant Business - Buffalo Wild Wings is still wheezing, franchisee says; United Business Magazine litigation summary",
+          "url": "https://www.restaurantbusinessonline.com/financing/buffalo-wild-wings-still-wheezing-franchisee-says",
+          "year": 2019
+        },
+        {
+          "severity": "info",
+          "title": "Franchisor parent has bought units back from its largest franchisee",
+          "detail": "Inspire Brands purchased 22 restaurants from Buffalo Wild Wings' largest franchisee (Diversified Restaurant Holdings), part of an ongoing rebalancing between company and franchised ownership that shapes resale demand for existing franchised units.",
+          "source": "Restaurant Business - Inspire Brands buys 22 units from Buffalo Wild Wings' largest franchisee",
+          "url": "https://www.restaurantbusinessonline.com/financing/inspire-brands-buys-22-units-buffalo-wild-wings-largest-franchisee",
+          "year": 2019
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 750000, "source": "Vetted Biz - Buffalo Wild Wings Franchise Insights", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 1000000, "source": "Vetted Biz - Buffalo Wild Wings Franchise Insights", "year": 2025, "confidence": "medium", "note": "Some directory sources cite higher net-worth requirements for multi-unit development."},
+        "totalInvestmentMin": {"value": 2440000, "source": "Buffalo Wild Wings 2025 FDD (via Vetted Biz and SHARPSHEETS analyses)", "year": 2025, "confidence": "high", "note": "Full-size sports bar; small-format BWW GO units cost substantially less (directory sources cite from ~$564K)."},
+        "totalInvestmentMax": {"value": 4830000, "source": "Buffalo Wild Wings 2025 FDD (via Vetted Biz and SHARPSHEETS analyses)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "Vetted Biz - Buffalo Wild Wings Franchise Insights (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Some FDD-derived sources cite $30,000."},
+        "royaltyPercent": {"value": 5, "source": "Buffalo Wild Wings 2025 FDD (via Vetted Biz)", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 3.25, "source": "Buffalo Wild Wings 2025 FDD (via Vetted Biz)", "year": 2025, "confidence": "high", "note": "3.25% of gross sales covering national and local advertising."},
+        "avgUnitRevenue": {"value": 3324905, "source": "Vetted Biz - Buffalo Wild Wings Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Yearly gross sales estimate per Vetted Biz FDD analysis."},
+        "totalUnits": {"value": 1178, "source": "FSR Magazine (year-end 2025 US count)", "year": 2026, "confidence": "high", "note": "US restaurants at end of 2025; 1,300+ globally including BWW GO and international."},
+        "yearFounded": {"value": 1982, "source": "Vetted Biz - Buffalo Wild Wings Franchise Insights", "year": 2025, "confidence": "high", "note": "Founded in Columbus, OH."},
+        "yearFranchising": {"value": 1991, "source": "Vetted Biz - Buffalo Wild Wings Franchise Insights", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "FSR Magazine year-end unit reporting", "year": 2026, "confidence": "high", "note": "Net -5 US units in 2025; no positive net growth since 2018. BWW GO small format is the growth vehicle."},
+        "multiUnitAvailable": {"value": true, "source": "Inspire Brands franchising site (multi-unit development deals standard)", "year": 2026, "confidence": "medium"},
+        "absenteeOwnership": {"value": false, "source": "Inspire Brands franchising requirements (experienced operators required)", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Buffalo Wild Wings brand site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz / SHARPSHEETS 2025 FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz FDD analysis (Item 19-derived AUV)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Lightbridge Academy",
+      "slug": "lightbridge-academy",
+      "category": "Education & Children",
+      "website": "lightbridgeacademy.com",
+      "notes": "New Jersey-born early-education and child-care franchise expanding along the East Coast and into the Sun Belt, with 200+ centers open or in development across 19 states. Strong mature-center revenue (~$2.4M weighted average) but a heavy seven-figure build-out and multi-year enrollment ramp. States below reflect the franchisor's published open-or-in-development footprint.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Seven-figure investment with multi-year ramp to maturity",
+          "detail": "Leased-center investment runs $1.07M-$3.12M (purchased-site projects up to ~$7.6M), and developing franchised centers average $1,885,711 revenue versus $2,393,879 for mature centers - franchisees must carry debt service and payroll through a multi-year enrollment ramp.",
+          "source": "Lightbridge Academy FDD-derived analysis (SHARPSHEETS 2025; franchisor investment guide)",
+          "url": "https://sharpsheets.io/blog/lightbridge-academy-franchise-costs-fees-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Small franchised base with a large company-owned share",
+          "detail": "The system counted roughly 62 franchised and 19 company-owned centers (about 23% corporate) in 2025 FDD-derived data - a young franchise system where corporate units operate alongside franchisees and long-run franchisee economics rest on a limited cohort.",
+          "source": "Lightbridge Academy FDD outlet data (via Vetted Biz / SHARPSHEETS analyses)",
+          "url": "https://www.vettedbiz.com/franchises/lightbridge-academy",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Child-care development depends on zoning, licensing, and real estate",
+          "detail": "The franchisor itself highlights that zoning, permitting, and site challenges are the main bottleneck in child-care development and markets pre-vetted, fast-tracked sites and second-generation spaces to mitigate them - new franchisees without such sites face 18-24+ month development timelines and state licensing hurdles.",
+          "source": "Franchising.com - Lightbridge Academy growth momentum announcement",
+          "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {"state": "AZ", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "CO", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "FL", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "GA", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "IN", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "MD", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "MI", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "MN", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "MO", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "NJ", "status": "open", "note": "Home market; multi-unit franchisees active.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "NY", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "NC", "status": "open", "note": "Multi-unit franchisees active.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "OH", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "PA", "status": "open", "note": "Multi-unit franchisees active.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "SC", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "TN", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "TX", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "VA", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026},
+        {"state": "WI", "status": "open", "note": "Centers open or in development per franchisor announcement.", "source": "Franchising.com - Lightbridge Academy growth announcement", "url": "https://www.franchising.com/news/20260123_lightbridge_academy_builds_growth_momentum_as_industry_honors_and_new_franc.html", "year": 2026}
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 1067233, "source": "Lightbridge Academy FDD Item 7 (via SHARPSHEETS / Vetted Biz analyses)", "year": 2025, "confidence": "high", "note": "Leased center; purchased-center projects run $2,548,400-$7,625,000."},
+        "totalInvestmentMax": {"value": 3120400, "source": "Lightbridge Academy FDD Item 7 (via SHARPSHEETS / Vetted Biz analyses)", "year": 2025, "confidence": "high", "note": "Leased-center high end."},
+        "franchiseFee": {"value": 40000, "source": "Lightbridge Academy FDD (via SHARPSHEETS / Vetted Biz analyses)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 7, "source": "Lightbridge Academy franchise FAQ (franchisor site)", "year": 2026, "confidence": "high", "note": "4% for the first six months of operation, then 7% of gross revenues."},
+        "adFundPercent": {"value": 2, "source": "Lightbridge Academy franchise FAQ (franchisor site)", "year": 2026, "confidence": "high", "note": "2% of gross revenues to the Brand Development Fund."},
+        "avgUnitRevenue": {"value": 2393879, "source": "Lightbridge Academy FDD Item 19 (via SHARPSHEETS analysis)", "year": 2025, "confidence": "medium", "note": "Weighted average gross revenue for MATURE franchised centers; developing franchised centers averaged $1,885,711."},
+        "totalUnits": {"value": 81, "source": "Lightbridge Academy FDD outlet data (via Vetted Biz / SHARPSHEETS analyses)", "year": 2025, "confidence": "medium", "note": "62 franchised + 19 company-owned; franchisor cites 200+ centers open or in development."},
+        "yearFounded": {"value": 1997, "source": "Lightbridge Academy corporate history (founded as Rainbow Academy, NJ)", "year": 2026, "confidence": "medium"},
+        "yearFranchising": {"value": 2011, "source": "Lightbridge Academy franchise site / FDD-derived directories", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Franchising.com growth announcement (record agreements; 200+ open or in development)", "year": 2026, "confidence": "high"},
+        "siteSelectionSupport": {"value": true, "source": "Franchising.com - Lightbridge Academy growth announcement (pre-vetted sites, zoning/permitting mitigation, pre-enrollment support)", "year": 2026, "confidence": "high"},
+        "realEstateSupport": {"value": true, "source": "Franchising.com - Lightbridge Academy growth announcement (developer partnerships and second-generation site acquisition)", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": false, "source": "Lightbridge Academy franchise FAQ (owner-engaged model; director-run centers)", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Lightbridge Academy franchisor site (child care for families)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Lightbridge Academy franchisor site (fixed child-care centers)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / Vetted Biz FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS FDD analysis (weighted average center revenue)", "year": 2025, "confidence": "high"}
+      }
+    }
+  ]
+}
