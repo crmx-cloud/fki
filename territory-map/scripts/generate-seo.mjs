@@ -16,7 +16,17 @@
 import { readFileSync, writeFileSync, mkdirSync } from "fs";
 import { join } from "path";
 
-const CONVEX_URL = process.env.VITE_CONVEX_URL || "https://spotted-retriever-435.convex.cloud";
+// Resolve the Convex URL the same way the app does: env var, then .env.local
+function resolveConvexUrl() {
+  if (process.env.VITE_CONVEX_URL) return process.env.VITE_CONVEX_URL;
+  try {
+    const env = readFileSync(join(process.cwd(), ".env.local"), "utf8");
+    const m = env.match(/^VITE_CONVEX_URL=(.+)$/m);
+    if (m) return m[1].trim();
+  } catch { /* fall through */ }
+  return "https://abundant-lion-457.convex.cloud"; // prod
+}
+const CONVEX_URL = resolveConvexUrl();
 const SITE = process.env.SITE_URL || "https://franchiseki.com";
 const DIST = join(process.cwd(), "dist");
 

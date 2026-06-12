@@ -18,6 +18,8 @@ export function PublicFooter() {
             <Link to="/quiz" className="hover:text-white transition-colors">PerfectFit</Link>
             <Link to="/explore" className="hover:text-white transition-colors">Explore</Link>
             <Link to="/for-franchisors" className="hover:text-white transition-colors">For Franchisors</Link>
+            <Link to="/privacy" className="hover:text-white transition-colors">Privacy</Link>
+            <Link to="/terms" className="hover:text-white transition-colors">Terms</Link>
             <span className="hidden md:inline text-white/10">|</span>
             <Link to="/login" className="hover:text-cyan-400 transition-colors">Franchisor Login</Link>
             <Link to="/login" className="hover:text-cyan-400 transition-colors">Admin Login</Link>

@@ -28,3 +28,4 @@ export { ClaimsAdminPage } from "./ClaimsAdminPage";
 
 export { VerifyPage } from "./VerifyPage";
 export { AdminKpiPage } from "./AdminKpiPage";
+export { PrivacyPage, TermsPage } from "./LegalPages";

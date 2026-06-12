@@ -35,6 +35,8 @@ import {
   ClaimsAdminPage,
   VerifyPage,
   AdminKpiPage,
+  PrivacyPage,
+  TermsPage,
 } from "./pages";
 
 const DossierPage = lazy(() => import("./pages/DossierPage"));
@@ -50,6 +52,8 @@ function App() {
           {/* Public consumer pages */}
           <Route path="/" element={<HomePage />} />
           <Route path="/quiz" element={<QuizPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/terms" element={<TermsPage />} />
           <Route path="/explore" element={<ExplorePage />} />
           <Route path="/brand/:slug" element={<BrandListingPage />} />
           <Route path="/for-franchisors" element={<ForFranchisorsPage />} />

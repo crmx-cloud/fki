@@ -21,7 +21,8 @@ export function VerifyPage() {
   const verifyCode = useAction(api.verificationSend.verifyCode);
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  const next = searchParams.get("next") || "/dashboard";
+  const welcome = searchParams.get("welcome") === "1";
+  const next = searchParams.get("next") || (welcome ? "/my-profile" : "/dashboard");
 
   if (status === undefined) {
     return (
@@ -43,10 +44,13 @@ export function VerifyPage() {
           <div className="w-14 h-14 rounded-2xl bg-cyan-500/15 flex items-center justify-center mx-auto mb-4">
             <ShieldCheck className="w-7 h-7 text-cyan-400" />
           </div>
-          <h1 className="text-3xl font-extrabold mb-2">Verify Your Contact Info</h1>
+          <h1 className="text-3xl font-extrabold mb-2">
+            {welcome ? "One Last Step — Verify Your Account" : "Verify Your Contact Info"}
+          </h1>
           <p className="text-slate-400">
-            A verified email and phone unlocks your full due diligence toolkit — dossier, favorites,
-            and side-by-side comparisons.
+            {welcome
+              ? "We just emailed you a 6-digit code. Email verification is required to see your matches — verifying your phone too unlocks your full due-diligence toolkit."
+              : "A verified email and phone unlocks your full due diligence toolkit — dossier, favorites, and side-by-side comparisons."}
           </p>
         </Reveal>
 
@@ -72,17 +76,19 @@ export function VerifyPage() {
           />
         </div>
 
-        {status.fullyVerified && (
+        {(status.fullyVerified || (welcome && status.emailVerified)) && (
           <Reveal className="mt-8 text-center">
             <div className="inline-flex items-center gap-2 text-emerald-400 font-semibold mb-4">
-              <CheckCircle2 className="w-5 h-5" /> You're fully verified
+              <CheckCircle2 className="w-5 h-5" />
+              {status.fullyVerified ? "You're fully verified" : "Email verified — you're in"}
             </div>
             <div>
               <Button
                 className="bg-cyan-600 hover:bg-cyan-500 text-white"
                 onClick={() => navigate(next)}
               >
-                Continue <ArrowRight className="w-4 h-4 ml-1.5" />
+                {welcome ? "Continue — build my profile" : "Continue"}
+                <ArrowRight className="w-4 h-4 ml-1.5" />
               </Button>
             </div>
           </Reveal>

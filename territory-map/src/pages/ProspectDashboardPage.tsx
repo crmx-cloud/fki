@@ -4,7 +4,7 @@ import { useUnlocked } from "@/hooks/useUnlocked";
 import { useQuery } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import type { Id } from "../../convex/_generated/dataModel";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import {
   Sparkles,
   MapPin,
@@ -67,6 +67,7 @@ export function ProspectDashboardPage() {
   const prospectProfile = useQuery(api.prospect.getMyProspectProfile);
   const savedIds = useQuery(api.savedItems.getMySavedBrandIds);
   const profileComplete = prospectProfile?.profileComplete;
+  const verifyStatus = useQuery(api.verification.myStatus);
 
   // 1-click inquiry dialog state
   const [inquiryBrand, setInquiryBrand] = useState<{
@@ -75,8 +76,19 @@ export function ProspectDashboardPage() {
     slug: string;
   } | null>(null);
 
+  // Double opt-in: matches require a verified email (phone strongly
+  // encouraged on the same screen). Waits for status to load first.
+  if (verifyStatus && !verifyStatus.emailVerified) {
+    return <Navigate to="/verify?welcome=1" replace />;
+  }
+
   return (
     <div className="max-w-5xl mx-auto space-y-8">
+      <GettingStartedChecklist
+        verifyStatus={verifyStatus}
+        prospectProfile={prospectProfile}
+        savedCount={savedIds?.length ?? 0}
+      />
       {/* Header */}
       <div>
         <h1 className="text-2xl font-bold tracking-tight flex items-center gap-2">
@@ -513,6 +525,111 @@ function VerifyBanner() {
           Verify now
         </Button>
       </Link>
+    </div>
+  );
+}
+
+
+/* ── Getting Started: the clean path (verify → profile → enhance →
+      find/save → compare → dossier → consultant). Dismissable; hides
+      itself once every step is done. ── */
+function GettingStartedChecklist({ verifyStatus, prospectProfile, savedCount }: {
+  verifyStatus: any;
+  prospectProfile: any;
+  savedCount: number;
+}) {
+  const [dismissed, setDismissed] = useState(() => {
+    try { return localStorage.getItem("fki-getting-started-dismissed") === "1"; } catch { return false; }
+  });
+  if (dismissed || !prospectProfile) return null;
+
+  const steps: { label: string; done: boolean; to: string; hint: string }[] = [
+    {
+      label: "Verify your account",
+      done: !!verifyStatus?.emailVerified && !!verifyStatus?.phoneVerified,
+      to: "/verify",
+      hint: verifyStatus?.emailVerified ? "Add phone verification to unlock everything" : "Email + phone",
+    },
+    {
+      label: "Complete your profile basics",
+      done: !!prospectProfile?.profileComplete,
+      to: "/my-profile",
+      hint: "Capital, territory, categories, timeline",
+    },
+    {
+      label: "Answer the enhancement questions",
+      done: !!prospectProfile?.enhancedProfileComplete,
+      to: "/my-profile",
+      hint: "Dial in exactly what you want — sharper matches",
+    },
+    {
+      label: "Find & save brands you like",
+      done: savedCount > 0,
+      to: "/explore",
+      hint: "Browse 300+ verified brands",
+    },
+    {
+      label: "Compare brands side-by-side",
+      done: savedCount >= 2,
+      to: "/saved?compare=1",
+      hint: "Save 2+ brands, then compare",
+    },
+    {
+      label: "Get your Due Diligence Report",
+      done: false,
+      to: "/dossier",
+      hint: "Your free deep-dive on your top matches",
+    },
+    {
+      label: "Talk to a vetted consultant (optional)",
+      done: false,
+      to: "/dashboard",
+      hint: "Request an intro from any match below — free for you",
+    },
+  ];
+  const doneCount = steps.filter((s) => s.done).length;
+  if (doneCount >= steps.length - 1) return null; // last 2 steps have no tracked "done"
+
+  return (
+    <div className="bg-gradient-to-r from-cyan-500/10 to-blue-500/10 border border-cyan-400/30 rounded-xl p-5">
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="font-bold flex items-center gap-2">
+          <Sparkles className="w-4 h-4 text-cyan-400" />
+          Getting Started — your path to the right franchise
+        </h2>
+        <button
+          className="text-xs text-muted-foreground hover:text-foreground"
+          onClick={() => {
+            setDismissed(true);
+            try { localStorage.setItem("fki-getting-started-dismissed", "1"); } catch { /* ignore */ }
+          }}
+        >
+          Dismiss
+        </button>
+      </div>
+      <div className="grid sm:grid-cols-2 gap-2">
+        {steps.map((s, i) => (
+          <Link
+            key={s.label}
+            to={s.to}
+            className={`flex items-start gap-2.5 rounded-lg px-3 py-2 transition-colors ${
+              s.done ? "opacity-60" : "hover:bg-white/5"
+            }`}
+          >
+            <span
+              className={`mt-0.5 w-5 h-5 shrink-0 rounded-full flex items-center justify-center text-[11px] font-bold ${
+                s.done ? "bg-emerald-500/20 text-emerald-400" : "bg-cyan-500/15 text-cyan-300 border border-cyan-400/40"
+              }`}
+            >
+              {s.done ? "✓" : i + 1}
+            </span>
+            <span className="min-w-0">
+              <span className={`block text-sm font-medium ${s.done ? "line-through" : ""}`}>{s.label}</span>
+              <span className="block text-[11px] text-muted-foreground">{s.hint}</span>
+            </span>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 }

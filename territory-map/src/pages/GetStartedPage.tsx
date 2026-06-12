@@ -301,18 +301,14 @@ export function GetStartedPage() {
               Thanks, <strong className="text-white">{firstName}</strong>! Your account is set up and your franchise profile is ready.
             </p>
             <p className="text-slate-500 text-sm mb-8">
-              Our AI is already matching you with franchise opportunities based on your preferences.
+              One last step: we just emailed you a 6-digit verification code. Verify your account to
+              unlock your PerfectFit matches.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link to="/dashboard">
+              <Link to="/verify?welcome=1">
                 <Button className="bg-cyan-600 hover:bg-cyan-500 text-white">
                   <Sparkles className="w-4 h-4 mr-1.5" />
-                  See My Matches
-                </Button>
-              </Link>
-              <Link to="/explore">
-                <Button variant="outline" className="border-white/20 text-white hover:bg-white/10">
-                  Explore Brands
+                  Verify My Account
                 </Button>
               </Link>
             </div>
@@ -698,6 +694,12 @@ export function GetStartedPage() {
                 )}
               </Button>
             </div>
+            <p className="text-[11px] text-slate-500 text-center mt-3">
+              By creating an account you agree to our{" "}
+              <Link to="/terms" className="text-slate-400 underline underline-offset-2">Terms of Use</Link> and{" "}
+              <Link to="/privacy" className="text-slate-400 underline underline-offset-2">Privacy Policy</Link>, and
+              consent to receive a verification email and, if you add a phone number, a verification text.
+            </p>
           </Reveal>
         )}
 

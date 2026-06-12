@@ -760,7 +760,66 @@ export const deleteAccount = mutation({
       await ctx.db.delete(session._id);
     }
 
+    // Cascade personal data — Settings promises "permanently delete your
+    // account" and the privacy policy backs it. (CRM lead records persist
+    // as business records of consultant introductions already made.)
+    await purgePersonalData(ctx, userId);
+
     await ctx.db.delete(userId);
     return { success: true };
+  },
+});
+
+async function purgePersonalData(ctx: any, userId: any) {
+  const up = await ctx.db
+    .query("userProfiles")
+    .withIndex("by_user", (q: any) => q.eq("userId", userId))
+    .first();
+  if (up) await ctx.db.delete(up._id);
+  for (const p of await ctx.db
+    .query("prospectProfiles")
+    .withIndex("by_user", (q: any) => q.eq("userId", userId))
+    .collect())
+    await ctx.db.delete(p._id);
+  for (const s of await ctx.db
+    .query("savedItems")
+    .withIndex("by_user", (q: any) => q.eq("userId", userId))
+    .collect())
+    await ctx.db.delete(s._id);
+  for (const kind of ["email", "phone"]) {
+    for (const c of await ctx.db
+      .query("verificationCodes")
+      .withIndex("by_user_kind", (q: any) => q.eq("userId", userId).eq("kind", kind))
+      .collect())
+      await ctx.db.delete(c._id);
+  }
+  for (const e of await ctx.db
+    .query("activityEvents")
+    .withIndex("by_user", (q: any) => q.eq("userId", userId))
+    .collect())
+    await ctx.db.delete(e._id);
+}
+
+/** Ops cleanup: purge a deleted/test user's leftover rows by email. */
+export const purgeUserDataByEmail = internalMutation({
+  args: { email: v.string() },
+  handler: async (ctx, { email }) => {
+    const e = email.toLowerCase();
+    let removed = 0;
+    for (const p of await ctx.db.query("prospectProfiles").collect()) {
+      if (p.email?.toLowerCase() === e) {
+        if (p.userId) await purgePersonalData(ctx, p.userId);
+        const again = await ctx.db.get(p._id);
+        if (again) await ctx.db.delete(p._id);
+        removed++;
+      }
+    }
+    for (const ev of await ctx.db.query("activityEvents").collect()) {
+      if (ev.email?.toLowerCase() === e) {
+        await ctx.db.delete(ev._id);
+        removed++;
+      }
+    }
+    return { removed };
   },
 });
