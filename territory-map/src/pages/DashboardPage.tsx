@@ -31,13 +31,6 @@ export function DashboardPage() {
   const totalTerritories = territories?.length || 0;
   const totalBrands = brands?.length || 0;
 
-  const brandStats = brands?.map((brand) => {
-    const bt = territories?.filter((t) => t.brandId === brand._id) || [];
-    const counts: Record<string, number> = {};
-    bt.forEach((t) => { counts[t.status] = (counts[t.status] || 0) + 1; });
-    return { brand, counts, total: bt.length };
-  });
-
   const overallCounts: Record<string, number> = {};
   territories?.forEach((t) => { overallCounts[t.status] = (overallCounts[t.status] || 0) + 1; });
 
@@ -84,61 +77,6 @@ export function DashboardPage() {
               <div className="w-2 h-2 rounded-full" style={{ backgroundColor: cfg.color }} />
               <span className="text-xs text-muted-foreground">{cfg.label}</span>
               <span className="text-xs font-semibold">{overallCounts[status] || 0}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Brand cards */}
-      <div>
-        <h2 className="text-sm font-semibold mb-4 text-muted-foreground uppercase tracking-wider">Brands</h2>
-        <div className="grid md:grid-cols-3 gap-4">
-          {brandStats?.map(({ brand, counts, total }) => (
-            <div key={brand._id} className="bg-card border rounded-2xl p-5 hover:border-foreground/10 transition-colors">
-              <div className="flex items-start justify-between mb-4">
-                <div className="flex items-center gap-3">
-                  <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ backgroundColor: `${brand.color || "#64748b"}15` }}>
-                    <Building2 className="w-4.5 h-4.5" style={{ color: brand.color || "#64748b" }} />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-sm">{brand.name}</h3>
-                    <p className="text-[11px] text-muted-foreground">{brand.category}</p>
-                  </div>
-                </div>
-                <span className="text-lg font-bold text-muted-foreground">{total}</span>
-              </div>
-
-              {/* Mini status bars */}
-              <div className="space-y-1.5 mb-4">
-                {Object.entries(STATUS_CONFIG).map(([status, cfg]) => {
-                  const count = counts[status] || 0;
-                  const pct = total > 0 ? (count / total) * 100 : 0;
-                  return (
-                    <div key={status} className="flex items-center gap-2">
-                      <span className="text-[11px] text-muted-foreground w-20 truncate">{cfg.label}</span>
-                      <div className="flex-1 h-1.5 rounded-full bg-muted/30 overflow-hidden">
-                        <div className="h-full rounded-full transition-all" style={{ backgroundColor: cfg.color, width: `${pct}%` }} />
-                      </div>
-                      <span className="text-[11px] font-semibold w-5 text-right">{count}</span>
-                    </div>
-                  );
-                })}
-              </div>
-
-              <div className="flex gap-2">
-                <Link
-                  to={`/map/${brand.slug}`}
-                  className="flex-1 text-center text-xs px-3 py-2 rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-colors font-medium"
-                >
-                  Map
-                </Link>
-                <Link
-                  to="/territories"
-                  className="flex-1 text-center text-xs px-3 py-2 rounded-lg bg-muted text-muted-foreground hover:bg-muted/80 transition-colors font-medium"
-                >
-                  Manage
-                </Link>
-              </div>
             </div>
           ))}
         </div>

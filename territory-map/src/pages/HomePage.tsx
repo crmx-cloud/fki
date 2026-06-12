@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { PublicNav } from "@/components/PublicNav";
 import { PublicFooter } from "@/components/PublicFooter";
+import { SocialProofToasts } from "@/components/SocialProofToasts";
 import { Reveal } from "@/components/Reveal";
 import { CountUp } from "@/components/CountUp";
 import { AvailabilityLine } from "@/components/AvailabilityLine";
@@ -515,6 +516,7 @@ export function HomePage() {
       </section>
 
       <PublicFooter />
+      <SocialProofToasts />
     </div>
   );
 }

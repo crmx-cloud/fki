@@ -5,6 +5,7 @@ import { Link, useSearchParams } from "react-router-dom";
 import { useState } from "react";
 import { PublicNav } from "@/components/PublicNav";
 import { PublicFooter } from "@/components/PublicFooter";
+import { SocialProofToasts } from "@/components/SocialProofToasts";
 import { Reveal } from "@/components/Reveal";
 import { CountUp } from "@/components/CountUp";
 import { AvailabilityLine } from "@/components/AvailabilityLine";
@@ -334,6 +335,7 @@ export function ExplorePage() {
       </div>
 
       <PublicFooter />
+      <SocialProofToasts />
     </div>
   );
 }

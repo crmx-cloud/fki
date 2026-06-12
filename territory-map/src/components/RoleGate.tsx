@@ -4,12 +4,14 @@ import { Navigate } from "react-router-dom";
 import { DashboardPage } from "@/pages/DashboardPage";
 import { ProspectDashboardPage } from "@/pages/ProspectDashboardPage";
 import { FranchiseDashboardPage } from "@/pages/FranchiseDashboardPage";
+import { AdminKpiPage } from "@/pages/AdminKpiPage";
 
 /**
  * Shows the right dashboard based on user role:
  * - prospect -> ProspectDashboardPage (AI matches)
  * - franchisor -> FranchiseDashboardPage (brand management + onboarding)
- * - super_admin/admin/standard/brand_admin -> DashboardPage (territory overview)
+ * - admin/super_admin -> AdminKpiPage (company reporting — KPIs, not brand cards)
+ * - standard/closer/setter/brand_admin -> DashboardPage (territory overview)
  */
 export function RoleDashboard() {
   const myProfile = useQuery(api.users.getMyProfile);
@@ -35,6 +37,12 @@ export function RoleDashboard() {
   // Brokers have no dashboard — their workspace is their assigned leads.
   if (role === "broker") {
     return <Navigate to="/crm" replace />;
+  }
+
+  // Admins land on the reporting dashboard — the brand/territory cards live
+  // under /brands and /territories already.
+  if (role === "admin" || role === "super_admin") {
+    return <AdminKpiPage />;
   }
 
   return <DashboardPage />;
