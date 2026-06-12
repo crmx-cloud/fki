@@ -621,6 +621,59 @@ function SpendManager() {
   );
 }
 
+// ── Profile typeahead: search by name, email, or phone ─────────────────
+function ProfileSearchCombobox({ value, onSelect }: {
+  value: string;
+  onSelect: (email: string) => void;
+}) {
+  const [q, setQ] = useState("");
+  const [focused, setFocused] = useState(false);
+  const results = useQuery(api.adminMetrics.searchProfiles, q.trim().length >= 2 ? { q } : "skip");
+  const open = focused && q.trim().length >= 2;
+  return (
+    <div className="relative col-span-2">
+      <Input
+        placeholder="Search profile by name, email, or phone…"
+        value={value || q}
+        onChange={(e) => {
+          setQ(e.target.value);
+          if (value) onSelect(""); // typing again clears the locked-in selection
+        }}
+        onFocus={() => setFocused(true)}
+        onBlur={() => setTimeout(() => setFocused(false), 150)}
+      />
+      {open && (
+        <div className="absolute left-0 right-0 top-full mt-1 z-40 bg-card border border-border rounded-lg shadow-2xl overflow-hidden">
+          {(results ?? []).map((r: any) => (
+            <button
+              key={r.email}
+              type="button"
+              className="w-full text-left px-3 py-2 hover:bg-white/5 transition-colors"
+              onMouseDown={(e) => {
+                e.preventDefault();
+                onSelect(r.email);
+                setQ("");
+                setFocused(false);
+              }}
+            >
+              <div className="text-xs font-semibold">{r.name ?? r.email}</div>
+              <div className="text-[11px] text-muted-foreground">
+                {[r.email, r.phone, r.location].filter(Boolean).join(" · ")}
+              </div>
+            </button>
+          ))}
+          {results && results.length === 0 && (
+            <div className="px-3 py-2 text-[11px] text-muted-foreground">No matching profiles</div>
+          )}
+          {results === undefined && (
+            <div className="px-3 py-2 text-[11px] text-muted-foreground">Searching…</div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
 // ── Revenue attribution manager ─────────────────────────────────────────
 function RevenueManager() {
   const [open, setOpen] = useState(false);
@@ -640,7 +693,10 @@ function RevenueManager() {
         <div className="absolute right-0 top-9 z-30 w-[440px] bg-card border border-border rounded-xl p-4 shadow-2xl space-y-3">
           <div className="text-xs font-semibold">Attribute revenue to a profile</div>
           <div className="grid grid-cols-2 gap-2">
-            <Input placeholder="Profile email" value={form.profileEmail} onChange={(e) => setForm({ ...form, profileEmail: e.target.value })} />
+            <ProfileSearchCombobox
+              value={form.profileEmail}
+              onSelect={(email) => setForm({ ...form, profileEmail: email })}
+            />
             <Input type="number" placeholder="Amount ($)" value={form.amount} onChange={(e) => setForm({ ...form, amount: e.target.value })} />
             <Input type="date" value={form.revenueDate} onChange={(e) => setForm({ ...form, revenueDate: e.target.value })} />
             <Input placeholder="Source (optional)" value={form.source} onChange={(e) => setForm({ ...form, source: e.target.value })} />

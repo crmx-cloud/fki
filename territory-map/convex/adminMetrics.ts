@@ -552,6 +552,52 @@ export const removeSpend = mutation({
   },
 });
 
+// ── Profile typeahead (revenue attribution form) ───────────────────────
+// Matches first name, last name, email, or phone — substring, case-insensitive.
+async function searchProfilesCore(ctx: any, q: string) {
+  const needle = q.trim().toLowerCase();
+    if (needle.length < 2) return [];
+    const digits = needle.replace(/\D/g, "");
+    const prospects = await ctx.db.query("prospectProfiles").collect();
+    const seen = new Set<string>(); // dedupe — multiple profile rows can share an email
+    return prospects
+      .filter((p: any) => {
+        if (p.email && seen.has(p.email.toLowerCase())) return false;
+        if (p.email) seen.add(p.email.toLowerCase());
+        return true;
+      })
+      .filter((p: any) => {
+        if (!p.email) return false; // email is the attribution join key
+        const hay = [p.firstName, p.lastName, `${p.firstName ?? ""} ${p.lastName ?? ""}`, p.email]
+          .filter(Boolean)
+          .map((s: string) => s.toLowerCase());
+        if (hay.some((s: string) => s.includes(needle))) return true;
+        const phoneDigits = (p.phone ?? "").replace(/\D/g, "");
+        return digits.length >= 3 && phoneDigits.includes(digits);
+      })
+      .slice(0, 8)
+      .map((p: any) => ({
+        email: p.email,
+        name: [p.firstName, p.lastName].filter(Boolean).join(" ") || null,
+        phone: p.phone ?? null,
+        location: p.primaryCity && p.primaryState ? `${p.primaryCity}, ${p.primaryState}` : p.primaryState ?? null,
+      }));
+}
+
+export const searchProfiles = query({
+  args: { q: v.string() },
+  handler: async (ctx, { q }) => {
+    await requireAdmin(ctx);
+    return await searchProfilesCore(ctx, q);
+  },
+});
+
+/** QA wrapper — `npx convex run adminMetrics:searchProfilesDebug '{"q":"..."}'` */
+export const searchProfilesDebug = internalQuery({
+  args: { q: v.string() },
+  handler: async (ctx, { q }) => searchProfilesCore(ctx, q),
+});
+
 // ── Revenue attribution CRUD (manual now; GHL tag/stage sync later) ────
 export const listRevenue = query({
   args: {},
