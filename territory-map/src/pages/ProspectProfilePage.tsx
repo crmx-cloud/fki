@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/select";
 import { Input } from "@/components/ui/input";
 import { getAttribution } from "@/lib/attribution";
+import { formatPhoneDashes } from "@/lib/phone";
 import { useSearchParams } from "react-router-dom";
 import { SpotlightTour, type TourStep } from "@/components/SpotlightTour";
 import { toast } from "sonner";
@@ -93,6 +94,7 @@ const US_STATES = [
 
 export function ProspectProfilePage() {
   const profile = useQuery(api.prospect.getMyProspectProfile);
+  const authUser = useQuery(api.auth.currentUser);
   const saveProfile = useMutation(api.prospect.saveProfile);
   const [saving, setSaving] = useState(false);
 
@@ -162,7 +164,7 @@ export function ProspectProfilePage() {
       // Contact
       setFirstName((profile as any).firstName || "");
       setLastName((profile as any).lastName || "");
-      setPhone((profile as any).phone || "");
+      setPhone(formatPhoneDashes((profile as any).phone || ""));
       setContactAddress((profile as any).address || "");
       setContactCity((profile as any).city || "");
       setContactState((profile as any).state || "");
@@ -441,12 +443,12 @@ export function ProspectProfilePage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <Label className="text-sm font-medium">Email</Label>
-            <Input placeholder="Email address" value={profile?.email || ""} disabled className="mt-1.5 opacity-60" />
+            <Input placeholder="Email address" value={profile?.email || (authUser as any)?.email || ""} disabled className="mt-1.5 opacity-60" />
             <p className="text-xs text-muted-foreground mt-1">Email is tied to your account and cannot be changed here.</p>
           </div>
           <div>
             <Label className="text-sm font-medium">Phone</Label>
-            <Input className="mt-1.5" placeholder="(555) 123-4567" value={phone} onChange={(e) => setPhone(e.target.value)} />
+            <Input className="mt-1.5" type="tel" inputMode="numeric" placeholder="555-123-4567" value={phone} onChange={(e) => setPhone(formatPhoneDashes(e.target.value))} />
           </div>
         </div>
 

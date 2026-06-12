@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
 import { Mail, Phone, ShieldCheck, CheckCircle2, ArrowRight } from "lucide-react";
+import { formatPhoneDashes } from "@/lib/phone";
 
 /**
  * Email + phone verification — codes are sent from our CRMX system.
@@ -182,7 +183,7 @@ function VerifyCard({
             className="mt-1.5 max-w-xs"
             placeholder="(555) 123-4567"
             value={phoneInput}
-            onChange={(e) => setPhoneInput(e.target.value)}
+            onChange={(e) => setPhoneInput(formatPhoneDashes(e.target.value))}
           />
         </div>
       )}
