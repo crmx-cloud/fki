@@ -1,4 +1,6 @@
-import { internalAction } from "./_generated/server";
+import { internalAction, action, internalQuery, internalMutation } from "./_generated/server";
+import { internal } from "./_generated/api";
+import { getAuthUserId } from "@convex-dev/auth/server";
 import { v } from "convex/values";
 
 /**
@@ -96,5 +98,147 @@ export const pushToGHL = internalAction({
       console.error("[chatMirror] error", e);
       return { mirrored: false, reason: "exception" };
     }
+  },
+});
+
+/* ────────────────────────────────────────────────────────────
+ * Reverse direction: pull team replies typed in the CRMX inbox
+ * into the site chat thread.
+ *
+ * Rules (v1): only HUMAN-looking outbound SMS/WhatsApp replies are
+ * ingested — emails and automated sends (verification codes, campaigns)
+ * are excluded so marketing noise never pollutes the chat. Deduped by
+ * GHL message id; ingestion inserts directly (never re-mirrors → no loop).
+ * Triggered by the Messages page while it's open (initial + 45s poll).
+ * ──────────────────────────────────────────────────────────── */
+
+export const pullFromGHL = action({
+  args: { prospectUserId: v.optional(v.id("users")) },
+  handler: async (ctx, args): Promise<{ ingested: number }> => {
+    const userId = await getAuthUserId(ctx);
+    if (!userId) return { ingested: 0 };
+    const access: { threadKey: string; email: string } | null = await ctx.runQuery(
+      internal.chatMirror.resolveThread,
+      { callerId: userId, prospectUserId: args.prospectUserId }
+    );
+    if (!access) return { ingested: 0 };
+
+    const token = process.env.GHL_PIT_TOKEN;
+    const locationId = process.env.GHL_LOCATION_ID;
+    if (!token || !locationId) return { ingested: 0 };
+    const headers = { Authorization: `Bearer ${token}`, Version: "2021-07-28" };
+
+    try {
+      // contact → conversation → recent messages
+      const cRes = await fetch(
+        `${GHL}/contacts/?locationId=${locationId}&query=${encodeURIComponent(access.email)}`,
+        { headers }
+      );
+      const cData = (await cRes.json().catch(() => ({}))) as any;
+      const contact = (cData?.contacts ?? []).find(
+        (c: any) => c.email?.toLowerCase() === access.email.toLowerCase()
+      );
+      if (!contact?.id) return { ingested: 0 };
+      const sRes = await fetch(
+        `${GHL}/conversations/search?locationId=${locationId}&contactId=${contact.id}`,
+        { headers }
+      );
+      const sData = (await sRes.json().catch(() => ({}))) as any;
+      const conv = (sData?.conversations ?? [])[0];
+      if (!conv?.id) return { ingested: 0 };
+      const mRes = await fetch(`${GHL}/conversations/${conv.id}/messages?limit=50`, { headers });
+      const mData = (await mRes.json().catch(() => ({}))) as any;
+      const msgs: any[] = mData?.messages?.messages ?? [];
+
+      const cutoff = Date.now() - 7 * 24 * 3600_000;
+      const candidates = msgs
+        .filter((m) => m.direction === "outbound")
+        .filter((m) => ["TYPE_SMS", "TYPE_WHATSAPP"].includes(m.messageType))
+        .filter((m) => m.body && !/verification code/i.test(m.body))
+        .filter((m) => new Date(m.dateAdded).getTime() > cutoff)
+        .map((m) => ({
+          ghlMessageId: String(m.id),
+          body: String(m.body).slice(0, 2000),
+          ts: new Date(m.dateAdded).getTime(),
+        }));
+      if (!candidates.length) return { ingested: 0 };
+
+      const ingested: number = await ctx.runMutation(internal.chatMirror.ingestReplies, {
+        prospectUserId: access.threadKey as any,
+        replies: candidates,
+      });
+      return { ingested };
+    } catch (e) {
+      console.error("[chatMirror] pull error", e);
+      return { ingested: 0 };
+    }
+  },
+});
+
+/** Access resolution for pullFromGHL (mirrors chat.ts thread rules). */
+export const resolveThread = internalQuery({
+  args: { callerId: v.id("users"), prospectUserId: v.optional(v.id("users")) },
+  handler: async (ctx, args) => {
+    const profile = await ctx.db
+      .query("userProfiles")
+      .withIndex("by_user", (q) => q.eq("userId", args.callerId))
+      .first();
+    const role = profile?.role ?? "prospect";
+    let threadKey = args.callerId;
+    if (["broker", "admin", "super_admin"].includes(role)) {
+      if (!args.prospectUserId) return null;
+      threadKey = args.prospectUserId;
+      if (role === "broker") {
+        const prospectUser = await ctx.db.get(threadKey);
+        const email = (prospectUser as any)?.email?.toLowerCase();
+        if (!email) return null;
+        const leads = await ctx.db.query("crmLeads").collect();
+        const ok = leads.some(
+          (l: any) =>
+            !l.deletedAt && l.email?.toLowerCase() === email && String(l.salesRepId) === String(args.callerId)
+        );
+        if (!ok) return null;
+      }
+    } else if (args.prospectUserId && String(args.prospectUserId) !== String(args.callerId)) {
+      return null;
+    }
+    const user = await ctx.db.get(threadKey);
+    const email = (user as any)?.email;
+    if (!email) return null;
+    return { threadKey: String(threadKey), email };
+  },
+});
+
+/** Insert pulled replies (deduped by ghlMessageId); no re-mirroring. */
+export const ingestReplies = internalMutation({
+  args: {
+    prospectUserId: v.id("users"),
+    replies: v.array(
+      v.object({ ghlMessageId: v.string(), body: v.string(), ts: v.number() })
+    ),
+  },
+  handler: async (ctx, args) => {
+    const existing = await ctx.db
+      .query("chatMessages")
+      .withIndex("by_prospect", (q) => q.eq("prospectUserId", args.prospectUserId))
+      .collect();
+    const seen = new Set(existing.map((m: any) => m.ghlMessageId).filter(Boolean));
+    let n = 0;
+    for (const r of args.replies) {
+      if (seen.has(r.ghlMessageId)) continue;
+      await ctx.db.insert("chatMessages", {
+        prospectUserId: args.prospectUserId,
+        senderId: args.prospectUserId, // no site account for the CRMX sender; thread owner as placeholder
+        senderRole: "admin",
+        senderName: "FranchiseKI team · via text",
+        body: r.body,
+        ts: r.ts,
+        readByProspect: false,
+        readByTeam: true,
+        ghlMessageId: r.ghlMessageId,
+      });
+      n++;
+    }
+    return n;
   },
 });

@@ -871,6 +871,7 @@ const schema = defineSchema({
     ts: v.number(),
     readByProspect: v.optional(v.boolean()),
     readByTeam: v.optional(v.boolean()),
+    ghlMessageId: v.optional(v.string()),   // set when ingested from CRMX (dedupe key)
   }).index("by_prospect", ["prospectUserId", "ts"]),
 
   // Typing presence: one row per thread side, heartbeat-refreshed while the
