@@ -81,9 +81,8 @@ export const pushToGHL = internalAction({
       const message =
         args.senderRole === "prospect"
           ? args.body
-          : `↩ ${args.senderName ?? "FranchiseKI team"}${
-              args.senderRole === "consultant" ? " (consultant" : " (team"
-            }, replied on site): ${args.body}`;
+          : `🟦 ━━ FKI ${args.senderRole === "consultant" ? "CONSULTANT" : "TEAM"} REPLY (sent on site, not from contact) ━━
+${args.senderName ?? "FranchiseKI team"}: ${args.body}`;
       const res = await fetch(`${GHL}/conversations/messages/inbound`, {
         method: "POST",
         headers,
