@@ -85,8 +85,13 @@ export const pushLeadToCRMX = internalAction({
     brandName: v.optional(v.string()),
     territory: v.optional(v.string()),
     liquidCapital: v.optional(v.string()),
-    leadKind: v.string(), // "brand_inquiry" | "prospect_signup" | "claim_request"
+    leadKind: v.string(), // "brand_inquiry" | "prospect_signup" | "claim_request" | "brand_showcase"
     notes: v.optional(v.string()),
+    // Skip the default website-lead tags (for non-prospect leads like
+    // franchisor showcase inquiries that must not enter prospect segments)
+    skipDefaultTags: v.optional(v.boolean()),
+    extraTags: v.optional(v.array(v.string())),
+    sourceOverride: v.optional(v.string()),
   },
   handler: async (_ctx, args) => {
     const token = process.env.GHL_PIT_TOKEN;
@@ -99,21 +104,24 @@ export const pushLeadToCRMX = internalAction({
       return { synced: false, reason: "credentials_missing" };
     }
 
-    const tags = [
-      "fki-website-lead",
-      "franchiseki-user-created",
-      `fki-${args.leadKind.replace(/_/g, "-")}`,
-    ];
+    const tags = args.skipDefaultTags
+      ? [`fki-${args.leadKind.replace(/_/g, "-")}`]
+      : [
+          "fki-website-lead",
+          "franchiseki-user-created",
+          `fki-${args.leadKind.replace(/_/g, "-")}`,
+        ];
     if (args.brandName) {
       tags.push(`fki-brand-${args.brandName.toLowerCase().replace(/[^a-z0-9]+/g, "-").slice(0, 40)}`);
     }
+    if (args.extraTags) tags.push(...args.extraTags);
 
     const body: Record<string, unknown> = {
       locationId,
       firstName: args.firstName,
       lastName: args.lastName ?? "",
       tags,
-      source: "FranchiseKI Website",
+      source: args.sourceOverride ?? "FranchiseKI Website",
     };
     if (args.email) body.email = args.email;
     if (args.phone) body.phone = args.phone;

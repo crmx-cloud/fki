@@ -27,13 +27,34 @@ Redeploy: `npx vercel deploy --prod --yes` from the brand-showcase folder.
 - ✅ Form wiring — serverless relay built (see below); Brent builds the CRMX
   workflow himself.
 
+## Wiring status (2026-06-12)
+
+- Domain **brandshowcase.franchiseki.com** added to the Vercel project (supersedes
+  earlier showcase.franchiseki.com choice). Needs ONE Cloudflare record (nameservers
+  are Cloudflare, NOT GHL as older notes said): `A brandshowcase → 76.76.21.21`,
+  DNS-only/grey cloud recommended.
+- Relay updated: primary tag `franchiseki brand showcase requested` + interest tag;
+  brand details go to contact note (avoids GHL 422 on unknown custom-field keys).
+- ✅ **Convex wiring DONE (2026-06-12, E2E verified):** the relay now forwards to
+  the platform's Convex HTTP endpoint
+  `https://abundant-lion-457.convex.site/api/brand-showcase-inquiry`
+  (`CONVEX_INQUIRY_URL` + `CONVEX_INQUIRY_SECRET` set on this Vercel project;
+  secret = `BRAND_SHOWCASE_SECRET` on the Convex prod deployment). Inquiries land
+  in the platform `brandShowcaseInquiries` table (auto-matched to a `brands` row
+  when the name matches) AND are pushed to CRMX via `pushLeadToCRMX`
+  (tags: `franchiseki brand showcase requested` + interest tag; source
+  "FranchiseKI Brand Showcase"; prospect website-lead tags deliberately skipped).
+  No GHL creds in this project's Vercel env — the earlier authorization blocker
+  is moot. Direct-CRMX paths (`CRMX_WEBHOOK_URL`/`CRMX_API_KEY`) remain as
+  fallback only.
+
 ## Remaining blockers
 
 1. **Lawyer sign-off** on privacy.html, terms.html, and the form consent line.
-2. **CRMX inbound-webhook URL** from Brent's workflow → set as `CRMX_WEBHOOK_URL`
-   env var on the Vercel project (steps below).
-3. **Vercel project + DNS** — create project from this folder (Leo's seat or Brent);
-   add `showcase` CNAME in the GHL DNS dashboard (Bennett gate).
+2. ~~CRMX inbound-webhook URL~~ — superseded by the Convex wiring above
+   (`CRMX_WEBHOOK_URL` now optional fallback only).
+3. **DNS only** — Vercel project exists and is live; remaining: ONE Cloudflare
+   record `A brandshowcase → 76.76.21.21` (see Wiring status above).
 4. **Verified platform stats** — 190 / 462 / 404 wired in but HIDDEN per
    anti-hallucination rule; set `data-stats="verified"` on `#proof-grid` to show.
 5. **Featured placement + broker-led pricing/eligibility** — optional; page handles

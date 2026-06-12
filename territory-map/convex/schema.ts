@@ -515,6 +515,27 @@ const schema = defineSchema({
     .index("by_status", ["status"])
     .index("by_email", ["contactEmail"]),
 
+  // Franchisor inquiries from the Brand Showcase landing page
+  // (separate Vercel project, brandshowcase.franchiseki.com). Stored here so
+  // the brand's platform profile can later be enriched/claimed from the inquiry.
+  brandShowcaseInquiries: defineTable({
+    firstName: v.string(),
+    lastName: v.string(),
+    email: v.string(),
+    phone: v.string(),
+    brandName: v.string(),
+    role: v.string(),             // submitter's role/title at the brand
+    category: v.string(),
+    territories: v.string(),      // open/target territories, free text
+    primaryInterest: v.string(),  // human-readable interest option from the form
+    source: v.optional(v.string()),       // e.g. "brand-showcase"
+    submittedAt: v.optional(v.string()),  // ISO timestamp from the relay
+    brandId: v.optional(v.id("brands")),  // matched platform brand, if any
+    createdAt: v.number(),
+  })
+    .index("by_email", ["email"])
+    .index("by_brand", ["brandId"]),
+
   invites: defineTable({
     email: v.string(),
     firstName: v.optional(v.string()),

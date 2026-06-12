@@ -2,6 +2,7 @@ import { httpRouter } from "convex/server";
 import { auth } from "./auth";
 import { syncHttpHandler } from "./crmSync";
 import { testEmailSend } from "./debugEmail";
+import { inquiryHttpHandler } from "./brandShowcase";
 const http = httpRouter();
 auth.addHttpRoutes(http);
 
@@ -17,6 +18,14 @@ http.route({
   path: "/api/test-email",
   method: "POST",
   handler: testEmailSend,
+});
+
+// Brand Showcase franchisor inquiry intake — called by the showcase site's
+// /api/submit Vercel relay (requires X-Showcase-Secret header)
+http.route({
+  path: "/api/brand-showcase-inquiry",
+  method: "POST",
+  handler: inquiryHttpHandler,
 });
 
 export default http;
