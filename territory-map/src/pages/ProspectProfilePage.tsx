@@ -1,6 +1,6 @@
 import { useQuery, useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import {
@@ -143,9 +143,16 @@ export function ProspectProfilePage() {
 
   const [showEnhanced, setShowEnhanced] = useState(false);
 
+  // ── Unsaved-changes tracking (drives the floating save bar) ──
+  // Snapshot of every editable field; compared against the last-saved
+  // snapshot so the save bar appears the moment anything changes.
+  const [savedSnapshot, setSavedSnapshot] = useState<string | null>(null);
+  const snapshotResetPending = useRef(false);
+
   // Populate form from existing profile
   useEffect(() => {
     if (profile) {
+      snapshotResetPending.current = true; // re-baseline after fields load
       // Contact
       setFirstName((profile as any).firstName || "");
       setLastName((profile as any).lastName || "");
@@ -207,6 +214,34 @@ export function ProspectProfilePage() {
     setter((prev) => prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]);
   };
 
+  // Current values of every editable field (order matters, keep stable)
+  const currentSnapshot = JSON.stringify([
+    liquidCapital, ownerType, categories, primaryCity, primaryState, primaryRadius,
+    secondaryCity, secondaryState, secondaryRadius, timeline, priorExperience,
+    totalInvestmentBudget, sbaFinancingIntent, ownershipModel, runFromHome,
+    fullTimePartTime, multiUnitInterest, veteranStatus ?? null, revenueGoal, incomeGoal,
+    mustHaveFilters, brandMaturity, supportImportance, supportPriorities,
+    employeeComfort, spacePreference, motivations, riskTolerance,
+    professionalBackground, lifestylePriorities, avoidList,
+    firstName, lastName, phone, contactAddress, contactCity, contactState, zipCode,
+  ]);
+  // Re-baseline once the load effect has applied profile values
+  useEffect(() => {
+    if (snapshotResetPending.current) {
+      snapshotResetPending.current = false;
+      setSavedSnapshot(currentSnapshot);
+    }
+  }, [currentSnapshot]);
+  const dirty = savedSnapshot !== null && currentSnapshot !== savedSnapshot;
+
+  // Warn before leaving the page with unsaved changes
+  useEffect(() => {
+    if (!dirty) return;
+    const warn = (e: BeforeUnloadEvent) => { e.preventDefault(); };
+    window.addEventListener("beforeunload", warn);
+    return () => window.removeEventListener("beforeunload", warn);
+  }, [dirty]);
+
   const handleSave = async () => {
     setSaving(true);
     try {
@@ -257,6 +292,7 @@ export function ProspectProfilePage() {
         avoidList: avoidList.length > 0 ? avoidList : undefined,
       });
       toast.success("Saved! Your PerfectFit results are refreshing.");
+      setSavedSnapshot(currentSnapshot);
     } catch (e: any) {
       toast.error(e.message || "Failed to save profile");
     } finally {
@@ -1320,6 +1356,35 @@ export function ProspectProfilePage() {
           </div>
         </>
       )}
+
+      {/* Floating save bar — appears the moment anything is edited so the
+          user never has to hunt for the save button at the bottom */}
+      <div
+        className={`fixed bottom-5 left-1/2 -translate-x-1/2 z-40 transition-all duration-300 ${
+          dirty ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4 pointer-events-none"
+        }`}
+      >
+        <div className="flex items-center gap-3 rounded-full border border-cyan-400/40 bg-[#0b1426]/95 backdrop-blur-md pl-5 pr-2 py-2 shadow-2xl shadow-cyan-500/10">
+          <span className="text-sm text-slate-200 whitespace-nowrap">
+            <span className="inline-block w-2 h-2 rounded-full bg-amber-400 mr-2 align-middle" />
+            Unsaved changes
+          </span>
+          <Button
+            onClick={handleSave}
+            disabled={saving}
+            className="rounded-full bg-cyan-600 hover:bg-cyan-500 text-white px-5"
+          >
+            {saving ? (
+              "Saving..."
+            ) : (
+              <>
+                <Save className="w-4 h-4 mr-2" />
+                Save & Refresh My Matches
+              </>
+            )}
+          </Button>
+        </div>
+      </div>
 
       {/* Save Button */}
       <div className="flex justify-end pb-8">
