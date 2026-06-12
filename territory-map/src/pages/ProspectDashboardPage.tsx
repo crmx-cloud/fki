@@ -63,6 +63,12 @@ function scoreLabel(score: number): string {
   return "Potential Match";
 }
 
+// Fit-score bands (calibrated engine score, see convex/prospect.ts):
+// a brand is a MATCH at 70+, a STRONG match at 85+. Below 70 = not shown
+// as a match (but we never show an empty list — top 10 is the floor).
+const MATCH_THRESHOLD = 70;
+const STRONG_THRESHOLD = 85;
+
 export function ProspectDashboardPage() {
   const matches = useQuery(api.prospect.getMatches);
   const prospectProfile = useQuery(api.prospect.getMyProspectProfile);
@@ -186,14 +192,16 @@ export function ProspectDashboardPage() {
           <StatCard
             icon={Star}
             iconColor="text-amber-400"
-            label="Total Matches"
-            value={matches.length}
+            label="Matches"
+            sub={`Fit score ${MATCH_THRESHOLD}+`}
+            value={matches.filter((m) => m.matchScore >= MATCH_THRESHOLD).length}
           />
           <StatCard
             icon={TrendingUp}
             iconColor="text-emerald-400"
             label="Strong Matches"
-            value={matches.filter((m) => m.matchScore >= 60).length}
+            sub={`Fit score ${STRONG_THRESHOLD}–100`}
+            value={matches.filter((m) => m.matchScore >= STRONG_THRESHOLD).length}
           />
           <StatCard
             icon={MapPin}
@@ -237,7 +245,10 @@ export function ProspectDashboardPage() {
       {profileComplete && matches && matches.length > 0 ? (
         <div id="tour-matches" className="space-y-4">
           <h2 className="text-lg font-semibold">Your Top Matches</h2>
-          {matches.map((match, i) => (
+          {(() => {
+            const real = matches.filter((m) => m.matchScore >= MATCH_THRESHOLD);
+            const shown = real.length >= 10 ? real : matches.slice(0, 10);
+            return shown.map((match, i) => (
             <MatchCard
               key={match.brandId}
               match={match}
@@ -250,7 +261,8 @@ export function ProspectDashboardPage() {
                 slug: match.brandSlug,
               })}
             />
-          ))}
+          ));
+          })()}
         </div>
       ) : profileComplete && matches?.length === 0 ? (
         <div className="bg-card border rounded-xl p-8 text-center">
@@ -509,11 +521,13 @@ function StatCard({
   iconColor,
   label,
   value,
+  sub,
 }: {
   icon: React.ComponentType<{ className?: string }>;
   iconColor: string;
   label: string;
   value: number;
+  sub?: string;
 }) {
   return (
     <div className="bg-card border rounded-xl p-4 flex items-center gap-3">
@@ -523,6 +537,7 @@ function StatCard({
       <div>
         <div className="text-2xl font-bold">{value}</div>
         <div className="text-xs text-muted-foreground">{label}</div>
+        {sub && <div className="text-[10px] text-muted-foreground/70">{sub}</div>}
       </div>
     </div>
   );

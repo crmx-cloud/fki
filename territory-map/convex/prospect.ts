@@ -1207,7 +1207,14 @@ export function scoreBrandForProspect(opts: {
   // ═══════════════════════════════════════════════════════
   //  ASSEMBLE RESULT (minimum threshold: 8)
   // ═══════════════════════════════════════════════════════
-  const finalScore = Math.min(100, Math.max(0, score));
+  // CALIBRATION: raw weighted points have a practical ceiling of ~80 —
+  // hitting 100 raw would require disclosure data (Item 19 revenue,
+  // psychographic signals, etc.) that most brands don't publish, so raw
+  // scores cluster in the 40–75 range even for excellent fits. Dividing
+  // by 0.80 stretches the index across the full 0–100 scale people
+  // actually read (90+ = exceptional fit, 70–89 = solid match). Pure
+  // monotonic rescale — ranking order is identical everywhere.
+  const finalScore = Math.min(100, Math.max(0, Math.round(score / 0.8)));
 
   if (finalScore >= 8) {
     const displayTerrs = nearbyTerrs

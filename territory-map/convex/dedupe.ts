@@ -1,5 +1,6 @@
 import { v } from "convex/values";
 import { internalMutation } from "./_generated/server";
+import { scoreBrandForProspect } from "./prospect";
 
 /**
  * Prospect-profile dedupe + merge.
@@ -206,5 +207,45 @@ export const dedupeForKey = internalMutation({
     if (rows.length < 2) return { deleted: 0 };
     const r = await mergeCluster(ctx, rows);
     return { deleted: r.deleted };
+  },
+});
+
+/** QA: score distribution for a profile (threshold tuning). */
+export const scoreHistogram = internalMutation({
+  args: { email: v.string() },
+  handler: async (ctx, { email }) => {
+    const prospect = await ctx.db
+      .query("prospectProfiles")
+      .withIndex("by_email", (q: any) => q.eq("email", email.toLowerCase()))
+      .first();
+    if (!prospect) return { error: "no profile" };
+    const brands = (await ctx.db.query("brands").collect()).filter((b: any) => b.isActive !== false);
+    const fps = await ctx.db.query("franchiseProfiles").collect();
+    const fpMap = new Map(fps.map((f: any) => [String(f.brandId), f]));
+    const terrs = await ctx.db.query("territories").collect();
+    const sa = await ctx.db.query("stateAvailability").collect();
+    const saMap = new Map<string, Map<string, string>>();
+    for (const r of sa) {
+      const k = String(r.brandId);
+      if (!saMap.has(k)) saMap.set(k, new Map());
+      saMap.get(k)!.set(r.state.toUpperCase(), r.status);
+    }
+    const scores: number[] = [];
+    for (const brand of brands) {
+      const r = scoreBrandForProspect({
+        prospect, brand,
+        fp: fpMap.get(String(brand._id)),
+        brandTerritories: terrs.filter((t: any) => String(t.brandId) === String(brand._id)),
+        saMap,
+      });
+      if (r && !r.knockedOut) scores.push(r.matchScore);
+    }
+    scores.sort((a, b) => b - a);
+    const bucket = (lo: number, hi: number) => scores.filter((s) => s >= lo && s <= hi).length;
+    return {
+      total: scores.length,
+      top10: scores.slice(0, 10),
+      bands: { "90-100": bucket(90, 100), "80-89": bucket(80, 89), "70-79": bucket(70, 79), "60-69": bucket(60, 69), "50-59": bucket(50, 59), "40-49": bucket(40, 49), "<40": bucket(0, 39) },
+    };
   },
 });
