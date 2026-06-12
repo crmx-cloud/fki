@@ -31,7 +31,7 @@ export function SignIn() {
 
   if (step === "signIn") {
     return (
-      <Card variant="elevated">
+      <Card className="bg-white/[0.07] backdrop-blur-2xl border-white/15 ring-1 ring-inset ring-white/10 shadow-2xl shadow-black/40 rounded-2xl">
         <CardContent className="pt-6">
           <form
             onSubmit={async e => {
@@ -61,7 +61,7 @@ export function SignIn() {
                 placeholder="you@example.com"
                 defaultValue={prefillEmail}
                 autoComplete="email"
-                className="h-11"
+                className="h-11 bg-white/[0.08] border-white/15 backdrop-blur-md placeholder:text-slate-500 focus-visible:border-cyan-400/50"
                 required
               />
             </div>
@@ -83,7 +83,7 @@ export function SignIn() {
                 type="password"
                 placeholder="••••••••"
                 autoComplete="current-password"
-                className="h-11"
+                className="h-11 bg-white/[0.08] border-white/15 backdrop-blur-md placeholder:text-slate-500 focus-visible:border-cyan-400/50"
                 required
               />
             </div>
@@ -105,7 +105,7 @@ export function SignIn() {
 
   if (step.type === "forgot") {
     return (
-      <Card variant="elevated">
+      <Card className="bg-white/[0.07] backdrop-blur-2xl border-white/15 ring-1 ring-inset ring-white/10 shadow-2xl shadow-black/40 rounded-2xl">
         <CardContent className="pt-6">
           <div className="text-center mb-6">
             <h2 className="font-semibold text-lg">Reset Password</h2>
@@ -141,7 +141,7 @@ export function SignIn() {
                 placeholder="you@example.com"
                 defaultValue={step.email}
                 autoComplete="email"
-                className="h-11"
+                className="h-11 bg-white/[0.08] border-white/15 backdrop-blur-md placeholder:text-slate-500 focus-visible:border-cyan-400/50"
                 required
               />
             </div>
@@ -172,7 +172,7 @@ export function SignIn() {
 
   if (step.type === "reset-code") {
     return (
-      <Card variant="elevated">
+      <Card className="bg-white/[0.07] backdrop-blur-2xl border-white/15 ring-1 ring-inset ring-white/10 shadow-2xl shadow-black/40 rounded-2xl">
         <CardContent className="pt-6">
           <div className="text-center mb-6">
             <div className="mx-auto size-12 rounded-full bg-primary flex items-center justify-center mb-4">
@@ -201,7 +201,7 @@ export function SignIn() {
                 type="text"
                 placeholder="Enter code"
                 autoComplete="one-time-code"
-                className="h-11 text-center tracking-[0.5em] font-mono"
+                className="h-11 text-center tracking-[0.5em] font-mono bg-white/[0.08] border-white/15 backdrop-blur-md focus-visible:border-cyan-400/50"
                 required
               />
             </div>
@@ -228,7 +228,7 @@ export function SignIn() {
   }
 
   return (
-    <Card variant="elevated">
+    <Card className="bg-white/[0.07] backdrop-blur-2xl border-white/15 ring-1 ring-inset ring-white/10 shadow-2xl shadow-black/40 rounded-2xl">
       <CardContent className="pt-6">
         <div className="text-center mb-6">
           <h2 className="font-semibold text-lg">Set New Password</h2>
@@ -263,7 +263,7 @@ export function SignIn() {
               placeholder="••••••••"
               minLength={6}
               autoComplete="new-password"
-              className="h-11"
+              className="h-11 bg-white/[0.08] border-white/15 backdrop-blur-md placeholder:text-slate-500 focus-visible:border-cyan-400/50"
               required
             />
           </div>

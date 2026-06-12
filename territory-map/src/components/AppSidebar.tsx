@@ -73,7 +73,6 @@ function SidebarNav() {
             <SidebarMenu>
               <NavLink href="/dashboard" label="My Matches" icon={Sparkles} isActive={location.pathname === "/dashboard"} />
               <NavLink href="/saved" label="Saved Brands" icon={Heart} isActive={location.pathname === "/saved"} />
-              <NavLink href="/saved?compare=1" label="Compare Brands" icon={Scale} isActive={false} />
               <NavLink href="/dossier" label="Due Diligence Report" icon={FileSearch} isActive={location.pathname === "/dossier"} />
               <NavLink href="/my-profile" label="My Profile" icon={User} isActive={location.pathname === "/my-profile"} />
               <NavLink href="/messages" label="Messages" icon={MessageCircle} isActive={location.pathname === "/messages"} />

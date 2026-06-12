@@ -3,8 +3,6 @@ import { Link, useSearchParams } from "react-router-dom";
 import { useConvexAuth, useQuery, useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import type { Id } from "../../convex/_generated/dataModel";
-import { PublicNav } from "@/components/PublicNav";
-import { PublicFooter } from "@/components/PublicFooter";
 import { Reveal } from "@/components/Reveal";
 import { Button } from "@/components/ui/button";
 import { DueDiligenceDisclaimer } from "@/components/DueDiligenceDisclaimer";
@@ -809,7 +807,7 @@ export function DossierPage() {
   }
 
   return (
-    <div className="dossier-page min-h-screen bg-slate-100 text-slate-900 motion-page motion-page-light">
+    <div className="dossier-page min-h-full bg-slate-100 text-slate-900 motion-page motion-page-light rounded-xl overflow-hidden -m-4 lg:-m-6 p-0">
       {/* Print stylesheet — clean black-on-white, no chrome, no page breaks mid-section */}
       <style>{`
         @media print {
@@ -826,13 +824,7 @@ export function DossierPage() {
           .dossier-page a { text-decoration: none; color: inherit; }
         }
       `}</style>
-      <div className="print-hide">
-        <PublicNav />
-      </div>
       {body}
-      <div className="print-hide">
-        <PublicFooter />
-      </div>
     </div>
   );
 }

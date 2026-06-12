@@ -7,8 +7,10 @@ export function LoginPage() {
   return (
     <div className="flex-1 flex items-center justify-center p-4 relative motion-page">
       <div className="absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute top-0 left-1/4 size-96 rounded-full bg-primary/10 blur-3xl" />
-        <div className="absolute bottom-0 right-1/4 size-96 rounded-full bg-primary/5 blur-3xl" />
+        <div className="absolute -top-24 left-1/4 size-[28rem] rounded-full bg-cyan-500/20 blur-3xl" />
+        <div className="absolute top-1/3 -right-20 size-96 rounded-full bg-blue-600/20 blur-3xl" />
+        <div className="absolute -bottom-24 left-1/3 size-[26rem] rounded-full bg-indigo-500/15 blur-3xl" />
+        <div className="absolute top-1/2 left-0 size-72 rounded-full bg-cyan-400/10 blur-3xl" />
       </div>
 
       <div className="w-full max-w-sm space-y-6">
