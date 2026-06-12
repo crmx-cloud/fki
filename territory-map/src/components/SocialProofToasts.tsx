@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useQuery } from "convex/react";
 import { api } from "../../convex/_generated/api";
-import { User, X } from "lucide-react";
+import { User, X, BadgeCheck } from "lucide-react";
 
 /**
  * Real-time social-proof popups ("purchase proof" style) for the public
@@ -13,6 +13,7 @@ import { User, X } from "lucide-react";
 
 const SHOW_MS = 6500;
 const GAP_MS = 9000;
+const FIRST_SHOW_MS = 2500; // newest signup pops fast on page load
 const DISMISS_KEY = "fki-social-proof-dismissed";
 
 function timeAgo(ts: number): string {
@@ -44,8 +45,13 @@ export function SocialProofToasts() {
   useEffect(() => {
     if (!list.length) return;
     if (latestTs.current === null) {
-      latestTs.current = list[0].ts; // initial load — don't force-show
-      return;
+      latestTs.current = list[0].ts;
+      // initial load: surface the MOST RECENT activity quickly, then rotate
+      const t = setTimeout(() => {
+        setIdx(0);
+        setVisible(true);
+      }, FIRST_SHOW_MS);
+      return () => clearTimeout(t);
     }
     if (list[0].ts > latestTs.current) {
       latestTs.current = list[0].ts;
@@ -79,13 +85,19 @@ export function SocialProofToasts() {
         visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-3 pointer-events-none"
       }`}
     >
-      <div className="relative flex items-start gap-3 rounded-2xl border border-white/10 bg-[#0b1426]/95 backdrop-blur-md p-3.5 pr-8 shadow-2xl shadow-black/40">
-        <div className="w-9 h-9 shrink-0 rounded-full bg-gradient-to-br from-cyan-500/30 to-blue-600/30 border border-cyan-400/30 flex items-center justify-center">
-          <User className="w-4 h-4 text-cyan-300" />
+      <div className="relative flex items-start gap-3 rounded-2xl border border-white/15 ring-1 ring-inset ring-white/5 bg-[#0b1426]/80 backdrop-blur-xl p-3.5 pr-8 shadow-2xl shadow-black/40">
+        <div className="w-9 h-9 shrink-0 rounded-full bg-gradient-to-br from-cyan-500/40 to-blue-600/40 border border-cyan-400/40 flex items-center justify-center">
+          {item.firstName ? (
+            <span className="text-sm font-bold text-cyan-200">{item.firstName[0].toUpperCase()}</span>
+          ) : (
+            <User className="w-4 h-4 text-cyan-300" />
+          )}
         </div>
         <div className="min-w-0">
           <p className="text-[13px] leading-snug text-slate-200">
-            <span className="font-semibold text-white">Someone in {item.state}</span>{" "}
+            <span className="font-semibold text-white">
+              {item.firstName ? `${item.firstName} from ${item.state}` : `Someone in ${item.state}`}
+            </span>{" "}
             {message(item)}
           </p>
           <p className="text-[11px] text-slate-400 mt-1 flex items-center gap-1.5">
@@ -93,7 +105,10 @@ export function SocialProofToasts() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-60 motion-reduce:hidden" />
               <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-400" />
             </span>
-            {timeAgo(item.ts)} · FranchiseKI
+            {timeAgo(item.ts)}
+            <span className="inline-flex items-center gap-0.5 text-emerald-400/90">
+              <BadgeCheck className="w-3 h-3" /> Verified by FranchiseKI
+            </span>
           </p>
         </div>
         <button

@@ -15,6 +15,7 @@ export const recent = query({
       .filter((p) => p.email && (p.primaryState || p.state))
       .slice(0, 50)
       .map((p) => ({
+        firstName: p.firstName || null, // first name ONLY — never last name or email
         state: (p.primaryState || p.state)!,
         ts: p._creationTime,
         complete: !!p.profileComplete,
