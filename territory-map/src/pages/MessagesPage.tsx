@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import type { Id as ConvexId } from "../../convex/_generated/dataModel";
 import { useQuery, useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import type { Id } from "../../convex/_generated/dataModel";
@@ -21,11 +22,44 @@ function timeLabel(ts: number) {
         " " + d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
 }
 
-function Bubbles({ messages, mySide }: { messages: any[]; mySide: "prospect" | "team" }) {
+function TypingDots({ label }: { label: string }) {
+  return (
+    <div className="flex justify-start">
+      <div className="bg-white/[0.07] rounded-2xl rounded-bl-md px-4 py-3">
+        <div className="text-[10px] font-semibold text-slate-400 mb-1">{label}</div>
+        <div className="flex gap-1 items-center h-3">
+          {[0, 1, 2].map((i) => (
+            <span
+              key={i}
+              className="w-1.5 h-1.5 rounded-full bg-slate-400 animate-bounce motion-reduce:animate-none"
+              style={{ animationDelay: `${i * 150}ms`, animationDuration: "1s" }}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/** Other side typing? Polls the reactive deadline against a ticking clock. */
+function useOtherTyping(prospectUserId?: ConvexId<"users">) {
+  const status = useQuery(
+    api.chat.typingStatus,
+    prospectUserId === undefined ? {} : { prospectUserId }
+  );
+  const [now, setNow] = useState(Date.now());
+  useEffect(() => {
+    const t = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(t);
+  }, []);
+  return (status?.otherTypingUntil ?? 0) > now;
+}
+
+function Bubbles({ messages, mySide, otherTyping, typingLabel }: { messages: any[]; mySide: "prospect" | "team"; otherTyping?: boolean; typingLabel?: string }) {
   const endRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     endRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages.length]);
+  }, [messages.length, otherTyping]);
   return (
     <div className="flex-1 overflow-y-auto px-4 py-4 space-y-2">
       {messages.length === 0 && (
@@ -55,14 +89,16 @@ function Bubbles({ messages, mySide }: { messages: any[]; mySide: "prospect" | "
           </div>
         );
       })}
+      {otherTyping && <TypingDots label={typingLabel ?? "typing…"} />}
       <div ref={endRef} />
     </div>
   );
 }
 
-function Composer({ onSend, disabled }: { onSend: (body: string) => Promise<void>; disabled?: boolean }) {
+function Composer({ onSend, onTyping, disabled }: { onSend: (body: string) => Promise<void>; onTyping?: (typing: boolean) => void; disabled?: boolean }) {
   const [draft, setDraft] = useState("");
   const [sending, setSending] = useState(false);
+  const lastBeat = useRef(0);
   const submit = async () => {
     const body = draft.trim();
     if (!body || sending) return;
@@ -70,6 +106,8 @@ function Composer({ onSend, disabled }: { onSend: (body: string) => Promise<void
     try {
       await onSend(body);
       setDraft("");
+      lastBeat.current = 0;
+      onTyping?.(false);
     } finally {
       setSending(false);
     }
@@ -78,7 +116,15 @@ function Composer({ onSend, disabled }: { onSend: (body: string) => Promise<void
     <div className="border-t border-border p-3 flex gap-2">
       <textarea
         value={draft}
-        onChange={(e) => setDraft(e.target.value)}
+        onChange={(e) => {
+          setDraft(e.target.value);
+          // typing heartbeat, throttled to ~1 per 2s (server keeps it alive 5s)
+          const now = Date.now();
+          if (e.target.value && now - lastBeat.current > 2000) {
+            lastBeat.current = now;
+            onTyping?.(true);
+          }
+        }}
         onKeyDown={(e) => {
           if (e.key === "Enter" && !e.shiftKey) {
             e.preventDefault();
@@ -102,6 +148,8 @@ function ProspectMessages() {
   const messages = useQuery(api.chat.myThread) ?? [];
   const send = useMutation(api.chat.send);
   const markRead = useMutation(api.chat.markRead);
+  const setTyping = useMutation(api.chat.setTyping);
+  const otherTyping = useOtherTyping(undefined);
   useEffect(() => {
     if (messages.some((m: any) => !m.readByProspect)) markRead({}).catch(() => {});
   }, [messages.length]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -115,8 +163,8 @@ function ProspectMessages() {
           Free for you — consultants are paid by franchisors when a territory is awarded. Replies typically within one business day.
         </p>
       </div>
-      <Bubbles messages={messages} mySide="prospect" />
-      <Composer onSend={(body) => send({ body })} />
+      <Bubbles messages={messages} mySide="prospect" otherTyping={otherTyping} typingLabel="Your consultant is typing" />
+      <Composer onSend={(body) => send({ body })} onTyping={(t) => setTyping({ isTyping: t }).catch(() => {})} />
     </div>
   );
 }
@@ -128,6 +176,8 @@ function TeamMessages() {
   const messages = useQuery(api.chat.thread, selected ? { prospectUserId: selected } : "skip") ?? [];
   const send = useMutation(api.chat.send);
   const markRead = useMutation(api.chat.markRead);
+  const setTyping = useMutation(api.chat.setTyping);
+  const otherTyping = useOtherTyping(selected ?? undefined);
   useEffect(() => {
     if (selected && messages.some((m: any) => !m.readByTeam)) markRead({ prospectUserId: selected }).catch(() => {});
   }, [selected, messages.length]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -162,8 +212,11 @@ function TeamMessages() {
       <div className="flex-1 flex flex-col min-w-0">
         {selected ? (
           <>
-            <Bubbles messages={messages} mySide="team" />
-            <Composer onSend={(body) => send({ body, prospectUserId: selected })} />
+            <Bubbles messages={messages} mySide="team" otherTyping={otherTyping} typingLabel="Prospect is typing" />
+            <Composer
+              onSend={(body) => send({ body, prospectUserId: selected })}
+              onTyping={(t) => setTyping({ prospectUserId: selected, isTyping: t }).catch(() => {})}
+            />
           </>
         ) : (
           <div className="flex-1 flex items-center justify-center text-sm text-muted-foreground">

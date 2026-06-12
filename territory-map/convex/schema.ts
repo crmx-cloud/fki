@@ -873,6 +873,14 @@ const schema = defineSchema({
     readByTeam: v.optional(v.boolean()),
   }).index("by_prospect", ["prospectUserId", "ts"]),
 
+  // Typing presence: one row per thread side, heartbeat-refreshed while the
+  // sender types; the client treats typingUntil in the past as "stopped".
+  chatTyping: defineTable({
+    prospectUserId: v.id("users"),
+    side: v.string(),                  // "prospect" | "team"
+    typingUntil: v.number(),
+  }).index("by_thread", ["prospectUserId", "side"]),
+
   // Intent/activity event stream — feeds "active profile" calculations and
   // future intent scoring. Server-side events logged via activity.logInternal,
   // client events via activity.track.

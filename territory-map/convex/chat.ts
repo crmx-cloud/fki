@@ -183,3 +183,51 @@ export const markRead = mutation({
     }
   },
 });
+
+/** Heartbeat while composing — refreshed every ~2s by the client. */
+export const setTyping = mutation({
+  args: { prospectUserId: v.optional(v.id("users")), isTyping: v.boolean() },
+  handler: async (ctx, args) => {
+    const userId = await getAuthUserId(ctx);
+    if (!userId) return;
+    const role = (await getRole(ctx, userId)) ?? "prospect";
+    let threadKey = userId;
+    let side = "prospect";
+    if (["broker", "admin", "super_admin"].includes(role)) {
+      if (!args.prospectUserId) return;
+      if (!(await canAccessThread(ctx, userId, role, args.prospectUserId))) return;
+      threadKey = args.prospectUserId;
+      side = "team";
+    }
+    const row = await ctx.db
+      .query("chatTyping")
+      .withIndex("by_thread", (q) => q.eq("prospectUserId", threadKey).eq("side", side))
+      .first();
+    const typingUntil = args.isTyping ? Date.now() + 5000 : 0;
+    if (row) await ctx.db.patch(row._id, { typingUntil });
+    else await ctx.db.insert("chatTyping", { prospectUserId: threadKey, side, typingUntil });
+  },
+});
+
+/** The OTHER side's typing deadline for a thread (client compares to clock). */
+export const typingStatus = query({
+  args: { prospectUserId: v.optional(v.id("users")) },
+  handler: async (ctx, args) => {
+    const userId = await getAuthUserId(ctx);
+    if (!userId) return null;
+    const role = (await getRole(ctx, userId)) ?? "prospect";
+    let threadKey = userId;
+    let otherSide = "team";
+    if (["broker", "admin", "super_admin"].includes(role)) {
+      if (!args.prospectUserId) return null;
+      if (!(await canAccessThread(ctx, userId, role, args.prospectUserId))) return null;
+      threadKey = args.prospectUserId;
+      otherSide = "prospect";
+    }
+    const row = await ctx.db
+      .query("chatTyping")
+      .withIndex("by_thread", (q) => q.eq("prospectUserId", threadKey).eq("side", otherSide))
+      .first();
+    return { otherTypingUntil: row?.typingUntil ?? 0 };
+  },
+});
