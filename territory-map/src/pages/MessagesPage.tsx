@@ -70,13 +70,31 @@ function useOtherTyping(prospectUserId?: ConvexId<"users">) {
   return (status?.otherTypingUntil ?? 0) > now;
 }
 
+function dayLabel(ts: number) {
+  const d = new Date(ts);
+  const today = new Date();
+  const yesterday = new Date(Date.now() - 86400_000);
+  if (d.toDateString() === today.toDateString()) return "Today";
+  if (d.toDateString() === yesterday.toDateString()) return "Yesterday";
+  return d.toLocaleDateString([], { weekday: "short", month: "short", day: "numeric" });
+}
+
 function Bubbles({ messages, mySide, otherTyping, typingLabel }: { messages: any[]; mySide: "prospect" | "team"; otherTyping?: boolean; typingLabel?: string }) {
   const endRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     endRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages.length, otherTyping]);
+
+  const isMine = (m: any) =>
+    mySide === "prospect" ? m.senderRole === "prospect" : m.senderRole !== "prospect";
+  // last own message that the other side has read → "Seen"
+  const lastMineIdx = [...messages].map(isMine).lastIndexOf(true);
+  const lastMine = lastMineIdx >= 0 ? messages[lastMineIdx] : null;
+  const lastMineSeen =
+    lastMine && (mySide === "prospect" ? lastMine.readByTeam : lastMine.readByProspect);
+
   return (
-    <div className="flex-1 overflow-y-auto px-4 py-4 space-y-2">
+    <div className="flex-1 overflow-y-auto px-4 py-4 space-y-1">
       {messages.length === 0 && (
         <div className="text-center text-sm text-muted-foreground py-16">
           {mySide === "prospect"
@@ -84,29 +102,49 @@ function Bubbles({ messages, mySide, otherTyping, typingLabel }: { messages: any
             : "No messages yet in this conversation."}
         </div>
       )}
-      {messages.map((m) => {
-        const mine = mySide === "prospect" ? m.senderRole === "prospect" : m.senderRole !== "prospect";
+      {messages.map((m, i) => {
+        const mine = isMine(m);
+        const prev = messages[i - 1];
+        const newDay = !prev || new Date(prev.ts).toDateString() !== new Date(m.ts).toDateString();
+        // group consecutive messages from the same sender within 3 minutes
+        const grouped =
+          !newDay && prev && prev.senderId === m.senderId && prev.senderRole === m.senderRole &&
+          m.ts - prev.ts < 3 * 60 * 1000;
         return (
-          <div key={m._id} className={`flex ${mine ? "justify-end" : "justify-start"}`}>
-            <div className={`max-w-[75%] rounded-2xl px-3.5 py-2 ${
-              mine
-                ? "bg-cyan-600 text-white rounded-br-md"
-                : "bg-white/[0.07] text-slate-100 rounded-bl-md"
-            }`}>
-              {!mine && (
-                <div className="text-[10px] font-semibold opacity-70 mb-0.5">
-                  {m.senderName ||
-                    (m.senderRole === "consultant" ? "Your consultant" : m.senderRole === "admin" ? "FranchiseKI team" : "User")}
-                  {m.senderRole === "consultant" && m.senderName ? " · Your consultant" : ""}
+          <div key={m._id}>
+            {newDay && (
+              <div className="flex items-center gap-3 my-4">
+                <div className="flex-1 h-px bg-white/5" />
+                <span className="text-[10px] font-semibold uppercase tracking-wider text-slate-500">{dayLabel(m.ts)}</span>
+                <div className="flex-1 h-px bg-white/5" />
+              </div>
+            )}
+            <div className={`flex ${mine ? "justify-end" : "justify-start"} ${grouped ? "mt-0.5" : "mt-2"}`}>
+              <div className={`max-w-[75%] rounded-2xl px-3.5 py-2 ${
+                mine
+                  ? "bg-cyan-600 text-white rounded-br-md"
+                  : "bg-white/[0.07] text-slate-100 rounded-bl-md"
+              }`}>
+                {!mine && !grouped && (
+                  <div className="text-[10px] font-semibold opacity-70 mb-0.5">
+                    {m.senderName ||
+                      (m.senderRole === "consultant" ? "Your consultant" : m.senderRole === "admin" ? "FranchiseKI team" : "User")}
+                    {m.senderRole === "consultant" && m.senderName ? " · Your consultant" : ""}
+                  </div>
+                )}
+                <p className="text-sm whitespace-pre-wrap break-words">{m.body}</p>
+                <div className={`text-[10px] mt-1 ${mine ? "text-cyan-100/70" : "text-slate-500"}`}>
+                  {timeLabel(m.ts)}
+                  {mine && i === lastMineIdx && (
+                    <span className="ml-1.5 font-medium">{lastMineSeen ? "· Seen ✓✓" : "· Delivered ✓"}</span>
+                  )}
                 </div>
-              )}
-              <p className="text-sm whitespace-pre-wrap break-words">{m.body}</p>
-              <div className={`text-[10px] mt-1 ${mine ? "text-cyan-100/70" : "text-slate-500"}`}>{timeLabel(m.ts)}</div>
+              </div>
             </div>
           </div>
         );
       })}
-      {otherTyping && <TypingDots label={typingLabel ?? "typing…"} />}
+      {otherTyping && <div className="mt-2"><TypingDots label={typingLabel ?? "typing…"} /></div>}
       <div ref={endRef} />
     </div>
   );
@@ -150,6 +188,11 @@ function Composer({ onSend, onTyping, disabled }: { onSend: (body: string) => Pr
         }}
         placeholder="Type a message…"
         rows={1}
+        onInput={(e) => {
+          const el = e.currentTarget;
+          el.style.height = "auto";
+          el.style.height = Math.min(el.scrollHeight, 140) + "px";
+        }}
         disabled={disabled}
         className="flex-1 resize-none rounded-xl bg-white/[0.06] border border-border px-3.5 py-2.5 text-sm outline-none focus:border-cyan-400/50 placeholder:text-slate-500"
       />

@@ -32,11 +32,13 @@ function NavLink({
   label,
   icon: Icon,
   isActive,
+  badge,
 }: {
   href: string;
   label: string;
   icon: React.ComponentType<{ className?: string }>;
   isActive: boolean;
+  badge?: number;
 }) {
   const { setOpenMobile } = useSidebar();
 
@@ -46,6 +48,11 @@ function NavLink({
         <Link to={href} onClick={() => setOpenMobile(false)}>
           <Icon />
           <span>{label}</span>
+          {badge != null && badge > 0 && (
+            <span className="ml-auto min-w-5 h-5 px-1.5 rounded-full bg-cyan-500 text-slate-950 text-[11px] font-bold flex items-center justify-center">
+              {badge > 99 ? "99+" : badge}
+            </span>
+          )}
         </Link>
       </SidebarMenuButton>
     </SidebarMenuItem>
@@ -55,6 +62,7 @@ function NavLink({
 function SidebarNav() {
   const location = useLocation();
   const myProfile = useQuery(api.users.getMyProfile);
+  const unreadMessages = useQuery(api.chat.myUnreadCount) ?? 0;
 
   const isAdmin = myProfile?.isAdmin; // super_admin or admin
   const isBrandAdmin = myProfile?.isBrandAdmin;
@@ -75,7 +83,7 @@ function SidebarNav() {
               <NavLink href="/saved" label="Saved Brands" icon={Heart} isActive={location.pathname === "/saved"} />
               <NavLink href="/dossier" label="Due Diligence Report" icon={FileSearch} isActive={location.pathname === "/dossier"} />
               <NavLink href="/my-profile" label="My Profile" icon={User} isActive={location.pathname === "/my-profile"} />
-              <NavLink href="/messages" label="Messages" icon={MessageCircle} isActive={location.pathname === "/messages"} />
+              <NavLink href="/messages" label="Messages" icon={MessageCircle} isActive={location.pathname === "/messages"} badge={unreadMessages} />
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
@@ -88,7 +96,7 @@ function SidebarNav() {
           <SidebarGroupContent>
             <SidebarMenu>
               <NavLink href="/crm" label="My Leads" icon={UserCircle} isActive={location.pathname === "/crm"} />
-              <NavLink href="/messages" label="Messages" icon={MessageCircle} isActive={location.pathname === "/messages"} />
+              <NavLink href="/messages" label="Messages" icon={MessageCircle} isActive={location.pathname === "/messages"} badge={unreadMessages} />
               <NavLink href="/tags" label="Tags" icon={Tag} isActive={location.pathname === "/tags"} />
             </SidebarMenu>
           </SidebarGroupContent>
@@ -141,7 +149,7 @@ function SidebarNav() {
               <SidebarGroup>
                 <SidebarGroupContent>
                   <SidebarMenu>
-                    <NavLink href="/messages" label="Messages" icon={MessageCircle} isActive={location.pathname === "/messages"} />
+                    <NavLink href="/messages" label="Messages" icon={MessageCircle} isActive={location.pathname === "/messages"} badge={unreadMessages} />
                     <NavLink href="/kpis" label="Company KPIs" icon={BarChart3} isActive={location.pathname === "/kpis"} />
                     <NavLink href="/tags" label="Tags" icon={Tag} isActive={location.pathname === "/tags"} />
                     {myProfile?.isSuperAdmin && (
