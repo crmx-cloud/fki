@@ -80,7 +80,9 @@ function Bubbles({ messages, mySide, otherTyping, typingLabel }: { messages: any
             }`}>
               {!mine && (
                 <div className="text-[10px] font-semibold opacity-70 mb-0.5">
-                  {m.senderRole === "consultant" ? "Your consultant" : m.senderRole === "admin" ? "FranchiseKI team" : m.senderName}
+                  {m.senderName ||
+                    (m.senderRole === "consultant" ? "Your consultant" : m.senderRole === "admin" ? "FranchiseKI team" : "User")}
+                  {m.senderRole === "consultant" && m.senderName ? " · Your consultant" : ""}
                 </div>
               )}
               <p className="text-sm whitespace-pre-wrap break-words">{m.body}</p>
