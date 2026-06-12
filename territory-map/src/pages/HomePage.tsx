@@ -388,7 +388,8 @@ export function HomePage() {
               <h2 className="text-3xl font-bold mb-3">A Vetted Consultant in Your Corner — at No Cost</h2>
               <p className="text-slate-400 max-w-2xl mx-auto">
                 The platform narrows it down. A vetted consultant helps you get it right — double-checking
-                your shortlist, asking the questions you'd miss, and walking you through the deal.
+                your shortlist, asking the questions you'd miss, and walking you through every step to
+                owning your territory.
               </p>
             </Reveal>
             <Reveal stagger className="grid md:grid-cols-3 gap-6 mb-10">
@@ -397,15 +398,15 @@ export function HomePage() {
                 <h3 className="font-bold mb-1.5">Vetted, Not Random</h3>
                 <p className="text-sm text-slate-400">
                   Every consultant in our network is vetted, with decades of franchise experience guiding
-                  buyers through real deals.
+                  new owners into the right franchise.
                 </p>
               </div>
               <div className="rounded-2xl bg-white/[0.03] border border-white/10 p-6">
                 <DollarSign className="w-7 h-7 text-emerald-400 mb-3" />
                 <h3 className="font-bold mb-1.5">Free — Here's Why</h3>
                 <p className="text-sm text-slate-400">
-                  Consultants are paid by franchisors when a deal closes, never by you. Your guidance costs
-                  nothing at any point.
+                  Consultants are paid by franchisors when a new franchisee is granted their territory,
+                  never by you. Your guidance costs nothing at any point.
                 </p>
               </div>
               <div className="rounded-2xl bg-white/[0.03] border border-white/10 p-6">
