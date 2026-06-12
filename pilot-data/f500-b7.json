@@ -1,0 +1,790 @@
+{
+  "brands": [
+    {
+      "name": "Circle K",
+      "slug": "circle-k",
+      "category": "Retail",
+      "website": "circlek.com",
+      "notes": "Global convenience-store giant (parent: Alimentation Couche-Tard) franchising in the US via franchise-circlek.com. The franchised network is a small slice of a system dominated by company-operated stores; franchise offers cover converting an existing c-store or building new, with single-site and multi-site agreements plus international master licenses (100+ store commitments).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Long estimated payback on franchisee economics",
+          "detail": "Vetted Biz FDD-derived analysis estimates owner-operator earnings of roughly $91,740-$131,058 against a $1.46M-$2.73M midpoint investment, implying a 19.3-21.3 year payback - among the longest in retail franchising. Fuel margin and merchandise mix drive wide variance.",
+          "source": "Vetted Biz - Circle K Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/circle-k",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Large franchisee hit by data breach class action (settled)",
+          "detail": "Gas Express LLC, a franchisee operating close to 200 Circle K locations, reached a preliminary class-action settlement in 2026 over a May 2024 data breach that exposed employee names, Social Security numbers, and driver's license numbers; impacted workers can claim up to $2,000 each.",
+          "source": "C-Store Dive",
+          "url": "https://www.cstoredive.com/news/circle-k-franchisee-reaches-preliminary-settlement-in-data-breach-lawsuit/820320/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "No-poach provision removed under state AG assurance of discontinuance",
+          "detail": "Circle K signed an assurance of discontinuance with the Washington Attorney General removing franchise no-poach clauses (provisions restricting franchisees from hiring each other's workers) as part of the multi-brand AG enforcement sweep; Circle K stated it had never enforced the clause.",
+          "source": "National Association of Attorneys General (archived settlement)",
+          "url": "https://www.naag.org/wp-content/uploads/2021/01/Circle-K-Settlement.pdf",
+          "year": 2021
+        },
+        {
+          "severity": "info",
+          "title": "Litigation and/or bankruptcy history disclosed in FDD",
+          "detail": "FDD-tracking services note that Circle K discloses lawsuits and/or bankruptcy information in its FDD Items 3/4 - review the current FDD's litigation section before signing.",
+          "source": "Vetted Biz - Circle K Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/circle-k",
+          "year": 2025
+        }
+      ],
+      "nationwide": {
+        "source": "Circle K Franchising - How It Works (franchisor site)",
+        "url": "https://www.franchise-circlek.com/how-it-works",
+        "year": 2026,
+        "note": "Franchisor markets US franchising nationwide (subject to franchise-registration-state requirements), plus a Canada program and international master licenses for 100+ store developers."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 355000, "source": "Vetted Biz - Circle K Franchise Insights", "year": 2025, "confidence": "medium", "note": "Directory guidance suggests ideal candidates hold substantially more ($2-3M liquid) for new-build, fuel-equipped sites."},
+        "netWorthMin": {"value": 1000000, "source": "Circle K Franchising - How It Works (franchisor site)", "year": 2026, "confidence": "medium", "note": "Minimum net worth indicated on the franchisor's qualification graphic."},
+        "totalInvestmentMin": {"value": 268500, "source": "Circle K Franchising - How It Works (franchisor site)", "year": 2026, "confidence": "high", "note": "Conversion of an existing convenience store: $268,500-$3,029,500. Vetted Biz FDD-derived range $1,463,500-$2,734,650."},
+        "totalInvestmentMax": {"value": 4846500, "source": "Circle K Franchising - How It Works (franchisor site)", "year": 2026, "confidence": "high", "note": "Newly constructed Circle K store: $1,383,500-$4,846,500."},
+        "franchiseFee": {"value": 25000, "source": "Franchise Direct Circle K FDD summary; Vetted Biz", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 4, "source": "Vetted Biz - Circle K Franchise Insights", "year": 2025, "confidence": "medium", "note": "FDD-derived sources cite 2.5%-5.5% of gross sales depending on program/funding option (4.5% with company funding, 3.7% without per some summaries)."},
+        "adFundPercent": {"value": 1.5, "source": "Franchise Direct Circle K FDD summary", "year": 2025, "confidence": "medium", "note": "1.5% advertising contribution on top of royalty."},
+        "avgUnitRevenue": {"value": 1310571, "source": "Vetted Biz - Circle K Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly merchandise revenue per Vetted Biz analysis; fuel economics vary by site and supply agreement."},
+        "totalUnits": {"value": 6125, "source": "Vetted Biz - Circle K Franchise Insights", "year": 2025, "confidence": "medium", "note": "US locations; the large majority are company-operated by parent Alimentation Couche-Tard - franchised stores are a minority of the system."},
+        "yearFounded": {"value": 1951, "source": "Vetted Biz - Circle K Franchise Insights", "year": 2025, "confidence": "high", "note": "Founded in Texas; US franchise HQ Tempe, AZ."},
+        "yearFranchising": {"value": 1995, "source": "Vetted Biz - Circle K Franchise Insights", "year": 2025, "confidence": "medium"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Circle K Franchise Insights", "year": 2025, "confidence": "medium", "note": "Initial training approximately two weeks at a designated facility."},
+        "multiUnitAvailable": {"value": true, "source": "Circle K Franchising - How It Works (franchisor site)", "year": 2026, "confidence": "high", "note": "Dedicated multi-site agreements for operators with multiple locations."},
+        "internationalAvailability": {"value": true, "source": "Circle K Franchising - How It Works (franchisor site)", "year": 2026, "confidence": "high", "note": "Canada program plus international master licenses for 100+ store developers."},
+        "businessModelType": {"value": "b2c", "source": "Circle K franchisor site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; FDD Exchange (public Circle K FDD copy)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Gyu-Kaku Japanese BBQ Restaurant",
+      "slug": "gyu-kaku-japanese-bbq-restaurant",
+      "category": "Food & Beverage",
+      "website": "gyu-kaku.com",
+      "notes": "Yakiniku (grill-it-yourself Japanese BBQ) chain operated in North America by REINS International, with ~825 locations globally (about 500 in Japan). The US franchise system is small - roughly 31 franchised and 33 company-owned restaurants - with strong per-unit volumes but top-of-category build costs. Franchisor publishes an availability map (available/reserved/future markets).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very small US franchised base (~31 restaurants)",
+          "detail": "Per 2026 FDD-derived data, the US system had 64 restaurants in 2024 - 31 franchised and 33 company-owned. A franchised cohort this small means Item 19 averages rest on few data points and franchisee bargaining power is limited.",
+          "source": "FranchisePayback - Gyu-Kaku Japanese BBQ Restaurant FDD data",
+          "url": "https://www.franchisepayback.com/franchise/gyu-kaku-japanese-bbq-restaurant",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Build cost up to $4.27M per 2025 FDD",
+          "detail": "The 2025 FDD-derived initial investment range is $2,268,261-$4,273,772 - among the heaviest in casual dining (ventilation/grill infrastructure is costly) - versus older directory figures of $1.2M-$2.6M. High fixed investment magnifies downside on underperforming sites.",
+          "source": "FranDB Gyu-Kaku franchise cost analysis (2025 FDD)",
+          "url": "https://www.frandb.com/franchise/gyu-kaku/2025",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "High wealth bar restricts the buyer pool",
+          "detail": "Franchisor requires net worth above $2,000,000 with at least $500,000 liquid, and prefers experienced multi-unit restaurant operators - resale liquidity for an exiting franchisee is correspondingly thinner.",
+          "source": "Gyu-Kaku North America franchising page (franchisor)",
+          "url": "https://www.gyu-kaku.com/own-a-gyu-kaku/",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {"state": "FL", "status": "open", "note": "Miami and Tampa listed as available now (Orlando reserved).", "source": "Gyu-Kaku Franchise Availability (franchisor map)", "url": "https://www.gyu-kaku.com/franchise-availability/", "year": 2026},
+        {"state": "GA", "status": "open", "note": "Atlanta listed as available now.", "source": "Gyu-Kaku Franchise Availability (franchisor map)", "url": "https://www.gyu-kaku.com/franchise-availability/", "year": 2026},
+        {"state": "LA", "status": "open", "note": "Lafayette and Baton Rouge available now (New Orleans, Shreveport reserved).", "source": "Gyu-Kaku Franchise Availability (franchisor map)", "url": "https://www.gyu-kaku.com/franchise-availability/", "year": 2026},
+        {"state": "NV", "status": "open", "note": "Las Vegas listed as available now.", "source": "Gyu-Kaku Franchise Availability (franchisor map)", "url": "https://www.gyu-kaku.com/franchise-availability/", "year": 2026},
+        {"state": "PA", "status": "open", "note": "Allentown and Philadelphia available now.", "source": "Gyu-Kaku Franchise Availability (franchisor map)", "url": "https://www.gyu-kaku.com/franchise-availability/", "year": 2026},
+        {"state": "NJ", "status": "open", "note": "Jersey City listed as available now.", "source": "Gyu-Kaku Franchise Availability (franchisor map)", "url": "https://www.gyu-kaku.com/franchise-availability/", "year": 2026},
+        {"state": "RI", "status": "open", "note": "Providence listed as available now.", "source": "Gyu-Kaku Franchise Availability (franchisor map)", "url": "https://www.gyu-kaku.com/franchise-availability/", "year": 2026},
+        {"state": "TX", "status": "open", "note": "Dallas, Fort Worth, San Antonio available now (Austin, Houston reserved).", "source": "Gyu-Kaku Franchise Availability (franchisor map)", "url": "https://www.gyu-kaku.com/franchise-availability/", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 500000, "source": "Gyu-Kaku North America franchising page (franchisor)", "year": 2026, "confidence": "high"},
+        "netWorthMin": {"value": 2000000, "source": "Gyu-Kaku North America franchising page (franchisor)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 2268261, "source": "Gyu-Kaku 2025 FDD (via FranDB and SHARPSHEETS analyses)", "year": 2025, "confidence": "high", "note": "Older directory figures cite $1,215,000-$2,607,000; the 2025 FDD-derived range is materially higher."},
+        "totalInvestmentMax": {"value": 4273772, "source": "Gyu-Kaku 2025 FDD (via FranDB and SHARPSHEETS analyses)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "Gyu-Kaku FDD fee summaries (Franchise Chatter; FranDB)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Gyu-Kaku FDD fee summaries (Franchise Chatter)", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 1.5, "source": "Gyu-Kaku FDD fee summaries (Franchise Chatter)", "year": 2025, "confidence": "medium", "note": "1.5% advertising fee on gross sales."},
+        "avgUnitRevenue": {"value": 2799531, "source": "Gyu-Kaku FDD Item 19 (via Franchise Help directory)", "year": 2023, "confidence": "medium", "note": "Average revenue of franchised restaurants for FY2022; 45% of franchised restaurants met or exceeded this figure."},
+        "totalUnits": {"value": 64, "source": "FranchisePayback - Gyu-Kaku FDD data", "year": 2026, "confidence": "high", "note": "US 2024: 31 franchised + 33 company-owned. ~825 locations globally across 15 countries including ~500 in Japan."},
+        "yearFounded": {"value": 1996, "source": "Franchise Help - Gyu-Kaku directory profile", "year": 2025, "confidence": "high", "note": "Founded in Japan; North American operator is REINS International (founded 1987)."},
+        "yearFranchising": {"value": 1997, "source": "Franchise Help - Gyu-Kaku directory profile", "year": 2025, "confidence": "medium", "note": "Franchising began in Japan; US franchising came later."},
+        "multiUnitAvailable": {"value": true, "source": "Gyu-Kaku North America franchising page (franchisor seeks multi-unit operators)", "year": 2026, "confidence": "medium"},
+        "internationalAvailability": {"value": true, "source": "Gyu-Kaku franchisor site (15 countries)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Gyu-Kaku franchisor site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranDB / FranchisePayback / SHARPSHEETS FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Help (publishes FDD Item 19-derived AUV)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Glass Doctor",
+      "slug": "glass-doctor",
+      "category": "Home Services",
+      "website": "glassdoctor.com",
+      "notes": "Glass repair/replacement franchise (founded 1962) in the Neighborly portfolio, sold in two formats: Home & Business or Auto glass. Franchisor markets territories via a Neighborly availability map. Buyers should note the unit count has been shrinking and the FDD does not include an Item 19 earnings claim - the AUV figures circulating are franchisor marketing numbers.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Unit count declining (~ -9% year over year)",
+          "detail": "FDD-derived data shows 131 US franchises in the 2025 FDD with a roughly -9% year-over-year decline and zero company-owned units - contraction in a 60+ year-old brand while sister Neighborly brands grow.",
+          "source": "FranchisePayback - Glass Doctor FDD data",
+          "url": "https://www.franchisepayback.com/franchise/glass-doctor",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "No Item 19 financial performance representation in the FDD",
+          "detail": "Glass Doctor does not disclose average unit revenue in its FDD; the $969K (home & business) and $677K (auto) average gross sales figures used in franchise marketing are unaudited franchisor claims, and third-party AUV estimates run far lower (~$537K).",
+          "source": "FranchisePayback - Glass Doctor FDD data; BizBuySell franchise listing",
+          "url": "https://www.franchisepayback.com/franchise/glass-doctor",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Two distinct business models with different economics",
+          "detail": "The Auto format ($155K-$323K) competes with national auto-glass consolidators (Safelite) on insurance-directed work, while Home & Business ($153K-$308K) is a project/contractor business - diligence the local competitive set for the specific format, not the brand generally.",
+          "source": "Neighborly - Glass Doctor investment page",
+          "url": "https://franchise.neighborly.com/glass-doctor/the-investment",
+          "year": 2026
+        }
+      ],
+      "nationwide": {
+        "source": "Neighborly - Glass Doctor investment page (availability map)",
+        "url": "https://franchise.neighborly.com/glass-doctor/the-investment",
+        "year": 2026,
+        "note": "Franchisor markets multiple territories via a nationwide availability map with standard franchise-registration-state disclaimers; confirm specific territory availability with Neighborly."
+      },
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Neighborly - Glass Doctor investment page (franchisor)", "year": 2026, "confidence": "high", "note": "At least $50,000 in readily available funds."},
+        "totalInvestmentMin": {"value": 152900, "source": "Glass Doctor 2025 FDD (via FranchisePayback; Neighborly site)", "year": 2025, "confidence": "high", "note": "Home & Business format $152,900-$308,100; Auto format $155,400-$323,100. Franchisor site cites slightly different ranges ($154,650-$311,850 / $157,150-$326,850)."},
+        "totalInvestmentMax": {"value": 326850, "source": "Glass Doctor 2025 FDD (via FranchisePayback; Neighborly site)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 59900, "source": "Glass Doctor FDD summaries (FranchisePayback; franchiseba)", "year": 2025, "confidence": "medium", "note": "Initial franchise fee included in the investment ranges; minimum-territory pricing."},
+        "royaltyPercent": {"value": 5, "source": "SHARPSHEETS Glass Doctor FDD analysis (2025)", "year": 2025, "confidence": "medium", "note": "Most-quoted figure is 5% of gross sales; FDD-derived sources cite a 4%-7% sliding scale by revenue."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS Glass Doctor FDD analysis (2025)", "year": 2025, "confidence": "medium", "note": "Marketing/brand fund ~2% of gross sales; some directory sources cite up to 4%."},
+        "avgUnitRevenue": {"value": 969000, "source": "Glass Doctor franchise marketing (via BizBuySell franchisor listing)", "year": 2025, "confidence": "medium", "note": "Franchisor-marketed average gross sales for Home & Business format; Auto format average $677K. NOT an FDD Item 19 figure - no Item 19 is published."},
+        "totalUnits": {"value": 131, "source": "Glass Doctor 2025 FDD (via FranchisePayback)", "year": 2025, "confidence": "high", "note": "All franchised, 0 company-owned; franchisor marketing cites 180+ locations including Canada, across 39 states."},
+        "yearFounded": {"value": 1962, "source": "FranchisePayback; Neighborly brand page", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1977, "source": "FranchisePayback - Glass Doctor FDD data", "year": 2025, "confidence": "medium"},
+        "veteranDiscount": {"value": true, "source": "Neighborly - Glass Doctor investment page (VetFran)", "year": 2026, "confidence": "high", "note": "20% off the franchise fee through VetFran."},
+        "financingOffered": {"value": true, "source": "Neighborly - Glass Doctor investment page", "year": 2026, "confidence": "medium", "note": "Franchisor financing available through Neighborly partnerships, alongside SBA/bank/401(k) rollover routes."},
+        "isGrowing": {"value": false, "source": "FranchisePayback - Glass Doctor FDD data", "year": 2025, "confidence": "medium", "note": "~ -9% year-over-year unit decline per 2025 FDD-derived data."},
+        "businessModelType": {"value": "both", "source": "Neighborly - Glass Doctor brand page (residential, commercial, and auto glass)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranchisePayback / SHARPSHEETS FDD analyses (2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "FranchisePayback (notes Glass Doctor does not disclose AUV in its FDD)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Keller Williams Realty",
+      "slug": "keller-williams-realty",
+      "category": "Real Estate",
+      "website": "kw.com",
+      "notes": "World's largest real estate franchise by agent count (Austin, TX; founded 1983, franchising 1987), sold as 'market center' brokerage franchises. The franchisor does not publish a state-by-state availability list - market centers are awarded by region - so state availability is omitted. Buyers should weigh the post-2024 commission-lawsuit restructuring of the entire US residential brokerage economics.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "$70M Sitzer/Burnett commission-collusion settlement",
+          "detail": "After a Missouri jury found KW, NAR, and HomeServices liable in 2023 for colluding to inflate agent commissions ($1.78B verdict, trebled exposure $5B+), Keller Williams settled the Sitzer/Burnett and related Moehrl cases for $70 million in February 2024, with industry-wide practice changes (buyer-agency agreements, decoupled commissions) that pressure franchisee market-center revenue.",
+          "source": "HousingWire",
+          "url": "https://www.housingwire.com/articles/keller-williams-settles-the-sitzer-burnett-commission-lawsuit-for-70-million/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Additional $20M Batton homebuyer settlement (2026)",
+          "detail": "Keller Williams settled the Batton homebuyer antitrust case for $20 million in February 2026 - continuing tail risk from commission litigation beyond the 2024 seller-side settlements.",
+          "source": "The Real Deal",
+          "url": "https://therealdeal.com/national/2026/02/03/keller-williams-settles-batton-commission-case/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Profit-sharing program litigation from former agents",
+          "detail": "Multiple former-agent class actions challenged KW's 2023 decision to cut vested profit-share distributions to agents who moved to competitors; KW rescinded the changes in May 2024 and settled some suits, but the episode goes to the durability of the profit-share recruiting model that underpins market-center economics.",
+          "source": "HousingWire",
+          "url": "https://www.housingwire.com/articles/keller-williams-settles-lawsuits-tied-to-profit-sharing-program/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "Franchise Direct - Keller Williams Realty FDD summary", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 500000, "source": "Franchise Direct - Keller Williams Realty FDD summary", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 183447, "source": "Keller Williams 2025 FDD (via FranchisePayback)", "year": 2025, "confidence": "high", "note": "Market-center launch; excludes working capital to sustain operations through early growth."},
+        "totalInvestmentMax": {"value": 336495, "source": "Keller Williams 2025 FDD (via FranchisePayback)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 35000, "source": "Keller Williams 2025 FDD (via FranchisePayback and Franchise Direct)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Franchise Direct - Keller Williams Realty FDD summary", "year": 2025, "confidence": "high", "note": "6% of gross commission income, capped (royalty cap reached at roughly $3,000 per agent per year)."},
+        "totalUnits": {"value": 1125, "source": "FranchisePayback - Keller Williams Realty FDD data", "year": 2026, "confidence": "medium", "note": "US market centers; FranChimp counts 1,058. Offices also in Turkey, Vietnam, Portugal, Paraguay, and other countries."},
+        "yearFounded": {"value": 1983, "source": "Franchise Direct; FranChimp Keller Williams profile", "year": 2025, "confidence": "high", "note": "Founded in Austin, TX by Gary Keller and Joe Williams."},
+        "yearFranchising": {"value": 1987, "source": "Franchise Direct; FranChimp Keller Williams profile", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "FranChimp Keller Williams profile (units in Turkey, Vietnam, Portugal, Paraguay)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Keller Williams brand site (residential brokerage)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranChimp (hosts public KW FDD copies); Vetted Biz analysis", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Metal Supermarkets",
+      "slug": "metal-supermarkets",
+      "category": "Retail",
+      "website": "metalsupermarkets.com",
+      "notes": "Small-quantity metal distribution franchise ('convenience store for metal') founded 1985 outside Toronto; franchising since 1987, in the US since 1996. B2B model serving maintenance, fabrication, and repair customers with no minimum order. 92 US franchised stores in 34 states at end of 2024 (134 systemwide incl. Canada/UK); franchisor does not publish a state-by-state availability list, so availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Slow first-year ramp versus mature-store averages",
+          "detail": "Per the franchisor's own ramp data in 2026 FDD-derived analysis, average first-year revenue is $516,554 and second-year $868,800 - roughly a quarter and half of the $2.06M mature-store average - so working capital must carry the business well past year one.",
+          "source": "Franchise Chatter 2026 FDD review",
+          "url": "https://www.franchisechatter.com/2026/01/24/metal-supermarkets-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Private-equity investment (Riverarch) completed 2024",
+          "detail": "Riverarch Equity Partners completed an investment in Metal Supermarkets, moving the 40-year-old founder-built system under PE ownership - watch for fee and supply-program changes in subsequent FDDs.",
+          "source": "Franchise Chatter 2026 FDD review",
+          "url": "https://www.franchisechatter.com/2026/01/24/metal-supermarkets-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Fixed local-advertising minimum on top of tiered royalty",
+          "detail": "Franchisees pay a tiered royalty (6%/5%/3% by monthly sales band), a 2% brand fund, AND must spend the greater of $10,000 or 1% of gross sales annually on local advertising - a fixed obligation that bites hardest during the slow first-year ramp.",
+          "source": "Franchise Chatter 2026 FDD review",
+          "url": "https://www.franchisechatter.com/2026/01/24/metal-supermarkets-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 350500, "source": "Metal Supermarkets 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 612500, "source": "Metal Supermarkets 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 44500, "source": "Metal Supermarkets 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Metal Supermarkets 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Tiered: 6% on monthly gross sales to $143,562; 5% from $143,563-$212,472; 3% above $212,473."},
+        "adFundPercent": {"value": 2, "source": "Metal Supermarkets 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2% brand fund plus local ad spend of the greater of $10,000 or 1% of gross sales annually."},
+        "avgUnitRevenue": {"value": 2059999, "source": "Metal Supermarkets 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2024 average gross sales per store; median $1,748,967; range $584,141-$5,958,874; average gross margin 51.05%."},
+        "totalUnits": {"value": 93, "source": "Metal Supermarkets 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "US end of 2024: 92 franchised + 1 company-owned, across 34 states; 134 stores systemwide incl. Canada and UK as of May 2025."},
+        "yearFounded": {"value": 1985, "source": "Metal Supermarkets corporate history page (franchisor)", "year": 2026, "confidence": "high", "note": "First store in Mississauga, Ontario."},
+        "yearFranchising": {"value": 1987, "source": "Metal Supermarkets corporate history page (franchisor)", "year": 2026, "confidence": "high", "note": "US franchising since 1996 (first US store: Atlanta, GA)."},
+        "isGrowing": {"value": true, "source": "Metal Supermarkets 2026 FDD outlet tables (via Franchise Chatter); franchisor 100th-US-store release", "year": 2026, "confidence": "high", "note": "US franchised units 81 -> 83 -> 92 across 2022-2024; 100th US store opened May 2025; 11th consecutive year of sales growth."},
+        "internationalAvailability": {"value": true, "source": "Metal Supermarkets corporate history page (US, Canada, UK)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2b", "source": "Metal Supermarkets franchisor site (serves industrial/commercial small-quantity buyers)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review; Vetted Biz", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Fyzical Therapy & Balance Centers",
+      "slug": "fyzical-therapy-and-balance-centers",
+      "category": "Health & Wellness",
+      "website": "fyzical.com",
+      "notes": "Fast-growing physical therapy / balance-and-vestibular clinic franchise (Sarasota, FL; founded 2012, franchising 2013) that passed 600 clinics in 46 states in 2024. Demand tailwind from aging demographics, but franchisee-owned clinics materially underperform company-owned ones in the Item 19. Franchisor does not publish a state-by-state availability list, so availability is omitted (system spans 46 states).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisee clinics earn far less than company-owned clinics",
+          "detail": "2024 Item 19: 213 franchisee-owned centers averaged $604,438 gross revenue (median $450,372) versus $980,917 average for 45 company-owned centers; the franchisee revenue range stretched down to $28,190. Mature (36+ month) franchisee clinics averaged $788,254 vs $1,005,415 company-owned.",
+          "source": "Fyzical 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/20/fyzical-therapy-balance-centers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Royalty minimums apply regardless of revenue",
+          "detail": "Royalty is the greater of 6% of gross revenue or fixed monthly minimums that escalate from $1,000 (year 1) to $2,000 (year 2) to $3,000 per month in years 3-10 - a $36,000/year floor that bites hard for clinics near the $450K franchisee median.",
+          "source": "Fyzical 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/20/fyzical-therapy-balance-centers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Dormant marketing fund can be switched on (up to 2%)",
+          "detail": "The FDD reserves a marketing fund contribution of up to 2% of gross revenue per month that is 'currently not charged' - an ongoing-fee increase the franchisor can activate. Clinician labor cost is also significant (staff PT average salary ~$88K-$93K).",
+          "source": "Fyzical 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/20/fyzical-therapy-balance-centers-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Fyzical FDD-derived directory summaries (Franchise Chatter / Franchise Gator)", "year": 2025, "confidence": "medium", "note": "Minimum net worth $350,000 per the same sources."},
+        "netWorthMin": {"value": 350000, "source": "Fyzical FDD-derived directory summaries (Franchise Chatter / Franchise Gator)", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 217850, "source": "Fyzical 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Older directory figures cite $191,750-$479,000."},
+        "totalInvestmentMax": {"value": 518600, "source": "Fyzical 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49000, "source": "Fyzical 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "FDD discloses $20,000-$49,000 depending on program/territory; $49,000 standard."},
+        "royaltyPercent": {"value": 6, "source": "Fyzical 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Greater of 6% of gross revenue or escalating monthly minimums ($1K/$2K/$3K by year)."},
+        "adFundPercent": {"value": 2, "source": "Fyzical 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "Reserved at up to 2% of gross revenue per month but currently NOT charged."},
+        "avgUnitRevenue": {"value": 604438, "source": "Fyzical 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross revenue for 213 franchisee-owned centers; median $450,372. Mature 36+ month franchisee clinics averaged $788,254."},
+        "totalUnits": {"value": 595, "source": "Fyzical 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "End of 2024: 539 franchised + 56 company-owned, across 46 states."},
+        "yearFounded": {"value": 2012, "source": "Business Observer (Sarasota) franchise coverage; Entrepreneur directory", "year": 2024, "confidence": "high", "note": "Founded in Sarasota, FL."},
+        "yearFranchising": {"value": 2013, "source": "Business Observer (Sarasota) franchise coverage; Entrepreneur directory", "year": 2024, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Fyzical 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Franchised units +52 (2022), +50 (2023), +45 (2024); 600th clinic opened October 2024."},
+        "businessModelType": {"value": "b2c", "source": "Fyzical franchisor site (outpatient clinic model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Gold's Gym",
+      "slug": "golds-gym",
+      "category": "Fitness",
+      "website": "goldsgym.com",
+      "notes": "Iconic big-box gym brand (Venice Beach, 1965) now owned by Germany's RSG Group, which bought it out of Chapter 11 in 2020 for ~$100M. Big-box economics: 20,000-35,000 sq ft facilities and a $1.8M-$4.5M build. The franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisor parent went through Chapter 11 bankruptcy (2020)",
+          "detail": "GGI Holdings (Gold's Gym) filed Chapter 11 in May 2020 after COVID shutdowns, permanently closing about 30 company-owned gyms, and was sold at auction to RSG Group for an estimated $100 million, emerging with 61 company-owned and 600+ franchised gyms.",
+          "source": "Gold's Gym restructuring statement; PR Newswire (RSG acquisition)",
+          "url": "https://www.prnewswire.com/news-releases/rsg-group-set-to-acquire-golds-gym-301092698.html",
+          "year": 2020
+        },
+        {
+          "severity": "caution",
+          "title": "Heavy investment with a long estimated payback",
+          "detail": "FDD-derived analysis pegs the investment at $1.79M-$4.54M for a 20,000-35,000 sq ft facility against estimated owner earnings of $209K-$261K - a 14.5-16.5 year payback estimate per Vetted Biz, before debt service.",
+          "source": "Vetted Biz - Gold's Gym Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/golds-gym",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Post-bankruptcy estate dispute recovered $7.85M for new owner",
+          "detail": "RSG-owned Gold's Gym recovered $7.85 million from the bankruptcy estate in 2024 over 'failure to disclose' claims tied to the 2020 sale - a reminder that the brand's restructuring-era liabilities continued to surface years later.",
+          "source": "Business Wire",
+          "url": "https://www.businesswire.com/news/home/20241017773453/en/New-Owner-of-Golds-Gym-Recovers-$7.85-Million-From-Bankruptcy-Estate-for-Failure-to-Disclose",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Litigation and bankruptcy history disclosed in FDD",
+          "detail": "FDD-tracking services note Gold's Gym discloses lawsuits and/or bankruptcy information in its FDD Items 3/4 - review the current FDD's disclosures before signing.",
+          "source": "Vetted Biz - Gold's Gym Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/golds-gym",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 495000, "source": "Vetted Biz - Gold's Gym Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 1793500, "source": "Gold's Gym FDD (via Vetted Biz and SHARPSHEETS analyses)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 4537000, "source": "Gold's Gym FDD (via Vetted Biz and SHARPSHEETS analyses)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "Gold's Gym FDD summaries (Vetted Biz; Franchise Direct)", "year": 2025, "confidence": "high", "note": "10-year initial term from facility opening."},
+        "royaltyPercent": {"value": 5, "source": "Gold's Gym FDD summaries (Vetted Biz; Franchise Direct)", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "Gold's Gym FDD summaries (Vetted Biz; Franchise Direct)", "year": 2025, "confidence": "high", "note": "2% of gross sales marketing fee."},
+        "avgUnitRevenue": {"value": 1743000, "source": "Vetted Biz - Gold's Gym Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Estimated yearly gross sales per gym."},
+        "totalUnits": {"value": 158, "source": "Gold's Gym 2024 FDD (via SHARPSHEETS analysis)", "year": 2024, "confidence": "medium", "note": "US franchised locations per 2024 FDD; Vetted Biz lists 211 total US locations incl. company-owned. ~600 franchised gyms worldwide post-bankruptcy."},
+        "yearFounded": {"value": 1965, "source": "PR Newswire - RSG Group acquisition release ('Established in 1965 in Venice, California')", "year": 2020, "confidence": "high"},
+        "yearFranchising": {"value": 1980, "source": "Franchise Direct - Gold's Gym FDD summary", "year": 2025, "confidence": "medium"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Gold's Gym Franchise Insights", "year": 2025, "confidence": "medium", "note": "Approximately two weeks at Gold's Gym headquarters (Dallas, TX)."},
+        "veteranDiscount": {"value": true, "source": "SHARPSHEETS / Franchise Direct Gold's Gym FDD summaries", "year": 2025, "confidence": "medium", "note": "20% off the initial franchise fee for qualifying veterans."},
+        "bankruptcyDisclosed": {"value": true, "source": "GGI Holdings Chapter 11 (2020); Vetted Biz FDD disclosure note", "year": 2020, "confidence": "high", "note": "Parent entity Chapter 11 in 2020; sold to RSG Group."},
+        "internationalAvailability": {"value": true, "source": "PR Newswire - RSG Group acquisition release (gyms on six continents)", "year": 2020, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Gold's Gym franchisor site (membership gym)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS Gold's Gym FDD analyses", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "ProSource Wholesale",
+      "slug": "prosource-wholesale",
+      "category": "Retail",
+      "website": "prosourcewholesale.com",
+      "notes": "Members-only wholesale showroom franchise (flooring, kitchen, bath) selling to trade professionals - contractors, remodelers, designers - rather than walk-in consumers. Part of co-op giant CCA Global Partners; ~148 US showrooms. Strong FDD-derived unit economics ($4.7M AUV at wholesale margins) against a high and rising build cost. No published state availability list, so availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Investment requirement has risen sharply across recent FDDs",
+          "detail": "FDD-derived investment figures have climbed from roughly $565,301-$592,566 in earlier disclosures to $945,785-$961,985 per Vetted Biz's current analysis (FranchisePayback cites $748K-$755K) - showroom build-out and initial inventory inflation that compresses returns versus older directory expectations.",
+          "source": "Vetted Biz - ProSource Franchise Insights; The Franchise Mall FDD summary",
+          "url": "https://www.vettedbiz.com/franchises/prosource",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Fixed marketing minimums regardless of revenue",
+          "detail": "Beyond the 3% royalty (minimum $2,000/month), franchisees must spend at least $25,400 on marketing in year one and the greater of $32,000 or 1% of gross sales in each following year - fixed obligations that are material during ramp-up.",
+          "source": "IFPG - ProSource Wholesale franchise requirements (FDD-derived)",
+          "url": "https://www.ifpg.org/top-franchises/prosource-wholesale",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Litigation and/or bankruptcy history disclosed in FDD",
+          "detail": "FDD-tracking services note ProSource discloses lawsuits and/or bankruptcy information in its FDD - review Items 3/4 with a franchise attorney. The B2B remodeling model also ties revenue to housing/renovation cycles.",
+          "source": "Vetted Biz - ProSource Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/prosource",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 190000, "source": "Vetted Biz - ProSource Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 945785, "source": "Vetted Biz - ProSource Franchise Insights (current FDD-derived)", "year": 2025, "confidence": "medium", "note": "FranchisePayback cites $748,282-$754,581; older FDD summaries cite $565,301-$592,566 incl. ~$213,404 paid to franchisor/affiliates."},
+        "totalInvestmentMax": {"value": 961985, "source": "Vetted Biz - ProSource Franchise Insights (current FDD-derived)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 46450, "source": "ProSource FDD summaries (IFPG; Vetted Biz)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 3, "source": "ProSource FDD summaries (IFPG; Vetted Biz)", "year": 2025, "confidence": "high", "note": "3% of gross sales with a $2,000/month minimum."},
+        "avgUnitRevenue": {"value": 4669738, "source": "Vetted Biz - ProSource Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Yearly gross sales at wholesale margins; Vetted Biz estimates owner earnings of $653,764-$840,553 and a 1.8-3.8 year payback."},
+        "totalUnits": {"value": 148, "source": "Vetted Biz - ProSource Franchise Insights", "year": 2025, "confidence": "medium", "note": "US locations; ~150 including Canada per directory sources."},
+        "yearFounded": {"value": 1990, "source": "Vetted Biz - ProSource Franchise Insights", "year": 2025, "confidence": "high", "note": "Part of CCA Global Partners."},
+        "yearFranchising": {"value": 1991, "source": "Vetted Biz - ProSource Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - ProSource Franchise Insights", "year": 2025, "confidence": "medium", "note": "Initial training over a two-week period at ProSource headquarters."},
+        "veteranDiscount": {"value": true, "source": "ProSource franchise FAQ / IFPG (FDD-derived)", "year": 2025, "confidence": "high", "note": "Qualified military veterans receive a $26,450 discount off the franchise fee."},
+        "businessModelType": {"value": "b2b", "source": "ProSource franchisor site (members-only showroom for trade professionals)", "year": 2026, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Membership-based: showrooms serve repeat trade-pro members (contractors, remodelers, designers) rather than retail walk-ins", "source": "ProSource franchise FAQ (franchisor site); Vetted Biz", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS ProSource FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz (publishes FDD Item 19-derived AUV); ProSource franchise FAQ references Item 19", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Del Taco",
+      "slug": "del-taco",
+      "category": "Food & Beverage",
+      "website": "deltaco.com",
+      "notes": "Second-largest Mexican QSR chain (~580-594 restaurants in ~15 states; founded 1964, franchising 1967). In transition: sold by Jack in the Box to franchise operator Yadav Enterprises in December 2025 for ~$119M after five straight quarters of declining systemwide sales, 32 FY2025 closures, and franchisee bankruptcies. Franchise development continues via deltacofranchise.com; no published state availability list, so availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Sold to Yadav Enterprises at an ~80% discount to its 2022 price",
+          "detail": "Jack in the Box bought Del Taco for $585M in 2022 and sold it to multi-brand franchisee Yadav Enterprises in December 2025 for approximately $119 million - a massive value writedown that followed five consecutive quarters of declining systemwide sales. New ownership's strategy for the franchise system is unproven.",
+          "source": "Jack in the Box Inc. Form 8-K (SEC EDGAR); Restaurant Dive",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000807882/000080788225000081/ex991-pressreleasexdeltaco.htm",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "32 closures in FY2025 plus franchisee Chapter 11 and full Georgia market exit",
+          "detail": "Del Taco closed 32 restaurants in the fiscal year ended Sept 28, 2025. Franchisee Matador Restaurant Group (22 locations in GA/AL) filed Chapter 11 in July 2025 and closed all 14 of its Georgia-area restaurants in early 2026, ending the brand's presence in the state.",
+          "source": "Restaurant Dive; Franchise Times",
+          "url": "https://www.restaurantdive.com/news/del-taco-bankrupt-franchisee-closes-georgia-restaurants/812868/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Two ownership changes in four years",
+          "detail": "Del Taco went public (2015 SPAC), was acquired by Jack in the Box (2022), and is now owned by Yadav Enterprises (2025) - repeated strategy resets for franchisees, though Yadav is itself a large operator of Jack in the Box, Denny's, and Taco Cabana restaurants.",
+          "source": "Restaurant Dive / AOL-Reuters coverage of the Yadav sale",
+          "url": "https://www.restaurantdive.com/news/del-taco-bankrupt-franchisee-closes-georgia-restaurants/812868/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 500000, "source": "Del Taco franchise site (deltacofranchise.com costs page)", "year": 2026, "confidence": "high"},
+        "netWorthMin": {"value": 1000000, "source": "Del Taco franchise site (deltacofranchise.com costs page)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMin": {"value": 1497200, "source": "Del Taco 2025 FDD (via The FDD Exchange and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 3321000, "source": "Del Taco 2025 FDD (via The FDD Exchange and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 35000, "source": "Del Taco 2025 FDD (via The FDD Exchange and VetMyFranchise)", "year": 2025, "confidence": "high", "note": "Plus a $10,000 promotional (grand opening) fee for a single location."},
+        "royaltyPercent": {"value": 5, "source": "Del Taco 2025 FDD (via The FDD Exchange and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "5% of net sales."},
+        "adFundPercent": {"value": 4, "source": "Del Taco 2025 FDD (via The FDD Exchange and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "4% of net sales marketing fee."},
+        "avgUnitRevenue": {"value": 1541000, "source": "Del Taco franchise site AUV disclosure (Item 19-derived, deltacofranchise.com)", "year": 2025, "confidence": "high", "note": "Average franchised-restaurant AUV."},
+        "totalUnits": {"value": 594, "source": "Del Taco 2025 FDD outlet data (via FranchisePayback)", "year": 2025, "confidence": "high", "note": "461 franchised + 133 company-owned; ~15 states. Count declining (32 closures FY2025)."},
+        "yearFounded": {"value": 1964, "source": "Franchise Gator / Wikipedia (founded by Ed Hackbarth and David Jameson, Yermo, CA)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1967, "source": "Franchise Gator Del Taco profile", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Franchise Gator Del Taco profile", "year": 2025, "confidence": "medium", "note": "$499 training fee waived for veterans (modest benefit; no franchise-fee discount published)."},
+        "thirdPartyFinancing": {"value": "Financing available via third-party relationships per directory listings", "source": "Franchise Gator Del Taco profile", "year": 2025, "confidence": "medium"},
+        "multiUnitAvailable": {"value": true, "source": "Del Taco franchise site (multi-unit development agreements marketed)", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "Restaurant Dive; Jack in the Box SEC disclosures", "year": 2025, "confidence": "high", "note": "Five consecutive quarters of declining systemwide sales through mid-2025; 32 closures in FY2025; Georgia market exited."},
+        "businessModelType": {"value": "b2c", "source": "Del Taco franchisor site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Del Taco 2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Del Taco franchise site publishes Item 19-derived AUV", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Fish Window Cleaning",
+      "slug": "fish-window-cleaning",
+      "category": "Services",
+      "website": "fishwindowcleaning.com",
+      "notes": "World's largest window-cleaning franchise (St. Louis; founded 1978, franchising 1998), built on recurring low-rise commercial routes plus residential work. Low-cost, owner-managed model with ~270 territories. Franchisor does not publish a state-by-state availability list, so availability is omitted; system operates coast to coast.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Royalty and brand fee are charged on minimum performance standards even if sales fall short",
+          "detail": "The 5%-8% royalty and 1% brand-building fee are calculated on the GREATER of actual gross sales or the 'Applicable Minimum Performance Standard' - so an underperforming franchisee pays fees on revenue they did not earn.",
+          "source": "Fish Window Cleaning 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/29/fish-window-cleaning-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "11 franchises permanently closed in 2024; flat system for a decade",
+          "detail": "11 franchises closed permanently in 2024 (~4% of the system) and net unit count has been roughly flat (264-270) since 2022 (-6 in 2022, +1 in 2023, +5 in 2024) - a mature system with churn rather than growth.",
+          "source": "Fish Window Cleaning 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/29/fish-window-cleaning-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Bottom half of the system averages only ~$259K revenue",
+          "detail": "2024 Item 19: top 10% of territories averaged $1,376,037, top 50% averaged $775,483, but the bottom 50% (126 units) averaged just $259,074 - owner earnings in the bottom half are modest after labor and fees.",
+          "source": "Fish Window Cleaning 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/29/fish-window-cleaning-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 129400, "source": "Fish Window Cleaning 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Vetted Biz cites $107,000-$174,000 across territory sizes."},
+        "totalInvestmentMax": {"value": 144500, "source": "Fish Window Cleaning 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49900, "source": "Fish Window Cleaning 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "$49,900-$74,900 depending on territory size."},
+        "royaltyPercent": {"value": 8, "source": "Fish Window Cleaning 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Sliding 5%-8% scale of the greater of gross sales or the applicable minimum performance standard; 8% applies at entry-level volumes."},
+        "adFundPercent": {"value": 1, "source": "Fish Window Cleaning 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "1% brand-building fee on the greater of gross sales or minimum performance standard."},
+        "avgUnitRevenue": {"value": 470748, "source": "Vetted Biz - Fish Window Cleaning Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "System-wide yearly gross sales estimate; 2024 Item 19 segments: top 10% avg $1,376,037 / top 50% avg $775,483 / bottom 50% avg $259,074."},
+        "totalUnits": {"value": 270, "source": "Fish Window Cleaning 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "End of 2024: 269 franchised + 1 company-owned."},
+        "yearFounded": {"value": 1978, "source": "Fish Window Cleaning franchisor About Us page (founded by Mike Merrick, January 1978)", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1998, "source": "Fish Window Cleaning franchisor About Us page (first franchise opened 1998)", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Fish Window Cleaning 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "medium", "note": "Marginally: +5 net units in 2024 after -6 (2022) and +1 (2023); effectively a flat mature system."},
+        "businessModelType": {"value": "both", "source": "Franchise Chatter 2025 FDD review (commercial route + residential revenue segments)", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Fish Window Cleaning franchisor site (route-based service from small office/home base)", "year": 2026, "confidence": "medium"},
+        "customerAcquisitionModel": {"value": "Recurring commercial route accounts (average route job ~$1,054/year) supplemented by residential jobs", "source": "Fish Window Cleaning 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "RNR Tire Express",
+      "slug": "rnr-tire-express",
+      "category": "Automotive",
+      "website": "rnrtires.com",
+      "notes": "Rent-to-own (lease-purchase) tire and wheel retail franchise (Tampa, FL; founded 2000 by Larry Sutton) serving credit-constrained customers who pay for tires over time. ~193 US stores (169 franchised + 24 company). Strong store-level economics per Item 19 analyses, but the RTO pricing model carries consumer-protection scrutiny. No published state availability list, so availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Rent-to-own pricing model draws consumer-protection criticism",
+          "detail": "Consumer journalism and advocates have flagged tire rent-to-own contracts for high effective total costs versus retail purchase and have called for FTC/CFPB oversight of RTO operators; BBB complaint threads include customers alleging lease payments continued past payoff. Regulatory tightening of RTO terms is a model-level risk.",
+          "source": "ABC7 News (7 On Your Side) - Is renting new tires a good deal?; BBB complaint records",
+          "url": "https://abc7news.com/post/7-on-your-side-is-renting-new-tires-a-good-deal/505111/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Third-party profitability estimates diverge widely",
+          "detail": "SHARPSHEETS' FDD-derived analysis (avg ~$1.85M sales, ~$271K operating income, 14.6% margin) implies payback in roughly 2 years, while Vetted Biz estimates owner earnings of $155K-$207K and a 7.2-9.2 year payback on the same brand - model assumptions matter; underwrite from the actual Item 19.",
+          "source": "SHARPSHEETS RNR Tire Express FDD analysis; Vetted Biz Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/rnr-tire-express/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Clean FDD litigation record",
+          "detail": "FDD-tracking services report RNR Tire Express does not disclose lawsuits or bankruptcy information in its FDD - a comparatively clean Item 3/Item 4 record.",
+          "source": "Vetted Biz - RNR Tire Express Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/rnr-tire-express/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 190000, "source": "Vetted Biz - RNR Tire Express Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 711561, "source": "Vetted Biz - RNR Tire Express Franchise Insights (FDD-derived)", "year": 2025, "confidence": "high", "note": "Franchise Direct cites $704,000-$1,687,000."},
+        "totalInvestmentMax": {"value": 1712275, "source": "Vetted Biz - RNR Tire Express Franchise Insights (FDD-derived)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 45000, "source": "RNR Tire Express FDD summaries (Vetted Biz; Franchise Direct)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "RNR Tire Express FDD summaries (Vetted Biz; SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "5% of gross revenues, payable biweekly."},
+        "adFundPercent": {"value": 5, "source": "SHARPSHEETS RNR Tire Express FDD analysis", "year": 2025, "confidence": "medium", "note": "5% marketing fee per FDD-derived summaries."},
+        "avgUnitRevenue": {"value": 1726278, "source": "Vetted Biz - RNR Tire Express Franchise Insights (FDD-derived)", "year": 2025, "confidence": "high", "note": "SHARPSHEETS cites average $1,816,346 / median $1,858,965; range $558,970-$4,790,394 per 2025 FDD-derived data."},
+        "totalUnits": {"value": 193, "source": "RNR Tire Express FDD outlet data (via FranchisePayback)", "year": 2025, "confidence": "high", "note": "169 franchised + 24 company-owned; Vetted Biz lists ~200 US locations."},
+        "yearFounded": {"value": 2000, "source": "RNR Franchise site / Patch coverage (founded by Larry Sutton)", "year": 2025, "confidence": "high", "note": "Vetted Biz lists 1999."},
+        "yearFranchising": {"value": 2002, "source": "Vetted Biz - RNR Tire Express Franchise Insights", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "RNR franchisor site", "year": 2026, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Lease-to-own/lease-purchase tire and wheel sales to credit-constrained customers paying weekly or biweekly", "source": "RNR Franchise site (franchisor)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS RNR FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS (publishes FDD Item 19-derived sales and operating income)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Schlotzsky's",
+      "slug": "schlotzskys",
+      "category": "Food & Beverage",
+      "website": "schlotzskys.com",
+      "notes": "Austin-born toasted-sandwich bakery cafe (founded 1971, franchising 1976), one of seven GoTo Foods (formerly Focus Brands) brands, recruiting via development.gotofoods.com/schlotzskys. ~308 US units concentrated in the South/Southwest - well below the brand's ~750-store late-1990s peak after a 2004 franchisor bankruptcy. No published state availability list, so availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisor Chapter 11 (2004) and long-run system contraction",
+          "detail": "Schlotzsky's Inc. filed Chapter 11 in August 2004 (~$71.3M liabilities) after assuming franchisee credit risk and buying back developer rights; the system has contracted from roughly 750 stores at peak to ~300 today under successive owners (Bobby Cox Companies, then Focus Brands/GoTo Foods).",
+          "source": "Austin Chronicle - The Life of a Sandwich; Tasting Table brand history",
+          "url": "https://www.austinchronicle.com/news/2004-10-08/232203/",
+          "year": 2004
+        },
+        {
+          "severity": "caution",
+          "title": "Combined ongoing fees up to ~11% of gross sales",
+          "detail": "FDD-derived summaries cite a 6% royalty plus marketing obligations of about 5% of gross sales - a heavier ongoing-fee load than most sandwich competitors, against a ~$1.0M AUV.",
+          "source": "SHARPSHEETS Schlotzsky's FDD analysis; Franchise Direct FDD summary",
+          "url": "https://sharpsheets.io/blog/schlotzskys-franchises-costs-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "One of seven brands inside the GoTo Foods platform",
+          "detail": "Schlotzsky's competes for development capital and attention with Auntie Anne's, Cinnabon, Carvel, Jamba, McAlister's Deli, and Moe's inside parent GoTo Foods - franchisees are one brand among many in the platform's capital-allocation decisions.",
+          "source": "GoTo Foods development site",
+          "url": "https://development.gotofoods.com/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 648000, "source": "Schlotzsky's 2025 FDD (via SHARPSHEETS analysis)", "year": 2025, "confidence": "high", "note": "FranchisePayback cites $714,400-$954,400 for current standard formats; high end reflects freestanding drive-thru builds."},
+        "totalInvestmentMax": {"value": 1951000, "source": "Schlotzsky's 2025 FDD (via SHARPSHEETS analysis)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 37500, "source": "Schlotzsky's FDD summaries (Franchise Direct; SHARPSHEETS)", "year": 2025, "confidence": "medium", "note": "Disclosed as up to $37,500; reduced fees for some formats/multi-unit commitments."},
+        "royaltyPercent": {"value": 6, "source": "Schlotzsky's FDD summaries (SHARPSHEETS; Franchise Direct)", "year": 2025, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 5, "source": "Schlotzsky's FDD summaries (SHARPSHEETS; topfranchise)", "year": 2025, "confidence": "medium", "note": "~5% combined marketing obligation per FDD-derived sources; some directories cite a 4% media fund plus local spend."},
+        "avgUnitRevenue": {"value": 1045000, "source": "Schlotzsky's FDD Item 19-derived AUV (via SHARPSHEETS)", "year": 2025, "confidence": "medium", "note": "Average franchised-restaurant revenue."},
+        "totalUnits": {"value": 308, "source": "Schlotzsky's 2025 FDD outlet data (via FranchisePayback)", "year": 2025, "confidence": "high", "note": "280 franchised + 28 company-owned, across 20+ states concentrated in the South/Southwest."},
+        "yearFounded": {"value": 1971, "source": "Wikipedia / Austin Chronicle (founded by Don and Dolores Dissman, Austin, TX)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1976, "source": "Wikipedia - Schlotzsky's brand history", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "GoTo Foods - Schlotzsky's development site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / FranchisePayback Schlotzsky's FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS (publishes Item 19-derived AUV); Franchise Chatter historical Item 19 reviews", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Allegra Marketing Print Mail",
+      "slug": "allegra-marketing-print-mail",
+      "category": "Services",
+      "website": "allegramarketingprint.com",
+      "notes": "B2B print, marketing services, mail, and signage franchise (Plymouth, MI; founded 1976, franchising 1977) under multi-brand parent Alliance Franchise Brands. ~184 North American centers and shrinking; growth leans on converting existing independent print shops to the brand. No published state availability list, so availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Unit count declining ~4% year over year in a contracting industry",
+          "detail": "FDD-derived data shows 183 franchised units (plus 1 company-owned), down about 4% year over year - consistent with long-run contraction of the commercial printing category that the brand has offset only partly by adding marketing/mail/signs services.",
+          "source": "FranchisePayback - Allegra FDD data",
+          "url": "https://www.franchisepayback.com/franchise/allegra",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No formal Item 19 AUV disclosure",
+          "detail": "Allegra does not formally disclose average unit revenue; the ~$757,000 AUV and 17.1% operating-profit figures circulating are third-party estimates rather than audited FDD Item 19 numbers.",
+          "source": "FranchisePayback - Allegra FDD data",
+          "url": "https://www.franchisepayback.com/franchise/allegra",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Conversion-driven system inside a multi-brand parent",
+          "detail": "Allegra actively recruits existing independent printers to convert (reduced $10,000 conversion fee per FDD summaries), and parent Alliance Franchise Brands also operates Signs Now, Image360, KKP, and other brands - unit counts mix conversions with greenfield openings, and the parent's attention spans many brands.",
+          "source": "Franchise Direct - Allegra FDD summary",
+          "url": "https://www.franchisedirect.com/printercopyingsignfranchises/allegra-marketingprintmail-franchise-09219/ufoc/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 130435, "source": "Allegra FDD summaries (Entrepreneur directory; FranchisePayback)", "year": 2025, "confidence": "medium", "note": "New-center range $130,435-$455,779; conversions of existing print businesses can start around $32,000."},
+        "totalInvestmentMax": {"value": 455779, "source": "Allegra FDD summaries (Entrepreneur directory; FranchisePayback)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 45000, "source": "Allegra FDD summaries (FranchisePayback; IFPG)", "year": 2025, "confidence": "high", "note": "$10,000 conversion fee for existing print-shop owners per Franchise Direct."},
+        "royaltyPercent": {"value": 3.75, "source": "Allegra FDD summaries (FranchisePayback; franchiselens)", "year": 2025, "confidence": "high", "note": "3.75% top rate; royalty slides downward at higher sales volumes per directory summaries."},
+        "adFundPercent": {"value": 2, "source": "FranchisePayback - Allegra FDD data", "year": 2025, "confidence": "medium", "note": "National brand fund."},
+        "avgUnitRevenue": {"value": 757000, "source": "FranchisePayback - Allegra estimate (not an FDD Item 19 disclosure)", "year": 2025, "confidence": "medium", "note": "Third-party AUV estimate; Allegra does not formally disclose AUV."},
+        "totalUnits": {"value": 184, "source": "FranchisePayback - Allegra FDD data", "year": 2025, "confidence": "medium", "note": "183 franchised + 1 company-owned; directory sources cite ~192 US plus ~52 international (mostly Canada)."},
+        "yearFounded": {"value": 1976, "source": "Entrepreneur directory; FranchisePayback (founded in Michigan as American Speedy Printing)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1977, "source": "Entrepreneur directory; FranchisePayback", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "FranchisePayback - Allegra FDD data (-4% year-over-year units)", "year": 2025, "confidence": "medium"},
+        "internationalAvailability": {"value": true, "source": "Directory sources (locations in Canada and other international markets)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2b", "source": "Allegra franchisor site (print/marketing services to businesses)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranchisePayback / Franchise Direct Allegra FDD summaries", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "FranchisePayback (notes Allegra does not formally disclose AUV)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Carstar",
+      "slug": "carstar",
+      "category": "Automotive",
+      "website": "carstar.com",
+      "notes": "North America's largest franchised collision-repair network (founded 1989), owned since 2015 by publicly traded multi-brand consolidator Driven Brands. Nearly all conversions: existing body shops join the network for insurance direct-repair-program (DRP) volume and fleet accounts rather than greenfield builds. 471 US locations, all franchised. No published state availability list, so availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchisee attrition to independence amid consolidation pressure",
+          "detail": "Trade press has documented established, award-winning CARSTAR franchisees leaving the system to operate independently, citing the economics of network fees versus the insurance-referral volume delivered - diligence how much DRP volume the brand actually drives in your market.",
+          "source": "Autobody News - Award-Winning CARSTAR Franchisee Leaves System to Go Independent",
+          "url": "https://www.autobodynews.com/news/award-winning-carstar-franchisee-leaves-system-to-go-independent",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Owned by Driven Brands, a public multi-brand consolidator",
+          "detail": "CARSTAR sits inside Driven Brands (NASDAQ: DRVN) alongside Maaco, Meineke, Take 5, and others since the 2015 acquisition; brand strategy, insurance relationships, and fee structures are set at the platform level.",
+          "source": "Vetted Biz - CARSTAR Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/carstar/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Litigation and/or bankruptcy history disclosed in FDD",
+          "detail": "FDD-tracking services note CARSTAR discloses lawsuits and/or bankruptcy information in its FDD - review Items 3/4 with a franchise attorney. Revenue also depends heavily on insurance carriers' direct-repair programs, which franchisees do not control.",
+          "source": "Vetted Biz - CARSTAR Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/carstar/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 85000, "source": "Vetted Biz - CARSTAR Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 298200, "source": "CARSTAR FDD (via Vetted Biz and SHARPSHEETS analyses)", "year": 2025, "confidence": "high", "note": "Primarily conversion of an existing collision-repair shop; new builds cost more."},
+        "totalInvestmentMax": {"value": 804300, "source": "CARSTAR FDD (via Vetted Biz and SHARPSHEETS analyses)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 10000, "source": "Vetted Biz - CARSTAR Franchise Insights", "year": 2025, "confidence": "medium", "note": "Other FDD-derived sources cite up to $20,000-$35,000 depending on agreement type."},
+        "royaltyPercent": {"value": 2, "source": "Vetted Biz - CARSTAR Franchise Insights", "year": 2025, "confidence": "medium", "note": "FranchiseGrade describes ~2.5% combined for royalties/insurance/marketing; low headline royalty offset by required program/software fees (e.g., CCC)."},
+        "adFundPercent": {"value": 1, "source": "Vetted Biz - CARSTAR Franchise Insights", "year": 2025, "confidence": "medium"},
+        "avgUnitRevenue": {"value": 2579601, "source": "Vetted Biz - CARSTAR Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Yearly gross sales per location; Vetted Biz estimates a 2.4-4.4 year payback."},
+        "totalUnits": {"value": 471, "source": "Vetted Biz - CARSTAR Franchise Insights", "year": 2025, "confidence": "high", "note": "US locations, all franchised (0 company-owned); additional locations in Canada."},
+        "yearFounded": {"value": 1989, "source": "Vetted Biz - CARSTAR Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1989, "source": "Vetted Biz - CARSTAR Franchise Insights", "year": 2025, "confidence": "high"},
+        "nationalAccounts": {"value": true, "source": "Vetted Biz / CARSTAR brand site (insurance DRP relationships and fleet services)", "year": 2025, "confidence": "medium", "note": "Insurance direct-repair programs and fleet accounts are the core volume driver."},
+        "internationalAvailability": {"value": true, "source": "CARSTAR brand site (network across US and Canada)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "both", "source": "CARSTAR brand site (consumer collision repair plus insurance/fleet B2B channels)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz / SHARPSHEETS / FranchisePayback CARSTAR FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz (publishes FDD Item 19-derived AUV)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Taco John's",
+      "slug": "taco-johns",
+      "category": "Food & Beverage",
+      "website": "tacojohns.com",
+      "notes": "Upper-Midwest Mexican QSR institution (Cheyenne, WY; founded 1969, franchising 1969) known for Potato Oles and 'Taco Tuesday'. ~340 US restaurants (333 franchised + 7 company) across ~22 states, but the system shed 30 locations in 2024 and new leadership is pitching a turnaround/expansion model. Franchisor markets development across its footprint but publishes no state-by-state availability list, so availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Accelerating unit contraction: 30 closures and net -24 franchised units in 2024",
+          "detail": "Franchised outlets declined 367 -> 361 -> 357 -> 333 across 2022-2024 per the 2026 FDD outlet tables, with 30 locations closing during 2024 alone - a worsening trend the new management team is trying to reverse with an 'optimized' prototype.",
+          "source": "Taco John's 2026 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/01/21/taco-johns-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Heavy freestanding build cost versus a ~$1.26M AUV",
+          "detail": "The freestanding drive-thru format runs $1,365,000-$2,120,000 excluding real estate against a 2024 average of $1,260,416 (median $1,185,932) for 259 reporting freestanding restaurants - only 40.2% of locations met or exceeded the average.",
+          "source": "Taco John's 2026 FDD Item 7 and Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/01/21/taco-johns-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Litigation and/or bankruptcy history disclosed in FDD",
+          "detail": "FDD-tracking services note Taco John's discloses lawsuits and/or bankruptcy information in its FDD; Vetted Biz also models a comparatively long 11.4-13.4 year payback on the freestanding format.",
+          "source": "Vetted Biz - Taco John's Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/taco-johns",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 500000, "source": "Taco John's franchise requirements (via Franchise Chatter / franchising.com profile)", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites $310,000; franchisor marketing commonly cites $500,000 liquid / $1M net worth."},
+        "netWorthMin": {"value": 1000000, "source": "Taco John's franchise requirements (via Franchise Chatter / franchising.com profile)", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 1365000, "source": "Taco John's 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Freestanding traditional format, excluding real estate. Endcap $805,000-$1,342,000; DT Digital Ole $985,000-$1,745,000; non-traditional $390,000-$632,000."},
+        "totalInvestmentMax": {"value": 2120000, "source": "Taco John's 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "Taco John's 2026 FDD (via Franchise Chatter review); Vetted Biz", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Taco John's 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "5% of net sales."},
+        "adFundPercent": {"value": 4, "source": "Taco John's 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "4% of net sales for traditional restaurants; 2% for non-traditional."},
+        "avgUnitRevenue": {"value": 1260416, "source": "Taco John's 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2024 average for 259 freestanding drive-thru restaurants; median $1,185,932; range $244,397-$3,087,487; top 25% of freestanding units ~$1.8M."},
+        "totalUnits": {"value": 340, "source": "Taco John's 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "End of 2024: 333 franchised + 7 company-owned, ~22 states."},
+        "yearFounded": {"value": 1969, "source": "Taco John's corporate history page; Wikipedia (Taco House opened 1968, renamed/incorporated 1969)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1969, "source": "Taco John's corporate history page; Wikipedia (Woodson and Holmes began franchising the concept in 1969)", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Taco John's 2026 FDD outlet tables (via Franchise Chatter)", "year": 2026, "confidence": "high", "note": "-6 (2022), -4 (2023), -24 (2024) net franchised units; 30 closures in 2024."},
+        "businessModelType": {"value": "b2c", "source": "Taco John's franchisor site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (Taco John's 2025 FDD); Franchise Chatter 2026 review", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"}
+      }
+    }
+  ]
+}
