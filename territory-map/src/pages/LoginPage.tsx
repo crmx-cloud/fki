@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { SignIn } from "@/components/SignIn";
-import { TestUserLoginSection } from "@/components/TestUserLoginSection";
 import { Reveal } from "@/components/Reveal";
 import { Button } from "@/components/ui/button";
 
@@ -23,9 +22,6 @@ export function LoginPage() {
           </p>
         </Reveal>
 
-        <Reveal delay={120}>
-          <TestUserLoginSection />
-        </Reveal>
         <Reveal delay={200}>
           <SignIn />
         </Reveal>
