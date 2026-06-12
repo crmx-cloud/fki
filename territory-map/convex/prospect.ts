@@ -142,10 +142,25 @@ export const saveProfile = mutation({
     const user = await ctx.db.get(userId);
     const email = user?.email || undefined;
 
-    const existing = await ctx.db
+    let existing = await ctx.db
       .query("prospectProfiles")
       .withIndex("by_user", (q) => q.eq("userId", userId))
       .first();
+
+    // DEDUPE GUARD: no profile under this userId, but one already exists for
+    // this email (created via lead import / an earlier session) → claim it
+    // instead of inserting a duplicate. Never steal another user's profile.
+    if (!existing && email) {
+      const byEmail = await ctx.db
+        .query("prospectProfiles")
+        .withIndex("by_email", (q) => q.eq("email", email))
+        .collect();
+      const claimable = byEmail.find((p) => !p.userId || p.userId === userId);
+      if (claimable) {
+        await ctx.db.patch(claimable._id, { userId });
+        existing = { ...claimable, userId };
+      }
+    }
 
     // Separate contact fields → store as schema fields (not nested under "args" prefix)
     const { contactCity, contactState, attribution, ...restArgs } = args;
@@ -234,6 +249,8 @@ export const saveProfile = mutation({
       });
       // Keep the consultant's AI brief in sync with the latest profile
       await ctx.scheduler.runAfter(0, internal.prospectBrief.generateForUser, { userId });
+      // Self-heal: merge any duplicate rows sharing this email/phone
+      await ctx.scheduler.runAfter(0, internal.dedupe.dedupeForKey, { email, phone: args.phone });
       return existing._id;
     } else {
       const profileId = await ctx.db.insert("prospectProfiles", {
@@ -260,6 +277,8 @@ export const saveProfile = mutation({
         notes: args.timeline ? `Timeline: ${args.timeline}` : undefined,
       });
       await ctx.scheduler.runAfter(0, internal.prospectBrief.generateForUser, { userId });
+      // Self-heal: merge any duplicate rows sharing this email/phone
+      await ctx.scheduler.runAfter(0, internal.dedupe.dedupeForKey, { email, phone: args.phone });
 
       return profileId;
     }

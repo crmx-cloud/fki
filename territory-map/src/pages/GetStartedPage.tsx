@@ -107,6 +107,7 @@ export function GetStartedPage() {
 
   const [step, setStep] = useState<Step>(1);
   const [error, setError] = useState("");
+  const [duplicateAccount, setDuplicateAccount] = useState(false);
   const [loading, setLoading] = useState(false);
 
   // Step 1 — Personal info
@@ -178,6 +179,7 @@ export function GetStartedPage() {
     }
 
     setError("");
+    setDuplicateAccount(false);
     setLoading(true);
     try {
       // If another session is active (e.g. an admin testing, or a shared
@@ -202,7 +204,7 @@ export function GetStartedPage() {
     } catch (err: any) {
       const msg = err?.message || "";
       if (msg.includes("already exists") || msg.includes("already")) {
-        setError("An account with this email already exists. Try logging in instead.");
+        setDuplicateAccount(true); // dedicated panel with log-in + reset paths
       } else {
         setError("Could not create account. Please try again.");
       }
@@ -362,8 +364,34 @@ export function GetStartedPage() {
           </p>
         </div>
 
+        {/* Duplicate account: friendly redirect to login / password reset */}
+        {duplicateAccount && (
+          <div className="mb-4 p-4 rounded-xl bg-cyan-500/10 border border-cyan-400/30">
+            <p className="text-sm text-slate-200 font-semibold mb-1">
+              Looks like you already have a profile under this email.
+            </p>
+            <p className="text-xs text-slate-400 mb-3">
+              Good news — your info is saved. Log in to pick up right where you left off.
+            </p>
+            <div className="flex gap-2">
+              <Link
+                to={`/login?email=${encodeURIComponent(email)}`}
+                className="flex-1 text-center text-sm font-semibold px-3 py-2 rounded-lg bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition-colors"
+              >
+                Log in
+              </Link>
+              <Link
+                to={`/login?email=${encodeURIComponent(email)}&reset=1`}
+                className="flex-1 text-center text-sm font-medium px-3 py-2 rounded-lg border border-white/15 text-slate-300 hover:bg-white/5 transition-colors"
+              >
+                Forgot password? Reset it
+              </Link>
+            </div>
+          </div>
+        )}
+
         {/* Error display */}
-        {error && (
+        {error && !duplicateAccount && (
           <div className="mb-4 p-3 rounded-lg bg-red-500/10 border border-red-500/30 text-red-300 text-sm">
             {error}
           </div>

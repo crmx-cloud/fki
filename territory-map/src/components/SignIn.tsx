@@ -1,6 +1,7 @@
 import { useAuthActions } from "@convex-dev/auth/react";
 import { ArrowLeft, Loader2, Mail } from "lucide-react";
 import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { Input } from "./ui/input";
@@ -18,7 +19,13 @@ type Step =
 
 export function SignIn() {
   const { signIn } = useAuthActions();
-  const [step, setStep] = useState<Step>("signIn");
+  // Deep links from the signup duplicate-account panel:
+  // /login?email=… prefills, /login?email=…&reset=1 jumps straight to reset
+  const [searchParams] = useSearchParams();
+  const prefillEmail = searchParams.get("email") ?? undefined;
+  const [step, setStep] = useState<Step>(
+    searchParams.get("reset") === "1" ? { type: "forgot", email: prefillEmail } : "signIn"
+  );
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
@@ -52,6 +59,7 @@ export function SignIn() {
                 name="email"
                 type="email"
                 placeholder="you@example.com"
+                defaultValue={prefillEmail}
                 autoComplete="email"
                 className="h-11"
                 required

@@ -10,7 +10,10 @@ import {
 import {
   TrendingUp, TrendingDown, Minus, Users, BadgeCheck, Building2, Database,
   Headset, DollarSign, Target, Activity, PieChart, Download, Plus, Trash2,
+  Calendar as CalendarIcon,
 } from "lucide-react";
+import { Calendar } from "@/components/ui/calendar";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { RANGE_OPTIONS, computeRange, type RangeKey } from "@/lib/dateRanges";
 import { formatMoney } from "@/lib/format";
 
@@ -151,6 +154,50 @@ function exportCsv(filename: string, rows: Record<string, any>[]) {
   a.click();
 }
 
+// ── Date field: type a date OR pick from a calendar with month/year
+//    dropdowns (custom-range filter) ─────────────────────────────────────
+function DateField({ value, onChange, placeholder }: {
+  value: string; onChange: (v: string) => void; placeholder: string;
+}) {
+  const [open, setOpen] = useState(false);
+  const selected = value ? new Date(`${value}T00:00:00`) : undefined;
+  return (
+    <div className="flex items-center">
+      <Input
+        type="date"
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className="w-36 rounded-r-none"
+        aria-label={placeholder}
+      />
+      <Popover open={open} onOpenChange={setOpen}>
+        <PopoverTrigger asChild>
+          <Button variant="outline" size="icon" className="rounded-l-none border-l-0 shrink-0" aria-label={`Pick ${placeholder} from calendar`}>
+            <CalendarIcon className="w-4 h-4" />
+          </Button>
+        </PopoverTrigger>
+        <PopoverContent className="w-auto p-0" align="end">
+          <Calendar
+            mode="single"
+            selected={selected}
+            defaultMonth={selected}
+            captionLayout="dropdown"
+            startMonth={new Date(2024, 0)}
+            endMonth={new Date(new Date().getFullYear() + 1, 11)}
+            onSelect={(d) => {
+              if (d) {
+                const pad = (n: number) => String(n).padStart(2, "0");
+                onChange(`${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`);
+              }
+              setOpen(false);
+            }}
+          />
+        </PopoverContent>
+      </Popover>
+    </div>
+  );
+}
+
 // ── Page ────────────────────────────────────────────────────────────────
 export function AdminKpiPage() {
   const [rangeKey, setRangeKey] = useState<RangeKey>("last_30");
@@ -191,9 +238,9 @@ export function AdminKpiPage() {
           </Select>
           {rangeKey === "custom" && (
             <>
-              <Input type="date" value={customFrom} onChange={(e) => setCustomFrom(e.target.value)} className="w-36" />
+              <DateField value={customFrom} onChange={setCustomFrom} placeholder="Start date" />
               <span className="text-muted-foreground text-sm">→</span>
-              <Input type="date" value={customTo} onChange={(e) => setCustomTo(e.target.value)} className="w-36" />
+              <DateField value={customTo} onChange={setCustomTo} placeholder="End date" />
             </>
           )}
         </div>
