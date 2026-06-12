@@ -474,6 +474,9 @@ const schema = defineSchema({
     profileComplete: v.optional(v.boolean()),
     enhancedProfileComplete: v.optional(v.boolean()),
 
+    // ── TCPA/A2P consent (signup checkbox; timestamp = proof of consent) ──
+    contactConsentAt: v.optional(v.number()),
+
     // ── Source Attribution (first/last touch, captured client-side) ──
     utmSource: v.optional(v.string()),
     utmMedium: v.optional(v.string()),

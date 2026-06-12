@@ -3,6 +3,8 @@ import { useAuthActions } from "@convex-dev/auth/react";
 import { useConvexAuth, useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import { Link } from "react-router-dom";
+import { Checkbox } from "@/components/ui/checkbox";
+import { getAttribution } from "@/lib/attribution";
 import { PublicNav } from "@/components/PublicNav";
 import { Reveal } from "@/components/Reveal";
 import { Button } from "@/components/ui/button";
@@ -97,6 +99,14 @@ const US_STATES = [
 
 type Step = 1 | 2 | 3 | 4 | "verify" | "saving" | "done";
 
+/** Auto-format US phone with dashes as the user types: 850-451-5153 */
+function formatPhoneDashes(input: string): string {
+  const d = input.replace(/\D/g, "").slice(0, 10);
+  if (d.length <= 3) return d;
+  if (d.length <= 6) return `${d.slice(0, 3)}-${d.slice(3)}`;
+  return `${d.slice(0, 3)}-${d.slice(3, 6)}-${d.slice(6)}`;
+}
+
 const TOTAL_STEPS = 4;
 
 export function GetStartedPage() {
@@ -115,6 +125,7 @@ export function GetStartedPage() {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
+  const [contactConsent, setContactConsent] = useState(false); // TCPA — never pre-checked
 
   // Step 2 — Financial
   const [liquidCapital, setLiquidCapital] = useState("");
@@ -244,6 +255,11 @@ export function GetStartedPage() {
   const doSaveProfile = useCallback(async () => {
     try {
       await saveProfile({
+        firstName: firstName || undefined,
+        lastName: lastName || undefined,
+        phone: phone.replace(/\D/g, "") || undefined,
+        contactConsent: true, // step 1 checkbox is required to reach this point
+        attribution: getAttribution(),
         liquidCapital: liquidCapital || undefined,
         ownerType: ownerType || undefined,
         preferredCategories: categories.length > 0 ? categories : undefined,
@@ -439,16 +455,37 @@ export function GetStartedPage() {
             <div>
               <Label className="text-sm font-medium">Phone</Label>
               <Input
+                type="tel"
+                inputMode="numeric"
                 value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                placeholder="(555) 123-4567"
+                onChange={(e) => setPhone(formatPhoneDashes(e.target.value))}
+                placeholder="555-123-4567"
                 className="mt-1 bg-white/10 border-white/20 text-white placeholder:text-slate-500"
               />
             </div>
 
+            {/* TCPA/A2P consent — required, never pre-checked. Timestamp is
+                recorded on the profile (contactConsentAt) as proof of consent. */}
+            <label className="flex items-start gap-3 rounded-lg border border-white/10 bg-white/[0.03] p-3.5 cursor-pointer">
+              <Checkbox
+                checked={contactConsent}
+                onCheckedChange={(v) => setContactConsent(v === true)}
+                className="mt-0.5"
+              />
+              <span className="text-[11px] leading-relaxed text-slate-400">
+                I agree to FranchiseKI LLC's{" "}
+                <Link to="/terms" target="_blank" className="text-slate-300 underline underline-offset-2">Terms of Use</Link> and{" "}
+                <Link to="/privacy" target="_blank" className="text-slate-300 underline underline-offset-2">Privacy Policy</Link>, and
+                I expressly consent to receive calls and text messages (SMS) — including those made using automated
+                technology or AI voice — from FranchiseKI LLC and its franchise consultants at the phone number and
+                email I provided, regarding my franchise inquiry. Consent is not a condition of purchase. Msg &amp; data
+                rates may apply; msg frequency varies. Reply STOP to opt out, HELP for help.
+              </span>
+            </label>
+
             <Button
               onClick={() => { setError(""); setStep(2); }}
-              disabled={!firstName.trim() || !email.trim()}
+              disabled={!firstName.trim() || !email.trim() || !contactConsent}
               className="w-full bg-cyan-600 hover:bg-cyan-500 text-white"
             >
               Continue <ArrowRight className="w-4 h-4 ml-1.5" />

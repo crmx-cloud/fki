@@ -121,6 +121,7 @@ export const saveProfile = mutation({
     professionalBackground: v.optional(v.array(v.string())),
     lifestylePriorities: v.optional(v.array(v.string())),
     avoidList: v.optional(v.array(v.string())),
+    contactConsent: v.optional(v.boolean()), // TCPA checkbox from signup step 1
     // ── Source attribution (captured client-side, see src/lib/attribution.ts) ──
     attribution: v.optional(
       v.object({
@@ -163,7 +164,13 @@ export const saveProfile = mutation({
     }
 
     // Separate contact fields → store as schema fields (not nested under "args" prefix)
-    const { contactCity, contactState, attribution, ...restArgs } = args;
+    const { contactCity, contactState, attribution, contactConsent, ...restArgs } = args;
+
+    // Consent timestamp is write-once proof of the signup checkbox
+    const consentFields: Record<string, number> = {};
+    if (contactConsent && !existing?.contactConsentAt) {
+      consentFields.contactConsentAt = Date.now();
+    }
 
     // First-touch attribution is write-once; last touch always updates
     const attributionFields: Record<string, any> = {};
@@ -255,6 +262,7 @@ export const saveProfile = mutation({
       ...contactFields,
       ...auditFields,
       ...attributionFields,
+      ...consentFields,
       email,
       profileComplete,
       enhancedProfileComplete,

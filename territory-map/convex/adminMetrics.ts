@@ -203,7 +203,7 @@ async function computeDashboard(ctx: any, args: { start: number; end: number; bu
     category: valid.filter((f) => (f.p.preferredCategories?.length ?? 0) > 0).length,
     funding: valid.filter((f) => !!f.p.totalInvestmentBudget || !!f.p.sbaFinancingIntent).length,
     sourceAttributed: valid.filter((f) => f.source !== "unknown" && f.source !== "direct").length,
-    optIn: valid.length, // account creation = consent today; explicit opt-in field is a TODO
+    optIn: valid.filter((f) => !!f.p.contactConsentAt).length, // signup TCPA checkbox (contactConsentAt)
     qualified: qualified.length,
   };
 
