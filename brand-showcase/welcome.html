@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Welcome — Franchise KI Brand Showcase</title>
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <style>
+    :root {
+      --bg:#020617; --text:#f8fafc; --muted:#94a3b8; --muted-2:#64748b; --faint:#475569;
+      --border:rgba(255,255,255,.1); --border-soft:rgba(255,255,255,.05); --card:rgba(255,255,255,.05);
+      --cyan:#22d3ee; --cyan-300:#67e8f9; --cyan-500:#06b6d4; --cyan-600:#0891b2; --blue:#60a5fa;
+      --emerald:#34d399; --radius:.625rem;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      background: radial-gradient(1200px 600px at 70% -10%, rgba(8,51,68,.5), transparent), var(--bg);
+      color:var(--text); min-height:100vh;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height:1.6; -webkit-font-smoothing:antialiased;
+    }
+    a { color:var(--cyan); text-decoration:none; }
+    header { border-bottom:1px solid var(--border); background:rgba(2,6,23,.8); backdrop-filter:blur(12px); }
+    .nav { display:flex; align-items:center; justify-content:space-between; padding:.7rem 1.5rem; max-width:80rem; margin:0 auto; }
+    .nav-left { display:flex; flex-direction:column; gap:.15rem; }
+    .home-link { font-size:.7rem; color:var(--muted-2); }
+    .home-link:hover { color:var(--text); }
+    .nav-logo { display:flex; align-items:center; gap:.75rem; }
+    .nav-logo img { height:2.1rem; }
+    .showcase-mark { font-size:1rem; font-weight:700; color:var(--text); border-left:1px solid var(--border); padding-left:.75rem; white-space:nowrap; }
+
+    main { max-width:38rem; margin:0 auto; padding:3rem 1.5rem 5rem; }
+
+    /* Stepper */
+    .stepper { display:flex; align-items:center; gap:.5rem; margin-bottom:2.5rem; }
+    .step-dot { display:flex; align-items:center; gap:.5rem; font-size:.75rem; color:var(--muted-2); white-space:nowrap; }
+    .step-dot .n { width:1.6rem; height:1.6rem; border-radius:9999px; border:1px solid var(--border); display:flex; align-items:center; justify-content:center; font-size:.7rem; font-weight:700; transition:all .3s; }
+    .step-dot.active { color:var(--cyan-300); }
+    .step-dot.active .n { border-color:rgba(34,211,238,.6); background:rgba(34,211,238,.12); color:var(--cyan); box-shadow:0 0 18px rgba(34,211,238,.25); }
+    .step-dot.done { color:var(--emerald); }
+    .step-dot.done .n { border-color:rgba(52,211,153,.5); background:rgba(52,211,153,.12); color:var(--emerald); }
+    .step-line { flex:1; height:1px; background:var(--border); min-width:.75rem; }
+    .step-label { display:none; }
+    @media (min-width:560px){ .step-label { display:inline; } }
+
+    /* Cards / panels */
+    .panel {
+      background:rgba(15,23,42,.85); border:1px solid var(--border); border-radius:1rem;
+      padding:2.25rem; box-shadow:0 24px 60px rgba(0,0,0,.45);
+      animation: rise .45s ease both;
+    }
+    @keyframes rise { from { opacity:0; transform: translateY(14px); } to { opacity:1; transform:none; } }
+
+    /* Success ring */
+    .ring { width:4.5rem; height:4.5rem; margin:0 auto 1.25rem; border-radius:9999px; display:flex; align-items:center; justify-content:center;
+      background: radial-gradient(circle, rgba(34,211,238,.18), transparent 70%); border:2px solid rgba(34,211,238,.5);
+      animation: ringpulse 2.2s ease-in-out infinite; }
+    .ring svg { width:2rem; height:2rem; stroke:var(--cyan); }
+    .ring.green { border-color:rgba(52,211,153,.55); background:radial-gradient(circle, rgba(52,211,153,.16), transparent 70%); animation:none; }
+    .ring.green svg { stroke:var(--emerald); }
+    @keyframes ringpulse { 0%,100% { box-shadow:0 0 0 0 rgba(34,211,238,0);} 50% { box-shadow:0 0 32px 4px rgba(34,211,238,.3);} }
+
+    h1 { font-size:1.6rem; font-weight:800; letter-spacing:-.01em; text-align:center; line-height:1.25; }
+    .grad { background:linear-gradient(to right, var(--cyan), var(--blue)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+    .sub { color:var(--muted); text-align:center; margin-top:.6rem; font-size:.95rem; }
+    .sub b { color:var(--text); }
+
+    /* Code inputs */
+    .code-row { display:flex; gap:.5rem; justify-content:center; margin:1.75rem 0 .75rem; }
+    .code-row input {
+      width:3rem; height:3.6rem; text-align:center; font-size:1.5rem; font-weight:800;
+      background:rgba(255,255,255,.06); border:1px solid var(--border); border-radius:var(--radius);
+      color:var(--text); outline:none; transition:border-color .15s, box-shadow .15s; caret-color:var(--cyan);
+    }
+    .code-row input:focus { border-color:rgba(34,211,238,.7); box-shadow:0 0 0 3px rgba(34,211,238,.15); }
+    .code-row.error input { border-color:rgba(248,113,113,.7); animation: shake .3s; }
+    @keyframes shake { 25% { transform:translateX(-4px);} 75% { transform:translateX(4px);} }
+    .feedback { text-align:center; font-size:.85rem; min-height:1.4rem; }
+    .feedback.err { color:#f87171; }
+    .feedback.ok { color:var(--emerald); }
+    .resend { text-align:center; margin-top:1rem; font-size:.85rem; color:var(--muted-2); }
+    .resend button, .linkish { background:none; border:none; color:var(--cyan); cursor:pointer; font-size:.85rem; font-family:inherit; }
+    .resend button:disabled { color:var(--faint); cursor:default; }
+    .skip { text-align:center; margin-top:1.25rem; }
+    .skip button { background:none; border:none; color:var(--muted-2); font-size:.8rem; cursor:pointer; text-decoration:underline; font-family:inherit; }
+    .skip button:hover { color:var(--muted); }
+
+    .btn { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; font-weight:600; border-radius:var(--radius);
+      padding:.9rem 2rem; border:none; cursor:pointer; font-size:1rem; transition:background .15s; font-family:inherit; }
+    .btn-primary { background:var(--cyan-600); color:#fff; }
+    .btn-primary:hover { background:var(--cyan-500); }
+    .btn-ghost { background:transparent; color:var(--text); border:1px solid var(--border); }
+    .btn-ghost:hover { border-color:rgba(34,211,238,.5); color:var(--cyan); }
+
+    /* Finale */
+    .strength { margin:1.75rem 0; }
+    .strength .lbl { display:flex; justify-content:space-between; font-size:.8rem; color:var(--muted); margin-bottom:.4rem; }
+    .strength .lbl b { color:var(--cyan); }
+    .bar { height:.6rem; background:rgba(255,255,255,.07); border-radius:9999px; overflow:hidden; }
+    .bar .fill { height:100%; width:0; border-radius:9999px; background:linear-gradient(to right, var(--cyan-600), var(--blue)); transition:width 1.4s cubic-bezier(.2,.8,.2,1); }
+    .checklist { display:grid; gap:.5rem; margin:1.5rem 0; }
+    .check-item { display:flex; align-items:center; gap:.7rem; font-size:.9rem; padding:.65rem .9rem; border:1px solid var(--border-soft); border-radius:.6rem; background:var(--card); color:var(--muted); }
+    .check-item .ic { flex:none; width:1.3rem; height:1.3rem; border-radius:9999px; display:flex; align-items:center; justify-content:center; font-size:.7rem; }
+    .check-item.done { color:#d1fae5; border-color:rgba(52,211,153,.25); }
+    .check-item.done .ic { background:rgba(52,211,153,.15); color:var(--emerald); }
+    .check-item.todo .ic { background:rgba(255,255,255,.08); color:var(--muted-2); }
+    .timeline { margin:1.75rem 0; display:grid; gap:.85rem; }
+    .t-step { display:flex; gap:.85rem; font-size:.88rem; color:var(--muted); }
+    .t-step .tn { flex:none; width:1.7rem; height:1.7rem; border-radius:9999px; background:rgba(34,211,238,.1); border:1px solid rgba(34,211,238,.3); color:var(--cyan); display:flex; align-items:center; justify-content:center; font-size:.72rem; font-weight:700; }
+    .t-step b { color:var(--text); display:block; }
+    .cta-col { display:flex; flex-direction:column; gap:.7rem; margin-top:1.75rem; }
+    .cta-col .btn { width:100%; }
+    .fine { text-align:center; font-size:.75rem; color:var(--faint); margin-top:1rem; }
+    .hidden { display:none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="home-link" href="https://franchiseki.com">← Franchise KI home</a>
+        <a class="nav-logo" href="/">
+          <img src="/logo-dark-bg.png" alt="Franchise KI" />
+          <span class="showcase-mark">Brand Showcase</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Stepper -->
+    <div class="stepper">
+      <div class="step-dot active" id="dot-1"><span class="n">1</span><span class="step-label">Verify email</span></div>
+      <div class="step-line"></div>
+      <div class="step-dot" id="dot-2"><span class="n">2</span><span class="step-label">Verify phone</span></div>
+      <div class="step-line"></div>
+      <div class="step-dot" id="dot-3"><span class="n">3</span><span class="step-label">Your growth path</span></div>
+    </div>
+
+    <!-- ── Step 1: email ── -->
+    <section class="panel" id="step-email">
+      <div class="ring"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg></div>
+      <h1>You're in, <span class="grad" id="first-name">there</span>.</h1>
+      <p class="sub">Your request for <b id="brand-name">your brand</b> is received. First, let's verify it's really you — we sent a 6-digit code to <b id="email-display"></b>.</p>
+      <div class="code-row" id="email-code">
+        <input inputmode="numeric" maxlength="1" autocomplete="one-time-code" /><input inputmode="numeric" maxlength="1" /><input inputmode="numeric" maxlength="1" /><input inputmode="numeric" maxlength="1" /><input inputmode="numeric" maxlength="1" /><input inputmode="numeric" maxlength="1" />
+      </div>
+      <p class="feedback" id="email-feedback"></p>
+      <p class="resend">Didn't get it? <button id="email-resend">Resend code</button></p>
+    </section>
+
+    <!-- ── Step 2: phone ── -->
+    <section class="panel hidden" id="step-phone">
+      <div class="ring"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+      <h1>Email verified. <span class="grad">One more.</span></h1>
+      <p class="sub">We texted a 6-digit code to <b id="phone-display"></b> so your team never misses a candidate conversation.</p>
+      <div class="code-row" id="phone-code">
+        <input inputmode="numeric" maxlength="1" autocomplete="one-time-code" /><input inputmode="numeric" maxlength="1" /><input inputmode="numeric" maxlength="1" /><input inputmode="numeric" maxlength="1" /><input inputmode="numeric" maxlength="1" /><input inputmode="numeric" maxlength="1" />
+      </div>
+      <p class="feedback" id="phone-feedback"></p>
+      <p class="resend">Didn't get it? <button id="phone-resend">Resend code</button></p>
+      <div class="skip"><button id="phone-skip">Verify by phone later — continue</button></div>
+    </section>
+
+    <!-- ── Step 3: finale ── -->
+    <section class="panel hidden" id="step-done">
+      <div class="ring green"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+      <h1><span id="brand-name-2">Your brand</span> is <span class="grad">on the map</span>.</h1>
+      <p class="sub">Contact verified. Here's where your brand profile stands — and how to make it impossible to overlook.</p>
+
+      <div class="strength">
+        <div class="lbl"><span>Profile strength</span><b id="strength-pct">0%</b></div>
+        <div class="bar"><div class="fill" id="strength-fill"></div></div>
+      </div>
+
+      <div class="checklist">
+        <div class="check-item done"><span class="ic">✓</span>Contact verified — candidates reach a real person</div>
+        <div class="check-item done"><span class="ic">✓</span>Brand basics — category &amp; territory goals captured</div>
+        <div class="check-item todo"><span class="ic">○</span>Investment range &amp; franchise fee</div>
+        <div class="check-item todo"><span class="ic">○</span>Territory availability map</div>
+        <div class="check-item todo"><span class="ic">○</span>Brand story, logo &amp; media</div>
+        <div class="check-item todo"><span class="ic">○</span>PerfectFit AI matching signals</div>
+      </div>
+
+      <div class="timeline">
+        <div class="t-step"><span class="tn">1</span><div><b>Our team reviews your claim</b>We confirm your authority to manage the brand — usually a quick check now that your contact is verified.</div></div>
+        <div class="t-step"><span class="tn">2</span><div><b>You get profile access</b>Create your Franchise KI account and your verified inquiry connects automatically — then build the full profile.</div></div>
+        <div class="t-step"><span class="tn">3</span><div><b>Choose your growth path</b>Profile cleanup, featured placement, or broker-led lead support — your call, our follow-up.</div></div>
+      </div>
+
+      <div class="cta-col">
+        <a class="btn btn-primary" href="https://franchiseki.com/get-started">Create My Franchise KI Account</a>
+        <a class="btn btn-ghost" href="https://franchiseki.com">Explore the Platform</a>
+      </div>
+      <p class="fine">Use <b id="email-display-2"></b> when you create your account so your verification carries over.</p>
+    </section>
+  </main>
+
+  <script>
+    // ── Handoff state from the inquiry form ──
+    var state;
+    try { state = JSON.parse(sessionStorage.getItem("fkiShowcase") || "null"); } catch (e) { state = null; }
+    if (!state || !state.inquiryId) { window.location.replace("/"); }
+
+    function maskEmail(e) {
+      var p = (e || "").split("@");
+      if (p.length !== 2) return e || "";
+      var u = p[0];
+      return (u.length <= 2 ? u[0] + "•" : u.slice(0, 2) + "•••") + "@" + p[1];
+    }
+    function maskPhone(p) {
+      var digits = (p || "").replace(/\D/g, "");
+      return digits.length >= 4 ? "(•••) •••-" + digits.slice(-4) : p || "";
+    }
+    if (state) {
+      document.getElementById("first-name").textContent = state.firstName || "there";
+      document.getElementById("brand-name").textContent = state.brandName || "your brand";
+      document.getElementById("brand-name-2").textContent = state.brandName || "Your brand";
+      document.getElementById("email-display").textContent = maskEmail(state.email);
+      document.getElementById("email-display-2").textContent = state.email || "";
+      document.getElementById("phone-display").textContent = maskPhone(state.phone);
+    }
+
+    function api(action, kind, code) {
+      return fetch("/api/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ action: action, kind: kind, inquiryId: state.inquiryId, code: code }),
+      }).then(function (r) { return r.json(); });
+    }
+
+    // ── 6-digit code input behavior (auto-advance, paste, backspace) ──
+    function wireCodeInputs(rowId, onComplete) {
+      var row = document.getElementById(rowId);
+      var inputs = [].slice.call(row.querySelectorAll("input"));
+      function value() { return inputs.map(function (i) { return i.value; }).join(""); }
+      inputs.forEach(function (input, idx) {
+        input.addEventListener("input", function () {
+          input.value = input.value.replace(/\D/g, "").slice(0, 1);
+          row.classList.remove("error");
+          if (input.value && idx < inputs.length - 1) inputs[idx + 1].focus();
+          if (value().length === 6) onComplete(value());
+        });
+        input.addEventListener("keydown", function (e) {
+          if (e.key === "Backspace" && !input.value && idx > 0) inputs[idx - 1].focus();
+        });
+        input.addEventListener("paste", function (e) {
+          var text = (e.clipboardData || window.clipboardData).getData("text").replace(/\D/g, "");
+          if (text.length >= 2) {
+            e.preventDefault();
+            inputs.forEach(function (i, j) { i.value = text[j] || ""; });
+            inputs[Math.min(text.length, 5)].focus();
+            if (value().length === 6) onComplete(value());
+          }
+        });
+      });
+      return {
+        clear: function () { inputs.forEach(function (i) { i.value = ""; }); inputs[0].focus(); },
+        setError: function () { row.classList.add("error"); },
+        focus: function () { inputs[0].focus(); },
+      };
+    }
+
+    // ── Resend buttons with cooldown ──
+    function wireResend(btnId, kind, feedbackEl) {
+      var btn = document.getElementById(btnId);
+      var timer = null;
+      function cooldown(secs) {
+        btn.disabled = true;
+        var left = secs;
+        btn.textContent = "Resend in " + left + "s";
+        timer = setInterval(function () {
+          left--;
+          if (left <= 0) { clearInterval(timer); btn.disabled = false; btn.textContent = "Resend code"; }
+          else btn.textContent = "Resend in " + left + "s";
+        }, 1000);
+      }
+      btn.addEventListener("click", function () {
+        feedbackEl.className = "feedback";
+        feedbackEl.textContent = "Sending…";
+        api("send", kind).then(function (r) {
+          if (r.ok || r.alreadyVerified) {
+            feedbackEl.className = "feedback ok";
+            feedbackEl.textContent = "New code sent.";
+            cooldown(60);
+          } else if (r.error === "cooldown") {
+            feedbackEl.className = "feedback";
+            feedbackEl.textContent = "Just sent — give it a moment.";
+            cooldown(r.retryInSeconds || 30);
+          } else {
+            feedbackEl.className = "feedback err";
+            feedbackEl.textContent = "Couldn't send the code. Try again shortly.";
+          }
+        }).catch(function () {
+          feedbackEl.className = "feedback err";
+          feedbackEl.textContent = "Couldn't send the code. Try again shortly.";
+        });
+      });
+      return { cooldown: cooldown };
+    }
+
+    // ── Step transitions ──
+    function showStep(num) {
+      ["step-email", "step-phone", "step-done"][0]; // noop keep order
+      document.getElementById("step-email").classList.toggle("hidden", num !== 1);
+      document.getElementById("step-phone").classList.toggle("hidden", num !== 2);
+      document.getElementById("step-done").classList.toggle("hidden", num !== 3);
+      for (var i = 1; i <= 3; i++) {
+        var dot = document.getElementById("dot-" + i);
+        dot.classList.toggle("active", i === num);
+        dot.classList.toggle("done", i < num);
+        if (i < num) dot.querySelector(".n").textContent = "✓";
+      }
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      if (num === 3) {
+        setTimeout(function () {
+          document.getElementById("strength-fill").style.width = "35%";
+          var pct = 0;
+          var int = setInterval(function () {
+            pct += 1;
+            document.getElementById("strength-pct").textContent = pct + "%";
+            if (pct >= 35) clearInterval(int);
+          }, 38);
+        }, 350);
+      }
+    }
+
+    var emailFeedback = document.getElementById("email-feedback");
+    var phoneFeedback = document.getElementById("phone-feedback");
+    var phoneStarted = false;
+
+    function startPhoneStep() {
+      showStep(2);
+      if (phoneStarted) return;
+      phoneStarted = true;
+      api("send", "phone").then(function (r) {
+        if (r.alreadyVerified) { showStep(3); return; }
+        if (!r.ok && r.error !== "cooldown") {
+          phoneFeedback.className = "feedback err";
+          phoneFeedback.textContent = "We couldn't text that number — you can continue and verify later.";
+        }
+        phoneResend.cooldown(60);
+      }).catch(function () {});
+      phoneCode.focus();
+    }
+
+    var emailCode = wireCodeInputs("email-code", function (code) {
+      emailFeedback.className = "feedback";
+      emailFeedback.textContent = "Checking…";
+      api("confirm", "email", code).then(function (r) {
+        if (r.ok) {
+          emailFeedback.className = "feedback ok";
+          emailFeedback.textContent = "Verified.";
+          setTimeout(startPhoneStep, 600);
+        } else {
+          emailFeedback.className = "feedback err";
+          emailFeedback.textContent = r.error || "Incorrect code";
+          emailCode.setError();
+          emailCode.clear();
+        }
+      }).catch(function () {
+        emailFeedback.className = "feedback err";
+        emailFeedback.textContent = "Something went wrong — try again.";
+      });
+    });
+
+    var phoneCode = wireCodeInputs("phone-code", function (code) {
+      phoneFeedback.className = "feedback";
+      phoneFeedback.textContent = "Checking…";
+      api("confirm", "phone", code).then(function (r) {
+        if (r.ok) {
+          phoneFeedback.className = "feedback ok";
+          phoneFeedback.textContent = "Verified.";
+          setTimeout(function () { showStep(3); }, 600);
+        } else {
+          phoneFeedback.className = "feedback err";
+          phoneFeedback.textContent = r.error || "Incorrect code";
+          phoneCode.setError();
+          phoneCode.clear();
+        }
+      }).catch(function () {
+        phoneFeedback.className = "feedback err";
+        phoneFeedback.textContent = "Something went wrong — try again.";
+      });
+    });
+
+    var emailResend = wireResend("email-resend", "email", emailFeedback);
+    var phoneResend = wireResend("phone-resend", "phone", phoneFeedback);
+
+    document.getElementById("phone-skip").addEventListener("click", function () { showStep(3); });
+
+    // Auto-send the email code once per session
+    if (state && !sessionStorage.getItem("fkiShowcaseEmailSent")) {
+      api("send", "email").then(function (r) {
+        if (r.alreadyVerified) { startPhoneStep(); return; }
+        sessionStorage.setItem("fkiShowcaseEmailSent", "1");
+        if (r.error === "cooldown") emailResend.cooldown(r.retryInSeconds || 30);
+        else if (r.ok) emailResend.cooldown(60);
+        else {
+          emailFeedback.className = "feedback err";
+          emailFeedback.textContent = "We couldn't send the code — use Resend to try again.";
+        }
+      }).catch(function () {});
+      emailCode.focus();
+    } else if (state) {
+      emailCode.focus();
+    }
+  </script>
+</body>
+</html>

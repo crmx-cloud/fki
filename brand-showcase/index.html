@@ -799,21 +799,40 @@
       if (!form.reportValidity()) return;
       var data = Object.fromEntries(new FormData(form).entries());
       data.source = "brand-showcase";
-      data.tag = "FKI - Brand Showcase Inquiry";
+      var submitBtn = form.querySelector('button[type=submit]');
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Submitting…";
+      // Fallback: inline success (used only if the onboarding handoff fails)
       var done = function () {
         form.style.display = "none";
         document.getElementById("form-success").style.display = "block";
       };
-      if (FORM_ENDPOINT) {
-        fetch(FORM_ENDPOINT, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(data),
-        }).then(done).catch(done);
-      } else {
-        console.log("Brand Showcase inquiry (no endpoint configured):", data);
-        done();
-      }
+      // Preferred: hand off to the /welcome onboarding experience
+      var onboard = function (inquiryId) {
+        try {
+          sessionStorage.setItem("fkiShowcase", JSON.stringify({
+            inquiryId: inquiryId,
+            firstName: data.firstName,
+            brandName: data.brandName,
+            email: data.email,
+            phone: data.phone,
+          }));
+          window.location.href = "/welcome.html";
+        } catch (e) {
+          done();
+        }
+      };
+      fetch(FORM_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      })
+        .then(function (r) { return r.json(); })
+        .then(function (resp) {
+          if (resp && resp.inquiryId) onboard(resp.inquiryId);
+          else done();
+        })
+        .catch(done);
     });
   </script>
 </body>

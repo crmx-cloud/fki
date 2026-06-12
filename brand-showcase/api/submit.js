@@ -71,7 +71,11 @@ export default async function handler(req, res) {
         },
         body: JSON.stringify(payload),
       });
-      if (r.ok) return res.status(200).json({ ok: true });
+      if (r.ok) {
+        const data = await r.json().catch(() => ({}));
+        // inquiryId lets the /welcome onboarding drive contact verification
+        return res.status(200).json({ ok: true, inquiryId: data.inquiryId });
+      }
       const body = await r.text().catch(() => "");
       console.error(`Convex inquiry endpoint responded ${r.status}: ${body} — falling back to direct CRMX`);
     } catch (err) {
