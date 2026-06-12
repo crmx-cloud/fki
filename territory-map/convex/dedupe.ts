@@ -69,15 +69,22 @@ async function mergeCluster(ctx: any, rows: any[]): Promise<{ keeperId: string; 
   if (userIds.length <= 1) {
     patch.userId = userIds[0] ?? undefined;
   } else {
+    // Same person, multiple auth accounts. Pick the LIVING account whose
+    // login email matches the merged profile's email (that's the login
+    // they'll use going forward); verification status breaks ties.
+    const mergedEmail = (patch.email ?? "").toLowerCase();
     let best: any = null;
     let bestScore = -1;
     for (const r of [...rows].sort((a, b) => recency(a) - recency(b))) {
       if (!r.userId) continue;
+      const user = await ctx.db.get(r.userId);
+      if (!user) continue; // deleted auth account — never link to a ghost
       const up = await ctx.db
         .query("userProfiles")
         .withIndex("by_user", (q: any) => q.eq("userId", r.userId))
         .first();
-      const score = (up?.emailVerifiedAt ? 2 : 0) + (up?.phoneVerifiedAt ? 1 : 0);
+      const emailMatch = (user as any).email?.toLowerCase() === mergedEmail ? 4 : 0;
+      const score = emailMatch + (up?.emailVerifiedAt ? 2 : 0) + (up?.phoneVerifiedAt ? 1 : 0);
       if (score >= bestScore) {
         bestScore = score;
         best = r.userId;

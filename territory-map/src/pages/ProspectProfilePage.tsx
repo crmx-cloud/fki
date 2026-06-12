@@ -258,7 +258,7 @@ export function ProspectProfilePage() {
         // Contact
         firstName: firstName || undefined,
         lastName: lastName || undefined,
-        phone: phone || undefined,
+        phone: phone.replace(/\D/g, "") || undefined, // store digits; format on display
         address: contactAddress || undefined,
         contactCity: contactCity || undefined,
         contactState: contactState || undefined,

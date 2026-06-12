@@ -39,6 +39,17 @@ export const requestCode = mutation({
       if (args.phone && profile && profile.phone !== args.phone) {
         await ctx.db.patch(profile._id, { phone: args.phone });
       }
+      // ONE identity: mirror to the PerfectFit profile too
+      if (args.phone) {
+        const prospect = await ctx.db
+          .query("prospectProfiles")
+          .withIndex("by_user", (q) => q.eq("userId", userId))
+          .first();
+        const clean = args.phone.replace(/\D/g, "");
+        if (prospect && prospect.phone !== clean) {
+          await ctx.db.patch(prospect._id, { phone: clean });
+        }
+      }
     }
     if (!target) throw new Error(args.kind === "email" ? "No email on account" : "Add a phone number first");
 

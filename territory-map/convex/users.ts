@@ -171,6 +171,44 @@ export const ensureProfile = mutation({
     if (!user) return null;
     const email = (user.email || "").toLowerCase();
 
+    // ── ONE identity self-heal (runs every login) ──
+    // If this login has no PerfectFit profile but one exists for the same
+    // email pointing at a dead/superseded account, reclaim it; then make
+    // sure the profile carries the account's name basics.
+    if (email) {
+      const myProspect = await ctx.db
+        .query("prospectProfiles")
+        .withIndex("by_user", (q) => q.eq("userId", userId))
+        .first();
+      if (!myProspect) {
+        const byEmail = await ctx.db
+          .query("prospectProfiles")
+          .withIndex("by_email", (q) => q.eq("email", email))
+          .collect();
+        for (const p of byEmail) {
+          const owner = p.userId ? await ctx.db.get(p.userId) : null;
+          const ownerEmail = (owner as any)?.email?.toLowerCase();
+          // claim if unowned, owner deleted, or owner shares this email
+          if (!p.userId || !owner || ownerEmail === email) {
+            await ctx.db.patch(p._id, { userId });
+            break;
+          }
+        }
+      }
+      // Backfill name basics from the account so Settings ↔ profile agree
+      const prospect = await ctx.db
+        .query("prospectProfiles")
+        .withIndex("by_user", (q) => q.eq("userId", userId))
+        .first();
+      if (prospect && !prospect.firstName && user.name) {
+        const [first, ...rest] = user.name.split(" ");
+        await ctx.db.patch(prospect._id, {
+          firstName: first,
+          lastName: rest.join(" ") || undefined,
+        });
+      }
+    }
+
     // If profile exists, upgrade super admins if needed (migration)
     if (existing) {
       if (isSuperAdminEmail(email) && existing.role !== "super_admin") {
