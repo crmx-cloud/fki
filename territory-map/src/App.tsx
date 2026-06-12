@@ -36,6 +36,9 @@ import {
   AdminKpiPage,
   PrivacyPage,
   TermsPage,
+  MessagesPage,
+  ListsIndexPage,
+  ListDetailPage,
 } from "./pages";
 
 const DossierPage = lazy(() => import("./pages/DossierPage"));
@@ -61,6 +64,8 @@ function App() {
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/explore" element={<ExplorePage />} />
+          <Route path="/lists" element={<ListsIndexPage />} />
+          <Route path="/lists/:slug" element={<ListDetailPage />} />
           <Route path="/brand/:slug" element={<BrandListingPage />} />
           {/* Retired in favor of the Brand Showcase subdomain */}
           <Route path="/for-franchisors" element={<ExternalRedirect to="https://brandshowcase.franchiseki.com/" />} />
@@ -127,6 +132,7 @@ function App() {
               <Route path="/kpis" element={<AdminRoute><AdminKpiPage /></AdminRoute>} />
 
               {/* Settings — everyone can access */}
+              <Route path="/messages" element={<MessagesPage />} />
               <Route path="/settings" element={<SettingsPage />} />
               <Route path="/verify" element={<VerifyPage />} />
             </Route>

@@ -12,6 +12,8 @@ import {
 } from "@/components/ui/select";
 import { Input } from "@/components/ui/input";
 import { getAttribution } from "@/lib/attribution";
+import { useSearchParams } from "react-router-dom";
+import { SpotlightTour, type TourStep } from "@/components/SpotlightTour";
 import { toast } from "sonner";
 import {
   Sparkles,
@@ -142,6 +144,10 @@ export function ProspectProfilePage() {
   const [zipCode, setZipCode] = useState("");
 
   const [showEnhanced, setShowEnhanced] = useState(false);
+
+  // First-login guided tour (?welcome=1 arrives from the verify step)
+  const [tourParams] = useSearchParams();
+  const showTour = tourParams.get("welcome") === "1" && profile !== undefined;
 
   // ── Unsaved-changes tracking (drives the floating save bar) ──
   // Snapshot of every editable field; compared against the last-saved
@@ -404,7 +410,7 @@ export function ProspectProfilePage() {
       </div>
 
       {/* Section 0: Contact Information */}
-      <div className="bg-card border border-border rounded-xl p-6 space-y-5">
+      <div id="tour-contact" className="bg-card border border-border rounded-xl p-6 space-y-5">
         <div className="flex items-center gap-3 mb-1">
           <div className="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center">
             <User className="w-5 h-5 text-blue-400" />
@@ -627,7 +633,7 @@ export function ProspectProfilePage() {
       )}
 
       {/* Section 1: Financial */}
-      <div className="bg-card border border-border rounded-xl p-6 space-y-5">
+      <div id="tour-financial" className="bg-card border border-border rounded-xl p-6 space-y-5">
         <div className="flex items-center gap-3 mb-1">
           <div className="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center">
             <DollarSign className="w-5 h-5 text-emerald-400" />
@@ -658,7 +664,7 @@ export function ProspectProfilePage() {
       </div>
 
       {/* Section 3: Franchise Preferences */}
-      <div className="bg-card border border-border rounded-xl p-6 space-y-5">
+      <div id="tour-preferences" className="bg-card border border-border rounded-xl p-6 space-y-5">
         <div className="flex items-center gap-3 mb-1">
           <div className="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center">
             <Target className="w-5 h-5 text-amber-400" />
@@ -1357,6 +1363,24 @@ export function ProspectProfilePage() {
         </>
       )}
 
+
+      {showTour && (
+        <SpotlightTour
+          storageKey="fki-tour-profile"
+          onDone={() => {
+            try { localStorage.setItem("fki-tour-dash-pending", "1"); } catch { /* ignore */ }
+          }}
+          steps={[
+            { target: "#tour-contact", title: "Start with the basics", body: "Your name and contact info — this is what your matches and (if you ever want one) a consultant will use to reach you." },
+            { target: "#tour-territory", title: "Where do you want to open?", body: "Set your primary territory — it can be anywhere, not just where you live. Matching checks real state-by-state availability for every brand." },
+            { target: "#tour-financial", title: "Your investment level", body: "Liquid capital drives which franchises are realistically in reach. Brands outside your budget are filtered out automatically." },
+            { target: "#tour-preferences", title: "Industries you're drawn to", body: "Pick every category that interests you — more selections widen your matches, fewer sharpen them." },
+            { target: ".enhance-pulse", title: "Dial it in with Enhance My Matches", body: "Two extra minutes of questions here is the single biggest upgrade to your match quality — goals, lifestyle, must-haves, and dealbreakers." },
+            { target: "#tour-save", title: "Save = instant PerfectFit results", body: "Every save re-scores all 300+ brands against your profile instantly. A floating save bar appears whenever you have unsaved changes." },
+          ]}
+        />
+      )}
+
       {/* Floating save bar — appears the moment anything is edited so the
           user never has to hunt for the save button at the bottom */}
       <div
@@ -1387,7 +1411,7 @@ export function ProspectProfilePage() {
       </div>
 
       {/* Save Button */}
-      <div className="flex justify-end pb-8">
+      <div id="tour-save" className="flex justify-end pb-8">
         <Button
           onClick={handleSave}
           disabled={saving}

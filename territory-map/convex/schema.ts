@@ -532,6 +532,18 @@ const schema = defineSchema({
     submittedAt: v.optional(v.string()),  // ISO timestamp from the relay
     brandId: v.optional(v.id("brands")),  // matched platform brand, if any
     createdAt: v.number(),
+    // Contact verification (Brand Showcase onboarding) — per-channel OTP state,
+    // mirrors verificationCodes semantics (hashed code, TTL, attempt cap)
+    emailCodeHash: v.optional(v.string()),
+    emailCodeExpiresAt: v.optional(v.number()),
+    emailCodeAttempts: v.optional(v.number()),
+    emailCodeSentAt: v.optional(v.number()),
+    emailVerifiedAt: v.optional(v.number()),
+    phoneCodeHash: v.optional(v.string()),
+    phoneCodeExpiresAt: v.optional(v.number()),
+    phoneCodeAttempts: v.optional(v.number()),
+    phoneCodeSentAt: v.optional(v.number()),
+    phoneVerifiedAt: v.optional(v.number()),
   })
     .index("by_email", ["email"])
     .index("by_brand", ["brandId"]),
@@ -823,6 +835,7 @@ const schema = defineSchema({
     profileEmail: v.optional(v.string()),         // join key to prospectProfiles
     prospectProfileId: v.optional(v.id("prospectProfiles")),
     ghlContactId: v.optional(v.string()),
+    ghlOpportunityId: v.optional(v.string()),     // dedupe key for GHL sync
     amount: v.number(),                           // USD
     revenueDate: v.string(),                      // "YYYY-MM-DD"
     source: v.optional(v.string()),
@@ -837,6 +850,28 @@ const schema = defineSchema({
   })
     .index("by_date", ["revenueDate"])
     .index("by_email", ["profileEmail"]),
+
+  // Newsletter signups (footer capture; pushed to CRMX with fki-newsletter tag)
+  newsletterSubscribers: defineTable({
+    email: v.string(),
+    source: v.optional(v.string()),
+    createdAt: v.number(),
+  }).index("by_email", ["email"]),
+
+  // ── User ↔ consultant chat (iMessage-style) ──────────────────────────
+  // Thread key = the prospect's userId. The thread belongs to the USER —
+  // it persists even if their consultant is unassigned/changed. Admins see
+  // all threads; consultants see threads for their assigned leads only.
+  chatMessages: defineTable({
+    prospectUserId: v.id("users"),
+    senderId: v.id("users"),
+    senderRole: v.string(),            // "prospect" | "consultant" | "admin"
+    senderName: v.optional(v.string()),
+    body: v.string(),
+    ts: v.number(),
+    readByProspect: v.optional(v.boolean()),
+    readByTeam: v.optional(v.boolean()),
+  }).index("by_prospect", ["prospectUserId", "ts"]),
 
   // Intent/activity event stream — feeds "active profile" calculations and
   // future intent scoring. Server-side events logged via activity.logInternal,

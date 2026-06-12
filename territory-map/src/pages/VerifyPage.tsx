@@ -22,7 +22,7 @@ export function VerifyPage() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const welcome = searchParams.get("welcome") === "1";
-  const next = searchParams.get("next") || (welcome ? "/my-profile" : "/dashboard");
+  const next = searchParams.get("next") || (welcome ? "/my-profile?welcome=1" : "/dashboard");
 
   if (status === undefined) {
     return (

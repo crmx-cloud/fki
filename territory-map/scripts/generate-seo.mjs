@@ -65,6 +65,7 @@ const STATE_NAMES = {
 
 console.log("[seo] fetching data from", CONVEX_URL);
 const { brands, profiles, openStatesByBrand } = await cq("seo:publicSiteData");
+const listPages = await cq("seo:listPages");
 const fpMap = new Map(profiles.map((p) => [p.brandId, p]));
 const saMap = new Map(Object.entries(openStatesByBrand));
 
@@ -201,9 +202,79 @@ for (const b of active) {
 }
 console.log(`[seo] wrote ${written} brand pages`);
 
+// ── Top Lists pages (SEO content layer) ──
+function listPage(l) {
+  const url = `${SITE}/lists/${l.slug}`;
+  const title = `${l.title} (2026) | FranchiseKI`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ItemList",
+        name: l.title,
+        description: l.description,
+        numberOfItems: l.rows.length,
+        itemListElement: l.rows.slice(0, 100).map((r) => ({
+          "@type": "ListItem",
+          position: r.rank,
+          name: r.name,
+          url: `${SITE}/brand/${r.slug}`,
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "FranchiseKI", item: SITE },
+          { "@type": "ListItem", position: 2, name: "Top Lists", item: `${SITE}/lists` },
+          { "@type": "ListItem", position: 3, name: l.title, item: url },
+        ],
+      },
+    ],
+  };
+  const content = `
+<header style="padding:16px 24px;border-bottom:1px solid #e2e8f0"><a href="${SITE}" style="font-weight:700;letter-spacing:2px;text-decoration:none;color:#0f1f3d">FRANCHISE<span style="color:#d4a857">KI</span></a></header>
+<main style="max-width:760px;margin:0 auto;padding:32px 24px;font-family:system-ui,sans-serif;color:#0f172a">
+  <nav style="font-size:13px;color:#64748b"><a href="${SITE}">Home</a> › <a href="${SITE}/lists">Top Lists</a> › ${esc(l.title)}</nav>
+  <h1>${esc(l.title)}</h1>
+  <p>${esc(l.description)}</p>
+  <p><strong>Methodology:</strong> ${esc(l.methodology)}</p>
+  <table border="1" cellpadding="8" style="border-collapse:collapse">
+    <tr><th>#</th><th>Brand</th><th>Category</th><th>Investment</th><th>Units</th><th>Item 19</th></tr>
+    ${l.rows
+      .map(
+        (r) =>
+          `<tr><td>${r.rank}</td><td><a href="${SITE}/brand/${r.slug}">${esc(r.name)}</a></td><td>${esc(r.category ?? "")}</td><td>${
+            r.investmentMin != null ? `${money(r.investmentMin)}–${money(r.investmentMax)}` : ""
+          }</td><td>${r.totalUnits ?? ""}</td><td>${r.item19 ? "Yes" : ""}</td></tr>`
+      )
+      .join("\n    ")}
+  </table>
+  <p>Every brand links to a full due-diligence profile with sourced data, state availability, and risk flags. <a href="${SITE}/quiz">Find which franchise actually fits you in 90 seconds — free</a>.</p>
+</main>`;
+  let html = shell;
+  html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`);
+  html = html
+    .replace(/[ \t]*<meta name="description"[^>]*>\n?/g, "")
+    .replace(/[ \t]*<meta (?:property="og:|name="twitter:)[^>]*>\n?/g, "")
+    .replace(/[ \t]*<link rel="canonical"[^>]*>\n?/g, "")
+    .replace(/[ \t]*<script type="application\/ld\+json">[\s\S]*?<\/script>\n?/g, "");
+  html = html.replace(
+    "</head>",
+    `<meta name="description" content="${esc(l.description)} Methodology: ${esc(l.methodology).slice(0, 80)}">\n<link rel="canonical" href="${url}">\n<meta property="og:title" content="${esc(title)}">\n<meta property="og:url" content="${url}">\n<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>\n</head>`
+  );
+  html = html.replace(/<div id="root">[\s\S]*?<\/div>/, `<div id="root">${content}</div>`);
+  return html;
+}
+for (const l of listPages) {
+  const dir = join(DIST, "lists", l.slug);
+  mkdirSync(dir, { recursive: true });
+  writeFileSync(join(dir, "index.html"), listPage(l));
+}
+console.log(`[seo] wrote ${listPages.length} list pages`);
+
 // ── sitemap.xml ──
 const today = new Date().toISOString().slice(0, 10);
-const staticUrls = ["", "/explore", "/quiz", "/get-started", "/claim"];
+const staticUrls = ["", "/explore", "/quiz", "/get-started", "/claim", "/lists", ...listPages.map((l) => `/lists/${l.slug}`)];
 const urls = [
   ...staticUrls.map((p) => ({ loc: `${SITE}${p}`, lastmod: today, priority: p === "" ? "1.0" : "0.8" })),
   ...active

@@ -5,6 +5,7 @@ import { useQuery } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import type { Id } from "../../convex/_generated/dataModel";
 import { Link, Navigate } from "react-router-dom";
+import { SpotlightTour } from "@/components/SpotlightTour";
 import {
   Sparkles,
   MapPin,
@@ -82,8 +83,28 @@ export function ProspectDashboardPage() {
     return <Navigate to="/verify?welcome=1" replace />;
   }
 
+  const dashTourPending = (() => {
+    try { return localStorage.getItem("fki-tour-dash-pending") === "1"; } catch { return false; }
+  })();
+
   return (
     <div className="max-w-5xl mx-auto space-y-8">
+      {dashTourPending && (
+        <SpotlightTour
+          storageKey="fki-tour-dash"
+          onDone={() => {
+            try { localStorage.removeItem("fki-tour-dash-pending"); } catch { /* ignore */ }
+          }}
+          steps={[
+            { target: "#tour-checklist", title: "Your path, tracked", body: "This checklist follows you until you've done the full journey — each step checks itself off as you go." },
+            { target: "#tour-matches", title: "Your PerfectFit matches", body: "Every brand scored against your profile — the reasons behind each score are shown on every card. They re-rank live as you refine your profile." },
+            { target: 'a[href="/saved"]', title: "Save brands you like", body: "Heart any brand to build your shortlist here." },
+            { target: 'a[href="/saved?compare=1"]', title: "Compare side-by-side", body: "Pick 2–3 saved brands and compare fees, royalties, support, and availability in one table." },
+            { target: 'a[href="/dossier"]', title: "Your free Due Diligence Report", body: "A deep-dive on your top matches — sourced data, risk flags, and exactly what to ask each franchisor. This is the report that saves you hundreds of hours." },
+            { target: "#tour-matches", title: "Want a human in your corner?", body: 'Hit "I\'m Interested" on any match to get connected with a vetted consultant — free for you, they\'re paid by franchisors only when a territory is awarded.' },
+          ]}
+        />
+      )}
       <GettingStartedChecklist
         verifyStatus={verifyStatus}
         prospectProfile={prospectProfile}
@@ -214,7 +235,7 @@ export function ProspectDashboardPage() {
 
       {/* Match list */}
       {profileComplete && matches && matches.length > 0 ? (
-        <div className="space-y-4">
+        <div id="tour-matches" className="space-y-4">
           <h2 className="text-lg font-semibold">Your Top Matches</h2>
           {matches.map((match, i) => (
             <MatchCard
@@ -591,7 +612,7 @@ function GettingStartedChecklist({ verifyStatus, prospectProfile, savedCount }: 
   if (doneCount >= steps.length - 1) return null; // last 2 steps have no tracked "done"
 
   return (
-    <div className="bg-gradient-to-r from-cyan-500/10 to-blue-500/10 border border-cyan-400/30 rounded-xl p-5">
+    <div id="tour-checklist" className="bg-gradient-to-r from-cyan-500/10 to-blue-500/10 border border-cyan-400/30 rounded-xl p-5">
       <div className="flex items-center justify-between mb-3">
         <h2 className="font-bold flex items-center gap-2">
           <Sparkles className="w-4 h-4 text-cyan-400" />

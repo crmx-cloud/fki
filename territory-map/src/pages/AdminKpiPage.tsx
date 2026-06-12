@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { useQuery, useMutation } from "convex/react";
+import { useQuery, useMutation, useAction } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Input } from "@/components/ui/input";
@@ -727,6 +727,12 @@ function RevenueManager() {
   const rows = useQuery(api.adminMetrics.listRevenue, open ? {} : "skip");
   const add = useMutation(api.adminMetrics.addRevenue);
   const remove = useMutation(api.adminMetrics.removeRevenue);
+  const syncRevenue = useAction(api.ghlRevenueSync.syncRevenue);
+  const [syncing, setSyncing] = useState(false);
+  const [syncCfg, setSyncCfg] = useState(() => {
+    try { return JSON.parse(localStorage.getItem("fki-ghl-sync-cfg") || "{}"); } catch { return {}; }
+  });
+  const [syncMsg, setSyncMsg] = useState("");
   const [form, setForm] = useState({
     profileEmail: "", amount: "", revenueDate: new Date().toISOString().slice(0, 10),
     source: "", triggerTag: "", notes: "",
@@ -738,6 +744,42 @@ function RevenueManager() {
       </Button>
       {open && (
         <div className="absolute right-0 top-9 z-30 w-[440px] bg-card border border-border rounded-xl p-4 shadow-2xl space-y-3">
+          {/* CRMX sync — config-driven (pipeline/status/tag), dedupes on re-run */}
+          <div className="rounded-lg border border-border bg-white/[0.02] p-3 space-y-2">
+            <div className="text-xs font-semibold">Sync from CRMX (GHL opportunities)</div>
+            <div className="grid grid-cols-3 gap-2">
+              <Input placeholder="Pipeline ID (blank=all)" value={syncCfg.pipelineId ?? ""} onChange={(e) => setSyncCfg({ ...syncCfg, pipelineId: e.target.value })} className="h-8 text-xs" />
+              <Input placeholder="Status (default: won)" value={syncCfg.status ?? ""} onChange={(e) => setSyncCfg({ ...syncCfg, status: e.target.value })} className="h-8 text-xs" />
+              <Input placeholder="Tag filter (optional)" value={syncCfg.tag ?? ""} onChange={(e) => setSyncCfg({ ...syncCfg, tag: e.target.value })} className="h-8 text-xs" />
+            </div>
+            <Button
+              size="sm"
+              variant="outline"
+              className="w-full h-8 text-xs"
+              disabled={syncing}
+              onClick={async () => {
+                setSyncing(true);
+                setSyncMsg("");
+                try {
+                  localStorage.setItem("fki-ghl-sync-cfg", JSON.stringify(syncCfg));
+                  const r = await syncRevenue({
+                    pipelineId: syncCfg.pipelineId || undefined,
+                    status: syncCfg.status || undefined,
+                    tag: syncCfg.tag || undefined,
+                  });
+                  setSyncMsg(r.ok ? `Scanned ${r.scanned} — added ${r.inserted}, skipped ${r.skipped} already-synced` : `Failed: ${r.error}`);
+                } catch (e: any) {
+                  setSyncMsg(`Failed: ${e.message}`);
+                } finally {
+                  setSyncing(false);
+                }
+              }}
+            >
+              {syncing ? "Syncing…" : "Sync now"}
+            </Button>
+            {syncMsg && <p className="text-[11px] text-muted-foreground">{syncMsg}</p>}
+          </div>
+
           <div className="text-xs font-semibold">Attribute revenue to a profile</div>
           <div className="grid grid-cols-2 gap-2">
             <ProfileSearchCombobox

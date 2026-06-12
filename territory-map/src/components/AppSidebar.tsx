@@ -1,6 +1,6 @@
 import { useAuthActions } from "@convex-dev/auth/react";
 import { useQuery } from "convex/react";
-import { LayoutDashboard, LogOut, Moon, Settings, Sun, MapPin, Building2, Shield, UserCircle, Sparkles, User, ClipboardList, Heart, Tag, Bell, Contact, Scale, FileSearch, BarChart3 } from "lucide-react";
+import { LayoutDashboard, LogOut, Moon, Settings, Sun, MapPin, Building2, Shield, UserCircle, Sparkles, User, ClipboardList, Heart, Tag, Bell, Contact, Scale, FileSearch, BarChart3, MessageCircle } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { useTheme } from "@/contexts/ThemeContext";
 import { APP_NAME } from "@/lib/constants";
@@ -76,6 +76,7 @@ function SidebarNav() {
               <NavLink href="/saved?compare=1" label="Compare Brands" icon={Scale} isActive={false} />
               <NavLink href="/dossier" label="Due Diligence Report" icon={FileSearch} isActive={location.pathname === "/dossier"} />
               <NavLink href="/my-profile" label="My Profile" icon={User} isActive={location.pathname === "/my-profile"} />
+              <NavLink href="/messages" label="Messages" icon={MessageCircle} isActive={location.pathname === "/messages"} />
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
@@ -88,6 +89,7 @@ function SidebarNav() {
           <SidebarGroupContent>
             <SidebarMenu>
               <NavLink href="/crm" label="My Leads" icon={UserCircle} isActive={location.pathname === "/crm"} />
+              <NavLink href="/messages" label="Messages" icon={MessageCircle} isActive={location.pathname === "/messages"} />
               <NavLink href="/tags" label="Tags" icon={Tag} isActive={location.pathname === "/tags"} />
             </SidebarMenu>
           </SidebarGroupContent>
@@ -140,6 +142,7 @@ function SidebarNav() {
               <SidebarGroup>
                 <SidebarGroupContent>
                   <SidebarMenu>
+                    <NavLink href="/messages" label="Messages" icon={MessageCircle} isActive={location.pathname === "/messages"} />
                     <NavLink href="/kpis" label="Company KPIs" icon={BarChart3} isActive={location.pathname === "/kpis"} />
                     <NavLink href="/tags" label="Tags" icon={Tag} isActive={location.pathname === "/tags"} />
                     {myProfile?.isSuperAdmin && (

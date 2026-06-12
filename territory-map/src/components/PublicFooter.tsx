@@ -1,4 +1,7 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useMutation } from "convex/react";
+import { api } from "../../convex/_generated/api";
 
 export function PublicFooter() {
   return (
@@ -17,6 +20,7 @@ export function PublicFooter() {
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-500">
             <Link to="/quiz" className="hover:text-white transition-colors">PerfectFit</Link>
             <Link to="/explore" className="hover:text-white transition-colors">Explore</Link>
+            <Link to="/lists" className="hover:text-white transition-colors">Top Lists</Link>
             <a href="https://brandshowcase.franchiseki.com/" className="hover:text-white transition-colors">For Franchisors</a>
             <Link to="/privacy" className="hover:text-white transition-colors">Privacy</Link>
             <Link to="/terms" className="hover:text-white transition-colors">Terms</Link>
@@ -25,6 +29,9 @@ export function PublicFooter() {
             <Link to="/login" className="hover:text-cyan-400 transition-colors">Admin Login</Link>
           </div>
         </div>
+
+        {/* Newsletter capture → CRMX (fki-newsletter tag) */}
+        <NewsletterSignup />
 
         {/* Site-wide due-diligence / liability disclaimer */}
         <p className="mt-8 pt-6 border-t border-white/5 text-[11px] leading-relaxed text-slate-600 max-w-5xl">
@@ -41,5 +48,50 @@ export function PublicFooter() {
         </p>
       </div>
     </footer>
+  );
+}
+
+
+function NewsletterSignup() {
+  const subscribe = useMutation(api.newsletter.subscribe);
+  const [email, setEmail] = useState("");
+  const [state, setState] = useState<"idle" | "busy" | "done">("idle");
+  return (
+    <div className="mt-8 pt-6 border-t border-white/5 flex flex-col sm:flex-row sm:items-center gap-3">
+      <div className="text-sm text-slate-400 sm:flex-1">
+        <span className="font-semibold text-slate-300">Franchise intel, monthly.</span>{" "}
+        New brands, market moves, and due-diligence tips — no spam.
+      </div>
+      {state === "done" ? (
+        <span className="text-sm text-emerald-400 font-medium">You're in — welcome aboard.</span>
+      ) : (
+        <form
+          className="flex gap-2"
+          onSubmit={async (e) => {
+            e.preventDefault();
+            if (!email.trim() || state === "busy") return;
+            setState("busy");
+            const r = await subscribe({ email: email.trim(), source: "footer" }).catch(() => ({ ok: false }));
+            setState(r?.ok ? "done" : "idle");
+          }}
+        >
+          <input
+            type="email"
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="you@example.com"
+            className="w-56 rounded-lg bg-white/[0.06] border border-white/10 px-3 py-2 text-sm outline-none focus:border-cyan-400/50 placeholder:text-slate-600"
+          />
+          <button
+            type="submit"
+            disabled={state === "busy"}
+            className="rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white text-sm font-semibold px-4 py-2 transition-colors disabled:opacity-60"
+          >
+            {state === "busy" ? "…" : "Subscribe"}
+          </button>
+        </form>
+      )}
+    </div>
   );
 }
