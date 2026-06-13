@@ -62,8 +62,20 @@ def run(batch_file, only_brand=None):
 
         # 3 — state availability (sourced only)
         states, source = [], None
-        if b.get("statesOpen"):
-            for s in b["statesOpen"]:
+        so = b.get("statesOpen")
+        if isinstance(so, dict):
+            # descriptor object — extract embedded 2-letter codes from the note
+            import re as _re
+            text = " ".join(str(so.get(k, "")) for k in ("note", "detail"))
+            codes = [c for c in _re.findall(r"\\b([A-Z]{2})\\b", text) if c in ALL_STATES]
+            source = so.get("source")
+            note = " · ".join(x for x in [so.get("note"), so.get("source"), so.get("url")] if x)[:500]
+            states = [{"state": c, "status": "open", **({"note": note} if note else {})}
+                      for c in dict.fromkeys(codes)]
+        elif so:
+            for s in so:
+                if isinstance(s, str):
+                    s = {"state": s}
                 code = (s.get("state") or "").upper()
                 if code not in ALL_STATES: continue
                 entry = {"state": code, "status": s.get("status", "open")}
@@ -71,9 +83,10 @@ def run(batch_file, only_brand=None):
                 note = " · ".join(x for x in note_bits if x)
                 if note: entry["note"] = note[:500]
                 states.append(entry)
-            source = b["statesOpen"][0].get("source") if b["statesOpen"] else None
+            first = so[0]
+            source = first.get("source") if isinstance(first, dict) else None
         elif b.get("nationwide"):
-            nw = b["nationwide"]
+            nw = b["nationwide"] if isinstance(b["nationwide"], dict) else {}
             note = " · ".join(x for x in [nw.get("note"), nw.get("url")] if x)[:500]
             states = [{"state": c, "status": "open", **({"note": note} if note else {})} for c in ALL_STATES]
             source = nw.get("source")
