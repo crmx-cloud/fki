@@ -1,0 +1,609 @@
+{
+  "brands": [
+    {
+      "name": "Row House",
+      "slug": "row-house",
+      "category": "Fitness",
+      "website": "therowhouse.com",
+      "notes": "Boutique indoor rowing studio franchise. Divested by Xponential Fitness in May 2024 and now owned by Extraordinary Brands, which continues to franchise the concept. Buyers should weigh the brand's heavy contraction under Xponential (82 studios in 2022 down to roughly 49-60 by 2025) and the parent's regulatory history against the new owner's turnaround pitch.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Significant studio contraction (82 down to ~49 units)",
+          "detail": "Row House had as many as 82 open studios in 2022; Xponential closed underperforming locations to position the brand for sale, and Vetted Biz lists about 49 US locations by 2025. The system shrank materially before the 2024 ownership change.",
+          "source": "Franchise Times M&A coverage; Vetted Biz - Row House Franchise Insights",
+          "url": "https://www.franchisetimes.com/franchise_mergers_and_acquisitions/extraordinary-brands-acquires-row-house-from-xponential-fitness/article_f9559456-1920-11ef-9ee9-b3162016c97d.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Former parent Xponential settled FTC and franchisee claims for ~$40M",
+          "detail": "In March 2026 Xponential Fitness agreed to pay $17M to the FTC and $22.75M to 509 current and former franchisees over alleged Franchise Rule violations and misstatements/omissions dating back to 2023, when Row House was still a Xponential brand. Row House was divested in 2024 but its prior FDD and sales practices were authored under that parent.",
+          "source": "Franchise Times - Xponential Agrees to Pay Millions in FTC, Franchisee Settlements",
+          "url": "https://www.franchisetimes.com/franchise_news/xponential-fitness-agrees-to-pay-millions-in-ftc-franchisee-settlements/article_1aaeaf38-00e9-41e5-a7fe-4eb76c617b7a.html",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Modest AUV against a six-figure build cost",
+          "detail": "Vetted Biz cites yearly gross sales of about $314,660 per studio against a total investment that can exceed $480,000, implying a long payback period for a boutique fitness concept that depends on recurring membership retention.",
+          "source": "Vetted Biz - Row House Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/row-house/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 55000, "source": "Vetted Biz - Row House Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 194480, "source": "Vetted Biz - Row House Franchise Insights", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites a higher $328,295-$490,695 range; Vetted Biz FDD-derived range is $194,480-$480,580."},
+        "totalInvestmentMax": {"value": 480580, "source": "Vetted Biz - Row House Franchise Insights", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 49000, "source": "Vetted Biz - Row House Franchise Insights", "year": 2025, "confidence": "medium", "note": "Other directories cite up to $60,000."},
+        "royaltyPercent": {"value": 7, "source": "Vetted Biz - Row House Franchise Insights", "year": 2025, "confidence": "medium", "note": "7% of monthly sales."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz - Row House Franchise Insights", "year": 2025, "confidence": "medium"},
+        "avgUnitRevenue": {"value": 314660, "source": "Vetted Biz - Row House Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Yearly gross sales per Vetted Biz analysis."},
+        "totalUnits": {"value": 49, "source": "Vetted Biz - Row House Franchise Insights", "year": 2025, "confidence": "medium", "note": "US locations per Vetted Biz; the system peaked near 82 in 2022 before closures."},
+        "yearFounded": {"value": 2014, "source": "Vetted Biz - Row House Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2017, "source": "Vetted Biz - Row House Franchise Insights", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Franchise Times M&A coverage; Vetted Biz", "year": 2025, "confidence": "medium", "note": "System contracted from ~82 studios (2022) to ~49 (2025)."},
+        "businessModelType": {"value": "b2c", "source": "Row House brand site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Row House brand site (studio model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz - Row House Franchise Insights", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Row House Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "TITLE Boxing Club",
+      "slug": "title-boxing-club",
+      "category": "Fitness",
+      "website": "titleboxingclub.com",
+      "notes": "Boutique non-contact boxing/kickboxing fitness franchise (founded 2009 in Kansas, HQ now San Francisco) with about 100 US locations plus units in Mexico and the Dominican Republic. The key concern for buyers is a multi-year unit decline (franchised locations fell from 139 in 2022 to 90 in 2024) even as the company grew its own corporate stores.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchised units fell 35% in two years (139 to 90)",
+          "detail": "Per the 2025 FDD outlet tables, franchised locations dropped from 139 (2022) to 90 (2024) - a loss of 49 units - while company-owned units grew from 2 to 10. A shrinking franchised base with simultaneous corporate expansion is a caution signal for prospective owners.",
+          "source": "Franchise Chatter 2025 FDD review",
+          "url": "https://www.franchisechatter.com/2025/11/07/title-boxing-club-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Minimum Performance Standard royalty adjustment",
+          "detail": "Beyond the 7.5% royalty, the FDD imposes a Minimum Performance Standard of $23,600 monthly gross revenue in year two and $29,500 monthly in year three and beyond; falling short can trigger a royalty adjustment - a fixed obligation that pressures underperforming clubs.",
+          "source": "SHARPSHEETS TITLE Boxing Club FDD analysis",
+          "url": "https://sharpsheets.io/blog/title-boxing-club-franchise-costs-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Wide performance dispersion; lower 20% averaged ~$215K",
+          "detail": "2024 Item 19: 88 franchised clubs averaged $422,065 revenue (median $406,183), but the range ran $113,861-$947,442 and the lower 20% averaged just $214,744 - thin coverage against a build cost that can exceed $900,000.",
+          "source": "TITLE Boxing Club 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/11/07/title-boxing-club-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 120000, "source": "Vetted Biz - TITLE Boxing Club Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 468698, "source": "TITLE Boxing Club 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 944442, "source": "TITLE Boxing Club 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49500, "source": "TITLE Boxing Club 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "FDD discloses $29,900-$49,500."},
+        "royaltyPercent": {"value": 7.5, "source": "TITLE Boxing Club 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "7.5% of monthly gross revenue, with a Minimum Performance Standard royalty adjustment."},
+        "adFundPercent": {"value": 1, "source": "TITLE Boxing Club 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "1% brand creative fund plus $2,000-$2,500/month local advertising."},
+        "avgUnitRevenue": {"value": 422065, "source": "TITLE Boxing Club 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average across 88 franchised clubs operating 10+ months; median $406,183; range $113,861-$947,442."},
+        "totalUnits": {"value": 100, "source": "TITLE Boxing Club 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "90 franchised + 10 company-owned at end of 2024; brand also operates in Mexico and the Dominican Republic."},
+        "yearFounded": {"value": 2009, "source": "Vetted Biz - TITLE Boxing Club Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2010, "source": "Vetted Biz - TITLE Boxing Club Franchise Insights", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "TITLE Boxing Club 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Franchised units 139 (2022) -> 90 (2024)."},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz - TITLE Boxing Club Franchise Insights", "year": 2025, "confidence": "medium", "note": "Vetted Biz reports no lawsuits or bankruptcy disclosed in the FDD."},
+        "businessModelType": {"value": "b2c", "source": "TITLE Boxing Club brand site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "TITLE Boxing Club brand site (studio model)", "year": 2026, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Franchise Chatter 2025 FDD review (Mexico, Dominican Republic units)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "UFC Gym",
+      "slug": "ufc-gym",
+      "category": "Fitness",
+      "website": "ufcgym.com",
+      "notes": "Mixed-martial-arts-branded fitness franchise licensed from the UFC, offering multiple formats (Signature, Core, Class by UFC Gym, Jiu Jitsu, UFC Fit). About 72 US units at end of 2024. The notable structural shift is a sharp reduction in company-owned gyms (20 to 3 over 2022-2024) alongside modest franchised growth.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Company-owned gyms cut from 20 to 3 in two years",
+          "detail": "Per the 2026 FDD outlet tables, company-owned units fell from 20 (2022) to 13 (2023) to 3 (2024) while franchised units grew only modestly (+5 in 2024 to 69). A rapid corporate-store wind-down can signal operational repositioning that prospective franchisees should probe.",
+          "source": "Franchise Chatter 2026 FDD review",
+          "url": "https://www.franchisechatter.com/2026/03/17/ufc-gym-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Litigation and/or bankruptcy disclosed in FDD",
+          "detail": "Vetted Biz reports UFC Gym discloses lawsuits and/or bankruptcy information in its FDD (Item 3/Item 4), which prospective franchisees should review in detail before committing.",
+          "source": "Vetted Biz - UFC Gym Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/ufc-gym",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "High capital bar and heavy local-ad obligation",
+          "detail": "Vetted Biz lists a $305,000 minimum liquid-capital requirement, and the FDD requires local advertising of $2,500-$7,500 per month (varies by model) on top of the 2% marketing fund - significant fixed marketing spend regardless of revenue.",
+          "source": "Vetted Biz - UFC Gym Franchise Insights; Franchise Chatter 2026 FDD review",
+          "url": "https://www.vettedbiz.com/franchises/ufc-gym",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 305000, "source": "Vetted Biz - UFC Gym Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 232526, "source": "UFC Gym 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Range varies widely by model; signature/full-format builds run far higher."},
+        "totalInvestmentMax": {"value": 524371, "source": "UFC Gym 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "UFC Gym 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "FDD discloses $30,000-$50,000 depending on model."},
+        "royaltyPercent": {"value": 6, "source": "UFC Gym 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "6% for Core/Class/Jiu Jitsu models; 4% for Signature and UFC Fit."},
+        "adFundPercent": {"value": 2, "source": "UFC Gym 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2% of gross revenues, plus $2,500-$7,500/month local advertising minimum."},
+        "avgUnitRevenue": {"value": 3590000, "source": "UFC Gym 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "medium", "note": "Average revenue across 22 franchisee-owned Signature/Fit locations (median $3.62M); other smaller-format models earn materially less."},
+        "totalUnits": {"value": 72, "source": "UFC Gym 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "69 franchised + 3 company-owned at end of 2024."},
+        "yearFounded": {"value": 2004, "source": "Vetted Biz - UFC Gym Franchise Insights", "year": 2025, "confidence": "medium", "note": "Vetted Biz lists 2004; the UFC Gym brand publicly launched around 2009."},
+        "yearFranchising": {"value": 2013, "source": "Vetted Biz - UFC Gym Franchise Insights", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "UFC Gym 2026 FDD outlet tables (via Franchise Chatter)", "year": 2026, "confidence": "low", "note": "+5 franchised units in 2024, but total US footprint contracted overall due to company-store closures."},
+        "businessModelType": {"value": "b2c", "source": "UFC Gym brand site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "UFC Gym brand site (gym facility model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Workout Anytime",
+      "slug": "workout-anytime",
+      "category": "Fitness",
+      "website": "workoutanytime.com",
+      "notes": "24-hour access gym franchise (founded 2004, Atlanta) with about 190 US locations, all franchised and zero company-owned. A large-format, real-estate-heavy investment (over $1M typical) with a modest per-club AUV, so payback is long and site selection is decisive.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High build cost ($1.06M-$1.84M) against a modest ~$460K AUV",
+          "detail": "Vetted Biz estimates yearly gross sales of about $460,256 per club against a total investment exceeding $1M, implying a long payback (Vetted Biz models 24-26 years on its earnings estimate). The 24-hour budget-gym model relies on high membership volume and tight cost control.",
+          "source": "Vetted Biz - Workout Anytime Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/workout-anytime",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Litigation and/or bankruptcy disclosed in FDD",
+          "detail": "Vetted Biz reports Workout Anytime discloses lawsuits and/or bankruptcy information in its FDD (Item 3/Item 4), which prospective franchisees should review before signing.",
+          "source": "Vetted Biz - Workout Anytime Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/workout-anytime",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Stacked ongoing fees plus required local marketing",
+          "detail": "Franchisees pay a 6% royalty plus a 2% brand marketing fund on monthly sales, with additional required local marketing on top - combined ongoing brand fees of 8%+ of revenue before local spend.",
+          "source": "FranchisePayback Workout Anytime FDD data; Vetted Biz",
+          "url": "https://www.franchisepayback.com/franchise/workout-anytime",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 250000, "source": "Vetted Biz - Workout Anytime Franchise Insights", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites ~$150,000; Vetted Biz lists $250,000 minimum."},
+        "totalInvestmentMin": {"value": 1060850, "source": "Vetted Biz - Workout Anytime Franchise Insights", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1840550, "source": "Vetted Biz - Workout Anytime Franchise Insights", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 45000, "source": "Vetted Biz - Workout Anytime Franchise Insights; SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz; FranchisePayback Workout Anytime FDD data", "year": 2025, "confidence": "high", "note": "6% of monthly sales (some directories cite 8%)."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz; FranchisePayback", "year": 2025, "confidence": "high", "note": "2% brand marketing fund plus required local marketing."},
+        "avgUnitRevenue": {"value": 460256, "source": "Vetted Biz - Workout Anytime Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Estimated yearly gross sales; franchisor does not publish a full systemwide Item 19 AUV."},
+        "totalUnits": {"value": 190, "source": "Vetted Biz; FranchisePayback Workout Anytime FDD data", "year": 2025, "confidence": "high", "note": "All franchised; 0 company-owned."},
+        "yearFounded": {"value": 2004, "source": "Vetted Biz - Workout Anytime Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2005, "source": "Vetted Biz - Workout Anytime Franchise Insights", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "FranchisePayback Workout Anytime FDD data", "year": 2025, "confidence": "medium", "note": "About +6% year-over-year unit growth."},
+        "businessModelType": {"value": "b2c", "source": "Workout Anytime brand site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Workout Anytime brand site (24-hour gym facility model)", "year": 2026, "confidence": "high"},
+        "absenteeOwnership": {"value": true, "source": "Workout Anytime brand site (semi-absentee 24-hour model marketed)", "year": 2026, "confidence": "low", "note": "Brand markets a semi-absentee-friendly staffing model; confirm with FDD."},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; FranchisePayback", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz (FDD-derived estimate)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Fitness 19",
+      "slug": "fitness-19",
+      "category": "Fitness",
+      "website": "fitness19.com",
+      "notes": "No-frills, value-priced gym franchise with about 95 US locations (all franchised). A large-format, real-estate- and equipment-heavy investment ($650K-$1.7M+) with a low $15,000 franchise fee. Royalty and marketing-fee percentages are not reliably published in third-party sources, so they are omitted here; prospective buyers should obtain Items 5-6 directly from the FDD.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High capital requirement (up to ~$1.74M) for a value-gym concept",
+          "detail": "Vetted Biz lists a total investment of $650,190-$1,742,100 with a $185,000 minimum liquid-capital requirement - a heavy real-estate and equipment commitment for a budget-priced gym, where margins depend on high membership volume at low monthly dues.",
+          "source": "Vetted Biz - Fitness 19 Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/fitness-19/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Litigation and/or bankruptcy disclosed in FDD",
+          "detail": "Vetted Biz reports Fitness 19 discloses lawsuits and/or bankruptcy information in its FDD (Item 3/Item 4); prospective franchisees should review these disclosures before committing.",
+          "source": "Vetted Biz - Fitness 19 Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/fitness-19/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Small, slow-growing system in a crowded budget-gym category",
+          "detail": "At roughly 95 US units, Fitness 19 is a small system competing against far larger value-gym brands (Planet Fitness, Anytime Fitness, Crunch), which carry stronger national marketing budgets and brand recognition - a competitive-scale disadvantage for individual franchisees.",
+          "source": "Vetted Biz - Fitness 19 Franchise Insights; Mindbody fitness-franchise overview",
+          "url": "https://www.vettedbiz.com/franchises/fitness-19/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 185000, "source": "Vetted Biz - Fitness 19 Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 650190, "source": "Vetted Biz - Fitness 19 Franchise Insights", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1742100, "source": "Vetted Biz - Fitness 19 Franchise Insights", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 15000, "source": "Vetted Biz - Fitness 19 Franchise Insights", "year": 2025, "confidence": "high"},
+        "totalUnits": {"value": 95, "source": "Vetted Biz - Fitness 19 Franchise Insights", "year": 2025, "confidence": "high", "note": "All franchised; 0 company-owned."},
+        "yearFounded": {"value": 2008, "source": "Vetted Biz - Fitness 19 Franchise Insights", "year": 2025, "confidence": "medium", "note": "Vetted Biz lists 2008; some directories cite the brand origin as 2003."},
+        "yearFranchising": {"value": 2009, "source": "Vetted Biz - Fitness 19 Franchise Insights", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Fitness 19 brand site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Fitness 19 brand site (gym facility model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz - Fitness 19 Franchise Insights", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Retro Fitness",
+      "slug": "retro-fitness",
+      "category": "Fitness",
+      "website": "retrofitness.com",
+      "notes": "Large-format value gym franchise (HQ New Jersey) with about 82 US locations, undergoing a turnaround under CEO Andrew Alfano and a 'Project LIFT' expansion push. The dominant concern is a multi-year decline in the franchised base (98 to 81 units over 2022-2024) and a high-cost, leasehold-heavy build (over $2M typical).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchised base shrank from 98 to 81 units over two years",
+          "detail": "Per the 2025 FDD outlet tables, franchised units fell from 98 (2022) to 86 (2023) to 81 (2024) - a net loss of 17 outlets - even as the franchisor markets a 'Project LIFT' plan for 80+ new gyms. The operating network is contracting while the pipeline narrative expands.",
+          "source": "Retro Fitness 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/11/01/retro-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Very high investment with leasehold/buildout dominating cost",
+          "detail": "Total investment runs $2,037,316-$3,241,991, with leasehold improvements/buildout of roughly $1.5M-$2.2M (65-75% of total). Franchisees also must spend $30,000-$50,000 on pre-opening local advertising plus a minimum ~$6,000/month ongoing - heavy fixed costs against a median gross of $976,731.",
+          "source": "Retro Fitness 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/11/01/retro-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Royalty can step up to 7% on repeated default",
+          "detail": "The standard 5% royalty (with a $1,000/month minimum) increases to 7% of gross sales (with a $1,500/month minimum) for franchisees with three or more defaults - a penalty structure that compounds pressure on struggling locations.",
+          "source": "Retro Fitness 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/11/01/retro-fitness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 470000, "source": "Vetted Biz - Retro Fitness Franchise Insights", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites $500,000 liquid and $1.5M net worth."},
+        "netWorthMin": {"value": 1500000, "source": "SHARPSHEETS Retro Fitness FDD analysis", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 2037316, "source": "Retro Fitness 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 3241991, "source": "Retro Fitness 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 29000, "source": "Retro Fitness 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Retro Fitness 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "5% of gross sales ($1,000/month minimum); steps to 7% for franchisees with 3+ defaults."},
+        "adFundPercent": {"value": 2, "source": "Retro Fitness 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Greater of 2% of gross sales or $400/month, plus heavy required local advertising."},
+        "avgUnitRevenue": {"value": 976731, "source": "Retro Fitness 2025 FDD Item 19 (via Franchise Chatter review and Vetted Biz)", "year": 2025, "confidence": "high", "note": "Median gross sales across 74 outlets open 12+ months (Mar 2024-Feb 2025); range $384,769-$3,547,770; only ~35% exceed the average."},
+        "totalUnits": {"value": 82, "source": "Retro Fitness 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "81 franchised + 1 company-owned at end of 2024."},
+        "yearFounded": {"value": 2005, "source": "Vetted Biz - Retro Fitness Franchise Insights", "year": 2025, "confidence": "medium", "note": "Vetted Biz lists 2005; some sources cite 2004."},
+        "yearFranchising": {"value": 2006, "source": "Vetted Biz - Retro Fitness Franchise Insights", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Retro Fitness 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Franchised units 98 (2022) -> 81 (2024)."},
+        "businessModelType": {"value": "b2c", "source": "Retro Fitness brand site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Retro Fitness brand site (gym facility model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review; Vetted Biz", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Cartridge World",
+      "slug": "cartridge-world",
+      "category": "Retail",
+      "website": "cartridgeworldusa.com",
+      "notes": "Printer-ink and toner cartridge retail/B2B supply franchise (originated Australia 1988; US franchising from 1997). After a decade-long gap, the franchisor reintroduced US franchising in 2023-2024 with a low-overhead 'Executive Office Model' (remote, no storefront, no fixed territory). Buyers should weigh the brand's global financial-distress and ownership-change history against the relaunch momentum, and note that third-party figures vary widely across the old retail and new remote models.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "History of overseas bankruptcies and ownership turnover",
+          "detail": "Cartridge World's German operation filed for bankruptcy in 2017, and the global brand was acquired by Chinese OPC manufacturer Suzhou Goldengreen Technologies in 2015 - part of a turbulent ownership history that preceded a multi-year pause in US franchise sales before the 2023-2024 relaunch.",
+          "source": "Actionable Intelligence; Managed IT Magazine - Rebooting Cartridge World",
+          "url": "https://www.action-intell.com/2017/09/06/cartridge-world-germany-files-for-bankruptcy/",
+          "year": 2017
+        },
+        {
+          "severity": "caution",
+          "title": "Recently re-launched system with little current-model track record",
+          "detail": "The franchisor only reintroduced US franchise sales in 2023 after more than a decade away, debuting a new remote 'Executive Office Model.' Most of the offering's economics rest on a young, unproven format, so Item 19 results largely reflect legacy retail units rather than the model being sold today.",
+          "source": "Cartridge World USA franchise relaunch announcement; peersense FDD summary",
+          "url": "https://cartridgeworldusa.com/cartridge-world-announces-launch-of-new-improved-franchise-opportunity",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Structurally declining category (printer consumables)",
+          "detail": "The core product - printer ink and toner cartridges - sits in a long-term-declining market as offices reduce printing and OEM subscription/ink-delivery programs capture demand, a secular headwind independent of any single franchisee's execution.",
+          "source": "Managed IT Magazine - Rebooting Cartridge World",
+          "url": "https://manageditmag.co.uk/rebooting-cartridge-world/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 15000, "source": "Vetted Biz - Cartridge World Franchise Insights", "year": 2025, "confidence": "low", "note": "Reflects the low-overhead remote model; legacy retail builds required more."},
+        "totalInvestmentMin": {"value": 35000, "source": "peersense / SHARPSHEETS Cartridge World FDD summaries", "year": 2025, "confidence": "medium", "note": "Low end reflects the remote Executive Office Model; full retail build-out runs to ~$345,920."},
+        "totalInvestmentMax": {"value": 345920, "source": "peersense / SHARPSHEETS Cartridge World FDD summaries", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 18500, "source": "peersense Cartridge World FDD summary", "year": 2025, "confidence": "medium", "note": "Vetted Biz's older entry cited $50,000; the relaunched model's fee is ~$18,500."},
+        "royaltyPercent": {"value": 6, "source": "peersense / SHARPSHEETS Cartridge World FDD summaries", "year": 2025, "confidence": "medium", "note": "6% of gross sales per current summaries; older Vetted Biz data cited 8%."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS Cartridge World FDD analysis", "year": 2025, "confidence": "low", "note": "Up to 2% of gross sales; older Vetted Biz data cited 4%."},
+        "totalUnits": {"value": 109, "source": "Vetted Biz; SHARPSHEETS Cartridge World FDD analysis", "year": 2025, "confidence": "medium", "note": "About 107-111 franchised + 2 company-owned in the US per 2024 data."},
+        "yearFounded": {"value": 1988, "source": "Vetted Biz - Cartridge World Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1997, "source": "Vetted Biz - Cartridge World Franchise Insights", "year": 2025, "confidence": "medium", "note": "US franchise sales were reintroduced in 2023 after a multi-year pause."},
+        "businessModelType": {"value": "both", "source": "peersense Cartridge World FDD summary (B2B-oriented remote model plus legacy retail)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": false, "source": "peersense FDD summary (remote/home-office Executive Office Model)", "year": 2025, "confidence": "low", "note": "New model is home/remote-office based rather than a fixed storefront."},
+        "internationalAvailability": {"value": true, "source": "Wikipedia - Cartridge World (global brand presence)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange - Cartridge World", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Play It Again Sports",
+      "slug": "play-it-again-sports",
+      "category": "Retail",
+      "website": "playitagainsports.com",
+      "notes": "Buy-sell-trade new and used sporting goods retail franchise, the flagship resale brand of Winmark Corporation (acquired 1990). About 302 franchised stores across the US and Canada, no company-owned units. A mature, stable resale system with healthy unit economics, though parent Winmark reported softer revenue and profit in 2024.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Wide store-level performance dispersion",
+          "detail": "2024 Item 19: 276 stores averaged $1,142,595 gross sales (median $991,890), but only 39% met or exceeded the average; the top quartile averaged $2,028,493 versus $538,587 for the bottom quartile, and 2023-opened stores were the weakest (only 19% hit the average).",
+          "source": "Play It Again Sports 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/07/02/play-it-again-sports-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Parent Winmark reported revenue and profit dip in 2024",
+          "detail": "Franchise Chatter notes Winmark Corporation, the parent franchisor, reported a dip in revenues and profits in 2024 - a signal worth weighing on franchisor-level support and reinvestment capacity even though the resale model has historically been resilient.",
+          "source": "Franchise Chatter 2025 FDD review (citing Winmark results)",
+          "url": "https://www.franchisechatter.com/2025/07/02/play-it-again-sports-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Inventory-skill-dependent buy-sell-trade model",
+          "detail": "Profitability hinges on the franchisee's skill at sourcing and pricing used inventory from the public (the ~53% gross margin depends on buying low and reselling). Mispriced trade-ins or stale used stock directly erode margins in a way pure new-goods retail does not face.",
+          "source": "Play It Again Sports 2025 FDD Item 19 gross-margin data (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/07/02/play-it-again-sports-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "SHARPSHEETS / Franchise Direct Play It Again Sports summaries", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 350000, "source": "SHARPSHEETS / Franchise Direct Play It Again Sports summaries", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 343050, "source": "Play It Again Sports 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 456500, "source": "Play It Again Sports 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "Play It Again Sports 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Some older directories cite $20,000."},
+        "royaltyPercent": {"value": 5, "source": "Play It Again Sports 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "Play It Again Sports 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Up to 2% advertising fee plus a fixed $1,500/year marketing contribution."},
+        "avgUnitRevenue": {"value": 1142595, "source": "Play It Again Sports 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross sales across 276 stores open 12+ months; median $991,890; average gross profit $608,256 (~53% margin)."},
+        "totalUnits": {"value": 302, "source": "Play It Again Sports 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "302 franchised across US and Canada at end of 2024; 0 company-owned. Some directories cite ~356 globally."},
+        "yearFounded": {"value": 1983, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1988, "source": "Winmark / Franchise Direct Play It Again Sports summaries", "year": 2025, "confidence": "medium"},
+        "renewalTermYears": {"value": 10, "source": "Franchise Direct Play It Again Sports FDD summary", "year": 2025, "confidence": "medium", "note": "10-year initial term, renewable for additional 10-year periods."},
+        "isGrowing": {"value": true, "source": "Play It Again Sports 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "+8 (2022), +13 (2023), +8 (2024) net franchised units."},
+        "businessModelType": {"value": "b2c", "source": "Play It Again Sports brand site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Play It Again Sports brand site (retail storefront model)", "year": 2026, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Franchise Chatter 2025 FDD review (US and Canada units)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review; The FDD Exchange", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Clothes Mentor",
+      "slug": "clothes-mentor",
+      "category": "Retail",
+      "website": "clothesmentor.com",
+      "notes": "Buy-sell-trade resale franchise for women's gently-used apparel and accessories, owned by NTY Franchise Company (which also franchises Uptown Cheapskate, Children's Orchard, and New Uses). About 113 US stores, all franchised. Healthy per-store AUV (~$715K-$729K), but the system has been contracting modestly in recent years.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Declining unit count (~-8% year-over-year)",
+          "detail": "Entrepreneur's directory shows Clothes Mentor at about 113 US units with a -8% unit trend, indicating net store closures rather than expansion - a caution signal for a resale concept dependent on local foot traffic and inventory sourcing.",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/clothes-mentor/329033",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Litigation and/or bankruptcy disclosed in FDD",
+          "detail": "Vetted Biz reports Clothes Mentor discloses lawsuits and/or bankruptcy information in its FDD (Item 3/Item 4), which prospective franchisees should review before committing.",
+          "source": "Vetted Biz - Clothes Mentor Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/clothes-mentor",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Inventory-sourcing-dependent resale model plus mandatory 5% local ad spend",
+          "detail": "Margins depend on the franchisee's skill at buying used women's apparel from the public and reselling profitably. On top of the 4% royalty, the FDD requires at least 5% of net sales spent on local advertising plus a national marketing fee - a meaningful fixed marketing burden.",
+          "source": "SHARPSHEETS Clothes Mentor FDD analysis",
+          "url": "https://sharpsheets.io/blog/clothes-mentor-franchise-fdd-profits-costs/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 65000, "source": "Vetted Biz - Clothes Mentor Franchise Insights", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites ~$90,000 liquid and ~$400,000 net worth."},
+        "netWorthMin": {"value": 400000, "source": "SHARPSHEETS Clothes Mentor FDD analysis", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 305000, "source": "Vetted Biz - Clothes Mentor Franchise Insights", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites a $272,000-$396,000 range; Vetted Biz lists $305,000-$428,500."},
+        "totalInvestmentMax": {"value": 428500, "source": "Vetted Biz - Clothes Mentor Franchise Insights", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 25000, "source": "Vetted Biz - Clothes Mentor Franchise Insights; SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 4, "source": "Vetted Biz - Clothes Mentor Franchise Insights; SHARPSHEETS", "year": 2025, "confidence": "high", "note": "4% of net sales."},
+        "adFundPercent": {"value": 5, "source": "SHARPSHEETS Clothes Mentor FDD analysis", "year": 2025, "confidence": "medium", "note": "At least 5% of net sales on local advertising, plus a $2,000/year national marketing fee (raisable to $3,000)."},
+        "avgUnitRevenue": {"value": 729053, "source": "Vetted Biz - Clothes Mentor Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Yearly gross sales per Vetted Biz; SHARPSHEETS cites ~$715,000 average."},
+        "totalUnits": {"value": 113, "source": "Entrepreneur Franchise 500 directory; Vetted Biz", "year": 2026, "confidence": "high", "note": "All franchised; 0 company-owned. SHARPSHEETS cites locations in 29 states."},
+        "yearFounded": {"value": 2001, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Entrepreneur lists 2001; Vetted Biz lists 2006."},
+        "yearFranchising": {"value": 2007, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "-8% unit trend."},
+        "businessModelType": {"value": "b2c", "source": "Clothes Mentor brand site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Clothes Mentor brand site (retail storefront model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; Franchise Direct Clothes Mentor FDD summaries", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz; SHARPSHEETS (FDD-derived AUV)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Style Encore",
+      "slug": "style-encore",
+      "category": "Retail",
+      "website": "styleencore.com",
+      "notes": "Buy-sell-trade resale franchise for women's gently-used clothing and accessories, the newest brand in Winmark Corporation's resale portfolio (alongside Plato's Closet, Once Upon A Child, Play It Again Sports, and Music Go Round). About 69 franchised stores across the US and Canada, all franchised. Strong gross margins (~59%) but a small, less-proven system that has been roughly flat-to-contracting.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Smallest, least-proven Winmark resale brand",
+          "detail": "Launched in 2013, Style Encore is Winmark's newest resale concept and the least established; at ~69 units it has the thinnest track record in the portfolio, and it did not rank on Entrepreneur's 2025 Franchise 500 list.",
+          "source": "Franchise Chatter 2025 FDD review",
+          "url": "https://www.franchisechatter.com/2025/07/04/style-encore-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Flat-to-contracting unit count",
+          "detail": "Per the 2025 FDD outlet tables, units went 71 (2022) -> 66 (2023) -> 69 (2024), a net decline over three years despite a small 2024 rebound - limited momentum for a young system.",
+          "source": "Style Encore 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/07/04/style-encore-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Less than half of stores hit the system average",
+          "detail": "2024 Item 19: 63 stores averaged $901,981 gross sales (median $855,551), but only 46% met or exceeded the average and 48% met or exceeded average gross profit - a right-skewed distribution where a minority of stores carry the average.",
+          "source": "Style Encore 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/07/04/style-encore-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 75000, "source": "SHARPSHEETS Style Encore FDD analysis", "year": 2025, "confidence": "medium", "note": "Cited as $75,000-$105,000 liquid; $400,000 net worth."},
+        "netWorthMin": {"value": 400000, "source": "SHARPSHEETS Style Encore FDD analysis", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 322700, "source": "Style Encore 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 449000, "source": "Style Encore 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "Style Encore 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Style Encore 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "Style Encore 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Up to 2% of gross sales if imposed, plus a fixed $1,500/year contribution."},
+        "avgUnitRevenue": {"value": 901981, "source": "Style Encore 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross sales across 63 stores open 12+ months; median $855,551; ~59% gross margin."},
+        "totalUnits": {"value": 69, "source": "Style Encore 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "All franchised across US and Canada as of 12/28/2024; 0 company-owned."},
+        "yearFounded": {"value": 2013, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2013, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Style Encore 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "medium", "note": "Net contraction from 71 (2022) to 69 (2024)."},
+        "businessModelType": {"value": "b2c", "source": "Style Encore brand site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Style Encore brand site (retail storefront model)", "year": 2026, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Franchise Chatter 2025 FDD review (US and Canada units)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Uptown Cheapskate",
+      "slug": "uptown-cheapskate",
+      "category": "Retail",
+      "website": "uptowncheapskate.com",
+      "notes": "Buy-sell-trade resale franchise for trendy young-adult clothing and accessories, owned by NTY Franchise Company (also parent of Clothes Mentor). About 143 US outlets (129 franchised + 14 company-owned), with strong per-store economics (~$1.28M average sales, ~14.7% net margin) and steady double-digit unit growth - the strongest performer among this batch's resale brands. Ranked No. 300 on Entrepreneur's 2026 Franchise 500.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Wide net-income dispersion across stores",
+          "detail": "2024 Item 19 (121 units): system-average net income was $188,356 (14.7% of sales), but the bottom quartile averaged just $55,489 (7.8%) versus $354,052 (18.3%) for the top quartile - so weaker locations earn a fraction of the headline figure.",
+          "source": "Uptown Cheapskate 2026 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/04/09/uptown-cheapskate-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Litigation and/or bankruptcy disclosed in FDD",
+          "detail": "Vetted Biz reports Uptown Cheapskate discloses lawsuits and/or bankruptcy information in its FDD (Item 3/Item 4), which prospective franchisees should review before committing.",
+          "source": "Vetted Biz - Uptown Cheapskate Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/uptown-cheapskate",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Inventory-sourcing-dependent resale model",
+          "detail": "Like other buy-sell-trade concepts, profitability hinges on the franchisee's ability to source and price secondhand young-adult fashion bought directly from the public; trend-sensitivity and mispriced inventory can compress the ~15% net margin.",
+          "source": "Uptown Cheapskate 2026 FDD Item 19 margin data (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/04/09/uptown-cheapskate-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 80000, "source": "Vetted Biz - Uptown Cheapskate Franchise Insights", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites ~$100,000 liquid and ~$200,000 net worth."},
+        "netWorthMin": {"value": 200000, "source": "SHARPSHEETS Uptown Cheapskate FDD analysis", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 328002, "source": "Uptown Cheapskate 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Franchisor's 2026 site cites a higher $364,015-$682,215 range."},
+        "totalInvestmentMax": {"value": 596502, "source": "Uptown Cheapskate 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "Uptown Cheapskate 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Uptown Cheapskate 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 0.5, "source": "Uptown Cheapskate 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "0.5% marketing fund plus a $2,000/month minimum National Marketing Program spend in the opening year."},
+        "avgUnitRevenue": {"value": 1278688, "source": "Uptown Cheapskate 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Average gross sales across 121 units (Nov 2023-Oct 2024); average net income $188,356 (14.7%)."},
+        "totalUnits": {"value": 143, "source": "Uptown Cheapskate 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "129 franchised + 14 company-owned at end of 2024."},
+        "yearFounded": {"value": 2009, "source": "Vetted Biz - Uptown Cheapskate Franchise Insights", "year": 2025, "confidence": "medium", "note": "Some sources cite the brand origin as 2008."},
+        "yearFranchising": {"value": 2009, "source": "Vetted Biz - Uptown Cheapskate Franchise Insights", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Uptown Cheapskate 2026 FDD outlet tables (via Franchise Chatter)", "year": 2026, "confidence": "high", "note": "+16 (2022), +17 (2023), +13 (2024) net franchised units."},
+        "businessModelType": {"value": "b2c", "source": "Uptown Cheapskate brand site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Uptown Cheapskate brand site (retail storefront model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review; Vetted Biz", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Music Go Round",
+      "slug": "music-go-round",
+      "category": "Retail",
+      "website": "musicgoround.com",
+      "notes": "Buy-sell-trade resale franchise for new and used musical instruments and gear, part of Winmark Corporation's resale portfolio (founded 1986; franchising since 1994). The smallest system in this batch at about 34 US stores, all franchised. Mature stores post strong AUV (~$1.4M), but the system is small and has been contracting, with performance concentrated in long-established locations.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very small, contracting system (34 units)",
+          "detail": "Music Go Round had just 34 franchised US units at end of 2024, down from 37 - it lost 3 units in 2024 after flat 2022-2023, and did not rank on Entrepreneur's 2025 Franchise 500 list. A tiny, shrinking network offers limited peer support and resale liquidity.",
+          "source": "Music Go Round 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/07/03/music-go-round-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Results concentrated in legacy stores; new-unit economics unproven",
+          "detail": "2024 Item 19: 26 of the 34 reporting stores opened in 2018 or earlier, so the $1,408,723 average gross sales (median $1,115,849) reflects mature units. Only 38% met or exceeded the average - a new franchisee should not assume the headline figure.",
+          "source": "Music Go Round 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/07/03/music-go-round-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Litigation and/or bankruptcy disclosed in FDD plus 5% local-ad minimum",
+          "detail": "Vetted Biz reports Music Go Round discloses lawsuits and/or bankruptcy information in its FDD. On top of the 4% royalty and $1,500/year ad fund, franchisees face a 5% of gross sales local-marketing minimum - a meaningful fixed marketing obligation.",
+          "source": "Vetted Biz - Music Go Round Franchise Insights; Franchise Chatter 2025 FDD review",
+          "url": "https://www.vettedbiz.com/franchises/music-go-round",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 70000, "source": "Vetted Biz - Music Go Round Franchise Insights", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites $90,000-$105,000 liquid and ~$400,000 net worth."},
+        "netWorthMin": {"value": 400000, "source": "SHARPSHEETS Music Go Round FDD analysis", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 337050, "source": "Music Go Round 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 430500, "source": "Music Go Round 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "Music Go Round 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "$15,000 for an additional store or existing Winmark franchisees."},
+        "royaltyPercent": {"value": 4, "source": "Music Go Round 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "4% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "Music Go Round 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Up to 2% marketing fund (a fixed $1,500/year currently), plus a 5% of gross sales local-marketing minimum."},
+        "avgUnitRevenue": {"value": 1408723, "source": "Music Go Round 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross sales across 34 stores (median $1,115,849; ~48.5% gross margin); skewed toward mature locations."},
+        "totalUnits": {"value": 34, "source": "Music Go Round 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "All franchised; 0 company-owned."},
+        "yearFounded": {"value": 1986, "source": "Vetted Biz - Music Go Round Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1994, "source": "Vetted Biz - Music Go Round Franchise Insights", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Music Go Round 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "37 -> 34 units in 2024 after flat 2022-2023."},
+        "businessModelType": {"value": "b2c", "source": "Music Go Round brand site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Music Go Round brand site (retail storefront model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review; Vetted Biz", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    }
+  ]
+}
