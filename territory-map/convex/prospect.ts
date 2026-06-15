@@ -268,6 +268,25 @@ export const saveProfile = mutation({
       enhancedProfileComplete,
     };
 
+    // Keep the unified Contact record in sync with the profile's contact
+    // details (phone/name/location) — so the Contacts directory, search,
+    // and CRMX always reflect what the prospect entered.
+    if (email) {
+      await ctx.scheduler.runAfter(0, internal.contacts.findOrCreateContact, {
+        email,
+        firstName: args.firstName ?? (user as any)?.name?.split(" ")[0] ?? "Prospect",
+        lastName: args.lastName,
+        phone: args.phone,
+        city: contactCity,
+        state: contactState,
+        zipCode: args.zipCode,
+        address: args.address,
+        userId,
+        type: "prospect",
+        source: "signup",
+      });
+    }
+
     if (existing) {
       await ctx.db.patch(existing._id, data);
       await ctx.db.insert("activityEvents", {

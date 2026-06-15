@@ -13,6 +13,12 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+} from "@/components/ui/sheet";
+import {
   Select,
   SelectContent,
   SelectItem,
@@ -289,13 +295,13 @@ function ContactDetailPanel({
 
   if (!contact) {
     return (
-      <Dialog open onOpenChange={onClose}>
-        <DialogContent className="bg-slate-900 border-slate-700 text-white max-w-lg">
+      <Sheet open onOpenChange={onClose}>
+        <SheetContent className="bg-slate-900 border-slate-700 text-white w-full sm:max-w-xl">
           <div className="flex items-center justify-center py-12">
             <div className="animate-pulse text-slate-400">Loading contact...</div>
           </div>
-        </DialogContent>
-      </Dialog>
+        </SheetContent>
+      </Sheet>
     );
   }
 
@@ -327,141 +333,197 @@ function ContactDetailPanel({
     }
   };
 
+  const p = contact.prospectProfile;
+  const fmtTs = (t?: number) => (t ? new Date(t).toLocaleString() : "—");
+
   return (
-    <Dialog open onOpenChange={onClose}>
-      <DialogContent className="bg-slate-900 border-slate-700 text-white max-w-2xl max-h-[85vh] overflow-y-auto">
-        <DialogHeader>
-          <DialogTitle className="text-xl flex items-center gap-2">
+    <Sheet open onOpenChange={onClose}>
+      <SheetContent className="bg-slate-900 border-slate-700 text-white w-full sm:max-w-xl overflow-y-auto p-0">
+        <SheetHeader className="px-5 pt-5 pb-4 border-b border-slate-800">
+          <SheetTitle className="text-xl flex items-center gap-2 text-white">
             <User className="w-5 h-5 text-cyan-400" />
             {contact.firstName} {contact.lastName || ""}
-          </DialogTitle>
-        </DialogHeader>
-
-        {/* Contact Info */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
-          <InfoRow icon={<Mail className="w-4 h-4" />} label="Email" value={contact.email} />
-          <InfoRow icon={<Phone className="w-4 h-4" />} label="Phone" value={contact.phone} />
-          <InfoRow icon={<MapPin className="w-4 h-4" />} label="Location" value={[contact.city, contact.state].filter(Boolean).join(", ") || undefined} />
-          <InfoRow icon={<MapPin className="w-4 h-4" />} label="Address" value={contact.address} />
-        </div>
-
-        {/* Badges */}
-        <div className="flex flex-wrap gap-2 mt-4">
-          <Badge variant="outline" className={TYPE_COLORS[contact.type as ContactType]}>
-            {TYPE_LABELS[contact.type as ContactType]}
-          </Badge>
-          <Badge variant="outline" className={STATUS_COLORS[contact.status as ContactStatus]}>
-            {contact.status === "active" ? (
-              <><ShieldCheck className="w-3 h-3 mr-1" /> Active</>
-            ) : (
-              <><ShieldAlert className="w-3 h-3 mr-1" /> Deactivated</>
-            )}
-          </Badge>
-          <Badge variant="outline" className="bg-slate-800 text-slate-400 border-slate-700 capitalize">
-            Source: {contact.source}
-          </Badge>
-        </div>
-
-        {/* Login Info */}
-        {contact.loginInfo && (
-          <div className="mt-4 p-3 bg-slate-800/60 rounded-lg border border-slate-700">
-            <p className="text-xs text-slate-500 uppercase font-semibold mb-1">Login Account</p>
-            <p className="text-sm text-slate-300">{contact.loginInfo.email} · {contact.loginInfo.name || "No name"}</p>
+          </SheetTitle>
+          <div className="flex flex-wrap gap-2 mt-1">
+            <Badge variant="outline" className={TYPE_COLORS[contact.type as ContactType]}>
+              {TYPE_LABELS[contact.type as ContactType]}
+            </Badge>
+            <Badge variant="outline" className={STATUS_COLORS[contact.status as ContactStatus]}>
+              {contact.status === "active" ? (<><ShieldCheck className="w-3 h-3 mr-1" /> Active</>) : (<><ShieldAlert className="w-3 h-3 mr-1" /> Deactivated</>)}
+            </Badge>
+            <Badge variant="outline" className="bg-slate-800 text-slate-400 border-slate-700 capitalize">Source: {contact.source}</Badge>
           </div>
-        )}
+        </SheetHeader>
 
-        {/* Linked Leads */}
-        {contact.leads?.length > 0 && (
-          <div className="mt-4">
-            <h3 className="text-sm font-semibold text-slate-400 mb-2 flex items-center gap-1">
-              <FileText className="w-4 h-4" /> Linked Leads ({contact.leads.length})
-            </h3>
-            <div className="space-y-2">
-              {contact.leads.map((lead: any) => (
-                <div
-                  key={lead._id}
-                  className="flex items-center justify-between p-2 bg-slate-800/40 rounded border border-slate-700/50 text-sm"
-                >
-                  <div>
-                    <span className="text-white font-medium">{lead.firstName} {lead.lastName || ""}</span>
-                    <span className="text-slate-500 ml-2">· {lead.brandName}</span>
+        <div className="px-5 py-4 space-y-5">
+          {/* AI Profile Brief — the summary so you don't have to dig */}
+          {contact.brief && (
+            <div className="p-3.5 bg-blue-500/10 rounded-lg border border-blue-500/20">
+              <p className="text-xs text-blue-300 font-semibold mb-1.5 flex items-center gap-1">🤖 AI Profile Brief</p>
+              <p className="text-sm text-slate-200 leading-relaxed">{contact.brief}</p>
+            </div>
+          )}
+
+          {/* Top PerfectFit matches — what the system recommended */}
+          {contact.matches?.length > 0 && (
+            <div>
+              <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2">Top PerfectFit Matches</h3>
+              <div className="space-y-1.5">
+                {contact.matches.map((m: any, i: number) => (
+                  <div key={m.slug} className="flex items-start gap-2 p-2 bg-slate-800/50 rounded border border-slate-700/50">
+                    <span className="text-xs font-bold text-slate-500 w-4 shrink-0">{i + 1}</span>
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-center justify-between gap-2">
+                        <span className="text-sm font-semibold text-white truncate">{m.name}</span>
+                        <span className="text-xs font-bold text-cyan-400 shrink-0">{m.score}/100</span>
+                      </div>
+                      {m.reason && <p className="text-[11px] text-slate-400 truncate">{m.reason}</p>}
+                    </div>
                   </div>
-                  <Badge variant="outline" className="text-xs capitalize bg-slate-700/50 text-slate-400">
-                    {lead.stage?.replace(/_/g, " ")}
-                  </Badge>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* Linked Brands (as franchisee) */}
-        {contact.ownedBrands?.length > 0 && (
-          <div className="mt-4">
-            <h3 className="text-sm font-semibold text-slate-400 mb-2 flex items-center gap-1">
-              <Briefcase className="w-4 h-4" /> Franchise Brands ({contact.ownedBrands.length})
-            </h3>
-            <div className="space-y-2">
-              {contact.ownedBrands.map((brand: any) => (
-                <div
-                  key={brand._id}
-                  className="flex items-center gap-2 p-2 bg-purple-500/10 rounded border border-purple-500/20 text-sm"
-                >
-                  <Briefcase className="w-3 h-3 text-purple-400" />
-                  <span className="text-white font-medium">{brand.name}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* Prospect Profile Link */}
-        {contact.prospectProfile && (
-          <div className="mt-4 p-3 bg-blue-500/10 rounded-lg border border-blue-500/20">
-            <p className="text-xs text-blue-400 font-semibold mb-1 flex items-center gap-1">
-              <User className="w-3 h-3" /> Has Prospect Profile
-            </p>
-            <p className="text-sm text-slate-300">
-              Quiz completed: {contact.prospectProfile.investmentRange || "—"} ·{" "}
-              {contact.prospectProfile.timeline || "—"}
-            </p>
-          </div>
-        )}
-
-        {/* Actions */}
-        <div className="flex flex-wrap gap-2 mt-6 pt-4 border-t border-slate-800">
-          <Button size="sm" variant="outline" onClick={onEdit} className="border-slate-600 text-white hover:bg-slate-800">
-            <Pencil className="w-3 h-3 mr-1" /> Edit
-          </Button>
-          {contact.status === "active" ? (
-            <Button size="sm" variant="outline" onClick={handleDeactivate} className="border-amber-600 text-amber-400 hover:bg-amber-500/10">
-              <Ban className="w-3 h-3 mr-1" /> Deactivate
-            </Button>
-          ) : (
-            <Button size="sm" variant="outline" onClick={handleReactivate} className="border-green-600 text-green-400 hover:bg-green-500/10">
-              <CheckCircle2 className="w-3 h-3 mr-1" /> Reactivate
-            </Button>
-          )}
-          {!confirmDelete ? (
-            <Button size="sm" variant="outline" onClick={() => setConfirmDelete(true)} className="border-red-600 text-red-400 hover:bg-red-500/10">
-              <Trash2 className="w-3 h-3 mr-1" /> Delete
-            </Button>
-          ) : (
-            <div className="flex items-center gap-2">
-              <span className="text-xs text-red-400">Are you sure?</span>
-              <Button size="sm" variant="destructive" onClick={handleDelete}>Yes, delete</Button>
-              <Button size="sm" variant="ghost" onClick={() => setConfirmDelete(false)} className="text-slate-400">Cancel</Button>
+                ))}
+              </div>
             </div>
           )}
+
+          {/* Contact info */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <InfoRow icon={<Mail className="w-4 h-4" />} label="Email" value={contact.email || p?.email} />
+            <InfoRow icon={<Phone className="w-4 h-4" />} label="Phone" value={contact.phone || p?.phone} />
+            <InfoRow icon={<MapPin className="w-4 h-4" />} label="Location" value={[contact.city || p?.primaryCity, contact.state || p?.primaryState].filter(Boolean).join(", ") || undefined} />
+            <InfoRow icon={<ShieldCheck className="w-4 h-4" />} label="Verified" value={contact.verification ? `Email ${contact.verification.emailVerified ? "✓" : "—"} · Phone ${contact.verification.phoneVerified ? "✓" : "—"}` : undefined} />
+          </div>
+
+          {/* FULL PerfectFit criteria — everything they entered */}
+          {p ? (
+            <div>
+              <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2">PerfectFit Profile — All Criteria</h3>
+              <div className="rounded-lg border border-slate-700/50 divide-y divide-slate-800">
+                {PROFILE_FIELDS.map(([key, label, fmt]) => {
+                  const raw = (p as any)[key];
+                  const val = fmt ? fmt(raw) : Array.isArray(raw) ? raw.join(", ") : raw;
+                  if (val === undefined || val === null || val === "" || (Array.isArray(raw) && raw.length === 0)) return null;
+                  return (
+                    <div key={key} className="flex items-start justify-between gap-3 px-3 py-1.5 text-sm">
+                      <span className="text-slate-500">{label}</span>
+                      <span className="text-slate-200 text-right">{String(val)}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          ) : (
+            <p className="text-sm text-slate-500 italic">No PerfectFit profile yet — this contact hasn't completed the quiz/profile.</p>
+          )}
+
+          {/* Notes */}
+          {contact.notes?.length > 0 && (
+            <div>
+              <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2">Notes ({contact.notes.length})</h3>
+              <div className="space-y-2">
+                {contact.notes.map((n: any) => (
+                  <div key={n._id} className="p-2.5 bg-slate-800/40 rounded border border-slate-700/50">
+                    {n.isPinned && <span className="text-[10px] text-amber-400 font-semibold">📌 Pinned</span>}
+                    <p className="text-sm text-slate-200 whitespace-pre-wrap">{n.content}</p>
+                    <p className="text-[10px] text-slate-500 mt-1">{fmtTs(n.createdAt)}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Linked leads */}
+          {contact.leads?.length > 0 && (
+            <div>
+              <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 flex items-center gap-1"><FileText className="w-3.5 h-3.5" /> Linked Leads ({contact.leads.length})</h3>
+              <div className="space-y-1.5">
+                {contact.leads.map((lead: any) => (
+                  <div key={lead._id} className="flex items-center justify-between p-2 bg-slate-800/40 rounded border border-slate-700/50 text-sm">
+                    <span className="text-slate-300">{lead.brandName}</span>
+                    <Badge variant="outline" className="text-xs capitalize bg-slate-700/50 text-slate-400">{lead.stage?.replace(/_/g, " ")}</Badge>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Owned brands */}
+          {contact.ownedBrands?.length > 0 && (
+            <div>
+              <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 flex items-center gap-1"><Briefcase className="w-3.5 h-3.5" /> Franchise Brands ({contact.ownedBrands.length})</h3>
+              <div className="space-y-1.5">
+                {contact.ownedBrands.map((brand: any) => (
+                  <div key={brand._id} className="flex items-center gap-2 p-2 bg-purple-500/10 rounded border border-purple-500/20 text-sm">
+                    <Briefcase className="w-3 h-3 text-purple-400" /><span className="text-white font-medium">{brand.name}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Timestamps */}
+          <div className="text-xs text-slate-500 space-y-0.5 pt-1">
+            <p>Contact created {fmtTs(contact.createdAt)} · updated {fmtTs(contact.updatedAt)}</p>
+            {p?.contactLastEditedAt && <p>Profile last edited {fmtTs(p.contactLastEditedAt)}</p>}
+            {p?._creationTime && <p>Profile created {fmtTs(p._creationTime)}</p>}
+          </div>
+
+          {/* Actions */}
+          <div className="flex flex-wrap gap-2 pt-3 border-t border-slate-800">
+            <Button size="sm" variant="outline" onClick={onEdit} className="border-slate-600 text-white hover:bg-slate-800"><Pencil className="w-3 h-3 mr-1" /> Edit</Button>
+            {contact.status === "active" ? (
+              <Button size="sm" variant="outline" onClick={handleDeactivate} className="border-amber-600 text-amber-400 hover:bg-amber-500/10"><Ban className="w-3 h-3 mr-1" /> Deactivate</Button>
+            ) : (
+              <Button size="sm" variant="outline" onClick={handleReactivate} className="border-green-600 text-green-400 hover:bg-green-500/10"><CheckCircle2 className="w-3 h-3 mr-1" /> Reactivate</Button>
+            )}
+            {!confirmDelete ? (
+              <Button size="sm" variant="outline" onClick={() => setConfirmDelete(true)} className="border-red-600 text-red-400 hover:bg-red-500/10"><Trash2 className="w-3 h-3 mr-1" /> Delete</Button>
+            ) : (
+              <div className="flex items-center gap-2">
+                <span className="text-xs text-red-400">Are you sure?</span>
+                <Button size="sm" variant="destructive" onClick={handleDelete}>Yes, delete</Button>
+                <Button size="sm" variant="ghost" onClick={() => setConfirmDelete(false)} className="text-slate-400">Cancel</Button>
+              </div>
+            )}
+          </div>
         </div>
-
-        <p className="text-xs text-slate-600 mt-3">
-          Created {new Date(contact.createdAt).toLocaleString()} · Updated {new Date(contact.updatedAt).toLocaleString()}
-        </p>
-      </DialogContent>
-    </Dialog>
+      </SheetContent>
+    </Sheet>
   );
 }
+
+/* Humanized labels for the full PerfectFit criteria list. [key, label, formatter?] */
+const PROFILE_FIELDS: [string, string, ((v: any) => string | undefined)?][] = [
+  ["liquidCapital", "Liquid capital", (v) => ({ under_50k: "Under $50K", "50k_100k": "$50K–$100K", "100k_150k": "$100K–$150K", "150k_250k": "$150K–$250K", "250k_500k": "$250K–$500K", "500k_1m": "$500K–$1M", "1m_plus": "$1M+" } as any)[v] || v],
+  ["totalInvestmentBudget", "Total investment budget"],
+  ["ownerType", "Ownership style", (v) => ({ owner_operator: "Owner/Operator", semi_absentee: "Semi-Absentee", absentee: "Absentee/Executive", investor: "Investor/Multi-Unit" } as any)[v] || v],
+  ["preferredCategories", "Industries of interest", (v) => (v || []).join(", ")],
+  ["primaryCity", "Primary city"],
+  ["primaryState", "Primary state"],
+  ["primaryRadius", "Primary radius (mi)"],
+  ["secondaryCity", "Secondary city"],
+  ["secondaryState", "Secondary state"],
+  ["timeline", "Timeline", (v) => ({ asap: "ASAP", "3_months": "Within 3 months", "6_months": "Within 6 months", "12_months": "Within 12 months", exploring: "Just exploring" } as any)[v] || v],
+  ["priorExperience", "Prior experience"],
+  ["sbaFinancingIntent", "SBA financing intent"],
+  ["ownershipModel", "Ownership model(s)", (v) => (v || []).join(", ")],
+  ["runFromHome", "Run from home?"],
+  ["fullTimePartTime", "Full / part time"],
+  ["multiUnitInterest", "Multi-unit interest"],
+  ["veteranStatus", "Veteran", (v) => (v === true ? "Yes" : v === false ? "No" : undefined)],
+  ["revenueGoal", "Revenue goal"],
+  ["incomeGoal", "Income goal"],
+  ["mustHaveFilters", "Must-haves", (v) => (v || []).join(", ").replace(/_/g, " ")],
+  ["brandMaturity", "Brand maturity pref"],
+  ["supportImportance", "Support importance"],
+  ["supportPriorities", "Support priorities", (v) => (v || []).join(", ")],
+  ["employeeComfort", "Employee comfort"],
+  ["spacePreference", "Space preference"],
+  ["motivations", "Motivations", (v) => (v || []).join(", ")],
+  ["riskTolerance", "Risk tolerance"],
+  ["professionalBackground", "Professional background", (v) => (v || []).join(", ")],
+  ["lifestylePriorities", "Lifestyle priorities", (v) => (v || []).join(", ")],
+  ["avoidList", "Wants to avoid", (v) => (v || []).join(", ").replace(/_/g, " ")],
+];
 
 /* ═══════════════════════════════════════════════════════════
  * Edit Contact Dialog

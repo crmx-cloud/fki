@@ -574,6 +574,10 @@ export const findOrCreateContact = internalMutation({
     firstName: v.string(),
     lastName: v.optional(v.string()),
     phone: v.optional(v.string()),
+    city: v.optional(v.string()),
+    state: v.optional(v.string()),
+    zipCode: v.optional(v.string()),
+    address: v.optional(v.string()),
     userId: v.optional(v.id("users")),
     type: v.optional(contactTypeValidator),
     source: v.optional(contactSourceValidator),
@@ -591,9 +595,15 @@ export const findOrCreateContact = internalMutation({
     if (existing) {
       // Link userId if not already linked and we have one
       const updates: Record<string, any> = { updatedAt: now };
-      if (args.userId && !existing.userId) {
-        updates.userId = args.userId;
-      }
+      if (args.userId && !existing.userId) updates.userId = args.userId;
+      // Backfill contact details the profile now has but the contact lacks
+      // (e.g. a phone/location entered after the contact was first created).
+      if (args.phone && !existing.phone) updates.phone = args.phone;
+      if (args.lastName && !existing.lastName) updates.lastName = args.lastName;
+      if (args.city && !existing.city) updates.city = args.city;
+      if (args.state && !existing.state) updates.state = args.state;
+      if (args.zipCode && !existing.zipCode) updates.zipCode = args.zipCode;
+      if (args.address && !existing.address) updates.address = args.address;
       // Upgrade type if needed (prospect → both when they also become franchisee)
       if (args.type === "franchisee" && existing.type === "prospect") {
         updates.type = "both";
@@ -613,6 +623,10 @@ export const findOrCreateContact = internalMutation({
       lastName: args.lastName,
       email,
       phone: args.phone,
+      city: args.city,
+      state: args.state,
+      zipCode: args.zipCode,
+      address: args.address,
       userId: args.userId,
       status: "active",
       source: args.source || "signup",
@@ -621,6 +635,41 @@ export const findOrCreateContact = internalMutation({
     });
 
     return contactId;
+  },
+});
+
+/** One-time/idempotent repair: backfill contact phone/name/location from the
+ *  matching prospect profile (fixes contacts created before the profile had
+ *  a phone — e.g. Joe Henderson). Safe to re-run. */
+export const backfillContactsFromProfiles = internalMutation({
+  args: {},
+  handler: async (ctx) => {
+    const contacts = await ctx.db.query("contacts").collect();
+    const profiles = await ctx.db.query("prospectProfiles").collect();
+    const byUser = new Map<string, any>();
+    const byEmail = new Map<string, any>();
+    for (const p of profiles) {
+      if (p.userId) byUser.set(String(p.userId), p);
+      if (p.email) byEmail.set(p.email.toLowerCase(), p);
+    }
+    let fixed = 0;
+    for (const c of contacts) {
+      const p = (c.userId && byUser.get(String(c.userId))) || (c.email && byEmail.get(c.email.toLowerCase()));
+      if (!p) continue;
+      const patch: Record<string, any> = {};
+      if (!c.phone && p.phone) patch.phone = p.phone;
+      if (!c.lastName && p.lastName) patch.lastName = p.lastName;
+      if (!c.city && p.city) patch.city = p.city;
+      if (!c.state && p.state) patch.state = p.state;
+      if (!c.zipCode && p.zipCode) patch.zipCode = p.zipCode;
+      if (!c.address && p.address) patch.address = p.address;
+      if (Object.keys(patch).length) {
+        patch.updatedAt = Date.now();
+        await ctx.db.patch(c._id, patch);
+        fixed++;
+      }
+    }
+    return { scanned: contacts.length, fixed };
   },
 });
 
