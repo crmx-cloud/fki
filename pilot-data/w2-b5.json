@@ -1,0 +1,679 @@
+{
+  "brands": [
+    {
+      "name": "Dog Haus",
+      "slug": "dog-haus",
+      "category": "Food & Beverage",
+      "website": "doghaus.com",
+      "notes": "Pasadena, CA-founded craft hot dog, sausage, and burger fast-casual/biergarten brand (Dog Haus Worldwide), franchising since 2013 with roughly 59 US locations and a large signed development pipeline (100+ units). Multiple build formats: fast-casual restaurant, full biergarten, and lower-cost remote/ghost kitchen. Actively recruiting US franchisees via doghaus.com/franchise.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Negative members' equity disclosed in FDD financials",
+          "detail": "Dog Haus's audited financial statements show a members' deficit of $(1,452,363) in 2024 and $(2,019,611) in 2023. The Hawaii state addendum notes the estimated initial investment exceeds the franchisor's equity (a deficit), a standard regulatory flag that the franchisor may have limited financial resources to support franchisees.",
+          "source": "Dog Haus 2025 FDD financial statements (via Vetted Biz FDD analysis)",
+          "url": "https://www.vettedbiz.com/franchises/dog-haus",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Pipeline (100+ units) is roughly double the open base (~59)",
+          "detail": "The franchisor markets 100+ signed/area-development units against roughly 59 open US locations, meaning most projected growth depends on multi-unit developers actually building out commitments rather than proven openings.",
+          "source": "Restaurant Dive franchise spotlight; SHARPSHEETS FDD analysis",
+          "url": "https://www.restaurantdive.com/news/franchise-spotlight-dog-haus-100-unit-pipeline/638918/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Wide build-cost spread by format (up to ~$1.34M for a biergarten)",
+          "detail": "Item 7 ranges run from roughly $99,612-$212,900 for a remote/ghost kitchen to $357,437-$625,800 for a fast-casual restaurant and $668,412-$1,340,300 for a full biergarten - a large dispersion that materially changes the payback math depending on format chosen.",
+          "source": "SHARPSHEETS Dog Haus FDD analysis (2025 FDD)",
+          "url": "https://sharpsheets.io/blog/dog-haus-franchise-sales-costs-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 165000, "source": "Vetted Biz - Dog Haus Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 99612, "source": "SHARPSHEETS Dog Haus FDD analysis (2025 FDD)", "year": 2025, "confidence": "high", "note": "Low end is a remote/ghost kitchen ($99,612-$212,900); fast-casual restaurant $357,437-$625,800; full biergarten $668,412-$1,340,300."},
+        "totalInvestmentMax": {"value": 1340300, "source": "SHARPSHEETS Dog Haus FDD analysis (2025 FDD)", "year": 2025, "confidence": "high", "note": "High end is a full biergarten format."},
+        "franchiseFee": {"value": 40000, "source": "SHARPSHEETS / Vetted Biz Dog Haus FDD analyses", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "SHARPSHEETS / Vetted Biz Dog Haus FDD analyses", "year": 2025, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS / Vetted Biz Dog Haus FDD analyses", "year": 2025, "confidence": "high", "note": "2% marketing fee on gross sales."},
+        "avgUnitRevenue": {"value": 1738084, "source": "Vetted Biz - Dog Haus Franchise Insights (FDD Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average unit volume; the brand has publicly cited AUVs approaching $1.9M in 2025."},
+        "totalUnits": {"value": 59, "source": "Vetted Biz - Dog Haus Franchise Insights; SHARPSHEETS", "year": 2025, "confidence": "medium", "note": "US locations; franchisor markets 50+ open and 120+ units sold nationwide."},
+        "yearFounded": {"value": 2010, "source": "Dog Haus corporate site (founded in Pasadena, CA)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2013, "source": "Vetted Biz; Dog Haus franchising history", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Restaurant Dive franchise spotlight; RestaurantNews expansion releases", "year": 2025, "confidence": "medium", "note": "Active multi-state expansion (OH, AR, AL, TX area development agreements) with a 100+ unit pipeline."},
+        "businessModelType": {"value": "b2c", "source": "Dog Haus franchisor site", "year": 2025, "confidence": "high"},
+        "multiUnitAvailable": {"value": true, "source": "Franchise Times; RestaurantNews area development coverage", "year": 2025, "confidence": "medium", "note": "Area development agreements are a primary growth channel."},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange; SHARPSHEETS 2025 FDD analysis", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS / Vetted Biz 2025 FDD analyses", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Newk's Eatery",
+      "slug": "newks-eatery",
+      "category": "Food & Beverage",
+      "website": "newks.com",
+      "notes": "Oxford, MS-founded fast-casual cafe (salads, sandwiches, soups, pizza; founded 2004 by Don and Chris Newcomb, franchising 2005), concentrated in the Southeast. Now owned by FSC Franchise Co. (CapitalSpring-backed parent of Beef 'O' Brady's and The Brass Tap) after a 2023 acquisition; FSC is actively ramping Newk's franchising (targeting 10-15 new units/year). Strong AUV (~$2.3M) but the system contracted post-COVID.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "System contracted sharply post-COVID (122 to ~100 units)",
+          "detail": "Per the franchise disclosure document, Newk's unit count fell from about 122 units at the start of 2020 to roughly 100 by the end of 2022, a meaningful contraction; new owner FSC is now working to reverse the trend with 10-15 targeted openings per year.",
+          "source": "Restaurant Dive - How Newk's will help FSC become a billion-dollar platform",
+          "url": "https://www.restaurantdive.com/news/how-newks-will-help-fsc-franchise-co-become-a-billion-dollar-platform/724728/",
+          "year": 2023
+        },
+        {
+          "severity": "caution",
+          "title": "Two private-equity ownership changes in a decade",
+          "detail": "Newk's was acquired by Sentinel Capital Partners in 2014 and then sold in 2023 to FSC Franchise Co., a CapitalSpring-backed multi-brand platform. Repeated PE ownership transitions can shift development priorities and support resources for existing franchisees.",
+          "source": "Restaurant Business; Restaurant Dive (FSC acquisition coverage)",
+          "url": "https://www.restaurantbusinessonline.com/financing/newks-eatery-quietly-sold-beef-o-bradys-parent-company",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "Heavy capital requirement: ~$1.5M net worth, $200K+ liquid, $1M+ build",
+          "detail": "Prospective franchisees need roughly $200,000-$225,000 liquid capital and a minimum net worth around $1,500,000, with total build investment of ~$1.02M-$1.41M, placing Newk's among the more capital-intensive fast-casual concepts.",
+          "source": "Vetted Biz; SHARPSHEETS / Franchise Gator Newk's FDD summaries",
+          "url": "https://www.vettedbiz.com/franchises/newks-eatery",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 225000, "source": "Vetted Biz - Newk's Eatery Franchise Insights", "year": 2025, "confidence": "medium", "note": "Some directories cite $200,000 liquid."},
+        "netWorthMin": {"value": 1500000, "source": "Franchise Gator / SHARPSHEETS Newk's FDD summaries", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 1022000, "source": "Vetted Biz - Newk's Eatery Franchise Insights (FDD Item 7)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1414350, "source": "Vetted Biz - Newk's Eatery Franchise Insights (FDD Item 7)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "Vetted Biz - Newk's Eatery Franchise Insights", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Vetted Biz - Newk's Eatery Franchise Insights", "year": 2025, "confidence": "high", "note": "5% of monthly sales."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz - Newk's Eatery Franchise Insights", "year": 2025, "confidence": "high", "note": "2% marketing fee on monthly sales."},
+        "avgUnitRevenue": {"value": 2306544, "source": "Vetted Biz - Newk's Eatery Franchise Insights (FDD Item 19)", "year": 2025, "confidence": "high", "note": "Yearly gross sales; owner-operator estimated earnings $276,786-$345,982 per Item 19."},
+        "totalUnits": {"value": 95, "source": "Vetted Biz - Newk's Eatery Franchise Insights; SHARPSHEETS", "year": 2025, "confidence": "medium", "note": "~95 total US units (~66 franchised + ~29 company-owned per FDD-derived sources)."},
+        "yearFounded": {"value": 2004, "source": "Wikipedia; 1851 Franchise (founded as Newk's Express Cafe, Oxford MS)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2005, "source": "Wikipedia (franchising began February 2005)", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Restaurant Dive (122 -> ~100 units 2020-2022)", "year": 2023, "confidence": "medium", "note": "Post-COVID contraction; new owner FSC targeting 10-15 openings/year to resume growth."},
+        "businessModelType": {"value": "b2c", "source": "Newk's franchisor / FSC Franchise Co.", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Public Newk's 2024 FDD (restfinance.com); Vetted Biz", "year": 2024, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Newk's Eatery Franchise Insights (Item 19)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "SafeSplash Swim School",
+      "slug": "safesplash-swim-school",
+      "category": "Education & Children",
+      "website": "safesplash.com",
+      "notes": "Year-round learn-to-swim franchise (the flagship brand of Streamline Brands, which rebranded the whole portfolio to SafeSplash and also operates SwimLabs and Swimtastic). Two very different entry paths: a low-cost 'Hosted' model that rents pool time inside existing facilities (~$48K-$81K) and a capital-heavy 'Dedicated' build-out model (~$945K-$2.1M). Majority owned by PE firm Quad Partners. Actively franchising in the US.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Optional 'Enhanced Services' model nearly triples the effective royalty",
+          "detail": "Standard fees are a 6% royalty + 2% national marketing on gross sales, but the franchisor offers an Enhanced Services Model totaling 16% of gross sales (6% royalty + a 10% enhanced-services fee) - a large recurring cost difference that materially changes unit economics depending on which path the franchisee selects.",
+          "source": "SHARPSHEETS SafeSplash FDD analysis (2024 FDD)",
+          "url": "https://sharpsheets.io/blog/safesplash-franchise-fdd-profits-costs/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Dedicated-build path requires up to ~$2.1M with no Item 19 in some FDD analyses",
+          "detail": "The Dedicated (build) and Dual-Brand models run roughly $945K-$2.1M, yet multiple FDD-tracking services report SafeSplash makes no Item 19 financial performance representation - prospective franchisees committing to a multi-million-dollar build have no franchisor-published earnings figures to underwrite against.",
+          "source": "FranchiseOverview SafeSplash FDD summary (2024 FDD)",
+          "url": "https://franchiseoverview.com/company/safesplash-swim-school-swimlabs-swim-school-swimtastic-swim-school",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Private-equity-owned multi-brand roll-up",
+          "detail": "Streamline Brands (now branded SafeSplash) grew by acquiring Swimtastic (2015), SwimLabs (2017), and Saf-T-Swim, and is majority owned by Quad Partners; franchisees are one brand within a PE-backed portfolio whose capital-allocation and consolidation decisions they do not control.",
+          "source": "Franchise Times - Streamline Brands consolidates portfolio, rebrands to SafeSplash; PRNewswire",
+          "url": "https://www.franchisetimes.com/franchise_news/swim-school-franchisor-streamline-brands-consolidates-portfolio-rebrands-to-safesplash/article_a4d37958-1387-44ce-831c-b7f425699e5c.html",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 48000, "source": "FranchiseOverview SafeSplash FDD summary (2024 FDD)", "year": 2024, "confidence": "medium", "note": "Low end reflects the Hosted (rental) single-brand model; SHARPSHEETS cites $57,500-$81,000 for Hosted, $944,950-$1,327,700 for Dedicated build, and $1,112,000-$1,870,000 for Dual-Brand."},
+        "totalInvestmentMax": {"value": 2100000, "source": "FranchiseOverview SafeSplash FDD summary (2024 FDD)", "year": 2024, "confidence": "medium", "note": "High end is a Dedicated/Dual-Brand build-out."},
+        "franchiseFee": {"value": 37500, "source": "SHARPSHEETS SafeSplash FDD analysis (2024 FDD)", "year": 2024, "confidence": "medium", "note": "Varies by model: Hosted $35,000-$37,500; Dedicated single-brand $50,000-$55,000; Dual-brand $60,000."},
+        "royaltyPercent": {"value": 6, "source": "SHARPSHEETS SafeSplash FDD analysis (2024 FDD)", "year": 2024, "confidence": "high", "note": "6% of gross sales standard; optional Enhanced Services Model raises total to 16% (6% + 10%)."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS SafeSplash FDD analysis (2024 FDD)", "year": 2024, "confidence": "medium", "note": "2% national marketing fee on gross sales."},
+        "totalUnits": {"value": 121, "source": "FranchiseOverview SafeSplash FDD summary (2024 FDD)", "year": 2024, "confidence": "medium", "note": "110 franchised + 11 company-owned; some directories cite up to 186 across all Streamline brands."},
+        "yearFounded": {"value": 2005, "source": "Franchising.com Streamline Brands overview; SafeSplash history (founder Matt Lane)", "year": 2025, "confidence": "medium"},
+        "yearFranchising": {"value": 2010, "source": "Streamline Brands / SafeSplash franchising history", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "SafeSplash franchisor site (consumer learn-to-swim)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranchiseOverview; SHARPSHEETS 2024 FDD analyses; The FDD Exchange", "year": 2024, "confidence": "high"},
+        "item19Available": {"value": false, "source": "FranchiseOverview SafeSplash FDD summary (no Item 19 representation)", "year": 2024, "confidence": "medium", "note": "FDD-tracking services report no franchisor Item 19; a separate directory cited a ~$1.27M average gross revenue figure that could not be confirmed to an FDD Item 19, so AUV is omitted here."}
+      }
+    },
+    {
+      "name": "Eye Level Learning Centers",
+      "slug": "eye-level-learning-centers",
+      "category": "Education & Children",
+      "website": "myeyelevel.com",
+      "notes": "Supplemental math and English (reading/writing) tutoring franchise operated in the US by Daekyo America, the US arm of South Korea's Daekyo Co. (founded 1976, US franchising since 1991). Self-directed workbook-based learning model with a low entry cost (~$55K-$129K, $10,000 franchise fee). Royalty is charged per enrolled subject-student rather than as a percent of sales. ~118 US franchised centers; actively recruiting.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Modest unit economics: ~$439K average gross sales, multi-year payback",
+          "detail": "FDD-derived Item 19 data shows average yearly gross sales of about $438,763 with owner-operator estimated earnings of roughly $52,652-$65,815 and an estimated 2.1-4.1 year payback - a low-ceiling, owner-operator income model rather than a scalable high-margin business.",
+          "source": "Vetted Biz - Eye Level Learning Centers FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/eye-level-learning-centers/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Per-subject royalty structure (not a flat percentage)",
+          "detail": "Eye Level charges royalties per enrolled subject-student - roughly $36/subject during a probationary period and $32/subject afterward (with directory summaries also citing an effective ~15% of gross revenue plus 2% marketing) - so fees scale with enrollment volume and can be opaque to model versus a simple sales percentage.",
+          "source": "Franchise Gator / SHARPSHEETS Eye Level FDD summaries",
+          "url": "https://www.franchisegator.com/franchises/eye-level-learning-centers/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Litigation and/or bankruptcy disclosed in FDD",
+          "detail": "FDD-tracking services indicate Eye Level (Daekyo America) discloses lawsuit and/or bankruptcy information in its FDD Items 3/4 - prospective franchisees should review those items directly for specifics before signing.",
+          "source": "Vetted Biz - Eye Level Learning Centers FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/eye-level-learning-centers/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 75000, "source": "Franchise Gator Eye Level FDD summary", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites a lower $15,000 minimum cash figure; directories cite $75,000 liquid / $150,000 net worth."},
+        "netWorthMin": {"value": 150000, "source": "Franchise Gator Eye Level FDD summary", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 55318, "source": "Vetted Biz / Franchise Direct Eye Level FDD analyses", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 129150, "source": "Vetted Biz / Franchise Direct Eye Level FDD analyses", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 10000, "source": "Franchise Direct / Vetted Biz Eye Level FDD analyses", "year": 2025, "confidence": "high"},
+        "adFundPercent": {"value": 2, "source": "Franchise Gator Eye Level FDD summary", "year": 2025, "confidence": "medium", "note": "2% of gross revenues marketing fee; royalty is charged per subject-student (~$32-$36/subject) rather than purely as a percentage."},
+        "avgUnitRevenue": {"value": 438763, "source": "Vetted Biz - Eye Level Learning Centers FDD Item 19", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales; owner-operator estimated earnings $52,652-$65,815."},
+        "totalUnits": {"value": 118, "source": "Vetted Biz - Eye Level Learning Centers FDD analysis", "year": 2025, "confidence": "medium", "note": "US franchised centers; Daekyo operates thousands of Eye Level centers globally."},
+        "yearFounded": {"value": 1976, "source": "Wikipedia; Daekyo corporate history (South Korea)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1991, "source": "Wikipedia / Daekyo America US franchising history", "year": 2025, "confidence": "high", "note": "Daekyo began US franchising in 1991."},
+        "renewalTermYears": {"value": 5, "source": "Franchise Gator Eye Level FDD summary", "year": 2025, "confidence": "medium", "note": "3-year initial term; successive 5-year renewals if in full compliance."},
+        "businessModelType": {"value": "b2c", "source": "Eye Level franchisor site (consumer supplemental education)", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Daekyo / Eye Level global operations", "year": 2025, "confidence": "high", "note": "Eye Level operates internationally across many countries via parent Daekyo."},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - Eye Level Learning Centers FDD analysis", "year": 2025, "confidence": "low", "note": "FDD-tracking service reports lawsuit and/or bankruptcy disclosure in the FDD; specifics not independently confirmed."},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange; Franchise Direct; Vetted Biz", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz; Franchise Chatter (FDD Item 19 - average subject-students/month and gross sales)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Discovery Point",
+      "slug": "discovery-point",
+      "category": "Education & Children",
+      "website": "discoverypoint.com",
+      "notes": "Georgia-based childcare and early-education center franchise (founded 1988, franchising since 1990), ~44 units concentrated in the Southeast. Distinctive flat-fee model: royalties are a fixed monthly dollar amount (~$4,700-$6,000/month) rather than a percentage of sales, plus a flat ~$1,800/month advertising fee. Turnkey development package (site selection, construction, licensing). Actively recruiting US franchisees.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Real-estate-heavy investment up to ~$3.3M",
+          "detail": "Total investment ranges from roughly $369,000 to $3,344,935 depending heavily on land and building - childcare centers require large, licensed, purpose-built facilities, so the high end carries substantial real-estate and construction risk relative to the franchise itself.",
+          "source": "Franchise Gator - Discovery Point franchise profile",
+          "url": "https://www.franchisegator.com/franchises/discovery-point/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Fixed flat-fee royalty is owed regardless of revenue",
+          "detail": "Discovery Point's defining feature - a flat monthly royalty (~$4,700-$6,000/month) instead of a percentage of sales - benefits high-volume centers but becomes a heavier proportional burden for a center that is ramping up or underperforming, since the fee does not flex down with lower sales.",
+          "source": "The Franchise Mall; Franchise Help Discovery Point profiles",
+          "url": "https://thefranchisemall.com/franchises/details/12500-0-discovery_point.htm",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Regional, slow-growth system (~44 units)",
+          "detail": "After more than 30 years of franchising the system has roughly 44 units concentrated in Georgia and the Southeast - a small, geographically narrow footprint that limits brand recognition for franchisees opening in new markets.",
+          "source": "Topfranchise / Franchise Help Discovery Point profiles",
+          "url": "https://www.franchisehelp.com/franchises/discovery-point/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 300000, "source": "Franchise Gator - Discovery Point franchise profile", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 1500000, "source": "Franchise Gator - Discovery Point franchise profile", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 369000, "source": "Franchise Gator - Discovery Point franchise profile", "year": 2025, "confidence": "medium", "note": "Topfranchise cites a $405,570 starting figure; high end ~$3,344,935 with land/building."},
+        "totalInvestmentMax": {"value": 3344935, "source": "Franchise Gator - Discovery Point franchise profile", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 75000, "source": "Topfranchise / The Franchise Mall Discovery Point profiles", "year": 2025, "confidence": "medium"},
+        "totalUnits": {"value": 44, "source": "Topfranchise - preschool franchise overview", "year": 2025, "confidence": "medium", "note": "US franchised units, concentrated in the Southeast."},
+        "yearFounded": {"value": 1988, "source": "Topfranchise; Franchise Gator Discovery Point profiles", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1990, "source": "Topfranchise - preschool franchise overview", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Discovery Point franchisor site (consumer childcare/early education)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Discovery Point franchisor process (FDD provided on application approval)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Creative World School",
+      "slug": "creative-world-school",
+      "category": "Education & Children",
+      "website": "creativeworldschool.com",
+      "notes": "Premium large-format early-education and childcare franchise (founded 1971, franchising since 2000), ~24-29 US units. Among the most capital-intensive childcare concepts: total investment runs into the multiple millions for the purpose-built campus model, with strong Item 19 AUVs (~$2.47M) for mature centers. Actively recruiting US franchisees; requires ~$1M net worth.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Extremely high investment (multi-million-dollar campus build)",
+          "detail": "Total investment is reported in the range of roughly $4.8M-$10.1M depending on land and construction (FDD-derived sources vary), driven by the brand's large purpose-built campus format - one of the highest capital requirements in the childcare franchise category, concentrating risk in real estate and build-out.",
+          "source": "SHARPSHEETS / Vetted Biz Creative World School FDD analyses (2025 FDD)",
+          "url": "https://sharpsheets.io/blog/creative-world-school-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Small system (~24-29 units) after two decades of franchising",
+          "detail": "Despite franchising since 2000, Creative World School has only about 24-29 US locations - a slow build reflecting the difficulty and capital intensity of opening each large campus, which means limited brand awareness in new markets.",
+          "source": "Vetted Biz - Creative World School Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/creative-world-school",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Escalating royalty (5% to 7%) plus a high net-worth bar",
+          "detail": "Royalties start at 5% and step up to a 7% cap after roughly two years of operation, on top of a 2% marketing contribution, and the franchisor requires about $1,000,000 net worth and $350,000+ liquid capital - a high financial qualification bar.",
+          "source": "SHARPSHEETS Creative World School FDD analysis (2025 FDD)",
+          "url": "https://sharpsheets.io/blog/creative-world-school-franchise-fdd-profits-costs/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 350000, "source": "SHARPSHEETS Creative World School FDD analysis (2025 FDD)", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 1000000, "source": "SHARPSHEETS Creative World School FDD analysis (2025 FDD)", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 4825000, "source": "SHARPSHEETS Creative World School FDD analysis (2025 FDD)", "year": 2025, "confidence": "medium", "note": "FDD-derived ranges vary by source; SHARPSHEETS cites $4,825,000-$9,208,000, Vetted Biz cites $5,767,050-$10,143,500 (land/build dependent)."},
+        "totalInvestmentMax": {"value": 9208000, "source": "SHARPSHEETS Creative World School FDD analysis (2025 FDD)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 75000, "source": "SHARPSHEETS / Vetted Biz Creative World School FDD analyses (2025 FDD)", "year": 2025, "confidence": "high", "note": "FDD Item 7 cites $75,000-$80,000."},
+        "royaltyPercent": {"value": 7, "source": "SHARPSHEETS Creative World School FDD analysis (2025 FDD)", "year": 2025, "confidence": "high", "note": "Starts at 5%, caps at 7% after ~2 years of operation."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS Creative World School FDD analysis (2025 FDD)", "year": 2025, "confidence": "high", "note": "2% of gross sales marketing/advertising fund."},
+        "avgUnitRevenue": {"value": 2471911, "source": "Vetted Biz / SHARPSHEETS Creative World School FDD Item 19 (2025 FDD)", "year": 2025, "confidence": "high", "note": "Yearly gross sales; owner-operator estimated earnings $247,192-$296,630."},
+        "totalUnits": {"value": 29, "source": "Vetted Biz - Creative World School Franchise Insights", "year": 2025, "confidence": "medium", "note": "US locations; SHARPSHEETS cites ~24."},
+        "yearFounded": {"value": 1971, "source": "Vetted Biz - Creative World School Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2000, "source": "Vetted Biz - Creative World School Franchise Insights", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Creative World School franchisor site", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / Vetted Biz 2025 FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz / SHARPSHEETS 2025 FDD Item 19", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Celebree School",
+      "slug": "celebree-school",
+      "category": "Education & Children",
+      "website": "celebree.com",
+      "notes": "Maryland-based early-childhood education and childcare franchise (infant through school-age) with roughly 29 franchised + 26 company-owned locations, expanding via franchising. Large purpose-built-center model with high capital requirements. Note: the franchisor does NOT make an Item 19 financial performance representation, so no franchisor-published earnings figures exist for due diligence.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "No Item 19 financial performance representation",
+          "detail": "Celebree School makes no Item 19 financial performance representation in its FDD - prospective franchisees committing roughly $923K-$5.6M get no franchisor-published revenue, profit, or earnings figures and must build projections independently.",
+          "source": "FranchiseOverview Celebree Schools FDD summary; SHARPSHEETS",
+          "url": "https://franchiseoverview.com/company/celebree-schools",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Wide, real-estate-driven investment up to ~$5.6M",
+          "detail": "Total investment ranges from about $923,000 to $5,625,000 depending on land and construction of the purpose-built center - a very wide range where the high end carries substantial real-estate and build-out risk independent of the franchise system itself.",
+          "source": "SHARPSHEETS Celebree School FDD analysis (2025 FDD)",
+          "url": "https://sharpsheets.io/blog/celebree-school-franchise-costs-fees-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Young franchise system with significant company-owned presence",
+          "detail": "Of roughly 55 total units, about 26 are company-owned versus 29 franchised, meaning nearly half the system is operated by the franchisor and the franchised cohort is relatively young - limited operating history for franchisee benchmarking.",
+          "source": "Vetted Biz; FranchiseOverview Celebree School FDD summaries",
+          "url": "https://www.vettedbiz.com/franchises/celebree-school",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 923000, "source": "SHARPSHEETS Celebree School FDD analysis (2025 FDD)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 5625000, "source": "SHARPSHEETS Celebree School FDD analysis (2025 FDD)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 75000, "source": "SHARPSHEETS / Vetted Biz Celebree School FDD analyses (2025 FDD)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 7, "source": "SHARPSHEETS Celebree School FDD analysis (2025 FDD)", "year": 2025, "confidence": "high", "note": "7% of gross revenues."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS Celebree School FDD analysis (2025 FDD)", "year": 2025, "confidence": "high", "note": "2% of gross revenues advertising fee."},
+        "totalUnits": {"value": 55, "source": "SHARPSHEETS / Vetted Biz Celebree School FDD analyses (2025 FDD)", "year": 2025, "confidence": "medium", "note": "~29 franchised + ~26 company-owned US locations."},
+        "businessModelType": {"value": "b2c", "source": "Celebree School franchisor site (consumer childcare/early education)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / FranchiseOverview / Vetted Biz 2025 FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "FranchiseOverview Celebree Schools FDD summary (no Item 19 representation)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Kumon",
+      "slug": "kumon",
+      "category": "Education & Children",
+      "website": "kumonfranchise.com",
+      "notes": "The largest after-school math and reading enrichment franchise in the world (Japanese-founded 1958, US locations since 1983), with roughly 1,670+ US franchised centers - by far the biggest unit count in this batch. Self-learning worksheet method. Distinctive economics: royalty is a flat per-student-per-subject monthly fee (not a percent of sales), and the franchisor makes no Item 19 disclosure. Low entry cost; instructor must be the owner-operator.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "No Item 19 financial performance representation",
+          "detail": "Kumon does not include an Item 19 in its FDD, so the franchisor publishes no revenue or earnings data for prospective franchisees - notable for a system of 1,600+ US centers where wide per-center performance variation is likely.",
+          "source": "SHARPSHEETS Kumon FDD analysis (2025 FDD)",
+          "url": "https://sharpsheets.io/blog/kumon-franchise-costs-fees-profits-2024/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Per-student royalty (~$38/student/subject/month) scales with enrollment",
+          "detail": "Royalties are charged as a flat ~$38 per student per subject per month rather than a percentage of revenue, so a math-and-reading student costs ~$76/month in royalties. This fee accrues per enrollment regardless of whether tuition is collected, pressuring margins at low utilization.",
+          "source": "SHARPSHEETS Kumon FDD analysis (2025 FDD)",
+          "url": "https://sharpsheets.io/blog/kumon-franchise-costs-fees-profits-2024/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Owner must serve as the center instructor (limited absentee path)",
+          "detail": "Kumon's model requires the franchisee to be the trained, hands-on instructor running the center, which constrains multi-unit scaling and absentee ownership relative to percentage-royalty service franchises.",
+          "source": "Vetted Biz / Franchise Direct Kumon FDD analyses",
+          "url": "https://www.vettedbiz.com/franchises/kumon",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 70000, "source": "SHARPSHEETS Kumon FDD analysis (2025 FDD)", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 150000, "source": "SHARPSHEETS Kumon FDD analysis (2025 FDD)", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 74000, "source": "SHARPSHEETS Kumon FDD analysis (2025 FDD)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 166000, "source": "SHARPSHEETS Kumon FDD analysis (2025 FDD)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 0, "source": "SHARPSHEETS Kumon FDD analysis (2025 FDD)", "year": 2025, "confidence": "high", "note": "Not a percentage: flat ~$38 per student per subject per month (~$76 for a math+reading student). Set to 0 here because there is no percentage-of-sales royalty."},
+        "totalUnits": {"value": 1689, "source": "SHARPSHEETS / Vetted Biz Kumon FDD analyses (2025 FDD)", "year": 2025, "confidence": "high", "note": "~1,671 franchised + ~18 company-owned US units."},
+        "yearFounded": {"value": 1958, "source": "Wikipedia; Franchise Direct (founded in Japan 1958)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1983, "source": "Franchise Direct / SHARPSHEETS (first US locations 1983)", "year": 2025, "confidence": "high", "note": "Global founding 1958; US market entry 1983."},
+        "absenteeOwnership": {"value": false, "source": "Vetted Biz / Franchise Direct Kumon FDD analyses (owner is the instructor)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Kumon franchisor site (consumer supplemental education)", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Kumon corporate (operates across many countries worldwide)", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Vetted Biz / SHARPSHEETS Kumon FDD analyses", "year": 2025, "confidence": "medium", "note": "Large, mature, steadily expanding US network."},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / Franchise Direct / The FDD Exchange", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "SHARPSHEETS Kumon FDD analysis (no Item 19 representation)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Tutor Doctor",
+      "slug": "tutor-doctor",
+      "category": "Education & Children",
+      "website": "tutordoctorfranchise.com",
+      "notes": "Home-based, mobile in-home and online one-to-one tutoring franchise (founded 2000, franchising in the early-to-mid 2000s), ~340+ US franchised units (600+ globally), zero company-owned. Low-overhead model with no commercial lease - the franchise fee is the largest single startup line item. Actively recruiting US franchisees.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Stacked 10% ongoing fees (8% royalty + 2% ad fund)",
+          "detail": "Tutor Doctor charges an 8% royalty on gross revenue plus a 2% advertising-fund contribution - 10% combined ongoing fees on a low-margin, labor-pass-through tutoring model where much of revenue is paid out to tutors.",
+          "source": "Vetted Biz / Franchise Direct Tutor Doctor FDD analyses",
+          "url": "https://www.vettedbiz.com/franchises/tutor-doctor/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee litigation alleging fraud/misrepresentation (withdrawn 2013)",
+          "detail": "A former franchisee filed Restivo v. Tutor Doctor Systems, Inc. (Orange County, CA Superior Court, filed Dec. 12, 2012) alleging breach of contract, fraud, negligent misrepresentation, violation of California's Franchise Investment Law, and unfair trade practices. The claim was withdrawn in July 2013.",
+          "source": "FranchiseVerdict - Tutor Doctor litigation",
+          "url": "https://franchiseverdict.com/brand/tutor-doctor/litigation",
+          "year": 2012
+        },
+        {
+          "severity": "info",
+          "title": "AUV not disclosed in FDD",
+          "detail": "Per FDD-tracking services, Tutor Doctor's average unit volume/revenue is undisclosed, so prospective franchisees lack a franchisor-published earnings benchmark for the system.",
+          "source": "Vetted Biz - Tutor Doctor Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/tutor-doctor/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "Vetted Biz / Franchise Help Tutor Doctor profiles", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 200000, "source": "Vetted Biz / Franchise Help Tutor Doctor profiles", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 72000, "source": "Tutor Doctor franchisor site; Vetted Biz FDD analysis", "year": 2025, "confidence": "medium", "note": "Franchisor cites ~$72,000-$110,000 per territory; some FDD-derived sources cite a wider $94,000-$221,000."},
+        "totalInvestmentMax": {"value": 110000, "source": "Tutor Doctor franchisor site; Vetted Biz FDD analysis", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 49000, "source": "Vetted Biz / Franchise Direct Tutor Doctor FDD analyses", "year": 2025, "confidence": "high", "note": "Largest single startup line item."},
+        "royaltyPercent": {"value": 8, "source": "Vetted Biz / Franchise Direct Tutor Doctor FDD analyses", "year": 2025, "confidence": "high", "note": "8% of gross revenue."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz / Franchise Direct Tutor Doctor FDD analyses", "year": 2025, "confidence": "high", "note": "2% advertising fund; 10% combined ongoing fees."},
+        "totalUnits": {"value": 344, "source": "Vetted Biz - Tutor Doctor Franchise Insights", "year": 2025, "confidence": "medium", "note": "US franchised units (0 company-owned); 600+ globally."},
+        "yearFounded": {"value": 2000, "source": "Entrepreneur; Vetted Biz Tutor Doctor profiles", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2003, "source": "Franchise Direct / Entrepreneur (sources cite 2003-2005)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Tutor Doctor franchisor site (home-based; in-home and online tutoring, no commercial lease)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Tutor Doctor franchisor site", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Tutor Doctor franchisor site (600+ franchises globally)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct / Vetted Biz Tutor Doctor FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "Vetted Biz - Tutor Doctor Franchise Insights (AUV undisclosed)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Best in Class Education Center",
+      "slug": "best-in-class-education-center",
+      "category": "Education & Children",
+      "website": "bestinclasseducation.com",
+      "notes": "Supplemental math and English enrichment franchise (founded 1995, franchising since 2010), ~36-37 US franchised centers across roughly 9 states. Low entry cost but modest center economics. Protected territories defined by student population (15K-18K students ages 5-17). Actively recruiting US franchisees.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High percentage royalty (12% of gross revenues)",
+          "detail": "The royalty is the greater of $250/month or 12% of monthly gross and affiliate-program revenues (plus 6% of special-program revenues) - a 12% headline royalty is steep for a supplemental-education center with modest unit volumes.",
+          "source": "Franchise Chatter FDD fee analysis; Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/best-in-class-education-center",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Low unit volume and long payback",
+          "detail": "FDD-derived Item 19 data shows roughly $219,476 average yearly gross sales with owner-operator estimated earnings of only ~$26,338-$32,922 and an estimated 4.3-6.3 year payback - a low-income, slow-return owner-operator model.",
+          "source": "Vetted Biz - Best in Class Education Center FDD analysis (2025 FDD)",
+          "url": "https://www.vettedbiz.com/franchises/best-in-class-education-center",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Small, geographically narrow system (~9 states)",
+          "detail": "With about 36-37 centers in roughly 9 states after more than a decade of franchising, brand awareness is limited and franchisees in new markets build recognition largely from scratch.",
+          "source": "Franchise Chatter / Vetted Biz Best in Class FDD analyses (2025 FDD)",
+          "url": "https://www.vettedbiz.com/franchises/best-in-class-education-center",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 20000, "source": "Vetted Biz - Best in Class Education Center FDD analysis", "year": 2025, "confidence": "medium", "note": "Minimum cash required per Vetted Biz."},
+        "totalInvestmentMin": {"value": 84375, "source": "Vetted Biz - Best in Class Education Center FDD analysis (2025 FDD)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 142500, "source": "Vetted Biz - Best in Class Education Center FDD analysis (2025 FDD)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 35000, "source": "Franchise Chatter / The Franchise Mall Best in Class FDD analyses", "year": 2025, "confidence": "medium", "note": "$35,000 first franchise; $30,000 second; $25,000 each additional. Some directories list $45,000."},
+        "royaltyPercent": {"value": 12, "source": "Vetted Biz / Franchise Chatter Best in Class FDD analyses", "year": 2025, "confidence": "high", "note": "Greater of $250/month or 12% of monthly gross + affiliate-program revenues; plus 6% of special-program revenues."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz - Best in Class Education Center FDD analysis", "year": 2025, "confidence": "medium", "note": "2% of monthly sales marketing fee."},
+        "avgUnitRevenue": {"value": 219476, "source": "Vetted Biz - Best in Class Education Center FDD Item 19 (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales; owner-operator estimated earnings $26,338-$32,922."},
+        "totalUnits": {"value": 37, "source": "Vetted Biz - Best in Class Education Center FDD analysis", "year": 2025, "confidence": "medium", "note": "US locations across ~9 states; Franchise Chatter cites ~36 franchised."},
+        "yearFounded": {"value": 1995, "source": "Vetted Biz - Best in Class Education Center FDD analysis", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2010, "source": "Vetted Biz - Best in Class Education Center FDD analysis", "year": 2025, "confidence": "high"},
+        "exclusiveTerritories": {"value": true, "source": "Franchise Chatter Best in Class FDD analysis (territories by 15K-18K student population)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Best in Class Education Center franchisor site", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter / Vetted Biz 2025 FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Best in Class Education Center FDD Item 19 (2025 FDD)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Brain Balance",
+      "slug": "brain-balance",
+      "category": "Education & Children",
+      "website": "brainbalancecenters.com",
+      "notes": "Drug-free, non-medical cognitive/behavioral program for children with learning and attention challenges (ADHD, dyslexia, processing disorders), founded 2006 by Dr. Robert Melillo, franchising since 2008. Roughly 65 all-franchised US centers (no company-owned). Standard and lower-cost satellite formats. The defining buyer concern is multi-year unit contraction plus very heavy mandatory advertising obligations.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Three straight years of unit contraction (82 to 65)",
+          "detail": "Per the 2026 FDD outlet tables, franchised centers fell from 82 (start 2022) to 74, then 69, then 65 by end of 2024 - net losses of -8, -5, and -4 over three consecutive years, with zero company-owned units to offset the decline.",
+          "source": "Brain Balance 2026 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/01/06/brain-balance-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Very heavy mandatory advertising: 9% local + 2% national",
+          "detail": "Beyond the 8% royalty (min $1,000/month), the FDD requires local advertising of 9% of anticipated gross revenue (min $6,000/month) plus a 2% national ad fund (min $200/month) - combined ad obligations can approach or exceed the royalty itself, a fixed cash burden regardless of enrollment.",
+          "source": "Brain Balance 2026 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/01/06/brain-balance-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Wide performance dispersion (Item 19 range $187K-$2.43M)",
+          "detail": "2024 Item 19: 61 full-year centers averaged $686,778 gross sales (median $558,573) with a range of $187,073 to $2,430,160 - a roughly 13x spread between weakest and strongest, and the FDD discloses revenue only (no expenses or profit).",
+          "source": "Brain Balance 2026 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/01/06/brain-balance-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 215895, "source": "Brain Balance 2026 FDD Item 7 (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 463765, "source": "Brain Balance 2026 FDD Item 7 (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 45000, "source": "Brain Balance 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "$45,000 Standard Center; $25,000 Satellite Center."},
+        "royaltyPercent": {"value": 8, "source": "Brain Balance 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "8% of gross revenue, minimum $1,000/month."},
+        "adFundPercent": {"value": 2, "source": "Brain Balance 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2% national ad fund (min $200/month); PLUS a separate 9% local advertising requirement (min $6,000/month)."},
+        "avgUnitRevenue": {"value": 686778, "source": "Brain Balance 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2024 average gross sales across 61 full-year centers; median $558,573; range $187,073-$2,430,160."},
+        "totalUnits": {"value": 65, "source": "Brain Balance 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "All franchised; 0 company-owned. Down from 82 (start 2022)."},
+        "yearFounded": {"value": 2006, "source": "Wikipedia; Brain Balance corporate history (Dr. Robert Melillo)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2008, "source": "Wikipedia (franchises offered beginning November 2008)", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Brain Balance 2026 FDD outlet tables (via Franchise Chatter)", "year": 2026, "confidence": "high", "note": "Three consecutive years of net unit decline (82 -> 65, 2022-2024)."},
+        "businessModelType": {"value": "b2c", "source": "Brain Balance franchisor site", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review; The FDD Exchange", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Brain Balance 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "LearningRx",
+      "slug": "learningrx",
+      "category": "Education & Children",
+      "website": "learningrxfranchise.com",
+      "notes": "One-on-one cognitive skills 'brain training' franchise (founded 2002 by Dr. Ken Gibson in Colorado Springs; franchising from 2003), roughly 47 centers (46 franchised + 1 company-owned). Distinct from tutoring - the program targets underlying cognitive skills. The single most important due-diligence item is the brand's 2016 FTC deceptive-advertising settlement, which constrains the claims franchisees may make.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "FTC deceptive-advertising settlement (2016, $200,000)",
+          "detail": "The FTC charged LearningRx Franchise Corp. and CEO Dr. Ken Gibson with deceptively claiming the brain-training programs were clinically proven to permanently improve serious conditions (ADHD, autism, dementia, Alzheimer's, stroke, concussion) and to substantially raise grades, test scores, and earnings. The 2016 settlement barred those unsubstantiated claims and imposed a $200,000 payment - directly limiting franchisees' marketing claims.",
+          "source": "Federal Trade Commission press release",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2016/05/marketers-one-one-brain-training-programs-settle-ftc-charges-claims-about-ability-treat-severe",
+          "year": 2016
+        },
+        {
+          "severity": "caution",
+          "title": "Escalating-then-tiered royalty plus capped marketing fund",
+          "detail": "Royalty is 8% of gross revenues, stepping down to 7.5% above $500,000 and 7% above $750,000 annually, plus a 3% Marketing Development Fund capped at $15,000/center/year - a relatively heavy ongoing-fee load for a small-footprint service center.",
+          "source": "SHARPSHEETS LearningRx FDD analysis (2025 FDD)",
+          "url": "https://sharpsheets.io/blog/learningrx-franchise-costs-fees-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Small system (~47 centers) and modest AUV",
+          "detail": "The system is roughly 47 centers (46 franchised, 1 company-owned) with FDD-derived average sales around $375,000 - a small, owner-operator-scale network where brand reach and unit volumes are limited.",
+          "source": "Franchise Chatter LearningRx FDD review; Vetted Biz",
+          "url": "https://www.franchisechatter.com/2025/07/11/learningrx-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 75000, "source": "SHARPSHEETS LearningRx FDD analysis (2025 FDD)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 220000, "source": "SHARPSHEETS LearningRx FDD analysis (2025 FDD)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 45000, "source": "SHARPSHEETS LearningRx FDD analysis (2025 FDD)", "year": 2025, "confidence": "high", "note": "$45,000 standard; $30,000 micro franchise."},
+        "royaltyPercent": {"value": 8, "source": "SHARPSHEETS LearningRx FDD analysis (2025 FDD)", "year": 2025, "confidence": "high", "note": "8% of gross revenues; steps down to 7.5% above $500K and 7% above $750K annually."},
+        "adFundPercent": {"value": 3, "source": "SHARPSHEETS LearningRx FDD analysis (2025 FDD)", "year": 2025, "confidence": "high", "note": "3% Marketing Development Fund, capped at $15,000/center/year."},
+        "avgUnitRevenue": {"value": 375000, "source": "Franchise Chatter LearningRx FDD review (Item 19-derived)", "year": 2024, "confidence": "medium", "note": "Approximate average center revenue per FDD-derived analysis."},
+        "totalUnits": {"value": 47, "source": "SHARPSHEETS / Vetted Biz LearningRx FDD analyses (2025 FDD)", "year": 2025, "confidence": "high", "note": "~46 franchised + 1 company-owned."},
+        "yearFounded": {"value": 2002, "source": "Wikipedia; LearningRx corporate history (Dr. Ken Gibson, Colorado Springs)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2003, "source": "Wikipedia / LearningRx franchising history", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "LearningRx franchisor site", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / Franchise Chatter 2025 FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter LearningRx FDD review (revenue/expense Item 19)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Club Z Tutoring",
+      "slug": "club-z-tutoring",
+      "category": "Education & Children",
+      "website": "clubztutoring.com",
+      "notes": "In-home and online one-to-one tutoring franchise (Tampa, FL; founded 1995, franchising since 1998), home-based with no commercial real estate. Once one of the largest tutoring networks (~328 US franchised units, 0 company-owned), but the system has been contracting for several years. Low entry cost. Actively recruiting US franchisees.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Multi-year unit contraction (362 to 328)",
+          "detail": "Per the 2025/2026 FDD outlet tables, franchised units fell from 362 (end 2022) to 347 (2023, -21 net) to 328 (2024, -19 net) - two consecutive years of double-digit net losses, with no company-owned units to offset the decline.",
+          "source": "Club Z! 2026 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/01/23/club-z-in-home-tutoring-services-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Royalty with monthly minimums regardless of revenue",
+          "detail": "Royalty is the greater of 6-8% of gross sales (by territory size) or $550/month, plus marketing of the greater of 2% or $50/month - the dollar minimums create a fixed monthly floor that pressures low-volume or ramping franchisees.",
+          "source": "Club Z! 2026 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/01/23/club-z-in-home-tutoring-services-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Item 19 reports activity metrics, not unit revenue",
+          "detail": "The 2024 Item 19 discloses operational figures (average private-student counts by hours worked, tutor pay $24-$28/hr, client rates $52-$125/hr) rather than a clean average unit revenue, making it harder for prospects to model expected center sales directly.",
+          "source": "Club Z! 2026 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/01/23/club-z-in-home-tutoring-services-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 40000, "source": "Franchise Help / SHARPSHEETS Club Z FDD summaries", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 100000, "source": "Franchise Help / SHARPSHEETS Club Z FDD summaries", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 40975, "source": "Club Z! 2026 FDD Item 7 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Excludes real estate (home-based model)."},
+        "totalInvestmentMax": {"value": 57425, "source": "Club Z! 2026 FDD Item 7 (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 27250, "source": "Club Z! 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "FDD range $27,250-$39,750 by territory size."},
+        "royaltyPercent": {"value": 8, "source": "Club Z! 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Greater of 6-8% of gross sales (by territory) or $550/month."},
+        "adFundPercent": {"value": 2, "source": "Club Z! 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Greater of 2% of gross sales or $50/month."},
+        "totalUnits": {"value": 328, "source": "Club Z! 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "All franchised; 0 company-owned. Down from 362 (end 2022)."},
+        "yearFounded": {"value": 1995, "source": "Entrepreneur; ZoomInfo Club Z profiles (Tampa, FL)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1998, "source": "Club Z franchising history", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Club Z! 2026 FDD outlet tables (via Franchise Chatter)", "year": 2026, "confidence": "high", "note": "Two consecutive years of net unit decline (362 -> 328)."},
+        "mobileBased": {"value": true, "source": "Club Z franchisor site (in-home and online; home-based, no commercial real estate)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Club Z franchisor site", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review; SHARPSHEETS", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Club Z! 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Item 19 reports activity/rate metrics rather than a clean unit revenue figure."}
+      }
+    },
+    {
+      "name": "Venture X",
+      "slug": "venture-x",
+      "category": "Services",
+      "website": "venturexfranchise.com",
+      "notes": "Upscale, hospitality-driven coworking and flexible-workspace franchise (founded 2012, franchising since ~2016 under United Franchise Group / Vast Coworking), roughly 44 US locations (100+ globally). Capital-intensive build-out with a long-term commercial lease at its core. Actively recruiting US franchisees; 2024 system sales reportedly grew ~45% to ~$59M.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Capital-intensive build tied to a long commercial lease in a volatile sector",
+          "detail": "Total investment runs roughly $341,000 to $3,273,000, anchored by a large leased office build-out. The flexible-workspace category carries real demand risk: WeWork's bankruptcy, hybrid-work uncertainty, potential oversupply in mature markets, and interest-rate sensitivity can all depress occupancy and rents that the franchisee remains liable for.",
+          "source": "SHARPSHEETS Venture X FDD analysis; Allwork.space coworking 2026 trends",
+          "url": "https://allwork.space/2025/12/coworking-statistics-and-key-trends-shaping-the-2026-flexible-workspace-industry/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Long ramp and high franchise fee under a multi-brand franchisor platform",
+          "detail": "The initial franchise fee is roughly $79,500 and Venture X sits within United Franchise Group / Vast Coworking, a large multi-brand franchisor (led by Ray Titus) that sets development priorities across many brands; coworking centers also take time to reach mature occupancy, lengthening the path to breakeven.",
+          "source": "SHARPSHEETS Venture X FDD analysis; United Franchise Group / Vast Coworking",
+          "url": "https://sharpsheets.io/blog/venture-x-franchise-costs-fees-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Relatively young, modest US footprint (~44 locations)",
+          "detail": "With about 44 US locations (100+ globally) since beginning to franchise around 2016, the US system is still emerging; franchisees in newer markets build brand awareness for a premium-priced offering against established and discount coworking competitors.",
+          "source": "SHARPSHEETS Venture X FDD analysis; Franchise Times emerging-franchise coverage",
+          "url": "https://www.franchisetimes.com/franchise_development/how-three-emerging-franchises-are-working-toward-the-100-unit-mark/article_1067f79b-5688-4913-90a2-b3f75dd821cd.html",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 341000, "source": "SHARPSHEETS Venture X FDD analysis (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Franchisor cites a starting figure around $340,750 before concessions/financing."},
+        "totalInvestmentMax": {"value": 3273000, "source": "SHARPSHEETS Venture X FDD analysis (2025 FDD)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 79500, "source": "SHARPSHEETS / Franchise Direct Venture X FDD analyses", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "SHARPSHEETS / Franchise Direct Venture X FDD analyses", "year": 2025, "confidence": "high", "note": "6% of gross revenues, collected monthly."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS / Franchise Direct Venture X FDD analyses", "year": 2025, "confidence": "high", "note": "2% marketing fee on gross revenues."},
+        "totalUnits": {"value": 44, "source": "SHARPSHEETS / Franchise Help Venture X profiles", "year": 2025, "confidence": "medium", "note": "US locations; 100+ globally across 30+ countries via Vast Coworking."},
+        "yearFounded": {"value": 2012, "source": "Venture X corporate / Vast Coworking", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2016, "source": "United Franchise Group (expansion began in earnest 2016)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2b", "source": "Venture X franchisor site (coworking memberships sold to businesses/professionals)", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Vast Coworking (100+ locations in 30+ countries)", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "International Franchise Association; Vast Coworking (2024 system sales +45.3% to ~$59M)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / Franchise Direct 2025 FDD analyses", "year": 2025, "confidence": "high"}
+      }
+    }
+  ]
+}
