@@ -1,0 +1,654 @@
+{
+  "brands": [
+    {
+      "name": "Tire Pros",
+      "slug": "tire-pros",
+      "category": "Automotive",
+      "website": "tirepros.com",
+      "notes": "Retail tire and automotive-service franchise brand operated by Tire Pros Francorp LLC, the franchise/retail arm of wholesaler American Tire Distributors (ATD). 600+ independently owned franchised locations and zero company-owned units. Distinctive economics: a flat monthly royalty (~$695) plus a flat monthly ad fee rather than a percentage of sales, and the franchise is tightly tied to ATD's distribution network. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Parent American Tire Distributors filed Chapter 11 in October 2024 (second time in six years)",
+          "detail": "ATD, the parent/distribution backbone of the Tire Pros brand, filed Chapter 11 in the District of Delaware on October 23, 2024 with roughly $1.9B in debt and ~$30M cash - its second bankruptcy in six years - resulting in a 363 sale and transfer of ownership to lenders. Tire Pros franchisees depend on ATD's supply and brand programs, so parent-level distress is a direct supply-chain and brand-continuity risk.",
+          "source": "Modern Tire Dealer; Holland & Knight insights",
+          "url": "https://www.moderntiredealer.com/industry-news/wholesale-distribution/article/55237518/atd-files-for-chapter-11-reorganization",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Declining franchised unit count",
+          "detail": "FDD-derived directory data shows a negative unit trend (about -9%) for the Tire Pros system, and unit counts cited across sources range from ~552 to ~620 - indicating net store losses rather than expansion even as the franchisor markets new opportunities.",
+          "source": "Entrepreneur Franchise 500 directory (FDD-derived)",
+          "url": "https://www.entrepreneur.com/franchises/directory/tire-pros/334894",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "FDD discloses litigation and/or bankruptcy",
+          "detail": "FDD-tracking services report that Tire Pros discloses lawsuits and/or bankruptcy information in its FDD Item 3/Item 4 - prospective franchisees should review those disclosures alongside the parent ATD bankruptcy history.",
+          "source": "Vetted Biz - Tire Pros Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/tire-pros/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 111475, "source": "FranchisePayback / Vetted Biz Tire Pros FDD data (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Sources cite $111,475-$503,725; Vetted Biz's franchised-unit estimate starts higher (~$278,975) for full builds."},
+        "totalInvestmentMax": {"value": 503725, "source": "FranchisePayback / Vetted Biz Tire Pros FDD data (2025 FDD)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 7000, "source": "Vetted Biz; FranchisePayback; Entrepreneur (2025 FDD)", "year": 2025, "confidence": "high"},
+        "royaltyFlat": {"value": 695, "source": "FranchisePayback; Vetted Biz (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Flat monthly royalty (~$695/month) rather than a percentage of sales."},
+        "totalUnits": {"value": 605, "source": "Vetted Biz; FranchisePayback (2025 FDD)", "year": 2025, "confidence": "medium", "note": "All franchised; 0 company-owned. Other sources cite 552-620 US units."},
+        "yearFounded": {"value": 1988, "source": "Vetted Biz; Entrepreneur directory", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1988, "source": "Vetted Biz; Entrepreneur directory", "year": 2025, "confidence": "medium"},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2025, "confidence": "medium", "note": "50% off the franchise fee per Entrepreneur directory."},
+        "isGrowing": {"value": false, "source": "Entrepreneur Franchise 500 directory (FDD-derived unit trend)", "year": 2025, "confidence": "medium", "note": "Roughly -9% unit trend."},
+        "businessModelType": {"value": "b2c", "source": "Tire Pros brand site (retail tire and auto service)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Tire Pros brand site (retail storefront/service center model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; FranchisePayback FDD analyses", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Tuffy Tire & Auto Service",
+      "slug": "tuffy-tire-and-auto-service",
+      "category": "Automotive",
+      "website": "tuffy.com",
+      "notes": "Full-service tire and automotive-repair franchise founded in 1970 (originally a muffler shop), now owned by tire giant Mavis Tire Express Services Corp. after a 2021 acquisition. ~133 locations (111 franchised, 22 company-owned), concentrated in the eastern US. The system has contracted from ~175 locations in 2018, and being owned by a large company-owned-store operator (Mavis) is the central structural consideration for buyers. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Owned by Mavis Tire, a large company-owned tire-retail competitor",
+          "detail": "Mavis Tire Express Services Corp. acquired the Tuffy franchisor in December 2021. Mavis operates thousands of company-owned tire/service stores, creating a structural conflict of interest: the franchisor's parent is also a direct retail competitor that may prioritize its corporate footprint over franchised growth.",
+          "source": "Wikipedia (Tuffy Auto Service Centers); FranchisePayback FDD data",
+          "url": "https://en.wikipedia.org/wiki/Tuffy_Auto_Service_Centers",
+          "year": 2021
+        },
+        {
+          "severity": "caution",
+          "title": "Long-run system contraction",
+          "detail": "Tuffy operated about 175 locations across 20 states in 2018 but only ~133 total units (111 franchised) by the 2026 FDD - roughly a 24% decline in total store count over the period, despite the franchisor marketing new opportunities.",
+          "source": "Wikipedia (175 locations, 2018) vs FranchisePayback 2026 FDD data (133 units)",
+          "url": "https://www.franchisepayback.com/franchise/tuffy-tire-and-auto-service",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Stacked 5% royalty + 5% marketing on a build cost up to ~$729K-$939K",
+          "detail": "FDD-derived fee data shows a royalty up to 5% plus a 5% marketing/advertising fee (combined ~10% of sales) on a total investment that runs as high as $729,000 (one source cites $939,000) for a full tire-and-service center - a heavy fixed-cost and ongoing-fee load relative to AUV.",
+          "source": "FranchisePayback; Vetted Biz Tuffy FDD data",
+          "url": "https://www.franchisepayback.com/franchise/tuffy-tire-and-auto-service",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "Vetted Biz - Tuffy Tire & Auto Service Franchise Insights", "year": 2024, "confidence": "medium"},
+        "netWorthMin": {"value": 250000, "source": "Vetted Biz - Tuffy Tire & Auto Service Franchise Insights", "year": 2024, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 228000, "source": "FranchisePayback Tuffy 2026 FDD data", "year": 2026, "confidence": "medium", "note": "Sources cite ranges of $228,000-$729,000 to $228,000-$939,000 depending on real estate and build type."},
+        "totalInvestmentMax": {"value": 729000, "source": "FranchisePayback / Vetted Biz Tuffy FDD data", "year": 2026, "confidence": "medium", "note": "Upper end varies by source ($729,000-$939,000)."},
+        "franchiseFee": {"value": 30000, "source": "Vetted Biz; FranchisePayback (FDD)", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Vetted Biz; FranchisePayback (FDD)", "year": 2026, "confidence": "high", "note": "FDD discloses a tiered/up-to-5% royalty (2.5%-5%)."},
+        "adFundPercent": {"value": 5, "source": "Vetted Biz; FranchisePayback (FDD)", "year": 2026, "confidence": "high", "note": "5% marketing/advertising fee."},
+        "avgUnitRevenue": {"value": 1214000, "source": "FranchisePayback Tuffy FDD data (Item 19-derived)", "year": 2026, "confidence": "medium", "note": "Average unit revenue per FDD-derived analysis."},
+        "totalUnits": {"value": 133, "source": "FranchisePayback Tuffy 2026 FDD data", "year": 2026, "confidence": "high", "note": "111 franchised + 22 company-owned; Vetted Biz's 2024 data showed 103 franchised + 60 company-owned (163 total)."},
+        "yearFounded": {"value": 1970, "source": "Wikipedia; Vetted Biz", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1971, "source": "FranchisePayback; Entrepreneur directory", "year": 2026, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Vetted Biz - Tuffy Franchise Insights", "year": 2024, "confidence": "medium", "note": "10% off the franchise fee."},
+        "isGrowing": {"value": false, "source": "Wikipedia (175 units, 2018) vs 2026 FDD (133 units)", "year": 2026, "confidence": "medium", "note": "Long-run contraction in total store count, though FranchisePayback shows a recent +11% franchised-unit uptick off a small base."},
+        "businessModelType": {"value": "b2c", "source": "Tuffy brand site (retail tire and auto repair)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Tuffy brand site (service-center model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; FranchisePayback FDD analyses", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "FranchisePayback (Item 19-derived AUV)", "year": 2026, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Grease Monkey",
+      "slug": "grease-monkey",
+      "category": "Automotive",
+      "website": "greasemonkey.com",
+      "notes": "Quick-lube / oil-change franchise founded in Denver in 1978, now the flagship brand of FullSpeed Automotive (which also operates other automotive-maintenance brands). 500+ centers across the US and international markets (~371 US: ~209 franchised + ~162 company-owned per the 2025 FDD). Wide performance dispersion between top- and bottom-quartile operators, and a rapidly growing company-owned base. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Wide quartile performance dispersion (3.3x sales gap)",
+          "detail": "2024 Item 19 (149 franchisees): top-quartile units averaged $1,863,739 net sales with 22.1% EBITDAR, while bottom-quartile units averaged just $560,735 with 10.6% EBITDAR - a 3.3x revenue gap and a meaningful margin gap, on builds that can exceed $900K.",
+          "source": "Grease Monkey 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/06/29/grease-monkey-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Company-owned store count growing alongside franchised growth",
+          "detail": "Per the 2025 FDD outlet tables, company-owned units grew from 116 (2022) to 162 (2024) while franchised units grew from 185 to 209 - the franchisor's parent (FullSpeed) is actively building a corporate footprint that competes for sites and resources within the same brand.",
+          "source": "Grease Monkey 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/06/29/grease-monkey-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Franchisee litigation in federal court",
+          "detail": "Court dockets show franchisee-versus-franchisor litigation, including FSC GRM 4101 North TX, LLC v. Grease Monkey International, LLC (E.D. Tex., filed 2023) - prospective buyers should review the FDD's litigation disclosures and recent dockets.",
+          "source": "Justia federal court dockets",
+          "url": "https://dockets.justia.com/docket/texas/txedce/9:2023cv00231/226942",
+          "year": 2023
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "Franchise directory summaries (per unit developed)", "year": 2026, "confidence": "low", "note": "Cited figures vary widely across sources ($60,000-$300,000); $150,000/unit and $450,000 net worth per unit appear in multiple FDD-derived summaries."},
+        "netWorthMin": {"value": 450000, "source": "Franchise directory summaries (per unit developed)", "year": 2026, "confidence": "low", "note": "Reported $250,000-$500,000 depending on source; ~$450,000 net worth per unit developed in development-deal summaries."},
+        "totalInvestmentMin": {"value": 291320, "source": "Grease Monkey 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Brownfield/conversion low end; full range cited as $291,320-$917,050 (some sources to $2.2M for ground-up new builds)."},
+        "totalInvestmentMax": {"value": 917050, "source": "Grease Monkey 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 39900, "source": "Grease Monkey 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "$20,000 for conversion owners on their first location."},
+        "royaltyPercent": {"value": 6, "source": "Grease Monkey 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "6% of gross revenues."},
+        "adFundPercent": {"value": 4.5, "source": "Grease Monkey 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "0.5% national materials fund + 4% local advertising commitment."},
+        "avgUnitRevenue": {"value": 1863739, "source": "Grease Monkey 2025 FDD Item 19 (top quartile; via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "TOP-QUARTILE average net sales (37 units). Bottom quartile averaged $560,735; full-system mean not stated as a single figure."},
+        "totalUnits": {"value": 371, "source": "Grease Monkey 2025 FDD outlet tables (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "US: ~209 franchised + ~162 company-owned; 500+ including international (Mexico, China, Colombia, Saudi Arabia)."},
+        "yearFounded": {"value": 1978, "source": "Wikipedia; Franchise Times Top 400", "year": 2025, "confidence": "high", "note": "Founded in Denver, CO."},
+        "yearFranchising": {"value": 1979, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "veteranDiscount": {"value": true, "source": "Grease Monkey franchise site (VetFran)", "year": 2026, "confidence": "high", "note": "Franchise-fee discount plus reduced/rebated royalties for veterans and first responders in the early operating period."},
+        "internationalAvailability": {"value": true, "source": "Grease Monkey franchisor site (US, Mexico, China, Colombia, Saudi Arabia)", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Grease Monkey 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Franchised units +2 (2022), +14 (2023), +8 (2024); first Inc. 5000 ranking in 2024."},
+        "businessModelType": {"value": "b2c", "source": "Grease Monkey brand site (retail oil change / quick lube)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Grease Monkey brand site (service-center model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Strickland Brothers 10 Minute Oil Change",
+      "slug": "strickland-brothers-10-minute-oil-change",
+      "category": "Automotive",
+      "website": "stricklandbrothers.com",
+      "notes": "Fast-growing drive-through oil-change franchise founded 2016 in Winston-Salem, NC, backed by Princeton Equity Group (investment 2021) with Golub Capital / Audax financing. Nearly 300 locations across 27 states as of early 2026, but the system is overwhelmingly company/affiliate-owned, the franchised cohort is young and small, and the franchise fee is unusually high ($54,900). No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Hyper-growth, PE-fueled roll-up with mostly company-owned units",
+          "detail": "Company-owned units jumped from 85 (2022) to 159 (2023) - ~+87% in one year - while franchised units were just 47 then 67. The brand closed $360M of committed financing (Golub Capital, Audax) in 2026 to fund acquisitions and expansion. Most of the system is corporate, and the franchised network is young, small, and rapidly scaling, raising quality-control and franchisee-priority risk.",
+          "source": "Strickland Brothers 2025 FDD (via Franchise Chatter review); BusinessWire financing announcement",
+          "url": "https://www.franchisechatter.com/2025/05/12/strickland-brothers-10-minute-oil-change-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee units underperform affiliate-owned units; thin franchisee track record",
+          "detail": "2023 Item 19: affiliate-owned units (81) averaged $761,207 revenue vs $636,828 for franchisee-owned units (39) - franchised locations earned ~16% less, and only 39 franchisee units had reportable data, a limited basis for projecting franchisee outcomes.",
+          "source": "Strickland Brothers 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/05/12/strickland-brothers-10-minute-oil-change-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "High franchise fee plus ~10.5% combined ongoing fees",
+          "detail": "The 2025 FDD shows a $54,900 initial franchise fee (high for the category) plus 6% royalty, 2% brand fund, and 2.5% local marketing - roughly 10.5% of gross revenue in ongoing fees on top of the upfront fee.",
+          "source": "Strickland Brothers 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/05/12/strickland-brothers-10-minute-oil-change-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 247900, "source": "Strickland Brothers 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Franchise Chatter cites $247,900-$391,900; other directories show wider ranges (to ~$1.9M) for ground-up builds with real estate."},
+        "totalInvestmentMax": {"value": 391900, "source": "Strickland Brothers 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 54900, "source": "Strickland Brothers 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Strickland Brothers 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "6% of gross revenue."},
+        "adFundPercent": {"value": 2, "source": "Strickland Brothers 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2% brand fund + 2.5% local marketing."},
+        "avgUnitRevenue": {"value": 636828, "source": "Strickland Brothers 2025 FDD Item 19 (franchisee-owned; via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "2023 average revenue for 39 FRANCHISEE-owned units; affiliate-owned (81 units) averaged $761,207."},
+        "totalUnits": {"value": 226, "source": "Strickland Brothers 2025 FDD outlet tables (2023 data; via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "67 franchised + 159 company-owned at the 2023 reporting date; franchisor cites nearly 300 locations in 27 states as of early 2026."},
+        "yearFounded": {"value": 2016, "source": "Franchise Chatter 2025 FDD review; PRNewswire", "year": 2025, "confidence": "high", "note": "Founded in Winston-Salem, NC."},
+        "yearFranchising": {"value": 2020, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Strickland Brothers 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Franchised 47 -> 67; company-owned 85 -> 159 (2022-2023); ~300 locations by early 2026."},
+        "businessModelType": {"value": "b2c", "source": "Strickland Brothers brand site (drive-through oil change)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Strickland Brothers brand site (drive-through facility model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Fix Auto",
+      "slug": "fix-auto",
+      "category": "Automotive",
+      "website": "fixautousa.com",
+      "notes": "Collision/auto-body repair franchise (Fix Auto USA) owned by publicly traded Driven Brands Holdings (NASDAQ: DRVN). ~170-212 franchised body shops, zero company-owned. The model depends heavily on insurer direct-repair-program (DRP) relationships, and the parent operates competing collision-repair franchise brands (CARSTAR, Maaco) within the same portfolio. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Parent Driven Brands owns competing collision-repair franchises (CARSTAR, Maaco)",
+          "detail": "Fix Auto USA sits inside Driven Brands' portfolio alongside CARSTAR and Maaco - other collision/auto-body franchise brands. The parent allocates development, insurer relationships, and shared services across competing concepts, and Driven Brands reorganized its franchise segment reporting in Q1 2025, consolidating stable franchise businesses.",
+          "source": "Driven Brands SEC 8-K (FY2025 segment reporting); brand portfolio",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001804745/000180474525000015/a992segmentationsuppleme.htm",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Revenue depends on insurer direct-repair-program (DRP) relationships",
+          "detail": "Collision-repair franchisee economics hinge on direct-repair-program agreements with insurance carriers, which the franchisee does not control; insurers set rates and steer volume, and a high reported AUV (~$2.4M) can mask thin per-job margins and dependence on a few carrier programs.",
+          "source": "Vetted Biz / SHARPSHEETS Fix Auto USA FDD analyses (business-model description)",
+          "url": "https://www.vettedbiz.com/franchises/fix-auto",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Publicly traded parent had 2025 CEO succession and whistleblower-related disclosures",
+          "detail": "Driven Brands filed multiple 2025 8-Ks covering CEO succession and a whistleblower-related matter; parent-level governance and financial events at a public company flow down to brand investment, support, and continuity for franchisees.",
+          "source": "Driven Brands SEC 8-K filings (FY2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001804745/000180474525000005/a993ceosuccessionpressre.htm",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "SHARPSHEETS / Vetted Biz Fix Auto USA FDD analyses", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 500000, "source": "SHARPSHEETS / Vetted Biz Fix Auto USA FDD analyses", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 170000, "source": "Fix Auto USA FDD (via FranchisePayback and SHARPSHEETS)", "year": 2025, "confidence": "medium", "note": "Wide range $170,000-$3,090,000 depending on whether a body shop already exists or is built/equipped ground-up."},
+        "totalInvestmentMax": {"value": 3090000, "source": "Fix Auto USA FDD (via FranchisePayback and SHARPSHEETS)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 10000, "source": "Fix Auto USA FDD (via FranchisePayback and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "SHARPSHEETS Fix Auto USA FDD analysis; FranchisePayback (3-6% range)", "year": 2025, "confidence": "medium", "note": "Sources cite ~5% (FranchisePayback shows a 3%-6% range)."},
+        "adFundPercent": {"value": 1, "source": "SHARPSHEETS / FranchisePayback Fix Auto USA FDD data", "year": 2025, "confidence": "low", "note": "Marketing fee cited at ~0.75%-3% depending on source."},
+        "avgUnitRevenue": {"value": 2391000, "source": "FranchisePayback Fix Auto USA FDD data (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average unit volume per FDD-derived analysis."},
+        "totalUnits": {"value": 178, "source": "FranchisePayback Fix Auto USA FDD data", "year": 2025, "confidence": "medium", "note": "All franchised; 0 company-owned. Sources cite ~170-212 US units."},
+        "yearFounded": {"value": 2011, "source": "FranchisePayback Fix Auto USA FDD data", "year": 2025, "confidence": "medium", "note": "Fix Auto USA operations; the global Fix Auto network is older and originated outside the US."},
+        "yearFranchising": {"value": 2015, "source": "FranchisePayback Fix Auto USA FDD data", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "FranchisePayback Fix Auto USA FDD data (+4% unit trend)", "year": 2025, "confidence": "low"},
+        "businessModelType": {"value": "b2c", "source": "Fix Auto USA brand site (consumer collision repair, insurer-funded)", "year": 2026, "confidence": "medium"},
+        "mobileBased": {"value": false, "source": "Fix Auto USA brand site (body-shop facility model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranchisePayback; Vetted Biz; SHARPSHEETS FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "FranchisePayback (Item 19-derived AUV)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Mighty Auto Parts",
+      "slug": "mighty-auto-parts",
+      "category": "Automotive",
+      "website": "mightyautoparts.com",
+      "notes": "B2B wholesale auto-parts distribution franchise (preventive-maintenance parts, oil, chemicals, shop supplies) founded 1963, franchising since 1970, HQ in Peachtree Corners, GA. Owned since 2009 by Grupo Gonher, a Mexico-based automotive-parts manufacturer/OE supplier. ~92-100 franchised distributors operating exclusive territories across ~44-47 states; no company-owned units. Clean Item 3/Item 4 record per FDD-tracking services. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Owned by a foreign parts manufacturer that supplies the products franchisees resell",
+          "detail": "Grupo Gonher (Monterrey, Mexico), an OE parts manufacturer, has owned Mighty Auto Parts since 2009. Franchisees distribute parts sourced through the parent's supply chain, concentrating supplier power with the franchisor's owner and exposing franchisees to cross-border supply, tariff, and currency dynamics they do not control.",
+          "source": "aftermarketNews; Tire Business (Gonher acquisition coverage)",
+          "url": "https://www.aftermarketnews.com/mighty-auto-parts-is-under-new-ownership/",
+          "year": 2010
+        },
+        {
+          "severity": "caution",
+          "title": "Small, slow-growing distributor network in a consolidating aftermarket",
+          "detail": "The system is small (~92-100 distributors) and largely flat for a 60-year-old brand, operating in an auto-aftermarket distribution channel under pressure from large consolidators (NAPA, O'Reilly, AutoZone, ATD) and OE/dealer parts programs - limiting franchisee pricing power and growth runway.",
+          "source": "Vetted Biz - Mighty Auto Parts Franchise Insights; Mighty franchise history",
+          "url": "https://www.vettedbiz.com/franchises/mighty-auto-parts/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No litigation or bankruptcy disclosed in FDD",
+          "detail": "FDD-tracking services report that Mighty Auto Parts does not disclose lawsuits or bankruptcy information in its FDD - a comparatively clean Item 3/Item 4 record.",
+          "source": "Vetted Biz - Mighty Auto Parts Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/mighty-auto-parts/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "SHARPSHEETS / Franchise Clique Mighty Auto Parts FDD summaries", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 500000, "source": "SHARPSHEETS / Franchise Clique Mighty Auto Parts FDD summaries", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 247500, "source": "Mighty Auto Parts 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "Range cited $247,500-$570,600 (some sources to $595,600)."},
+        "totalInvestmentMax": {"value": 570600, "source": "Mighty Auto Parts 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 7500, "source": "Vetted Biz - Mighty Auto Parts (2025 FDD)", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites $7,500; some directories cite a higher $65,000+ figure that appears to bundle initial inventory."},
+        "royaltyPercent": {"value": 5, "source": "Vetted Biz; SHARPSHEETS Mighty Auto Parts FDD analyses", "year": 2025, "confidence": "high", "note": "5% of monthly/gross sales."},
+        "adFundPercent": {"value": 1, "source": "Vetted Biz Mighty Auto Parts FDD analysis", "year": 2025, "confidence": "medium", "note": "~0.5%-1% co-op advertising; franchisor matches 0.5% per some summaries."},
+        "avgUnitRevenue": {"value": 1588196, "source": "Vetted Biz - Mighty Auto Parts (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales; estimated owner-operator earnings $142,938-$190,584."},
+        "totalUnits": {"value": 92, "source": "Vetted Biz - Mighty Auto Parts (2025 FDD)", "year": 2025, "confidence": "high", "note": "All franchised; franchisor cites ~100 distributors across 44-47 states and 5 international markets."},
+        "yearFounded": {"value": 1963, "source": "Mighty Auto Parts company history; Zippia", "year": 2025, "confidence": "high", "note": "Founded by Dallas 'Dick' Wallace as a route-sales parts business."},
+        "yearFranchising": {"value": 1970, "source": "Mighty Auto Parts franchise history", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2b", "source": "Mighty Auto Parts franchise site (wholesale distribution to repair shops, dealers, quick lubes)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Mighty Auto Parts franchise site (route-based delivery/distribution model)", "year": 2026, "confidence": "medium", "note": "Distributors run route delivery from a warehouse base ('warehouses on wheels' heritage)."},
+        "internationalAvailability": {"value": true, "source": "Mighty Auto Parts company overview (5 international markets)", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Vetted Biz; Mighty franchise history (flat distributor count)", "year": 2025, "confidence": "low", "note": "Roughly flat ~90-100 distributors over recent years."},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; FranchisePayback FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz (Item 19-derived gross sales)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Rad Air",
+      "slug": "rad-air",
+      "category": "Automotive",
+      "website": "radair.com",
+      "notes": "Rad Air Complete Car Care and Tire Centers - a complete-car-care and tire franchise founded 1975, HQ in North Royalton, OH, franchising since 1999 via Rad Air Franchise Systems, Inc. Actively recruiting franchisees in 2025 (radairfranchise.com) with owner-operator and semi-absentee models and 'no prior automotive experience required.' This is a very small, single-region system: only ~11 locations, all in Northeast Ohio (Cleveland/Akron). Available markets are listed as Ohio cities with future expansion into surrounding states.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Tiny system (~11 units) - very thin operating base for due diligence",
+          "detail": "Rad Air has only about 11 locations after franchising since 1999, meaning roughly 25 years produced barely more than a dozen units. A franchise this small offers little comparative performance data, limited brand recognition, and concentrated franchisor-continuity risk.",
+          "source": "Rad Air franchise site (11 current locations); franchise history",
+          "url": "https://radairfranchise.com/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Single-market geographic concentration (Northeast Ohio)",
+          "detail": "Essentially the entire system is in the Cleveland/Akron area of Northeast Ohio, with listed available territories all in Ohio. New franchisees outside that footprint build brand awareness from scratch, and the system is exposed to a single regional economy and weather pattern.",
+          "source": "Rad Air franchise site (available territories all Ohio)",
+          "url": "https://radairfranchise.com/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Most recent publicly indexed FDD is dated; current fees not published online",
+          "detail": "The most recent publicly indexed FDD found is the 2021 document (via The FDD Exchange), and the franchisor's site does not publish current investment, franchise-fee, or royalty figures - prospects must obtain the current FDD directly. Older FDD-derived figures: ~$234,250-$582,500 total investment, ~$49,500 fee, ~6% royalty.",
+          "source": "The FDD Exchange (2021 FDD); Rad Air franchise site",
+          "url": "https://fddexchange.com/view-fdd-docs/rad-air-complete-car-care-and-tire-centers-2021-fdd-franchise-information-costs-and-fees/",
+          "year": 2021
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 234250, "source": "Rad Air 2021 FDD (via The FDD Exchange)", "year": 2021, "confidence": "low", "note": "From the 2021 FDD; includes ~$54,650 paid to the franchisor/affiliates. Current FDD figures not published online."},
+        "totalInvestmentMax": {"value": 582500, "source": "Rad Air 2021 FDD (via The FDD Exchange)", "year": 2021, "confidence": "low"},
+        "franchiseFee": {"value": 49500, "source": "Rad Air FDD-derived directory data (via 1851/Fransolve)", "year": 2021, "confidence": "low"},
+        "royaltyPercent": {"value": 6, "source": "Rad Air FDD-derived directory data", "year": 2021, "confidence": "low"},
+        "totalUnits": {"value": 11, "source": "Rad Air franchise site", "year": 2026, "confidence": "high", "note": "~11 locations, all in Northeast Ohio (Cleveland/Akron)."},
+        "yearFounded": {"value": 1975, "source": "Rad Air franchise site; Entrepreneur directory", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1999, "source": "Entrepreneur directory; franchise history sources", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 4, "source": "Rad Air franchise site", "year": 2026, "confidence": "high", "note": "At least four weeks of onboarding training."},
+        "absenteeOwnership": {"value": true, "source": "Rad Air franchise site (owner-operator and semi-absentee models)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Rad Air franchise site (retail complete car care and tire)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Rad Air franchise site (service-center model)", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Rad Air franchise history (~11 units after 25 years of franchising)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (2021 FDD)", "year": 2021, "confidence": "medium", "note": "Most recent publicly indexed FDD is 2021; a current FDD exists but is not posted online."}
+      }
+    },
+    {
+      "name": "Honest-1 Auto Care",
+      "slug": "honest-1-auto-care",
+      "category": "Automotive",
+      "website": "honest1.com",
+      "notes": "Full-service auto-repair and maintenance franchise founded 2003, HQ in St. Petersburg, FL, marketed as the only national ESA-certified eco-friendly auto-care system. ~64 locations (61 franchised + ~3 company-owned per the 2024 FDD). After 20+ years of franchising the system remains small and roughly flat-to-declining, with documented individual-location closures. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Small, stagnant-to-declining system after 20+ years",
+          "detail": "Honest-1 has only ~64 total units despite franchising since 2003, with a roughly -3% recent unit trend per FDD-derived data and documented individual closures (e.g., a Cincinnati location listed as closed). Two decades of franchising produced a small footprint and limited brand scale.",
+          "source": "FranchisePayback Honest-1 2024 FDD data; Yelp closure listings",
+          "url": "https://www.franchisepayback.com/franchise/honest1-auto-care",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "High franchise fee and stacked marketing burden",
+          "detail": "The 2024 FDD shows a $75,000 initial franchise fee (high for an auto-care unit) plus a 6% royalty and a 2% ad fund with a $4,000/month minimum marketing obligation - a meaningful fixed cost on top of percentage fees, independent of revenue.",
+          "source": "FranchisePayback Honest-1 2024 FDD data",
+          "url": "https://www.franchisepayback.com/franchise/honest1-auto-care",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Long 20-year initial term",
+          "detail": "The franchise agreement carries a 20-year initial term (with one 10-year renewal if in good standing) - a long commitment for a small system, raising exit/transfer considerations if the brand does not scale.",
+          "source": "Vetted Biz - Honest-1 Auto Care Franchise Insights (FDD term)",
+          "url": "https://www.vettedbiz.com/franchises/honest-1-auto-care",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "Vetted Biz - Honest-1 Auto Care Franchise Insights", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 700000, "source": "Vetted Biz - Honest-1 Auto Care Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 255750, "source": "Honest-1 2024 FDD (via FranchisePayback and Vetted Biz)", "year": 2024, "confidence": "high", "note": "Range $255,750-$1,242,250; conversion of an existing shop can be lower."},
+        "totalInvestmentMax": {"value": 1242250, "source": "Honest-1 2024 FDD (via FranchisePayback and Vetted Biz)", "year": 2024, "confidence": "high"},
+        "franchiseFee": {"value": 75000, "source": "Honest-1 2024 FDD (via FranchisePayback)", "year": 2024, "confidence": "high", "note": "Some older directory data cites a $35,000 fee; the 2024 FDD-derived figure is $75,000."},
+        "royaltyPercent": {"value": 6, "source": "Honest-1 2024 FDD (via FranchisePayback)", "year": 2024, "confidence": "high", "note": "FDD-derived; some directories cite a 4-8% range."},
+        "adFundPercent": {"value": 2, "source": "Honest-1 2024 FDD (via FranchisePayback)", "year": 2024, "confidence": "high", "note": "2% ad fund plus a $4,000/month minimum local marketing obligation."},
+        "avgUnitRevenue": {"value": 1358038, "source": "FranchisePayback Honest-1 FDD data (Item 19-derived)", "year": 2024, "confidence": "medium", "note": "Average yearly gross sales per FDD-derived analysis; estimated earnings $135,804-$162,965."},
+        "totalUnits": {"value": 64, "source": "FranchisePayback Honest-1 2024 FDD data", "year": 2024, "confidence": "high", "note": "61 franchised + ~3 company-owned."},
+        "yearFounded": {"value": 2003, "source": "FranchisePayback; Vetted Biz", "year": 2024, "confidence": "high"},
+        "yearFranchising": {"value": 2003, "source": "FranchisePayback; Vetted Biz", "year": 2024, "confidence": "high"},
+        "renewalTermYears": {"value": 10, "source": "Vetted Biz - Honest-1 Auto Care (FDD term)", "year": 2025, "confidence": "medium", "note": "20-year initial term; one 10-year renewal."},
+        "isGrowing": {"value": false, "source": "FranchisePayback Honest-1 FDD data (-3% unit trend)", "year": 2024, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Honest-1 brand site (retail auto repair and maintenance)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Honest-1 brand site (service-center model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranchisePayback; Vetted Biz FDD analyses", "year": 2024, "confidence": "high"},
+        "item19Available": {"value": true, "source": "FranchisePayback (Item 19-derived AUV)", "year": 2024, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Teriyaki Madness",
+      "slug": "teriyaki-madness",
+      "category": "Food & Beverage",
+      "website": "teriyakimadness.com",
+      "notes": "Fast-casual Asian/teriyaki bowl franchise (TMAD) founded 2003 in Las Vegas, franchising since 2005, HQ in Denver. ~158 units (156 franchised + 2 company-owned at end of 2024) and growing steadily, with an emphasis on multi-unit development and a sizable franchise pipeline. Solid AUV (~$1.18M) but thin store-level EBITDA margins. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Thin store-level EBITDA margin (~8%)",
+          "detail": "2024 Item 19: across 105 qualifying shops, average gross sales were $1,177,195 but average shop EBITDA was just $85,690 - an ~8% margin. On a build cost up to ~$976K, that implies a long payback and leaves little cushion against food-cost, labor, or rent pressure.",
+          "source": "Teriyaki Madness 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/08/25/teriyaki-madness-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High capital bar: $200K liquid / $700K net worth",
+          "detail": "Franchisor requirements call for at least $200,000 liquid and $700,000 net worth, and the brand pushes multi-unit development - a high financial bar for a single-shop concept earning ~8% store-level EBITDA.",
+          "source": "Teriyaki Madness franchisor materials (via franchise directories)",
+          "url": "https://franchise.teriyakimadness.com/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Historical franchisor financial-condition concerns at California registration (2013)",
+          "detail": "When TMAD sought California franchise registration around 2013, the state raised objections over the franchisor's financial condition (reportedly minimal cash and negative stockholders' equity at the time), leading to an impoundment-style condition. The brand has since scaled substantially, but the episode is part of its regulatory history.",
+          "source": "Unhappy Franchisee (California registration/FDD coverage)",
+          "url": "https://www.unhappyfranchisee.com/teriyaki-madness-franchise-disclosure-document-fdd/",
+          "year": 2013
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 200000, "source": "Teriyaki Madness franchisor materials (via franchise directories)", "year": 2026, "confidence": "medium"},
+        "netWorthMin": {"value": 700000, "source": "Teriyaki Madness franchisor materials (via franchise directories)", "year": 2026, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 376200, "source": "Teriyaki Madness 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 975860, "source": "Teriyaki Madness 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 45000, "source": "Teriyaki Madness 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Teriyaki Madness 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "6% of net sales."},
+        "adFundPercent": {"value": 3, "source": "Teriyaki Madness 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "3% marketing fee (national + local)."},
+        "avgUnitRevenue": {"value": 1177195, "source": "Teriyaki Madness 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross sales across 105 qualifying shops; median $1,122,966; average EBITDA $85,690 (8%)."},
+        "totalUnits": {"value": 158, "source": "Teriyaki Madness 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "156 franchised + 2 company-owned at end of 2024."},
+        "yearFounded": {"value": 2003, "source": "Franchising.com; franchisor history", "year": 2025, "confidence": "high", "note": "Founded in Las Vegas."},
+        "yearFranchising": {"value": 2005, "source": "Franchising.com; franchisor history", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Teriyaki Madness franchisor materials", "year": 2026, "confidence": "medium", "note": "15% off for veterans (also women/minorities per franchisor)."},
+        "isGrowing": {"value": true, "source": "Teriyaki Madness 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Franchised units +22 (2022), +16 (2023), +18 (2024); 3% same-shop sales growth in 2024."},
+        "multiUnitAvailable": {"value": true, "source": "Teriyaki Madness franchisor site (multi-unit development emphasis)", "year": 2026, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Teriyaki Madness franchisor site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "The Great Greek Mediterranean Grill",
+      "slug": "the-great-greek-mediterranean-grill",
+      "category": "Food & Beverage",
+      "website": "thegreatgreekgrill.com",
+      "notes": "Fast-casual Mediterranean/Greek grill franchise, acquired as a single Henderson, NV restaurant in 2016 and franchised since ~2018-2019 as part of United Franchise Group (UFG). In aggressive expansion: 85+ locations open with 300+ in development, 19 openings in 2024 and a 46% systemwide sales surge to ~$73M. Mostly very young franchised units. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Hyper-growth brand with a large 'in development' pipeline vs open units",
+          "detail": "The franchisor reports 85+ open locations against 300+ units 'in development' and a plan for 40+ new restaurants in a single year. A pipeline several times the operating base depends on developers actually building out commitments; most of the operating system is young, so long-run unit economics rest on a small mature cohort.",
+          "source": "United Franchise Group press; International Franchise Association",
+          "url": "https://www.franchise.org/2025/03/the-great-greek-mediterranean-grill-achieves-record-growth-in-2024-with-19-new-openings-and-plans-for-40-more-in-2025/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Company-owned units present alongside young franchised base",
+          "detail": "FDD-derived outlet data showed 6 company-owned vs 17 franchised at the 2023 reporting date - the franchisor was building corporate stores while the franchised network was still small, and reported AUV (~$1.38M) is drawn from a limited mature sample.",
+          "source": "FranchisePayback The Great Greek FDD data",
+          "url": "https://www.franchisepayback.com/franchise/the-great-greek-mediterranean-grill",
+          "year": 2023
+        },
+        {
+          "severity": "info",
+          "title": "High capital outlay (up to ~$1.09M) plus 10% combined ongoing fees",
+          "detail": "Total investment runs $582,000-$1,089,000 with a 6% royalty and a marketing fund of 2-4% (sources vary), roughly 8-10% of gross sales in ongoing fees - a heavy build cost and fee load for a still-emerging fast-casual brand.",
+          "source": "The Great Greek FDD (via SHARPSHEETS and FranchisePayback)",
+          "url": "https://sharpsheets.io/blog/the-great-greek-mediterranean-grill-franchise-fdd-profits-costs/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 582000, "source": "The Great Greek FDD (via SHARPSHEETS and FranchisePayback)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1089000, "source": "The Great Greek FDD (via SHARPSHEETS and FranchisePayback)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 39500, "source": "FranchisePayback The Great Greek FDD data", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "The Great Greek FDD (via SHARPSHEETS and FranchisePayback)", "year": 2025, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS The Great Greek FDD analysis", "year": 2025, "confidence": "medium", "note": "2% marketing fund per SHARPSHEETS; FranchisePayback cites 4% - sources differ."},
+        "avgUnitRevenue": {"value": 1377000, "source": "FranchisePayback The Great Greek FDD data (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average unit revenue per FDD-derived analysis; drawn from a small mature sample."},
+        "totalUnits": {"value": 85, "source": "United Franchise Group press (85+ open)", "year": 2025, "confidence": "medium", "note": "85+ locations open with 300+ in development as of early 2025; FDD outlet table (2023) showed 17 franchised + 6 company-owned."},
+        "yearFounded": {"value": 2016, "source": "United Franchise Group press (acquired single Henderson, NV location, 2016)", "year": 2025, "confidence": "medium", "note": "Some directories cite a 2011 origin for the original restaurant; UFG/current ownership dates to 2016."},
+        "yearFranchising": {"value": 2019, "source": "United Franchise Group press", "year": 2025, "confidence": "medium", "note": "Sources cite 2018-2019 for franchising launch."},
+        "internationalAvailability": {"value": true, "source": "United Franchise Group press (first Canada location in 2024)", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "United Franchise Group press; International Franchise Association", "year": 2025, "confidence": "high", "note": "19 openings in 2024; 46% systemwide sales growth to ~$73M; 40+ planned in 2025."},
+        "businessModelType": {"value": "b2c", "source": "The Great Greek franchisor site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranchisePayback; SHARPSHEETS; Vetted Biz FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "FranchisePayback; franchisor site Item 19 reference", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Papa Murphy's Take 'N' Bake Pizza",
+      "slug": "papa-murphys-take-n-bake-pizza",
+      "category": "Food & Beverage",
+      "website": "papamurphys.com",
+      "notes": "Largest take-and-bake pizza brand in the US (customers bake fresh pizzas at home), formed in 1995 from the merger of Papa Aldo's (1981) and Murphy's Pizza (1984), franchising since the mid-1990s. Owned by Canada's MTY Food Group since a 2019 ~$190M acquisition. ~1,044 US units (1,001 franchised + 43 company-owned at end of 2024) but in multi-year contraction. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Sustained multi-year system contraction (~21% of stores closed since 2020)",
+          "detail": "Franchised units fell from ~1,145 (2022) to 1,119 (2023) to 1,001 (2024) - a loss of 118 franchised stores in 2024 alone - and industry coverage notes that since 2020 over 21% of the system has closed and systemwide sales fell ~11%. Take-and-bake faces structural pressure from delivery/QSR competition.",
+          "source": "Papa Murphy's 2025 FDD outlet tables (via Franchise Chatter review); SHARPSHEETS",
+          "url": "https://www.franchisechatter.com/2025/09/11/papa-murphys-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Wide regional AUV gap and a very wide unit range",
+          "detail": "2024 Item 19 (1,015 stores): average net sales $688,133, median $616,110, but ranging from $178,123 to $2,397,004. Regionally, West stores averaged $819,415 vs East stores at $488,609 - a market-dependent ~1.7x gap that materially changes single-unit economics.",
+          "source": "Papa Murphy's 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/09/11/papa-murphys-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "High local-marketing minimum on top of royalty and brand fund",
+          "detail": "The 2025 FDD requires a 5% royalty plus a 2% brand marketing fee plus local marketing of the greater of 5% of net sales or $2,000/month - a stacked, partly fixed marketing obligation on a declining-sales base.",
+          "source": "Papa Murphy's 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/09/11/papa-murphys-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 367428, "source": "Papa Murphy's 2025 FDD Item 7 (via Franchise Chatter review and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 733124, "source": "Papa Murphy's 2025 FDD Item 7 (via Franchise Chatter review and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "Papa Murphy's 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "$25,000 first store; $15,000 for subsequent stores."},
+        "royaltyPercent": {"value": 5, "source": "Papa Murphy's 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "5% of weekly net sales."},
+        "adFundPercent": {"value": 2, "source": "Papa Murphy's 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2% brand marketing + local marketing of the greater of 5% of net sales or $2,000/month."},
+        "avgUnitRevenue": {"value": 688133, "source": "Papa Murphy's 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average net sales across 1,015 stores; median $616,110; range $178,123-$2,397,004."},
+        "totalUnits": {"value": 1044, "source": "Papa Murphy's 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "1,001 franchised + 43 company-owned at end of 2024 (down from ~1,437 total in 2018)."},
+        "yearFounded": {"value": 1995, "source": "Wikipedia (Papa Murphy's)", "year": 2025, "confidence": "high", "note": "Formed from the 1995 merger of Papa Aldo's (1981) and Murphy's Pizza (1984)."},
+        "yearFranchising": {"value": 1995, "source": "Wikipedia; franchisor history", "year": 2025, "confidence": "medium", "note": "Predecessor brands franchised in the 1980s; Papa Murphy's brand franchised from the mid-1990s."},
+        "isGrowing": {"value": false, "source": "Papa Murphy's 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Franchised units declined each year 2022-2024; ~21% of the system closed since 2020."},
+        "internationalAvailability": {"value": true, "source": "Wikipedia (stores in Canada and the UAE)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Papa Murphy's brand site (take-and-bake retail)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Wayback Burgers",
+      "slug": "wayback-burgers",
+      "category": "Food & Beverage",
+      "website": "waybackburgers.com",
+      "notes": "Fast-casual better-burger franchise founded 1991 in Newark, DE as Jake's Hamburgers (rebranded to Jake's Wayback Burgers in 2009, then Wayback Burgers), franchising since 2008. ~184 units with international presence (Canada, Dominican Republic, UAE, Japan, South Africa, Brunei). Parent rebranded from Jake's Franchising to Wayback Franchising / Hubspoke Brands multi-brand platform in 2025. The franchisor does not disclose an Item 19 AUV. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "No Item 19 financial performance representation in the FDD",
+          "detail": "The current Wayback Burgers FDD does not disclose average unit volume or any Item 19 financial performance representation, so prospective franchisees have no franchisor-provided revenue or profit data and must rely on existing-franchisee interviews and third-party estimates (which cite ~$1.26M gross sales, unverified).",
+          "source": "SHARPSHEETS / FranchisePayback Wayback Burgers FDD analyses",
+          "url": "https://www.franchisepayback.com/franchise/wayback-burgers",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisor pivoting to a multi-brand platform (Hubspoke Brands, 2025)",
+          "detail": "In July 2025 Wayback's parent rebranded from Jake's Franchising to Wayback Franchising and launched Hubspoke Brands, a multi-brand franchising platform housing several other concepts. Franchisees become one brand among many in the platform's resource and capital-allocation decisions.",
+          "source": "Restaurant Dive; Restaurant Business",
+          "url": "https://www.restaurantdive.com/news/wayback-franchising-rebrand-launch-hubspoke-brands/756325/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Stacked royalty plus 4% combined marketing with minimums",
+          "detail": "FDD-derived data shows a ~5-6% royalty (with a weekly minimum, e.g. $400/week) plus a 2% national ad fund and 2% local marketing - roughly 4% combined marketing on top of royalty, with the weekly royalty minimum biting hardest at low-volume stores.",
+          "source": "SHARPSHEETS / FranchisePayback Wayback Burgers FDD analyses",
+          "url": "https://sharpsheets.io/blog/wayback-burgers-franchise-costs-fees-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 256000, "source": "FranchisePayback Wayback Burgers 2026 FDD data", "year": 2026, "confidence": "medium", "note": "Sources vary: FranchisePayback $256,000-$859,000; SHARPSHEETS/franchisor cite a tighter ~$550,000-$650,000 typical build."},
+        "totalInvestmentMax": {"value": 859000, "source": "FranchisePayback Wayback Burgers 2026 FDD data", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 35000, "source": "SHARPSHEETS; FranchisePayback Wayback Burgers FDD data", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "SHARPSHEETS Wayback Burgers FDD analysis", "year": 2025, "confidence": "medium", "note": "5% of weekly gross sales (min $400/week) per SHARPSHEETS; FranchisePayback shows 6% - sources differ."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS Wayback Burgers FDD analysis", "year": 2025, "confidence": "medium", "note": "2% national ad fund + 2% local marketing."},
+        "totalUnits": {"value": 184, "source": "FranchisePayback Wayback Burgers 2026 FDD data; Wikipedia", "year": 2026, "confidence": "medium", "note": "~183 franchised + 1 company-owned; ~180 units including international; US-only franchised count cited as low as 88 in some sources."},
+        "yearFounded": {"value": 1991, "source": "Wikipedia; franchisor history", "year": 2025, "confidence": "high", "note": "Founded in Newark, DE as Jake's Hamburgers."},
+        "yearFranchising": {"value": 2008, "source": "Wikipedia; FranchisePayback", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Wikipedia (US, Canada, Dominican Republic, UAE, Japan, South Africa, Brunei)", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "FranchisePayback (+12% unit trend); franchisor (10-25 openings planned 2025)", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Wayback Burgers franchisor site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS; FranchisePayback FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "SHARPSHEETS / FranchisePayback (franchisor does not disclose AUV in FDD)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Beyond Juicery + Eatery",
+      "slug": "beyond-juicery-and-eatery",
+      "category": "Food & Beverage",
+      "website": "beyondjuiceryeatery.com",
+      "notes": "Health-focused fast-casual juice/smoothie/bowl franchise founded 2005 in Birmingham, MI by Mijo Alanis and Pam Vivio, franchising since 2019, HQ in Madison Heights, MI. ~45 units, the large majority still in Michigan, growing off a small base (systemwide sales ~$35.8M in 2024). AUV ~$875K-$902K. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Small, young, Michigan-concentrated system",
+          "detail": "With ~45 units, most of them in Michigan and a franchising history only since 2019, the brand has limited geographic diversification and a short franchisee track record. Franchisees outside Michigan build brand awareness essentially from scratch, and the small base limits comparative due-diligence data.",
+          "source": "Franchise Times; Franchising.com franchisor coverage",
+          "url": "https://www.franchisetimes.com/franchise_news/where-are-they-now-beyond-juicery-eatery-turns-increased-costs-into-opportunities/article_f82eb0b4-b1b7-11ef-9f4b-fb74c5b84a2d.html",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Cost pressure on a sub-$1M AUV",
+          "detail": "Franchise Times coverage notes the brand has wrestled with increased development and operating (food/labor) costs and rolled out purchasing and labor-management changes to protect franchisee margins - relevant because franchised AUV (~$875,352 in 2023) is under $1M, leaving limited cushion against cost inflation.",
+          "source": "Franchise Times (Where Are They Now)",
+          "url": "https://www.franchisetimes.com/franchise_news/where-are-they-now-beyond-juicery-eatery-turns-increased-costs-into-opportunities/article_f82eb0b4-b1b7-11ef-9f4b-fb74c5b84a2d.html",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Combined ongoing fees of ~9-11% of sales",
+          "detail": "FDD-derived data shows a 6% royalty plus a 3-5% advertising/marketing contribution - roughly 9-11% of gross sales in ongoing fees on a build that runs $361,000-$516,000, a meaningful load for a small-format juice/eatery concept.",
+          "source": "FranchisePayback / SHARPSHEETS Beyond Juicery + Eatery FDD data",
+          "url": "https://www.franchisepayback.com/franchise/beyond-juicery-eatery",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 361000, "source": "Beyond Juicery + Eatery FDD (via FranchisePayback and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 516000, "source": "Beyond Juicery + Eatery FDD (via FranchisePayback and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 30000, "source": "FranchisePayback Beyond Juicery + Eatery FDD data", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "FranchisePayback Beyond Juicery + Eatery FDD data", "year": 2025, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 3, "source": "FranchisePayback Beyond Juicery + Eatery FDD data", "year": 2025, "confidence": "medium", "note": "3-5% advertising/marketing contribution."},
+        "avgUnitRevenue": {"value": 902000, "source": "FranchisePayback Beyond Juicery + Eatery FDD data (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average unit revenue per FDD-derived analysis; Franchise Times cites $875,352 average franchised gross sales for 2023."},
+        "totalUnits": {"value": 45, "source": "Franchise Times (45 units, Dec 2024); FranchisePayback FDD (41 in 2023)", "year": 2024, "confidence": "high", "note": "~38-42 franchised + ~3 company-owned; ~45 total as of late 2024, most in Michigan."},
+        "yearFounded": {"value": 2005, "source": "Franchising.com; franchisor history", "year": 2025, "confidence": "high", "note": "Founded in Birmingham, MI by Mijo Alanis and Pam Vivio."},
+        "yearFranchising": {"value": 2019, "source": "Franchising.com; FranchisePayback", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Franchise Times (45 units, $35.8M systemwide sales +6.1% in 2024)", "year": 2024, "confidence": "medium", "note": "Growing off a small base; +100% unit trend cited in FDD-derived data."},
+        "businessModelType": {"value": "b2c", "source": "Beyond Juicery + Eatery franchisor site", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranchisePayback; SHARPSHEETS; The FDD Exchange", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "FranchisePayback (Item 19 available in FDD)", "year": 2025, "confidence": "medium"}
+      }
+    }
+  ]
+}
