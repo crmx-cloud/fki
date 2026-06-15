@@ -1,0 +1,731 @@
+{
+  "brands": [
+    {
+      "name": "Made in the Shade Blinds and More",
+      "slug": "made-in-the-shade-blinds-and-more",
+      "category": "Home Services",
+      "website": "madeintheshadefranchise.com",
+      "notes": "Home-based, in-home (mobile showroom) window-covering franchise founded in 2004, franchising since 2013, with 117 US franchised locations and no company-owned units. Distinctive low-cost, no-percentage-royalty model: instead of a sales royalty the franchisor charges a flat monthly website/technology fee, so build cost and overhead are low compared with a storefront home-services brand.",
+      "riskFlags": [
+        {
+          "severity": "info",
+          "title": "No percentage royalty, but a flat monthly tech/website fee instead",
+          "detail": "Made in the Shade does not charge an ongoing percentage royalty; franchisees instead pay a monthly website/technology fee (roughly $99-$249) plus a ~$100/month basic marketing fee, with 3% of gross sales recommended for local marketing. Buyers should model the flat fee as the effective franchisor charge rather than assuming a royalty-free business.",
+          "source": "Franchise Direct - Made in the Shade Blinds and More costs & fees",
+          "url": "https://www.franchisedirect.com/made-in-the-shade-blinds-and-more-franchise-costs-fees",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Did not rank on Entrepreneur's 2026 Franchise 500",
+          "detail": "Made in the Shade did not appear on Entrepreneur's 2026 Franchise 500 list, and the system is small (117 units) with only modest annual growth (9, 6, and 10 net units across 2022-2024), so brand recognition and national marketing scale are limited relative to larger home-services systems.",
+          "source": "Franchise Chatter 2026 FDD review",
+          "url": "https://www.franchisechatter.com/2026/04/10/made-in-the-shade-blinds-more-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Roughly two-thirds of franchisees below the reported average revenue",
+          "detail": "2024 Item 19 reported $624,352 average gross sales across 70 responding franchisees, but only 34% met or exceeded that average - a right-skewed distribution meaning most franchisees earned below the headline figure.",
+          "source": "Franchise Chatter 2026 FDD review (Item 19)",
+          "url": "https://www.franchisechatter.com/2026/04/10/made-in-the-shade-blinds-more-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Franchise Direct - Made in the Shade Blinds and More costs & fees", "year": 2025, "confidence": "medium", "note": "Franchise Direct cites ~$50,000 liquid capital; Vetted Biz cites a lower $15,000 minimum. Net worth requirement ~$75,000."},
+        "netWorthMin": {"value": 75000, "source": "Franchise Direct - Made in the Shade Blinds and More costs & fees", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 78000, "source": "SHARPSHEETS / Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high", "note": "For a minimum-sized territory (population ~150,000)."},
+        "totalInvestmentMax": {"value": 107700, "source": "SHARPSHEETS / Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 67500, "source": "SHARPSHEETS / Vetted Biz FDD analysis", "year": 2026, "confidence": "high", "note": "FDD-derived range $67,500-$77,500; Vetted Biz cites $67,500 base."},
+        "adFundPercent": {"value": 3, "source": "Franchise Direct - Made in the Shade Blinds and More costs & fees", "year": 2025, "confidence": "medium", "note": "~$100/month basic marketing fee plus a recommended 3% of gross sales for local marketing. No percentage royalty; flat monthly website/tech fee instead."},
+        "avgUnitRevenue": {"value": 624352, "source": "Made in the Shade 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2024 average gross sales across 70 responding franchisees; only 34% met or exceeded the average."},
+        "totalUnits": {"value": 117, "source": "Franchise Chatter 2026 FDD review (outlet tables); Vetted Biz", "year": 2026, "confidence": "high", "note": "All franchised; 0 company-owned at year-end 2024."},
+        "yearFounded": {"value": 2004, "source": "Vetted Biz - Made in the Shade Blinds & More Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2013, "source": "Vetted Biz - Made in the Shade Blinds & More Franchise Insights", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Franchise Chatter 2026 FDD review (outlet tables)", "year": 2026, "confidence": "medium", "note": "Modest net unit growth: +9 (2022), +6 (2023), +10 (2024)."},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz - Made in the Shade Blinds & More Franchise Insights", "year": 2025, "confidence": "medium", "note": "Vetted Biz reports the FDD does not disclose lawsuits or bankruptcy information."},
+        "businessModelType": {"value": "b2c", "source": "Vetted Biz / franchisor (residential window coverings)", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Vetted Biz / franchisor (in-home mobile showroom shop-at-home model)", "year": 2025, "confidence": "medium", "note": "Home-based, shop-at-home in-home consultation model; no retail storefront required."},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange; Franchise Chatter FDD reviews", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "BlueFrog Plumbing and Drain",
+      "slug": "bluefrog-plumbing-and-drain",
+      "category": "Home Services",
+      "website": "bluefrogfranchise.com",
+      "notes": "Residential and commercial plumbing/drain franchise founded in 2013 (franchising since 2014), headquartered in Dallas, TX, and owned by Stellar Brands (backed by MPK Equity Partners and Princeton Equity Group since 2020). A small but growing system (~35-45 US locations) with a tiered weekly royalty.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Small, young system (~35-45 units)",
+          "detail": "BlueFrog has roughly 35-45 US locations and only began franchising in 2014, so the brand has limited national density and a short operating track record relative to established plumbing franchises - fewer comparable units for a buyer to validate Item 19 results against.",
+          "source": "Vetted Biz / Franchise Direct FDD summaries",
+          "url": "https://www.franchisedirect.com/bluefrog-plumbing-and-drain-franchise-costs-fees-fdd",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Tiered weekly royalty with a fixed weekly minimum",
+          "detail": "Royalty is the greater of $250 per week or a tiered percentage of weekly gross sales (6% up to ~$41,667, 5% to ~$76,923, 4% above), plus a 2% advertising fee - the fixed $250/week minimum is an obligation regardless of revenue and weighs heaviest on newer, lower-volume locations.",
+          "source": "SHARPSHEETS / Franchise Direct FDD analysis",
+          "url": "https://www.franchisedirect.com/bluefrog-plumbing-and-drain-franchise-costs-fees-fdd",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Litigation and/or bankruptcy disclosed in FDD",
+          "detail": "Vetted Biz reports that BlueFrog discloses lawsuits and/or bankruptcy information in its FDD Item 3/Item 4 - prospective buyers should request and review the current FDD's litigation section directly.",
+          "source": "Vetted Biz - BlueFrog Plumbing + Drain Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/bluefrog-plumbing-drain",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 40000, "source": "Vetted Biz - BlueFrog Plumbing + Drain Franchise Insights", "year": 2025, "confidence": "medium", "note": "Franchise Gator/Direct cite a higher ~$150,000 liquid capital figure; Vetted Biz lists $40,000 minimum."},
+        "totalInvestmentMin": {"value": 144498, "source": "Vetted Biz - BlueFrog Plumbing + Drain Franchise Insights", "year": 2025, "confidence": "high", "note": "FDD-derived range ~$144,498-$345,648 (Franchise Direct cites $145,000-$352,000)."},
+        "totalInvestmentMax": {"value": 345648, "source": "Vetted Biz - BlueFrog Plumbing + Drain Franchise Insights", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 59900, "source": "SHARPSHEETS / Franchise Direct FDD analysis", "year": 2025, "confidence": "high", "note": "FDD discloses a $59,900-$67,400 range depending on territory."},
+        "royaltyPercent": {"value": 6, "source": "SHARPSHEETS / Franchise Direct FDD analysis", "year": 2025, "confidence": "high", "note": "Greater of $250/week or tiered percentage: 6% on weekly sales up to ~$41,667, 5% to ~$76,923, 4% above."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS / Franchise Direct FDD analysis", "year": 2025, "confidence": "high", "note": "2% of gross sales advertising fee."},
+        "avgUnitRevenue": {"value": 545578, "source": "Vetted Biz - BlueFrog Plumbing + Drain Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per Vetted Biz analysis."},
+        "totalUnits": {"value": 35, "source": "Vetted Biz - BlueFrog Plumbing + Drain Franchise Insights", "year": 2025, "confidence": "medium", "note": "~35 US locations per Vetted Biz; other 2024-2025 FDD-derived sources cite 42-45 franchised units."},
+        "yearFounded": {"value": 2013, "source": "Vetted Biz - BlueFrog Plumbing + Drain Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2014, "source": "Vetted Biz - BlueFrog Plumbing + Drain Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - BlueFrog Plumbing + Drain Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two weeks of initial training at corporate HQ in Dallas, TX."},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - BlueFrog Plumbing + Drain Franchise Insights", "year": 2025, "confidence": "medium", "note": "FDD discloses lawsuits and/or bankruptcy information."},
+        "businessModelType": {"value": "both", "source": "Franchisor (residential and commercial plumbing/drain)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; Franchise Direct FDD summaries", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - BlueFrog Plumbing + Drain Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "DreamMaker Bath & Kitchen",
+      "slug": "dreammaker-bath-and-kitchen",
+      "category": "Home Services",
+      "website": "dreammakerfranchise.com",
+      "notes": "Residential bath and kitchen remodeling franchise with a faith-and-values-based operating philosophy, ~43 US franchised locations and no company-owned units. Strong reported unit economics (2024 average gross sales ~$1.47M) but an essentially flat unit count for years - a mature, slow-growing system.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Flat unit count - effectively no net growth in years",
+          "detail": "Franchised outlets were 42 (end 2022), 42 (end 2023), and 43 (end 2024) - a net change of roughly zero over three years. For a buyer this signals limited system momentum and a small pool of comparable units.",
+          "source": "DreamMaker 2026 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/04/02/dreammaker-bath-kitchen-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Royalty can reach 7% plus a weekly minimum",
+          "detail": "Standard royalty runs 3-7% of gross sales with a minimum royalty (rising to $250-$500/week depending on year) that begins within months of signing, plus a 2% marketing fee - fixed obligations that begin before a remodeling business reaches steady volume.",
+          "source": "DreamMaker 2026 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/04/02/dreammaker-bath-kitchen-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Population-priced franchise fee adds cost in larger territories",
+          "detail": "The initial franchise fee is $48,000-$75,600 plus $240 per 1,000 population over the minimum territory size, so buyers in dense metros face a materially higher upfront fee than the headline minimum.",
+          "source": "DreamMaker 2025/2026 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/04/02/dreammaker-bath-kitchen-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 235075, "source": "DreamMaker 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 507231, "source": "DreamMaker 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 48000, "source": "DreamMaker 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "FDD discloses $48,000-$75,600 plus $240 per 1,000 population over the minimum territory."},
+        "royaltyPercent": {"value": 7, "source": "DreamMaker 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "3-7% of gross sales (roll-in 3-4%), with a weekly minimum royalty of $250-$500."},
+        "adFundPercent": {"value": 2, "source": "DreamMaker 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "avgUnitRevenue": {"value": 1467192, "source": "DreamMaker 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2024 average gross sales; median $1,187,887; average gross profit margin 46.0%."},
+        "totalUnits": {"value": 43, "source": "DreamMaker 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "All franchised; 0 company-owned at year-end 2024."},
+        "isGrowing": {"value": false, "source": "DreamMaker 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Franchised units 42 -> 42 -> 43 across 2022-2024; effectively flat."},
+        "businessModelType": {"value": "b2c", "source": "Franchisor (residential bath/kitchen remodeling)", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "DreamMaker 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange; Franchise Chatter FDD reviews", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Mr. Appliance",
+      "slug": "mr-appliance",
+      "category": "Home Services",
+      "website": "mrappliance.com",
+      "notes": "Residential and commercial appliance-repair franchise in the Neighborly portfolio (19 brands, 5,500+ locations), with ~310 US franchised units and no company-owned outlets. A van-based, low-overhead service model; the franchisor's Item 19 reports per-job averages rather than a systemwide annual AUV.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Unit count turned negative in 2024 (-15)",
+          "detail": "Franchised outlets went 315 -> 325 (2022, +10), 325 -> 325 (2023, flat), then 325 -> 310 (2024, -15). After years of flat-to-slow growth the system contracted in 2024, a softer trajectory than Neighborly's marketing implies.",
+          "source": "Mr. Appliance 2026 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/05/17/mr-appliance-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Stacked fees: royalty up to 7% plus up to 4% combined marketing",
+          "detail": "License/royalty fee runs 5-7% of gross sales, plus a 2% Marketing, Advertising & Promotion fee and up to an additional 2% for local marketing groups - a combined ongoing burden that can reach ~11% of gross sales.",
+          "source": "Mr. Appliance 2026 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/05/17/mr-appliance-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Item 19 reports per-job revenue, not a systemwide AUV",
+          "detail": "The FDD's Item 19 discloses average gross sales per job (overall ~$295/job, range $179-$603 across 289 reporting businesses) by quartile rather than a full systemwide annual average unit volume, making it harder for a buyer to estimate total annual revenue directly from the disclosed figures.",
+          "source": "Mr. Appliance 2026 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/05/17/mr-appliance-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 116500, "source": "Mr. Appliance 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Excludes real estate; SHARPSHEETS cites a $147,750-$273,175 range from the 2026 FDD on a different basis."},
+        "totalInvestmentMax": {"value": 214850, "source": "Mr. Appliance 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 63750, "source": "Mr. Appliance 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "$63,750 plus $425 per 1,000 population over the minimum territory of 125,000."},
+        "royaltyPercent": {"value": 7, "source": "Mr. Appliance 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "License fee 5-7% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "Mr. Appliance 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2% Marketing/Advertising/Promotion fee, plus up to 2% local marketing group contributions."},
+        "totalUnits": {"value": 310, "source": "Mr. Appliance 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "All franchised; 0 company-owned at year-end 2024."},
+        "isGrowing": {"value": false, "source": "Mr. Appliance 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "+10 (2022), flat (2023), -15 (2024)."},
+        "businessModelType": {"value": "both", "source": "Franchisor (residential and commercial appliance repair)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Mr. Appliance franchisor site (van-based mobile service model)", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Mr. Appliance 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Reports per-job averages by quartile, not a systemwide annual AUV."},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review; SHARPSHEETS", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "MaidPro",
+      "slug": "maidpro",
+      "category": "Home Services",
+      "website": "maidpro.com",
+      "notes": "Residential cleaning franchise founded in 1997 (franchising same year), part of the Authority Brands portfolio, with ~237 franchised units across the US and Canada and no company-owned outlets. Uses a 49-point cleaning checklist and markets multi-unit ownership; system has contracted slightly in recent years.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Slow system contraction (246 -> 237 units)",
+          "detail": "Franchised outlets declined from 246 (end 2022) to 237 (end 2024) - net negative over the period for a 25+-year-old brand in a category with active newer competitors.",
+          "source": "MaidPro 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/12/16/maidpro-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Minimum royalty plus a 2.5% out-of-territory premium royalty",
+          "detail": "Beyond the 6% royalty and 2% brand fund, after year one a minimum royalty of $800/month applies in any month gross consumer sales fall below $15,000, and an additional 2.5% royalty is charged on services performed for customers outside the assigned territory.",
+          "source": "MaidPro 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/12/16/maidpro-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Very wide revenue dispersion across the system",
+          "detail": "2024 Item 19 across 231 franchisees showed average gross consumer sales of $461,941 (median $397,548) but a range from $14,440 to $2,815,974 - the median well below the mean indicates a right-skewed system where many units earn far less than the average.",
+          "source": "MaidPro 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/12/16/maidpro-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 109860, "source": "MaidPro 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 158650, "source": "MaidPro 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 45000, "source": "MaidPro 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "MaidPro 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "6% of gross consumer sales; $800/month minimum after year 1; +2.5% on out-of-territory sales."},
+        "adFundPercent": {"value": 2, "source": "MaidPro 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2% brand fund."},
+        "avgUnitRevenue": {"value": 461941, "source": "MaidPro 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross consumer sales across 231 franchisees; median $397,548; range $14,440-$2,815,974."},
+        "totalUnits": {"value": 237, "source": "MaidPro 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "All franchised; 0 company-owned at year-end 2024. Franchisor markets 265+ across US and Canada."},
+        "yearFounded": {"value": 1997, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1997, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "MaidPro 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Franchised units declined from 246 (2022) to 237 (2024)."},
+        "businessModelType": {"value": "b2c", "source": "Franchisor (residential cleaning, 49-point checklist)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "MaidPro 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review; SHARPSHEETS", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "You've Got Maids",
+      "slug": "youve-got-maids",
+      "category": "Home Services",
+      "website": "youvegotmaids.com",
+      "notes": "Residential team-cleaning franchise founded in Orlando in 2005 by Frank and Cynthia Berger, franchising since 2010, independently owned (no PE parent). Distinctive low-cost entry: total investment can start around $36,000 with a franchise fee under $7,000 - among the cheapest paths into the cleaning category, with ~74-88 US locations.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Small system with modest unit revenue",
+          "detail": "With roughly 74-88 US locations and Vetted Biz-estimated average gross sales near $280,998, You've Got Maids is a small, lower-volume system - fewer comparable units and a lighter revenue base than larger cleaning brands like Merry Maids or Molly Maid.",
+          "source": "Vetted Biz - You've Got Maids Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/youve-got-maids/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Founder-owned and operated, no franchisor financing disclosed",
+          "detail": "The brand is independently owned by its founders (the Bergers remain CEO/CFO) rather than backed by a large multi-brand platform, and no direct franchisor financing is published - shared services and capital backing are thinner than at portfolio-owned competitors.",
+          "source": "You've Got Maids About Us; Entrepreneur franchise directory",
+          "url": "https://www.youvegotmaids.com/about-us/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "No litigation or bankruptcy disclosed in FDD",
+          "detail": "Vetted Biz reports You've Got Maids does not disclose lawsuits or bankruptcy information in its FDD - a comparatively clean Item 3/Item 4 record, though the small system size limits the track record available to evaluate.",
+          "source": "Vetted Biz - You've Got Maids Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/youve-got-maids/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 10000, "source": "Vetted Biz - You've Got Maids Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 36394, "source": "Vetted Biz / SHARPSHEETS FDD analysis", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 107537, "source": "Vetted Biz / SHARPSHEETS FDD analysis", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 6999, "source": "Vetted Biz - You've Got Maids Franchise Insights", "year": 2025, "confidence": "medium", "note": "Unusually low initial franchise fee for the category."},
+        "royaltyPercent": {"value": 5, "source": "SHARPSHEETS / Vetted Biz FDD analysis", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS FDD analysis", "year": 2025, "confidence": "medium", "note": "2% national marketing/advertising fund."},
+        "avgUnitRevenue": {"value": 280998, "source": "Vetted Biz - You've Got Maids Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Estimated yearly gross sales per Vetted Biz analysis."},
+        "totalUnits": {"value": 74, "source": "Vetted Biz - You've Got Maids Franchise Insights", "year": 2025, "confidence": "medium", "note": "~74 US locations per Vetted Biz; franchisor cites 80+; some sources cite 88."},
+        "yearFounded": {"value": 2005, "source": "You've Got Maids About Us; Entrepreneur franchise directory", "year": 2026, "confidence": "high", "note": "Founded in Orlando in 2005 by Frank and Cynthia Berger. Vetted Biz lists 2007."},
+        "yearFranchising": {"value": 2010, "source": "You've Got Maids About Us; Entrepreneur franchise directory", "year": 2026, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz - You've Got Maids Franchise Insights", "year": 2025, "confidence": "medium", "note": "FDD does not disclose lawsuits or bankruptcy information per Vetted Biz."},
+        "businessModelType": {"value": "both", "source": "Vetted Biz / franchisor (supervised team cleaning for homes and businesses)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - You've Got Maids Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Maid Right",
+      "slug": "maid-right",
+      "category": "Home Services",
+      "website": "maidright.com",
+      "notes": "Residential cleaning franchise founded in 2013, owned by Premium Service Brands (PSB), with ~35 franchised units and no company-owned outlets. Strongly recurring-revenue model (86% of sales are recurring service), but a volatile, contracting unit count makes this a young, still-proving system.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Volatile unit count that contracted sharply in 2024 (-9)",
+          "detail": "Franchised outlets swung from +13 (2022, to 37) to +7 (2023, to 44) then -9 in 2024 (to 35) - a 20% single-year contraction. The system has not sustained net growth, leaving a small and shrinking base of comparable units.",
+          "source": "Maid Right 2026 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/05/24/maid-right-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Thin Item 19 sample with wide dispersion",
+          "detail": "2024 Item 19 covered only 18 franchisees (20 locations) operating the full year - average $520,441 but median just $356,020, with a top quartile averaging $1,258,050 versus a bottom quartile of $126,601. The small sample and 10x top-to-bottom spread limit how representative the average is.",
+          "source": "Maid Right 2026 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/05/24/maid-right-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Royalty with weekly minimum on a small revenue base",
+          "detail": "Royalty is 6% of gross sales with a $150/week minimum, plus a 2% (or $50/week, whichever is greater) marketing fee - fixed weekly floors that bear most heavily on the lower-volume units that make up much of this young system.",
+          "source": "Maid Right 2026 FDD (via Franchise Chatter / SHARPSHEETS)",
+          "url": "https://sharpsheets.io/blog/maid-right-franchise-fdd-profits-costs/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 147100, "source": "Maid Right 2026 FDD (via Franchise Chatter / SHARPSHEETS)", "year": 2026, "confidence": "high"},
+        "totalInvestmentMax": {"value": 218500, "source": "Maid Right 2026 FDD (via Franchise Chatter / SHARPSHEETS)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 65000, "source": "Maid Right 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Maid Right 2026 FDD (via Franchise Chatter / SHARPSHEETS)", "year": 2026, "confidence": "high", "note": "6% of gross sales, minimum $150/week."},
+        "adFundPercent": {"value": 2, "source": "Maid Right 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2% of gross sales or $50/week, whichever is greater."},
+        "avgUnitRevenue": {"value": 520441, "source": "Maid Right 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "medium", "note": "2024 average gross sales across only 18 franchisees (20 locations); median $356,020; recurring service ~86% of sales."},
+        "totalUnits": {"value": 35, "source": "Maid Right 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "All franchised; 0 company-owned at year-end 2024."},
+        "yearFounded": {"value": 2013, "source": "Franchise Chatter / SHARPSHEETS FDD analysis", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Maid Right 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "+13 (2022), +7 (2023), -9 (2024); net contraction."},
+        "businessModelType": {"value": "b2c", "source": "Premium Service Brands / franchisor (residential cleaning)", "year": 2026, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Recurring residential cleaning subscriptions; ~86% of franchise sales are recurring service revenue per 2024 Item 19", "source": "Maid Right 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "medium"},
+        "item19Available": {"value": true, "source": "Maid Right 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review; SHARPSHEETS", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "911 Restoration",
+      "slug": "911-restoration",
+      "category": "Home Services",
+      "website": "911restorationfranchise.com",
+      "notes": "Water, fire, and mold damage restoration franchise founded by Idan Shpizear in 2003 (franchising since 2007), built around a 'Fresh Start' service culture, with roughly 320-330 franchised locations across ~36 states and no disclosed company-owned units. A high-royalty model relative to peers.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High service royalty (up to ~9-10% of restoration revenue)",
+          "detail": "FDD-derived sources describe royalties of roughly 9-10% of gross revenue on restoration services (with a lower ~3% rate on non-restoration work) plus a 1% national ad fund and up to 3% local advertising - among the steepest ongoing fee structures in the restoration category.",
+          "source": "SHARPSHEETS / Franchise Direct 911 Restoration FDD analysis",
+          "url": "https://www.franchisedirect.com/homeservicesfranchises/911-restoration-franchise-07687/ufoc/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Litigation and/or bankruptcy disclosed in FDD",
+          "detail": "Vetted Biz reports 911 Restoration discloses lawsuits and/or bankruptcy information in its FDD Item 3/Item 4 - prospective buyers should obtain and review the current FDD's litigation section before committing.",
+          "source": "Vetted Biz - 911 Restoration Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/911-restoration",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Long capital payback typical of restoration",
+          "detail": "Vetted Biz estimates a 3.5-5.5 year payback on the $161,400-$327,700 investment against ~$599,190 estimated yearly gross sales - a multi-year runway that depends on building insurance-adjuster and referral relationships in the territory.",
+          "source": "Vetted Biz - 911 Restoration Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/911-restoration",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 40000, "source": "Vetted Biz - 911 Restoration Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 161400, "source": "Vetted Biz - 911 Restoration Franchise Insights", "year": 2025, "confidence": "high", "note": "SHARPSHEETS/peersense also cite a lower-bound near $124,900-$125,000 depending on territory."},
+        "totalInvestmentMax": {"value": 327700, "source": "Vetted Biz / SHARPSHEETS 911 Restoration FDD analysis", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49000, "source": "Vetted Biz / SHARPSHEETS / peersense 911 Restoration FDD analysis", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 10, "source": "Franchise Direct 911 Restoration FDD summary", "year": 2025, "confidence": "medium", "note": "~10% on restoration gross revenue, ~3% on non-restoration; some sources cite ~9%. Plus 1% national ad fund and up to 3% local advertising."},
+        "adFundPercent": {"value": 1, "source": "Franchise Direct / SHARPSHEETS 911 Restoration FDD summary", "year": 2025, "confidence": "medium", "note": "1% national advertising fund; up to 3% additional local advertising."},
+        "avgUnitRevenue": {"value": 599190, "source": "Vetted Biz - 911 Restoration Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Estimated yearly gross sales per Vetted Biz analysis."},
+        "totalUnits": {"value": 326, "source": "SHARPSHEETS / franchisor (911 Restoration FDD)", "year": 2025, "confidence": "medium", "note": "~322-330 locations across ~36 states; 322 franchised per the 2024 FDD per multiple summaries."},
+        "yearFounded": {"value": 2003, "source": "911 Restoration About Us; franchising.com profile", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2007, "source": "911 Restoration About Us; franchising.com profile", "year": 2026, "confidence": "high", "note": "911 Restoration Franchise Inc. incorporated in California March 15, 2007."},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - 911 Restoration Franchise Insights", "year": 2025, "confidence": "medium", "note": "FDD discloses lawsuits and/or bankruptcy information."},
+        "businessModelType": {"value": "both", "source": "Franchisor (residential and commercial damage restoration)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS; Franchise Direct FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - 911 Restoration Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Restoration 1",
+      "slug": "restoration-1",
+      "category": "Home Services",
+      "website": "restoration1franchise.com",
+      "notes": "Water, fire, and mold damage restoration franchise (Restoration 1 Franchise Holding), with ~298 franchised territories and no company-owned units, growing steadily. Item 19 results are heavily territory-population-dependent, with a small share of franchisees beating the average.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Only 35% of franchisees beat the average revenue",
+          "detail": "2024 Item 19 across 253 territories showed average total collected revenue of $1,224,339 but a median of just $645,255, and only 35% of franchisees exceeded the average - a strongly right-skewed system where larger-population markets averaged $4.7M+ while the range bottomed at $21,696.",
+          "source": "Restoration 1 2026 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/02/22/restoration-1-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Royalty of 7% of collected revenue with a minimum royalty floor",
+          "detail": "Royalty is the greater of 7% of collected gross revenue (3.5% for a conversion's first 6 months; 2% on construction revenue) or a minimum royalty fee - a fixed floor that pressures newer territories before they reach scale.",
+          "source": "Restoration 1 2026 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/02/22/restoration-1-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Did not rank on Entrepreneur's 2026 Franchise 500",
+          "detail": "Despite ~298 territories and steady growth, Restoration 1 did not appear on Entrepreneur's 2026 Franchise 500 list, a signal of more modest brand scale/recognition than the largest restoration franchisors.",
+          "source": "Restoration 1 2026 FDD review (Franchise Chatter)",
+          "url": "https://www.franchisechatter.com/2026/02/22/restoration-1-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 126525, "source": "Restoration 1 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Standard-territory range."},
+        "totalInvestmentMax": {"value": 309500, "source": "Restoration 1 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 59900, "source": "Restoration 1 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "$59,900 plus $0.18 per person over 250,000 territory population (typically $59,900-$64,400)."},
+        "royaltyPercent": {"value": 7, "source": "Restoration 1 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Greater of 7% of collected gross revenue (3.5% conversion first 6 months; 2% on construction revenue) or a minimum royalty fee."},
+        "avgUnitRevenue": {"value": 1224339, "source": "Restoration 1 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2024 average total collected revenue across 253 territories; median $645,255; range $21,696-$18,226,176; only 35% beat the average."},
+        "totalUnits": {"value": 298, "source": "Restoration 1 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "All franchised; 0 company-owned at year-end 2024."},
+        "isGrowing": {"value": true, "source": "Restoration 1 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Franchised units 265 -> 289 -> 293 -> 298 across 2022-2024; steady net growth."},
+        "businessModelType": {"value": "both", "source": "Franchisor (residential and commercial restoration)", "year": 2026, "confidence": "medium"},
+        "item19Available": {"value": true, "source": "Restoration 1 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review; SHARPSHEETS", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Zerorez",
+      "slug": "zerorez",
+      "category": "Home Services",
+      "website": "zerorezfranchising.com",
+      "notes": "Carpet and surface cleaning franchise built on a patented 'Empowered Water' (no-residue) process, founded 2001 with first franchises sold in 2003. Roughly 79 US locations (57 franchised, 22 company-owned). A high-investment, technology-heavy cleaning model with a comparatively high entry cost for the category.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High entry cost for a cleaning franchise ($262K-$619K)",
+          "detail": "Total investment of roughly $262,000-$619,000 is several times the cost of competing carpet-cleaning brands (e.g., Oxi Fresh at ~$54K-$84K), reflecting equipment and territory build-out - a much larger capital commitment with a correspondingly longer payback in the same service category.",
+          "source": "Vetted Biz / SHARPSHEETS Zerorez FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/zerorez/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Large company-owned share (~28% of system)",
+          "detail": "Of ~79 US units, 22 are company-owned versus 57 franchised - an unusually high corporate share for a cleaning franchise, which can mean the best/largest markets are run corporately and limits the pool of franchised resale/expansion territories.",
+          "source": "Vetted Biz - Zerorez Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/zerorez/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Tiered royalty including flat-fee 'Hometown Market' option",
+          "detail": "Royalty is generally 6% of gross sales, but Hometown Market territories pay a $750/month flat fee subject to minimums, plus a brand fund of 1% (up to 3%) of gross sales - buyers should confirm which royalty structure applies to their specific territory.",
+          "source": "Vetted Biz / SHARPSHEETS Zerorez FDD analysis",
+          "url": "https://sharpsheets.io/blog/zerorez-franchise-fdd-profits-costs/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 262000, "source": "Vetted Biz / SHARPSHEETS Zerorez FDD analysis", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 619000, "source": "Vetted Biz / SHARPSHEETS Zerorez FDD analysis", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz / SHARPSHEETS Zerorez FDD analysis", "year": 2025, "confidence": "medium", "note": "Generally 6% of gross sales; Hometown Market territories pay a $750/month flat fee subject to minimums."},
+        "adFundPercent": {"value": 1, "source": "Vetted Biz / SHARPSHEETS Zerorez FDD analysis", "year": 2025, "confidence": "medium", "note": "Brand fund currently 1% of gross sales, may increase up to 3%."},
+        "totalUnits": {"value": 79, "source": "Vetted Biz - Zerorez Franchise Insights", "year": 2025, "confidence": "medium", "note": "57 franchised + 22 company-owned in the US."},
+        "yearFounded": {"value": 2001, "source": "Zerorez About; franchising.com profile", "year": 2025, "confidence": "high", "note": "Zerorez Franchising Systems formed 2001; first bases opened 2002."},
+        "yearFranchising": {"value": 2003, "source": "Zerorez About; franchising.com profile", "year": 2025, "confidence": "high", "note": "First franchises sold beginning 2003."},
+        "businessModelType": {"value": "both", "source": "Franchisor (residential and commercial surface cleaning)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Zerorez franchisor (truck-mounted/van-based service model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS Zerorez FDD analyses (2025 FDD issued 2025-03-31)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Oxi Fresh Carpet Cleaning",
+      "slug": "oxi-fresh-carpet-cleaning",
+      "category": "Home Services",
+      "website": "oxifreshfranchise.com",
+      "notes": "Low-cost, green carpet-cleaning franchise founded by Jonathan Barnett in 2006 (franchising since 2006), with ~481 franchised and 12 company-owned US units - one of the larger and lowest-entry-cost carpet-cleaning systems. Uses a centralized scheduling call center and a low-moisture, fast-drying process; mobile, low-overhead model.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Modest unit revenue with wide dispersion",
+          "detail": "2024 Item 19 showed average annual revenue of $162,260 but a median of only $113,083; the top fifth of operators averaged $408,164 while the bottom fifth averaged just $40,826 - a low absolute revenue base where many operators run part-time-scale volumes.",
+          "source": "Oxi Fresh 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/12/07/oxi-fresh-carpet-cleaning-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Flat royalty plus per-job and tech/marketing fees",
+          "detail": "Royalty is a flat $475/month plus $15 per job and $40/month per co-op line, with an additional 3% of gross revenue (minimum $150/month) ad/tech fee - the per-job and flat fees mean low-volume operators pay a high effective rate relative to revenue.",
+          "source": "Oxi Fresh 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/12/07/oxi-fresh-carpet-cleaning-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Growth has decelerated; did not rank on Franchise 500",
+          "detail": "Net franchised additions slowed from +17 (2022) to +14 (2023) to +5 (2024), and the brand did not rank on Entrepreneur's 2025 Franchise 500 list - a maturing system with flattening expansion.",
+          "source": "Oxi Fresh 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/12/07/oxi-fresh-carpet-cleaning-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 53775, "source": "Oxi Fresh 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 83830, "source": "Oxi Fresh 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 47900, "source": "Oxi Fresh 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "adFundPercent": {"value": 3, "source": "Oxi Fresh 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "3% of gross revenue ad/tech fee, minimum $150/month. Royalty is a flat $475/month plus $15/job and $40/month per co-op line (not a percentage)."},
+        "avgUnitRevenue": {"value": 162260, "source": "Oxi Fresh 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average annual revenue for active operators; median $113,083; top fifth $408,164, bottom fifth $40,826."},
+        "totalUnits": {"value": 493, "source": "Oxi Fresh 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "481 franchised + 12 company-owned at year-end 2024."},
+        "yearFounded": {"value": 2006, "source": "Oxi Fresh company history; Zippia", "year": 2025, "confidence": "high", "note": "Founded by Jonathan Barnett in Denver in August 2006."},
+        "yearFranchising": {"value": 2006, "source": "Oxi Fresh company history", "year": 2025, "confidence": "high", "note": "Began franchising in 2006; reached 87 territories in 23 states by end of 2007."},
+        "isGrowing": {"value": true, "source": "Oxi Fresh 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "Still adding units but decelerating: +17 (2022), +14 (2023), +5 (2024)."},
+        "businessModelType": {"value": "both", "source": "Franchisor (residential and commercial carpet/surface cleaning)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Oxi Fresh franchisor (mobile, van-based low-moisture cleaning)", "year": 2025, "confidence": "high"},
+        "callCenterSupport": {"value": true, "source": "Oxi Fresh franchisor (centralized national scheduling call center)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Oxi Fresh 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review; SHARPSHEETS", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Window Genie",
+      "slug": "window-genie",
+      "category": "Home Services",
+      "website": "windowgeniefranchise.com",
+      "notes": "Multi-service home-exterior franchise (window cleaning, pressure washing, gutter cleaning, window tinting, holiday lighting) founded in 1994, franchising since 1998, part of Neighborly since 2016. Mobile, truck-based model with ~103 US franchised units and a high recurring-customer share - but a steadily contracting unit count.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Multi-year unit decline (124 -> 103)",
+          "detail": "Franchised outlets fell from 124 (end 2022) to 113 (end 2023) to 103 (end 2024) - roughly -17% over two years - even under Neighborly ownership, signaling franchisee attrition or territory consolidation rather than expansion.",
+          "source": "Window Genie 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/23/window-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Royalty up to 7% plus up to 5% combined marketing",
+          "detail": "License fee is 7% of gross sales (with minimums), plus a 2% national marketing fee and up to 3% local marketing group contributions - a combined ongoing burden that can reach ~12% on a relatively modest revenue base.",
+          "source": "Window Genie 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/23/window-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Modest unit revenue relative to investment",
+          "detail": "2024 Item 19 reported average gross sales of $485,284 (median $387,308) across 90 full-year businesses - solid recurring mix (68.6% repeat customers) but a moderate revenue base against a $125,600-$300,000 investment.",
+          "source": "Window Genie 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/23/window-genie-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 125600, "source": "Window Genie 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 300000, "source": "Window Genie 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "Window Genie 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "$40,000 for a territory of up to 50,000 qualified households, plus $0.50/household up to a $47,500 maximum."},
+        "royaltyPercent": {"value": 7, "source": "Window Genie 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "7% of gross sales (except roll-in sales), with minimum fees."},
+        "adFundPercent": {"value": 2, "source": "Window Genie 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2% national marketing plus up to 3% local marketing group."},
+        "avgUnitRevenue": {"value": 485284, "source": "Window Genie 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross sales across 90 full-year businesses; median $387,308; 68.6% recurring customers."},
+        "totalUnits": {"value": 103, "source": "Window Genie 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "All franchised; 0 company-owned at year-end 2024."},
+        "yearFounded": {"value": 1994, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "medium", "note": "Founded 1994; some directories cite the franchising start as 1998."},
+        "yearFranchising": {"value": 1998, "source": "Franchise Gator; Neighborly Window Genie profile", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "Window Genie 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Franchised units 124 -> 113 -> 103 across 2022-2024."},
+        "businessModelType": {"value": "both", "source": "Franchisor (residential and light commercial exterior services)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Window Genie franchisor (truck-based mobile service model)", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": false, "source": "Window Genie / Neighborly (US franchise system)", "year": 2025, "confidence": "medium"},
+        "item19Available": {"value": true, "source": "Window Genie 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Shine Window Care",
+      "slug": "shine-window-care",
+      "category": "Home Services",
+      "website": "shinefranchise.com",
+      "notes": "Multi-service home-exterior franchise (window cleaning, pressure washing, gutter cleaning, and seasonal holiday lighting) operating as Shine Window Care and Holiday Lighting, founded in 2000 and franchising since 2012, with ~50-74 US locations. Year-round window work plus a seasonal holiday-lighting revenue stream.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Long payback on a modest revenue base",
+          "detail": "Vetted Biz estimates average yearly gross sales of $353,090 against a $141,570-$189,295 investment, implying a 4.0-6.0 year payback - a slow return that depends heavily on building both the recurring window-care book and the seasonal holiday-lighting business.",
+          "source": "Vetted Biz - Shine Window Care and Holiday Lighting Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/shine-window-care-and-holiday-lighting/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Litigation and/or bankruptcy disclosed in FDD",
+          "detail": "Vetted Biz reports Shine discloses lawsuits and/or bankruptcy information in its FDD Item 3/Item 4 - buyers should request and review the current FDD's litigation disclosures directly before committing.",
+          "source": "Vetted Biz - Shine Window Care and Holiday Lighting Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/shine-window-care-and-holiday-lighting/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Seasonal revenue concentration (holiday lighting)",
+          "detail": "A meaningful share of the model is seasonal holiday-lighting installation concentrated in Q4, so franchisee cash flow is uneven across the year and dependent on executing a short, weather-sensitive installation window in addition to year-round window care.",
+          "source": "Shine franchisor site; Vetted Biz brand description",
+          "url": "https://shinefranchise.com/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 30000, "source": "Vetted Biz - Shine Window Care and Holiday Lighting Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash required."},
+        "totalInvestmentMin": {"value": 141570, "source": "Shine 2025 FDD (via Vetted Biz / SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "For a protected area of 75,000-125,000 households."},
+        "totalInvestmentMax": {"value": 189295, "source": "Shine 2025 FDD (via Vetted Biz / SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49900, "source": "Shine 2025 FDD (via Vetted Biz / SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 7, "source": "Shine 2025 FDD (via Vetted Biz / SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "7% of gross revenue."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz - Shine Window Care Franchise Insights", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites 2% marketing fee; SHARPSHEETS summary cited 1% national marketing - confirm current figure in FDD."},
+        "avgUnitRevenue": {"value": 353090, "source": "Vetted Biz - Shine Window Care Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Estimated average yearly gross sales per Vetted Biz analysis."},
+        "totalUnits": {"value": 74, "source": "Vetted Biz - Shine Window Care Franchise Insights", "year": 2025, "confidence": "medium", "note": "~74 US locations per Vetted Biz; other 2025 summaries cite 50+."},
+        "yearFounded": {"value": 2000, "source": "Vetted Biz - Shine Window Care Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2012, "source": "Vetted Biz - Shine Window Care Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Shine Window Care Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two-week initial training at corporate HQ."},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - Shine Window Care Franchise Insights", "year": 2025, "confidence": "medium", "note": "FDD discloses lawsuits and/or bankruptcy information."},
+        "businessModelType": {"value": "both", "source": "Franchisor (residential and commercial exterior services)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Shine franchisor (field/truck-based service model)", "year": 2025, "confidence": "medium"},
+        "seasonalityNotes": {"value": "Year-round window/pressure washing plus seasonal Q4 holiday-lighting installation, creating uneven cash flow across the year", "source": "Shine franchisor site; Vetted Biz description", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange; Vetted Biz; SHARPSHEETS FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Shine Window Care Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Men In Kilts",
+      "slug": "men-in-kilts",
+      "category": "Home Services",
+      "website": "meninkiltsfranchising.com",
+      "notes": "Window-cleaning and exterior-services franchise (window, gutter, house and pressure washing) with kilt-branded crews, founded 2002 in Vancouver and now part of the Premium Service Brands portfolio; US franchising expanded materially after 2019. Roughly 23-43 US franchised locations - a young, growing system with strong brand differentiation.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Young, small US system with limited track record",
+          "detail": "Men In Kilts has roughly 23-43 US franchised locations and meaningfully expanded US franchising only after 2019, so there are few mature, comparable units for a buyer to validate against and brand density is thin in most US markets.",
+          "source": "Vetted Biz / SHARPSHEETS Men In Kilts FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/men-in-kilts/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Conflicting / limited financial performance disclosure",
+          "detail": "Sources disagree on whether Men In Kilts publishes a full Item 19: SHARPSHEETS reports the FDD does not disclose financial performance representations, while directory estimates cite ~$397K yearly gross sales. A buyer should not rely on third-party revenue estimates and must confirm the actual Item 19 (or its absence) in the current FDD.",
+          "source": "SHARPSHEETS Men In Kilts FDD analysis; Vetted Biz",
+          "url": "https://sharpsheets.io/blog/men-in-kilts-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Royalty up to ~6-8% plus marketing fee",
+          "detail": "Royalty is reported at 6% of gross sales (some sources cite a 5-8% range) plus a 2-3% national marketing fee - a standard-to-high ongoing burden for a small system still building local market density.",
+          "source": "Vetted Biz / SHARPSHEETS Men In Kilts FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/men-in-kilts/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 20000, "source": "Vetted Biz - Men In Kilts Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 98600, "source": "Vetted Biz - Men In Kilts Franchise Insights", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites $98,600-$151,450; SHARPSHEETS cites a wider $127,000-$223,000 range. Confirm in current FDD."},
+        "totalInvestmentMax": {"value": 223000, "source": "SHARPSHEETS Men In Kilts FDD analysis", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 38000, "source": "Vetted Biz - Men In Kilts Franchise Insights", "year": 2025, "confidence": "medium"},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz - Men In Kilts Franchise Insights", "year": 2025, "confidence": "medium", "note": "6% of gross sales per Vetted Biz; some sources cite a 5-8% range."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz - Men In Kilts Franchise Insights", "year": 2025, "confidence": "medium", "note": "2% national marketing per Vetted Biz; some sources cite 3%."},
+        "totalUnits": {"value": 43, "source": "SHARPSHEETS Men In Kilts FDD analysis (2025 FDD)", "year": 2025, "confidence": "medium", "note": "43 US franchised locations per the 2025 FDD per SHARPSHEETS; Vetted Biz lists 23 US."},
+        "yearFounded": {"value": 2002, "source": "Men In Kilts franchisor history; Vetted Biz (lists 2019 as franchising era)", "year": 2025, "confidence": "medium", "note": "Founded 2002 in Vancouver; US franchising expanded after 2019."},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz - Men In Kilts Franchise Insights", "year": 2025, "confidence": "medium", "note": "FDD does not disclose lawsuits or bankruptcy information per Vetted Biz."},
+        "businessModelType": {"value": "both", "source": "Franchisor (residential and commercial exterior cleaning)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Men In Kilts franchisor (van/crew-based mobile service model)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "SHARPSHEETS Men In Kilts FDD analysis (reports FDD does not disclose financial performance)", "year": 2025, "confidence": "low", "note": "Conflicting sources; some directories cite ~$397K estimated revenue. Confirm in current FDD."},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS Men In Kilts FDD analyses", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Squeegee Squad",
+      "slug": "squeegee-squad",
+      "category": "Home Services",
+      "website": "squeegeesquadfranchise.com",
+      "notes": "Window-cleaning franchise (also pressure washing and gutter cleaning) founded in 1999 in Maple Grove, MN, franchising since 2005, with ~66-71 US franchised units and only ~3 company-owned. Serves residential, commercial, and industrial clients; an independently run, mid-cost entry into the window-cleaning category.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Sliding-scale royalty starts high at 8% of revenue",
+          "detail": "The royalty is a sliding scale of 8% down to 4% of gross revenues - meaning newer, lower-revenue franchisees pay the top 8% rate, the heaviest royalty burden exactly when revenue is smallest, with the rate only declining as volume grows.",
+          "source": "SHARPSHEETS Squeegee Squad FDD analysis",
+          "url": "https://sharpsheets.io/blog/squeegee-squad-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Modest unit revenue and long payback",
+          "detail": "Vetted Biz estimates average yearly gross sales near $337,685 with a 3.7-5.7 year payback - a low absolute revenue base for the investment, typical of an owner-operator window-cleaning model where scaling beyond a couple of crews is the main growth lever.",
+          "source": "Vetted Biz - Squeegee Squad Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/squeegee-squad",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Wide franchise-fee range and small system",
+          "detail": "The initial franchise fee spans $50,000-$120,000 depending on territory, and the system is small (~66-71 franchised units), so terms vary materially by market and there is a limited pool of comparable units to evaluate.",
+          "source": "SHARPSHEETS / Vetted Biz Squeegee Squad FDD analysis",
+          "url": "https://sharpsheets.io/blog/squeegee-squad-franchise-fdd-profits-costs/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 20000, "source": "Vetted Biz - Squeegee Squad Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 69525, "source": "SHARPSHEETS / Vetted Biz Squeegee Squad FDD analysis", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 225550, "source": "SHARPSHEETS / Vetted Biz Squeegee Squad FDD analysis", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 50000, "source": "SHARPSHEETS Squeegee Squad FDD analysis", "year": 2025, "confidence": "medium", "note": "FDD discloses a $50,000-$120,000 range depending on territory."},
+        "royaltyPercent": {"value": 8, "source": "SHARPSHEETS Squeegee Squad FDD analysis", "year": 2025, "confidence": "medium", "note": "Sliding scale 8% down to 4% of gross revenues (Vetted Biz cites a flat 6%)."},
+        "adFundPercent": {"value": 1, "source": "SHARPSHEETS Squeegee Squad FDD analysis", "year": 2025, "confidence": "medium", "note": "1% advertising fee."},
+        "avgUnitRevenue": {"value": 337685, "source": "Vetted Biz - Squeegee Squad Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Estimated yearly gross sales per Vetted Biz analysis."},
+        "totalUnits": {"value": 69, "source": "SHARPSHEETS Squeegee Squad FDD analysis (2024)", "year": 2025, "confidence": "medium", "note": "69 total in 2024 (66 franchised + 3 company-owned); Vetted Biz lists 71 US."},
+        "yearFounded": {"value": 1999, "source": "Squeegee Squad franchisor; SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2005, "source": "Squeegee Squad franchisor; SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Squeegee Squad Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two-week initial training at HQ in Maple Grove, MN."},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz - Squeegee Squad Franchise Insights", "year": 2025, "confidence": "medium", "note": "FDD does not disclose lawsuits or bankruptcy information per Vetted Biz."},
+        "businessModelType": {"value": "both", "source": "Franchisor (residential, commercial, and industrial window cleaning)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Squeegee Squad franchisor (mobile/field service model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange; Vetted Biz; SHARPSHEETS FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Squeegee Squad Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    }
+  ]
+}

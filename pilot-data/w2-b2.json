@@ -1,0 +1,1497 @@
+{
+ "brands": [
+  {
+   "name": "The Grounds Guys",
+   "slug": "the-grounds-guys",
+   "category": "Home Services",
+   "website": "groundsguys.com",
+   "notes": "Landscaping and grounds-maintenance franchise in the Neighborly portfolio (founded 1987 as Sunshine Grounds Care; franchised since 2010). 228 franchised, zero company-owned units in the US/Canada. Mobile, contract-driven model serving residential and commercial accounts. Franchisor markets territories nationwide but publishes no public state-by-state list, so state availability is omitted.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Wide revenue spread between mature and young franchises",
+     "detail": "2024 Item 19: franchises operating 3+ years averaged $854,816 gross sales (median $568,201), but franchises under 3 years averaged just $283,746 (median $235,252) - the median mature unit is roughly 2.4x the median young unit, so new-owner ramp is slow.",
+     "source": "Franchise Chatter 2025 FDD review (The Grounds Guys)",
+     "url": "https://www.franchisechatter.com/2025/11/13/the-grounds-guys-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Population-priced franchise fee plus escalating minimum royalties",
+     "detail": "The FDD prices the initial franchise fee at $35,000 for territories up to 100,000 population, plus $350 per additional 1,000 population - a larger territory raises the entry cost. The 5-6% royalty carries minimum-fee floors regardless of actual sales.",
+     "source": "Franchise Chatter 2025 FDD review; SHARPSHEETS 2025 FDD analysis",
+     "url": "https://www.franchisechatter.com/2025/11/13/the-grounds-guys-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Stacked ongoing fees on top of royalty",
+     "detail": "Beyond the 5-6% royalty, franchisees owe a 2% marketing/advertising fund contribution plus local marketing-group contributions of up to 3% of gross sales - combined ongoing marketing-and-royalty burden can approach ~11% of revenue.",
+     "source": "SHARPSHEETS 2025 FDD analysis; Franchise Chatter 2025 review",
+     "url": "https://sharpsheets.io/blog/the-grounds-guys-franchise-fdd-profits-costs/",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 74570,
+     "source": "The Grounds Guys 2025 FDD Item 7 (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Plus population-based franchise fee."
+    },
+    "totalInvestmentMax": {
+     "value": 224770,
+     "source": "The Grounds Guys 2025 FDD Item 7 (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 35000,
+     "source": "The Grounds Guys 2025 FDD (via Franchise Chatter and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "For a territory up to 100,000 population; +$350 per additional 1,000 population."
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "The Grounds Guys 2025 FDD (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "5-6% of gross sales with minimum fees; excludes 'roll-in' sales."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "The Grounds Guys 2025 FDD (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2% marketing fund plus local marketing groups up to 3% of gross sales."
+    },
+    "avgUnitRevenue": {
+     "value": 854816,
+     "source": "The Grounds Guys 2025 FDD Item 19 (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2024 average gross sales for franchises operating 3+ years; median $568,201. Franchises under 3 years averaged $283,746."
+    },
+    "totalUnits": {
+     "value": 228,
+     "source": "The Grounds Guys 2025 FDD outlet tables (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "All franchised; 0 company-owned as of 12/31/2024."
+    },
+    "yearFounded": {
+     "value": 1987,
+     "source": "Neighborly / The Grounds Guys brand history (founded as Sunshine Grounds Care)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2010,
+     "source": "The Grounds Guys brand history (joined Neighborly and began franchising)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "The Grounds Guys franchise site; VeteransFranchise.com",
+     "year": 2026,
+     "confidence": "high",
+     "note": "20% off the minimum initial franchise fee for qualified veterans."
+    },
+    "financingOffered": {
+     "value": false,
+     "source": "Franchise.org / FranNet directory listings",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "No direct franchisor financing; SBA-approved with third-party financing relationships."
+    },
+    "businessModelType": {
+     "value": "both",
+     "source": "The Grounds Guys franchisor site (residential and commercial grounds care)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "mobileBased": {
+     "value": true,
+     "source": "The Grounds Guys franchisor site (mobile, route-based service; no retail build-out)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "internationalAvailability": {
+     "value": true,
+     "source": "Neighborly / The Grounds Guys (US and Canada locations)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "Franchise Chatter 2025 FDD review (228 franchised, up from prior years)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "Franchise Chatter 2025 FDD review",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Franchise Chatter 2025 FDD review",
+     "year": 2025,
+     "confidence": "high"
+    }
+   }
+  },
+  {
+   "name": "NaturaLawn of America",
+   "slug": "naturalawn-of-america",
+   "category": "Home Services",
+   "website": "naturalawn.com",
+   "notes": "Organic-based lawn-care franchise (founded 1987; franchising since 1989; HQ Frederick, MD), the pioneer of the natural/organic lawn-care category. ~89 franchised + ~10 company-owned units across 20+ states serving 90,000+ customers. Mobile, route-based model. Franchisor publishes no public state-by-state availability list, so state availability is omitted.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "High 9% royalty (well above lawn-care peers)",
+     "detail": "Franchisees pay a 9% royalty on gross sales (reducing to 7% only on renewal) plus a 1% advertising contribution - a combined ~10% ongoing burden that is high for the lawn-care category, where many peers charge 5-6%.",
+     "source": "SHARPSHEETS 2025 FDD analysis; Vetted Biz",
+     "url": "https://sharpsheets.io/blog/naturalawn-of-america-franchise-fdd-profits-costs/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Franchise litigation history (terminated/disputing franchisees)",
+     "detail": "The franchisor has litigated against franchisees, including NaturaLawn of America, Inc. v. West Group, LLC (D. Md. 2006/2007, 484 F.Supp.2d 392) and NaturaLawn of America, Inc. v. Gro-Bro, Inc. (D. Md. 2011) - disputes touching franchise-agreement enforcement and, in the West Group matter, New Jersey pesticide-advertising-law concerns.",
+     "source": "vLex / Justia court dockets",
+     "url": "https://dockets.justia.com/docket/maryland/mddce/1:2011cv03166/195652",
+     "year": 2011
+    },
+    {
+     "severity": "info",
+     "title": "Small, slow-growing system in a regulated product category",
+     "detail": "With ~89 franchised units across 20+ states after 35+ years of franchising, NaturaLawn is a niche organic-lawn-care brand; pesticide/fertilizer application is state-regulated and requires licensing, adding compliance overhead franchisees must manage locally.",
+     "source": "Vetted Biz NaturaLawn of America Franchise Insights; SHARPSHEETS",
+     "url": "https://www.vettedbiz.com/franchises/naturalawn-of-america/",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 50000,
+     "source": "Vetted Biz / Franchise Direct NaturaLawn summaries",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "netWorthMin": {
+     "value": 250000,
+     "source": "Vetted Biz / Franchise Direct NaturaLawn summaries",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Plus access to a line of credit of $75,000-$125,000."
+    },
+    "totalInvestmentMin": {
+     "value": 57500,
+     "source": "NaturaLawn FDD Item 7 (via Vetted Biz and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "totalInvestmentMax": {
+     "value": 122650,
+     "source": "NaturaLawn FDD Item 7 (via Vetted Biz and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "royaltyPercent": {
+     "value": 9,
+     "source": "SHARPSHEETS 2025 FDD analysis; Vetted Biz",
+     "year": 2025,
+     "confidence": "high",
+     "note": "9% of gross sales, reducing to 7% on renewal."
+    },
+    "adFundPercent": {
+     "value": 1,
+     "source": "SHARPSHEETS 2025 FDD analysis; Vetted Biz",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "avgUnitRevenue": {
+     "value": 1097000,
+     "source": "Vetted Biz NaturaLawn of America Franchise Insights (FDD-derived)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Estimated yearly gross revenue (AUV) per Vetted Biz analysis."
+    },
+    "totalUnits": {
+     "value": 99,
+     "source": "Vetted Biz NaturaLawn of America Franchise Insights",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "~89 franchised + ~10 company-owned across 20+ states."
+    },
+    "yearFounded": {
+     "value": 1987,
+     "source": "Franchise Direct / SHARPSHEETS NaturaLawn summaries",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 1989,
+     "source": "Franchise Direct NaturaLawn summary",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "renewalTermYears": {
+     "value": 5,
+     "source": "Franchise Direct NaturaLawn summary",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "5-year initial term; three additional 5-year renewal terms available."
+    },
+    "businessModelType": {
+     "value": "b2c",
+     "source": "NaturaLawn franchisor site (residential organic lawn care)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "mobileBased": {
+     "value": true,
+     "source": "NaturaLawn model (route-based mobile lawn service)",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "Vetted Biz (system roughly flat at ~89-99 units over many years)",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "The FDD Exchange; Vetted Biz; SHARPSHEETS",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Vetted Biz / SHARPSHEETS (revenue figures FDD-derived)",
+     "year": 2025,
+     "confidence": "medium"
+    }
+   }
+  },
+  {
+   "name": "U.S. Lawns",
+   "slug": "us-lawns",
+   "category": "Home Services",
+   "website": "uslawns.com",
+   "notes": "Commercial-only landscaping and grounds-maintenance franchise (founded 1986 in Orlando, FL; franchising since 1987), part of the BrightView/Russell Landscape ecosystem of brands. ~210 franchised locations across 37 states. Contract-driven B2B model with owner-operator, semi-absentee, and conversion entry paths. Franchisor markets nationally but publishes no public state list, so state availability is omitted.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Tiered royalty that starts at 6% of gross billings",
+     "detail": "Royalty starts at 6% of gross billings and steps down toward 4% as monthly revenue grows; combined ongoing fees are cited at roughly 8% of revenue - a meaningful drag on a contract-margin B2B landscaping model where revenue is lumpy and tied to renewable commercial contracts.",
+     "source": "SHARPSHEETS 2025 FDD analysis; FranchiseGrade",
+     "url": "https://sharpsheets.io/blog/u-s-lawns-franchise-fdd-profits-costs/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Revenue concentration risk in commercial contracts",
+     "detail": "As a B2B franchise dependent on commercial grounds-maintenance contracts (HOAs, office parks, retail), franchisee revenue can swing on the loss or non-renewal of a few large accounts; the model rewards sales/account-management skill more than a retail-traffic concept.",
+     "source": "SHARPSHEETS U.S. Lawns FDD analysis; franchisor site (B2B contract model)",
+     "url": "https://sharpsheets.io/blog/u-s-lawns-franchise-fdd-profits-costs/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Higher-end build cost despite a B2B model",
+     "detail": "2025 FDD Item 7 runs roughly $71,500-$200,000, with the high end driven by trucks, mowing/landscaping equipment, and working capital; conversions of existing landscapers come in lower because equipment is already owned - new entrants face the full equipment outlay.",
+     "source": "SHARPSHEETS 2025 FDD analysis; FranchisePayback",
+     "url": "https://www.franchisepayback.com/franchise/u-s-lawns",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 71500,
+     "source": "U.S. Lawns 2025 FDD Item 7 (via SHARPSHEETS and FranchisePayback)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Low end reflects conversions with existing equipment."
+    },
+    "totalInvestmentMax": {
+     "value": 200000,
+     "source": "U.S. Lawns 2025 FDD Item 7 (via SHARPSHEETS and FranchisePayback)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "SHARPSHEETS U.S. Lawns FDD analysis",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Starts at 6% of gross billings, decreasing toward 4% as monthly revenue grows; total ongoing fees ~8%."
+    },
+    "avgUnitRevenue": {
+     "value": 976000,
+     "source": "SHARPSHEETS U.S. Lawns FDD analysis (Item 19-derived AUV)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Average yearly revenue per franchised business."
+    },
+    "totalUnits": {
+     "value": 210,
+     "source": "SHARPSHEETS U.S. Lawns FDD analysis",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "~210 franchised locations across 37 states; all franchised."
+    },
+    "yearFounded": {
+     "value": 1986,
+     "source": "U.S. Lawns franchisor site; SHARPSHEETS",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Founded in Orlando, FL."
+    },
+    "yearFranchising": {
+     "value": 1987,
+     "source": "U.S. Lawns franchisor site; SHARPSHEETS",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "businessModelType": {
+     "value": "b2b",
+     "source": "U.S. Lawns franchisor site (commercial-only grounds maintenance)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "mobileBased": {
+     "value": true,
+     "source": "U.S. Lawns model (route/contract-based mobile service; no retail location)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "SHARPSHEETS / directory data (system roughly flat around 210-250 units)",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "SHARPSHEETS / FranchisePayback 2025 FDD analyses",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "SHARPSHEETS U.S. Lawns FDD analysis (AUV disclosed)",
+     "year": 2025,
+     "confidence": "medium"
+    }
+   }
+  },
+  {
+   "name": "ComForCare Home Care",
+   "slug": "comforcare-home-care",
+   "category": "Health & Wellness",
+   "website": "comforcare.com",
+   "notes": "Non-medical in-home senior care franchise (first location 1996, Michigan) owned by Best Life Brands (acquired 2017). ~248 franchised, zero company-owned territories in the US. Recurring-revenue caregiving model in a growing aging-demographics category; no retail build-out. Franchisor markets territories nationwide with no public state list, so state availability is omitted.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Labor-law / overtime exposure inherent to the caregiver model",
+     "detail": "Home-care franchisees employ hourly and salaried caregivers and are exposed to FLSA overtime and wage-and-hour litigation; a Pennsylvania ComForCare franchisee (Elder Resource Management) was ordered by a court (DOL action) to pay ~$2.4M in overtime back wages, illustrating the category's payroll-compliance risk.",
+     "source": "U.S. Department of Labor news release; OvertimePayLaws.org",
+     "url": "https://www.dol.gov/newsroom/releases/whd/whd20220823-0",
+     "year": 2022
+    },
+    {
+     "severity": "info",
+     "title": "Stacked marketing fees on top of royalty",
+     "detail": "Beyond the 5% royalty (with weekly minimums), franchisees contribute 1% of gross sales to general marketing, 1% to national advertising, and must spend 2% on local marketing - combined ongoing fees can approach ~9% of gross sales.",
+     "source": "SHARPSHEETS 2025 FDD analysis; Franchise Direct",
+     "url": "https://sharpsheets.io/blog/comforcare-home-care-franchise-fdd-profits-costs/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Reimbursement and caregiver-supply dependence",
+     "detail": "Revenue depends heavily on private-pay and VA/long-term-care reimbursement, and the business is constrained by chronic home-care labor shortages; recruiting and retaining caregivers is the binding operational constraint on growth for most franchisees.",
+     "source": "ComForCare franchising materials; home-care industry analysis",
+     "url": "https://www.comforcare.com/franchising/blog/home-care-franchise-vs-independent-2026-costs-speed-what-actually-works/",
+     "year": 2026
+    }
+   ],
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 73000,
+     "source": "ComForCare 2025 FDD (via SHARPSHEETS and Franchise Direct)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 164000,
+     "source": "ComForCare 2025 FDD (via SHARPSHEETS and Franchise Direct)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 59000,
+     "source": "ComForCare 2025 FDD (via Franchise Direct and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Standard $59,000; reduced offering of $29,500 in certain cases."
+    },
+    "royaltyPercent": {
+     "value": 5,
+     "source": "ComForCare 2025 FDD (via SHARPSHEETS and Franchise Direct)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "5% of gross sales with required weekly minimums."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "ComForCare 2025 FDD (via Franchise Direct)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "1% general marketing + 1% national advertising; plus required 2% local marketing spend."
+    },
+    "avgUnitRevenue": {
+     "value": 1918000,
+     "source": "ComForCare 2025 FDD Item 19 (brand-reported; via Franchise Chatter)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "2024 average gross sales across 202 territories open the full year with 13+ months of data."
+    },
+    "totalUnits": {
+     "value": 248,
+     "source": "ComForCare 2025 FDD outlet tables (via SHARPSHEETS and Franchise Chatter)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "All franchised; 0 company-owned."
+    },
+    "yearFounded": {
+     "value": 1996,
+     "source": "ComForCare franchise story (first location in Michigan)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2001,
+     "source": "Vetted Biz / Franchise Direct ComForCare summaries",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "businessModelType": {
+     "value": "b2c",
+     "source": "ComForCare franchisor site (in-home senior care)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "mobileBased": {
+     "value": true,
+     "source": "ComForCare model (in-home, caregiver-dispatch; office plus field caregivers)",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "SHARPSHEETS / Franchise Chatter (system at ~248 territories, growing senior-care category)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "FranChimp (2025 FDD); Franchise Chatter 2025/2026 reviews",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Franchise Chatter 2025/2026 reviews (Item 19 disclosed)",
+     "year": 2025,
+     "confidence": "high"
+    }
+   }
+  },
+  {
+   "name": "Assisting Hands Home Care",
+   "slug": "assisting-hands-home-care",
+   "category": "Health & Wellness",
+   "website": "assistinghands.com",
+   "notes": "Non-medical in-home senior care franchise (earliest locations ~2002), ~202 franchised + ~5 company-owned units. Recurring-revenue caregiving model with strong Item 19 averages but a very wide spread between top and bottom territories. Franchisor markets territories nationwide with no public state list, so state availability is omitted.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Extreme revenue dispersion across territories",
+     "detail": "2024 Item 19: 84 franchisees operating 12+ months produced an average of ~$2,149,198 gross revenue, but the range ran from $77,278 (Clinton Township, MI) to $11,209,774 (Cincinnati, OH) - a 145x spread, so the average is heavily pulled by a few large operations and is not a reliable expectation for a new owner.",
+     "source": "Assisting Hands 2025 FDD Item 19 (via Franchise Chatter review)",
+     "url": "https://www.franchisechatter.com/2025/09/08/assisting-hands-home-care-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "Caregiver labor-law and wage-and-hour exposure",
+     "detail": "Like all non-medical home-care franchises, Assisting Hands franchisees directly employ hourly caregivers and carry FLSA/overtime and state wage-and-hour compliance risk; the business is also constrained by persistent caregiver labor shortages that cap revenue growth.",
+     "source": "Home-care industry analysis; Assisting Hands franchise materials",
+     "url": "https://www.vettedbiz.com/franchises/assisting-hands-home-care",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Tiered royalty with escalating weekly minimums",
+     "detail": "Royalty is tiered (5% below $48,000 weekly revenue, 4.5% to $95,999, 4% above $96,000) with minimum royalties that escalate from $50/week (year 1) to $100/week (year 2) to $200/week thereafter, plus a national advertising fund contribution - fixed obligations that bite hardest on slow-ramping new offices.",
+     "source": "Assisting Hands 2025 FDD (via Franchise Chatter and SHARPSHEETS)",
+     "url": "https://sharpsheets.io/blog/assisting-hands-franchise-sales-costs-profits/",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "liquidCapitalMin": {
+     "value": 100000,
+     "source": "Assisting Hands FDD (via FranNet / Vetted Biz summaries)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "netWorthMin": {
+     "value": 300000,
+     "source": "Assisting Hands FDD (via FranNet / Vetted Biz summaries)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "totalInvestmentMin": {
+     "value": 95000,
+     "source": "Assisting Hands 2025 FDD Item 7 (via Franchise Chatter and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 177000,
+     "source": "Assisting Hands 2025 FDD Item 7 (via Franchise Chatter and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 55000,
+     "source": "Assisting Hands 2025 FDD (via Franchise Chatter and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 5,
+     "source": "Assisting Hands 2025 FDD (via SHARPSHEETS and Franchise Chatter)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Tiered: 5% below $48,000 weekly revenue, 4.5% to $95,999, 4% above $96,000; escalating weekly minimums."
+    },
+    "adFundPercent": {
+     "value": 0.5,
+     "source": "Assisting Hands 2025 FDD (via SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Greater of 0.5% of gross revenue or a minimum National Advertising Fund contribution."
+    },
+    "avgUnitRevenue": {
+     "value": 2149198,
+     "source": "Assisting Hands 2025 FDD Item 19 (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2024 average gross revenue across 84 franchisees operating 12+ months; range $77,278-$11,209,774. Wide dispersion - treat as a ceiling, not an expectation."
+    },
+    "totalUnits": {
+     "value": 207,
+     "source": "Assisting Hands 2025 FDD outlet tables (via Franchise Chatter)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "~202 franchised + ~5 company-owned."
+    },
+    "businessModelType": {
+     "value": "b2c",
+     "source": "Assisting Hands franchisor site (in-home senior/home care)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "mobileBased": {
+     "value": true,
+     "source": "Assisting Hands model (in-home caregiver dispatch; office plus field caregivers)",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "Franchise Chatter 2025 review (growing senior-care category)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "Franchise Chatter 2025 FDD review; Vetted Biz",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Franchise Chatter 2025 FDD review (Item 19 disclosed)",
+     "year": 2025,
+     "confidence": "high"
+    }
+   }
+  },
+  {
+   "name": "Massage Heights",
+   "slug": "massage-heights",
+   "category": "Health & Wellness",
+   "website": "massageheights.com",
+   "notes": "Membership-based massage and wellness spa franchise (founded 2004, San Antonio, TX), ~115-120 locations in the US and Canada. IMPORTANT: the brand rebranded to 'Heights Wellness Retreat' in October 2024 (adding lymphatic drainage, red light, salt therapy, meditation) - it still trades on the Massage Heights heritage. Membership-recurring-revenue model. Franchisor publishes no public state list, so state availability is omitted.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "$3.3M jury verdict in a client sexual-assault case",
+     "detail": "A jury found Massage Heights liable in a client sexual-assault case and awarded $3.3 million - a category-specific liability exposure (therapist misconduct claims) that franchised spa owners inherit, with attendant insurance, screening, and reputational costs.",
+     "source": "Franchise Times",
+     "url": "https://www.franchisetimes.com/franchise_news/jury-finds-massage-heights-liable-in-sexual-assault-case-awards-3-3m/article_b3d05754-8435-11ec-9c06-9785d3171fa4.html",
+     "year": 2022
+    },
+    {
+     "severity": "caution",
+     "title": "Developer litigation over support and sales-goal defaults",
+     "detail": "Six Area/Regional Developers sued Massage Heights corporate after receiving default letters, contending sales goals were missed because the franchisor failed to provide adequate support; separately, Massage Heights Franchising LLC v. Hagman (Tex. Ct. App. 2023) reflects ongoing franchisor-franchisee litigation in the system.",
+     "source": "FindLaw (Massage Heights Franchising LLC v. Hagman); FranchiseComplaints.org",
+     "url": "https://caselaw.findlaw.com/court/tx-court-of-appeals/115363692.html",
+     "year": 2023
+    },
+    {
+     "severity": "info",
+     "title": "High build cost plus 8% combined ongoing fees and a rebrand transition",
+     "detail": "2025 FDD Item 7 runs roughly $445,000-$1,060,000 with a 6% royalty plus 2% ad fund (8% combined); the October 2024 rebrand to Heights Wellness Retreat adds new service lines and conversion costs, and the long-term economics of the expanded model are not yet proven across the system.",
+     "source": "Franchise Chatter 2024/2025 FDD reviews; SHARPSHEETS",
+     "url": "https://sharpsheets.io/blog/massage-heights-franchise-costs-profits/",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 445000,
+     "source": "Massage Heights / Heights Wellness Retreat 2025 FDD Item 7 (via SHARPSHEETS and Franchise Chatter)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Some 2024 sources cite a tighter $472,000-$554,000 range; SHARPSHEETS cites $445,000-$1,060,000."
+    },
+    "totalInvestmentMax": {
+     "value": 1060000,
+     "source": "Massage Heights / Heights Wellness Retreat 2025 FDD Item 7 (via SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "franchiseFee": {
+     "value": 45000,
+     "source": "Massage Heights 2024/2025 FDD (via Franchise Chatter and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "Massage Heights 2025 FDD (via SHARPSHEETS and Franchise Chatter)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "6% of gross sales."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "Massage Heights 2025 FDD (via SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2% advertising fund; combined 8% ongoing fees with royalty."
+    },
+    "avgUnitRevenue": {
+     "value": 1030000,
+     "source": "Franchise Chatter 2024 FDD review (Item 19-derived)",
+     "year": 2024,
+     "confidence": "medium",
+     "note": "~$1.03M average annual sales per 2024 FDD-derived analysis."
+    },
+    "totalUnits": {
+     "value": 120,
+     "source": "SHARPSHEETS / Franchise Chatter (Heights Wellness Retreat)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "~115-120 locations across the US and Canada."
+    },
+    "yearFounded": {
+     "value": 2004,
+     "source": "Franchise Times; SHARPSHEETS (founded in San Antonio, TX)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "businessModelType": {
+     "value": "b2c",
+     "source": "Massage Heights / Heights Wellness Retreat franchisor site (membership spa)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "internationalAvailability": {
+     "value": true,
+     "source": "SHARPSHEETS / franchisor (US and Canada locations)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "customerAcquisitionModel": {
+     "value": "Membership-based recurring revenue (monthly wellness memberships) plus walk-in/retail services",
+     "source": "Heights Wellness Retreat franchisor site",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": false,
+     "source": "Franchise Times (system around 115-120 units; closures and rebrand transition)",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "Franchise Chatter 2024/2025 FDD reviews; The FDD Exchange",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Franchise Chatter 2025 review (Item 19 FPR present)",
+     "year": 2025,
+     "confidence": "high"
+    }
+   }
+  },
+  {
+   "name": "HealthSource Chiropractic",
+   "slug": "healthsource-chiropractic",
+   "category": "Health & Wellness",
+   "website": "healthsourcechiro.com",
+   "notes": "Chiropractic and progressive-rehab clinic franchise (founded 1994; franchising since 2006; HQ Lakewood, OH), ~133 franchised clinics. Build-out-heavy clinic model. Note: a franchisee must typically be or employ a licensed chiropractor, and clinic revenue depends on insurance billing. Franchisor markets nationally with no public state list, so state availability is omitted.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Modest unit revenue against a $400K+ build cost",
+     "detail": "2025 FDD Item 19 reported ~$513,184 average gross revenue across ~113 reporting franchise outlets - a modest figure relative to the $421,291-$618,387 initial investment, implying a long payback if a clinic does not exceed the average.",
+     "source": "HealthSource Chiropractic 2025 FDD (via Franchise Chatter and SHARPSHEETS)",
+     "url": "https://www.franchisechatter.com/2025/07/08/healthsource-chiropractic-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "History of franchisor-franchisee and trademark litigation",
+     "detail": "The franchisor has been involved in multiple disputes, including Dudley v. HealthSource Chiropractic (W.D.N.Y., Lanham Act/trademark), Dugger et al v. HealthSource Chiropractic (N.D. Ohio 2018, contract), and HealthSource Chiropractic, LLC v. Health Source KC Inc. (D. Kan. 2024, trademark enforcement) - a recurring litigation footprint around the brand and its franchisees.",
+     "source": "Justia / FindLaw / vLex court dockets",
+     "url": "https://dockets.justia.com/docket/ohio/ohndce/1:2018cv02458/248220",
+     "year": 2024
+    },
+    {
+     "severity": "info",
+     "title": "Licensed-professional and insurance-billing dependence",
+     "detail": "Clinic economics depend on a licensed chiropractor (owner or employed) and on third-party insurance reimbursement plus the franchisor's HSWorx billing software; reimbursement-rate pressure and provider recruiting are structural constraints on the model.",
+     "source": "HealthSource franchise FAQs; Franchise Chatter 2025 review",
+     "url": "https://hsfranchising.com/research/healthsource-faqs/",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 421291,
+     "source": "HealthSource Chiropractic 2025 FDD Item 7 (via SHARPSHEETS and Franchise Direct)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Earlier (2024) FDD-derived sources cite a wider $310,000-$534,000 range; 2025 figures higher."
+    },
+    "totalInvestmentMax": {
+     "value": 618387,
+     "source": "HealthSource Chiropractic 2025 FDD Item 7 (via SHARPSHEETS and Franchise Direct)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 60000,
+     "source": "HealthSource Chiropractic 2025 FDD (via SHARPSHEETS and Franchise Direct)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 7,
+     "source": "HealthSource Chiropractic 2025 FDD (via SHARPSHEETS and Franchise Direct)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "7% of gross revenues."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "HealthSource Chiropractic 2025 FDD (via SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2% of gross revenues toward national marketing/advertising."
+    },
+    "avgUnitRevenue": {
+     "value": 513184,
+     "source": "HealthSource Chiropractic 2025 FDD Item 19 (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Average gross revenue across ~113 reporting franchise outlets (HSWorx billing data)."
+    },
+    "totalUnits": {
+     "value": 133,
+     "source": "HealthSource Chiropractic 2025 FDD (via SHARPSHEETS and Franchise Direct)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Franchise clinics; Franchise Times Top 400 ranks the brand at #376 for 2025."
+    },
+    "yearFounded": {
+     "value": 1994,
+     "source": "SHARPSHEETS / Franchise Direct (founded; HQ Lakewood, OH)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2006,
+     "source": "SHARPSHEETS / Franchise Direct",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "HealthSource Chiropractic (military/veteran programs); Franchise Direct",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Veteran/military programs advertised; franchise-fee discount amount not clearly published."
+    },
+    "businessModelType": {
+     "value": "b2c",
+     "source": "HealthSource Chiropractic franchisor site (chiropractic + progressive rehab clinics)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "customerAcquisitionModel": {
+     "value": "Insurance-billed clinical care plus cash/wellness plans; new-patient marketing offers",
+     "source": "HealthSource franchise FAQs",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "Franchise Times Top 400 2025; SHARPSHEETS",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "Franchise Chatter 2025 FDD review; FranChimp",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Franchise Chatter 2025 FDD review (Item 19 disclosed)",
+     "year": 2025,
+     "confidence": "high"
+    }
+   }
+  },
+  {
+   "name": "The DRIPBaR",
+   "slug": "the-dripbar",
+   "category": "Health & Wellness",
+   "website": "thedripbar.com",
+   "notes": "IV-vitamin-therapy and wellness franchise (founded 2016, Warwick, RI; franchising since late 2019) in fast expansion. RN-administered drips under a national medical director and medical board, LegitScript-certified. The defining due-diligence issue is the lightly-regulated, medically-sensitive nature of retail IV therapy. Franchisor markets nationally with no public state list, so state availability is omitted.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Operating in a lightly-regulated, medically-sensitive category",
+     "detail": "Retail IV therapy is under-regulated and medically sensitive; a high-profile Texas case in which a woman died after IV therapy led the Texas Medical Board to cite a lack of protocols and supervision and restrict the medical director's license - illustrating the patient-safety, medical-director, and liability exposure franchisees in this category carry.",
+     "source": "Arnolt Center for Investigative Journalism (IV therapy regulation reporting)",
+     "url": "https://arnoltcenter.org/work/the-drip-lack-of-regulation-in-growing-iv-therapy-hydration-industry-potentially-puts-patients-at-risk/",
+     "year": 2024
+    },
+    {
+     "severity": "caution",
+     "title": "Medical-director and licensed-clinician dependence (corporate-practice-of-medicine rules)",
+     "detail": "Each location requires RN drip specialists and a supervising medical director, and many states' corporate-practice-of-medicine and IV-therapy rules govern clinic ownership and supervision - adding clinical-staffing cost, recruiting difficulty, and state-by-state compliance complexity beyond a typical retail franchise.",
+     "source": "Medical Director Co. / Marti Law Group (IV therapy medical-director requirements)",
+     "url": "https://www.medicaldirectorco.com/iv-therapy-medical-director-requirements/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Young system with most units still ramping",
+     "detail": "Founded 2016 and franchising only since late 2019, most of the system is young; FDD Item 19 reports gross sales grouped by number of months open, indicating a cohort still maturing - long-run unit economics rest on a small base of seasoned locations.",
+     "source": "The DRIPBaR FDD Item 19 (via Franchise Chatter reviews); SHARPSHEETS",
+     "url": "https://sharpsheets.io/blog/the-dripbar-franchise-costs-profits/",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 147000,
+     "source": "The DRIPBaR 2025 FDD Item 7 (via SHARPSHEETS and FranchisePayback)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 415000,
+     "source": "The DRIPBaR 2025 FDD Item 7 (via SHARPSHEETS and FranchisePayback)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 50000,
+     "source": "The DRIPBaR 2025 FDD (via SHARPSHEETS and Vetted Biz)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "FDD discloses $50,000-$55,000."
+    },
+    "royaltyPercent": {
+     "value": 7,
+     "source": "The DRIPBaR 2025 FDD (via SHARPSHEETS and FranchisePayback)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "7% of gross revenue."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "The DRIPBaR 2025 FDD (via SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2% national marketing fee."
+    },
+    "avgUnitRevenue": {
+     "value": 570900,
+     "source": "The DRIPBaR FDD Item 19 (via franchise analyses)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Reported average annual revenue per franchise; FDD groups gross sales by months open (young cohort)."
+    },
+    "yearFounded": {
+     "value": 2016,
+     "source": "SHARPSHEETS / Vetted Biz (founded in Warwick, RI)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2019,
+     "source": "SHARPSHEETS / Vetted Biz (began franchising late 2019)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "The DRIPBaR 2025 FDD (multi-unit development agreement for 2-10 locations, $192,125-$660,200)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "businessModelType": {
+     "value": "b2c",
+     "source": "The DRIPBaR franchisor site (retail IV vitamin therapy/wellness)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "SHARPSHEETS / Vetted Biz (rapid expansion since 2019)",
+     "year": 2025,
+     "confidence": "medium"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "The FDD Exchange (2025 FDD); Franchise Chatter reviews",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Franchise Chatter / SHARPSHEETS (Item 19 disclosed)",
+     "year": 2025,
+     "confidence": "high"
+    }
+   }
+  },
+  {
+   "name": "iCRYO",
+   "slug": "icryo",
+   "category": "Health & Wellness",
+   "website": "icryo.com",
+   "notes": "Cryotherapy, IV infusion, and recovery-services wellness franchise (founded October 2015, League City, TX by Kyle Jones; franchising since 2017). Build-out-heavy studio model. The defining due-diligence issue is a very large gap between franchises awarded (280+) and studios actually open (~25-37) - most signed deals have not yet opened. No public state list, so state availability is omitted.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Huge gap between franchises awarded and locations open",
+     "detail": "iCRYO reports 280+ franchise locations awarded but only ~25 US locations open (22 franchised, 3 corporate) per Vetted Biz, with ~200 in development - a low awarded-to-open conversion rate. A pipeline this far ahead of openings raises questions about how many awarded units will actually open and operate.",
+     "source": "Vetted Biz iCRYO Franchise Insights; Fitt Insider",
+     "url": "https://www.vettedbiz.com/franchises/icryo/",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "Franchisor regulatory and franchisee litigation history",
+     "detail": "iCRYO Franchise Systems was the subject of a Washington State securities consent order (S-19-2814-20-CO01) tied to its franchise-registration record, and a franchisee (GTM Holdings LLC) filed a contract/debt-collection suit against the franchisor in Texas (later dismissed) - a regulatory and litigation footprint for a young system.",
+     "source": "Washington DFI consent order; UniCourt (GTM Holdings v. iCRYO)",
+     "url": "https://dfi.wa.gov/documents/securities-orders/S-19-2814-20-CO01.pdf",
+     "year": 2020
+    },
+    {
+     "severity": "info",
+     "title": "High build cost in a lightly-regulated IV/cryo category",
+     "detail": "2025 FDD Item 7 runs $475,000-$1,205,000 for a service mix (cryotherapy, IV infusion, recovery) that includes medically-adjacent IV therapy - which in many states requires clinical oversight and carries the same under-regulation/patient-safety scrutiny affecting the broader retail IV-therapy space.",
+     "source": "SHARPSHEETS 2025 FDD analysis; Vetted Biz",
+     "url": "https://sharpsheets.io/blog/icryo-franchise-fdd-profits-costs/",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 475000,
+     "source": "iCRYO 2025 FDD Item 7 (via SHARPSHEETS and Vetted Biz)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 1205000,
+     "source": "iCRYO 2025 FDD Item 7 (via SHARPSHEETS and Vetted Biz)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 49500,
+     "source": "iCRYO 2025 FDD (via SHARPSHEETS and Vetted Biz)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "iCRYO 2025 FDD (via SHARPSHEETS and Vetted Biz)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "6% of gross sales."
+    },
+    "adFundPercent": {
+     "value": 1,
+     "source": "iCRYO 2025 FDD (via Vetted Biz)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "1% of gross sales marketing fee."
+    },
+    "totalUnits": {
+     "value": 25,
+     "source": "Vetted Biz iCRYO Franchise Insights",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "~25 US open (22 franchised + 3 corporate); 280+ awarded, ~200 in development. Open count is the operating reality vs. the larger pipeline."
+    },
+    "yearFounded": {
+     "value": 2015,
+     "source": "Fitt Insider / CIO Bulletin (founded Oct 2015, League City, TX)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2017,
+     "source": "Washington DFI / Vetted Biz (iCRYO Franchise Systems LLC formed Sept 2017, began offering franchises 2017)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "businessModelType": {
+     "value": "b2c",
+     "source": "iCRYO franchisor site (cryotherapy/IV/recovery wellness)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "Vetted Biz / Fitt Insider (rapid awards; large development pipeline)",
+     "year": 2025,
+     "confidence": "low",
+     "note": "Awards are growing fast, but open-unit count remains small."
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "SHARPSHEETS / Vetted Biz 2025 FDD analyses; FranChimp",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Vetted Biz / SHARPSHEETS (FDD includes financial performance representation)",
+     "year": 2025,
+     "confidence": "medium"
+    }
+   }
+  },
+  {
+   "name": "Perspire Sauna Studio",
+   "slug": "perspire-sauna-studio",
+   "category": "Health & Wellness",
+   "website": "perspiresaunastudio.com",
+   "notes": "Infrared-sauna and red-light-therapy membership studio franchise (concept since 2010), ranked #1 sauna franchise by Entrepreneur in 2023-2024. ~44 studios open (38 franchised + 6 company/affiliate) with ~200 territories sold. Membership-recurring-revenue model. Like other emerging studio brands, there is a large gap between territories sold and studios open. No public state list, so state availability is omitted.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Large gap between territories sold and studios open",
+     "detail": "The franchisor cites ~200 territories sold against ~44-55 studios open - most awarded territories have not yet opened. FDD outlet tables show franchised units growing 17 -> 26 -> 44 across 2021-2023 (with one temporary closure in 2023), so the open base is small and young relative to the sold pipeline.",
+     "source": "Perspire Sauna Studio 2025 FDD outlet tables (via Franchise Chatter review); SHARPSHEETS",
+     "url": "https://www.franchisechatter.com/2025/06/09/perspire-sauna-studio-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "High build cost plus 9% combined ongoing fees",
+     "detail": "2025 FDD Item 7 runs $565,538-$989,638 with a 7% royalty plus a 2% national marketing fund (9% combined) - a meaningful fixed-and-variable burden on a membership model whose AUV averaged roughly $546K-$552K for franchised studios in the most recent Item 19.",
+     "source": "Perspire Sauna Studio 2025 FDD (via Franchise Chatter and SHARPSHEETS)",
+     "url": "https://sharpsheets.io/blog/perspire-sauna-studio-franchise-costs-fees-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Membership-dependent recurring-revenue model with churn risk",
+     "detail": "Revenue rests on monthly sauna/wellness memberships; like all membership fitness/wellness concepts, profitability depends on member acquisition cost and churn, and a studio that cannot sustain its membership base will underperform the system averages quickly.",
+     "source": "Perspire Sauna Studio franchisor materials; SHARPSHEETS analysis",
+     "url": "https://sharpsheets.io/blog/perspire-sauna-studio-franchise-costs-fees-profits/",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 565538,
+     "source": "Perspire Sauna Studio 2025 FDD Item 7 (via Franchise Chatter and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 989638,
+     "source": "Perspire Sauna Studio 2025 FDD Item 7 (via Franchise Chatter and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 50000,
+     "source": "Perspire Sauna Studio 2025 FDD (via Franchise Chatter and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 7,
+     "source": "Perspire Sauna Studio 2025 FDD (via SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "7% of gross sales."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "Perspire Sauna Studio 2025 FDD (via SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2% national marketing fund; 9% combined ongoing fees."
+    },
+    "avgUnitRevenue": {
+     "value": 546269,
+     "source": "Perspire Sauna Studio 2025 FDD Item 19 (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Average unit volume for 25 franchised studios open in 2023; median $552,520. All-studio (30) average was $551,741."
+    },
+    "totalUnits": {
+     "value": 50,
+     "source": "Perspire Sauna Studio 2025 FDD outlet tables (via Franchise Chatter); franchisor (~55 open)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "~44 open at end of 2023 (38 franchised + 6 company/affiliate); franchisor cites ~55 open and ~200 territories sold."
+    },
+    "yearFounded": {
+     "value": 2010,
+     "source": "Perspire Sauna Studio franchisor site (concept since 2010)",
+     "year": 2026,
+     "confidence": "medium"
+    },
+    "businessModelType": {
+     "value": "b2c",
+     "source": "Perspire Sauna Studio franchisor site (membership infrared-sauna studio)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "multiUnitAvailable": {
+     "value": true,
+     "source": "Perspire Sauna Studio 2025 FDD (Area Development Agreement, min $70,000 for two additional locations)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "customerAcquisitionModel": {
+     "value": "Monthly membership recurring revenue (infrared sauna + red light therapy) plus single-session sales",
+     "source": "Perspire Sauna Studio franchisor site",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "Perspire Sauna Studio 2025 FDD outlet tables (franchised units 17 -> 26 -> 44 across 2021-2023)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "Franchise Chatter 2025 FDD review; SHARPSHEETS",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Franchise Chatter 2025 FDD review (Item 19 disclosed)",
+     "year": 2025,
+     "confidence": "high"
+    }
+   }
+  },
+  {
+   "name": "Stretch Zone",
+   "slug": "stretch-zone",
+   "category": "Health & Wellness",
+   "website": "stretchzone.com",
+   "notes": "Practitioner-assisted stretching franchise (founded 2004; franchising since 2017), one of the fastest-growing wellness studio brands - 377 franchised, zero company-owned units, reportedly no closures to date. Membership-recurring-revenue model with a relatively low build cost. Franchisor publishes no public state list, so state availability is omitted.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Royalty stepping up from 6% to 7% mid-term",
+     "detail": "The 2025 FDD sets royalty at 6% of gross revenues, but for gross revenues accruing on or after January 1, 2025 through the balance of the initial term, it rises to 7% - an increase existing franchisees absorb, plus a 2% marketing fee (9% combined ongoing fees).",
+     "source": "Stretch Zone 2025 FDD (via Franchise Chatter review)",
+     "url": "https://www.franchisechatter.com/2025/12/09/stretch-zone-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "Modest median revenue against rapid system expansion",
+     "detail": "2025 FDD Item 19 reports a median annual gross revenue of ~$308,000 across 293 units operating 12+ months (down from ~$392K-$417K medians cited in prior years), even as the system scaled past 377 units - rapid growth has not lifted, and may be diluting, typical unit revenue.",
+     "source": "Stretch Zone 2025 FDD Item 19 (via Franchise Chatter review); prior-year FDD reviews",
+     "url": "https://www.franchisechatter.com/2025/12/09/stretch-zone-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Litigation/bankruptcy disclosed in FDD",
+     "detail": "Stretch Zone discloses lawsuits and/or bankruptcy information in its FDD (Items 3/4) per FDD-tracking services - prospects should review the current FDD's litigation section directly for specifics.",
+     "source": "Vetted Biz / VetMyFranchise Stretch Zone FDD analyses",
+     "url": "https://www.vettedbiz.com/franchises/stretch-zone",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 139000,
+     "source": "Stretch Zone 2025 FDD Item 7 (via Franchise Chatter and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "Prior (2024) FDD-derived range was $133,000-$241,000."
+    },
+    "totalInvestmentMax": {
+     "value": 320000,
+     "source": "Stretch Zone 2025 FDD Item 7 (via Franchise Chatter and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 59500,
+     "source": "Stretch Zone 2025 FDD (via Franchise Chatter and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 7,
+     "source": "Stretch Zone 2025 FDD (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "6% historically; rises to 7% of gross revenues for revenue accruing on/after 1/1/2025 through the balance of the initial term."
+    },
+    "adFundPercent": {
+     "value": 2,
+     "source": "Stretch Zone 2025 FDD (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "2% marketing fee; 9% combined ongoing fees."
+    },
+    "avgUnitRevenue": {
+     "value": 308000,
+     "source": "Stretch Zone 2025 FDD Item 19 (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "MEDIAN 2024 annual gross revenue across 293 units operating 12+ months (not a mean)."
+    },
+    "totalUnits": {
+     "value": 377,
+     "source": "Stretch Zone 2025 FDD outlet tables (via Franchise Chatter review)",
+     "year": 2025,
+     "confidence": "high",
+     "note": "All franchised; 0 company-owned."
+    },
+    "yearFounded": {
+     "value": 2004,
+     "source": "Franchise.org / IFA Stretch Zone listing",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2017,
+     "source": "Franchise.org / IFA Stretch Zone listing",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "veteranDiscount": {
+     "value": true,
+     "source": "SyncRevenue / Stretch Zone (recognized top franchise for veterans)",
+     "year": 2026,
+     "confidence": "medium",
+     "note": "Veteran program advertised; discount amount not clearly published."
+    },
+    "businessModelType": {
+     "value": "b2c",
+     "source": "Stretch Zone franchisor site (practitioner-assisted stretching membership studio)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "customerAcquisitionModel": {
+     "value": "Monthly membership recurring revenue (assisted-stretch sessions) plus single-session sales",
+     "source": "Stretch Zone franchisor site",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "Stretch Zone 2025 FDD outlet tables (377 units; reportedly no closures to date)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "Franchise Chatter 2025 FDD review; Vetted Biz",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "Franchise Chatter 2025 FDD review (Item 19 disclosed)",
+     "year": 2025,
+     "confidence": "high"
+    }
+   }
+  },
+  {
+   "name": "StretchMed",
+   "slug": "stretchmed",
+   "category": "Health & Wellness",
+   "website": "stretchmedstudios.com",
+   "notes": "One-on-one assisted-stretching studio franchise (founded 2019, MA; franchising since 2020) using PNF and static stretching in 25- and 50-minute sessions. Small, young system (~31 franchised studios). Membership-recurring-revenue model with a relatively low build cost. Franchisor publishes no public state list, so state availability is omitted.",
+   "riskFlags": [
+    {
+     "severity": "caution",
+     "title": "Very young, small system - limited operating track record",
+     "detail": "Founded 2019 and franchising only since 2020 with ~31 studios, StretchMed is an early-stage system; long-run unit economics rest on a thin base of seasoned locations, and the brand competes directly with far larger assisted-stretch franchisors (Stretch Zone ~377 units, StretchLab).",
+     "source": "SHARPSHEETS 2025 FDD analysis; Vetted Biz",
+     "url": "https://sharpsheets.io/blog/stretchmed-franchise-costs-profits/",
+     "year": 2025
+    },
+    {
+     "severity": "caution",
+     "title": "Crowded assisted-stretching category with larger competitors",
+     "detail": "Assisted stretching has rapidly commoditized, with StretchLab (Xponential) and Stretch Zone holding far larger footprints and marketing budgets; a sub-50-unit brand faces real competitive and brand-awareness disadvantages in shared markets.",
+     "source": "Assett Franchise analysis (StretchMed: built to last?); SHARPSHEETS best-stretching-franchises",
+     "url": "https://assettfranchise.com/stretchmed-a-trendy-franchise-but-is-it-built-to-last/",
+     "year": 2025
+    },
+    {
+     "severity": "info",
+     "title": "Membership-dependent model with thin reported profit",
+     "detail": "2025 FDD Item 19 indicates an average annual profit of roughly $110,000 per studio; as a membership concept, profitability hinges on member acquisition cost and churn, and the modest profit figure leaves limited cushion if a studio underperforms on memberships.",
+     "source": "StretchMed 2025 FDD Item 19 (via 1851 Franchise and Vetted Biz)",
+     "url": "https://1851franchise.com/stretchmed-franchise-costs-fees-profit-and-data-for-2025-2730334",
+     "year": 2025
+    }
+   ],
+   "fields": {
+    "totalInvestmentMin": {
+     "value": 118000,
+     "source": "StretchMed 2025 FDD Item 7 (via SHARPSHEETS and Vetted Biz)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "totalInvestmentMax": {
+     "value": 253000,
+     "source": "StretchMed 2025 FDD Item 7 (via SHARPSHEETS and Vetted Biz)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "franchiseFee": {
+     "value": 49500,
+     "source": "StretchMed 2025 FDD (via SHARPSHEETS and Vetted Biz)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "royaltyPercent": {
+     "value": 6,
+     "source": "StretchMed 2025 FDD (via Vetted Biz and SHARPSHEETS)",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "Sources cite 6-7% of gross revenue."
+    },
+    "avgUnitRevenue": {
+     "value": 110000,
+     "source": "StretchMed 2025 FDD Item 19 (via 1851 Franchise)",
+     "year": 2025,
+     "confidence": "low",
+     "note": "Reported as average annual PROFIT (~$110,000) per studio, not gross revenue - interpret accordingly."
+    },
+    "totalUnits": {
+     "value": 31,
+     "source": "Vetted Biz / 1851 Franchise StretchMed data",
+     "year": 2025,
+     "confidence": "medium",
+     "note": "~31 franchised studios; all franchised."
+    },
+    "yearFounded": {
+     "value": 2019,
+     "source": "Vetted Biz / 1851 Franchise (founded 2019, MA)",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "yearFranchising": {
+     "value": 2020,
+     "source": "Vetted Biz / 1851 Franchise",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "businessModelType": {
+     "value": "b2c",
+     "source": "StretchMed franchisor site (1-on-1 assisted-stretch membership studio)",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "customerAcquisitionModel": {
+     "value": "Monthly membership recurring revenue (PNF/static assisted-stretch sessions) plus single-session sales",
+     "source": "StretchMed franchisor site",
+     "year": 2026,
+     "confidence": "high"
+    },
+    "isGrowing": {
+     "value": true,
+     "source": "Vetted Biz / 1851 Franchise (early-stage system, growing from a small base)",
+     "year": 2025,
+     "confidence": "low"
+    },
+    "fddAvailable": {
+     "value": true,
+     "source": "SHARPSHEETS / Vetted Biz / FranchiseGrade 2025 FDD analyses",
+     "year": 2025,
+     "confidence": "high"
+    },
+    "item19Available": {
+     "value": true,
+     "source": "1851 Franchise / Vetted Biz (FDD includes financial performance representation)",
+     "year": 2025,
+     "confidence": "medium"
+    }
+   }
+  }
+ ]
+}
