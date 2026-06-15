@@ -1,0 +1,738 @@
+{
+  "brands": [
+    {
+      "name": "Toastique",
+      "slug": "toastique",
+      "category": "Food & Beverage",
+      "website": "toastique.com",
+      "notes": "Gourmet toast, smoothie, juice and coffee cafe concept founded in Washington, DC by former gymnast Brianna Keefe; franchising since 2019-2020. Fast-growing but young system (~36 US locations, mostly franchised) with a large signed-agreement pipeline that far exceeds open units. Franchisor markets nationwide development but does not publish a state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very young system with a signed-agreement pipeline far larger than open units",
+          "detail": "Toastique reports 85+ franchise partners and 160+ franchise agreements awarded against only ~36 open locations as of 2025. A pipeline several times the operating base depends on signees actually building out; most of the system is too new to have demonstrated durable unit economics.",
+          "source": "Toastique franchise site (our-story / team pages)",
+          "url": "https://toastique.com/pages/our-story",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Modest disclosed unit revenue against a high build cost",
+          "detail": "Vetted Biz FDD-derived Item 19 analysis cites ~$577,637 average yearly gross sales with an estimated 8.3-10.3 year payback, while total investment runs $370,117-$846,342 - a long payback profile for a food concept. The franchisor's own 2025 figure for units open 2+ years was $745,577 average, underscoring how much results depend on store maturity.",
+          "source": "Vetted Biz - Toastique Franchise Insights; SHARPSHEETS FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/toastique",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Lawsuit and/or bankruptcy information disclosed in FDD",
+          "detail": "FDD-tracking services note that Toastique discloses lawsuits and/or bankruptcy information in its 2025 FDD (Item 3/Item 4). Prospective buyers should request and review those disclosures directly.",
+          "source": "Vetted Biz - Toastique Franchise Insights (FDD Item 3/4 note)",
+          "url": "https://www.vettedbiz.com/franchises/toastique",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 100000, "source": "Vetted Biz - Toastique Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 370117, "source": "Vetted Biz - Toastique Franchise Insights; SHARPSHEETS FDD analysis", "year": 2025, "confidence": "high", "note": "FDD-derived range $370,117-$846,342; includes $55,000 franchise fee and $8,000 launch support fee."},
+        "totalInvestmentMax": {"value": 846342, "source": "Vetted Biz - Toastique Franchise Insights; SHARPSHEETS FDD analysis", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 55000, "source": "Vetted Biz - Toastique Franchise Insights; SHARPSHEETS FDD analysis", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz - Toastique Franchise Insights; SHARPSHEETS FDD analysis", "year": 2025, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS Toastique FDD analysis", "year": 2025, "confidence": "medium", "note": "Up to 2% of gross sales to the Brand Development Fund, plus a required 2% local marketing spend."},
+        "avgUnitRevenue": {"value": 577637, "source": "Vetted Biz - Toastique Franchise Insights (FDD-derived Item 19)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per Vetted Biz analysis; franchisor cites $745,577 average for units open 2+ years and a top unit of $1,122,669."},
+        "totalUnits": {"value": 36, "source": "Vetted Biz; SHARPSHEETS Toastique FDD analysis", "year": 2025, "confidence": "high", "note": "~36 US locations, roughly 30 franchised; +11 openings in the prior year."},
+        "yearFounded": {"value": 2018, "source": "Toastique franchise site (our-story); Vetted Biz", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2019, "source": "Vetted Biz - Toastique Franchise Insights", "year": 2025, "confidence": "medium", "note": "Vetted Biz lists 2019; the franchisor's narrative cites 2020 as the start of franchising."},
+        "isGrowing": {"value": true, "source": "Toastique franchise site; Vetted Biz", "year": 2025, "confidence": "high", "note": "+11 openings in the prior year on a small base; large signed-agreement pipeline."},
+        "businessModelType": {"value": "b2c", "source": "Toastique franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Toastique franchisor site (cafe storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz - Toastique 2025 FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Toastique Franchise Insights", "year": 2025, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - Toastique Franchise Insights (FDD discloses lawsuits and/or bankruptcy)", "year": 2025, "confidence": "low", "note": "FDD-tracking service flags lawsuit/bankruptcy disclosure; verify specifics in the FDD directly."}
+      }
+    },
+    {
+      "name": "Charleys Philly Steaks",
+      "slug": "charleys-philly-steaks",
+      "category": "Food & Beverage",
+      "website": "charleys.com",
+      "notes": "Also branded Charleys Cheesesteaks / Charleys Cheesesteaks & Wings; founded 1986 in Columbus, OH and franchised by Gosh Enterprises since 1991. Large, growing QSR cheesesteak system with 800+ total units, commonly placed in mall food courts and non-traditional venues (airports, travel plazas, military bases). Franchisor recruits nationally; no public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Royalty is the GREATER of 6% of sales or a $300/week floor",
+          "detail": "The 2025 FDD sets the royalty as the greater of $300 per week or 6% of gross sales, meaning a slow-volume unit still owes a fixed ~$15,600/year minimum regardless of revenue - a meaningful fixed-cost burden for a small-footprint food-court concept.",
+          "source": "Franchise Chatter 2025 FDD review",
+          "url": "https://www.franchisechatter.com/2025/12/10/charleys-philly-steaks-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Stacked marketing obligation (3% of sales) on top of royalty",
+          "detail": "Beyond the royalty, franchisees owe 3% of gross sales for advertising - 1% to the marketing fund and 2% mandatory local store marketing - so combined ongoing fees approach 9% of sales before rent and food cost.",
+          "source": "Franchise Chatter 2025 FDD review; Franchise Direct",
+          "url": "https://www.franchisechatter.com/2025/12/10/charleys-philly-steaks-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Median below average unit revenue (right-skewed Item 19)",
+          "detail": "2024 Item 19 showed an average of $911,062 across 641 franchised locations open the full year, but the median was lower at $813,041 - a right-skewed distribution in which a typical unit earns less than the headline average suggests.",
+          "source": "Franchise Chatter 2025 FDD review",
+          "url": "https://www.franchisechatter.com/2025/12/10/charleys-philly-steaks-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 175000, "source": "SHARPSHEETS; Franchise Gator Charleys summaries", "year": 2025, "confidence": "medium", "note": "Some sources cite $100,000-$175,000 liquid depending on FDD version/format."},
+        "netWorthMin": {"value": 500000, "source": "SHARPSHEETS; Franchise Gator Charleys summaries", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 203736, "source": "Charleys Philly Steaks 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "FDD Item 7 range $203,736-$694,249, excluding real estate purchase."},
+        "totalInvestmentMax": {"value": 694249, "source": "Charleys Philly Steaks 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 24500, "source": "Charleys Philly Steaks 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "FDD discloses $15,000-$24,500 depending on store type."},
+        "royaltyPercent": {"value": 6, "source": "Charleys Philly Steaks 2025 FDD (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Greater of $300/week or 6% of gross sales."},
+        "adFundPercent": {"value": 3, "source": "Charleys Philly Steaks 2025 FDD (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "3% of gross sales total: 1% marketing fund + 2% local store marketing."},
+        "avgUnitRevenue": {"value": 911062, "source": "Charleys Philly Steaks 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross sales across 641 franchised locations open the full year; median $813,041."},
+        "totalUnits": {"value": 813, "source": "Charleys Philly Steaks 2025 FDD outlet tables (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "744 franchised + 69 company-owned."},
+        "yearFounded": {"value": 1986, "source": "Charleys / Franchise Direct; Wikipedia (Charleys Cheesesteaks)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1991, "source": "Franchise Direct; Charleys franchise site", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Franchise Direct; Charleys franchise site", "year": 2025, "confidence": "high", "note": "50% off the initial franchise fee for qualified veterans."},
+        "isGrowing": {"value": true, "source": "Charleys 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "medium", "note": "Large 800+ unit system in active national expansion."},
+        "businessModelType": {"value": "b2c", "source": "Charleys franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Charleys franchisor site (food-court / inline storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz / SHARPSHEETS (current FDD discloses no lawsuits or bankruptcy)", "year": 2025, "confidence": "medium", "note": "An older FDD disclosed an Escape Enterprises suit settled out of court in 2009; current FDD reports none."}
+      }
+    },
+    {
+      "name": "El Pollo Loco",
+      "slug": "el-pollo-loco",
+      "category": "Food & Beverage",
+      "website": "elpolloloco.com",
+      "notes": "Fire-grilled (citrus-marinated) chicken QSR founded 1975 in Los Angeles; franchising since 1980. Publicly traded (Nasdaq: LOCO) with ~499 restaurants split between company-operated and franchised units, heavily concentrated in California and the Southwest. Franchisor recruits multi-unit developers in target markets; no public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Heavy geographic concentration in California / Southwest",
+          "detail": "The system is overwhelmingly concentrated in California with the balance in Arizona, Nevada, Texas, Utah and a few other Sunbelt states. That exposes franchisees to California's fast-food wage floor ($20+ minimum), the FAST Act regulatory regime, and high real-estate costs; total investment runs up to ~$2.69M per restaurant.",
+          "source": "Wikipedia (El Pollo Loco); SHARPSHEETS FDD analysis",
+          "url": "https://en.wikipedia.org/wiki/El_Pollo_Loco",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Securities litigation settled for $36M",
+          "detail": "Following its 2014 IPO, El Pollo Loco Holdings faced securities class-action and shareholder derivative litigation (alleging misleading disclosures); the company reported paying $36M in a fourth quarter to settle lawsuits. Parent-level litigation does not bind franchisees directly but signals governance/disclosure risk in the system.",
+          "source": "Restaurant Business; Business Wire shareholder alert",
+          "url": "https://www.restaurantbusinessonline.com/operations/el-pollo-loco-paid-36m-q4-settle-lawsuits",
+          "year": 2018
+        },
+        {
+          "severity": "info",
+          "title": "Franchisee encroachment dispute over new-unit proximity",
+          "detail": "A California franchisee successfully argued in court that El Pollo Loco harmed existing-unit sales by opening new restaurants too close, a ruling that pressured the franchisor to renegotiate franchise agreements - illustrating territory/encroachment risk in a dense home market.",
+          "source": "Restaurant industry coverage (encroachment ruling)",
+          "url": "https://en.wikipedia.org/wiki/El_Pollo_Loco",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 255000, "source": "Vetted Biz - El Pollo Loco Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 793750, "source": "El Pollo Loco 2025 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high", "note": "FDD Item 7 range $793,750-$2,685,500; includes $80,500-$167,500 paid to franchisor/affiliate."},
+        "totalInvestmentMax": {"value": 2685500, "source": "El Pollo Loco 2025 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "Vetted Biz - El Pollo Loco Franchise Insights", "year": 2025, "confidence": "high", "note": "Development agreements run $20,000 per restaurant, credited toward each unit's initial franchise fee."},
+        "royaltyPercent": {"value": 5, "source": "El Pollo Loco 2025 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 5, "source": "El Pollo Loco 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "Marketing contribution ~4-5% of gross sales (SHARPSHEETS cites 4%, Vetted Biz cites 5%)."},
+        "avgUnitRevenue": {"value": 2062881, "source": "Vetted Biz - El Pollo Loco Franchise Insights (FDD-derived Item 19)", "year": 2025, "confidence": "high", "note": "Yearly gross sales per Vetted Biz; systemwide AUV cited at ~$2.2M (Q2 2025), with newer prototypes near $2.4M."},
+        "totalUnits": {"value": 499, "source": "El Pollo Loco Holdings 10-Q (FY2025); SHARPSHEETS", "year": 2025, "confidence": "high", "note": "~499 total restaurants: 325 franchised + 174 company-operated as of Q2 2025."},
+        "franchisedUnits": {"value": 325, "source": "El Pollo Loco Holdings 10-Q (FY2025)", "year": 2025, "confidence": "high"},
+        "companyOwnedUnits": {"value": 174, "source": "El Pollo Loco Holdings 10-Q (FY2025)", "year": 2025, "confidence": "high"},
+        "yearFounded": {"value": 1975, "source": "Vetted Biz; Wikipedia (El Pollo Loco)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1980, "source": "Vetted Biz - El Pollo Loco Franchise Insights", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "El Pollo Loco Holdings investor materials; QSR Magazine 2026 growth coverage", "year": 2025, "confidence": "medium", "note": "Franchisor guiding to renewed system growth in 2026 with a strengthening franchisee development pipeline."},
+        "businessModelType": {"value": "b2c", "source": "El Pollo Loco franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "El Pollo Loco franchisor site (restaurant model)", "year": 2025, "confidence": "high"},
+        "publiclyTraded": {"value": true, "source": "SEC EDGAR - El Pollo Loco Holdings, Inc. (Nasdaq: LOCO)", "year": 2025, "confidence": "high"},
+        "franchisorFinancialsAvailable": {"value": true, "source": "SEC EDGAR - El Pollo Loco Holdings 10-Q/10-K filings", "year": 2025, "confidence": "high", "note": "Public-company financials filed with the SEC."},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange - El Pollo Loco 2025 FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz; SHARPSHEETS (FDD Item 19)", "year": 2025, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - El Pollo Loco Franchise Insights (FDD discloses lawsuits and/or bankruptcy)", "year": 2025, "confidence": "low", "note": "FDD-tracking service flags lawsuit/bankruptcy disclosure; verify specifics in the FDD."}
+      }
+    },
+    {
+      "name": "Bonchon",
+      "slug": "bonchon",
+      "category": "Food & Beverage",
+      "website": "bonchon.com",
+      "notes": "Korean fried chicken franchise (double-fried, hand-brushed with soy-garlic or spicy sauces) founded 2002 in Busan, South Korea; US franchising began circa 2010-2011. ~147 US locations across dine-in, fast-casual, delivery/carryout, and remote-kitchen formats. Franchisor targets US expansion (stated goal to roughly double US presence); no public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High build cost for a dine-in format (up to ~$1.31M)",
+          "detail": "The 2025 FDD prices a Dine-In Restaurant at $1,005,136-$1,312,626. Even with strong AUVs (~$1.36M-$1.63M), the heavy buildout creates a multi-year payback (Vetted Biz estimates ~6.8-8.8 years) and amplifies downside if a site underperforms.",
+          "source": "Bonchon 2025 FDD (via SHARPSHEETS and Franchise Chatter); Vetted Biz",
+          "url": "https://sharpsheets.io/blog/bonchon-franchise-costs-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Wide format spread complicates Item 19 comparison",
+          "detail": "2024 Item 19 splits performance across four very different formats - 104 dine-in, 15 fast-casual, and 2 remote-kitchen franchised units open the full year - so the headline average is not representative of any single format a prospective franchisee would build.",
+          "source": "Franchise Chatter 2025 Bonchon FDD review",
+          "url": "https://www.franchisechatter.com/2025/10/01/bonchon-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Lawsuit and/or bankruptcy information disclosed in FDD",
+          "detail": "FDD-tracking services report that Bonchon discloses lawsuits and/or bankruptcy information in its 2025 FDD (Item 3/Item 4). Prospective buyers should review those disclosures directly.",
+          "source": "Vetted Biz - Bonchon Franchise Insights (FDD Item 3/4 note)",
+          "url": "https://www.vettedbiz.com/bonchon-franchise/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 215000, "source": "Vetted Biz - Bonchon Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 262782, "source": "Bonchon 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "Range spans formats: Remote Kitchen $262,782-$434,772; Delivery/Carryout $591,436-$837,376; Fast Casual $775,036-$1,077,926; Dine-In $1,005,136-$1,312,626."},
+        "totalInvestmentMax": {"value": 1312626, "source": "Bonchon 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "Top of the Dine-In Restaurant range."},
+        "franchiseFee": {"value": 35000, "source": "Bonchon 2025 FDD (via SHARPSHEETS); Vetted Biz", "year": 2025, "confidence": "high", "note": "$35,000 (FDD lists $35,100-$35,200 paid to franchisor/affiliate including related fees)."},
+        "royaltyPercent": {"value": 5, "source": "Bonchon 2025 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high", "note": "5% of gross revenue."},
+        "adFundPercent": {"value": 2.5, "source": "Bonchon 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "medium", "note": "Marketing fee 2.5%-5% of gross revenue (Vetted Biz cites 2%)."},
+        "avgUnitRevenue": {"value": 1358173, "source": "Vetted Biz - Bonchon Franchise Insights (FDD-derived Item 19)", "year": 2025, "confidence": "medium", "note": "Yearly gross revenue per Vetted Biz; other FDD-derived sources cite a ~$1.62M dine-in average for the 104 full-year dine-in units."},
+        "totalUnits": {"value": 147, "source": "Vetted Biz - Bonchon Franchise Insights", "year": 2025, "confidence": "high", "note": "US locations across all formats; predominantly franchised."},
+        "yearFounded": {"value": 2002, "source": "Wikipedia (Bonchon Chicken); Restaurant Dive", "year": 2025, "confidence": "high", "note": "Founded 2002 in Busan, South Korea by Jinduk Seh; Vetted Biz lists a 2009 US-entity founding date."},
+        "yearFranchising": {"value": 2011, "source": "Vetted Biz - Bonchon Franchise Insights", "year": 2025, "confidence": "medium", "note": "US franchising circa 2010-2011; some sources cite 2010."},
+        "isGrowing": {"value": true, "source": "Restaurant Dive (Bonchon US pipeline coverage)", "year": 2025, "confidence": "medium", "note": "Franchisor has publicly targeted roughly doubling its US footprint."},
+        "businessModelType": {"value": "b2c", "source": "Bonchon franchisor site", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Wikipedia (Bonchon Chicken) - global Korean-founded brand", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange - Bonchon 2025 FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 Bonchon FDD review", "year": 2025, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - Bonchon Franchise Insights (FDD discloses lawsuits and/or bankruptcy)", "year": 2025, "confidence": "low", "note": "FDD-tracking service flag; verify specifics in the FDD."}
+      }
+    },
+    {
+      "name": "Long John Silver's",
+      "slug": "long-john-silvers",
+      "category": "Food & Beverage",
+      "website": "ljsilvers.com",
+      "notes": "America's largest quick-service seafood chain (founded 1969, Louisville, KY); franchisees bought the brand from Yum! Brands in 2011, and it is now controlled by Four Oaks Partners. Still actively franchising, but the brand is in long-term contraction - down roughly 60% from its 2007 peak. Franchisor recruits nationally; no public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "severe",
+          "title": "Long-term system contraction of roughly 60%",
+          "detail": "Locations peaked at 1,081 in 2007 and fell to ~482 by 2024 (and as few as ~375 per the brand's store locator) - about 706 closures since 2008. In 2024 alone, unit count declined 10.6% and systemwide sales fell 10.1% to $268.2M. This is a shrinking system, not a growing one.",
+          "source": "Nation's Restaurant News; TheStreet; Wikipedia (Long John Silver's)",
+          "url": "https://www.nrn.com/top-500-restaurants/here-are-the-restaurant-chains-that-lost-double-digit-sales-in-2024",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee Chapter 7 bankruptcy reported",
+          "detail": "A Long John Silver's franchisee closed and filed Chapter 7 bankruptcy, reflecting margin pressure across the system from a reported ~35% rise in labor and food costs between 2019 and 2025 - directly relevant to new-franchisee underwriting.",
+          "source": "TheStreet; MSN (franchisee Chapter 7 coverage)",
+          "url": "https://www.thestreet.com/restaurants/long-john-silvers-franchisee-files-chapter-7-bankruptcy",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Very low disclosed AUV relative to investment",
+          "detail": "Vetted Biz FDD-derived Item 19 cites only ~$517,941 average yearly gross sales against a high build-out (FDD Item 7 up to ~$2.2M-$4.16M for new traditional units), implying an extremely long payback. The economics are far more favorable for conversions/existing sites than ground-up new builds.",
+          "source": "Vetted Biz - Long John Silver's Franchise Insights (FDD Item 19); SHARPSHEETS",
+          "url": "https://www.vettedbiz.com/franchises/long-john-silvers",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 495000, "source": "Vetted Biz - Long John Silver's Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 677500, "source": "SHARPSHEETS; Vetted Biz (Long John Silver's FDD analysis)", "year": 2025, "confidence": "medium", "note": "Lower-cost format/conversion range; new traditional restaurants run materially higher (FDD Item 7 up to ~$1,902,500-$4,160,000)."},
+        "totalInvestmentMax": {"value": 4160000, "source": "Long John Silver's 2025 FDD Item 7 (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "medium", "note": "Top of the ground-up new-build range."},
+        "franchiseFee": {"value": 35000, "source": "Vetted Biz; SHARPSHEETS (Long John Silver's FDD)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Vetted Biz; SHARPSHEETS (Long John Silver's FDD)", "year": 2025, "confidence": "high", "note": "5% of gross sales for traditional formats; some non-traditional formats up to 6%."},
+        "adFundPercent": {"value": 5, "source": "Vetted Biz; SHARPSHEETS (Long John Silver's FDD)", "year": 2025, "confidence": "high", "note": "5% of gross sales for traditional restaurants; non-traditional formats around 1%."},
+        "avgUnitRevenue": {"value": 517941, "source": "Vetted Biz - Long John Silver's Franchise Insights (FDD-derived Item 19)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per Vetted Biz analysis."},
+        "totalUnits": {"value": 482, "source": "Nation's Restaurant News (2024 Top 500)", "year": 2025, "confidence": "medium", "note": "~482 locations in 2024 (down 10.6% YoY); the brand's store locator has shown as few as ~375; >1,200 cited worldwide including international."},
+        "yearFounded": {"value": 1969, "source": "Vetted Biz; Wikipedia (Long John Silver's)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1969, "source": "Vetted Biz - Long John Silver's Franchise Insights", "year": 2025, "confidence": "medium"},
+        "trainingWeeks": {"value": 4, "source": "Vetted Biz - Long John Silver's Franchise Insights", "year": 2025, "confidence": "medium", "note": "Four-week program at a designated training facility."},
+        "isGrowing": {"value": false, "source": "Nation's Restaurant News; TheStreet (unit/sales declines)", "year": 2025, "confidence": "high", "note": "Multi-year contraction; -10.6% units and -10.1% sales in 2024."},
+        "businessModelType": {"value": "b2c", "source": "Long John Silver's franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Long John Silver's franchisor site (restaurant model)", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Long John Silver's franchisor materials (international presence)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange - Long John Silver's FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Long John Silver's Franchise Insights", "year": 2025, "confidence": "medium"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - Long John Silver's Franchise Insights (FDD discloses lawsuits and/or bankruptcy)", "year": 2025, "confidence": "low", "note": "FDD-tracking service flag; verify specifics in the FDD."}
+      }
+    },
+    {
+      "name": "Church's Texas Chicken",
+      "slug": "churchs-texas-chicken",
+      "category": "Food & Beverage",
+      "website": "churchs.com",
+      "notes": "Bone-in fried chicken QSR founded 1952 in San Antonio, TX (rebranded from Church's Chicken to Church's Texas Chicken); franchised by Cajun Global / Cajun Operating Company. ~1,500-1,700 locations worldwide. Acquired by High Bluff Capital Partners and FS Investments funds in 2021. Franchisor recruits multi-unit operators nationally; no public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "No Item 19 financial performance disclosure",
+          "detail": "Church's does not provide an Item 19 financial performance representation in its 2025 FDD, so prospective franchisees get no franchisor-sourced revenue or profit figures and must validate unit economics solely by interviewing existing operators - a material due-diligence gap given build costs up to ~$1.8M.",
+          "source": "SHARPSHEETS Church's Texas Chicken FDD analysis; Vetted Biz",
+          "url": "https://sharpsheets.io/blog/churchs-texas-chicken-fees-sales-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Repeated private-equity ownership changes",
+          "detail": "Church's was acquired by High Bluff Capital Partners (owners of Quiznos and Taco Del Mar) with FS Investments funds in 2021, the latest in a series of ownership changes for the brand. PE owners can shift development priorities, fees, and supply arrangements during a hold period.",
+          "source": "Business Wire (2021 acquisition); Wikipedia (Church's Texas Chicken)",
+          "url": "https://www.businesswire.com/news/home/20210802005473/en/Church%E2%80%99s-Chicken%C2%AE-To-Be-Acquired-by-High-Bluff-Capital-Partners-and-Investment-Funds-Managed-by-FS-Investments",
+          "year": 2021
+        },
+        {
+          "severity": "info",
+          "title": "High and rising build cost across formats",
+          "detail": "2025 FDD Item 7 ranges from ~$644,366 (End Cap Blaze Image) up to ~$1,808,972 (1400 Blaze Image new free-standing), each including $50,000 paid to the franchisor (development fee, initial fee, and grand-opening marketing). Heavy capital intensity with no disclosed AUV to benchmark against.",
+          "source": "Church's Texas Chicken 2025 FDD (via SHARPSHEETS and The FDD Exchange)",
+          "url": "https://fddexchange.com/churchs-texas-chicken-2025-fdd-franchise-information-costs-and-fees/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 644366, "source": "Church's Texas Chicken 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "End Cap Blaze Image Model low end; new free-standing models run higher ($1,114,650-$1,808,972)."},
+        "totalInvestmentMax": {"value": 1808972, "source": "Church's Texas Chicken 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "1400 Blaze Image Model new free-standing high end."},
+        "franchiseFee": {"value": 20000, "source": "Church's Texas Chicken 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "$20,000 initial franchise fee; the FDD also requires a $10,000 development fee and $15,500 grand-opening marketing (~$50,000 paid to Cajun in total)."},
+        "royaltyPercent": {"value": 5, "source": "Church's Texas Chicken 2025 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 5, "source": "Church's Texas Chicken 2025 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high", "note": "5% of gross sales for national and local advertising."},
+        "totalUnits": {"value": 1573, "source": "SHARPSHEETS Church's Texas Chicken FDD analysis", "year": 2025, "confidence": "medium", "note": "~1,573 system units; brand has historically cited 1,500-1,700 locations across ~25 countries."},
+        "yearFounded": {"value": 1952, "source": "Wikipedia (Church's Texas Chicken); Business Wire", "year": 2025, "confidence": "high", "note": "Founded by George W. Church Sr. in San Antonio, TX."},
+        "yearFranchising": {"value": 1969, "source": "Wikipedia (Church's Texas Chicken); Franchise Direct", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "SHARPSHEETS; Franchise Times Top 400 (mature, slow-growth domestic base)", "year": 2025, "confidence": "low", "note": "Large mature system; domestic growth has been modest with international development the larger lever."},
+        "businessModelType": {"value": "b2c", "source": "Church's franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Church's franchisor site (restaurant model)", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Wikipedia (Church's Texas Chicken) - ~25 countries", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange - Church's Texas Chicken 2025 FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "SHARPSHEETS; Vetted Biz (FDD contains no Item 19)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Krystal",
+      "slug": "krystal",
+      "category": "Food & Beverage",
+      "website": "krystal.com",
+      "notes": "One of America's oldest fast-food burger chains (small square 'Krystal' sliders), founded 1932 in Chattanooga, TN. Owned by SPB Hospitality since 2023 (after Fortress Investment Group bought it out of bankruptcy in 2020). ~280 units concentrated in the Southeast. Still franchising; no public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "severe",
+          "title": "Chapter 11 bankruptcy in 2020 (its second)",
+          "detail": "The Krystal Company filed for Chapter 11 bankruptcy in January 2020 - its second bankruptcy - citing debts of $50M-$100M, after which Fortress Investment Group acquired it out of bankruptcy. SPB Hospitality then bought Krystal in 2023. A recent bankruptcy and repeated ownership turnover are material stability risks for prospective franchisees.",
+          "source": "Nation's Restaurant News; AJC; Today (2020 Chapter 11 coverage)",
+          "url": "https://www.nrn.com/quick-service/krystal-burger-restaurant-chain-files-for-chapter-11-bankruptcy",
+          "year": 2020
+        },
+        {
+          "severity": "caution",
+          "title": "Heavy geographic concentration in the Southeast",
+          "detail": "Krystal's footprint is concentrated in the southeastern US, leaving the system exposed to regional economic, weather, and labor conditions and limiting the comparable-unit data available to franchisees evaluating new markets outside that core.",
+          "source": "Encyclopedia.com / FundingUniverse (Krystal Company history)",
+          "url": "https://www.fundinguniverse.com/company-histories/the-krystal-company-history/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Majority company-owned with ownership-driven strategy shifts",
+          "detail": "At year-end 2024 the system was ~280 units (about 156 franchised + 124 company-owned), and control passed Fortress -> SPB Hospitality in 2023. A majority-corporate, recently-traded system means franchise development priorities can change with the owner's portfolio strategy.",
+          "source": "SHARPSHEETS Krystal FDD analysis; Franchise Times",
+          "url": "https://sharpsheets.io/blog/krystal-franchise-fdd-profits-costs/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 225000, "source": "Vetted Biz - Krystal Franchise Insights", "year": 2024, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 787700, "source": "Krystal 2024 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2024, "confidence": "high", "note": "FDD Item 7 range ~$787,700-$2,160,000."},
+        "totalInvestmentMax": {"value": 2160000, "source": "Krystal 2024 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2024, "confidence": "high"},
+        "franchiseFee": {"value": 35000, "source": "Krystal 2024 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2024, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Krystal 2024 FDD (via SHARPSHEETS and Vetted Biz)", "year": 2024, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 4.5, "source": "SHARPSHEETS Krystal FDD analysis", "year": 2024, "confidence": "medium", "note": "Marketing fee ~4.5%-5% of gross sales (Vetted Biz cites 5%)."},
+        "avgUnitRevenue": {"value": 964054, "source": "Vetted Biz - Krystal Franchise Insights (FDD-derived Item 19)", "year": 2024, "confidence": "medium", "note": "Average yearly gross sales per Vetted Biz analysis."},
+        "totalUnits": {"value": 280, "source": "SHARPSHEETS Krystal FDD analysis", "year": 2024, "confidence": "high", "note": "Year-end 2024: ~156 franchised + 124 company-owned."},
+        "franchisedUnits": {"value": 156, "source": "SHARPSHEETS Krystal FDD analysis", "year": 2024, "confidence": "medium"},
+        "companyOwnedUnits": {"value": 124, "source": "SHARPSHEETS Krystal FDD analysis", "year": 2024, "confidence": "medium"},
+        "yearFounded": {"value": 1932, "source": "Encyclopedia.com; Today; NRN (Krystal history)", "year": 2024, "confidence": "high", "note": "Brand founded 1932 in Chattanooga, TN; the current franchisor entity dates to the post-2020 restructuring."},
+        "isGrowing": {"value": false, "source": "SHARPSHEETS; NRN (post-bankruptcy contraction and ownership churn)", "year": 2024, "confidence": "low", "note": "System has contracted from ~300+ pre-bankruptcy units toward ~280."},
+        "businessModelType": {"value": "b2c", "source": "Krystal franchisor site", "year": 2024, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Krystal franchisor site (restaurant model)", "year": 2024, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange - Krystal 2024 FDD", "year": 2024, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Krystal Franchise Insights", "year": 2024, "confidence": "medium"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - Krystal Franchise Insights; NRN (2020 Chapter 11)", "year": 2024, "confidence": "high", "note": "FDD discloses bankruptcy; the brand itself filed Chapter 11 in 2020."}
+      }
+    },
+    {
+      "name": "Checkers & Rally's",
+      "slug": "checkers-and-rallys",
+      "category": "Food & Beverage",
+      "website": "checkers.com",
+      "notes": "Double drive-thru burger QSR operating two sister brands (Checkers, founded 1986 in Mobile, AL; Rally's), now under one franchisor backed by Oak Hill Capital Partners (acquired 2017 for $525M). ~484 system units (with a much larger combined-brand footprint historically). Franchisor recruits multi-unit operators; no public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "System contraction since the 2017 PE acquisition",
+          "detail": "Combined Checkers & Rally's units have declined from ~840 around the 2017 Oak Hill acquisition toward ~745 by 2024 and ~484 in current FDD-tracked counts, reflecting net closures and store-base rationalization rather than expansion.",
+          "source": "Nation's Restaurant News; SHARPSHEETS; Franchise Chatter 2025 FDD review",
+          "url": "https://www.franchisechatter.com/2025/10/06/checkers-rallys-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Private-equity ownership with follow-on capital injections",
+          "detail": "Oak Hill Capital Partners acquired Checkers & Rally's in 2017 for $525M and later put in additional capital (a reported $20M investment) - signs of a system needing balance-sheet support, and a reminder that PE owners can change fees, supply terms, and development priorities during the hold.",
+          "source": "Restaurant Dive; Oak Hill / PR Newswire (2017 acquisition)",
+          "url": "https://www.restaurantdive.com/news/checkers-rallys-parent-lands-20m-in-private-equity-funding/593130/",
+          "year": 2020
+        },
+        {
+          "severity": "info",
+          "title": "Wide build-cost range with very high top end",
+          "detail": "2025 FDD Item 7 spans from ~$123,630 (gas station/non-traditional/Walmart) up to ~$2,132,493 (modular drive-thru) and ~$1,877,201 (site-built), so traditional drive-thru economics carry seven-figure capital risk against a ~$1.09M-$1.12M average net sales figure.",
+          "source": "Checkers & Rally's 2025 FDD (via Franchise Chatter and SHARPSHEETS)",
+          "url": "https://sharpsheets.io/blog/checkers-franchises-profits-sales-costs/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 123630, "source": "Checkers & Rally's 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "Gas station/convenience/Walmart/non-traditional low end; traditional modular drive-thru runs $514,920-$2,132,493."},
+        "totalInvestmentMax": {"value": 2132493, "source": "Checkers & Rally's 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "Modular design drive-thru high end (excludes real estate)."},
+        "royaltyPercent": {"value": 4, "source": "Checkers & Rally's 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "4% of net sales for traditional sites; 2% for non-traditional sites."},
+        "adFundPercent": {"value": 4.5, "source": "Checkers & Rally's 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "4.5% of gross sales for national/regional advertising."},
+        "avgUnitRevenue": {"value": 1090000, "source": "Checkers & Rally's 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "2024 average net sales ~$1.09M for Checkers and ~$1.12M for Rally's restaurants open at least 350 days; see FDD for brand- and ownership-type breakdowns."},
+        "totalUnits": {"value": 484, "source": "Checkers & Rally's 2025 FDD outlet tables (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "medium", "note": "~362 franchised + 122 company-owned per FDD-tracked counts; the combined-brand footprint has been reported higher (~745 in 2024)."},
+        "franchisedUnits": {"value": 362, "source": "SHARPSHEETS Checkers & Rally's FDD analysis", "year": 2025, "confidence": "medium"},
+        "companyOwnedUnits": {"value": 122, "source": "SHARPSHEETS Checkers & Rally's FDD analysis", "year": 2025, "confidence": "medium"},
+        "yearFounded": {"value": 1986, "source": "Wikipedia (Checkers and Rally's); QSR Magazine", "year": 2025, "confidence": "high", "note": "Checkers founded 1986 in Mobile, AL; Rally's merged in later."},
+        "isGrowing": {"value": false, "source": "Nation's Restaurant News; SHARPSHEETS (net unit declines since 2017)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Checkers & Rally's franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Checkers & Rally's franchisor site (drive-thru restaurant model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange - Checkers / Rally's 2025 FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Fatburger",
+      "slug": "fatburger",
+      "category": "Food & Beverage",
+      "website": "fatburger.com",
+      "notes": "Premium 'Fat' burger QSR founded 1952 in Los Angeles; franchising since 1990. Owned by publicly traded multi-brand franchisor FAT Brands Inc. (Nasdaq: FAT). Typically sold as multi-unit development deals (3-5 units). All US locations franchised. No public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "severe",
+          "title": "Parent FAT Brands chairman federally indicted in $47M loan scheme (charges later dropped)",
+          "detail": "FAT Brands chairman/controlling shareholder Andrew Wiederhorn was indicted in May 2024 on wire-fraud and false-statement counts tied to ~$47M in distributions characterized as 'shareholder loans,' with ~$27M alleged to have funded personal expenses. The DOJ dropped the criminal charges in July 2025, but the episode reflects serious governance and disclosure risk at the parent that controls the Fatburger franchise system.",
+          "source": "QSR Magazine; Restaurant Dive; CNBC; DOJ (USAO-CDCA)",
+          "url": "https://www.qsrmagazine.com/story/fat-brands-chairman-andy-wiederhorn-indicted-on-federal-charges/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Combined royalty + ad fees near ~10% of sales with long payback",
+          "detail": "Fatburger charges a 6% royalty plus a 3-4% marketing contribution, and Vetted Biz FDD-derived analysis estimates a long payback of roughly 13.9-15.9 years against ~$1.08M average sales - heavy ongoing fees relative to the disclosed unit economics.",
+          "source": "Vetted Biz - Fatburger Franchise Insights (FDD Item 19); SHARPSHEETS",
+          "url": "https://www.vettedbiz.com/franchises/fatburger",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Multi-unit commitment typically required",
+          "detail": "New Fatburger franchisees are generally expected to commit to a multi-unit development deal (commonly 3-5 restaurants over several years) with a $1.5M net worth / $500K liquid threshold - raising the capital bar and concentration risk versus a single-unit start.",
+          "source": "Franchise Help; SHARPSHEETS (Fatburger requirements)",
+          "url": "https://www.franchisehelp.com/franchises/fatburger/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 500000, "source": "Franchise Help; SHARPSHEETS (Fatburger requirements)", "year": 2025, "confidence": "medium", "note": "Vetted Biz lists $210,000 minimum liquid; the franchisor's multi-unit threshold is commonly cited at $500,000 liquid."},
+        "netWorthMin": {"value": 1500000, "source": "Franchise Help; SHARPSHEETS (Fatburger requirements)", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 517300, "source": "Fatburger 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "FDD Item 7 range ~$517,300-$2,656,900 (some directory summaries cite $509,000-$1,695,000)."},
+        "totalInvestmentMax": {"value": 2656900, "source": "Fatburger 2025 FDD (via Vetted Biz)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 50000, "source": "Fatburger 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Fatburger 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "6% of net sales."},
+        "adFundPercent": {"value": 4, "source": "SHARPSHEETS Fatburger FDD analysis", "year": 2025, "confidence": "medium", "note": "Marketing contribution ~3-4% of net sales (Vetted Biz cites 3%, SHARPSHEETS cites 4%)."},
+        "avgUnitRevenue": {"value": 1077512, "source": "Vetted Biz - Fatburger Franchise Insights (FDD-derived Item 19)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per Vetted Biz analysis."},
+        "totalUnits": {"value": 88, "source": "Vetted Biz - Fatburger Franchise Insights", "year": 2025, "confidence": "medium", "note": "~88 US locations (all franchised); ~193 worldwide including international per other directory summaries."},
+        "yearFounded": {"value": 1952, "source": "Vetted Biz - Fatburger Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1990, "source": "Vetted Biz - Fatburger Franchise Insights", "year": 2025, "confidence": "high"},
+        "multiUnitAvailable": {"value": true, "source": "Franchise Help; SHARPSHEETS (multi-unit development standard)", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "FAT Brands development materials (active franchise recruitment)", "year": 2025, "confidence": "low", "note": "Franchisor markets active expansion; verify net US unit trend in the FDD outlet tables."},
+        "businessModelType": {"value": "b2c", "source": "Fatburger franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Fatburger franchisor site (restaurant model)", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Vetted Biz; FAT Brands (international Fatburger locations)", "year": 2025, "confidence": "high"},
+        "publiclyTraded": {"value": true, "source": "SEC EDGAR - FAT Brands Inc. (Nasdaq: FAT)", "year": 2025, "confidence": "high", "note": "Parent franchisor FAT Brands is public; Fatburger itself is a brand within it."},
+        "franchisorFinancialsAvailable": {"value": true, "source": "SEC EDGAR - FAT Brands Inc. filings", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; FranChimp - Fatburger 2025 FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Fatburger Franchise Insights", "year": 2025, "confidence": "medium"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - Fatburger Franchise Insights (FDD discloses lawsuits and/or bankruptcy)", "year": 2025, "confidence": "low", "note": "FDD-tracking service flag; verify specifics in the FDD."}
+      }
+    },
+    {
+      "name": "Johnny Rockets",
+      "slug": "johnny-rockets",
+      "category": "Food & Beverage",
+      "website": "johnnyrockets.com",
+      "notes": "Retro American diner/burger concept founded 1986 in Los Angeles; franchising since 1987. Owned by publicly traded FAT Brands Inc. (Nasdaq: FAT), which acquired it in 2020 for ~$25M. ~100 US locations (and traditionally many non-traditional/international venues like cruise ships and malls). No public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "severe",
+          "title": "Parent FAT Brands chairman federally indicted in $47M loan scheme (charges later dropped)",
+          "detail": "FAT Brands chairman/controlling shareholder Andrew Wiederhorn was indicted in May 2024 on wire-fraud and false-statement counts tied to ~$47M characterized as 'shareholder loans,' ~$27M of which allegedly funded personal expenses. The DOJ dropped the criminal charges in July 2025, but the matter reflects serious governance/disclosure risk at the parent that controls the Johnny Rockets system.",
+          "source": "QSR Magazine; CNBC; DOJ (USAO-CDCA)",
+          "url": "https://www.qsrmagazine.com/story/fat-brands-chairman-andy-wiederhorn-indicted-on-federal-charges/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Long payback against combined ~8% ongoing fees",
+          "detail": "Johnny Rockets charges a 6% royalty plus 2% marketing fund (and a required ~2% local advertising spend), and Vetted Biz FDD-derived analysis estimates an 11.6-13.6 year payback against ~$1.07M average sales - a slow return for a sit-down diner format with build costs into the low seven figures.",
+          "source": "Vetted Biz - Johnny Rockets Franchise Insights (FDD Item 19)",
+          "url": "https://www.vettedbiz.com/franchises/johnny-rockets/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Mature, slow-growth domestic base reliant on non-traditional venues",
+          "detail": "Johnny Rockets sits at #202 on the 2025 Franchise Times Top 400 with ~100 US units; the brand has historically depended heavily on non-traditional locations (cruise ships, airports, malls, entertainment venues) whose performance is tied to host-venue traffic the franchisee does not control.",
+          "source": "Franchise Times Top 400 (2025); SHARPSHEETS",
+          "url": "https://www.franchisetimes.com/top-400-2025/202-johnny-rockets/article_1ce6abcd-3136-4501-96d1-ba3ad2c27513.html",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 210000, "source": "Vetted Biz - Johnny Rockets Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 517300, "source": "Johnny Rockets 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "FDD Item 7 range ~$517,300-$2,667,900 (directory summaries also cite $507,000-$1,686,000)."},
+        "totalInvestmentMax": {"value": 2667900, "source": "Johnny Rockets 2025 FDD (via Vetted Biz)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 50000, "source": "Johnny Rockets 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Johnny Rockets 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "6% of net sales."},
+        "adFundPercent": {"value": 2, "source": "Johnny Rockets 2025 FDD (via Vetted Biz and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "2% marketing fund plus a required ~2% local advertising spend."},
+        "avgUnitRevenue": {"value": 1065910, "source": "Vetted Biz - Johnny Rockets Franchise Insights (FDD-derived Item 19)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales per Vetted Biz; SHARPSHEETS cites ~$1.12M AUV."},
+        "totalUnits": {"value": 100, "source": "Vetted Biz - Johnny Rockets Franchise Insights", "year": 2025, "confidence": "medium", "note": "~100 US units (predominantly franchised); ~256 worldwide including international/non-traditional per other directory summaries."},
+        "yearFounded": {"value": 1986, "source": "Vetted Biz - Johnny Rockets Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1987, "source": "Vetted Biz - Johnny Rockets Franchise Insights", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Franchise Times Top 400 (2025); SHARPSHEETS (mature/contracting base)", "year": 2025, "confidence": "low"},
+        "businessModelType": {"value": "b2c", "source": "Johnny Rockets franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Johnny Rockets franchisor site (restaurant model)", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Vetted Biz; FAT Brands (international/non-traditional Johnny Rockets venues)", "year": 2025, "confidence": "high"},
+        "publiclyTraded": {"value": true, "source": "SEC EDGAR - FAT Brands Inc. (Nasdaq: FAT)", "year": 2025, "confidence": "high", "note": "Parent franchisor FAT Brands is public."},
+        "franchisorFinancialsAvailable": {"value": true, "source": "SEC EDGAR - FAT Brands Inc. filings", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; Free FDD Library - Johnny Rockets 2025 FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Johnny Rockets Franchise Insights", "year": 2025, "confidence": "medium"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - Johnny Rockets Franchise Insights (FDD discloses lawsuits and/or bankruptcy)", "year": 2025, "confidence": "low", "note": "FDD-tracking service flag; verify specifics in the FDD."}
+      }
+    },
+    {
+      "name": "Mooyah Burgers Fries & Shakes",
+      "slug": "mooyah-burgers-fries-and-shakes",
+      "category": "Food & Beverage",
+      "website": "mooyah.com",
+      "notes": "Better-burger fast-casual concept founded 2007 in Plano, TX; franchising since 2007. Owned since 2017 by private-equity partners Balmoral Funds and Gala Capital Partners. ~80-90 locations (over 70 in the US), but the system has been contracting. No public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Declining unit count",
+          "detail": "Entrepreneur's directory shows MOOYAH with a roughly -11% unit growth rate and a small base (~80-90 locations, ~70+ in the US), indicating net closures despite the franchisor's growth marketing - thin comparable data for prospective franchisees evaluating new markets.",
+          "source": "Entrepreneur Franchise directory (MOOYAH)",
+          "url": "https://www.entrepreneur.com/franchises/directory/mooyah-burgers-fries-shakes/333892",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High combined fee load (~9%) on a small fast-casual unit",
+          "detail": "MOOYAH charges a 6% royalty plus a 3% marketing fee (and a $200/month technology fee), so combined ongoing fees run ~9% of sales before food and labor - heavy for a small-footprint better-burger format competing against deep-pocketed QSR chains.",
+          "source": "Entrepreneur Franchise directory (MOOYAH); SHARPSHEETS FDD analysis",
+          "url": "https://www.entrepreneur.com/franchises/directory/mooyah-burgers-fries-shakes/333892",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Private-equity ownership since 2017",
+          "detail": "Reach Restaurant Group sold MOOYAH to a partnership led by Balmoral Funds and Gala Capital Partners in 2017; the brand later relaunched its FDD under that ownership. PE owners can change fees, supply terms, and development priorities during a hold period.",
+          "source": "Nation's Restaurant News; 1851 Franchise (PE acquisition coverage)",
+          "url": "https://www.nrn.com/mergers-acquisitions/mooyah-burgers-sold-to-private-equity-partners",
+          "year": 2017
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 250000, "source": "Entrepreneur Franchise directory (MOOYAH); SHARPSHEETS", "year": 2025, "confidence": "medium", "note": "Some sources cite $300,000 liquid."},
+        "netWorthMin": {"value": 1000000, "source": "Entrepreneur Franchise directory (MOOYAH)", "year": 2025, "confidence": "medium", "note": "Some sources cite $600,000 net worth."},
+        "totalInvestmentMin": {"value": 372525, "source": "Entrepreneur Franchise directory (MOOYAH); SHARPSHEETS", "year": 2025, "confidence": "high", "note": "FDD Item 7 range ~$372,525-$1,186,124."},
+        "totalInvestmentMax": {"value": 1186124, "source": "Entrepreneur Franchise directory (MOOYAH); SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "Entrepreneur Franchise directory (MOOYAH)", "year": 2025, "confidence": "medium", "note": "Entrepreneur lists $40,000; some FDD-derived sources cite a higher minimum (~$53,125) for certain deal structures."},
+        "royaltyPercent": {"value": 6, "source": "Entrepreneur Franchise directory (MOOYAH); SHARPSHEETS", "year": 2025, "confidence": "high", "note": "6% of sales."},
+        "adFundPercent": {"value": 3, "source": "Entrepreneur Franchise directory (MOOYAH)", "year": 2025, "confidence": "medium", "note": "3% marketing; plus a $200/month technology fee."},
+        "totalUnits": {"value": 80, "source": "Franchise Solutions; Franchising.com (MOOYAH)", "year": 2025, "confidence": "medium", "note": "~80-90 locations with 70+ in the US; majority franchised."},
+        "yearFounded": {"value": 2007, "source": "Wikipedia (Mooyah); Entrepreneur directory", "year": 2025, "confidence": "high", "note": "Founded 2007 in Plano, TX."},
+        "yearFranchising": {"value": 2007, "source": "Entrepreneur Franchise directory (MOOYAH)", "year": 2025, "confidence": "medium", "note": "Some sources cite 2008."},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise directory (MOOYAH)", "year": 2025, "confidence": "medium", "note": "$10,000 off the franchise fee for veterans."},
+        "renewalTermYears": {"value": 10, "source": "Entrepreneur Franchise directory (MOOYAH)", "year": 2025, "confidence": "medium", "note": "10-year, renewable franchise agreement term."},
+        "isGrowing": {"value": false, "source": "Entrepreneur Franchise directory (MOOYAH) - ~-11% unit trend", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "MOOYAH franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "MOOYAH franchisor site (fast-casual restaurant model)", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Franchising.com (MOOYAH worldwide locations)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 MOOYAH FDD review; SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 MOOYAH FDD review (2024 measurement period)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "BurgerFi",
+      "slug": "burgerfi",
+      "category": "Food & Beverage",
+      "website": "burgerfi.com",
+      "notes": "Better-burger fast-casual chain founded 2011 in Lauderdale-by-the-Sea, FL. The company went through Chapter 11 bankruptcy in September 2024, was sold out of bankruptcy, and resumed offering franchises in Q2 2025 under new ownership (BurgerFi Partners, LLC). High-risk, recently-restructured system. No public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "severe",
+          "title": "Chapter 11 bankruptcy in September 2024 and sale of assets",
+          "detail": "BurgerFi International filed Chapter 11 in September 2024 after defaulting on senior secured debt (a ~$51.3M term loan with TREW Capital Management). The brand's assets were sold out of bankruptcy in late 2024, and franchising only resumed in Q2 2025 under new ownership - an extreme stability/continuity risk for prospective franchisees.",
+          "source": "QSR Magazine; Restaurant Business; TheStreet (2024 bankruptcy coverage)",
+          "url": "https://www.qsrmagazine.com/food/burgers/burgerfi-to-sell-company-out-of-bankruptcy/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Franchisee grievances over how corporate ran the system",
+          "detail": "Former franchisees publicly attributed BurgerFi's collapse to 'corporate greed,' alleging unpaid amounts owed after selling units back to the company and excessive executive pay. A separate securities class action against BurgerFi and executives was filed in 2023 (later voluntarily dismissed).",
+          "source": "Restaurant Business; BurgerFi IR (securities case dismissal)",
+          "url": "https://www.restaurantbusinessonline.com/financing/corporate-greed-cooked-burgerfi-franchisees-say",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "System contraction through the bankruptcy",
+          "detail": "BurgerFi peaked around 125 units and reported 117 total (93 franchised + 24 company-owned) in 2023, falling to ~82 franchised US locations by the 2025 FDD - a shrinking base whose surviving-unit economics may not reflect the pre-restructuring system.",
+          "source": "SHARPSHEETS; Vetted Biz (BurgerFi FDD outlet data)",
+          "url": "https://www.vettedbiz.com/franchises/burgerfi",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 165000, "source": "Vetted Biz - BurgerFi Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 610000, "source": "SHARPSHEETS BurgerFi FDD analysis; Vetted Biz", "year": 2025, "confidence": "high", "note": "Ranges vary by source/format: SHARPSHEETS cites $610,000-$1,043,000; Vetted Biz cites $704,750-$1,171,500."},
+        "totalInvestmentMax": {"value": 1171500, "source": "Vetted Biz - BurgerFi Franchise Insights", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 35000, "source": "Vetted Biz - BurgerFi Franchise Insights", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5.5, "source": "SHARPSHEETS BurgerFi FDD analysis", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites 5.5% of net sales; Vetted Biz cites 6%."},
+        "adFundPercent": {"value": 1.5, "source": "SHARPSHEETS BurgerFi FDD analysis", "year": 2025, "confidence": "medium", "note": "1.5% national brand fund plus at least 2% local advertising (Vetted Biz cites 4% combined)."},
+        "avgUnitRevenue": {"value": 1241070, "source": "Vetted Biz - BurgerFi Franchise Insights (FDD-derived Item 19)", "year": 2025, "confidence": "low", "note": "FDD-derived average yearly gross sales; treat with caution given the system's restructuring and shrinking unit base."},
+        "totalUnits": {"value": 82, "source": "Vetted Biz - BurgerFi Franchise Insights", "year": 2025, "confidence": "medium", "note": "~82 franchised US locations per 2025 FDD-derived data; down from 117 total in 2023."},
+        "yearFounded": {"value": 2011, "source": "Grokipedia; Restaurant Business (BurgerFi history)", "year": 2025, "confidence": "high", "note": "Founded by John Rosatti in Lauderdale-by-the-Sea, FL."},
+        "yearFranchising": {"value": 2011, "source": "Vetted Biz - BurgerFi Franchise Insights", "year": 2025, "confidence": "medium", "note": "Franchise offering relaunched in Q2 2025 under new ownership."},
+        "isGrowing": {"value": false, "source": "SHARPSHEETS; Vetted Biz; QSR Magazine (post-bankruptcy contraction)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "BurgerFi franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "BurgerFi franchisor site (fast-casual restaurant model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange - BurgerFi 2025 FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - BurgerFi Franchise Insights", "year": 2025, "confidence": "low"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz; QSR Magazine (2024 Chapter 11)", "year": 2025, "confidence": "high", "note": "Company filed Chapter 11 in September 2024; FDD discloses bankruptcy."}
+      }
+    },
+    {
+      "name": "Smashburger",
+      "slug": "smashburger",
+      "category": "Food & Beverage",
+      "website": "smashburger.com",
+      "notes": "Better-burger fast-casual chain founded 2007 in Denver, CO; franchising since 2008. Wholly owned by Jollibee Foods Corporation (Asia's largest restaurant company) since 2018, and majority company-operated. New leadership (CEO Jim Sullivan, 2025) is explicitly pushing renewed franchise development and non-traditional growth. ~204 locations across 30 US states and 7 countries. No public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Majority company-operated under foreign corporate parent",
+          "detail": "As of August 2025 Smashburger had ~204 locations with 121 corporate and only 83 franchised, all under Jollibee Foods Corporation. A franchisee is a small minority in a corporate-dominated system whose strategy is set by an overseas parent's portfolio priorities.",
+          "source": "Wikipedia (Smashburger); PR Newswire (CEO appointment, franchise push)",
+          "url": "https://www.prnewswire.com/news-releases/smashburger-appoints-jim-sullivan-as-ceo-to-drive-growth-through-flavor-focus-and-franchise-development-302521870.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High build cost relative to category (up to ~$2.26M)",
+          "detail": "2025 FDD Item 7 runs $1,239,500-$2,255,500 for a fast-casual burger unit - among the heavier investment ranges in the better-burger segment - magnifying downside if a location underperforms. SBA-tracked Smashburger loans averaged ~$602,577.",
+          "source": "SHARPSHEETS Smashburger FDD analysis; Franchise Help",
+          "url": "https://sharpsheets.io/blog/smashburger-franchise-costs-fees-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Brand 'return to category leadership' signals prior underperformance",
+          "detail": "The 2025 CEO appointment framed strategy as 'a return to category leadership and growth,' implying the brand had lost ground in the crowded better-burger segment - a turnaround context franchisees should weigh against the high entry cost.",
+          "source": "PR Newswire (Smashburger CEO appointment)",
+          "url": "https://www.prnewswire.com/news-releases/smashburger-appoints-jim-sullivan-as-ceo-to-drive-growth-through-flavor-focus-and-franchise-development-302521870.html",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 1239500, "source": "Smashburger 2025 FDD (via SHARPSHEETS and FranDB)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 2255500, "source": "Smashburger 2025 FDD (via SHARPSHEETS and FranDB)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "Smashburger 2025 FDD (via SHARPSHEETS and FranDB)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5.5, "source": "Smashburger 2025 FDD (via SHARPSHEETS and FranDB)", "year": 2025, "confidence": "high", "note": "5.5% of gross sales."},
+        "totalUnits": {"value": 204, "source": "Wikipedia (Smashburger) - August 2025", "year": 2025, "confidence": "high", "note": "~204 locations across 30 US states and 7 countries: 121 corporate + 83 franchised."},
+        "franchisedUnits": {"value": 83, "source": "Wikipedia (Smashburger) - August 2025", "year": 2025, "confidence": "high"},
+        "companyOwnedUnits": {"value": 121, "source": "Wikipedia (Smashburger) - August 2025", "year": 2025, "confidence": "high"},
+        "yearFounded": {"value": 2007, "source": "Wikipedia (Smashburger); SHARPSHEETS", "year": 2025, "confidence": "high", "note": "Founded 2007 in Denver, CO."},
+        "yearFranchising": {"value": 2008, "source": "Franchise Direct; SHARPSHEETS (Smashburger)", "year": 2025, "confidence": "high"},
+        "renewalTermYears": {"value": 15, "source": "Franchise Help (Smashburger franchise term)", "year": 2025, "confidence": "medium", "note": "15-year initial term; one additional 15-year renewal if requirements are met."},
+        "isGrowing": {"value": true, "source": "PR Newswire (2025 franchise-development push under new CEO)", "year": 2025, "confidence": "low", "note": "Franchisor signaling renewed franchise growth; recent trajectory was flat-to-down."},
+        "businessModelType": {"value": "b2c", "source": "Smashburger franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Smashburger franchisor site (fast-casual restaurant model)", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Wikipedia (Smashburger) - 7 countries", "year": 2025, "confidence": "high"},
+        "financingOffered": {"value": false, "source": "Franchise Help (Smashburger)", "year": 2025, "confidence": "medium", "note": "No direct franchisor financing; SBA 7(a) loans have been used by Smashburger franchisees (avg ~$602,577)."},
+        "fddAvailable": {"value": true, "source": "FranDB; SHARPSHEETS - Smashburger 2025 FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS Smashburger FDD analysis (2025 FDD Item 19)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Nathan's Famous",
+      "slug": "nathans-famous",
+      "category": "Food & Beverage",
+      "website": "nathansfamous.com",
+      "notes": "Iconic Coney Island hot dog brand founded 1916 in Brooklyn, NY; began franchising restaurants circa 1959. Publicly traded (Nasdaq: NATH). Nathan's does run a current restaurant franchise program (mall food court, in-line with drive-thru, and free-standing formats) in addition to its large licensed/branded-menu and retail business. ~75 US restaurant franchise locations. No public state-by-state availability list, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Core franchise revenue centers on licensing, not new restaurant build-out",
+          "detail": "Nathan's largest businesses are its branded-menu/licensing programs and retail/foodservice (e.g., supermarket hot dogs), not company-built restaurants. The standalone restaurant franchise base is small (~75 US units, 71 franchised + 4 corporate), so a new restaurant franchisee is entering a comparatively thin, slow-growth restaurant segment of the company.",
+          "source": "Nation's Restaurant News / Franchise Times Top 400 (2025); Nathan's franchise site",
+          "url": "https://www.franchisetimes.com/top-400-2025/268-nathan-s-famous/article_67aa5074-11d3-4ed6-8592-ba9aa0cdf9cd.html",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High capital and net-worth bar for a small-footprint concept",
+          "detail": "Free-standing restaurants are estimated at $441,000-$1,100,000 and the franchisor requires ~$250,000 liquid and ~$1,000,000 net worth - a steep entry threshold relative to the modest size of the restaurant franchise system.",
+          "source": "Vetted Biz; Franchise Direct (Nathan's Famous requirements)",
+          "url": "https://www.vettedbiz.com/franchises/nathans/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Long-run restaurant unit count well below historical peak",
+          "detail": "Nathan's reported ~198 restaurant locations as of January 2022 and the company-built/franchised restaurant base has trended down over time; the brand's footprint now leans heavily on licensed/co-branded outlets rather than full Nathan's restaurants.",
+          "source": "Wikipedia (Nathan's Famous); Nathan's franchise history",
+          "url": "https://en.wikipedia.org/wiki/Nathan%27s_Famous",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 250000, "source": "Vetted Biz; Franchise Direct (Nathan's Famous requirements)", "year": 2025, "confidence": "high"},
+        "netWorthMin": {"value": 1000000, "source": "Vetted Biz; Franchise Direct (Nathan's Famous requirements)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMin": {"value": 277000, "source": "Nathan's Famous 2025 FDD (via Vetted Biz and franchise site)", "year": 2025, "confidence": "high", "note": "Mall food court / in-line with drive-thru: $277,000-$660,000; free-standing: $441,000-$1,100,000."},
+        "totalInvestmentMax": {"value": 1100000, "source": "Nathan's Famous 2025 FDD (via Vetted Biz and franchise site)", "year": 2025, "confidence": "high", "note": "Top of the free-standing restaurant range."},
+        "franchiseFee": {"value": 30000, "source": "Nathan's Famous 2025 FDD (via Vetted Biz and Franchise Gator)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5.5, "source": "Nathan's Famous 2025 FDD (via Vetted Biz and Franchise Gator)", "year": 2025, "confidence": "high", "note": "5.5% of annual gross sales."},
+        "adFundPercent": {"value": 2, "source": "Nathan's Famous 2025 FDD (via Vetted Biz and Franchise Gator)", "year": 2025, "confidence": "high", "note": "2.0% of annual gross sales marketing contribution."},
+        "totalUnits": {"value": 75, "source": "Vetted Biz - Nathan's Famous Franchise Insights", "year": 2025, "confidence": "medium", "note": "~75 US restaurant franchise locations: 71 franchised + 4 corporate; the broader Nathan's system includes many licensed/branded-menu outlets."},
+        "franchisedUnits": {"value": 71, "source": "Vetted Biz - Nathan's Famous Franchise Insights", "year": 2025, "confidence": "medium"},
+        "companyOwnedUnits": {"value": 4, "source": "Vetted Biz - Nathan's Famous Franchise Insights", "year": 2025, "confidence": "medium"},
+        "yearFounded": {"value": 1916, "source": "Wikipedia (Nathan's Famous); Nathan's franchise history", "year": 2025, "confidence": "high", "note": "Founded by Nathan Handwerker in Coney Island, Brooklyn, NY."},
+        "yearFranchising": {"value": 1959, "source": "Nathan's Famous franchise history (second location, Oceanside, 1959)", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "Franchise Times Top 400 (2025); Wikipedia (restaurant base trend)", "year": 2025, "confidence": "low", "note": "Restaurant franchise base is small and slow-growth; company growth is driven by licensing/retail."},
+        "businessModelType": {"value": "b2c", "source": "Nathan's Famous franchise site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Nathan's Famous franchise site (restaurant formats)", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "Wikipedia (Nathan's Famous) - international presence", "year": 2025, "confidence": "medium"},
+        "publiclyTraded": {"value": true, "source": "SEC EDGAR - Nathan's Famous, Inc. (Nasdaq: NATH)", "year": 2025, "confidence": "high"},
+        "franchisorFinancialsAvailable": {"value": true, "source": "SEC EDGAR - Nathan's Famous, Inc. filings", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; Franchise Direct - Nathan's Famous 2025 FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "Vetted Biz; Franchise Direct (no clear systemwide Item 19 AUV disclosed)", "year": 2025, "confidence": "low", "note": "No reliable systemwide AUV located; verify Item 19 in the current FDD."}
+      }
+    }
+  ]
+}
