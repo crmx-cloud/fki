@@ -9,7 +9,7 @@ import { PublicFooter } from "@/components/PublicFooter";
  */
 
 const EFFECTIVE_DATE = "June 12, 2026";
-const CONTACT_EMAIL = "brent@franchiseki.com";
+const CONTACT_EMAIL = "info@franchiseki.com";
 const CONTACT_PHONE = "(385) 475-5319";
 const CONTACT_PHONE_TEL = "+13854755319";
 

@@ -23,8 +23,8 @@ export function PublicFooter() {
                   (385) 475-5319
                 </a>
               </span>
-              <a href="mailto:brent@franchiseki.com" className="text-slate-300 hover:text-white transition-colors">
-                brent@franchiseki.com
+              <a href="mailto:info@franchiseki.com" className="text-slate-300 hover:text-white transition-colors">
+                info@franchiseki.com
               </a>
             </div>
           </div>
