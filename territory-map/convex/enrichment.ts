@@ -97,7 +97,7 @@ export const createBrandIfMissing = internalMutation({
       (b) => b.name.toLowerCase().trim() === args.name.toLowerCase().trim()
     );
     if (byName) return { ok: true, brandId: byName._id, existed: true };
-    const id = await ctx.db.insert("brands", { ...args, isActive: true });
+    const id = await ctx.db.insert("brands", { ...args, isActive: true, createdBy: "system", updatedAt: Date.now() });
     return { ok: true, brandId: id, existed: false };
   },
 });
@@ -268,9 +268,8 @@ export const applyEnrichment = internalMutation({
     );
     if (!brand) return { ok: false, error: `brand not found: ${args.brandName}` };
 
-    if (args.brandFields && Object.keys(args.brandFields).length > 0) {
-      await ctx.db.patch(brand._id, args.brandFields);
-    }
+    // Stamp updatedAt on every enrichment (even if only profile fields changed)
+    await ctx.db.patch(brand._id, { ...(args.brandFields ?? {}), updatedAt: Date.now() });
 
     const fp = await ctx.db
       .query("franchiseProfiles")

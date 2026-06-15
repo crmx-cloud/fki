@@ -2,6 +2,34 @@ import { getAuthUserId } from "@convex-dev/auth/server";
 import { mutation, query, internalMutation } from "./_generated/server";
 import { v } from "convex/values";
 import { isAdminRole, isSuperAdminEmail } from "./constants";
+import { scoreBrandForProspect } from "./prospect";
+
+/** Compact, human prospect brief synthesized on the fly (read-only — mirrors
+ *  prospectBrief.ts so admins see it on the Contacts panel without a lead). */
+function buildProspectBrief(p: any, topMatches: { name: string; score: number }[]): string {
+  if (!p) return "";
+  const CAP: Record<string, string> = { under_50k: "under $50K", "50k_100k": "$50K–$100K", "100k_150k": "$100K–$150K", "150k_250k": "$150K–$250K", "250k_500k": "$250K–$500K", "500k_1m": "$500K–$1M", "1m_plus": "$1M+" };
+  const OWN: Record<string, string> = { owner_operator: "an owner-operator", semi_absentee: "a semi-absentee owner", absentee: "an absentee/executive owner", investor: "an investor/multi-unit operator" };
+  const TL: Record<string, string> = { asap: "ready to move ASAP", "3_months": "looking to start within 3 months", "6_months": "within 6 months", "12_months": "on a 12-month timeline", exploring: "still exploring" };
+  const CAT: Record<string, string> = { food_bev: "Food & Beverage", health_fitness: "Health & Fitness", services: "Services", home_services: "Home Services", education: "Education", beauty_selfcare: "Beauty & Self Care" };
+  const name = [p.firstName, p.lastName].filter(Boolean).join(" ") || "This prospect";
+  const where = p.primaryCity && p.primaryState ? `${p.primaryCity}, ${p.primaryState}` : p.primaryState || p.state || "their area";
+  const parts: string[] = [];
+  let intro = `${name} is looking to open a franchise in ${where}`;
+  if (p.ownerType && OWN[p.ownerType]) intro += ` as ${OWN[p.ownerType]}`;
+  if (p.liquidCapital && CAP[p.liquidCapital]) intro += `, with ${CAP[p.liquidCapital]} in liquid capital`;
+  if (p.timeline && TL[p.timeline]) intro += `, and is ${TL[p.timeline]}`;
+  parts.push(intro + ".");
+  if (p.preferredCategories?.length) parts.push(`Interested industries: ${p.preferredCategories.map((c: string) => CAT[c] || c).join(", ")}.`);
+  const extras: string[] = [];
+  if (p.veteranStatus === true) extras.push("veteran");
+  if (p.sbaFinancingIntent === "yes") extras.push("plans to use SBA financing");
+  if (p.runFromHome === "yes") extras.push("wants home-based options");
+  if (p.multiUnitInterest && p.multiUnitInterest !== "1") extras.push("open to multi-unit development");
+  if (extras.length) parts.push(`Notable: ${extras.join("; ")}.`);
+  if (topMatches.length) parts.push(`Top PerfectFit matches: ${topMatches.map((m, i) => `${i + 1}. ${m.name} (${m.score}/100)`).join(" · ")}.`);
+  return parts.join(" ");
+}
 
 /* ═══════════════════════════════════════════════════════════
  * Contacts — unified person record for anyone outside FKI
@@ -138,13 +166,68 @@ export const getContact = query({
       })
     );
 
-    // Get linked prospect profile
-    const prospectProfile = contact.userId
+    // Get linked prospect profile — by userId, falling back to email
+    let prospectProfile = contact.userId
       ? await ctx.db
           .query("prospectProfiles")
           .withIndex("by_user", (q) => q.eq("userId", contact.userId))
           .first()
       : null;
+    if (!prospectProfile && contact.email) {
+      prospectProfile = await ctx.db
+        .query("prospectProfiles")
+        .withIndex("by_email", (q) => q.eq("email", contact.email!.toLowerCase()))
+        .first();
+    }
+
+    // Verification status (from the prospect's account, if any)
+    let verification = { emailVerified: false, phoneVerified: false };
+    const linkUserId = contact.userId ?? prospectProfile?.userId;
+    if (linkUserId) {
+      const up = await ctx.db
+        .query("userProfiles")
+        .withIndex("by_user", (q) => q.eq("userId", linkUserId))
+        .first();
+      verification = { emailVerified: !!up?.emailVerifiedAt, phoneVerified: !!up?.phoneVerifiedAt };
+    }
+
+    // Live PerfectFit matches via THE engine (top 6) — so admins see what the
+    // system recommended without the prospect having to become a lead.
+    let matches: { name: string; slug: string; score: number; reason: string | null }[] = [];
+    let brief = "";
+    if (prospectProfile) {
+      const activeBrands = (await ctx.db.query("brands").collect()).filter((b) => b.isActive !== false);
+      const fps = await ctx.db.query("franchiseProfiles").collect();
+      const fpMap = new Map(fps.map((f) => [f.brandId.toString(), f]));
+      const terrs = await ctx.db.query("territories").collect();
+      const saRows = await ctx.db.query("stateAvailability").collect();
+      const saMap = new Map<string, Map<string, string>>();
+      for (const r of saRows) {
+        const k = r.brandId.toString();
+        if (!saMap.has(k)) saMap.set(k, new Map());
+        saMap.get(k)!.set(r.state.toUpperCase(), r.status);
+      }
+      const scored: { name: string; slug: string; score: number; reason: string | null }[] = [];
+      for (const b of activeBrands) {
+        const r = scoreBrandForProspect({
+          prospect: prospectProfile, brand: b,
+          fp: fpMap.get(b._id.toString()),
+          brandTerritories: terrs.filter((t) => t.brandId === b._id),
+          saMap,
+        });
+        if (r && !r.knockedOut) scored.push({ name: b.name, slug: b.slug, score: r.matchScore, reason: r.matchReasons?.[0] ?? null });
+      }
+      scored.sort((a, b) => b.score - a.score);
+      matches = scored.slice(0, 6);
+      brief = buildProspectBrief(prospectProfile, matches);
+    }
+
+    // Notes on this contact or any linked lead
+    const noteContactIds = [contactId, ...linkedLeads.map((l) => l._id)];
+    const allNotes = await ctx.db.query("contactNotes").collect();
+    const notes = allNotes
+      .filter((n) => noteContactIds.some((id) => String(n.contactId) === String(id)))
+      .sort((a, b) => (b.isPinned ? 1 : 0) - (a.isPinned ? 1 : 0) || b.createdAt - a.createdAt);
 
     // Get linked brands (as franchisee)
     const allBrands = await ctx.db.query("brands").collect();
@@ -171,6 +254,10 @@ export const getContact = query({
       prospectProfile,
       ownedBrands,
       loginInfo,
+      verification,
+      matches,
+      brief,
+      notes,
     };
   },
 });

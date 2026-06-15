@@ -24,6 +24,13 @@ const schema = defineSchema({
     franchiseeContactId: v.optional(v.id("contacts")),
     featured: v.optional(v.boolean()),
     registeredStates: v.optional(v.array(v.string())),
+    // ── Provenance (admin brands view) ──
+    // createdBy: "system" for pipeline/import-created brands (the default for
+    // everything we generate); a franchisor flow could set otherwise later.
+    // _creationTime (automatic) is the true original-created date — refreshes
+    // never change it. updatedAt is stamped on every brand write/enrichment.
+    createdBy: v.optional(v.string()),
+    updatedAt: v.optional(v.number()),
   })
     .index("by_slug", ["slug"])
     .index("by_category", ["category"])

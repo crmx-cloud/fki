@@ -55,7 +55,7 @@ export const create = mutation({
   },
   returns: v.id("brands"),
   handler: async (ctx, args) => {
-    return await ctx.db.insert("brands", args);
+    return await ctx.db.insert("brands", { ...args, createdBy: "system", updatedAt: Date.now() });
   },
 });
 
@@ -82,7 +82,7 @@ export const update = mutation({
     const filtered = Object.fromEntries(
       Object.entries(updates).filter(([_, v]) => v !== undefined)
     );
-    await ctx.db.patch(id, filtered);
+    await ctx.db.patch(id, { ...filtered, updatedAt: Date.now() });
     return null;
   },
 });
