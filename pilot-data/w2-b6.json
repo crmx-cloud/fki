@@ -1,0 +1,773 @@
+{
+  "brands": [
+    {
+      "name": "Goin' Postal",
+      "slug": "goin-postal",
+      "category": "Services",
+      "website": "goinpostal.com",
+      "notes": "Independent retail shipping/pack-and-ship franchise (GP Brands, Inc., Florida) carrier-neutral across USPS, UPS, FedEx, and DHL. Actively recruiting (FDD effective 8/15/2025) with a low-cost, flat-fee royalty model rather than a percentage of sales. Roughly 170 units; franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very low average revenue / small-box economics with escalating flat royalty",
+          "detail": "Goin' Postal runs a small-footprint, owner-operated retail shipping model competing directly with The UPS Store, PostalAnnex, and big-box carriers. The flat monthly royalty ($460-$550/mo for new 2025 franchisees) escalates roughly 5% every third year for the full 15-year term regardless of store sales, a fixed obligation that pressures low-volume stores.",
+          "source": "Goin' Postal 2025 FDD (service.goinpostal.com); Vetted Biz",
+          "url": "https://service.goinpostal.com/documents/fdd.pdf",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Small, slow-growth system in a category dominated by larger brands",
+          "detail": "Entrepreneur lists roughly 170 units with a 20-person headquarters; the brand is dwarfed by The UPS Store (5,000+) and competes on lower entry cost rather than scale or brand recognition, limiting national marketing leverage for franchisees.",
+          "source": "Entrepreneur Franchise 500 directory",
+          "url": "https://www.entrepreneur.com/franchises/directory/goin-postal/327389",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "No litigation or bankruptcy disclosed in FDD",
+          "detail": "FDD-tracking services report Goin' Postal does not disclose lawsuits or bankruptcy information in its FDD - a clean Item 3/Item 4 record, though the system is small.",
+          "source": "Vetted Biz / FranchiseOverview FDD analyses",
+          "url": "https://www.vettedbiz.com/franchises/goin-postal",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 20000, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Cash requirement cited as $20,000; Vetted Biz cites a $10,000 minimum cash figure."},
+        "totalInvestmentMin": {"value": 46750, "source": "Entrepreneur Franchise 500 directory; Franchise Help directory", "year": 2026, "confidence": "high", "note": "FDD-derived Item 7 range $46,750-$109,500 (Entrepreneur); some directories cite up to $128,500-$139,500."},
+        "totalInvestmentMax": {"value": 109500, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 15000, "source": "Entrepreneur Franchise 500 directory; Goin' Postal 2025 FDD", "year": 2026, "confidence": "high", "note": "Up to $15,000; some FDD-derived sources show a lower-tier fee around $9,950."},
+        "totalUnits": {"value": 170, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "yearFounded": {"value": 2002, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Some directories cite 2004 founding; Entrepreneur shows 2002 founded, 2004 franchising."},
+        "yearFranchising": {"value": 2004, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Entrepreneur Franchise 500 directory; FranchiseOverview", "year": 2026, "confidence": "medium", "note": "Two weeks at corporate headquarters."},
+        "veteranDiscount": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "high", "note": "50% off the franchise fee for veterans."},
+        "financingOffered": {"value": false, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "Third-party financing available; no direct franchisor financing indicated."},
+        "thirdPartyFinancing": {"value": "Third-party financing available per Entrepreneur directory", "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "renewalTermYears": {"value": 15, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium", "note": "15-year renewable franchise agreement term."},
+        "absenteeOwnership": {"value": true, "source": "Entrepreneur Franchise 500 directory", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "both", "source": "Goin' Postal franchisor site (retail and business shipping services)", "year": 2026, "confidence": "medium"},
+        "mobileBased": {"value": false, "source": "Entrepreneur Franchise 500 directory (retail storefront; home/mobile operation not allowed)", "year": 2026, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz / FranchiseOverview FDD analyses", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Goin' Postal 2025 FDD (publicly posted at service.goinpostal.com)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Launch Trampoline Park",
+      "slug": "launch-trampoline-park",
+      "category": "Fitness",
+      "website": "launchfamilyentertainment.com",
+      "notes": "Family entertainment center / indoor trampoline-park franchise (Launch Family Entertainment, Warwick, RI), franchising since 2013. A capital-intensive big-box leisure investment ($1.9M-$4.5M) with ~25 locations. Registered in 13 franchise-registration states; no public all-states availability statement, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Multimillion-dollar build cost with mandatory minimum local ad spend",
+          "detail": "2026 FDD Item 7 runs roughly $1,899,900-$4,524,500 including a $75,000 franchise fee, and ongoing fees stack a 6% royalty, a 1% brand development fund, and local advertising of the greater of 4% of sales or $4,000/month - a heavy fixed-cost base for a discretionary-spend leisure category.",
+          "source": "FranchiseOverview FDD summary; SHARPSHEETS Launch Trampoline Park FDD analysis",
+          "url": "https://franchiseoverview.com/company/launch-trampoline-park-and-launch-park",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Discretionary, injury-exposed leisure category with thin sample disclosure",
+          "detail": "Trampoline parks face elevated liability/insurance exposure and demand that contracts in recessions; the Item 19 financial performance representation is based on a small 6-unit sample (average ~$2.0M, range $966K-$3.5M), giving limited visibility into systemwide economics on an ~25-unit base.",
+          "source": "FranchiseOverview FDD summary (Item 19); SHARPSHEETS",
+          "url": "https://franchiseoverview.com/company/launch-trampoline-park-and-launch-park",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Small system with a meaningful company-owned share",
+          "detail": "The system totals about 25 units (21 franchised, 4 company-owned), so a single franchisee carries significant concentration risk and the brand has limited national marketing scale relative to larger FEC competitors like Sky Zone and Urban Air.",
+          "source": "FranchiseOverview FDD summary",
+          "url": "https://franchiseoverview.com/company/launch-trampoline-park-and-launch-park",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 1000000, "source": "Franchise Help directory; SHARPSHEETS", "year": 2025, "confidence": "medium", "note": "Approximately $1,000,000 liquid cash required."},
+        "netWorthMin": {"value": 3000000, "source": "Franchise Help directory; SHARPSHEETS", "year": 2025, "confidence": "medium", "note": "Approximately $3,000,000 minimum net worth."},
+        "totalInvestmentMin": {"value": 1899900, "source": "FranchiseOverview FDD summary (2026); FranchisePayback", "year": 2026, "confidence": "high", "note": "FDD Item 7 range $1,899,900-$4,524,500 including the $75,000 franchise fee. Some directories cite higher full-build ranges up to ~$6.3M-$6.5M depending on facility size."},
+        "totalInvestmentMax": {"value": 4524500, "source": "FranchiseOverview FDD summary (2026); FranchisePayback", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 75000, "source": "FranchiseOverview FDD summary", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "FranchiseOverview FDD summary; SHARPSHEETS", "year": 2026, "confidence": "high", "note": "6% of gross sales."},
+        "adFundPercent": {"value": 1, "source": "FranchiseOverview FDD summary", "year": 2026, "confidence": "high", "note": "1% brand development fund, plus mandatory local advertising of the greater of 4% of sales or $4,000/month."},
+        "avgUnitRevenue": {"value": 2000000, "source": "FranchiseOverview FDD summary (Item 19)", "year": 2026, "confidence": "medium", "note": "Average and median ~$2.0M across a 6-unit reporting sample; range $966,000-$3,500,000."},
+        "totalUnits": {"value": 25, "source": "FranchiseOverview FDD summary", "year": 2026, "confidence": "high", "note": "21 franchised + 4 company-owned."},
+        "yearFounded": {"value": 2012, "source": "SHARPSHEETS Launch Trampoline Park FDD analysis", "year": 2025, "confidence": "medium", "note": "First park opened in Warwick, RI; franchising began 2013."},
+        "yearFranchising": {"value": 2013, "source": "FranchiseOverview FDD summary; SHARPSHEETS", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 4, "source": "FranchiseOverview FDD summary", "year": 2026, "confidence": "medium", "note": "Approximately four weeks (55 hours classroom, 105 hours on-the-job) in Warwick, RI or a franchisor-designated site."},
+        "financingOffered": {"value": false, "source": "FranchiseOverview FDD summary", "year": 2026, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "FranchiseOverview FDD summary (small ~25-unit base)", "year": 2026, "confidence": "low", "note": "Unit trend not clearly disclosed; system remains small at ~25 units."},
+        "businessModelType": {"value": "b2c", "source": "Launch Family Entertainment franchisor site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Launch franchisor site (large indoor FEC facility model)", "year": 2026, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": false, "source": "FranchiseOverview FDD summary (clean Item 3/Item 4)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "FranchiseOverview FDD summary; SHARPSHEETS", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "FranchiseOverview FDD summary", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Pinot's Palette",
+      "slug": "pinots-palette",
+      "category": "Services",
+      "website": "pinotspalette.com",
+      "notes": "Paint-and-sip studio franchise (founded 2009/2010, Houston, TX), acquired by Twist Brands LLC (parent of Painting with a Twist) in September 2024. ~67 US studios, all franchised. The franchisor markets renewed post-acquisition growth, but the longer-run picture is a sharply contracted system - buyers should weigh peak-to-now unit loss against the current expansion pitch.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "System contracted more than 50% from its peak",
+          "detail": "Pinot's Palette had 140+ studios across 31 states by January 2018; current FDD-derived data shows roughly 67 US studios - more than a 50% reduction - reflecting maturation and shakeout in the discretionary paint-and-sip category.",
+          "source": "Franchising.com / Wikipedia (2018 peak ~140+ studios); Vetted Biz (67, 2025)",
+          "url": "https://en.wikipedia.org/wiki/Pinot%27s_Palette",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Low average unit revenue and long payback",
+          "detail": "Vetted Biz Item 19 analysis cites average yearly gross sales of about $379,708 with estimated owner-operator earnings of roughly $53,000-$68,000 and a payback period of 3.6-5.6 years - thin economics for a labor- and event-driven discretionary model.",
+          "source": "Vetted Biz - Pinot's Palette Franchise Insights (Item 19-derived)",
+          "url": "https://www.vettedbiz.com/franchises/pinots-palette/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Brand now one of several under Twist Brands platform",
+          "detail": "Following the September 2024 acquisition, Pinot's Palette sits alongside Painting with a Twist (a much larger paint-and-sip brand) inside Twist Brands; the franchisor controls development priorities and shared services across competing sister concepts.",
+          "source": "International Franchise Association (franchise.org) acquisition coverage",
+          "url": "https://www.franchise.org/2025/05/pinots-palette-refocuses-on-franchise-growth-following-acquisition-by-twist-brands/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 30000, "source": "Vetted Biz - Pinot's Palette Franchise Insights", "year": 2025, "confidence": "medium", "note": "Some directories cite $80,000 liquid capital."},
+        "totalInvestmentMin": {"value": 119000, "source": "Vetted Biz - Pinot's Palette Franchise Insights", "year": 2025, "confidence": "high", "note": "FDD-derived range $119,000-$259,000; directories vary ($97,450-$305,000)."},
+        "totalInvestmentMax": {"value": 259000, "source": "Vetted Biz - Pinot's Palette Franchise Insights", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "Vetted Biz - Pinot's Palette Franchise Insights", "year": 2025, "confidence": "medium", "note": "Some directories cite up to $27,500."},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz - Pinot's Palette Franchise Insights", "year": 2025, "confidence": "medium", "note": "6% of monthly sales per Vetted Biz; some directories cite 7%."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz - Pinot's Palette Franchise Insights", "year": 2025, "confidence": "medium"},
+        "avgUnitRevenue": {"value": 379708, "source": "Vetted Biz - Pinot's Palette Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales."},
+        "totalUnits": {"value": 67, "source": "Vetted Biz - Pinot's Palette Franchise Insights", "year": 2025, "confidence": "high", "note": "US studios; all franchised, 0 company-owned."},
+        "yearFounded": {"value": 2009, "source": "Wikipedia; franchisor site", "year": 2025, "confidence": "medium", "note": "First studio opened 2009 in Houston; Vetted Biz cites 2010."},
+        "yearFranchising": {"value": 2010, "source": "Vetted Biz - Pinot's Palette Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Pinot's Palette Franchise Insights", "year": 2025, "confidence": "medium", "note": "Approximately two weeks at corporate (Mandeville, LA / Houston)."},
+        "isGrowing": {"value": false, "source": "2018 peak ~140+ studios vs ~67 in 2025 (Vetted Biz)", "year": 2025, "confidence": "medium", "note": "Long-run contraction, though franchisor markets post-acquisition expansion in CA, NV, FL, and OH for 2025."},
+        "businessModelType": {"value": "b2c", "source": "Pinot's Palette franchisor site", "year": 2026, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz FDD analysis (no lawsuits or bankruptcy disclosed)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; The FDD Exchange", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Pinot's Palette Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Board & Brush Creative Studio",
+      "slug": "board-and-brush-creative-studio",
+      "category": "Services",
+      "website": "boardandbrush.com",
+      "notes": "DIY wood-sign workshop franchise (Hartland, WI), founded 2016 and franchising since 2017. Low entry cost (~$75K-$100K) but a contracting system with notably low average unit revenue. Franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "System contracting with a high 2024 closure rate",
+          "detail": "Franchised units fell from 261 in 2022 to roughly 194 in 2024, with an estimated 21% unit closure rate in 2024 - a meaningful shakeout in a discretionary workshop-events category.",
+          "source": "Vetted Biz / FranchiseLens Board & Brush analyses (FDD outlet data)",
+          "url": "https://www.vettedbiz.com/franchises/board-brush-creative-studio/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Very low average unit revenue",
+          "detail": "Vetted Biz Item 19 analysis cites average yearly gross sales of roughly $110,000-$116,000 with estimated owner-operator earnings of about $13,000-$17,000 and a 6.9-8.9 year payback - thin economics highly dependent on event volume.",
+          "source": "Vetted Biz - Board & Brush Franchise Insights (Item 19-derived)",
+          "url": "https://www.vettedbiz.com/franchises/board-brush-creative-studio/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Minimum monthly royalty regardless of revenue",
+          "detail": "The 6% royalty carries a minimum payment of $400/month, a fixed obligation that weighs disproportionately on low-volume studios given the system's modest average sales.",
+          "source": "SHARPSHEETS / Vetted Biz Board & Brush FDD analyses",
+          "url": "https://www.vettedbiz.com/franchises/board-brush-creative-studio/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 15000, "source": "Vetted Biz - Board & Brush Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash required $15,000; some directories cite up to $75,000 liquid and $300,000 net worth."},
+        "totalInvestmentMin": {"value": 75489, "source": "Vetted Biz - Board & Brush Franchise Insights", "year": 2025, "confidence": "high", "note": "FDD-derived range $75,489-$99,761."},
+        "totalInvestmentMax": {"value": 99761, "source": "Vetted Biz - Board & Brush Franchise Insights", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "Vetted Biz - Board & Brush Franchise Insights", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz - Board & Brush Franchise Insights", "year": 2025, "confidence": "high", "note": "6% of monthly gross sales, $400/month minimum."},
+        "adFundPercent": {"value": 1, "source": "Vetted Biz - Board & Brush Franchise Insights", "year": 2025, "confidence": "medium", "note": "1% per Vetted Biz; some directories cite a 2% national advertising fee."},
+        "avgUnitRevenue": {"value": 110302, "source": "Vetted Biz - Board & Brush Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales; other analyses cite ~$116,403."},
+        "totalUnits": {"value": 194, "source": "Vetted Biz - Board & Brush Franchise Insights", "year": 2025, "confidence": "high", "note": "Down from 261 in 2022."},
+        "yearFounded": {"value": 2016, "source": "Vetted Biz - Board & Brush Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2017, "source": "Vetted Biz - Board & Brush Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 1, "source": "Vetted Biz - Board & Brush Franchise Insights", "year": 2025, "confidence": "medium", "note": "Eight-day program at the Wisconsin headquarters plus ongoing support."},
+        "isGrowing": {"value": false, "source": "Vetted Biz FDD outlet data (261 -> 194 units 2022-2024)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Board & Brush franchisor site", "year": 2026, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz FDD analysis (no lawsuits or bankruptcy disclosed)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; FranchisePayback Board & Brush FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Board & Brush Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "AR Workshop",
+      "slug": "ar-workshop",
+      "category": "Services",
+      "website": "arworkshop.com",
+      "notes": "DIY home-decor workshop franchise (AR Workshop Franchising, LLC, Fort Mill, SC), founded 2016 and franchising since 2016/2017. Hands-on wood-sign, canvas, and home-decor crafting classes plus DIY-to-go kits. ~115 US studios; franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Litigation and/or bankruptcy disclosed in FDD",
+          "detail": "FDD-tracking services report that AR Workshop discloses lawsuit and/or bankruptcy information in its Franchise Disclosure Document - unlike most peers in the DIY-workshop category, which report clean Item 3/Item 4 records. Prospective buyers should review the current FDD Item 3 and Item 4 directly.",
+          "source": "Vetted Biz - AR Workshop Franchise Insights (FDD analysis)",
+          "url": "https://www.vettedbiz.com/franchises/ar-workshop",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Very low average unit revenue and long payback",
+          "detail": "Vetted Biz Item 19 analysis cites average yearly gross sales of roughly $119,841 with estimated owner-operator earnings of about $16,800-$21,600 and a 10-12 year payback period - thin economics for a discretionary, event-driven workshop concept.",
+          "source": "Vetted Biz - AR Workshop Franchise Insights (Item 19-derived)",
+          "url": "https://www.vettedbiz.com/franchises/ar-workshop",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Direct competition with similar DIY-workshop concepts in a contracting category",
+          "detail": "AR Workshop competes head-to-head with Board & Brush, Pinot's Palette, and other DIY/paint-and-sip studios; several peers have contracted in recent years, signaling category maturity and shakeout risk for new single-studio operators.",
+          "source": "FranchiseGrade / Vetted Biz AR Workshop reviews",
+          "url": "https://www.franchisegrade.com/franchises/ar-workshop",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 30000, "source": "Vetted Biz - AR Workshop Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash required $30,000."},
+        "totalInvestmentMin": {"value": 134312, "source": "Vetted Biz - AR Workshop Franchise Insights", "year": 2025, "confidence": "high", "note": "FDD-derived range $134,312-$229,708; some older directories cite $94,000-$174,000."},
+        "totalInvestmentMax": {"value": 229708, "source": "Vetted Biz - AR Workshop Franchise Insights", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 28000, "source": "Vetted Biz - AR Workshop Franchise Insights", "year": 2025, "confidence": "medium", "note": "FDD discloses $28,000-$35,000 depending on territory."},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz - AR Workshop Franchise Insights", "year": 2025, "confidence": "high", "note": "6% of monthly sales."},
+        "adFundPercent": {"value": 1, "source": "Vetted Biz - AR Workshop Franchise Insights", "year": 2025, "confidence": "medium"},
+        "avgUnitRevenue": {"value": 119841, "source": "Vetted Biz - AR Workshop Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales."},
+        "totalUnits": {"value": 115, "source": "Vetted Biz - AR Workshop Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFounded": {"value": 2016, "source": "Vetted Biz - AR Workshop Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2017, "source": "Vetted Biz - AR Workshop Franchise Insights (SC entity organized May 2017)", "year": 2025, "confidence": "medium", "note": "Some directories cite 2016."},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - AR Workshop Franchise Insights", "year": 2025, "confidence": "medium", "note": "Approximately two weeks at corporate."},
+        "businessModelType": {"value": "b2c", "source": "AR Workshop franchisor site", "year": 2026, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - AR Workshop FDD analysis (discloses lawsuit and/or bankruptcy information)", "year": 2025, "confidence": "low", "note": "FDD-tracking services indicate litigation and/or bankruptcy is disclosed; specific category not confirmed - review current FDD Items 3-4."},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; FranchisePanda AR Workshop FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - AR Workshop Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Color Me Mine",
+      "slug": "color-me-mine",
+      "category": "Services",
+      "website": "colormemine.com",
+      "notes": "Paint-your-own-pottery studio franchise (Color Me Mine Enterprises), founded 1991 with the modern franchise program from 2014; ~113 US studios (nearly all franchised). Higher average unit revenue than most DIY-workshop peers. Franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High build-out cost for a discretionary studio concept",
+          "detail": "FDD Item 7 runs $180,000-$437,700 for a paint-your-own-pottery studio - a substantial fit-out for a discretionary-spend retail experience, with a 6.9-8.9 year estimated payback per Vetted Biz analysis.",
+          "source": "SHARPSHEETS / Vetted Biz Color Me Mine FDD analyses",
+          "url": "https://www.vettedbiz.com/franchises/color-me-mine",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Stacked marketing obligations plus monthly service fee",
+          "detail": "Beyond the 5% royalty, franchisees pay a 1% national marketing fund, are required to spend 2% of sales on local advertising, and pay an information/accounting service fee of $80/month - fixed obligations independent of revenue.",
+          "source": "Franchise Help / Franchise Clique Color Me Mine summaries",
+          "url": "https://www.franchisehelp.com/franchises/color-me-mine/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Mature concept in a competitive DIY-experience category",
+          "detail": "Color Me Mine has operated since 1991 and competes in the broad paint-your-own-pottery / DIY-experience space alongside paint-and-sip and craft-workshop concepts; the system has held roughly flat in the low-100s of units rather than expanding rapidly.",
+          "source": "Entrepreneur Franchise 500 directory; Vetted Biz",
+          "url": "https://www.entrepreneur.com/franchises/directory/color-me-mine/282223",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Vetted Biz - Color Me Mine Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash required $50,000."},
+        "netWorthMin": {"value": 200000, "source": "Franchise Help directory", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 180000, "source": "Vetted Biz - Color Me Mine Franchise Insights", "year": 2025, "confidence": "high", "note": "FDD-derived range $180,000-$437,700."},
+        "totalInvestmentMax": {"value": 437700, "source": "Vetted Biz - Color Me Mine Franchise Insights", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 30000, "source": "Vetted Biz - Color Me Mine Franchise Insights", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "Vetted Biz - Color Me Mine Franchise Insights", "year": 2025, "confidence": "high", "note": "5% of gross revenue."},
+        "adFundPercent": {"value": 1, "source": "Vetted Biz - Color Me Mine Franchise Insights", "year": 2025, "confidence": "high", "note": "1% national marketing fund plus a required 2% of sales for local advertising and an $80/month service fee."},
+        "avgUnitRevenue": {"value": 438468, "source": "Vetted Biz - Color Me Mine Franchise Insights (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales."},
+        "totalUnits": {"value": 113, "source": "Vetted Biz - Color Me Mine Franchise Insights", "year": 2025, "confidence": "high", "note": "112 franchised + 1 company-owned."},
+        "yearFounded": {"value": 1991, "source": "Vetted Biz - Color Me Mine Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2014, "source": "Vetted Biz - Color Me Mine Franchise Insights", "year": 2025, "confidence": "medium", "note": "Modern franchise program; the concept has been franchised in various forms since the 1990s."},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Color Me Mine Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two-week initial program at headquarters."},
+        "renewalTermYears": {"value": 5, "source": "Franchise Clique Color Me Mine summary", "year": 2025, "confidence": "medium", "note": "5-year term, renewable."},
+        "businessModelType": {"value": "b2c", "source": "Color Me Mine franchisor site", "year": 2026, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz - Color Me Mine FDD analysis (no lawsuits or bankruptcy disclosed)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS Color Me Mine FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Color Me Mine Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Office Evolution",
+      "slug": "office-evolution",
+      "category": "Services",
+      "website": "officeevolution.com",
+      "notes": "Suburban coworking / flexible-office and virtual-office franchise (founded 2003 in Boulder, CO; franchising since 2012), now part of United Franchise Group's UFG Coworks division alongside Venture X. ~84 franchised centers, all franchised (company exited direct ownership in 2024). Franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Long-term commercial lease exposure in a structurally shifting office market",
+          "detail": "The coworking model carries multi-year commercial real-estate leases against month-to-month or short-term member revenue - a duration mismatch that magnifies downside in a post-pandemic office market still adjusting to hybrid/remote work. Build-out can reach ~$2.2M for larger centers.",
+          "source": "Franchise Chatter 2025 FDD review (Item 7 range $193,000-$2,178,000)",
+          "url": "https://www.franchisechatter.com/2025/11/21/office-evolution-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High minimum royalty and marketing fees regardless of revenue",
+          "detail": "Royalty is the greater of 7.5% of gross revenues or $1,500/month, and the marketing fee is the greater of 3% of gross revenues or $1,500/month - combined fixed minimums of $3,000/month that weigh heavily on ramping or under-occupied centers.",
+          "source": "Franchise Chatter 2025 FDD review",
+          "url": "https://www.franchisechatter.com/2025/11/21/office-evolution-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Slow net unit growth on a small base",
+          "detail": "Franchised outlets were essentially flat in 2023 (78 to 78) and grew modestly to 84 in 2024; the system remains small (~84 centers) relative to coworking competitors, limiting national brand leverage even as systemwide revenue rose to $46.3M in 2024.",
+          "source": "Franchise Chatter 2025 FDD review (outlet tables)",
+          "url": "https://www.franchisechatter.com/2025/11/21/office-evolution-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 193000, "source": "Franchise Chatter 2025 FDD review (Item 7)", "year": 2025, "confidence": "high", "note": "FDD Item 7 range $193,000-$2,178,000; 2024 review cited $187,000-$2,464,000."},
+        "totalInvestmentMax": {"value": 2178000, "source": "Franchise Chatter 2025 FDD review (Item 7)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49500, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 7.5, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high", "note": "Greater of 7.5% of gross revenues or $1,500/month."},
+        "adFundPercent": {"value": 3, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high", "note": "Greater of 3% of gross revenues or $1,500/month."},
+        "avgUnitRevenue": {"value": 601905, "source": "Office Evolution 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross sales across 75 qualifying locations; centers over 10,000 sq ft averaged $733,050, under 10,000 sq ft $504,308; 92% average peak occupancy."},
+        "totalUnits": {"value": 84, "source": "Franchise Chatter 2025 FDD review (outlet tables)", "year": 2025, "confidence": "high", "note": "84 franchised + 0 company-owned at end of 2024."},
+        "yearFounded": {"value": 2003, "source": "Office Evolution corporate blog (founded 2003 in Boulder, CO)", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2012, "source": "Office Evolution corporate site; United Franchise Group", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Franchise Chatter 2025 FDD review (outlet tables)", "year": 2025, "confidence": "medium", "note": "+6 net franchised units in 2024 after a flat 2023."},
+        "businessModelType": {"value": "b2b", "source": "Office Evolution franchisor site (coworking/flexible office for small businesses)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Office Evolution franchisor site (physical business-center model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "National Property Inspections",
+      "slug": "national-property-inspections",
+      "category": "Home Services",
+      "website": "npiweb.com",
+      "notes": "Home and commercial property inspection franchise (NPI, Omaha, NE), franchising since 1987 - one of the oldest inspection franchises. Low-cost, home/mobile-based owner-operator model (~194 units). Franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Low average revenue with high royalty plus minimum royalty floor",
+          "detail": "Item 19-derived data shows average gross sales of about $122,339 (median $86,016), against an 8% royalty plus a 2% advertising fee and monthly royalty minimums escalating from $300 to $500 - a high effective fee burden on a low-revenue, single-operator model.",
+          "source": "Vetted Biz / SHARPSHEETS NPI FDD analyses",
+          "url": "https://www.vettedbiz.com/franchises/national-property-inspections/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "System contracting and tied to housing-transaction volume",
+          "detail": "Units declined from roughly 214 in 2022 to about 194 in 2024. Inspection demand is highly cyclical with home sales, so franchisee revenue is exposed to interest-rate-driven swings in real-estate transaction volume.",
+          "source": "SHARPSHEETS NPI FDD analysis (outlet trend)",
+          "url": "https://sharpsheets.io/blog/national-property-inspections-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No litigation or bankruptcy disclosed in FDD",
+          "detail": "FDD-tracking services report NPI does not disclose lawsuits or bankruptcy information in its FDD - a clean Item 3/Item 4 record for a long-established system.",
+          "source": "Vetted Biz - NPI Franchise Insights (FDD analysis)",
+          "url": "https://www.vettedbiz.com/franchises/national-property-inspections/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 10000, "source": "Vetted Biz - NPI Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash required $10,000; other directories cite ~$34,900 liquid."},
+        "netWorthMin": {"value": 50000, "source": "SHARPSHEETS NPI FDD analysis", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 41000, "source": "Vetted Biz - NPI Franchise Insights; SHARPSHEETS", "year": 2025, "confidence": "high", "note": "FDD-derived range $41,000-$54,950."},
+        "totalInvestmentMax": {"value": 54950, "source": "Vetted Biz - NPI Franchise Insights; SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 34900, "source": "Vetted Biz - NPI Franchise Insights", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 8, "source": "Vetted Biz - NPI Franchise Insights", "year": 2025, "confidence": "high", "note": "8% of monthly gross sales with monthly minimums escalating from $300 to $500."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz - NPI Franchise Insights", "year": 2025, "confidence": "high"},
+        "avgUnitRevenue": {"value": 122339, "source": "NPI FDD Item 19 (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "medium", "note": "Average gross sales $122,339; median $86,016."},
+        "totalUnits": {"value": 194, "source": "SHARPSHEETS NPI FDD analysis; Vetted Biz", "year": 2025, "confidence": "high", "note": "Down from ~214 in 2022; 2024 FDD shows ~203 franchised per one analysis."},
+        "yearFounded": {"value": 1987, "source": "Vetted Biz - NPI Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1987, "source": "Vetted Biz - NPI Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - NPI Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two weeks at the Omaha headquarters plus operational manuals."},
+        "isGrowing": {"value": false, "source": "SHARPSHEETS NPI FDD analysis (214 -> 194 units 2022-2024)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "both", "source": "NPI franchisor site (residential and commercial inspections)", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Vetted Biz - NPI Franchise Insights (field-based, home-based inspector model)", "year": 2025, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz - NPI FDD analysis (no lawsuits or bankruptcy disclosed)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS NPI FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - NPI Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Inspect-It 1st",
+      "slug": "inspect-it-1st",
+      "category": "Home Services",
+      "website": "inspectit1st.com",
+      "notes": "Property inspection franchise (Inspect-It 1st, Phoenix, AZ; parent Merrymeeting Group), founded 1991 and franchising since 1998. Low-cost, home/mobile-based owner-operator model. Actively recruiting unit franchisees and Regional Directors across the US except AK, HI, RI, ND, and SD - which is captured in statesOpen below. Very small system (~29 units).",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very small system after a long operating history",
+          "detail": "Inspect-It 1st reports roughly 29 operating units despite franchising since 1998 - a small, slow-growth network that limits brand recognition and national marketing leverage relative to larger inspection franchises like Pillar To Post, WIN, and HomeTeam.",
+          "source": "Franchise Gator Inspect-It 1st directory",
+          "url": "https://www.franchisegator.com/franchises/inspect-it-1st-home-inspection/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Revenue tied to cyclical home-sale transaction volume",
+          "detail": "As with all home-inspection franchises, demand is driven by real-estate transaction volume; rising interest rates and slow housing markets directly compress inspection order flow for a single-operator business with limited diversification.",
+          "source": "Gaebler Ventures home-inspection franchise overview; category analysis",
+          "url": "https://www.gaebler.com/Home-Inspection-Franchise-Opportunities.htm",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Inconsistent recruitment signals across directories",
+          "detail": "While the franchisor markets active recruitment of unit owners and Regional Directors, some third-party directories simultaneously show 'not currently accepting inquiries / more opportunities coming soon' - prospective buyers should confirm current availability directly with the franchisor.",
+          "source": "Franchise.com and Franchise Gator Inspect-It 1st listings",
+          "url": "https://www.franchise.com/franchise/inspect-it-1st",
+          "year": 2026
+        }
+      ],
+      "statesOpen": [
+        {"state": "available", "status": "open", "note": "Franchisor markets unit-franchise and Regional Director opportunities across the US EXCEPT Alaska, Hawaii, Rhode Island, North Dakota, and South Dakota. Confirm specific territory availability directly with the franchisor.", "source": "Inspect-It 1st franchise opportunity listings (franchising.com / franchise.com)", "url": "https://www.franchising.com/inspectit1stproperty/", "year": 2026}
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 20000, "source": "Franchise Gator / Franchising.com Inspect-It 1st listings", "year": 2026, "confidence": "high", "note": "At least $20,000 liquid capital."},
+        "totalInvestmentMin": {"value": 27400, "source": "Franchise Gator / Franchising.com Inspect-It 1st listings", "year": 2026, "confidence": "medium", "note": "FDD-derived range $27,400-$38,400; one directory cites $32,500-$43,400 and another $45,000-$56,000."},
+        "totalInvestmentMax": {"value": 38400, "source": "Franchise Gator / Franchising.com Inspect-It 1st listings", "year": 2026, "confidence": "medium"},
+        "royaltyPercent": {"value": 8, "source": "Franchise Help / category directories (8% inspection-franchise norm; some sources cite 1st Inspection Services at 8%)", "year": 2025, "confidence": "low", "note": "Royalty not consistently published for Inspect-It 1st specifically; 8% is the cited figure for the affiliated 1st Inspection Services brand. Confirm against current FDD."},
+        "totalUnits": {"value": 29, "source": "Franchise Gator Inspect-It 1st directory", "year": 2026, "confidence": "medium"},
+        "yearFounded": {"value": 1991, "source": "Franchising.com Inspect-It 1st overview (founded by Richard Schneider)", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 1998, "source": "Franchising.com Inspect-It 1st overview", "year": 2026, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Franchise.com Inspect-It 1st listing", "year": 2026, "confidence": "medium", "note": "Two-week Southwest Institute of Property Inspection (SIPI) program plus 26-week coaching."},
+        "veteranDiscount": {"value": true, "source": "Franchising.com / Franchise.com Inspect-It 1st listings", "year": 2026, "confidence": "high", "note": "10% discount for veterans."},
+        "financingOffered": {"value": true, "source": "Franchising.com Inspect-It 1st overview", "year": 2026, "confidence": "medium", "note": "Financing offered per franchisor listings."},
+        "businessModelType": {"value": "both", "source": "Inspect-It 1st franchisor listings (residential and commercial inspections)", "year": 2026, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "Inspect-It 1st franchisor listings (field-based, home-based inspector model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Gator / Vetted Biz Inspect-It 1st directories", "year": 2026, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "HomeTeam Inspection Service",
+      "slug": "hometeam-inspection-service",
+      "category": "Home Services",
+      "website": "hometeam.com",
+      "notes": "Home inspection franchise (HomeTeam Inspection Service, Inc., Milford, OH; incorporated 1992), part of the Authority Brands portfolio since 2020. Known for a multi-inspector 'team' model that completes inspections faster. ~200 US franchises, all franchised. Franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Litigation and/or bankruptcy disclosed in FDD",
+          "detail": "FDD-tracking services report that HomeTeam discloses lawsuit and/or bankruptcy information in its Franchise Disclosure Document. Prospective buyers should review the current FDD Items 3 and 4 directly before relying on the disclosure history.",
+          "source": "Vetted Biz - HomeTeam Inspection Service FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/hometeam-inspection-service/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Revenue tied to cyclical home-sale transaction volume",
+          "detail": "Inspection demand tracks real-estate transaction volume, so franchisee revenue is exposed to interest-rate-driven housing slowdowns; HomeTeam's average gross sales of about $231,203 leave limited cushion when transaction volume falls.",
+          "source": "Vetted Biz - HomeTeam Inspection Service Franchise Insights (Item 19-derived)",
+          "url": "https://www.vettedbiz.com/franchises/hometeam-inspection-service/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Stacked ongoing fees (6% royalty + 3% ad fund)",
+          "detail": "Beyond the 6% royalty (collected weekly via EFT), franchisees pay a 3% advertising fund contribution - a combined 9% of sales ongoing burden on a modest-revenue, single-operator inspection business.",
+          "source": "Vetted Biz - HomeTeam Inspection Service Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/hometeam-inspection-service/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 15000, "source": "Vetted Biz - HomeTeam Inspection Service Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum cash required $15,000; some directories cite $40,000 liquid and $100,000 net worth."},
+        "totalInvestmentMin": {"value": 65100, "source": "Vetted Biz - HomeTeam Inspection Service Franchise Insights", "year": 2025, "confidence": "high", "note": "FDD-derived range $65,100-$91,800; some directories cite $50,100-$76,800."},
+        "totalInvestmentMax": {"value": 91800, "source": "Vetted Biz - HomeTeam Inspection Service Franchise Insights", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 45000, "source": "Vetted Biz - HomeTeam Inspection Service Franchise Insights", "year": 2025, "confidence": "medium", "note": "FDD discloses $45,000-$65,000 depending on territory."},
+        "royaltyPercent": {"value": 6, "source": "Vetted Biz - HomeTeam Inspection Service Franchise Insights", "year": 2025, "confidence": "high", "note": "6% of sales, collected weekly via EFT."},
+        "adFundPercent": {"value": 3, "source": "Vetted Biz - HomeTeam Inspection Service Franchise Insights", "year": 2025, "confidence": "high"},
+        "avgUnitRevenue": {"value": 231203, "source": "HomeTeam FDD Item 19 (via Vetted Biz)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales; estimated owner-operator earnings $32,369-$41,617; 2.6-4.6 year payback."},
+        "totalUnits": {"value": 200, "source": "Vetted Biz - HomeTeam Inspection Service Franchise Insights", "year": 2025, "confidence": "high", "note": "All franchised; 0 company-owned."},
+        "yearFounded": {"value": 1992, "source": "Vetted Biz; HomeTeam FDD (Ohio corp incorporated 12/14/1992)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1992, "source": "Vetted Biz - HomeTeam Inspection Service Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - HomeTeam Inspection Service Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two-week program at the Dallas headquarters."},
+        "businessModelType": {"value": "both", "source": "HomeTeam franchisor site (residential and commercial inspections)", "year": 2026, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "HomeTeam franchisor site (field-based, home-based inspector model)", "year": 2026, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - HomeTeam FDD analysis (discloses lawsuit and/or bankruptcy information)", "year": 2025, "confidence": "low", "note": "FDD-tracking services indicate litigation and/or bankruptcy is disclosed; specific category not confirmed - review current FDD Items 3-4."},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; FranchisePayback HomeTeam FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - HomeTeam Inspection Service Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "AmeriSpec Inspection Services",
+      "slug": "amerispec-inspection-services",
+      "category": "Home Services",
+      "website": "amerispec.com",
+      "notes": "Home inspection franchise (AmeriSpec, Cordova/Memphis, TN), founded 1987 and franchising since 1988, part of the Neighborly portfolio since the 2020 ServiceMaster transaction. Low-cost, home/mobile-based owner-operator model with ~102-137 US/Canada units (all franchised). Franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Low average revenue with high stacked ongoing fees",
+          "detail": "Item 19-derived average yearly gross sales are about $81,821 against a 7% royalty plus a 3% ad fund (plus a $55/month technology fee and $600-$800 annual software fee) - a high effective fee load on a low-revenue single-operator model, with a 7-9 year estimated payback.",
+          "source": "Vetted Biz / SHARPSHEETS AmeriSpec FDD analyses",
+          "url": "https://www.vettedbiz.com/franchises/amerispec/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Revenue tied to cyclical home-sale transaction volume",
+          "detail": "Inspection demand tracks real-estate transaction volume, exposing franchisee revenue to interest-rate-driven housing slowdowns; the low average AUV leaves limited cushion in down markets.",
+          "source": "SHARPSHEETS AmeriSpec FDD analysis; category analysis",
+          "url": "https://sharpsheets.io/blog/amerispec-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "One brand among many in the Neighborly portfolio",
+          "detail": "AmeriSpec sits inside Neighborly, a large multi-brand franchisor platform that controls development priorities and shared services across dozens of home-service concepts; franchisees are one brand among many in capital-allocation decisions.",
+          "source": "Vetted Biz / SHARPSHEETS (Neighborly acquired AmeriSpec from ServiceMaster in 2020)",
+          "url": "https://www.vettedbiz.com/franchises/amerispec/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 15000, "source": "Vetted Biz - AmeriSpec Franchise Insights", "year": 2025, "confidence": "medium", "note": "Minimum liquid capital $15,000."},
+        "totalInvestmentMin": {"value": 76085, "source": "Vetted Biz - AmeriSpec Franchise Insights; SHARPSHEETS", "year": 2025, "confidence": "high", "note": "FDD-derived range $76,085-$92,860."},
+        "totalInvestmentMax": {"value": 92860, "source": "Vetted Biz - AmeriSpec Franchise Insights; SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "Vetted Biz - AmeriSpec Franchise Insights", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 7, "source": "Vetted Biz - AmeriSpec Franchise Insights", "year": 2025, "confidence": "high", "note": "7% of monthly sales."},
+        "adFundPercent": {"value": 3, "source": "Vetted Biz - AmeriSpec Franchise Insights", "year": 2025, "confidence": "high", "note": "3% ad fund plus a $55/month technology fee and $600-$800 annual software fee."},
+        "avgUnitRevenue": {"value": 81821, "source": "AmeriSpec FDD Item 19 (via Vetted Biz)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales; 7-9 year estimated payback."},
+        "totalUnits": {"value": 137, "source": "SHARPSHEETS AmeriSpec FDD analysis", "year": 2025, "confidence": "medium", "note": "137 locations across the US and Canada per SHARPSHEETS; Vetted Biz cites 102 US locations. All franchised; 0 company-owned."},
+        "yearFounded": {"value": 1987, "source": "Vetted Biz - AmeriSpec Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1988, "source": "Vetted Biz - AmeriSpec Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 1, "source": "Vetted Biz - AmeriSpec Franchise Insights", "year": 2025, "confidence": "medium", "note": "5-day program at corporate headquarters."},
+        "businessModelType": {"value": "both", "source": "AmeriSpec franchisor site (residential and commercial inspections)", "year": 2026, "confidence": "medium"},
+        "mobileBased": {"value": true, "source": "AmeriSpec franchisor site (field-based, home-based inspector model)", "year": 2026, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "SHARPSHEETS AmeriSpec FDD analysis (US and Canada locations)", "year": 2025, "confidence": "medium"},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz - AmeriSpec FDD analysis (no lawsuits or bankruptcy disclosed)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS AmeriSpec FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - AmeriSpec Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Woofie's",
+      "slug": "woofies",
+      "category": "Pets",
+      "website": "woofies.com",
+      "notes": "Mobile pet-care franchise (Woofie's Pet Ventures) offering combined pet sitting, dog walking, and mobile pet-spa/grooming-van services; founded 2004 in Virginia, franchising since 2018, acquired into the Authority Brands portfolio. Fast-growing system (3 to 82 franchised units across 2022-2024) with a strong multi-year revenue ramp. Franchisor does not publish a public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very young, hyper-growth system with limited mature-unit data",
+          "detail": "Franchised units grew from 3 (start of 2022) to 9, 39, and 82 by end of 2024 - most of the system is under two years old. The Item 19 also shows extreme dispersion (median territory revenue $124,534 vs an average of $271,604; range $20,303-$3,221,694), so headline averages overstate typical early-stage results.",
+          "source": "Woofie's 2026 FDD outlet tables and Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/04/26/woofies-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Mandatory $28,000/year local marketing spend",
+          "detail": "Beyond the 6.5% royalty and 2% national brand fund, franchisees must spend $28,000 per calendar year on local marketing (prorated in the first year) - a fixed obligation that pressures Year-1 units still ramping (average Year-1 revenue was just $119,657).",
+          "source": "Woofie's 2026 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/04/26/woofies-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Multi-service model concentrates operational complexity",
+          "detail": "Woofie's combines pet sitting, dog walking, and mobile grooming vans in one unit - more revenue streams but also more staffing, scheduling, and vehicle/equipment overhead than a single-service pet franchise, raising execution risk for new owners.",
+          "source": "Woofie's 2026 FDD review (Franchise Chatter); 1851 Franchise",
+          "url": "https://www.franchisechatter.com/2026/04/26/woofies-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 180423, "source": "Woofie's 2025/2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Item 7 range $180,423-$294,651."},
+        "totalInvestmentMax": {"value": 294651, "source": "Woofie's 2025/2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 57500, "source": "Woofie's 2025/2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 6.5, "source": "Woofie's 2025/2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "6.5% of gross revenue."},
+        "adFundPercent": {"value": 2, "source": "Woofie's 2025/2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2% national brand fund, plus a mandatory $28,000/year local marketing spend."},
+        "avgUnitRevenue": {"value": 271604, "source": "Woofie's 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2024 average revenue per territory across 38 territories (23 franchisees); average per-franchisee revenue $448,737; median territory $124,534; range $20,303-$3,221,694; top 25% averaged $1,061,815."},
+        "totalUnits": {"value": 82, "source": "Woofie's 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "82 franchised + 0 company-owned at end of 2024 (company-owned units converted to franchised by end of 2023)."},
+        "yearFounded": {"value": 2004, "source": "Woofie's franchisor site; 1851 Franchise", "year": 2026, "confidence": "high", "note": "Founded in Virginia in 2004."},
+        "yearFranchising": {"value": 2018, "source": "Woofie's franchisor site; 1851 Franchise", "year": 2026, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Woofie's 2026 FDD outlet tables (via Franchise Chatter)", "year": 2026, "confidence": "high", "note": "Franchised units +6 (2022), +30 (2023), +43 (2024)."},
+        "veteranDiscount": {"value": true, "source": "Vetted Biz - Woofie's Franchise Insights", "year": 2025, "confidence": "medium", "note": "Veteran discounts and women-owned franchise support advertised; amount not published."},
+        "businessModelType": {"value": "b2c", "source": "Woofie's franchisor site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Woofie's franchisor site (mobile pet-spa vans and in-home pet care)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Central Bark",
+      "slug": "central-bark",
+      "category": "Pets",
+      "website": "centralbarkusa.com",
+      "notes": "Dog daycare, boarding, grooming, training, and retail franchise (Central Bark, founded 2003 in Wisconsin; franchising since 2004). Whole-dog-care facility model with ~41 franchised units, all franchised. Franchisor does not publish a public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High build-out cost for a facility-based pet model",
+          "detail": "2026 FDD Item 7 runs $569,200-$1,394,250 for a full daycare/boarding facility build-out, a substantial capital commitment with an estimated multi-year payback; underperformance is costly given the heavy fixed real-estate and equipment base.",
+          "source": "Central Bark 2026 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/02/25/central-bark-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Wide revenue dispersion and decelerating same-unit growth",
+          "detail": "2024 Item 19: average gross sales $825,930 (median $770,229) but a range of $216,972-$1,828,699, with average operating profit of 15.1%. Year-over-year same-store growth decelerated from 24.9% (2022) to 12.2% (2023) to 5.0% (2024).",
+          "source": "Central Bark 2026 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/02/25/central-bark-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        },
+        {
+          "severity": "info",
+          "title": "Small system with slow net unit growth",
+          "detail": "Franchised units grew only modestly (+2, +3, +3) from 35 to 41 across 2022-2024 - steady but slow for a 20-year-old brand, limiting national marketing scale relative to larger pet-care franchisors.",
+          "source": "Central Bark 2026 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2026/02/25/central-bark-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2026
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "SHARPSHEETS / Vetted Biz Central Bark FDD analyses", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 500000, "source": "SHARPSHEETS / Vetted Biz Central Bark FDD analyses", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 569200, "source": "Central Bark 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Item 7 range $569,200-$1,394,250."},
+        "totalInvestmentMax": {"value": 1394250, "source": "Central Bark 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "franchiseFee": {"value": 49000, "source": "Central Bark 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Central Bark 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "6% of gross sales; some older directories cite 8%."},
+        "adFundPercent": {"value": 2, "source": "Central Bark 2026 FDD (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "Marketing fund is the greater of 2% of gross sales or $500/month, plus a local advertising cooperative of up to 2%."},
+        "avgUnitRevenue": {"value": 825930, "source": "Central Bark 2026 FDD Item 19 (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "2024 average gross sales across 33 units; median $770,229; range $216,972-$1,828,699; average EBITDA $124,384 (15.1% operating profit)."},
+        "totalUnits": {"value": 41, "source": "Central Bark 2026 FDD outlet tables (via Franchise Chatter review)", "year": 2026, "confidence": "high", "note": "All franchised; 0 company-owned at end of 2024."},
+        "yearFounded": {"value": 2003, "source": "Central Bark franchisor site (origin story); BizTimes", "year": 2026, "confidence": "high"},
+        "yearFranchising": {"value": 2004, "source": "Central Bark franchisor site; Vetted Biz", "year": 2026, "confidence": "medium", "note": "Began franchising shortly after the 2003 founding."},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Central Bark Franchise Insights", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "Central Bark 2026 FDD outlet tables (via Franchise Chatter)", "year": 2026, "confidence": "high", "note": "Franchised units 35 -> 38 -> 41 across 2022-2024; reported 15% Q3 2025 systemwide growth."},
+        "businessModelType": {"value": "b2c", "source": "Central Bark franchisor site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Central Bark franchisor site (facility-based daycare/boarding model)", "year": 2026, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2026 FDD review", "year": 2026, "confidence": "high"}
+      }
+    },
+    {
+      "name": "K9 Resorts",
+      "slug": "k9-resorts",
+      "category": "Pets",
+      "website": "k9resorts.com",
+      "notes": "Upscale dog daycare and boarding franchise (K-9 Franchising LLC, marketed as K9 Resorts Luxury Pet Hotel), founded 2005 and franchising since 2011. Capital-intensive facility model ($1.5M-$3.6M) with roughly 40 open locations and a large development pipeline (~165 open or in development across 28 states). Franchisor does not publish a public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Multimillion-dollar facility build with high cash requirement",
+          "detail": "FDD Item 7 runs roughly $1,481,374-$3,604,802 with a $400,000 minimum cash requirement and an 8-10 year estimated payback. Most deals are multi-unit developer agreements, so the true capital commitment for a typical buyer is well above a single-unit figure.",
+          "source": "Vetted Biz / SHARPSHEETS K9 Resorts FDD analyses",
+          "url": "https://www.vettedbiz.com/franchises/k9-resorts",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Litigation and/or bankruptcy disclosed in FDD",
+          "detail": "FDD-tracking services report that K9 Resorts discloses lawsuit and/or bankruptcy information in its Franchise Disclosure Document. Prospective buyers should review the current FDD Items 3 and 4 directly.",
+          "source": "Vetted Biz - K9 Resorts FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/k9-resorts",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Large development pipeline relative to open units",
+          "detail": "K9 Resorts markets ~165 locations 'operating or in various stages of development' across 28 states against only about 40 open units - a pipeline roughly 4x the operating base, heavily dependent on multi-unit developers actually building out their commitments.",
+          "source": "Entrepreneur Franchise 500 directory; K9 Resorts press (Oct 2024)",
+          "url": "https://www.entrepreneur.com/franchises/directory/k9-resorts-luxury-pet-hotel/334147",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 400000, "source": "Vetted Biz - K9 Resorts Franchise Insights", "year": 2025, "confidence": "high", "note": "Minimum cash required $400,000."},
+        "totalInvestmentMin": {"value": 1481374, "source": "Vetted Biz - K9 Resorts Franchise Insights", "year": 2025, "confidence": "high", "note": "FDD-derived range $1,481,374-$3,604,802; boutique vs luxury formats vary."},
+        "totalInvestmentMax": {"value": 3604802, "source": "Vetted Biz - K9 Resorts Franchise Insights", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49500, "source": "Vetted Biz - K9 Resorts Franchise Insights", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 7, "source": "Vetted Biz - K9 Resorts Franchise Insights", "year": 2025, "confidence": "high", "note": "7% of monthly sales."},
+        "adFundPercent": {"value": 1, "source": "Vetted Biz - K9 Resorts Franchise Insights", "year": 2025, "confidence": "high", "note": "1% marketing fee."},
+        "avgUnitRevenue": {"value": 2111881, "source": "K9 Resorts FDD Item 19 (via Vetted Biz)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales; corporate average sales ~$2.1M with corporate EBITDA over $820K and franchise EBITDA over $480K per franchisor."},
+        "totalUnits": {"value": 40, "source": "Vetted Biz - K9 Resorts Franchise Insights", "year": 2025, "confidence": "medium", "note": "~40 open US locations; franchisor cites ~165 operating or in development across 28 states."},
+        "yearFounded": {"value": 2005, "source": "Vetted Biz; K9 Resorts (20-year anniversary in 2025)", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2011, "source": "Vetted Biz - K9 Resorts Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - K9 Resorts Franchise Insights", "year": 2025, "confidence": "medium"},
+        "multiUnitAvailable": {"value": true, "source": "K9 Resorts press (multi-unit developer agreements standard; 13-unit Florida deal)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "K9 Resorts franchisor site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "K9 Resorts franchisor site (large facility-based pet-hotel model)", "year": 2026, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": true, "source": "Vetted Biz - K9 Resorts FDD analysis (discloses lawsuit and/or bankruptcy information)", "year": 2025, "confidence": "low", "note": "FDD-tracking services indicate litigation and/or bankruptcy is disclosed; specific category not confirmed - review current FDD Items 3-4."},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; K9 Resorts 2025 FDD (MN Dept. of Commerce registration copy)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - K9 Resorts Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Pet Wants",
+      "slug": "pet-wants",
+      "category": "Pets",
+      "website": "petwants.com",
+      "notes": "Fresh pet-food and supplies franchise (Pet Wants, founded 2010; franchising since 2015 under Strategic Franchising Systems) selling proprietary fresh pet food via local delivery, mobile, and small-store/storefront formats. ~159 franchised units, all franchised. Franchisor does not publish a public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High royalty plus branding contribution with monthly minimums",
+          "detail": "Royalty is 7% of gross revenues (minimum $300/month) plus a national branding contribution of the greater of $250/month or 2% of gross revenues - fixed minimums totaling at least $550/month that pressure low-volume territories early on.",
+          "source": "Vetted Biz / SHARPSHEETS Pet Wants FDD analyses",
+          "url": "https://www.vettedbiz.com/franchises/pet-wants",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Dependence on franchisor-supplied proprietary food",
+          "detail": "The model centers on selling Pet Wants' proprietary fresh pet food, so franchisee economics depend on the franchisor's product formulations, pricing, freshness/shelf-life logistics, and supply chain - factors the franchisee does not control, in a competitive premium pet-food market.",
+          "source": "SHARPSHEETS / Franchise Direct Pet Wants overviews",
+          "url": "https://sharpsheets.io/blog/pet-wants-franchise-sales-costs-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "One brand within the Strategic Franchising Systems platform",
+          "detail": "Pet Wants is part of Strategic Franchising Systems, a multi-brand franchisor; development priorities and shared services are allocated across the portfolio, and franchisees are one concept among several.",
+          "source": "Vetted Biz / Franchise Direct Pet Wants overviews",
+          "url": "https://www.vettedbiz.com/franchises/pet-wants",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 138000, "source": "Vetted Biz - Pet Wants Franchise Insights; SHARPSHEETS", "year": 2025, "confidence": "high", "note": "FDD-derived range $138,000-$219,000."},
+        "totalInvestmentMax": {"value": 219000, "source": "Vetted Biz - Pet Wants Franchise Insights; SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 48500, "source": "Vetted Biz - Pet Wants Franchise Insights", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 7, "source": "Vetted Biz - Pet Wants Franchise Insights", "year": 2025, "confidence": "high", "note": "7% of gross revenues, $300/month minimum."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz - Pet Wants Franchise Insights", "year": 2025, "confidence": "high", "note": "National branding contribution of the greater of $250/month or 2% of gross revenues."},
+        "avgUnitRevenue": {"value": 436723, "source": "Pet Wants FDD Item 19 (via Vetted Biz)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales; estimated owner earnings $61,142-$78,611."},
+        "totalUnits": {"value": 159, "source": "Vetted Biz - Pet Wants Franchise Insights", "year": 2025, "confidence": "high", "note": "All franchised; 0 company-owned."},
+        "yearFounded": {"value": 2010, "source": "Vetted Biz - Pet Wants Franchise Insights; Franchise Direct", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2015, "source": "Vetted Biz - Pet Wants Franchise Insights", "year": 2025, "confidence": "high"},
+        "renewalTermYears": {"value": 10, "source": "Vetted Biz - Pet Wants Franchise Insights", "year": 2025, "confidence": "medium", "note": "10-year initial term with a 10-year renewal option."},
+        "businessModelType": {"value": "b2c", "source": "Pet Wants franchisor site", "year": 2026, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Pet Wants franchisor site (local delivery / mobile and small-store formats)", "year": 2026, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS Pet Wants FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz - Pet Wants Franchise Insights", "year": 2025, "confidence": "medium"}
+      }
+    }
+  ]
+}

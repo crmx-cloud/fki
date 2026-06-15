@@ -1,0 +1,756 @@
+{
+  "brands": [
+    {
+      "name": "Wag N' Wash",
+      "slug": "wag-n-wash",
+      "category": "Pets",
+      "website": "wagnwash.com",
+      "notes": "Full-line natural pet food, bakery, and self-serve dog-wash retail franchise (founded Colorado Springs, 1999; franchising since 2006). Actively recruiting via franchise.wagnwash.com. Small but growing system (~23 franchised units) with strong per-store sales; the franchisor runs both franchised and company-owned stores. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very small, young-cohort system (~23 franchised units)",
+          "detail": "Per the 2025 FDD outlet tables there were only about 23 franchised stores (plus 6 company-owned) at the end of 2024, up from 14 in 2022. Item 19 reflects just 11 reporting franchised stores, so systemwide averages rest on a thin, immature base.",
+          "source": "Franchise Chatter 2025 FDD review (outlet tables and Item 19)",
+          "url": "https://www.franchisechatter.com/2025/10/21/wag-n-wash-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High build cost relative to a sub-$1.4M average store",
+          "detail": "Item 7 runs $520,520-$1,357,600 for a retail buildout while 11 reporting franchised stores averaged $1,301,435 annual gross sales (bottom half $1,081,795), with labor at ~36.6% and rent ~10.3% of sales - a capital-heavy retail model with thin margins on the low end.",
+          "source": "Franchise Chatter 2025 FDD review (Item 7 and Item 19)",
+          "url": "https://www.franchisechatter.com/2025/10/21/wag-n-wash-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Lawsuit/bankruptcy information disclosed in FDD",
+          "detail": "FDD-tracking services note that Wag N' Wash discloses lawsuit and/or bankruptcy information in its FDD (Item 3/Item 4), which prospective buyers should review directly.",
+          "source": "Vetted Biz - Wag N Wash Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/wag-n-wash",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 145000, "source": "Vetted Biz - Wag N Wash Franchise Insights", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 520520, "source": "Wag N' Wash 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 1357600, "source": "Wag N' Wash 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49900, "source": "Wag N' Wash 2025 FDD (via Franchise Chatter and SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "Single-unit initial franchise fee."},
+        "royaltyPercent": {"value": 4, "source": "Wag N' Wash 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Ramping royalty: 2% of gross sales months 1-12, 3% months 13-24, 4% thereafter."},
+        "adFundPercent": {"value": 3.5, "source": "Wag N' Wash 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "medium", "note": "After month 12: lesser of 3.5% of gross sales or $8,333/month (capped $100,000/yr). First 12 months are fixed-dollar: $3,350/month local + $1,000/month national fund."},
+        "avgUnitRevenue": {"value": 1301435, "source": "Wag N' Wash 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Average annual gross sales across 11 reporting franchised stores (1/1-12/28/2024); top half $1,674,769, bottom half $1,081,795."},
+        "totalUnits": {"value": 29, "source": "Wag N' Wash 2025 FDD outlet tables (via Franchise Chatter); Vetted Biz", "year": 2025, "confidence": "high", "note": "~23 franchised + 6 company-owned at end of 2024."},
+        "yearFounded": {"value": 1999, "source": "Wag N' Wash brand history (franchise.wagnwash.com); franchising.com", "year": 2025, "confidence": "high", "note": "First self-serve dog wash with in-house bakery opened in Colorado Springs in 1999."},
+        "yearFranchising": {"value": 2006, "source": "franchising.com Wag N' Wash overview; brand history", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Wag N' Wash FAQ (wagnwashfranchising.com); IFA VetFran", "year": 2025, "confidence": "high", "note": "20% off initial franchise fee for honorably discharged veterans (VetFran); 10% off for qualifying first responders."},
+        "isGrowing": {"value": true, "source": "Wag N' Wash 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "medium", "note": "Franchised units 14 (2022) -> 18 (2023) -> ~23 (2024)."},
+        "businessModelType": {"value": "b2c", "source": "Wag N' Wash franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Wag N' Wash franchisor site (retail storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "EarthWise Pet",
+      "slug": "earthwise-pet",
+      "category": "Pets",
+      "website": "earthwisepet.com",
+      "notes": "Pet-supply, nutrition, and grooming retail franchise (Groom Bar by EarthWise Pet) marketing 200+ locally owned and operated locations. Actively recruiting via earthwisepetfranchise.com. The dominant structural concern is a shrinking franchise base: franchised units have fallen from ~150 to ~107 while the franchisor reacquires stores into company ownership. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Franchised unit count contracting (~150 to ~107)",
+          "detail": "FDD-derived data shows franchised units declining from roughly 150 to 107 while company-owned units rose to ~58 through reacquisitions - a net shrinking franchise pool even as the brand markets '200+ locations,' which include earlier independently owned stores.",
+          "source": "SHARPSHEETS EarthWise Pet FDD analysis; Vetted Biz",
+          "url": "https://www.vettedbiz.com/franchises/earthwise-pet",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Wide performance dispersion (median ~$482K vs top ~$2.2M)",
+          "detail": "Performance data show a median around $482,000 with top performers reaching ~$2.2M and an average unit volume near $755,000 - a heavy right skew that makes the headline AUV unrepresentative of a typical store.",
+          "source": "SHARPSHEETS EarthWise Pet FDD analysis",
+          "url": "https://sharpsheets.io/blog/earthwise-pet-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No litigation or bankruptcy disclosed in FDD",
+          "detail": "FDD-tracking services report EarthWise Pet does not disclose lawsuits or bankruptcy information in its 2024 FDD - a comparatively clean Item 3/Item 4 record.",
+          "source": "Vetted Biz / FDD-tracking analyses",
+          "url": "https://www.vettedbiz.com/franchises/earthwise-pet",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "EarthWise Pet franchise site; SHARPSHEETS", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 300000, "source": "EarthWise Pet franchise site; SHARPSHEETS", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 467000, "source": "FranchisePayback EarthWise Pet FDD data; franchisor site", "year": 2025, "confidence": "high", "note": "Franchisor site cites $466,500-$828,000; FDD-derived $467,000-$828,000."},
+        "totalInvestmentMax": {"value": 828000, "source": "FranchisePayback EarthWise Pet FDD data; franchisor site", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 45000, "source": "FranchisePayback EarthWise Pet FDD data", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 5, "source": "FranchisePayback EarthWise Pet FDD data; SHARPSHEETS", "year": 2025, "confidence": "high", "note": "5% of gross sales."},
+        "adFundPercent": {"value": 1.5, "source": "SHARPSHEETS EarthWise Pet FDD analysis", "year": 2025, "confidence": "medium", "note": "1.5% marketing/advertising fee (FranchisePayback lists 2.5%)."},
+        "avgUnitRevenue": {"value": 755000, "source": "SHARPSHEETS / FranchisePayback EarthWise Pet FDD-derived AUV", "year": 2025, "confidence": "medium", "note": "Average unit volume ~$755,000; median sales ~$482,000 with top performers ~$2.2M (heavy right skew)."},
+        "totalUnits": {"value": 166, "source": "FranchisePayback EarthWise Pet FDD data", "year": 2025, "confidence": "medium", "note": "~108 franchised + ~58 company-owned per 2024 FDD-derived data; franchisor markets 200+ locations (includes legacy independents)."},
+        "yearFounded": {"value": 2005, "source": "Franchise Gator EarthWise Pet listing", "year": 2025, "confidence": "medium", "note": "Brand traces retail roots to 1977 (Westminster, CA) per franchisor materials; franchising entity dated 2005."},
+        "yearFranchising": {"value": 2008, "source": "Franchise Gator EarthWise Pet listing", "year": 2025, "confidence": "medium"},
+        "veteranDiscount": {"value": true, "source": "Franchise Gator EarthWise Pet listing", "year": 2025, "confidence": "medium", "note": "$5,000 off the franchise fee for veterans."},
+        "isGrowing": {"value": false, "source": "SHARPSHEETS / Vetted Biz (franchised units 150 -> 107)", "year": 2025, "confidence": "medium", "note": "Declining franchised unit count alongside company reacquisitions."},
+        "businessModelType": {"value": "b2c", "source": "EarthWise Pet franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "EarthWise Pet franchisor site (retail storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz (2024 FDD)", "year": 2024, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS EarthWise Pet FDD analysis (Item 19-derived figures)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Bark Busters Home Dog Training",
+      "slug": "bark-busters-home-dog-training",
+      "category": "Pets",
+      "website": "barkbusters.com",
+      "notes": "World's largest in-home dog-training franchise (founded Australia 1989; operating in the US since June 2000), with offices in roughly 40 states. Low-investment, home-based, mobile service model - trainers deliver behavior consultations in clients' homes, so there is no storefront buildout. Franchisor markets offices in 40 states, so state availability is omitted here.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High royalty (up to 10%) on a low-revenue, single-operator model",
+          "detail": "FDD-derived sources cite a royalty around 8-10% of gross sales plus a marketing fee - a steep ongoing burden for an owner-operator in-home service business where revenue is constrained by one trainer's billable hours.",
+          "source": "Vetted Biz / SHARPSHEETS Bark Busters FDD analyses",
+          "url": "https://www.vettedbiz.com/franchises/bark-busters/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Lawsuit/bankruptcy information disclosed in FDD",
+          "detail": "FDD-tracking services note Bark Busters discloses lawsuit and/or bankruptcy information in its FDD (Item 3/Item 4), which prospective franchisees should review directly.",
+          "source": "Vetted Biz - Bark Busters Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/bark-busters/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Owner-bound, non-scalable service model",
+          "detail": "Bark Busters franchisees personally deliver in-home training; revenue is tied to one trainer's capacity and brand reputation rather than a scalable multi-employee or multi-location footprint, capping single-territory upside.",
+          "source": "Bark Busters About Us (franchisor); Franchise Help overview",
+          "url": "https://www.barkbusters.com/why-bark-busters/about-us",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "SHARPSHEETS Bark Busters FDD analysis", "year": 2025, "confidence": "medium", "note": "Some directories cite a lower $20,000 minimum cash figure."},
+        "totalInvestmentMin": {"value": 77900, "source": "Vetted Biz Bark Busters FDD analysis", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites $71,100-$96,400; Vetted Biz cites $77,900-$117,000 - low-investment home-based model."},
+        "totalInvestmentMax": {"value": 117000, "source": "Vetted Biz Bark Busters FDD analysis", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 49500, "source": "Vetted Biz Bark Busters FDD analysis", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites $37,500; Vetted Biz cites $49,500."},
+        "royaltyPercent": {"value": 10, "source": "Vetted Biz Bark Busters FDD analysis", "year": 2025, "confidence": "medium", "note": "Sources vary: Vetted Biz cites 10%; SHARPSHEETS cites 8% royalty + 2% marketing."},
+        "totalUnits": {"value": 133, "source": "Vetted Biz Bark Busters FDD analysis", "year": 2025, "confidence": "medium", "note": "US units; SHARPSHEETS cites ~135 US. Franchisor markets 350+ locations across 6 countries."},
+        "yearFounded": {"value": 1989, "source": "Bark Busters About Us; franchising.com", "year": 2025, "confidence": "high", "note": "Founded in Australia in 1989 by Sylvia and Danny Wilson."},
+        "yearFranchising": {"value": 2000, "source": "Bark Busters About Us (operating in the US since June 2000)", "year": 2025, "confidence": "high", "note": "Vetted Biz lists 2013 as the US franchising entity date; brand has operated/franchised in the US since 2000."},
+        "veteranDiscount": {"value": true, "source": "Bark Busters USA (Military Friendly Franchise recognition)", "year": 2025, "confidence": "medium", "note": "VetFran participant; specific discount amount not published."},
+        "businessModelType": {"value": "b2c", "source": "Bark Busters franchisor site (in-home consumer dog training)", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Bark Busters franchisor site (home-based, in-home training)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS Bark Busters FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "Vetted Biz / SHARPSHEETS (no systemwide AUV located in FDD summaries)", "year": 2025, "confidence": "low"}
+      }
+    },
+    {
+      "name": "Dog Training Elite",
+      "slug": "dog-training-elite",
+      "category": "Pets",
+      "website": "dogtrainingelite.com",
+      "notes": "Mobile, in-home dog-training franchise (obedience, therapy, service, and protection dog training) founded by Marine veteran John Mestas, franchising from Lehi, UT since 2015. Explosive recent growth to ~395 franchised units (all franchised, zero company-owned) and a 2024 Inc. 5000 honoree. Mobile/territory model with no storefront. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Hyper-growth from a small base: 57 to 395 units in ~3 years",
+          "detail": "Franchised units jumped from 57 (2020) to 146 (2021), 365 (2022), and 395 (2023) - a +219-unit single-year leap in 2022. Most of the system is very young, so systemwide averages rest on largely unseasoned territories.",
+          "source": "Dog Training Elite 2024 FDD outlet tables (via Franchise Chatter)",
+          "url": "https://www.franchisechatter.com/2024/12/31/fdd-talk-dog-training-elite-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Extreme performance dispersion across territories",
+          "detail": "2023 Item 19: the top 5 franchisees averaged $977,911 while the middle 53 averaged $253,954 and the bottom 5 averaged just $39,110 - a wide spread on a sub-$300K systemwide average, signaling that outcomes depend heavily on the operator and territory.",
+          "source": "Dog Training Elite 2024 FDD Item 19 (via Franchise Chatter)",
+          "url": "https://www.franchisechatter.com/2024/12/31/fdd-talk-dog-training-elite-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Large multi-territory franchise fee ($110,000 for 3 territories)",
+          "detail": "The initial fee of $110,000 buys 3 territories (additional territories $30,000-$40,000 each), committing a new owner to a larger geographic footprint than a single market - a structural push toward multi-territory development at signing.",
+          "source": "Dog Training Elite 2024 FDD (via Franchise Chatter and Vetted Biz)",
+          "url": "https://www.franchisechatter.com/2024/12/31/fdd-talk-dog-training-elite-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 173550, "source": "Dog Training Elite 2024 FDD (via Franchise Chatter and Vetted Biz)", "year": 2024, "confidence": "high"},
+        "totalInvestmentMax": {"value": 203250, "source": "Dog Training Elite 2024 FDD (via Franchise Chatter and Vetted Biz)", "year": 2024, "confidence": "high"},
+        "franchiseFee": {"value": 110000, "source": "Dog Training Elite 2024 FDD (via Franchise Chatter)", "year": 2024, "confidence": "high", "note": "$110,000 for 3 territories; additional territories $40,000 (1st), $35,000 (2nd), $30,000 each thereafter."},
+        "royaltyPercent": {"value": 8, "source": "Dog Training Elite 2024 FDD (via Franchise Chatter)", "year": 2024, "confidence": "high", "note": "8% of gross sales."},
+        "adFundPercent": {"value": 1, "source": "Dog Training Elite 2024 FDD (via Franchise Chatter)", "year": 2024, "confidence": "high", "note": "1% brand fund plus $500/month online advertising/SEO. SHARPSHEETS/Entrepreneur summaries cite a 2% national marketing fee."},
+        "avgUnitRevenue": {"value": 267046, "source": "Dog Training Elite 2024 FDD Item 19 (via Vetted Biz)", "year": 2024, "confidence": "medium", "note": "Average yearly gross sales; the 2024 FDD-derived middle 53 franchisees averaged $253,954 (median $229,801), with top 5 at $977,911 and bottom 5 at $39,110."},
+        "totalUnits": {"value": 395, "source": "Dog Training Elite 2024 FDD outlet tables (via Franchise Chatter and Vetted Biz)", "year": 2024, "confidence": "high", "note": "All 395 franchised; 0 company-owned at end of 2023."},
+        "yearFounded": {"value": 1995, "source": "IFA / 1851 Franchise Dog Training Elite profiles", "year": 2025, "confidence": "medium", "note": "Founded by Marine veteran John Mestas; some sources cite 2009/2011 for the training business."},
+        "yearFranchising": {"value": 2015, "source": "IFA / Franchise Direct Dog Training Elite profiles", "year": 2025, "confidence": "high", "note": "Franchising from Lehi, UT since 2015."},
+        "veteranDiscount": {"value": true, "source": "Franchise Direct / 1851 Franchise Dog Training Elite profiles", "year": 2025, "confidence": "high", "note": "10% off the initial franchise fee for qualified veterans."},
+        "financingOffered": {"value": true, "source": "Dog Training Elite franchisor site (affordability calculator / financing options)", "year": 2025, "confidence": "medium", "note": "Third-party financing relationships referenced; direct vs third-party not specified."},
+        "isGrowing": {"value": true, "source": "Dog Training Elite 2024 FDD outlet tables; 2024 Inc. 5000 honoree", "year": 2024, "confidence": "high", "note": "57 -> 146 -> 365 -> 395 franchised units across 2020-2023."},
+        "multiUnitAvailable": {"value": true, "source": "Dog Training Elite 2024 FDD (3-territory base grant; additional territories available)", "year": 2024, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Dog Training Elite franchisor site (consumer in-home dog training)", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Dog Training Elite franchisor site (mobile, in-home training model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2024 FDD review; Vetted Biz", "year": 2024, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2024 FDD review (Item 19 published)", "year": 2024, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Sit Means Sit Dog Training",
+      "slug": "sit-means-sit-dog-training",
+      "category": "Pets",
+      "website": "sitmeanssit.com",
+      "notes": "One of the largest US-based dog-training franchises (founded by Fred Hassen in Paradise/Las Vegas, NV in 1998; franchising since January 2009), with ~163 US locations. Low-investment, predominantly in-home/mobile training model with optional training-center facilities. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "High royalty (8-9%) on a low-revenue owner-operator model",
+          "detail": "FDD-derived sources cite a royalty of roughly 8-9% of sales plus an advertising fee - a heavy ongoing burden on a low-investment dog-training business whose revenue is tied to a single trainer's billable capacity.",
+          "source": "SHARPSHEETS / Vetted Biz Sit Means Sit FDD analyses",
+          "url": "https://www.vettedbiz.com/franchises/sit-means-sit-dog-training",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Lawsuit/bankruptcy information disclosed in FDD",
+          "detail": "FDD-tracking services note Sit Means Sit discloses lawsuit and/or bankruptcy information in its FDD (Item 3/Item 4), which prospective franchisees should review directly.",
+          "source": "Vetted Biz - Sit Means Sit Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/sit-means-sit-dog-training",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No systemwide Item 19 AUV located in FDD summaries",
+          "detail": "Public FDD summaries for Sit Means Sit do not surface a systemwide average-unit-revenue figure, leaving prospective buyers without a clear earnings benchmark and reliant on franchisee validation calls.",
+          "source": "SHARPSHEETS / Vetted Biz Sit Means Sit FDD analyses",
+          "url": "https://sharpsheets.io/blog/sit-means-sit-franchise-fdd-profits-costs/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "SHARPSHEETS Sit Means Sit FDD analysis", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites a lower $20,000 minimum cash figure."},
+        "netWorthMin": {"value": 250000, "source": "SHARPSHEETS Sit Means Sit FDD analysis", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 66675, "source": "Sit Means Sit 2025 FDD (via SHARPSHEETS and Entrepreneur)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 163750, "source": "Sit Means Sit 2025 FDD (via SHARPSHEETS and Entrepreneur)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 59900, "source": "Sit Means Sit 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 9, "source": "Vetted Biz Sit Means Sit FDD analysis", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites 9% of monthly sales; SHARPSHEETS cites 8% royalty plus a 2% advertising fee."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS Sit Means Sit FDD analysis", "year": 2025, "confidence": "medium", "note": "2% advertising fee for national/regional campaigns."},
+        "totalUnits": {"value": 163, "source": "Vetted Biz Sit Means Sit FDD analysis", "year": 2025, "confidence": "medium", "note": "US locations; SHARPSHEETS cites ~165. Franchisor cites 120+ across US and Canada in some materials."},
+        "yearFounded": {"value": 1998, "source": "Wikipedia - Sit Means Sit; Las Vegas Weekly profile", "year": 2025, "confidence": "high", "note": "Founded by Fred Hassen in Paradise, NV in 1998."},
+        "yearFranchising": {"value": 2009, "source": "Wikipedia - Sit Means Sit; franchiseresales.com", "year": 2025, "confidence": "high", "note": "Began franchising in January 2009."},
+        "businessModelType": {"value": "b2c", "source": "Sit Means Sit franchisor site (consumer dog training)", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": true, "source": "Sit Means Sit franchisor site (predominantly in-home/mobile training, optional facilities)", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / Vetted Biz Sit Means Sit FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "SHARPSHEETS / Vetted Biz (no systemwide AUV surfaced in FDD summaries)", "year": 2025, "confidence": "low"}
+      }
+    },
+    {
+      "name": "The Dog Stop",
+      "slug": "the-dog-stop",
+      "category": "Pets",
+      "website": "thedogstop.com",
+      "notes": "All-in-one pet-care franchise (dog daycare, overnight boarding, grooming, training, in-home care, and retail) founded in Pittsburgh, PA in 2009; franchising since 2014. Fast-growing but still small (~37 units), capital-intensive facility model. Franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Labor-heavy economics on a high build cost",
+          "detail": "FDD-derived data shows average gross sales of ~$917,252 but labor running ~48.6% of sales against an Item 7 buildout of $553,500-$1,112,800 - a capital-intensive, staffing-heavy facility model where margin compression is a real risk.",
+          "source": "SHARPSHEETS The Dog Stop FDD analysis",
+          "url": "https://sharpsheets.io/blog/the-dog-stop-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Very small, young system (~37 units)",
+          "detail": "The system totals roughly 37 units (about 31 franchised + 6 company-owned) as of 2024 - up from 25 the prior year. Rapid growth off a small base means long-run unit economics rest on a thin cohort of mature facilities.",
+          "source": "SHARPSHEETS / Vetted Biz The Dog Stop FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/the-dog-stop",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "High capital requirements ($350K liquid / $750K net worth)",
+          "detail": "Prospective franchisees must show ~$350,000 liquid capital and ~$750,000 net worth for a single facility, a steep bar relative to the system's small footprint and limited mature-unit track record.",
+          "source": "FranNet / Franchise Gator The Dog Stop listings",
+          "url": "https://www.franchisegator.com/franchises/the-dog-stop/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 350000, "source": "FranNet / Franchise Gator The Dog Stop listings", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 750000, "source": "FranNet / Franchise Gator The Dog Stop listings", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 553500, "source": "The Dog Stop 2025 FDD (via SHARPSHEETS and FranchisePayback)", "year": 2025, "confidence": "high", "note": "Includes $60,500-$63,000 paid to the franchisor or affiliates."},
+        "totalInvestmentMax": {"value": 1112800, "source": "The Dog Stop 2025 FDD (via SHARPSHEETS and FranchisePayback)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49500, "source": "The Dog Stop 2025 FDD (via FranNet / Franchise Gator summaries)", "year": 2025, "confidence": "medium", "note": "Initial franchise fee per directory summaries; confirm exact figure in current FDD."},
+        "royaltyPercent": {"value": 6, "source": "The Dog Stop 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "6% of gross sales - among the lower royalties in dog care."},
+        "adFundPercent": {"value": 2, "source": "The Dog Stop 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "2% brand fund."},
+        "avgUnitRevenue": {"value": 917252, "source": "The Dog Stop 2025 FDD Item 19 (via SHARPSHEETS)", "year": 2025, "confidence": "medium", "note": "Average gross sales; labor ~48.6% of sales."},
+        "totalUnits": {"value": 37, "source": "The Dog Stop 2025 FDD outlet tables (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "medium", "note": "~31 franchised + 6 company-owned as of 2024 (up from 25 the prior year)."},
+        "yearFounded": {"value": 2009, "source": "FranNet / Franchise Gator The Dog Stop listings", "year": 2025, "confidence": "high", "note": "Established June 2009 in Pittsburgh, PA."},
+        "yearFranchising": {"value": 2014, "source": "FranNet / Franchise Gator The Dog Stop listings", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "SyncRevenue / FranNet The Dog Stop listings", "year": 2025, "confidence": "medium", "note": "Discount on franchise fee for honorably discharged US military veterans (one source cites 15%)."},
+        "isGrowing": {"value": true, "source": "SHARPSHEETS / Vetted Biz The Dog Stop FDD analysis", "year": 2025, "confidence": "medium", "note": "System grew from ~25 to ~37 units year over year."},
+        "businessModelType": {"value": "b2c", "source": "The Dog Stop franchisor site (consumer pet care)", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "The Dog Stop franchisor site (facility-based pet-care model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (2025 FDD); SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS The Dog Stop FDD analysis (Item 19 figures)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Waxing the City",
+      "slug": "waxing-the-city",
+      "category": "Beauty & Self Care",
+      "website": "waxingthecity.com",
+      "notes": "Body-waxing studio franchise owned by Purpose Brands (formerly Self Esteem Brands, parent of Anytime Fitness), with 151 franchised studios and zero company-owned units as of 12/31/2024. Membership-driven recurring-revenue model ('Club Orange'). Franchisor does not publish a state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Wide performance dispersion and a sub-$515K average",
+          "detail": "2024 Item 19 across 134 operating studios: average gross revenue $514,339 (median $488,739) with a range from $73,049 to $1,298,091 - and a stated 18-24 month break-even - so a meaningful share of studios sit well below the average against $311K-$646K buildout costs.",
+          "source": "Waxing the City 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/14/waxing-the-city-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Unit growth has stalled (+1 net franchised unit in 2024)",
+          "detail": "Franchised studios grew +15 (2022) and +17 (2023) but added just +1 net in 2024 to reach 151, while company-owned units went to zero - a sharp deceleration that signals saturation or development friction for a single-service beauty concept.",
+          "source": "Waxing the City 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/14/waxing-the-city-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Stacked marketing obligations on top of royalty",
+          "detail": "Beyond a 6% royalty (or $100/week minimum), franchisees pay a 2% marketing fund plus a fixed $1,500/month local advertising spend - fixed obligations that weigh on studios performing below the system average.",
+          "source": "Waxing the City 2025 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/10/14/waxing-the-city-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 310774, "source": "Waxing the City 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 646420, "source": "Waxing the City 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 42500, "source": "Waxing the City 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "FDD discloses $33,750-$42,500."},
+        "royaltyPercent": {"value": 6, "source": "Waxing the City 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Greater of $100/week minimum royalty or 6% of gross revenue."},
+        "adFundPercent": {"value": 2, "source": "Waxing the City 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2% marketing fund plus a fixed $1,500/month local advertising spend."},
+        "avgUnitRevenue": {"value": 514339, "source": "Waxing the City 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross revenue across 134 operating studios; median $488,739; range $73,049-$1,298,091."},
+        "totalUnits": {"value": 151, "source": "Waxing the City 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "All 151 franchised; 0 company-owned as of 12/31/2024."},
+        "yearFounded": {"value": 2002, "source": "Vetted Biz / franchising.com Waxing the City overview", "year": 2025, "confidence": "medium", "note": "Founded in Denver, CO; acquired by Self Esteem Brands in 2015."},
+        "yearFranchising": {"value": 2012, "source": "Vetted Biz / franchising.com Waxing the City overview", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": false, "source": "Waxing the City 2025 FDD outlet tables (via Franchise Chatter)", "year": 2025, "confidence": "medium", "note": "Only +1 net franchised unit in 2024 after +15 and +17 in prior years."},
+        "businessModelType": {"value": "b2c", "source": "Waxing the City franchisor site", "year": 2025, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Membership-driven recurring revenue ('Club Orange') plus walk-in/booked waxing services", "source": "Waxing the City 2025 FDD Item 19 (Club Orange membership data)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": false, "source": "Waxing the City franchisor site (studio storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Sugaring NYC",
+      "slug": "sugaring-nyc",
+      "category": "Beauty & Self Care",
+      "website": "sugaringnyc.com",
+      "notes": "All-natural sugaring hair-removal studio franchise (founded 2015; franchising since 2017) with 140+ locations open across 26 states. Lower-investment beauty-studio model than wax competitors. Franchisor markets locations in 26 states but does not publish a definitive state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Modest average sales and a long payback (4-6 years)",
+          "detail": "FDD-derived data shows average yearly gross sales of ~$377,306 with estimated owner-operator earnings of $52,823-$67,915 and a payback period of roughly 4.1-6.1 years - a slow return for a beauty-studio concept.",
+          "source": "Vetted Biz Sugaring NYC FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/sugaring-nyc/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Lawsuit/bankruptcy information disclosed in FDD",
+          "detail": "FDD-tracking services note Sugaring NYC discloses lawsuit and/or bankruptcy information in its FDD (Item 3/Item 4), which prospective franchisees should review directly.",
+          "source": "Vetted Biz - Sugaring NYC Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/sugaring-nyc/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Franchisor reacquiring units into company ownership",
+          "detail": "Of ~132 total units, about 8 are company-owned per 2025 FDD-derived data - a small but notable corporate footprint to monitor for whether the franchisor is buying back or operating studios directly.",
+          "source": "SHARPSHEETS / FranchisePayback Sugaring NYC FDD data",
+          "url": "https://sharpsheets.io/blog/sugaring-nyc-franchise-fdd-profits-costs/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 35000, "source": "Vetted Biz Sugaring NYC FDD analysis", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 138750, "source": "Vetted Biz Sugaring NYC FDD analysis", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites $138,750-$293,200; SHARPSHEETS cites $199,000-$301,000."},
+        "totalInvestmentMax": {"value": 293200, "source": "Vetted Biz Sugaring NYC FDD analysis", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 45000, "source": "Vetted Biz Sugaring NYC FDD analysis", "year": 2025, "confidence": "medium"},
+        "royaltyPercent": {"value": 5, "source": "Vetted Biz Sugaring NYC FDD analysis", "year": 2025, "confidence": "medium", "note": "5% of monthly sales."},
+        "adFundPercent": {"value": 1, "source": "Vetted Biz Sugaring NYC FDD analysis", "year": 2025, "confidence": "medium", "note": "1% marketing fee."},
+        "avgUnitRevenue": {"value": 377306, "source": "Vetted Biz Sugaring NYC FDD analysis (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average yearly gross sales; estimated owner-operator earnings $52,823-$67,915."},
+        "totalUnits": {"value": 132, "source": "SHARPSHEETS / FranchisePayback Sugaring NYC FDD data", "year": 2025, "confidence": "medium", "note": "~124 franchised + ~8 company-owned in 2025; franchisor markets 140+ locations in 26 states."},
+        "yearFounded": {"value": 2015, "source": "Vetted Biz Sugaring NYC FDD analysis", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2017, "source": "Vetted Biz Sugaring NYC FDD analysis", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "Sugaring NYC franchisor site (140+ locations in 26 states)", "year": 2025, "confidence": "low", "note": "Franchisor markets continued expansion; precise year-over-year net unit change not confirmed in summaries."},
+        "businessModelType": {"value": "b2c", "source": "Sugaring NYC franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Sugaring NYC franchisor site (studio storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / Vetted Biz Sugaring NYC FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz Sugaring NYC FDD analysis (Item 19 figures)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Deka Lash",
+      "slug": "deka-lash",
+      "category": "Beauty & Self Care",
+      "website": "dekalash.com",
+      "notes": "Eyelash-extension studio franchise (DL Franchising, LLC; McMurray, PA), franchising since January 2016 with ~130 franchised units and zero company-owned as of end-2023. Membership-driven recurring-revenue model (memberships ~56% of revenue). No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Steep performance dispersion across thirds",
+          "detail": "2023 Item 19 across 109 reporting studios: the top third averaged $495,184 gross revenue while the bottom third averaged just $152,349 - a 3x+ spread on a system whose middle third averaged $287,860, against buildout costs of $285,900-$449,350.",
+          "source": "Deka Lash 2024 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2024/06/02/fdd-talk-deka-lash-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Heavy stacked marketing obligations plus escalating minimum royalty",
+          "detail": "Beyond a 6% royalty (rising to a $1,000/month minimum after year 2), franchisees owe a 3% marketing fund (min $500/month after year 1) plus a fixed $2,000/month local marketing requirement - large fixed costs that pressure below-average studios.",
+          "source": "Deka Lash 2024 FDD (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2024/06/02/fdd-talk-deka-lash-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Unit growth decelerated and company units went to zero",
+          "detail": "Franchised additions slowed from +20 (2022) to +7 (2023) to reach 130, while the franchisor's company-owned studios dropped from 6 to 0 in 2023 - a pullback from corporate operation worth monitoring.",
+          "source": "Deka Lash 2024 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2024/06/02/fdd-talk-deka-lash-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2024
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 285900, "source": "Deka Lash 2024 FDD Item 7 (via Franchise Chatter review)", "year": 2024, "confidence": "high", "note": "Includes $82,600 paid to the franchisor or affiliate. 2025 FDD-derived sources cite up to $460,850."},
+        "totalInvestmentMax": {"value": 449350, "source": "Deka Lash 2024 FDD Item 7 (via Franchise Chatter review)", "year": 2024, "confidence": "high"},
+        "franchiseFee": {"value": 59900, "source": "Deka Lash 2024 FDD (via Franchise Chatter review)", "year": 2024, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Deka Lash 2024 FDD (via Franchise Chatter review)", "year": 2024, "confidence": "high", "note": "6% of gross sales or $600/month minimum, rising to $1,000/month after year 2."},
+        "adFundPercent": {"value": 3, "source": "Deka Lash 2024 FDD (via Franchise Chatter review)", "year": 2024, "confidence": "high", "note": "3% marketing fund (min $500/month after year 1) plus a fixed $2,000/month local marketing requirement."},
+        "avgUnitRevenue": {"value": 264270, "source": "Deka Lash FDD Item 19 (via SHARPSHEETS / FranchisePayback)", "year": 2025, "confidence": "medium", "note": "Systemwide average yearly gross sales per FDD-derived data; 2023 tiers ranged $152,349 (bottom third) to $495,184 (top third). Estimated earnings $36,998-$47,569."},
+        "totalUnits": {"value": 130, "source": "Deka Lash 2024 FDD outlet tables (via Franchise Chatter review)", "year": 2024, "confidence": "high", "note": "130 franchised + 0 company-owned at end of 2023; SHARPSHEETS cites ~128 US."},
+        "yearFranchising": {"value": 2016, "source": "FDD Exchange / Vetted Biz Deka Lash (offered franchises since January 2016)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Deka Lash franchisor site", "year": 2025, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Membership-driven recurring revenue (automatic memberships ~56% of revenue) plus non-member services", "source": "Deka Lash 2024 FDD Item 19 revenue breakdown", "year": 2024, "confidence": "medium"},
+        "mobileBased": {"value": false, "source": "Deka Lash franchisor site (studio storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2024 FDD review; The FDD Exchange (2025 FDD)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2024 FDD review", "year": 2024, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Frenchies Modern Nail Care",
+      "slug": "frenchies-modern-nail-care",
+      "category": "Beauty & Self Care",
+      "website": "frenchiesnails.com",
+      "notes": "Upscale, sanitation-focused nail-salon franchise (founded Colorado Springs, 2014; franchising since 2017), backed by private-equity firm The Riverside Company. Currently a small operating system (~24-25 open salons) despite having sold 100+ territories years ago - prospective buyers should weigh the gap between sold territories and actually-open units. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Large gap between territories sold and salons actually open",
+          "detail": "Frenchies announced a '100 territory milestone' in 2019, but only roughly 24-25 salons were open as of 2025-2026 - a wide gap between development commitments and operating units that signals slow openings and/or closures.",
+          "source": "Franchising.com (100-territory milestone, 2019); xmap.ai location count (2026)",
+          "url": "https://www.franchising.com/news/20190517_fastgrowing_beauty_franchise_frenchies_modern_nail.html",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "High build cost for a small, unproven-at-scale system",
+          "detail": "The 2026 FDD Item 7 runs roughly $452,000-$550,060 for a single salon, a substantial buildout against a system of only ~24 open units, so systemwide economics rest on a thin operating base.",
+          "source": "SHARPSHEETS / Vetted Biz Frenchies FDD analysis",
+          "url": "https://sharpsheets.io/blog/frenchies-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Private-equity ownership (The Riverside Company)",
+          "detail": "Frenchies is a Riverside Company platform investment; PE ownership steers development priorities and an eventual exit, and franchisees are part of a portfolio's return timeline rather than a founder-led system.",
+          "source": "The Riverside Company press release",
+          "url": "https://www.riversidecompany.com/currents/frenchies-news-release/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 452000, "source": "Frenchies FDD Item 7 (via SHARPSHEETS / FranchisePayback)", "year": 2025, "confidence": "medium", "note": "2026 FDD Item 7 cited as $472,883-$550,060; earlier FDD versions $452,000-$507,000."},
+        "totalInvestmentMax": {"value": 550060, "source": "Frenchies 2026 FDD Item 7 (via SHARPSHEETS)", "year": 2026, "confidence": "medium"},
+        "franchiseFee": {"value": 50000, "source": "Frenchies FDD (via SHARPSHEETS / franchisor)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "Frenchies FDD (via SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "6% of gross revenues weekly, $100/week minimum."},
+        "adFundPercent": {"value": 2, "source": "Frenchies FDD (via SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "2% national marketing fund weekly."},
+        "totalUnits": {"value": 25, "source": "Frenchies franchisor site / Entrepreneur listing", "year": 2025, "confidence": "medium", "note": "~25 open salons; ~24 in the US as of January 2026 per xmap.ai."},
+        "yearFounded": {"value": 2014, "source": "Franchising.com Frenchies overview; franchisor site", "year": 2025, "confidence": "high", "note": "Founded in Colorado Springs, CO."},
+        "yearFranchising": {"value": 2017, "source": "Franchising.com Frenchies overview; Vetted Biz", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Franchising.com (100 territories sold by 2019) vs ~24 open (2026)", "year": 2026, "confidence": "low", "note": "Few open units relative to territories sold; net unit trajectory unclear."},
+        "businessModelType": {"value": "b2c", "source": "Frenchies franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Frenchies franchisor site (salon storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / Vetted Biz Frenchies FDD analyses", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Fantastic Sams",
+      "slug": "fantastic-sams",
+      "category": "Beauty & Self Care",
+      "website": "fantasticsams.com",
+      "notes": "Long-established value hair-salon franchise (founded 1974; franchising since 1976), owned by Dessange International, with 512 franchised salons and zero company-owned. Still actively franchising, but the headline structural fact is a multi-year, one-in-three contraction of the system. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "System has shed ~33% of units since 2022",
+          "detail": "Salon count fell from 755 (start of 2022) to 512 (end of 2024) - net losses of -54 (2022), -103 (2023), and -86 (2024), with just 7 openings versus 60 closures in 2024 - one of the more visibly contracting brands in personal services.",
+          "source": "Fantastic Sams 2025 FDD outlet tables (via FranchiseLens / industry analysis)",
+          "url": "https://franchiselens.ai/franchise/fantastic-sams",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Modest revenue and a 5-7 year payback",
+          "detail": "FDD-derived data shows median annual gross revenue around $299K-$316K (363 reporting units), estimated owner-operator earnings of $44,289-$56,943, and a payback period of roughly 5.2-7.2 years - thin economics for a buildout that can reach ~$462K.",
+          "source": "Vetted Biz / SHARPSHEETS Fantastic Sams FDD analyses",
+          "url": "https://www.vettedbiz.com/fantastic-sams-franchise/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Lawsuit/bankruptcy information disclosed in FDD",
+          "detail": "FDD-tracking services note Fantastic Sams discloses lawsuit and/or bankruptcy information in its FDD (Item 3/Item 4), which prospective franchisees should review directly.",
+          "source": "Vetted Biz - Fantastic Sams Franchise Insights",
+          "url": "https://www.vettedbiz.com/fantastic-sams-franchise/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 150000, "source": "SHARPSHEETS Fantastic Sams FDD analysis", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites a lower $40,000 minimum cash figure."},
+        "netWorthMin": {"value": 500000, "source": "SHARPSHEETS Fantastic Sams FDD analysis", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 171500, "source": "Fantastic Sams 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites $171,500-$462,000; Vetted Biz cites $148,000-$329,500."},
+        "totalInvestmentMax": {"value": 462000, "source": "Fantastic Sams 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 40000, "source": "Fantastic Sams 2025 FDD (via SHARPSHEETS)", "year": 2025, "confidence": "medium", "note": "Vetted Biz cites $30,000."},
+        "royaltyPercent": {"value": 6, "source": "SHARPSHEETS Fantastic Sams FDD analysis", "year": 2025, "confidence": "medium", "note": "Royalty stated as ~$362/week or 6% of gross sales; marketing/advertising ~$146/week (~3-5% of sales)."},
+        "adFundPercent": {"value": 3, "source": "SHARPSHEETS Fantastic Sams FDD analysis", "year": 2025, "confidence": "low", "note": "Advertising paid as a fixed ~$146/week; percentage equivalent varies by sales volume."},
+        "avgUnitRevenue": {"value": 316350, "source": "Vetted Biz Fantastic Sams FDD analysis (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Median annual gross sales; SHARPSHEETS cites a $299K median across 363 reporting units."},
+        "totalUnits": {"value": 512, "source": "Fantastic Sams 2025 FDD outlet tables (via Vetted Biz / SHARPSHEETS)", "year": 2025, "confidence": "high", "note": "All 512 franchised; 0 company-owned (down from 755 at start of 2022)."},
+        "yearFounded": {"value": 1974, "source": "Vetted Biz; Wikipedia Fantastic Sams", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1976, "source": "Vetted Biz Fantastic Sams FDD analysis", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "Fantastic Sams 2025 FDD outlet tables (755 -> 512 units, 2022-2024)", "year": 2025, "confidence": "high", "note": "~33% unit decline over three years."},
+        "businessModelType": {"value": "b2c", "source": "Fantastic Sams franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Fantastic Sams franchisor site (salon storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; SHARPSHEETS Fantastic Sams FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Vetted Biz / SHARPSHEETS Fantastic Sams FDD analyses", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Roosters Men's Grooming Centers",
+      "slug": "roosters-mens-grooming-centers",
+      "category": "Beauty & Self Care",
+      "website": "roostersmgc.com",
+      "notes": "Upscale men's grooming/barbershop franchise (haircuts, hot-lather shaves, color) founded 1999; franchising since 2002, owned by Regis Corporation (Minneapolis). Small system (~70-82 units) that has been contracting per recent FDD-derived data. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Declining unit count (~-16% per recent FDD data)",
+          "detail": "FDD-derived data shows the system at roughly 70 units (69 franchised + 1 company-owned) with about a -16% unit trend, down from ~82 the prior year - net contraction for a small men's-grooming concept.",
+          "source": "FranchisePayback Roosters FDD data",
+          "url": "https://www.franchisepayback.com/franchise/roosters-mens-grooming-centers",
+          "year": 2026
+        },
+        {
+          "severity": "caution",
+          "title": "Owned by financially pressured parent Regis Corporation",
+          "detail": "Roosters sits inside Regis Corporation, the salon operator (Supercuts, SmartStyle) that has navigated heavy debt loads and restructuring in recent years; parent-level financial pressure can affect brand investment and support for a small portfolio brand.",
+          "source": "FranchisePayback Roosters FDD data (parent: Regis Corporation); Franchise Direct",
+          "url": "https://www.franchisedirect.com/roosters-mens-grooming-center",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No franchisor financing offered",
+          "detail": "Per FDD summaries, neither the franchisor nor any agent or affiliate offers direct or indirect financing to franchisees or guarantees their notes, leases, or obligations - buyers must arrange all capital independently.",
+          "source": "Franchise Gator Roosters listing (FDD summary)",
+          "url": "https://www.franchisegator.com/franchises/roosters-mens-grooming-center/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Franchise Gator Roosters listing", "year": 2025, "confidence": "medium"},
+        "netWorthMin": {"value": 750000, "source": "Franchise Gator Roosters listing", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 266000, "source": "Roosters FDD (via FranchisePayback)", "year": 2025, "confidence": "medium", "note": "FranchisePayback cites $266,000-$432,000; other directories cite $239,000-$374,000."},
+        "totalInvestmentMax": {"value": 432000, "source": "Roosters FDD (via FranchisePayback)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 39500, "source": "Roosters FDD (via FranchisePayback)", "year": 2025, "confidence": "medium"},
+        "royaltyPercent": {"value": 6, "source": "Roosters FDD (via FranchisePayback)", "year": 2025, "confidence": "medium", "note": "Stated as 4%-6% of gross sales."},
+        "adFundPercent": {"value": 1, "source": "Roosters FDD (via FranchisePayback)", "year": 2025, "confidence": "medium"},
+        "avgUnitRevenue": {"value": 462000, "source": "FranchisePayback Roosters FDD-derived AUV", "year": 2025, "confidence": "low", "note": "Estimated AUV; franchisor does not formally disclose a systemwide Item 19 AUV."},
+        "totalUnits": {"value": 82, "source": "FranchisePayback / Franchise Gator Roosters FDD data", "year": 2025, "confidence": "medium", "note": "~82 units (all/nearly all franchised) per 2024 data; ~70 (69 franchised + 1 company) per 2026 FDD-derived figures."},
+        "yearFounded": {"value": 1999, "source": "FranchisePayback Roosters FDD data", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2002, "source": "FranchisePayback Roosters FDD data", "year": 2025, "confidence": "high"},
+        "veteranDiscount": {"value": true, "source": "Franchise Gator Roosters listing", "year": 2025, "confidence": "medium", "note": "$10,000 discount for veterans."},
+        "financingOffered": {"value": false, "source": "Franchise Gator Roosters listing (FDD summary)", "year": 2025, "confidence": "medium", "note": "No direct or indirect franchisor financing."},
+        "isGrowing": {"value": false, "source": "FranchisePayback Roosters FDD data (~-16% unit trend)", "year": 2026, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "Roosters franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Roosters franchisor site (grooming-center storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranchisePayback / Franchise Direct Roosters FDD data", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "FranchisePayback (franchisor does not formally disclose AUV)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "Diesel Barbershop",
+      "slug": "diesel-barbershop",
+      "category": "Beauty & Self Care",
+      "website": "dieselbarbershop.com",
+      "notes": "Industrial-themed men's barbershop franchise (founded San Antonio, TX, 2017; franchising since 2017) with ~31 US franchised locations and a clean FDD litigation record. Young, small system with modest per-unit revenue and a notably long payback. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Very long payback (13.5-15.5 years) on modest revenue",
+          "detail": "FDD-derived data shows estimated owner-operator earnings of $29,002-$37,288 and a payback period of roughly 13.5-15.5 years against a $360,550-$503,050 buildout - an unusually slow return that magnifies the risk if a unit underperforms.",
+          "source": "Vetted Biz Diesel Barbershop FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/diesel-barbershop",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High royalty (7.5-8%) on a low-AUV concept",
+          "detail": "Sources cite a royalty of roughly 7.5-8% of gross sales plus a marketing fee, while FDD-derived AUV runs only ~$207K-$338K - a heavy ongoing fee load relative to per-unit revenue.",
+          "source": "SHARPSHEETS / Vetted Biz Diesel Barbershop FDD analyses",
+          "url": "https://sharpsheets.io/blog/diesel-barbershop-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No litigation or bankruptcy disclosed in FDD",
+          "detail": "FDD-tracking services report Diesel Barbershop does not disclose lawsuits or bankruptcy information in its FDD - a comparatively clean Item 3/Item 4 record for the brand.",
+          "source": "Vetted Biz Diesel Barbershop FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/diesel-barbershop",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 80000, "source": "Vetted Biz Diesel Barbershop FDD analysis (minimum cash)", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 360550, "source": "Diesel Barbershop FDD Item 7 (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "totalInvestmentMax": {"value": 503050, "source": "Diesel Barbershop FDD Item 7 (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 45000, "source": "Diesel Barbershop FDD (via SHARPSHEETS and Vetted Biz)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 7.5, "source": "SHARPSHEETS Diesel Barbershop FDD analysis", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites 7.5% of gross sales; Vetted Biz cites 8%. Plus a 1-2% advertising/marketing fee."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS Diesel Barbershop FDD analysis", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites 2% advertising; Vetted Biz cites 1%."},
+        "avgUnitRevenue": {"value": 338000, "source": "SHARPSHEETS Diesel Barbershop FDD Item 19 (2024 FDD, 2023 data)", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites ~$338,000 AUV across 25 franchisees + 4 affiliates; Vetted Biz cites a lower ~$207,153."},
+        "totalUnits": {"value": 31, "source": "Vetted Biz Diesel Barbershop FDD analysis", "year": 2025, "confidence": "medium", "note": "~31 US franchised; franchisor cites 32+ locations and continuing expansion."},
+        "yearFounded": {"value": 2017, "source": "Vetted Biz Diesel Barbershop FDD analysis", "year": 2025, "confidence": "high", "note": "Founded in San Antonio, TX."},
+        "yearFranchising": {"value": 2017, "source": "Vetted Biz Diesel Barbershop FDD analysis", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Diesel Barbershop franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Diesel Barbershop franchisor site (barbershop storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / Vetted Biz Diesel Barbershop FDD analyses", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS Diesel Barbershop FDD analysis (Item 19 published)", "year": 2025, "confidence": "medium"}
+      }
+    },
+    {
+      "name": "V's Barbershop",
+      "slug": "vs-barbershop",
+      "category": "Beauty & Self Care",
+      "website": "vbarbershop.com",
+      "notes": "Upscale, old-fashioned men's barbershop franchise (haircuts, hot-lather shaves, shoeshine) founded by Jim 'V' Valenzuela in Phoenix, AZ in 1999. ~58-60 franchised units, all franchised, with strong, steadily growing per-unit sales and a declining-scale royalty that rewards higher-volume shops. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Wide revenue range and slow, steady (not explosive) growth",
+          "detail": "2023 Item 19 (47 units open 3+ years): average $542,750, median $519,529, range $170,098-$1,134,269, with only 45% of units meeting or exceeding the average - a meaningful tail of lower-volume shops. Unit growth has been modest (+2/+2/+3 across 2021-2023).",
+          "source": "V's Barbershop 2024 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/01/08/fdd-talk-vs-barbershop-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "High build cost relative to a single-shop service model",
+          "detail": "Item 7 runs $326,500-$602,450 (some directories cite up to $631,000) for a single barbershop, a substantial buildout for a labor-bound service concept where revenue is capped by chair count and stylist capacity.",
+          "source": "V's Barbershop 2024 FDD Item 7 (via Franchise Chatter and SHARPSHEETS)",
+          "url": "https://www.franchisechatter.com/2025/01/08/fdd-talk-vs-barbershop-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Front-loaded royalty (6% up to $500K, then 3.5%)",
+          "detail": "The royalty is 6% of gross sales up to $500,000 and 3.5% above that, so newer or lower-volume shops pay the higher rate on most or all of their revenue - the relief only materializes once a shop scales past $500K.",
+          "source": "V's Barbershop 2024 FDD (via Franchise Chatter and Vetted Biz)",
+          "url": "https://www.franchisechatter.com/2025/01/08/fdd-talk-vs-barbershop-franchise-costs-fees-average-revenues-and-or-profits-2024-review/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 326500, "source": "V's Barbershop 2024 FDD Item 7 (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Some directories cite a wider $265,000-$631,000 range."},
+        "totalInvestmentMax": {"value": 602450, "source": "V's Barbershop 2024 FDD Item 7 (via Franchise Chatter)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "V's Barbershop 2024 FDD (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "FDD discloses $36,000-$40,000."},
+        "royaltyPercent": {"value": 6, "source": "V's Barbershop 2024 FDD (via Franchise Chatter and Vetted Biz)", "year": 2025, "confidence": "high", "note": "6% of gross sales up to $500,000; 3.5% above $500,000."},
+        "adFundPercent": {"value": 2, "source": "V's Barbershop 2024 FDD (via Franchise Chatter)", "year": 2025, "confidence": "high", "note": "Marketing/advertising contribution between 1% and 3% of gross sales (national fund 2%)."},
+        "avgUnitRevenue": {"value": 542750, "source": "V's Barbershop 2024 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2023 average gross sales for 47 units open 3+ years; median $519,529; range $170,098-$1,134,269."},
+        "totalUnits": {"value": 60, "source": "SHARPSHEETS / FranchisePayback V's Barbershop FDD data", "year": 2025, "confidence": "medium", "note": "~58 franchised at end of 2023 (per Franchise Chatter outlet tables) growing toward ~60; all franchised, 0 company-owned."},
+        "yearFounded": {"value": 1999, "source": "V's Barbershop brand history (vbarbershop.com); Franchise Gator", "year": 2025, "confidence": "high", "note": "Founded by Jim 'V' Valenzuela in Phoenix, AZ in November 1999."},
+        "yearFranchising": {"value": 2006, "source": "Franchise Gator / Franchise Help V's Barbershop listings", "year": 2025, "confidence": "low", "note": "Franchising began in the mid-2000s; exact year not pinned across sources (~2005-2006)."},
+        "veteranDiscount": {"value": true, "source": "Franchise Gator V's Barbershop listing", "year": 2025, "confidence": "medium", "note": "10% off the initial franchise fee for veterans (a $3,000 discount)."},
+        "isGrowing": {"value": true, "source": "V's Barbershop 2024 FDD outlet tables (via Vetted Biz)", "year": 2025, "confidence": "medium", "note": "Franchised units +2 (2021), +2 (2022), +3 (2023) - steady, modest growth."},
+        "businessModelType": {"value": "b2c", "source": "V's Barbershop franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "V's Barbershop franchisor site (barbershop storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2024 FDD review; SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2024 FDD review (Item 19 published)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "CycleBar",
+      "slug": "cyclebar",
+      "category": "Fitness",
+      "website": "cyclebar.com",
+      "notes": "Largest US network of premium indoor-cycling studios (founded 2004), now owned by Extraordinary Brands, which acquired CycleBar and Rumble Boxing from Xponential Fitness in August 2025. Membership-driven recurring-revenue model. The system has been contracting since 2022, and prospective buyers should weigh that decline against the franchisor's growth pitch. No public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "System contracting since 2022 (248 to 216 franchised units)",
+          "detail": "Franchised studios fell from 248 (end of 2022) to 216 (end of 2024) - net losses of -32 (2023) and -27 (2024) - while company-owned units went to zero, a multi-year decline for a brand that markets itself as a growth opportunity.",
+          "source": "CycleBar 2025 FDD outlet tables (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/12/15/cyclebar-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Extreme revenue dispersion and high attrition",
+          "detail": "2024 Item 19 across 183 studios: average gross revenue $424,125 (median $406,514) with a range of $29,307-$1,282,643; the bottom quartile averaged just $192,302 vs $709,117 for the top quartile, with average monthly membership attrition of 7.7% - a churn-sensitive model.",
+          "source": "CycleBar 2025 FDD Item 19 (via Franchise Chatter review)",
+          "url": "https://www.franchisechatter.com/2025/12/15/cyclebar-franchise-review-2025-costs-fees-news-average-revenues-and-or-profits/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Ownership change in 2025 (Xponential to Extraordinary Brands)",
+          "detail": "Extraordinary Brands acquired CycleBar (and Rumble Boxing) from Xponential Fitness in August 2025; ownership transitions can shift development priorities, support, and supplier relationships for existing franchisees.",
+          "source": "PRNewswire / FranchiseWire (Extraordinary Brands acquisition)",
+          "url": "https://www.prnewswire.com/news-releases/extraordinary-brands-acquires-cyclebar-and-rumble-cementing-its-status-as-a-premier-health--wellness-franchisor-302520826.html",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 410809, "source": "CycleBar 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "Includes $193,050-$292,350 paid to the franchisor or affiliates."},
+        "totalInvestmentMax": {"value": 1110193, "source": "CycleBar 2025 FDD Item 7 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 60000, "source": "CycleBar 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 7, "source": "CycleBar 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "7% of gross sales."},
+        "adFundPercent": {"value": 2, "source": "CycleBar 2025 FDD (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2% brand development fund plus a local advertising requirement of the greater of $1,500 or 2% of prior-month gross sales."},
+        "avgUnitRevenue": {"value": 424125, "source": "CycleBar 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "2024 average gross revenue across 183 franchised studios; median $406,514; range $29,307-$1,282,643."},
+        "totalUnits": {"value": 216, "source": "CycleBar 2025 FDD outlet tables (via Franchise Chatter review)", "year": 2025, "confidence": "high", "note": "216 franchised + 0 company-owned at end of 2024 (down from 248 franchised in 2022)."},
+        "yearFounded": {"value": 2004, "source": "Franchise Times Top 400 (2025); Franchise Chatter", "year": 2025, "confidence": "high", "note": "Founded in Wellesley, MA."},
+        "yearFranchising": {"value": 2015, "source": "Franchise Times Top 400 (2025); CycleBar franchise materials", "year": 2025, "confidence": "medium", "note": "Some sources cite 2014; Xponential acquired the brand in 2017."},
+        "isGrowing": {"value": false, "source": "CycleBar 2025 FDD outlet tables (248 -> 216 franchised units, 2022-2024)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "CycleBar franchisor site", "year": 2025, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "Membership-driven recurring revenue (140-434 average monthly active members by quartile; ~7.7% average monthly attrition)", "source": "CycleBar 2025 FDD Item 19 (via Franchise Chatter review)", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "CycleBar franchisor site (studio storefront model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "Franchise Chatter 2025 FDD review", "year": 2025, "confidence": "high"}
+      }
+    }
+  ]
+}
