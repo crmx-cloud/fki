@@ -1,0 +1,696 @@
+{
+  "brands": [
+    {
+      "name": "Cellairis",
+      "slug": "cellairis",
+      "category": "Retail",
+      "website": "cellairis.com",
+      "notes": "Atlanta-area (Alpharetta, GA) mobile-device repair and accessories franchise, founded 2005 and franchising since 2006, with 600+ units awarded across kiosk, cart, inline, and full-store formats. Actively recruiting via cellairisfranchise.com, now pushing a Walmart store-in-store model where Cellairis Corporate holds the Walmart lease and subleases to franchisees. Investment ranges and royalty figures vary by store format, so confirm specifics for the format being purchased.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Royalty and fee structure varies sharply by store format",
+          "detail": "Royalties differ by model: directories cite a kiosk/inline minimum of $800/month or 3% of gross sales (whichever is greater), a 4% royalty on Full Store Experience units, and an escalating mall store-in-store royalty of $1,000-$1,200/month or 5% of gross sales (whichever is greater) over years 1-5. Vetted Biz summarizes the system royalty at 5%. A buyer's actual royalty depends entirely on the format chosen.",
+          "source": "Franchise Clique / Vetted Biz Cellairis FDD summaries",
+          "url": "https://www.vettedbiz.com/franchises/cellairis/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Mall-kiosk and store-in-store dependence on retail-landlord traffic",
+          "detail": "The system's economics historically depend on shopping-mall foot traffic (600+ kiosk/cart units awarded in malls) and, increasingly, on a Walmart store-in-store partnership where Cellairis Corporate controls the master lease - leaving franchisees exposed to declining mall traffic and to the terms of the corporate-host relationship rather than their own real estate.",
+          "source": "Cellairis Franchise site (franchisor); FBA Cellairis opportunity page",
+          "url": "http://www.cellairisfranchise.com/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "FDD discloses litigation/bankruptcy history",
+          "detail": "FDD-tracking analysis notes Cellairis discloses lawsuits and/or bankruptcy information in its FDD (Item 3/Item 4), which prospective franchisees should review in full before signing.",
+          "source": "Vetted Biz - Cellairis Franchise Insights (FDD analysis)",
+          "url": "https://www.vettedbiz.com/franchises/cellairis/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Cellairis Franchise site (franchisor); FBA Cellairis opportunity page", "year": 2025, "confidence": "medium", "note": "At least $50,000 liquid capital; net worth requirement cited as $150,000 (franchisor/FBA) up to $500,000 (Franchise Clique) depending on format."},
+        "netWorthMin": {"value": 150000, "source": "Cellairis Franchise site (franchisor); FBA Cellairis opportunity page", "year": 2025, "confidence": "medium", "note": "Franchise Clique cites a higher $500,000 minimum net worth for larger formats."},
+        "totalInvestmentMin": {"value": 98474, "source": "Vetted Biz - Cellairis Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "Vetted Biz range $98,474-$331,359; other directories cite as low as $36,810 for a cart/RMU and a Walmart store-in-store band of $127,450-$175,800."},
+        "totalInvestmentMax": {"value": 331359, "source": "Vetted Biz - Cellairis Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 25000, "source": "Franchise Clique / Vetted Biz Cellairis FDD summaries", "year": 2025, "confidence": "medium", "note": "$20,000 for a kiosk; $25,000 for an inline or full-store experience."},
+        "royaltyPercent": {"value": 5, "source": "Vetted Biz - Cellairis Franchise Insights (FDD-derived)", "year": 2025, "confidence": "low", "note": "Vetted Biz cites 5% of monthly sales; format-specific FDD terms range from a $800/month-or-3% kiosk minimum to 4-5% on larger formats."},
+        "adFundPercent": {"value": 3, "source": "Vetted Biz - Cellairis Franchise Insights (FDD-derived)", "year": 2025, "confidence": "medium", "note": "3% of monthly sales marketing/ad fund."},
+        "totalUnits": {"value": 142, "source": "Vetted Biz / The FDD Exchange (US locations)", "year": 2025, "confidence": "medium", "note": "142 US locations per FDD-derived data; franchisor states 600+ units have been awarded historically across all formats."},
+        "yearFounded": {"value": 2005, "source": "Vetted Biz - Cellairis Franchise Insights", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2006, "source": "Vetted Biz - Cellairis Franchise Insights", "year": 2025, "confidence": "high"},
+        "trainingWeeks": {"value": 2, "source": "Vetted Biz - Cellairis Franchise Insights", "year": 2025, "confidence": "medium", "note": "Two-week initial training at corporate headquarters in Alpharetta, GA."},
+        "multiUnitAvailable": {"value": true, "source": "FBA Cellairis opportunity page (managers expected to run 3-5 stores)", "year": 2025, "confidence": "medium"},
+        "absenteeOwnership": {"value": true, "source": "FBA Cellairis opportunity page", "year": 2025, "confidence": "medium", "note": "Franchisor states absentee ownership is possible."},
+        "businessModelType": {"value": "b2c", "source": "Cellairis franchisor site", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Cellairis franchisor site (mall kiosk / store-in-store retail model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Vetted Biz; The FDD Exchange", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "CPR Cell Phone Repair",
+      "slug": "cpr-cell-phone-repair",
+      "category": "Retail",
+      "website": "cellphonerepair.com",
+      "notes": "Electronics and mobile-device repair franchise (phones, tablets, laptops, game systems), branded 'CPR by Assurant' since Fortune 500 insurer Assurant acquired it in 2019. Still recruiting US and international franchisees, but the post-acquisition story is contentious: a franchisee owners' association sued the parent, the US franchised count has fallen sharply from its peak, and Assurant has run competing repair kiosks inside T-Mobile stores.",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "Franchisee owners' association sued parent Assurant alleging deceitful practices",
+          "detail": "The Cell Phone Repair Independent Owners Association (CPRIOA) sued parent Assurant, alleging it 'changed the deal' and imposed 'onerous new burdens on its franchisees, wholly to benefit itself at their expense.' The culminating claim was Assurant directly competing with CPR franchisees - hiring away franchisee-trained staff at higher wages to run repair kiosks inside T-Mobile stores, many within existing CPR territories.",
+          "source": "Franchise Times - 'Cell Phone Repair Owners Sue Parent Assurant Alleging Deceitful Practices'",
+          "url": "https://www.franchisetimes.com/franchise_news/cell-phone-repair-owners-sue-parent-assurant-alleging-deceitful-practices/article_b043dc88-5085-11ed-b312-ef9dab17a9d7.html",
+          "year": 2022
+        },
+        {
+          "severity": "warning",
+          "title": "Sharp system contraction since the 2019 Assurant acquisition",
+          "detail": "CPR had roughly 825 units when Assurant acquired it in 2019; FDD-derived data shows about 427-428 US franchised units by 2025 - nearly halving the system - with franchisee revenue reported down about -6.4% year over year and a wave of store closures attributed to the parent's actions.",
+          "source": "Franchise Times M&A coverage; FranchisePayback CPR FDD data",
+          "url": "https://www.franchisepayback.com/franchise/cpr-cell-phone-repair",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Royalty near 5.8% plus ad fund on a modest average unit volume",
+          "detail": "FDD-derived data lists a 5.8% royalty plus a marketing contribution of $285/month plus up to 2%, against an estimated average unit revenue of roughly $552,000 - leaving thin margin for the franchisee after parent-imposed program costs.",
+          "source": "FranchisePayback CPR Cell Phone Repair FDD data",
+          "url": "https://www.franchisepayback.com/franchise/cpr-cell-phone-repair",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Franchise Clique / Franchise Help CPR summaries", "year": 2025, "confidence": "medium", "note": "At least $50,000 liquid capital; minimum net worth $100,000."},
+        "netWorthMin": {"value": 100000, "source": "Franchise Clique / Franchise Help CPR summaries", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 105000, "source": "FranchisePayback CPR Cell Phone Repair FDD data", "year": 2025, "confidence": "medium", "note": "FranchisePayback cites $105,000-$310,000; other directories cite a lower $58,150-$176,000 band depending on format."},
+        "totalInvestmentMax": {"value": 310000, "source": "FranchisePayback CPR Cell Phone Repair FDD data", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 19900, "source": "FranchisePayback CPR Cell Phone Repair FDD data", "year": 2025, "confidence": "medium", "note": "FranchisePayback lists $19,900; some directories cite $37,500."},
+        "royaltyPercent": {"value": 5.8, "source": "FranchisePayback CPR Cell Phone Repair FDD data", "year": 2025, "confidence": "medium", "note": "Directories cite 5.8%, with some showing up to 6.5%."},
+        "adFundPercent": {"value": 2, "source": "FranchisePayback CPR Cell Phone Repair FDD data", "year": 2025, "confidence": "medium", "note": "$285/month plus up to 2% of sales."},
+        "avgUnitRevenue": {"value": 552000, "source": "FranchisePayback CPR Cell Phone Repair FDD data (estimate)", "year": 2025, "confidence": "low", "note": "Estimated average unit revenue; revenue reported down ~-6.4% year over year."},
+        "totalUnits": {"value": 428, "source": "FranchisePayback CPR Cell Phone Repair FDD data; 2025 FDD outlet tables", "year": 2025, "confidence": "high", "note": "427 franchised + 1 company-owned per 2025 FDD; down from ~825 units at the 2019 Assurant acquisition."},
+        "yearFounded": {"value": 2004, "source": "FranchisePayback CPR Cell Phone Repair FDD data", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2007, "source": "FranchisePayback CPR Cell Phone Repair FDD data", "year": 2025, "confidence": "medium", "note": "Some directories cite 2004."},
+        "isGrowing": {"value": false, "source": "Franchise Times; FranchisePayback CPR FDD data", "year": 2025, "confidence": "high", "note": "System nearly halved since 2019; flat-to-declining unit count and -6.4% revenue trend."},
+        "internationalAvailability": {"value": true, "source": "Franchise.com / Franchise Help (master franchises outside the USA)", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "both", "source": "CPR franchisor materials (retail repair serving consumers and business/insurance channels)", "year": 2025, "confidence": "medium"},
+        "mobileBased": {"value": false, "source": "CPR franchisor materials (on-premises retail repair storefront)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (2024 FDD); FranchisePayback", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Expedia Cruises",
+      "slug": "expedia-cruises",
+      "category": "Travel & Lodging",
+      "website": "expediacruises.com",
+      "notes": "Full-service retail travel agency franchise (cruises plus all travel), founded as CruiseShipCenters in 1987, fully acquired by Expedia Group by 2013, and rebranded Expedia Cruises in 2020. Each franchisee operates a vendor center staffed by a roster of independent travel consultants and earns a share of supplier commissions. Surpassed 260 North American units in early 2025; actively recruiting via expediafranchise.com.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Commission-only revenue base with a 9% royalty plus large marketing fund",
+          "detail": "Franchisee revenue is entirely supplier commission (no product margin), and the FDD charges a 9% royalty on gross revenue plus a marketing-fund contribution that directories report at 4-6% of gross revenue - an unusually high combined take rate against an average unit revenue of roughly $447,000.",
+          "source": "FranchisePayback / SHARPSHEETS Expedia Cruises FDD analyses",
+          "url": "https://www.franchisepayback.com/franchise/expedia-cruises",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Dependence on parent Expedia Group's brand, platform, and supplier relationships",
+          "detail": "Franchisees rely on Expedia Group-controlled branding, technology, and cruise/travel supplier commission arrangements they do not control; the parent (an online travel agency) also sells the same travel directly to consumers, and Expedia Group has faced consumer class-action litigation over fees and refunds that shapes the brand environment franchisees operate in.",
+          "source": "Wikipedia - Expedia Cruises; ClassAction.org Expedia coverage",
+          "url": "https://en.wikipedia.org/wiki/Expedia_Cruises",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "FDD discloses litigation/bankruptcy history",
+          "detail": "FDD-tracking analysis notes Expedia Cruises discloses lawsuits and/or bankruptcy information in its FDD (Item 3/Item 4); prospective franchisees should review the full disclosures.",
+          "source": "Vetted Biz - Expedia Cruises Franchise Insights (FDD analysis)",
+          "url": "https://www.vettedbiz.com/franchises/expedia-cruises",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 250000, "source": "Expedia Cruises FDD summaries (Franchise Direct / topfranchise)", "year": 2025, "confidence": "medium", "note": "At least $250,000 liquid capital."},
+        "netWorthMin": {"value": 750000, "source": "Expedia Cruises FDD summaries (Franchise Direct / topfranchise)", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 149500, "source": "Expedia Cruises 2025 FDD Item 7 (via SHARPSHEETS / franchisor investment page)", "year": 2025, "confidence": "high", "note": "FDD Item 7 range $149,500-$258,745; typical franchisee invests ~$204,000 including working capital."},
+        "totalInvestmentMax": {"value": 258745, "source": "Expedia Cruises 2025 FDD Item 7 (via SHARPSHEETS / franchisor investment page)", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 49000, "source": "Expedia Cruises 2025 FDD (via SHARPSHEETS and FranchisePayback)", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 9, "source": "Expedia Cruises 2025 FDD (via SHARPSHEETS and FranchisePayback)", "year": 2025, "confidence": "high", "note": "9% of gross revenue (supplier commissions)."},
+        "adFundPercent": {"value": 4, "source": "SHARPSHEETS Expedia Cruises FDD analysis", "year": 2025, "confidence": "medium", "note": "SHARPSHEETS cites a 4% marketing-fund contribution; FranchisePayback lists 6%."},
+        "avgUnitRevenue": {"value": 447000, "source": "SHARPSHEETS / FranchisePayback Expedia Cruises FDD analysis (Item 19-derived)", "year": 2025, "confidence": "medium", "note": "Average unit revenue across franchised locations."},
+        "totalUnits": {"value": 98, "source": "FranchisePayback Expedia Cruises FDD data (US franchised)", "year": 2025, "confidence": "medium", "note": "98 US franchised units per FDD-derived data; brand surpassed 260 total North American (US + Canada) units in early 2025 per IFA."},
+        "yearFounded": {"value": 1987, "source": "Expedia Cruises (founded as CruiseShipCenters); SHARPSHEETS", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1987, "source": "FranchisePayback Expedia Cruises FDD data", "year": 2025, "confidence": "medium"},
+        "isGrowing": {"value": true, "source": "IFA - 'Expedia Cruises Sails into 2025... Surpasses 260 Units'; FranchisePayback (+7%)", "year": 2025, "confidence": "high", "note": "Opened 13 locations in 2024, planned 15 awards in 2025; +7% franchised-unit trend."},
+        "veteranDiscount": {"value": true, "source": "SyncRevenue Expedia CruiseShipCenters veteran page", "year": 2026, "confidence": "medium", "note": "Veteran franchise-fee discount program advertised."},
+        "internationalAvailability": {"value": true, "source": "Expedia Cruises (operates in US and Canada)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Expedia Cruises franchisor site (retail travel agency)", "year": 2025, "confidence": "high"},
+        "mobileBased": {"value": false, "source": "Expedia Cruises franchisor site (vendor-center retail model)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / Franchise Direct Expedia Cruises FDD", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": true, "source": "SHARPSHEETS Expedia Cruises FDD analysis", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Travel Leaders",
+      "slug": "travel-leaders",
+      "category": "Travel & Lodging",
+      "website": "travelleaders.com",
+      "notes": "Conversion franchise from Travel Leaders Network, a division of Internova Travel Group (formerly Travel Leaders Group / Carlson Wagonlit). It licenses the Travel Leaders brand, business system, and preferred-supplier relationships to EXISTING travel agencies rather than building new units - so the investment is minimal ($2K-$18K) and there is no standard new-unit build. Buyers should understand this is a marketing/affiliation license layered onto an already-operating agency, not a turnkey new business.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Conversion-only license for existing agencies, not a turnkey new-business franchise",
+          "detail": "Travel Leaders franchises license the brand and preferred-vendor program to existing travel agencies; the FDD investment range is only $2,270-$17,910 with a franchise fee of $0-$2,500. There is no standard greenfield unit - prospects must already own and operate a travel agency, which narrows the opportunity to industry insiders.",
+          "source": "SHARPSHEETS / Franchise Help Travel Leaders FDD summaries",
+          "url": "https://www.franchisehelp.com/franchises/travel-leaders/",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Brand sits within a much larger affiliate network; few are true franchisees",
+          "detail": "Internova's Travel Leaders Network spans roughly 5,700 agency locations across the US and Canada, but only a small slice are formal Travel Leaders franchise (associate) agencies - FDD-derived data shows about 192 US franchised locations, and 2025 additions included just four new associate (franchise) agencies versus 264 US affiliates. Franchisees are one tier within a broad, multi-tier membership platform.",
+          "source": "Internova / PR Newswire 2025 network-growth release; Vetted Biz Travel Leaders Network FDD data",
+          "url": "https://internova.com/travel-leaders-network-adds-over-300-member-agencies-in-2025/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No litigation or bankruptcy disclosed in FDD",
+          "detail": "FDD-tracking analysis reports Travel Leaders Network does not disclose lawsuits or bankruptcy information in its FDD - a clean Item 3/Item 4 record.",
+          "source": "Vetted Biz - Travel Leaders Network Franchise Insights",
+          "url": "https://www.vettedbiz.com/franchises/travel-leaders-network",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 2270, "source": "SHARPSHEETS / Franchise Help / Vetted Biz Travel Leaders FDD summaries", "year": 2025, "confidence": "high", "note": "Low investment reflects conversion of an existing agency (office, technology, working capital), not a new build."},
+        "totalInvestmentMax": {"value": 17910, "source": "SHARPSHEETS / Franchise Help / Vetted Biz Travel Leaders FDD summaries", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 2500, "source": "SHARPSHEETS / Franchise Help Travel Leaders FDD summaries", "year": 2025, "confidence": "medium", "note": "FDD discloses $0-$2,500 depending on the agency's status at conversion."},
+        "totalUnits": {"value": 192, "source": "Vetted Biz - Travel Leaders Network Franchise Insights (US locations)", "year": 2025, "confidence": "medium", "note": "~192 US franchised (associate) agency locations; the broader Travel Leaders Network affiliate footprint is ~5,700 US/Canada agencies."},
+        "isGrowing": {"value": true, "source": "Internova / PR Newswire - 'Travel Leaders Network Adds Over 300 Member Agencies in 2025'", "year": 2025, "confidence": "medium", "note": "Network added 300+ member agencies in 2025, though only 4 were new associate (franchise) agencies."},
+        "internationalAvailability": {"value": true, "source": "Internova 2025 network-growth release (US and Canada)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Travel Leaders Network (retail travel agency brand)", "year": 2025, "confidence": "high"},
+        "bankruptcyDisclosed": {"value": false, "source": "Vetted Biz - Travel Leaders Network Franchise Insights", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (2025 FDD); SHARPSHEETS", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Motel 6",
+      "slug": "motel-6",
+      "category": "Travel & Lodging",
+      "website": "motel6.com",
+      "notes": "Economy-lodging franchise (founded 1962) and its extended-stay sibling Studio 6, franchised by G6 Hospitality. In December 2024 India-based travel-tech company OYO (Oravel Stays) completed a $525M acquisition of G6 Hospitality from Blackstone - a recent ownership change that reshapes brand strategy. ~1,200+ units. This is a hotel-scale investment (new-build $6M+; conversions far less), and the brand carries a notable privacy-litigation history.",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "Multiple multimillion-dollar settlements over sharing guest data with ICE",
+          "detail": "Motel 6 and parent G6 Hospitality paid a $12 million settlement (Washington state) and a separate ~$10 million settlement (Arizona) over locations that routinely provided guest lists to U.S. Immigration and Customs Enforcement between 2015-2017 - a brand-level privacy/reputational liability that flows down to franchised properties.",
+          "source": "Washington Post; ABC News; Claims Journal coverage of the ICE data-sharing settlements",
+          "url": "https://www.washingtonpost.com/nation/2019/04/06/motel-leaked-personal-data-guests-ice-officials-say-now-it-owes-them-million/",
+          "year": 2019
+        },
+        {
+          "severity": "caution",
+          "title": "New owner (OYO) completed a $525M acquisition in December 2024",
+          "detail": "Blackstone sold G6 Hospitality (Motel 6 and Studio 6) to India-based OYO for $525 million, closing December 2024. OYO has stated plans to add ~150 hotels, push direct bookings, and gain tighter control of customer data and commissions - a strategy shift franchisees did not sign up for under prior ownership, with integration and brand-direction uncertainty.",
+          "source": "Skift; Hotel Dive; Blackstone press release on the OYO/G6 acquisition",
+          "url": "https://skift.com/2024/12/18/oyo-completes-motel-6-acquisition-next-150-new-hotels-by-2025-with-a-focus-on-direct-bookings/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "Hotel-scale capital with a 5% royalty; new-build vs conversion gap is enormous",
+          "detail": "The 2025 FDD prices a new-build 100-room Motel 6 at $6,251,265-$8,239,350 (excluding land) versus a conversion at $195,259-$1,471,540, on a 5% royalty of gross room revenue - so headline 'low-cost' positioning hides a multi-million-dollar real-estate commitment for ground-up development.",
+          "source": "Motel 6 2025 FDD (via Vetted Biz and The FDD Exchange)",
+          "url": "https://www.vettedbiz.com/motel-6-franchise/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 195259, "source": "Motel 6 2025 FDD (via Vetted Biz and The FDD Exchange)", "year": 2025, "confidence": "high", "note": "Low end is a 100-room CONVERSION ($195,259-$1,471,540, excluding land). New-build 100-room range is $6,251,265-$8,239,350."},
+        "totalInvestmentMax": {"value": 8239350, "source": "Motel 6 2025 FDD (via Vetted Biz and The FDD Exchange)", "year": 2025, "confidence": "high", "note": "High end is new construction of a 100-room property, excluding land acquisition."},
+        "franchiseFee": {"value": 40000, "source": "Vetted Biz / The FDD Exchange Motel 6 FDD summary", "year": 2025, "confidence": "medium", "note": "Approximately $40,000 typical initial franchise fee."},
+        "royaltyPercent": {"value": 5, "source": "Motel 6 2025 FDD (via Vetted Biz)", "year": 2025, "confidence": "high", "note": "5% of gross room revenues, paid monthly."},
+        "totalUnits": {"value": 1210, "source": "Vetted Biz - Motel 6 Franchise Insights", "year": 2025, "confidence": "medium", "note": "~1,210 units (Motel 6 system)."},
+        "yearFounded": {"value": 1962, "source": "Wikipedia - Motel 6; Vetted Biz", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 1996, "source": "Vetted Biz - Motel 6 Franchise Insights (FDD-derived)", "year": 2025, "confidence": "low", "note": "Brand operated company-owned for decades before franchising; confirm exact franchising-start year in the FDD."},
+        "businessModelType": {"value": "b2c", "source": "G6 Hospitality / Motel 6 brand site", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange (2025 FDD); FranChimp", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Red Roof Inn",
+      "slug": "red-roof-inn",
+      "category": "Travel & Lodging",
+      "website": "redroof.com",
+      "notes": "Economy/midscale lodging franchise founded 1973 (New Albany, OH), franchised through Red Roof Franchising LLC across a multi-brand portfolio (Red Roof Inn, Red Roof PLUS+, HomeTowne Studios, The Red Collection). 700+ properties across the portfolio. Like all hotel franchises this is a real-estate-scale investment, and Red Roof does not publish a public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "caution",
+          "title": "Hotel-scale investment with stacked royalty plus marketing/reservation fees",
+          "detail": "Directories derived from the 2025 FDD put total investment at roughly $5.9M-$8.9M for a property, with a 4.5% royalty on gross room revenue PLUS a 4% marketing and reservation contribution - combined ongoing brand fees near 8.5% of room revenue before operating costs.",
+          "source": "FranchiseGrade / peersense Red Roof Inn FDD summaries",
+          "url": "https://www.franchisegrade.com/franchises/red-roof-inn",
+          "year": 2025
+        },
+        {
+          "severity": "caution",
+          "title": "Conflicting unit counts signal a system in flux",
+          "detail": "FDD-derived sources disagree materially on system size - one shows 345 franchised locations while another reports 541 franchised plus 54 company-owned - reflecting portfolio reshuffling across the Red Roof multi-brand family and making it hard to gauge the franchise system's true scale and trajectory.",
+          "source": "FranchiseGrade / Vetted Biz Red Roof Inn FDD data",
+          "url": "https://www.vettedbiz.com/franchises/red-roof-inn",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Long 10-year term in the economy segment",
+          "detail": "Franchise agreements run 10-year terms with 10-year renewal options - a long commitment in the price-sensitive economy lodging segment, where RevPAR is exposed to budget-traveler demand swings and OTA pricing pressure.",
+          "source": "peersense / FranchiseGrade Red Roof Inn FDD summaries",
+          "url": "https://peersense.com/franchise/red-roof-inn",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 5934000, "source": "peersense Red Roof Inn FDD summary", "year": 2025, "confidence": "medium", "note": "Approx. $5.9M-$8.9M total investment per FDD-derived directories; conversions of existing hotels cost less."},
+        "totalInvestmentMax": {"value": 8900000, "source": "peersense Red Roof Inn FDD summary", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 30000, "source": "FranchiseGrade / peersense Red Roof Inn FDD summaries", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 4.5, "source": "FranchiseGrade Red Roof Inn FDD summary", "year": 2025, "confidence": "high", "note": "4.5% royalty on gross room revenue."},
+        "adFundPercent": {"value": 4, "source": "FranchiseGrade Red Roof Inn FDD summary", "year": 2025, "confidence": "medium", "note": "4% marketing and reservation contribution."},
+        "totalUnits": {"value": 345, "source": "FranchiseGrade Red Roof Inn 2025 FDD data", "year": 2025, "confidence": "low", "note": "Conflicting figures: one source shows 345 franchised; another reports 541 franchised + 54 company-owned. Portfolio totals 700+ properties across all Red Roof brands."},
+        "yearFounded": {"value": 1973, "source": "Wikipedia - Red Roof Inn; franchising.com", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Red Roof Franchising site", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranChimp (2025 FDD); Vetted Biz", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Choice Hotels",
+      "slug": "choice-hotels",
+      "category": "Travel & Lodging",
+      "website": "choicehotels.com",
+      "notes": "One of the largest hotel franchisors in the world (~7,500 units across 46 countries), franchising brands including Comfort Inn & Suites, Quality Inn, Sleep Inn, Clarion, Cambria, and Econo Lodge. Figures here reflect the flagship Comfort brand from the April 2025 FDD. Hotel-scale investment with conversion and new-build paths; Choice does not publish a public state-by-state availability list, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "Franchisee class action over undisclosed loyalty-program fees",
+          "detail": "Franchisees sued alleging Choice charged a fee of up to 5% on room stays by Choice Privileges rewards members - a fee they say was neither disclosed nor agreed to in their original franchise contracts; a related action names both Wyndham and Choice over guest-loyalty-program fees.",
+          "source": "Class action coverage - 'Wyndham & Choice Hotels Franchisee Class Action... Loyalty Program Fees'",
+          "url": "https://classactionlawsuitsinthenews.com/class-action-lawsuits/wyndham-choice-hotels-franchisee-class-action-lawsuit-complaint-filed-over-guest-loyalty-program-fees/",
+          "year": 2024
+        },
+        {
+          "severity": "warning",
+          "title": "60+ franchisees sued alleging unfair practices and racial bias; arbitration loss",
+          "detail": "At least 60 Choice franchisees sued alleging unfair and deceptive acts and racial bias against Indian-American owners (rooted in COVID-era fee-relief disputes), and a separate arbitration found Choice breached its franchise agreement over preferred-vendor volume discounts, ordering ~$760,000 in fees and costs against the franchisor.",
+          "source": "Asian Hospitality - franchisee racial-bias lawsuit; arbitration award coverage",
+          "url": "https://www.asianhospitality.com/choice-franchisees-in-lawsuit-accuse-company-of-racial-bias/",
+          "year": 2024
+        },
+        {
+          "severity": "info",
+          "title": "6% royalty plus 3% system fee on gross room revenue (Comfort brand)",
+          "detail": "The Comfort FDD charges a 6% royalty on monthly gross room revenue plus a 3% system fee, with an affiliation fee of $500/room for new franchises ($50,000 minimum). New construction of an 80-room property runs $9.46M-$14.35M; conversions $780,645-$3.11M.",
+          "source": "Swoop / Franchise Gator Comfort Inn & Suites FDD summaries (April 2025 FDD)",
+          "url": "https://www.franchisegator.com/franchises/comfort-inn-suites/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 780645, "source": "Franchise Gator Comfort Inn & Suites FDD summary (April 2025 FDD)", "year": 2025, "confidence": "medium", "note": "Low end is an 80-room CONVERSION ($780,645-$3,106,195). New construction of an 80-room property runs $9,464,745-$14,346,795."},
+        "totalInvestmentMax": {"value": 14346795, "source": "Franchise Gator Comfort Inn & Suites FDD summary (April 2025 FDD)", "year": 2025, "confidence": "medium", "note": "High end is new construction of an 80-room Comfort property."},
+        "franchiseFee": {"value": 50000, "source": "Franchise Gator / Swoop Comfort Inn & Suites FDD summaries", "year": 2025, "confidence": "high", "note": "$500/room for new franchises ($50,000 minimum); $750/room for transfers/renewals ($65,000 minimum)."},
+        "royaltyPercent": {"value": 6, "source": "Franchise Gator / Swoop Comfort Inn & Suites FDD summaries", "year": 2025, "confidence": "high", "note": "6% royalty on monthly gross room revenue (Comfort brand)."},
+        "adFundPercent": {"value": 3, "source": "Franchise Gator / Swoop Comfort Inn & Suites FDD summaries", "year": 2025, "confidence": "high", "note": "3% system fee on monthly gross room revenue covering software and systemwide advertising."},
+        "totalUnits": {"value": 7500, "source": "Franchise Gator / Choice Hotels corporate (estimate across all brands)", "year": 2025, "confidence": "medium", "note": "~7,500 units across all Choice brands in 46 countries; the Comfort chain alone is ~2,000 US hotels operating or in pipeline."},
+        "internationalAvailability": {"value": true, "source": "Choice Hotels corporate (46 countries)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Choice Hotels corporate site", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Choice Hotels April 2025 FDD (via Franchise Direct / Franchise Gator)", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Century 21",
+      "slug": "century-21",
+      "category": "Real Estate",
+      "website": "century21.com",
+      "notes": "One of the world's largest residential real-estate brokerage franchises, owned by Anywhere Real Estate Inc. (formerly Realogy). Franchises are brokerage offices - independent agents affiliate under the C21 brand and tools - so investment is mostly office setup, technology, and working capital. ~1,784 US franchise units. Real estate franchises do not publish state-by-state availability lists, so state availability is omitted.",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "Parent Anywhere paid $83.5M to settle buyer-commission antitrust class actions",
+          "detail": "Anywhere Real Estate (parent of Century 21) settled the Burnett and Moehrl antitrust class actions for $83.5 million plus injunctive relief tied to buyer-broker commission practices. The settlement, alongside the broader $418M NAR settlement, reshaped how commissions are negotiated - directly affecting the revenue base every C21 franchisee royalty is calculated on.",
+          "source": "PR Newswire (Anywhere settlement terms); HousingWire",
+          "url": "https://www.prnewswire.com/news-releases/anywhere-announces-terms-of-nationwide-settlement-agreement-in-burnett-and-moehrl-antitrust-class-actions-301949468.html",
+          "year": 2023
+        },
+        {
+          "severity": "caution",
+          "title": "6% royalty on gross commission income, charged before agent splits",
+          "detail": "The FDD charges a 6% royalty on gross revenue from real estate sales (1.5% on property management), taken off the top of the brokerage's gross commission income - on top of brand marketing fees and before the office pays agent commission splits, compressing the broker-owner's margin.",
+          "source": "SHARPSHEETS / Vetted Biz Century 21 FDD analysis",
+          "url": "https://www.vettedbiz.com/century-21-real-estate-franchise/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Revenue fully exposed to housing-transaction-volume cycles",
+          "detail": "Brokerage franchise income tracks home-sale volume and prices; in higher-rate, low-inventory markets transaction counts fall, directly cutting the commission base the franchise depends on - a macro risk outside any individual owner's control.",
+          "source": "SHARPSHEETS Century 21 Real Estate FDD analysis",
+          "url": "https://sharpsheets.io/blog/century-21-real-estate-franchise-fdd-profits-costs/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 32870, "source": "SHARPSHEETS / Vetted Biz Century 21 FDD analysis", "year": 2025, "confidence": "high", "note": "Low end is a conversion office ($32,870-$279,000); a start-up office runs $114,370-$466,300."},
+        "totalInvestmentMax": {"value": 466300, "source": "SHARPSHEETS / Vetted Biz Century 21 FDD analysis", "year": 2025, "confidence": "high", "note": "High end is a start-up office."},
+        "franchiseFee": {"value": 25000, "source": "SHARPSHEETS / Vetted Biz Century 21 FDD analysis", "year": 2025, "confidence": "high", "note": "$25,000 for the first residential office; $10,000 each additional office."},
+        "royaltyPercent": {"value": 6, "source": "SHARPSHEETS / Vetted Biz Century 21 FDD analysis", "year": 2025, "confidence": "high", "note": "6% of gross revenue from real estate sales; 1.5% from property management."},
+        "totalUnits": {"value": 1784, "source": "Vetted Biz / FranchisePayback Century 21 FDD data (US franchised)", "year": 2025, "confidence": "medium", "note": "~1,784 US franchise units; all franchised."},
+        "internationalAvailability": {"value": true, "source": "Anywhere Real Estate / Century 21 corporate (global network)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Century 21 corporate site (residential brokerage)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "Franchise Direct / SHARPSHEETS Century 21 2025 FDD", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Coldwell Banker",
+      "slug": "coldwell-banker",
+      "category": "Real Estate",
+      "website": "coldwellbanker.com",
+      "notes": "Major residential (and commercial) real-estate brokerage franchise, a subsidiary of Anywhere Real Estate. Like its sister brands, franchises are brokerage offices affiliating independent agents under the Coldwell Banker brand and platform. ~2,900 combined residential and commercial units. State availability omitted (real-estate brokerage franchises do not publish state lists).",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "Parent Anywhere's $83.5M commission antitrust settlement reshaped the revenue base",
+          "detail": "Coldwell Banker's parent, Anywhere Real Estate, settled the Burnett/Moehrl buyer-commission antitrust class actions for $83.5 million plus injunctive relief. Combined with the industry-wide NAR settlement ($418M), the changes to how buyer-broker commissions are disclosed and negotiated directly affect the gross commission income every Coldwell Banker franchise royalty is built on.",
+          "source": "PR Newswire (Anywhere settlement terms); Fortune",
+          "url": "https://www.prnewswire.com/news-releases/anywhere-announces-terms-of-nationwide-settlement-agreement-in-burnett-and-moehrl-antitrust-class-actions-301949468.html",
+          "year": 2023
+        },
+        {
+          "severity": "caution",
+          "title": "Royalty around 6% (5-6.5% range) on gross commission income",
+          "detail": "The 2025 FDD outlines a standard 6% royalty on gross revenue, which directories note can range 5-6.5% depending on the agreement and conversion incentives - charged off the top of the brokerage's commission income before agent splits and brand marketing fees.",
+          "source": "Vetted Biz / FranchisePayback Coldwell Banker FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/coldwell-banker/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Income tied to housing-transaction cycles",
+          "detail": "Brokerage franchise revenue tracks home-sale volume and price; rising rates and tight inventory cut transaction counts and the commission base, a macro exposure no single broker-owner controls.",
+          "source": "SHARPSHEETS Coldwell Banker FDD analysis",
+          "url": "https://sharpsheets.io/blog/coldwell-bankerfranchise-fdd-profits-costs/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 32870, "source": "Vetted Biz / Franchise Direct Coldwell Banker 2025 FDD", "year": 2025, "confidence": "high", "note": "Low end is a conversion office ($32,870-$327,375); a start-up office runs $114,300-$514,675."},
+        "totalInvestmentMax": {"value": 514675, "source": "Vetted Biz / Franchise Direct Coldwell Banker 2025 FDD", "year": 2025, "confidence": "high", "note": "High end is a start-up office."},
+        "royaltyPercent": {"value": 6, "source": "Coldwell Banker 2025 FDD (via Vetted Biz)", "year": 2025, "confidence": "high", "note": "Standard 6% of gross revenue; directories note a 5-6.5% range by agreement."},
+        "totalUnits": {"value": 2900, "source": "Vetted Biz Coldwell Banker FDD data (combined residential + commercial)", "year": 2025, "confidence": "medium", "note": "~2,900 combined residential and commercial units."},
+        "internationalAvailability": {"value": true, "source": "Anywhere Real Estate / Coldwell Banker corporate (global network)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "both", "source": "Coldwell Banker corporate (residential and commercial brokerage)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "The FDD Exchange / Franchise Direct Coldwell Banker 2025 FDD", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "ERA Real Estate",
+      "slug": "era-real-estate",
+      "category": "Real Estate",
+      "website": "era.com",
+      "notes": "Residential real-estate brokerage franchise (HQ Madison, NJ), a subsidiary of Anywhere Real Estate. Franchises are brokerage offices affiliating independent agents under the ERA brand and tools. ~444 US franchise units, all franchised. State availability omitted (real-estate brokerage franchises do not publish state lists).",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "Parent Anywhere's $83.5M commission antitrust settlement reshaped the revenue base",
+          "detail": "ERA's parent, Anywhere Real Estate, settled the Burnett/Moehrl buyer-commission antitrust class actions for $83.5 million plus injunctive relief. With the broader NAR settlement, the resulting changes to buyer-broker commission practices directly affect the commission income on which ERA franchise royalties are calculated.",
+          "source": "PR Newswire (Anywhere settlement terms); Fortune",
+          "url": "https://www.prnewswire.com/news-releases/anywhere-announces-terms-of-nationwide-settlement-agreement-in-burnett-and-moehrl-antitrust-class-actions-301949468.html",
+          "year": 2023
+        },
+        {
+          "severity": "caution",
+          "title": "6% royalty on gross sales plus a variable marketing fee",
+          "detail": "The FDD charges a 6% royalty on gross sales plus a variable marketing/brand fee, taken off the top of the brokerage's gross commission income before agent splits - the standard Anywhere fee structure shared across its brands.",
+          "source": "FranchisePayback / Franchise Help ERA Real Estate FDD analysis",
+          "url": "https://www.franchisepayback.com/franchise/era-real-estate",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Income tied to housing-transaction cycles",
+          "detail": "Brokerage franchise revenue tracks home-sale volume and price; in higher-rate, low-inventory markets, transaction counts fall and cut the commission base - a macro risk outside any individual owner's control.",
+          "source": "FranchiseGrade ERA Real Estate review",
+          "url": "https://franchisegrade.com/franchises/era-real-estate",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 108850, "source": "Vetted Biz / FranchisePayback ERA Real Estate FDD analysis", "year": 2025, "confidence": "high", "note": "Initial investment range $108,850-$432,550; some directories cite $82,000-$447,000."},
+        "totalInvestmentMax": {"value": 432550, "source": "Vetted Biz / FranchisePayback ERA Real Estate FDD analysis", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "Franchise Help / Vetted Biz ERA Real Estate FDD analysis", "year": 2025, "confidence": "medium", "note": "Initial franchise fee up to $25,000."},
+        "royaltyPercent": {"value": 6, "source": "FranchisePayback / Franchise Help ERA Real Estate FDD analysis", "year": 2025, "confidence": "high", "note": "6% royalty on gross sales plus a variable marketing fee."},
+        "totalUnits": {"value": 444, "source": "Vetted Biz / FranchisePayback ERA Real Estate FDD data", "year": 2025, "confidence": "medium", "note": "444 US franchise units; all franchised, 0 corporate-owned."},
+        "internationalAvailability": {"value": true, "source": "Anywhere Real Estate / ERA corporate (global network)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "ERA corporate site (residential brokerage)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "FranChimp / FranchisePayback ERA Real Estate FDD", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Better Homes and Gardens Real Estate",
+      "slug": "better-homes-and-gardens-real-estate",
+      "category": "Real Estate",
+      "website": "bhgre.com",
+      "notes": "Residential real-estate brokerage franchise launched by Anywhere Real Estate under a license to the Better Homes & Gardens brand (originally from Meredith Corporation). Franchises are brokerage offices affiliating independent agents under the BHGRE brand and platform. State availability omitted (real-estate brokerage franchises do not publish state lists).",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "Parent Anywhere's $83.5M commission antitrust settlement reshaped the revenue base",
+          "detail": "BHGRE's franchisor, Anywhere Real Estate, settled the Burnett/Moehrl buyer-commission antitrust class actions for $83.5 million plus injunctive relief. Together with the NAR settlement, the changes to how buyer-broker commissions are negotiated directly affect the gross commission income on which BHGRE franchise royalties are based.",
+          "source": "PR Newswire (Anywhere settlement terms); HousingWire",
+          "url": "https://www.prnewswire.com/news-releases/anywhere-announces-terms-of-nationwide-settlement-agreement-in-burnett-and-moehrl-antitrust-class-actions-301949468.html",
+          "year": 2023
+        },
+        {
+          "severity": "caution",
+          "title": "6% royalty plus ~2% marketing fee, and brand-name licensed from a third party",
+          "detail": "The FDD charges a 6% royalty on gross revenue plus roughly a 2% marketing/advertising contribution. The 'Better Homes and Gardens' name is itself licensed from the consumer-media owner, so the brand franchisees pay to use depends on a license arrangement Anywhere controls.",
+          "source": "SHARPSHEETS / Vetted Biz BHGRE FDD analysis",
+          "url": "https://sharpsheets.io/blog/better-homes-and-gardens-real-estate-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Income tied to housing-transaction cycles",
+          "detail": "Brokerage franchise revenue tracks home-sale volume and price; rising rates and tight inventory reduce transaction counts and the commission base - a macro exposure no single broker-owner controls.",
+          "source": "SHARPSHEETS Better Homes and Gardens Real Estate FDD analysis",
+          "url": "https://sharpsheets.io/blog/better-homes-and-gardens-real-estate-franchise-fdd-profits-costs/",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "FranchisePayback / Vetted Biz BHGRE FDD analysis", "year": 2025, "confidence": "low", "note": "Directories cite liquid capital of roughly $50,000-$100,000 depending on market."},
+        "netWorthMin": {"value": 300000, "source": "FranchisePayback / Vetted Biz BHGRE FDD analysis", "year": 2025, "confidence": "low", "note": "Cited as roughly $300,000-$500,000 depending on location."},
+        "totalInvestmentMin": {"value": 197210, "source": "Vetted Biz / FranchisePayback BHGRE FDD analysis", "year": 2025, "confidence": "medium", "note": "Initial investment range $197,210-$561,000; some directories cite a wider $82,000-$450,000 band."},
+        "totalInvestmentMax": {"value": 561000, "source": "Vetted Biz / FranchisePayback BHGRE FDD analysis", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 35000, "source": "FranchisePayback / Vetted Biz BHGRE FDD analysis", "year": 2025, "confidence": "medium", "note": "Franchise fee up to $35,000."},
+        "royaltyPercent": {"value": 6, "source": "SHARPSHEETS / Vetted Biz BHGRE FDD analysis", "year": 2025, "confidence": "high", "note": "6% royalty on gross revenue."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS / Vetted Biz BHGRE FDD analysis", "year": 2025, "confidence": "medium", "note": "~2% marketing/advertising contribution."},
+        "internationalAvailability": {"value": true, "source": "Anywhere Real Estate / BHGRE corporate", "year": 2025, "confidence": "medium"},
+        "businessModelType": {"value": "b2c", "source": "BHGRE corporate site (residential brokerage)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / FranchisePayback BHGRE FDD", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "Weichert",
+      "slug": "weichert",
+      "category": "Real Estate",
+      "website": "weichert.com",
+      "notes": "Family-owned residential real-estate brokerage franchise founded 1969 by Jim Weichert (Chatham, NJ); the franchising arm, Weichert Real Estate Affiliates, was established in 2001. 350+ independently owned offices across 40+ states. Franchises are brokerage offices affiliating agents under the Weichert brand and tools. State availability omitted (real-estate brokerage franchises do not publish state lists).",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "Industry-wide NAR commission settlement reshaped the brokerage revenue base",
+          "detail": "The $418M National Association of Realtors antitrust settlement and related buyer-commission litigation changed how buyer-broker commissions are disclosed and negotiated industrywide. Because brokerage franchise royalties are charged on gross commission income, the post-settlement compression of buyer-side commissions directly affects Weichert franchisees' revenue.",
+          "source": "Hagens Berman / NAR nationwide commission settlement coverage",
+          "url": "https://www.apslaw.com/its-your-business/2024/12/02/the-future-of-realtor-commissions-understanding-the-nar-settlement/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "6% royalty plus 2% advertising fee on gross commission income",
+          "detail": "FDD-derived data shows a 6% royalty plus a 2% advertising fee on gross revenues (some directories cite a lower 2% royalty figure - confirm in the FDD), charged off the top of the brokerage's commission income before agent splits.",
+          "source": "SHARPSHEETS / Vetted Biz Weichert FDD analysis",
+          "url": "https://sharpsheets.io/blog/weichert-franchise-fdd-profits-costs/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "Conflicting unit counts and significant company-owned presence",
+          "detail": "FDD-derived sources disagree on system size - one reports 297 franchised + 77 company-owned (374 total), another 431 franchised + 326 company-owned - indicating a large company-owned footprint alongside the franchise network, which can mean corporate competition in some markets.",
+          "source": "FranchiseGrade / Vetted Biz Weichert FDD data",
+          "url": "https://www.vettedbiz.com/franchises/weichert-real-estate",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "netWorthMin": {"value": 150000, "source": "topfranchise / Vetted Biz Weichert FDD analysis", "year": 2025, "confidence": "medium", "note": "Minimum net worth $150,000."},
+        "totalInvestmentMin": {"value": 77300, "source": "SHARPSHEETS / Vetted Biz Weichert FDD Item 7", "year": 2025, "confidence": "high", "note": "FDD Item 7 range $77,300-$359,800."},
+        "totalInvestmentMax": {"value": 359800, "source": "SHARPSHEETS / Vetted Biz Weichert FDD Item 7", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "SHARPSHEETS / Vetted Biz Weichert FDD analysis", "year": 2025, "confidence": "high"},
+        "royaltyPercent": {"value": 6, "source": "SHARPSHEETS Weichert FDD analysis", "year": 2025, "confidence": "medium", "note": "6% royalty per SHARPSHEETS; one directory cites 2% - confirm in the FDD."},
+        "adFundPercent": {"value": 2, "source": "SHARPSHEETS Weichert FDD analysis", "year": 2025, "confidence": "medium", "note": "2% advertising fee on gross revenues."},
+        "totalUnits": {"value": 374, "source": "Vetted Biz / FranchiseGrade Weichert FDD data", "year": 2025, "confidence": "low", "note": "Conflicting: 297 franchised + 77 company-owned (374) per one source; 431 franchised + 326 company-owned per another. Franchisor cites 350+ offices in 40+ states."},
+        "yearFounded": {"value": 1969, "source": "Wikipedia - Weichert, Realtors; Weichert Franchise", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2001, "source": "Weichert Real Estate Affiliates (franchising division established 2001)", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "Weichert Franchise site (residential brokerage)", "year": 2025, "confidence": "high"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / FranchisePayback Weichert FDD", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "HomeSmart",
+      "slug": "homesmart",
+      "category": "Real Estate",
+      "website": "homesmart.com",
+      "notes": "Scottsdale, AZ residential brokerage franchise founded 2000 (franchising since 2005) built on a 100%-commission model: agents keep their full commission and pay flat transaction fees, with the brokerage running on technology and efficiency. ~200 US locations. Notably, the franchisor charges franchisees an above-market 8% royalty. State availability omitted (real-estate brokerage franchises do not publish state lists).",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "Industry-wide NAR commission settlement reshaped the brokerage revenue base",
+          "detail": "The $418M NAR antitrust settlement and related buyer-commission litigation changed how buyer-broker commissions are disclosed and negotiated. Brokerage franchise economics depend on transaction commission flow, so the post-settlement environment directly affects HomeSmart franchisees' revenue - a particular concern under a 100%-commission model that already runs on thin per-transaction fees.",
+          "source": "Hagens Berman / NAR nationwide commission settlement coverage",
+          "url": "https://www.apslaw.com/its-your-business/2024/12/02/the-future-of-realtor-commissions-understanding-the-nar-settlement/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Above-market 8% royalty plus 2% marketing fund",
+          "detail": "HomeSmart charges an 8% royalty on gross sales plus a 2% marketing/advertising contribution - notably higher than the ~6% royalty typical of competing brokerage franchises - which is a significant burden against a 100%-commission, flat-transaction-fee brokerage model where the broker-owner's margin is already compressed.",
+          "source": "Vetted Biz / SHARPSHEETS HomeSmart FDD analysis",
+          "url": "https://www.vettedbiz.com/franchises/home-smart/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "100%-commission model concentrates economics on transaction volume",
+          "detail": "The flat-fee, 100%-commission structure means broker-owner profitability depends on recruiting a high volume of agents and transactions rather than commission-split margin; in a slow housing market, fixed brand and technology costs are harder to cover.",
+          "source": "FranchiseGrade / Vetted Biz HomeSmart analysis",
+          "url": "https://franchisegrade.com/franchises/homesmart-international",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 50000, "source": "Vetted Biz / ifpg HomeSmart FDD analysis", "year": 2025, "confidence": "medium", "note": "At least $50,000 liquid capital."},
+        "netWorthMin": {"value": 300000, "source": "Vetted Biz / ifpg HomeSmart FDD analysis", "year": 2025, "confidence": "medium"},
+        "totalInvestmentMin": {"value": 66000, "source": "Vetted Biz / SHARPSHEETS HomeSmart FDD analysis", "year": 2025, "confidence": "high", "note": "Total investment $66,000-$205,000."},
+        "totalInvestmentMax": {"value": 205000, "source": "Vetted Biz / SHARPSHEETS HomeSmart FDD analysis", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 40000, "source": "Vetted Biz / SHARPSHEETS HomeSmart FDD analysis", "year": 2025, "confidence": "medium", "note": "Initial franchise fee up to $40,000."},
+        "royaltyPercent": {"value": 8, "source": "Vetted Biz / SHARPSHEETS HomeSmart FDD analysis", "year": 2025, "confidence": "high", "note": "8% royalty on gross sales - above the ~6% brokerage norm."},
+        "adFundPercent": {"value": 2, "source": "Vetted Biz / SHARPSHEETS HomeSmart FDD analysis", "year": 2025, "confidence": "high", "note": "2% marketing/advertising fund."},
+        "totalUnits": {"value": 200, "source": "Vetted Biz / SHARPSHEETS HomeSmart FDD data", "year": 2025, "confidence": "low", "note": "Nearly 200 US franchise locations; franchisor cites a much larger global agent network."},
+        "yearFounded": {"value": 2000, "source": "Vetted Biz / SHARPSHEETS HomeSmart analysis", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2005, "source": "Vetted Biz / SHARPSHEETS HomeSmart analysis", "year": 2025, "confidence": "high"},
+        "businessModelType": {"value": "b2c", "source": "HomeSmart corporate (residential brokerage)", "year": 2025, "confidence": "high"},
+        "customerAcquisitionModel": {"value": "100% commission, flat-transaction-fee brokerage; profitability driven by agent recruitment and transaction volume", "source": "HomeSmart corporate / SHARPSHEETS analysis", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / FranchisePayback HomeSmart FDD", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "United Real Estate",
+      "slug": "united-real-estate",
+      "category": "Real Estate",
+      "website": "unitedrealestate.com",
+      "notes": "Dallas, TX residential brokerage franchise founded 2011 (franchising since 2013) on an agent-centric, 100%-commission flat-transaction-fee model. Part of the United Real Estate Group (sister to United Country Real Estate). Relatively young, small franchise system (~73 franchisees per FDD-derived 2023 data). State availability omitted (real-estate brokerage franchises do not publish state lists).",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "Industry-wide NAR commission settlement reshaped the brokerage revenue base",
+          "detail": "The $418M NAR antitrust settlement and related buyer-commission litigation changed how buyer-broker commissions are negotiated. United Real Estate's franchise economics depend on transaction commission flow, so the post-settlement environment directly pressures franchisee revenue - heightened under a 100%-commission model with flat transaction fees.",
+          "source": "Hagens Berman / NAR nationwide commission settlement coverage",
+          "url": "https://www.apslaw.com/its-your-business/2024/12/02/the-future-of-realtor-commissions-understanding-the-nar-settlement/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Young, small franchise system with flat unit count",
+          "detail": "Founded 2011 and franchising only since 2013, United Real Estate is a comparatively new system with roughly 73 franchisees per FDD-derived 2023 data and little-to-no recent net unit growth - so long-run franchisee outcomes rest on a small, immature cohort.",
+          "source": "FranchisePayback / Vetted Biz United Real Estate FDD data",
+          "url": "https://www.franchisepayback.com/franchise/united-real-estate",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No Item 19 financial performance representation disclosed",
+          "detail": "FDD-tracking analysis reports United Real Estate does not disclose average unit volume / revenue in its FDD (no Item 19 FPR), so prospective franchisees have no franchisor-provided benchmark for expected office revenue.",
+          "source": "FranchisePayback United Real Estate FDD data",
+          "url": "https://www.franchisepayback.com/franchise/united-real-estate",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "totalInvestmentMin": {"value": 145000, "source": "FranchisePayback / Franchise Help United Real Estate FDD data", "year": 2025, "confidence": "medium", "note": "FranchisePayback cites $145,000-$386,000; some directories cite a lower $54,500-$360,500 band."},
+        "totalInvestmentMax": {"value": 386000, "source": "FranchisePayback / Franchise Help United Real Estate FDD data", "year": 2025, "confidence": "medium"},
+        "franchiseFee": {"value": 35000, "source": "FranchisePayback United Real Estate FDD data", "year": 2025, "confidence": "medium", "note": "FranchisePayback lists $35,000; some directories cite up to $100,000 for larger commitments."},
+        "royaltyPercent": {"value": 6, "source": "Franchise Help / Vetted Biz United Real Estate FDD analysis", "year": 2025, "confidence": "medium", "note": "6% royalty to the franchisor; agents themselves operate on a 100%-commission, flat-fee model."},
+        "totalUnits": {"value": 73, "source": "FranchisePayback United Real Estate FDD data (2023)", "year": 2025, "confidence": "low", "note": "~73 franchisees per FDD-derived 2023 data; flat (+0%) trend."},
+        "yearFounded": {"value": 2011, "source": "Franchise Help / Entrepreneur United Real Estate", "year": 2025, "confidence": "high"},
+        "yearFranchising": {"value": 2013, "source": "Franchise Help / Entrepreneur United Real Estate", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": false, "source": "FranchisePayback United Real Estate FDD data", "year": 2025, "confidence": "low", "note": "Flat franchisee count (+0%) per FDD-derived 2023 data."},
+        "businessModelType": {"value": "b2c", "source": "United Real Estate corporate (residential brokerage)", "year": 2025, "confidence": "high"},
+        "item19Available": {"value": false, "source": "FranchisePayback United Real Estate FDD data", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "FranchisePayback / Vetted Biz United Real Estate FDD", "year": 2025, "confidence": "high"}
+      }
+    },
+    {
+      "name": "EXIT Realty",
+      "slug": "exit-realty",
+      "category": "Real Estate",
+      "website": "exitrealty.com",
+      "notes": "Residential brokerage franchise (founded 1996) built around a distinctive single-level residual income model: associates earn 'sponsoring residuals' (10%), retirement residuals (7%), and beneficiary benefits (5%) by recruiting other associates. Royalties are a fixed monthly fee rather than a percentage. ~89 US franchised units per FDD-derived 2023 data, growing. State availability omitted (real-estate brokerage franchises do not publish state lists).",
+      "riskFlags": [
+        {
+          "severity": "warning",
+          "title": "Industry-wide NAR commission settlement reshaped the brokerage revenue base",
+          "detail": "The $418M NAR antitrust settlement and related buyer-commission litigation changed how buyer-broker commissions are disclosed and negotiated. EXIT Realty's broker-owner economics depend on transaction commission flow and associate recruitment, both of which are pressured by the post-settlement commission environment.",
+          "source": "Hagens Berman / NAR nationwide commission settlement coverage",
+          "url": "https://www.apslaw.com/its-your-business/2024/12/02/the-future-of-realtor-commissions-understanding-the-nar-settlement/",
+          "year": 2024
+        },
+        {
+          "severity": "caution",
+          "title": "Recruitment-driven residual model concentrates economics on sponsoring",
+          "detail": "EXIT's single-level residual system pays associates for sponsoring other associates (10% sponsoring, 7% retirement, 5% beneficiary residuals). This multi-level-style recruitment incentive structure ties broker-owner and associate income heavily to recruiting new agents, not just to closing transactions - a model prospects should scrutinize against their local agent-recruitment realities.",
+          "source": "Franchise Help / SHARPSHEETS EXIT Realty FDD analysis",
+          "url": "https://www.franchisehelp.com/franchises/exit-realty/",
+          "year": 2025
+        },
+        {
+          "severity": "info",
+          "title": "No Item 19 financial performance representation disclosed",
+          "detail": "FDD-tracking analysis reports EXIT Realty does not disclose average unit volume / revenue in its FDD (no Item 19 FPR), leaving prospective franchisees without a franchisor-provided office-revenue benchmark.",
+          "source": "FranchisePayback EXIT Realty FDD data",
+          "url": "https://www.franchisepayback.com/franchise/exit-realty",
+          "year": 2025
+        }
+      ],
+      "fields": {
+        "liquidCapitalMin": {"value": 66000, "source": "Franchise Help / Vetted Biz EXIT Realty FDD analysis", "year": 2025, "confidence": "medium", "note": "Net worth and liquid capital cited around $66,000."},
+        "totalInvestmentMin": {"value": 63000, "source": "FranchisePayback / SHARPSHEETS EXIT Realty FDD data", "year": 2025, "confidence": "high", "note": "Total investment $63,000-$212,000."},
+        "totalInvestmentMax": {"value": 212000, "source": "FranchisePayback / SHARPSHEETS EXIT Realty FDD data", "year": 2025, "confidence": "high"},
+        "franchiseFee": {"value": 25000, "source": "FranchisePayback EXIT Realty FDD data", "year": 2025, "confidence": "medium", "note": "FDD discloses $7,500-$25,000 depending on territory/type."},
+        "royaltyFee": {"value": 295, "source": "Franchise Help / Franchise Clique EXIT Realty FDD analysis", "year": 2025, "confidence": "high", "note": "Fixed $295/month royalty (not a percentage), plus a $325 annual membership fee."},
+        "totalUnits": {"value": 89, "source": "FranchisePayback EXIT Realty FDD data (2023)", "year": 2025, "confidence": "low", "note": "~89 US franchised units per FDD-derived 2023 data; 0 company-owned."},
+        "yearFounded": {"value": 1996, "source": "FranchisePayback / franchising.com EXIT Realty", "year": 2025, "confidence": "high"},
+        "isGrowing": {"value": true, "source": "FranchisePayback EXIT Realty FDD data", "year": 2025, "confidence": "low", "note": "+7% unit trend per FDD-derived data."},
+        "businessModelType": {"value": "b2c", "source": "EXIT Realty corporate (residential brokerage)", "year": 2025, "confidence": "high"},
+        "internationalAvailability": {"value": true, "source": "EXIT Realty corporate (US and Canada)", "year": 2025, "confidence": "medium"},
+        "item19Available": {"value": false, "source": "FranchisePayback EXIT Realty FDD data", "year": 2025, "confidence": "medium"},
+        "customerAcquisitionModel": {"value": "Single-level residual income (sponsoring) model; broker-owner economics tied to recruiting associates", "source": "Franchise Help / EXIT Realty corporate", "year": 2025, "confidence": "medium"},
+        "fddAvailable": {"value": true, "source": "SHARPSHEETS / FranchisePayback EXIT Realty FDD", "year": 2025, "confidence": "high"}
+      }
+    }
+  ]
+}
