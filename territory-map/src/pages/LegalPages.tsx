@@ -10,6 +10,8 @@ import { PublicFooter } from "@/components/PublicFooter";
 
 const EFFECTIVE_DATE = "June 12, 2026";
 const CONTACT_EMAIL = "brent@franchiseki.com";
+const CONTACT_PHONE = "(385) 475-5319";
+const CONTACT_PHONE_TEL = "+13854755319";
 
 function LegalShell({ title, children }: { title: string; children: React.ReactNode }) {
   return (
@@ -100,7 +102,8 @@ export function PrivacyPage() {
         <p>
           If we make material changes to this policy we will update the effective date above and, where
           appropriate, notify you. Questions or requests:{" "}
-          <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+          <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> or call{" "}
+          <a href={`tel:${CONTACT_PHONE_TEL}`}>{CONTACT_PHONE}</a>.
         </p>
         <p className="text-xs text-slate-500 mt-4">
           See also our <Link to="/terms">Terms of Use</Link>.
@@ -176,7 +179,9 @@ export function TermsPage() {
           <li>If any provision is unenforceable, the rest remains in effect.</li>
         </ul>
         <p className="mt-4">
-          Questions: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. See also our{" "}
+          <strong>Contact us.</strong> FranchiseKI customer support:{" "}
+          <a href={`tel:${CONTACT_PHONE_TEL}`}>{CONTACT_PHONE}</a> ·{" "}
+          <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. See also our{" "}
           <Link to="/privacy">Privacy Policy</Link>.
         </p>
       </section>
