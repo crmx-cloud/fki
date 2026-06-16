@@ -7,6 +7,7 @@ import {
   profileCompleteness,
   timelineUnder12Months,
   classifySource,
+  isInternalAccount,
   brandCompleteness,
   isBrandComplete,
   QUALIFIED_MILESTONES,
@@ -79,7 +80,7 @@ async function computeDashboard(ctx: any, args: { start: number; end: number; bu
   const now = Date.now();
 
   // Source data (single pass each)
-  const prospects = await ctx.db.query("prospectProfiles").collect();
+  const prospects = (await ctx.db.query("prospectProfiles").collect()).filter((p: any) => !isInternalAccount(p));
   const userProfiles = await ctx.db.query("userProfiles").collect();
   const upByUser = new Map<string, any>(userProfiles.map((u: any) => [String(u.userId), u]));
   const leads = (await ctx.db.query("crmLeads").collect()).filter((l: any) => !l.deletedAt);
@@ -412,7 +413,7 @@ export const profilesTable = query({
   args: { start: v.optional(v.number()), end: v.optional(v.number()) },
   handler: async (ctx, args) => {
     await requireAdmin(ctx);
-    const prospects = await ctx.db.query("prospectProfiles").collect();
+    const prospects = (await ctx.db.query("prospectProfiles").collect()).filter((p: any) => !isInternalAccount(p));
     const userProfiles = await ctx.db.query("userProfiles").collect();
     const upByUser = new Map<string, any>(userProfiles.map((u: any) => [String(u.userId), u]));
     const leads = (await ctx.db.query("crmLeads").collect()).filter((l: any) => !l.deletedAt);
@@ -558,7 +559,7 @@ async function searchProfilesCore(ctx: any, q: string) {
   const needle = q.trim().toLowerCase();
     if (needle.length < 2) return [];
     const digits = needle.replace(/\D/g, "");
-    const prospects = await ctx.db.query("prospectProfiles").collect();
+    const prospects = (await ctx.db.query("prospectProfiles").collect()).filter((p: any) => !isInternalAccount(p));
     const seen = new Set<string>(); // dedupe — multiple profile rows can share an email
     return prospects
       .filter((p: any) => {

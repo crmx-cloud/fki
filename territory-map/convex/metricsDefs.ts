@@ -64,7 +64,25 @@ type AnyDoc = Record<string, any>;
 
 // ── Valid / qualified profile ──────────────────────────────────────────
 export function isValidProfile(p: AnyDoc): boolean {
-  return !!p.email;
+  return !!p.email && !isInternalAccount(p);
+}
+
+/**
+ * Internal / test accounts that must NOT count as real prospects in KPIs:
+ * the @franchiseki.com team, @test.local, and qa/test/demo-named addresses.
+ * Keeps acquisition metrics honest (mirrors the social-proof feed filter).
+ */
+export function isInternalAccount(p: AnyDoc): boolean {
+  const e = (p.email ?? "").toLowerCase();
+  if (!e) return false;
+  const f = (p.firstName ?? "").toLowerCase();
+  return (
+    e.endsWith("@franchiseki.com") ||
+    e.endsWith("@test.local") ||
+    /(^|[._-])(qa|test|demo)([._-]|@|$)/.test(e) ||
+    ["qa", "test", "demo", "chatqa", "launch"].includes(f) ||
+    f.includes("test")
+  );
 }
 
 export function isQualifiedProfile(p: AnyDoc, userProfile?: AnyDoc | null): boolean {
