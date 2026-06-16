@@ -13,6 +13,7 @@ export { ExplorePage } from "./ExplorePage";
 export { BrandListingPage } from "./BrandListingPage";
 export { ForFranchisorsPage } from "./ForFranchisorsPage";
 export { ClaimPage } from "./ClaimPage";
+export { ShowcaseClaimPage } from "./ShowcaseClaimPage";
 export { GetStartedPage } from "./GetStartedPage";
 export { CRMPage } from "./CRMPage";
 export { ProspectProfilePage } from "./ProspectProfilePage";

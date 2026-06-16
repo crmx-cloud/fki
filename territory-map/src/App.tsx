@@ -22,6 +22,7 @@ import {
   ExplorePage,
   BrandListingPage,
   ClaimPage,
+  ShowcaseClaimPage,
   GetStartedPage,
   CRMPage,
   ProspectProfilePage,
@@ -70,6 +71,7 @@ function App() {
           {/* Retired in favor of the Brand Showcase subdomain */}
           <Route path="/for-franchisors" element={<ExternalRedirect to="https://brandshowcase.franchiseki.com/" />} />
           <Route path="/claim" element={<ClaimPage />} />
+          <Route path="/brand-setup" element={<ShowcaseClaimPage />} />
           <Route path="/get-started" element={<GetStartedPage />} />
 
           {/* Public map views */}

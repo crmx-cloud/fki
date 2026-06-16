@@ -1,6 +1,9 @@
 import { v } from "convex/values";
-import { httpAction, internalMutation, internalQuery } from "./_generated/server";
+import { httpAction, internalMutation, internalQuery, query, mutation } from "./_generated/server";
 import { internal } from "./_generated/api";
+import { getAuthUserId } from "@convex-dev/auth/server";
+
+declare const process: { env: Record<string, string | undefined> };
 
 /**
  * Brand Showcase franchisor inquiry intake.
@@ -242,15 +245,40 @@ export const checkVerifyCode = internalMutation({
 
     const updated = await ctx.db.get(args.inquiryId);
     const bothVerified = Boolean(updated?.emailVerifiedAt && updated?.phoneVerifiedAt);
+
+    // Mint the single-use claim token once email (the account identity) is
+    // verified. Reuse an existing un-consumed token so the value is stable
+    // across the phone step / resends.
+    let claimToken = updated?.claimToken;
+    if (updated?.emailVerifiedAt && !updated?.claimConsumedAt) {
+      if (!claimToken) {
+        claimToken = randomToken();
+        await ctx.db.patch(args.inquiryId, {
+          claimToken,
+          claimTokenExpiresAt: Date.now() + CLAIM_TOKEN_TTL_MS,
+        });
+      }
+    }
+
     if (bothVerified) {
       // Segmentation tag in CRMX — fail-soft, fire and forget
       await ctx.scheduler.runAfter(0, internal.brandShowcaseVerify.tagVerified, {
         inquiryId: args.inquiryId,
       });
     }
-    return { ok: true, bothVerified };
+    return { ok: true, bothVerified, claimToken };
   },
 });
+
+const CLAIM_TOKEN_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
+
+function randomToken(): string {
+  const bytes = new Uint8Array(24);
+  crypto.getRandomValues(bytes);
+  return Array.from(bytes)
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+}
 
 async function sha256Hex(input: string): Promise<string> {
   const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(input));
@@ -347,6 +375,158 @@ export const verifyConfirmHandler = httpAction(async (ctx, request) => {
   } catch {
     return json({ error: "invalid_inquiry_id" }, 400);
   }
+});
+
+// ───────────────────────── Seamless claim handoff ─────────────────────────
+// franchiseki.com/claim?t=<token> resolves the verified inquiry so the
+// franchisor finishes setup (just a password) without re-entering or
+// re-verifying anything, then claims their brand.
+
+async function resolveToken(ctx: any, token: string) {
+  if (!token || token.length < 16) return null;
+  const row = await ctx.db
+    .query("brandShowcaseInquiries")
+    .withIndex("by_claim_token", (q: any) => q.eq("claimToken", token))
+    .first();
+  if (!row) return null;
+  if (row.claimConsumedAt) return { row, state: "consumed" as const };
+  if (!row.claimTokenExpiresAt || Date.now() > row.claimTokenExpiresAt) {
+    return { row, state: "expired" as const };
+  }
+  return { row, state: "valid" as const };
+}
+
+/** Public (token-gated): prefill data for the claim page. */
+export const resolveClaimToken = query({
+  args: { token: v.string() },
+  handler: async (ctx, args) => {
+    const res = await resolveToken(ctx, args.token);
+    if (!res) return { ok: false, reason: "invalid" };
+    if (res.state !== "valid") return { ok: false, reason: res.state };
+    const r = res.row;
+    return {
+      ok: true,
+      firstName: r.firstName,
+      lastName: r.lastName,
+      email: r.email,
+      phone: r.phone,
+      brandName: r.brandName,
+      category: r.category,
+      emailVerified: Boolean(r.emailVerifiedAt),
+      phoneVerified: Boolean(r.phoneVerifiedAt),
+      hasExistingBrand: Boolean(r.brandId),
+    };
+  },
+});
+
+/**
+ * Auth-required: completes the claim for the signed-in (just-created) user.
+ * Claims the matched existing brand if there is one, otherwise creates the
+ * brand from the inquiry. Sets role=franchisor, links the brand, carries the
+ * showcase email/phone verification onto the profile, and consumes the token.
+ */
+export const completeShowcaseClaim = mutation({
+  args: { token: v.string() },
+  handler: async (ctx, args) => {
+    const userId = await getAuthUserId(ctx);
+    if (!userId) throw new Error("Not authenticated");
+
+    const res = await resolveToken(ctx, args.token);
+    if (!res) throw new Error("Invalid claim link");
+    if (res.state === "consumed") throw new Error("This claim link was already used");
+    if (res.state === "expired") throw new Error("This claim link has expired");
+    const inquiry = res.row;
+
+    // Resolve the brand: claim the matched existing brand, else create one.
+    let brandId = inquiry.brandId ?? null;
+    let slug: string;
+    const existing = brandId ? await ctx.db.get(brandId) : null;
+    if (existing) {
+      slug = (existing as any).slug;
+      await ctx.db.patch(brandId!, {
+        isClaimed: true,
+        claimedBy: userId,
+        isActive: true,
+      });
+    } else {
+      const baseSlug = inquiry.brandName
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "");
+      slug = baseSlug || "brand";
+      let counter = 0;
+      while (true) {
+        const dup = await ctx.db
+          .query("brands")
+          .withIndex("by_slug", (q) => q.eq("slug", slug))
+          .first();
+        if (!dup) break;
+        counter++;
+        slug = `${baseSlug}-${counter}`;
+      }
+      brandId = await ctx.db.insert("brands", {
+        name: inquiry.brandName,
+        slug,
+        category: inquiry.category || undefined,
+        isActive: true,
+        isClaimed: true,
+        claimedBy: userId,
+      });
+    }
+
+    // Claim record (pending review).
+    await ctx.db.insert("brandClaims", {
+      brandName: inquiry.brandName,
+      contactName: `${inquiry.firstName} ${inquiry.lastName}`.trim(),
+      contactEmail: inquiry.email.toLowerCase(),
+      contactPhone: inquiry.phone,
+      status: "pending",
+      brandId: brandId!,
+    });
+
+    // Franchisor role + brand link + carry over showcase verification.
+    const profile = await ctx.db
+      .query("userProfiles")
+      .withIndex("by_user", (q) => q.eq("userId", userId))
+      .first();
+    const verifiedPatch = {
+      emailVerifiedAt: inquiry.emailVerifiedAt ?? Date.now(),
+      ...(inquiry.phoneVerifiedAt ? { phoneVerifiedAt: inquiry.phoneVerifiedAt } : {}),
+    };
+    if (profile) {
+      const existingBrandIds = profile.brandIds || [];
+      await ctx.db.patch(profile._id, {
+        role: "franchisor",
+        brandIds: existingBrandIds.includes(brandId!)
+          ? existingBrandIds
+          : [...existingBrandIds, brandId!],
+        firstName: profile.firstName || inquiry.firstName,
+        lastName: profile.lastName || inquiry.lastName,
+        phone: profile.phone || inquiry.phone,
+        ...verifiedPatch,
+      });
+    } else {
+      await ctx.db.insert("userProfiles", {
+        userId,
+        role: "franchisor",
+        brandIds: [brandId!],
+        firstName: inquiry.firstName,
+        lastName: inquiry.lastName,
+        phone: inquiry.phone,
+        isActive: true,
+        ...verifiedPatch,
+      });
+    }
+
+    // Consume the token (single-use) and link the inquiry to the account.
+    await ctx.db.patch(inquiry._id, {
+      claimConsumedAt: Date.now(),
+      claimedUserId: userId,
+      claimToken: undefined,
+    });
+
+    return { ok: true, slug, brandId };
+  },
 });
 
 /** QA helper: remove test inquiries by email (cleanup of test submissions only). */

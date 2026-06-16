@@ -190,7 +190,7 @@
       </div>
 
       <div class="cta-col">
-        <a class="btn btn-primary" href="https://franchiseki.com/get-started">Create My Franchise KI Account</a>
+        <a class="btn btn-primary" id="finale-cta" href="https://franchiseki.com/claim">Create My Franchise KI Account</a>
         <a class="btn btn-ghost" href="https://franchiseki.com">Explore the Platform</a>
       </div>
       <p class="fine">Use <b id="email-display-2"></b> when you create your account so your verification carries over.</p>
@@ -199,9 +199,21 @@
 
   <script>
     // ── Handoff state from the inquiry form ──
+    // ?preview lets the team click through the whole flow with mock data and no
+    // backend calls (any 6 digits advance). Real flow is untouched.
+    var PREVIEW = new URLSearchParams(location.search).has("preview");
     var state;
     try { state = JSON.parse(sessionStorage.getItem("fkiShowcase") || "null"); } catch (e) { state = null; }
+    if (PREVIEW && (!state || !state.inquiryId)) {
+      state = { inquiryId: "preview", firstName: "Sarah", brandName: "Sparkle Auto Spa", email: "sarah@sparkleauto.com", phone: "+18015551234" };
+    }
     if (!state || !state.inquiryId) { window.location.replace("/"); }
+    if (PREVIEW) {
+      var pb = document.createElement("div");
+      pb.textContent = "PREVIEW — mock data, no codes sent. Type any 6 digits to advance.";
+      pb.style.cssText = "position:fixed;top:0;left:0;right:0;z-index:99;background:#d4a857;color:#0f1f3d;font-size:12px;font-weight:700;text-align:center;padding:5px;letter-spacing:.02em;";
+      document.addEventListener("DOMContentLoaded", function () { document.body.appendChild(pb); });
+    }
 
     function maskEmail(e) {
       var p = (e || "").split("@");
@@ -223,6 +235,12 @@
     }
 
     function api(action, kind, code) {
+      if (PREVIEW) {
+        // Mock backend: send always "ok", confirm accepts any 6-digit code
+        return new Promise(function (resolve) {
+          setTimeout(function () { resolve({ ok: true }); }, 250);
+        });
+      }
       return fetch("/api/verify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -329,6 +347,18 @@
     var emailFeedback = document.getElementById("email-feedback");
     var phoneFeedback = document.getElementById("phone-feedback");
     var phoneStarted = false;
+    // Single-use claim token (minted server-side once email is verified). When
+    // present, the finale CTA hands the verified franchisor straight into the
+    // seamless setup page (prefilled, just set a password). Falls back to the
+    // standard /claim flow until the platform's brand-setup route is live.
+    var claimToken = null;
+    function captureToken(r) {
+      if (r && r.claimToken) {
+        claimToken = r.claimToken;
+        var cta = document.getElementById("finale-cta");
+        if (cta) cta.href = "https://franchiseki.com/brand-setup?t=" + encodeURIComponent(claimToken);
+      }
+    }
 
     function startPhoneStep() {
       showStep(2);
@@ -350,6 +380,7 @@
       emailFeedback.textContent = "Checking…";
       api("confirm", "email", code).then(function (r) {
         if (r.ok) {
+          captureToken(r);
           emailFeedback.className = "feedback ok";
           emailFeedback.textContent = "Verified.";
           setTimeout(startPhoneStep, 600);
@@ -370,6 +401,7 @@
       phoneFeedback.textContent = "Checking…";
       api("confirm", "phone", code).then(function (r) {
         if (r.ok) {
+          captureToken(r);
           phoneFeedback.className = "feedback ok";
           phoneFeedback.textContent = "Verified.";
           setTimeout(function () { showStep(3); }, 600);

@@ -551,9 +551,17 @@ const schema = defineSchema({
     phoneCodeAttempts: v.optional(v.number()),
     phoneCodeSentAt: v.optional(v.number()),
     phoneVerifiedAt: v.optional(v.number()),
+    // Seamless handoff → franchiseki.com/claim. Minted once email is verified;
+    // single-use, TTL'd. Lets the verified franchisor finish account setup
+    // without re-entering or re-verifying anything (see brandShowcase.ts).
+    claimToken: v.optional(v.string()),
+    claimTokenExpiresAt: v.optional(v.number()),
+    claimConsumedAt: v.optional(v.number()),
+    claimedUserId: v.optional(v.id("users")),
   })
     .index("by_email", ["email"])
-    .index("by_brand", ["brandId"]),
+    .index("by_brand", ["brandId"])
+    .index("by_claim_token", ["claimToken"]),
 
   invites: defineTable({
     email: v.string(),
