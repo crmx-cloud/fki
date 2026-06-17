@@ -1,6 +1,7 @@
 import { useQuery, useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import type { Id } from "../../convex/_generated/dataModel";
+import { formatPhoneDashes } from "@/lib/phone";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -197,7 +198,7 @@ export function ContactsAdminPage() {
                       {c.firstName} {c.lastName || ""}
                     </td>
                     <td className="px-4 py-3 text-slate-400">{c.email}</td>
-                    <td className="px-4 py-3 text-slate-400 hidden md:table-cell">{c.phone || "—"}</td>
+                    <td className="px-4 py-3 text-slate-400 hidden md:table-cell">{c.phone ? formatPhoneDashes(c.phone) : "—"}</td>
                     <td className="px-4 py-3">
                       <Badge variant="outline" className={TYPE_COLORS[c.type as ContactType]}>
                         {TYPE_LABELS[c.type as ContactType] || c.type}
@@ -388,7 +389,7 @@ function ContactDetailPanel({
           {/* Contact info */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <InfoRow icon={<Mail className="w-4 h-4" />} label="Email" value={contact.email || p?.email} />
-            <InfoRow icon={<Phone className="w-4 h-4" />} label="Phone" value={contact.phone || p?.phone} />
+            <InfoRow icon={<Phone className="w-4 h-4" />} label="Phone" value={(contact.phone || p?.phone) ? formatPhoneDashes(contact.phone || p?.phone) : undefined} />
             <InfoRow icon={<MapPin className="w-4 h-4" />} label="Location" value={[contact.city || p?.primaryCity, contact.state || p?.primaryState].filter(Boolean).join(", ") || undefined} />
             <InfoRow icon={<ShieldCheck className="w-4 h-4" />} label="Verified" value={contact.verification ? `Email ${contact.verification.emailVerified ? "✓" : "—"} · Phone ${contact.verification.phoneVerified ? "✓" : "—"}` : undefined} />
           </div>

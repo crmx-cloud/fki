@@ -55,6 +55,7 @@ import {
   Loader2,
 } from "lucide-react";
 import NotesPanel from "./NotesPanel";
+import { formatPhoneDashes } from "@/lib/phone";
 
 // ── Stage + Capital configs ──────────────────────────────
 const STAGES = [
@@ -624,7 +625,7 @@ function ContactDetailsTab({
               {editing ? (
                 <FieldInput label="Phone" value={form.phone} onChange={set("phone")} />
               ) : (
-                <InfoRow label="Phone" value={lead.phone} icon={Phone} link={lead.phone ? `tel:${lead.phone}` : undefined} />
+                <InfoRow label="Phone" value={lead.phone ? formatPhoneDashes(lead.phone) : undefined} icon={Phone} link={lead.phone ? `tel:${lead.phone.replace(/\D/g, "")}` : undefined} />
               )}
               {editing ? (
                 <FieldInput label="Address" value={form.address} onChange={set("address")} />
