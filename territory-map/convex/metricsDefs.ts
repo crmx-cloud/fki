@@ -72,9 +72,19 @@ export function isValidProfile(p: AnyDoc): boolean {
  * the @franchiseki.com team, @test.local, and qa/test/demo-named addresses.
  * Keeps acquisition metrics honest (mirrors the social-proof feed filter).
  */
+// Specific known test/personal personas to exclude from KPIs (Brent-confirmed
+// 2026-06-17). Real gmail prospects are NOT affected — only these exact addresses.
+const KPI_EXCLUDED_EMAILS = new Set([
+  "attabr@gmail.com",
+  "brent.attaway@gmail.com",
+  "kristi.attaway@gmail.com",
+  "bennettmaxwell35@gmail.com",
+]);
+
 export function isInternalAccount(p: AnyDoc): boolean {
   const e = (p.email ?? "").toLowerCase();
   if (!e) return false;
+  if (KPI_EXCLUDED_EMAILS.has(e)) return true;
   const f = (p.firstName ?? "").toLowerCase();
   return (
     e.endsWith("@franchiseki.com") ||
